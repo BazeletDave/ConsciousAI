@@ -1,9 +1,9 @@
 # ConsciousAI: A Global Standard for Ethical AI Accountability
 
-**ConsciousAI** is a public, transparent, and globally collaborative platform designed to align artificial intelligence development with universal ethical principles. It is the civic-tech implementation of the ideas presented in the book *Code and Consciousness*, serving as both a toolkit and a forum for ethical AI governance.
+**ConsciousAI** is a public, transparent, and globally collaborative platform designed to align artificial intelligence development with universal ethical principles. It is the civic tech implementation of the ideas presented in the book *From Code to Consciousness*, serving as both a toolkit and a forum for ethical AI governance.
 
 ## 🌐 Mission
-To build the foundational civic infrastructure for ethical AI—a platform that invites scientists, ethicists, technologists, policymakers, and communities worldwide to shape the conscience of artificial intelligence.
+To build the foundational civic infrastructure for ethical AI a platform that invites scientists, ethicists, technologists, policymakers, and communities worldwide to shape the conscience of artificial intelligence.
 
 ## 🔑 Core Features
 
@@ -25,7 +25,7 @@ To build the foundational civic infrastructure for ethical AI—a platform that 
 - **Governance Framework (`governance/`)**  
   Community-led model inspired by W3C and open-source best practices.
 
-## 📚 Inspired by *Code and Consciousness*
+## 📚 Inspired by *From Code to Consciousness*
 This platform is an active extension of the manifesto from the book. Each module is mapped to a chapter and includes citation, commentary, and discussion features. Readers can directly influence the ethical declaration and contribute real-world AI case studies.
 
 ## 📦 Project Structure
