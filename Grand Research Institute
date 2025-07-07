@@ -1,28 +1,14 @@
-# ConsciousAI – Lab Milestone Update
+ConsciousAI – Lab Milestone Update
 
-![Tesla Autopilot and Optimus Robotics Milestone](image.jpg)
-
-## June 27, 2025: Tesla Autopilot & Optimus Robotics Milestone
-
-### Tesla Autopilot Hits 9 Billion Miles  
-**Shatters U.S. Safety Records**
+Tesla Autopilot and Optimus Robotics Milestone
+June 27, 2025: Tesla Autopilot & Optimus Robotics Milestone
+Tesla Autopilot Hits 9 Billion Miles  
+Shatters U.S. Safety Records
 
 Tesla’s Autopilot system has reached a historic 9 billion miles driven, establishing new benchmarks for autonomous vehicle safety in the United States. This milestone highlights the impact of large-scale AI training and real-world data in improving transportation safety and reliability.
-
-### Optimus Robotics Collaboration at GRI
+Optimus Robotics Collaboration at GRI
 
 > “Optimus, Dr. Stephenson needs your help in the robotics lab.”
 
-Today, the Optimus humanoid robot was deployed at the Grand Research Institute (GRI) to assist with advanced robotics research. This collaboration demonstrates the integration of AI-powered robotics into real-world scientific workflows, leveraging lessons from Tesla’s autonomous driving platform.
+Today, the Optimus humanoid robot was deployed at the Grand Research Institute (GRI) to assist with advanced robotics research. This collaboration demonstrates the integration of AI-powered robotics into real world scientific workflows, leveraging lessons from Tesla’s autonomous driving platform.
 
----
-
-**How to Use This Update:**  
-- Add this section to your lab logs or milestone documentation.
-- Include the attached image (`image.jpg`) in your repository’s `/assets` or `/images` directory.
-- Reference this milestone in your commit messages:  
-  `docs: Add June 27, 2025 Tesla Autopilot and Optimus milestone with image`
-
----
-
-For more details, see the `/docs` directory or contact the project maintainers.
