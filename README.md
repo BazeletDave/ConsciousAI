@@ -68,9 +68,9 @@ ConsciousAI/
 └── requirements.txt
 ## 📅 Launch Plan
 
-- **Launch Date:** July 4th, 2025  
+- **Launched Date:** July 4th, 2025  
 - **Event Locations:** On-Line globally  
-- **Goal:** To spark a “Bretton Woods moment” for AI by inviting global signatories to co sign the “AI Articles of Peace” declaration.
+- **Goal:** To spark the mission.
 
 ## 📈 Long-Term Vision
 
