@@ -26,51 +26,10 @@ To build the foundational civic infrastructure for ethical AI a platform that in
   Community-led model inspired by W3C and open-source best practices.
 
 ## 📚 Inspired by *From Code to Consciousness*
-This platform is an active extension of the manifesto from the book. Each module is mapped to a chapter and includes citation, commentary, and discussion features. Readers can directly influence the ethical declaration and contribute real-world AI case studies.
-
-## 📦 Project Structure
-ConsciousAI/
-├── core/
-│   ├── ethics_engine.py
-│   ├── verify_identity.py
-│   ├── declaration.md
-│
-├── web/
-│   ├── app.py
-│   ├── templates/
-│   ├── static/
-│   └── api/
-│
-├── ai-integration/
-│   ├── nlp_bias_audit.py
-│   ├── alignment_checker.py
-│   └── citation_bot.py
-│
-├── governance/
-│   ├── charter.md
-│   ├── CODE_OF_CONDUCT.md
-│   └── CONTRIBUTING.md
-│
-├── internationalization/
-│   ├── en.json
-│   ├── es.json
-│   └── zh.json
-│
-├── docs/
-│   ├── philosophy.md
-│   ├── launch_plan.md
-│   └── roadmap.md
-│
-├── database/
-│   └── signatories.db
-│
-├── README.md
-└── requirements.txt
-## 📅 Launch Plan
+This platform is an active extension of the manifesto from the book. Each module is mapped to a chapter and includes citation, commentary, and discussion features. Readers can directly influence the ethical declaration and contribute real world AI cases.
 
 - **Launched Date:** July 4th, 2025  
-- **Event Locations:** On-Line globally  
-- **Goal:** To spark the mission.
+
 
 ## 📈 Long-Term Vision
 
