@@ -39,7 +39,7 @@ This platform is an active extension of the manifesto from the book. Each module
 
 ## 🤝 How to Get Involved
 
-1. **Sign the Declaration** (core/declaration.md)  
+1. **From Code to Conciousness** (core/declaration.md)  
 2. **Join the Governance Process** (governance/charter.md)  
 3. **Submit Contributions** (ethics_engine, AI case studies, multilingual updates)  
 4. **Cite the Book** using `citation_bot.py` or inline links.
