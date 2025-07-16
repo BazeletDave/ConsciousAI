@@ -1,0 +1,10 @@
+name: consciousai-env
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pip
+  - pip:
+      - some-python-package
