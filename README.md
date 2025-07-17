@@ -28,7 +28,21 @@ To build the foundational civic infrastructure for ethical AI a platform that in
 ## 📚 Inspired by *From Code to Consciousness*
 This platform is an active extension of the manifesto from the book. Each module is mapped to a chapter and includes citation, commentary, and discussion features. Readers can directly influence the ethical declaration and contribute real world AI cases.
 
-- **Launched Date:** July 4th, 2025  
+## Conscious AI Framework: Transparency, Truth, and the Future of AI
+
+We’ve developed an in-depth framework exploring the ethics, transparency, and future of AI — anchored by the groundbreaking Swiss AI Initiative and our work at the Grand Research Institute.
+
+Read the full overview here: [Conscious AI Framework](./conscious-ai-framework.md)
+
+This document covers:
+
+- The importance of open-source AI models  
+- Challenges with current proprietary AI  
+- Our Conscious AI framework for ethical AI development  
+- Collaborations with leading institutions like Thunderbird and ASU  
+- A roadmap for international cooperation and AI governance  
+
+*Explore how AI can serve humanity’s collective good with transparency and responsibility.*
 
 
 ## 📈 Long-Term Vision
