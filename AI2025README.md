@@ -146,8 +146,8 @@ Let us embrace a new ethical and educational framework that reflects the world w
 
 **Grand Research Institute**  
 Research Lead: David Grand  
-Email: [placeholder@grandresearch.org]  
-GitHub: [github.com/grandinstitute](https://github.com/grandinstitute) _(placeholder)_
+Email: grandresearchflorida@gmail.com
+GitHub:BazeletDave https://github.com/BazeletDave/ConsciousAI
 
 ---
 
