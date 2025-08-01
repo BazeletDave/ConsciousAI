@@ -8,15 +8,15 @@
 
 ## 📄 Abstract
 
-This report examines the informal, widespread adoption of AI tools across various societal roles. Our innovative, ethnographic-style methodology reveals how casual, trust-based environments—such as rideshare conversations—function as both organic research environments and informal surveillance nodes. Beyond presenting key findings on AI use, this report provides a critical commentary on the evolving nature of AI itself.
+This report examines the informal, widespread adoption of AI tools across various societal roles. Our innovative, ethnographic style methodology reveals how casual, trust based environments such as rideshare conversations function as both organic research environments and informal surveillance nodes. Beyond presenting key findings on AI use, this report provides a critical commentary on the evolving nature of AI itself.
 
-We argue that the feedback loop created by casual user input directly influences the layered code of these platforms, making every interaction a moment of co-creation. With platforms like ChatGPT seeing over 100 million daily users, every single day is a massive, real-time beta test. This dynamic reality demands a new understanding of AI governance, education, and ethical responsibility, moving beyond simple prohibitions to a holistic embrace of a new socio-technical landscape.
+We argue that the feedback loop created by casual user input directly influences the layered code of these platforms, making every interaction a moment of co-creation. With platforms like ChatGPT seeing over 100 million daily users, every single day is a massive, real time beta test. This dynamic reality demands a new understanding of AI governance, education, and ethical responsibility, moving beyond simple prohibitions to a holistic embrace of a new socio technical landscape.
 
 ---
 
 ## 1. Introduction and Scope
 
-The integration of AI into daily life is not a top-down, planned process; it's a bottom-up, organic phenomenon driven by individual choice and informal problem-solving. This study captures authentic, unfiltered user accounts in everyday settings to illuminate this hidden landscape.
+The integration of AI into daily life is not a top down, planned process; it's a bottom up, organic phenomenon driven by individual choice and informal problem solving. This study captures authentic, unfiltered user accounts in everyday settings to illuminate this hidden landscape.
 
 This approach is essential because AI is not a static tool; it is a system built on layers of code that are in constant evolution, shaped by the very people who use it. Every casual interaction with AI is a moment of feedback, a subtle code change, and a contribution to the next layer of the system.
 
@@ -24,7 +24,7 @@ This approach is essential because AI is not a static tool; it is a system built
 
 ## Grand Research Institute: Previous and Ongoing Work
 
-This report builds on prior research from the Grand Research Institute focusing on the adoption curves of social platforms and the ethical implications of large-scale data use. We now extend our scope to:
+This report builds on prior research from the Grand Research Institute focusing on the adoption curves of social platforms and the ethical implications of large scale data use. We now extend our scope to:
 
 - **Informal adoption of generative AI**
 - **Trust-building in casual environments**
