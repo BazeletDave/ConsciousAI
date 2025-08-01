@@ -56,7 +56,8 @@ This participatory, observational method shows how some of the most critical ins
 
 AI is widely used in higher education by both students and faculty, often under conflicting ethical standards.
 
-- **Example**: A [student challenged their professor](https://www.insidehighered.com/news/quick-takes/2023/05/10/professor-used-chatgpt-student-pushes-back) for using ChatGPT to write lectures while banning students from doing the same.
+- **Example**: A [student challenged their professor] https://www.nytimes.com/2025/05/14/technology/chatgpt-college-professors.html?smid=nytcore-ios-share&referringSource=articleShare
+- for using ChatGPT to write lectures while banning students from doing the same.
 - **Double Standard**: Many institutions fail to acknowledge this discrepancy, eroding trust and highlighting institutional hypocrisy.
 - **The Layered Code Model**: Every input (a prompt, a correction, a paraphrased response) becomes part of the training data — even implicitly. With over 100M users, this feedback loop is redefining knowledge creation.
 
@@ -73,7 +74,7 @@ AI is widely used in higher education by both students and faculty, often under 
 - **Danger**: Legal documentation could be compromised by hallucinations or embedded bias within LLMs.
 
 #### 📄 Relevant Report:
-- [AI writing police reports raises oversight questions](https://www.govtech.com/public-safety/ai-writing-police-reports-the-potential-and-pitfalls)
+- [AI writing police reports] Grand Research 
 
 ---
 
@@ -84,7 +85,7 @@ AI is widely used in higher education by both students and faculty, often under 
 - **New Norm**: AI-powered facial recognition and transcription apps make ambient data collection seamless.
 
 #### 🧠 Foundational Work:
-- [Shoshana Zuboff: Surveillance Capitalism](https://www.theguardian.com/technology/2019/jan/20/shoshana-zuboff-age-of-surveillance-capitalism-google-facebook)
+- [Shoshana Zuboff: Surveillance Capitalism] https://news.harvard.edu/gazette/story/2019/03/harvard-professor-says-surveillance-capitalism-is-undermining-democracy/
 
 ---
 
@@ -134,7 +135,7 @@ Let us embrace a new ethical and educational framework that reflects the world w
 
 ## 🔗 External Resources
 
-- [AI in Education Debate – NPR](https://www.npr.org/2023/04/25/1171944532/chatgpt-school-ban-artificial-intelligence-education)
+- [AI in Education] https://www.nytimes.com/2025/05/14/technology/chatgpt-college-professors.html?smid=nytcore-ios-share&referringSource=articleShare
 - [Surveillance Capitalism Explained – Guardian](https://www.theguardian.com/technology/2019/jan/20/shoshana-zuboff-age-of-surveillance-capitalism-google-facebook)
 - [AI Police Reports Raise Questions – GovTech](https://www.govtech.com/public-safety/ai-writing-police-reports-the-potential-and-pitfalls)
 - [Student Confronts Professor's AI Use – Inside Higher Ed](https://www.insidehighered.com/news/quick-takes/2023/05/10/professor-used-chatgpt-student-pushes-back)
