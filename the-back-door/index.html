@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Back Door | David Grand</title>
+  <meta name="description" content="The Back Door, a technological thriller by David Grand. Every system was following its rules. That was the problem.">
+  <style>
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:#070a0d;color:#f4f2ed;font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+    a{color:inherit}
+    header{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:20px 6vw;background:rgba(7,10,13,.9);border-bottom:1px solid #232a30}
+    .brand{font-weight:900;letter-spacing:.13em;text-decoration:none}
+    .brand span{color:#d71920}
+    nav{display:flex;gap:24px}
+    nav a{text-decoration:none;color:#b8bec3;font-size:.9rem}
+    .hero{min-height:90vh;display:grid;grid-template-columns:1.1fr .9fr;gap:6vw;align-items:center;padding:8vw 7vw;background:radial-gradient(circle at 75% 40%,#172331 0,#0b1117 30%,#070a0d 68%)}
+    .eyebrow{font-size:.78rem;letter-spacing:.28em;color:#99a6b2;font-weight:700}
+    h1{font-size:clamp(2.8rem,6vw,6.4rem);line-height:.93;letter-spacing:-.05em;margin:.35em 0}
+    h1 span{color:#d71920}
+    .lead{font-size:clamp(1rem,1.4vw,1.25rem);max-width:700px;color:#c7ccd0}
+    .button{display:inline-block;margin-top:20px;padding:13px 20px;border:1px solid #d71920;background:#d71920;text-decoration:none;text-transform:uppercase;letter-spacing:.12em;font-size:.75rem;font-weight:800}
+    .cover{display:flex;justify-content:center}
+    .cover-box{width:min(100%,520px);aspect-ratio:2/3;background:linear-gradient(180deg,#111820,#050607);border:1px solid #28313a;box-shadow:0 30px 90px rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;text-align:center;padding:40px}
+    .cover-box h2{font-size:clamp(2rem,5vw,4.5rem);line-height:.95;margin:0}
+    .cover-box .red{color:#d71920}
+    .cover-box p{color:#c4c9cd;letter-spacing:.15em}
+    .section{padding:95px 10vw;border-top:1px solid #20262c}
+    .section h2{font-size:clamp(2rem,4vw,4rem);line-height:1.05;max-width:900px;margin:.35em 0}
+    .section p{max-width:850px;color:#c3c8cc;font-size:1.1rem}
+    blockquote{margin:55px 0 0;padding:25px 0;border-top:1px solid #343c43;border-bottom:1px solid #343c43;font-size:clamp(1.5rem,3vw,3rem);font-weight:800;max-width:950px}
+    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:45px}
+    .grid article{border:1px solid #293139;padding:28px;background:#0b1015}
+    .grid h3{margin-top:0}
+    footer{display:flex;justify-content:space-between;gap:30px;padding:35px 5vw;border-top:1px solid #20262c;color:#8f979d;font-size:.82rem}
+    footer span{color:#d71920}
+    @media(max-width:850px){
+      nav{display:none}
+      .hero{grid-template-columns:1fr;padding:65px 7vw}
+      .cover{order:-1}
+      .grid{grid-template-columns:1fr 1fr}
+      .section{padding:70px 7vw}
+    }
+    @media(max-width:520px){
+      .grid{grid-template-columns:1fr}
+      h1{font-size:2.7rem}
+      footer{flex-direction:column}
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="brand" href="#top">THE <span>BACK</span> DOOR</a>
+  <nav>
+    <a href="#story">The Novel</a>
+    <a href="#themes">Themes</a>
+    <a href="#author">Author</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div>
+    <p class="eyebrow">A TECHNOLOGICAL THRILLER BY DAVID GRAND</p>
+
+    <h1>
+      EVERY SYSTEM WAS<br>
+      FOLLOWING ITS RULES.<br>
+      <span>THAT WAS THE PROBLEM.</span>
+    </h1>
+
+    <p class="lead">
+      A technological thriller set against the Florida Keys, where artificial intelligence,
+      autonomous systems, surveillance, infrastructure, governance and human judgment collide.
+    </p>
+
+    <a class="button" href="#story">Discover the story</a>
+
+    <p class="eyebrow" style="margin-top:35px;color:#d71920">COMING SOON</p>
+  </div>
+
+  <div class="cover">
+    <div class="cover-box">
+      <div>
+        <p>A NOVEL BY DAVID GRAND</p>
+        <h2>THE<br><span class="red">BACK</span><br>DOOR</h2>
+        <p>COMING SOON</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="story" class="section">
+  <p class="eyebrow">THE NOVEL</p>
+
+  <h2>What happens when every system is working exactly as designed?</h2>
+
+  <p>
+    The Back Door explores a world in which artificial intelligence, surveillance,
+    autonomous technology and institutional authority no longer operate as separate systems.
+    The danger is not necessarily a machine breaking its rules. It is what can happen when
+    interconnected systems follow their rules perfectly while the humans responsible for them
+    no longer understand the whole.
+  </p>
+
+  <blockquote>
+    “Every system was following its rules. That was the problem.”
+  </blockquote>
+</section>
+
+<section id="themes" class="section">
+  <p class="eyebrow">THE WORLD OF THE BACK DOOR</p>
+
+  <h2>People. Places. Data. Power. Consequences.</h2>
+
+  <div class="grid">
+    <article>
+      <h3>Autonomy</h3>
+      <p>Systems increasingly interpret information, recommend actions and act before institutions can respond.</p>
+    </article>
+
+    <article>
+      <h3>Governance</h3>
+      <p>Authority becomes harder to locate when responsibility is distributed across algorithms and organizations.</p>
+    </article>
+
+    <article>
+      <h3>Surveillance</h3>
+      <p>The same technologies that create safety and convenience can create unprecedented visibility and control.</p>
+    </article>
+
+    <article>
+      <h3>Human Judgment</h3>
+      <p>The decisive question is not whether technology can act. It is who retains the authority to decide when it should.</p>
+    </article>
+  </div>
+</section>
+
+<section id="author" class="section">
+  <p class="eyebrow">ABOUT THE AUTHOR</p>
+
+  <h2>David Grand</h2>
+
+  <p>
+    David Grand writes at the intersection of artificial intelligence, leadership,
+    management, mobility, governance and global systems. The Back Door turns those questions
+    into a technological thriller grounded in real places and increasingly plausible capabilities.
+  </p>
+
+  <p>
+    <a href="https://david-grand.com">Visit david-grand.com →</a>
+  </p>
+</section>
+
+</main>
+
+<footer>
+  <div>THE <span>BACK</span> DOOR</div>
+  <div>© 2026 David Grand. All rights reserved.</div>
+</footer>
+
+</body>
+</html>
