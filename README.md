@@ -76,6 +76,8 @@ pip install -r requirements.txt
 
 # Run the platform
 python web/app.py
+```
+
 ## 📚 Grand Research Institute | Research Journey
 
 ConsciousAI incorporates the Grand Research Institute's ongoing research into artificial intelligence, algorithmic management, institutional governance, autonomous mobility, and human oversight.
