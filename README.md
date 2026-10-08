@@ -3,7 +3,6 @@
 **ConsciousAI** is a public, transparent, and globally collaborative platform designed to align artificial intelligence development with universal ethical principles. It is the civic tech implementation of the ideas presented in the book *From Code to Consciousness*, serving as both a toolkit and a forum for ethical AI governance.
 
 ## 🌐 Mission
-🌐 Mission
 
 To advance responsible artificial intelligence through transparent governance, empirical research, and accountable technological innovation.
 
