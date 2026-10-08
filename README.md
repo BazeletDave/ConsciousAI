@@ -76,4 +76,15 @@ pip install -r requirements.txt
 
 # Run the platform
 python web/app.py
+## 📚 Grand Research Institute | Research Journey
 
+ConsciousAI incorporates the Grand Research Institute's ongoing research into artificial intelligence, algorithmic management, institutional governance, autonomous mobility, and human oversight.
+
+### Algorithmic Management Research
+
+Explore GRI's longitudinal Uber and Lyft research, including the approximately $20 gross earnings hypothesis, economic analysis, documented field observations, and governance implications.
+
+[View GRI Algorithmic Management Research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research)
+
+**Research Lead:** David Grand | Grand Research Institute  
+**Research Status:** Ongoing | 2026 to Present
