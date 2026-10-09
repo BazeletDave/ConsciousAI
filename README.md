@@ -94,6 +94,13 @@ python web/app.py
 
 ConsciousAI incorporates the Grand Research Institute's ongoing research into artificial intelligence, algorithmic management, institutional governance, autonomous mobility, and human oversight.
 
+
+### Research Journey
+
+[**Research Journey**](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio)
+
+Explore the Grand Research Institute's consolidated research portfolio, founder mission, AI governance frameworks, doctoral research direction, and supporting research publications.
+
 ### Algorithmic Management Research
 
 Explore GRI's longitudinal Uber and Lyft research, including the approximately $20 gross earnings hypothesis, economic analysis, documented field observations, and governance implications.
