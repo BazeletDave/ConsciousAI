@@ -1,5 +1,10 @@
 # October 4, 2026 source recovery
 
+## October 9 artwork update
+
+The current source replaces the novel mock cover with the author supplied official cover and adds three author supplied From Code to Consciousness images. The novel overlay was removed so the cover title and author remain unobstructed. The original recovery hashes below document the earlier recovered source; edited components no longer match those original hashes. The published website is being updated from this revised source.
+
+
 This archive preserves 38 original source and asset files from The Back Door deployment created on October 4, 2026 at 21:26:40.753 UTC.
 
 Deployment: `dpl_fAB5Z7XjVR6L6G5rQngbXckzUtCN`

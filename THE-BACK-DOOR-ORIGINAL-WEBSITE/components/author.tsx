@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import { SectionLabel } from './section-label'
 
 export function Author() {
@@ -11,6 +12,16 @@ export function Author() {
           <h2 className="text-5xl font-semibold uppercase leading-none tracking-tight [font-stretch:80%] md:text-7xl">
             David Grand
           </h2>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <div className="flex flex-col gap-3">
+              <Image src="/images/from-code-to-consciousness-cover.jpg" alt="From Code to Consciousness by David Grand, print cover." width={606} height={903} className="h-80 w-full object-contain" />
+              <p className="text-sm text-muted-foreground">From Code to Consciousness</p>
+            </div>
+            <div className="flex flex-col gap-3">
+              <Image src="/images/from-code-to-consciousness-audio.jpg" alt="From Code to Consciousness, audiobook artwork." width={936} height={968} className="h-80 w-full object-contain" />
+              <p className="text-sm text-muted-foreground">Available on Amazon and Audible</p>
+            </div>
+          </div>
           <div className="grid gap-8 leading-relaxed text-muted-foreground md:grid-cols-2">
             <p className="text-pretty">
               David Grand works at the intersection of artificial intelligence and governance,
@@ -23,6 +34,7 @@ export function Author() {
               Door does not.
             </p>
           </div>
+          <Image src="/images/from-code-to-consciousness-promotion.jpg" alt="From Code to Consciousness by David Grand, available on Amazon and Audible." width={782} height={857} className="mx-auto h-auto w-full max-w-lg" />
         </div>
       </div>
     </section>

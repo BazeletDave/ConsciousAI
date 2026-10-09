@@ -7,22 +7,14 @@ export function Novel() {
     <section id="novel" className="mx-auto max-w-7xl px-6 py-24 md:px-10 md:py-36">
       <div className="grid items-center gap-16 lg:grid-cols-12">
         <div className="relative mx-auto w-full max-w-sm lg:col-span-5 lg:mx-0">
-          <div className="relative aspect-[594/816] w-full shadow-2xl shadow-background">
+          <div className="relative aspect-[2/3] w-full shadow-2xl shadow-background">
             <Image
-              src="/images/novel-cover-art.png"
-              alt="Cover art for The Back Door: a single lit doorway in a storm-battered seawall."
+              src="/images/the-back-door-cover.jpg"
+              alt="The Back Door by David Grand, official novel cover."
               fill
               sizes="(min-width: 1024px) 384px, 90vw"
-              className="object-cover"
+              className="object-contain"
             />
-            <div className="absolute inset-x-0 top-0 flex flex-col items-center gap-2 p-8 text-center">
-              <span className="font-mono text-[10px] uppercase tracking-[0.3em] text-foreground/70">
-                David Grand
-              </span>
-              <span className="text-3xl font-semibold uppercase leading-none tracking-tight [font-stretch:80%]">
-                The Back Door
-              </span>
-            </div>
           </div>
         </div>
 

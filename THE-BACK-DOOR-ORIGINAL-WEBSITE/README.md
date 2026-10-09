@@ -13,3 +13,7 @@ The newer website is separately deployed. The link above identifies the original
 ### Source record
 
 The folder includes 38 verified original source and asset files and a user supplied `pnpm-lock.yaml`. The supplied lockfile matches the dependency requirements in `package.json`, but differs from the recorded original file. Rebuilding with this lockfile has not been verified. See [RECOVERY.md](RECOVERY.md) for provenance and original file hashes.
+
+## Official artwork update
+
+On October 9, 2026, the novel cover was replaced with artwork supplied by David Grand, and his From Code to Consciousness print, audiobook, and promotional images were added to the author section. The original design is retained with these artwork corrections.
