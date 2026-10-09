@@ -2,7 +2,7 @@
 
 ## October 9 artwork update
 
-The current source replaces the novel mock cover with the author supplied official cover and adds three author supplied From Code to Consciousness images. The novel overlay was removed so the cover title and author remain unobstructed. The original recovery hashes below document the earlier recovered source; edited components no longer match those original hashes. The published website is being updated from this revised source.
+The current source replaces the novel mock cover with the author supplied official cover and adds three author supplied From Code to Consciousness images. The novel overlay was removed so the cover title and author remain unobstructed. The original recovery hashes below document the earlier recovered source; edited components no longer match those original hashes. The revised source was successfully published on October 9, 2026 as deployment `dpl_5qH7XWSrbTj4AbgAiFce96mL3XUB`. The public website alias now serves this artwork update.
 
 
 This archive preserves 38 original source and asset files from The Back Door deployment created on October 4, 2026 at 21:26:40.753 UTC.
@@ -19,7 +19,7 @@ All 38 recovered files were verified byte for byte by matching their raw SHA1 ha
 
 The archive now contains all 39 expected source and asset paths, consisting of 38 verified original files and the supplied lockfile. This recovery note is additional documentation.
 
-The exact October 4 deployment is publicly accessible at https://back-door-october-4-original.vercel.app/. That alias points to `dpl_fAB5Z7XjVR6L6G5rQngbXckzUtCN` and serves the existing original build without rebuilding it from the supplied lockfile. The newer website remains separately deployed.
+The public website is accessible at https://back-door-october-4-original.vercel.app/. That alias now points to the official artwork update deployment `dpl_5qH7XWSrbTj4AbgAiFce96mL3XUB`. The immutable October 4 build remains recorded as `dpl_fAB5Z7XjVR6L6G5rQngbXckzUtCN`. The newer website remains separately deployed.
 
 ## Original file hashes
 
