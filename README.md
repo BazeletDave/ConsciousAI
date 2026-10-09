@@ -8,6 +8,10 @@ Explore the world of *The Back Door*, the upcoming novel by David Grand, author 
 
 **[Open the website](https://back-door-october-4-original.vercel.app/)**
 
+**[Explore The Back Door Game on ASU Handshake](https://asu.joinhandshake.com/ai-showcase/projects/3505318)**
+
+The game project is active and available through ASU Handshake. The game will continue to evolve with new features and upgrades.
+
 [View The Back Door Website Source](THE-BACK-DOOR-ORIGINAL-WEBSITE)
 
 ## 🌐 Mission
