@@ -8,13 +8,13 @@ Public alias used to retrieve assets: https://back-door-kappa.vercel.app
 
 All 38 recovered files were verified byte for byte by matching their raw SHA1 hashes to the source file identifiers supplied by Vercel. Code recovered from screenshots was also verified by these hashes. No original source files were rewritten or modernized.
 
-## Missing original file
+## Supplied lockfile and live original
 
-`pnpm-lock.yaml` remains unrecovered. The Vercel plugin truncated its response, and the original file was too large to transfer through pasted text. The original file's expected raw SHA1 is `2071b0d0efa36561e6d38cc80545819e71ca9d75`.
+`pnpm-lock.yaml` was added on October 9, 2026 from the user supplied `src_pnpm-lock (2).yaml` attachment. Its dependency specifiers match this archive's `package.json`. Its raw SHA1 is `b12b87fe868cb971c886e3e351758d129ea70a69`, which differs from the original deployment's recorded lockfile SHA1, `2071b0d0efa36561e6d38cc80545819e71ca9d75`. This supplied copy has not been certified as the original lockfile, and an installation or rebuild using it has not been verified.
 
-This is an incomplete archive of the original 39 file source tree. No substitute or regenerated lockfile has been included. Reproducible installation of the original dependency resolution has not been verified.
+The archive now contains all 39 expected source and asset paths, consisting of 38 verified original files and the supplied lockfile. This recovery note is additional documentation.
 
-This recovery note is newly added documentation and was not part of the original deployment. Existing repository files were preserved.
+The exact October 4 deployment is publicly accessible at https://back-door-october-4-original.vercel.app/. That alias points to `dpl_fAB5Z7XjVR6L6G5rQngbXckzUtCN` and serves the existing original build without rebuilding it from the supplied lockfile. The newer website remains separately deployed.
 
 ## Original file hashes
 
