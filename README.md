@@ -2,6 +2,14 @@
 
 **ConsciousAI** is a public, transparent, and globally collaborative platform designed to align artificial intelligence development with universal ethical principles. It is the civic tech implementation of the ideas presented in the book *From Code to Consciousness*, serving as both a toolkit and a forum for ethical AI governance.
 
+## The Back Door | Original Website
+
+Explore David Grand's original October 4, 2026 website, with its story, world, novel, and interactive experience sections.
+
+**[Open the original live website](https://back-door-october-4-original.vercel.app/)**
+
+[View The Back Door Original Website Source](THE-BACK-DOOR-ORIGINAL-WEBSITE)
+
 ## 🌐 Mission
 
 To advance responsible artificial intelligence through transparent governance, empirical research, and accountable technological innovation.
