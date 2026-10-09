@@ -59,21 +59,30 @@ These studies are connected through institutional theory, organizational control
 
 **Next phase:** Operational definitions, transparent sampling, reproducible datasets, comparative field studies, institutional case selection, independent criticism, and doctoral level validation.
 
-## Research library | Document register
+## Research library | Read the published archive
 
-The GRI research library includes the following dated working documents. **These titles are a document register, not downloadable links unless a matching file has actually been committed here.**
+The **full text editions** below are available directly through GitHub. They preserve the extracted wording of the archived documents in searchable Markdown; PDF pagination, image placement, and some typesetting may differ from the source publications.
 
-| Document | Date | Editorial classification |
-| --- | --- | --- |
-| *Doctoral Journey: Master Research Portfolio* | August 17, 2026 | Integrated living research archive |
-| *Doctoral Journey: Evidence Upgrade and Research Review* | August 17, 2026 | Evidence quality and gap assessment |
-| *The AI Paradox, the Identity Paradox, and the Human Provenance Problem* | August 2026 | Conceptual doctoral development paper |
-| *AI Paradox: Integrated Political Economy Working Paper* | September 2026 | Comparative conceptual working paper |
-| *Algorithmic Management and the $20 Gross Earnings Band* | October 7, 2026 | Exploratory evidence dossier; internal original evidence requires privacy review |
-| *GRI Research Journey: Comprehensive Research Portfolio and Source Compendium* | October 9, 2026 | Consolidated source collection; PDF upload pending |
-| *GRI Research Journey: Executive Portfolio* | October 9, 2026 | High level overview; PDF upload pending |
+### Core portfolio
 
-**Publications are not all peer reviewed.** Research program development must not be confused with a completed doctoral degree, university sponsorship, institutional endorsement, or established causal findings.
+1. **[Comprehensive Research Compendium | October 2026](GRI_Research_Journey_Comprehensive_Compendium_2026-10-09.md)** — the principal integrated research publication with underlying source studies.
+2. **[Executive Research Portfolio | October 2026](GRI_Research_Journey_Executive_Portfolio_2026-10-09.md)** — an accessible overview of GRI's institutional mission, research pillars, and prospective doctoral agenda.
+
+### Foundational research papers
+
+- **[Doctoral Journey: Evidence Upgrade and Research Review | August 2026](source-papers/Doctoral_Journey_Evidence_Upgrade_August_2026.md)** — research evidence quality, theoretical architecture, methodological gaps, and next scholarly requirements.
+- **[AI Paradox and Human Provenance | August 2026](source-papers/AI_Paradox_Human_Provenance_August_2026.md)** — identity, delegated authority, and the contestability of human agency.
+- **[AI Paradox: Integrated Political Economy | September 2026](source-papers/AI_Paradox_Integrated_Political_Economy_September_2026.md)** — institutional and economic consequences of increasingly autonomous systems.
+- **[From Code to Consciousness: GRI Research Working Paper](source-papers/From_Code_to_Consciousness_GRI_Research_Working_Paper.md)** — foundational research document; separate from the published nonfiction book.
+- **[Algorithmic Management: Uber and Lyft Research](../Algorithmic-Management/Uber-Lyft-Research/)** — longitudinal field research overview and the carefully qualified $20 gross earnings band hypothesis.
+
+### Publication and evidence limits
+
+This archive contains original working papers and text editions of the consolidated publications, **not the source PDFs**. The PDF binaries have been prepared separately and have not been committed through the connected GitHub interface. Some documents may repeat earlier work because the comprehensive compendium preserves underlying papers. Figures, layout, and tables should be verified against the originals before formal citation.
+
+The detailed Uber and Lyft evidence dossier is **not published** because underlying screenshots and route information require disclosure and privacy review. In particular, observed offer equivalents should not be described as actual hourly wages.
+
+Work in progress is not peer reviewed by virtue of appearing in this public archive. Proposed doctoral research does not represent a completed doctoral dissertation or university endorsement.
 
 ## Research quality and safeguards
 
