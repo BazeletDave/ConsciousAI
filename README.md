@@ -4,7 +4,7 @@
 
 ## The Back Door | Website
 
-Explore David Grand's website, with its story, world, novel, and interactive experience sections.
+Explore the world of *The Back Door*, the upcoming novel by David Grand, author of *From Code to Consciousness*. A fictional thriller about artificial intelligence, infrastructure, and power, its story feels closer to reality every day.
 
 **[Open the website](https://back-door-october-4-original.vercel.app/)**
 
