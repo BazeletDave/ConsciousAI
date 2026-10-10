@@ -14,6 +14,12 @@ The game project is active and available through ASU Handshake. The game will co
 
 [View The Back Door Website Source](THE-BACK-DOOR-ORIGINAL-WEBSITE)
 
+## Sunday Funday | Grand Research Institute
+
+Explore conversations on artificial intelligence, leadership, management, and governance.
+
+**[Watch Sunday Funday on YouTube](https://www.youtube.com/@grandresearchinstitute)**
+
 ## 🌐 Mission
 
 To advance responsible artificial intelligence through transparent governance, empirical research, and accountable technological innovation.
