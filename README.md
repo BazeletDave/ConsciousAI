@@ -107,6 +107,10 @@ ConsciousAI incorporates the Grand Research Institute's ongoing research into ar
 
 Explore the Grand Research Institute's consolidated research portfolio, founder mission, AI governance frameworks, doctoral research direction, and supporting research publications.
 
+### Digital Platform Visibility Research
+
+[GRI Observational Study 001: Organic Visibility and Algorithmic Amplification](GRI-Research-Journey/Algorithmic-Management/Digital-Platform-Visibility/observational-study-001-organic-visibility.md) records a baseline social video observation and an academic protocol for tracking platform distribution without causal overstatement.
+
 ### Algorithmic Management Research
 
 Explore GRI's longitudinal Uber and Lyft research, including the approximately $20 gross earnings hypothesis, economic analysis, documented field observations, and governance implications.
