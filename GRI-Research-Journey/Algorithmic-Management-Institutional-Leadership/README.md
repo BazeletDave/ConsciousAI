@@ -32,4 +32,6 @@ Thunderbird course concepts inform the independent GRI synthesis. This publicati
 
 ## Monograph
 
-**Algorithmic Management, Institutional Leadership and the AI Paradox** is the companion 28 page GRI research monograph. The PDF is maintained as the formal paper; this README is its repository landing page and research description. The PDF is not yet attached to this folder.
+[**Read the complete research monograph (28 pages)**](./Research-Monograph-Full-Text.md)
+
+The complete text of the monograph is published in this repository. The original PDF layout and charts are preserved in the separately distributed PDF edition.
