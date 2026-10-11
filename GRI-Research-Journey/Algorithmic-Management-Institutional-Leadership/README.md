@@ -35,3 +35,7 @@ Thunderbird course concepts inform the independent GRI synthesis. This publicati
 [**Read the complete research monograph (28 pages)**](./Research-Monograph-Full-Text.md)
 
 The complete text of the monograph is published in this repository. The original PDF layout and charts are preserved in the separately distributed PDF edition.
+
+## Figures and visual materials
+
+[**View the separate figures and charts companion**](./Figures-and-Visual-Materials.md). The graphical material corresponding to the monograph is documented in a separate companion file, with links to its original PDF page locations and explicit distinctions between published numerical evidence and illustrative research graphics.
