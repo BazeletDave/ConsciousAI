@@ -2,7 +2,7 @@
 
 **Grand Research Institute | David A. Grand**
 
-> Full text edition transcribed from the 28 page GRI PDF monograph. Page boundaries marked as comments. For charts and original page layout, consult the separately available PDF edition.
+> Full text edition transcribed from the 28 page GRI PDF monograph. Page boundaries marked as comments. **Corresponding graphs, figures and visual materials are documented separately in the [figures companion](./Figures-and-Visual-Materials.md).** This companion provides accessible representations; the original PDF preserves the graphical appearance.
 
 
 
