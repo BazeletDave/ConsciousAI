@@ -1,6 +1,6 @@
 # ConsciousAI: A Global Standard for Ethical AI Accountability
 
-**ConsciousAI** is a public, transparent, and globally collaborative platform designed to align artificial intelligence development with universal ethical principles. It is the civic tech implementation of the ideas presented in the book *From Code to Consciousness*, serving as both a toolkit and a forum for ethical AI governance.
+**ConsciousAI** is a research repository within the Grand Research Institute ecosystem. It documents inquiry into artificial intelligence, algorithmic management, institutional governance, technological innovation, and human oversight. The repository brings together research publications, case studies, empirical observations, and selected project resources. It is not presented as a deployed ethics auditing service or a formal standards setting body.
 
 ## The Back Door | Website
 
@@ -30,32 +30,27 @@ Our mission is to ensure that as artificial intelligence assumes greater respons
 
 From Code to Consciousness: Advancing the science, management, and governance of responsible AI.
 
-## 🔑 Core Features
+## 🔑 Research Areas
 
-- **Ethics Engine (`core/ethics_engine.py`)**  
-  Analyze AI outputs for bias, harm, or ethical misalignment using a transparent, ruleset-driven architecture.
+- **Algorithmic Management:** Platform labor, incentive structures, automated decision systems, and management accountability.
+- **Institutional Governance:** Human authorization, organizational oversight, transparency, and governance of autonomous systems.
+- **Empirical Research:** Documented observations, case studies, evidence limitations, and reproducible analytical methods where practical.
+- **Global Leadership and Strategy:** The interaction of technological change with institutions, economic development, and international governance.
+- **AI Ethics and Accountability:** Research questions concerning bias, verification, responsibility, and meaningful human control.
 
-- **Identity Verification (`core/verify_identity.py`)**  
-  Authenticate contributors using ORCID, LinkedIn, or academic email to maintain trust and accountability.
+These are research priorities, not claims that operational software tools or community governance mechanisms have been deployed.
 
-- **Living Declaration (`core/declaration.md`)**  
-  An open, editable, and version-controlled document establishing global AI ethics principles.
+## 📚 Research Foundations: *From Code to Consciousness*
 
-- **AI Transparency Tools (`ai-integration/`)**  
-  Audit AI models, check for ideological drift, misalignment, and auto-cite related content from the book.
+*From Code to Consciousness* by David Grand provides an intellectual foundation for ongoing research conducted through the Grand Research Institute.
 
-- **Multilingual Participation (`internationalization/`)**  
-  Supports global accessibility and contributions in multiple languages.
+The ConsciousAI repository documents an evolving research journey examining artificial intelligence, algorithmic management, institutional governance, technological innovation, and global leadership.
 
-- **Governance Framework (`governance/`)**  
-  Community-led model inspired by W3C and open-source best practices.
-
-## 📚 Inspired by *From Code to Consciousness*
-This platform is an active extension of the manifesto from the book. Each module is mapped to a chapter and includes citation, commentary, and discussion features. Readers can directly influence the ethical declaration and contribute real world AI cases.
+Research draws upon professional experience, graduate academic studies, published literature, empirical observations, and documented case studies. The objective is to develop evidence based analysis of how increasingly autonomous systems influence human decision making, organizational accountability, economic structures, and institutional authority.
 
 ## Conscious AI Framework: Transparency, Truth, and the Future of AI
 
-We are developing an in depth framework exploring the ethics, transparency, and future of AI  anchored by the groundbreaking Swiss AI Initiative and our work at the Grand Research Institute.
+This research area examines transparency, evidence quality, governance, and accountability in artificial intelligence. Relevant initiatives and institutional approaches may be considered as comparative cases; their inclusion does not imply endorsement, affiliation, or formal collaboration.
 
 
 This project covers:
@@ -63,38 +58,21 @@ This project covers:
 - The importance of open source AI models  
 - Challenges with current proprietary AI  
 - Our Conscious AI framework for ethical AI development  
-- Collaborations with students and professors at institutions like Harvard,Thunderbird, and ASU  
+- Academic literature and institutional research relevant to responsible AI  
 - A roadmap for international cooperation and AI governance  
 
 *How AI can serve humanity’s collective good with transparency and responsibility.*
 
 
-## 📈 Long-Term Vision
+## 📈 Potential Future Research Directions
 
 - **Ethical Intelligence API** — For corporate AI auditing.  
 - **Transparency Graph** — To visualize algorithmic influence and origin.  
 - **Live Policy Tracker** — A global dashboard of AI-related legislation.
 
-## 🤝 How to Get Involved
+## Research Use and Contributions
 
-1. **From Code to Conciousness** (core/declaration.md)  
-2. **Join the Governance Process** (governance/charter.md)  
-3. **Submit Contributions** (ethics_engine, AI case studies, multilingual updates)  
-4. **Cite the Book** using `citation_bot.py` or inline links.
-
-## 🛠️ Setup
-
-```bash
-# Clone the repo
-git clone https://github.com/YOUR_ORG/ConsciousAI.git
-cd ConsciousAI
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the platform
-python web/app.py
-```
+Readers can review the linked research materials, examine stated evidence and limitations, and propose corrections or substantive additions through GitHub issues when enabled. Contributions should distinguish observations from hypotheses and conclusions and cite original sources where available.
 
 ## 📚 Grand Research Institute | Research Journey
 
