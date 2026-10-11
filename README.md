@@ -91,6 +91,10 @@ Explore the Grand Research Institute's consolidated research portfolio, founder 
 
 A comprehensive Grand Research Institute leadership and management synthesis drawing on approximately five years of research, with a strong academic concentration over the past two years. Includes the full research paper and a separate companion for charts and visual materials.
 
+### Predictive Modeling, Adaptive Learning and Human Decisions
+
+[**Read the GRI AI Forecasting and Algorithmic Management Study**](GRI-Research-Journey/Algorithmic-Management/Predictive-Modeling-and-Human-Decisions/README.md) examines prospective forecast evaluation, algorithmic learning, calibrated uncertainty, human reliance, and governance. This is an exploratory research protocol, not a validated prediction accuracy study.
+
 ### Digital Platform Visibility Research
 
 [GRI Observational Study 001: Organic Visibility and Algorithmic Amplification](GRI-Research-Journey/Algorithmic-Management/Digital-Platform-Visibility/observational-study-001-organic-visibility.md) records a baseline social video observation and an academic protocol for tracking platform distribution without causal overstatement.
