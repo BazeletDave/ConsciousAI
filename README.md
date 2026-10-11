@@ -107,6 +107,12 @@ ConsciousAI incorporates the Grand Research Institute's ongoing research into ar
 
 Explore the Grand Research Institute's consolidated research portfolio, founder mission, AI governance frameworks, doctoral research direction, and supporting research publications.
 
+### Algorithmic Management, Institutional Leadership and the AI Paradox
+
+[**Read the GRI Research Monograph**](GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/README.md)
+
+A comprehensive Grand Research Institute leadership and management synthesis drawing on approximately five years of research, with a strong academic concentration over the past two years. Includes the full research paper and a separate companion for charts and visual materials.
+
 ### Digital Platform Visibility Research
 
 [GRI Observational Study 001: Organic Visibility and Algorithmic Amplification](GRI-Research-Journey/Algorithmic-Management/Digital-Platform-Visibility/observational-study-001-organic-visibility.md) records a baseline social video observation and an academic protocol for tracking platform distribution without causal overstatement.
