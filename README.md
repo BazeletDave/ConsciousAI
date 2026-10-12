@@ -101,6 +101,12 @@ A comprehensive Grand Research Institute leadership and management synthesis dra
 
 An ongoing Grand Research Institute case connecting Apple's China operations, Doug Guthrie's executive education experience, Patrick McGee's historical investigation, firsthand professional research leads, and Thunderbird TAM 505 institutional analysis.
 
+### Global AI and SI Governance Research
+
+[**Read the Global AI and SI Governance Research Framework**](GRI-Research-Journey/Institutional-Governance/Global-AI-SI-Governance/README.md)
+
+Living comparative research on jurisdictional AI governance, accountable autonomous agents, continuous boundary testing, institutional liability, and versioned evidence. Companion PDF and graphics are tracked as separate artifacts.
+
 ### Digital Platform Visibility Research
 
 [GRI Observational Study 001: Organic Visibility and Algorithmic Amplification](GRI-Research-Journey/Algorithmic-Management/Digital-Platform-Visibility/observational-study-001-organic-visibility.md) records a baseline social video observation and an academic protocol for tracking platform distribution without causal overstatement.
