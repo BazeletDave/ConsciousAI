@@ -4,7 +4,8 @@
 
 **Founder and research lead:** David Grand  
 **Independent research institution:** Grand Research Institute LLC, Florida  
-**Portfolio update:** October 9, 2026  
+**Research program:** 2021 to Present | Ongoing  
+**Portfolio update:** October 12, 2026  
 **Research status:** Published work, exploratory field studies, conceptual frameworks, applied prototypes, and a developing doctoral research agenda
 
 > **Science makes technology possible. Markets enable its expansion. Institutions determine whether technological progress produces responsible, sustainable benefits for society.**
@@ -15,7 +16,7 @@ Artificial intelligence changes more than organizational efficiency. It changes 
 
 **How can management and public institutions preserve meaningful human agency, accountability, and legitimacy as software moves from advising decisions to executing them?**
 
-The Research Journey connects multiple years of applied industry experience, management education, writing, observational research, and digital experimentation. Its central contribution is a **comparative research architecture**, not a claim that every proposed hypothesis has already been validated.
+The Research Journey traces the GRI research program from 2021 onward and connects multiple years of applied industry experience, management education, writing, observational research, and digital experimentation. Its central contribution is a **comparative research architecture**, not a claim that every proposed hypothesis has already been validated.
 
 ## Research highlights | Start here
 
@@ -51,9 +52,11 @@ These studies are connected through institutional theory, organizational control
 
 ## Research origins and evolution
 
+**2021 onward | Research foundations:** GRI's research journey began in 2021. Its evolution includes inquiry into technology, organizational management, leadership, institutional governance, and subsequently more formalized AI and algorithmic management research. Earlier practitioner experience informs the program but should not be confused with the date of a particular empirical study or publication.
+
 **Foundational publication:** David Grand's *From Code to Consciousness* provides an intellectual starting point for examining AI, organizational change, human agency, and governance. The published book is distinct from the empirical working papers archived in the GRI research program.
 
-**2026 research development:** The AI Paradox, Human Provenance, doctoral evidence reviews, political economy synthesis, and South Florida algorithmic management studies formalize questions and identify evidence gaps.
+**2026 | Formal research development and documentation:** The AI Paradox, Human Provenance, doctoral evidence reviews, political economy synthesis, and South Florida algorithmic management studies formalize questions and identify evidence gaps.
 
 **Research infrastructure:** The ConsciousAI repository, mobility research, applied digital projects, and ongoing field evidence capture create a version controlled public record that can be expanded and critically assessed.
 
