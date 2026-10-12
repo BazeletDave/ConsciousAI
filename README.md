@@ -106,4 +106,5 @@ Explore GRI's longitudinal Uber and Lyft research, including the approximately $
 [View GRI Algorithmic Management Research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research)
 
 **Research Lead:** David Grand | Grand Research Institute  
-**Research Status:** Ongoing | 2026 to Present
+**Research Program:** 2021 to Present | Ongoing Longitudinal Research  
+**Research Scope:** Foundational inquiry since 2021, with subsequent field studies, published work, institutional analysis, and evolving research protocols. Individual studies retain their own documented dates; 2026 marks the formalization of several current investigations, not the beginning of the research program.
