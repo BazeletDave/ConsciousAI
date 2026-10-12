@@ -12,12 +12,6 @@ This case examines how global executive leadership, industrial investment, inter
 
 The longitudinal research question is: **How can leaders govern rapidly evolving technology when institutions, industrial capabilities, and the language of artificial intelligence change during the research itself?**
 
-## Professional context and a photograph
-
-David Grand identifies a recent photograph with Dr. Doug Guthrie and a colleague identified as **Maidor**. Full identification and permission for public captioning of Maidor remain to be confirmed. The image is a contextual research artifact; an image file and its final caption are to be attached separately. No exact private conversation or quotation is represented by the image alone.
-
-Grand reports personal discussions with Guthrie concerning Tim Cook, Xi Jinping, Apple China, and doctoral research in the evolving AI era. These provide firsthand research leads. The account should not publish purported verbatim private statements or suggest a formal interview without supporting notes and attribution authorization.
-
 ## Documentary evidence
 
 1. **Apple Inc. fiscal 2025 Form 10-K.** Net sales totaled $416.161 billion, including $64.377 billion in Greater China. The filing describes important manufacturing partners in mainland China, India, Japan, South Korea, Taiwan, and Vietnam and attendant operational and political risk. Greater China customer revenue is not a measure of capital invested in mainland China. [SEC filing](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm).
