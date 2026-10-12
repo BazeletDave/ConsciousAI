@@ -99,7 +99,7 @@ A comprehensive Grand Research Institute leadership and management synthesis dra
 
 [**Apple in China: Leadership, Institutional Governance, and the AI Era**](GRI-Research-Journey/Global-Leadership/Apple-China-Institutional-Leadership/README.md)
 
-An ongoing Grand Research Institute case connecting Apple's China operations, Doug Guthrie's executive education experience, Patrick McGee's historical investigation, firsthand professional research leads, and Thunderbird TAM 505 institutional analysis.
+An ongoing Grand Research Institute case connecting Apple's China operations, Doug Guthrie's executive education experience, Patrick McGee's historical investigation, and institutional leadership analysis informed by Thunderbird's global management perspective.
 
 ### Global AI and SI Governance Research
 
