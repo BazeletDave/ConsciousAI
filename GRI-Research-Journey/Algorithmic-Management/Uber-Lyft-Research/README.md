@@ -4,12 +4,14 @@ Algorithmic Management | Uber and Lyft Research
 
 Grand Research Institute (GRI)
 Research Lead: David Grand
-Research Period: 2026 to Present
+GRI Research Program: 2021 to Present
+Specific Uber and Lyft Evidence Dossier: October 2026
+Study Status: Exploratory and ongoing; historical practitioner experience predates formal documentation
 Status: Ongoing Longitudinal Research
 
 Research Overview
 
-This project investigates algorithmic management through longitudinal field observation of Uber and Lyft, examining how digital platforms allocate work, influence compensation, manage labor supply, monitor performance, and structure human decision making.
+Situated within GRI's broader research journey beginning in 2021, this project investigates algorithmic management through longitudinal field observation of Uber and Lyft, examining how digital platforms allocate work, influence compensation, manage labor supply, monitor performance, and structure human decision making.
 
 Drawing on more than a decade of reported rideshare experience, including over 20,000 passenger trips, the research integrates practitioner observations, platform evidence, academic scholarship, institutional analysis, and quantitative economic modeling.
 
