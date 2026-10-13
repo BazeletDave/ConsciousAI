@@ -38,6 +38,12 @@ The data motivate a testable question about algorithmic compensation patterns. *
 
 **[Explore the algorithmic management research](../Algorithmic-Management/Uber-Lyft-Research/)**
 
+## Current research case | Agentic commerce and financial authority (October 2026)
+
+**[Agentic Commerce and Financial Authority: A Bretton Woods Analogy for AI Governance](../Institutional-Governance/Agentic-Commerce-Financial-Authority/)** examines the public October 10 to 12, 2026 Grok credit card photograph proposal and LEGO ordering demonstration. The working case differentiates confirmed statements, reported order detail exposure, disputed transaction interference, unresolved technical safeguards, and a proposed synthetic comparative experiment.
+
+Its **Bretton Woods analogy is explicitly a testable institutional coordination proposition**, not a claim of equivalent historical significance. The study extends GRI's existing authorization, provenance, algorithmic management and institutional governance research to payment authority, interplatform accountability and cross-border rule formation.
+
 ## A unified research architecture
 
 Three empirical pillars anchor the developing doctoral agenda:
