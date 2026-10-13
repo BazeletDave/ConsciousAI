@@ -63,3 +63,22 @@ The original figure uses **invented ordinal scores** to explain control maturity
 ## Citation and academic integrity note
 
 The original research monograph remains the authoritative source for its complete argument, visual layout, original chart styling, citations and qualifications. This companion maintains a distinct distinction between officially reported numbers, projections, research instruments and conceptual illustrations. The Institute's broader research spans approximately five years, with particularly concentrated academic development in the past two years.
+
+## Visual series: From traditional management to algorithmic authority
+
+**Research Journey visual supplement | Approved October 2026**  
+**Creative direction and research lead:** David Grand, Grand Research Institute  
+**Status:** Three approved editorial illustrations; image binaries prepared separately for repository upload. This Markdown file does not claim that image files are already hosted by GitHub.
+
+This series accompanies the Institute's public communication connecting historic managerial discretion, algorithmically mediated information, and *The Back Door* as a fictional exploration of institutional consequences. Its illustrations are **AI generated conceptual images**, not authentic period photographs or verified advertisements placed on transit vehicles.
+
+| Plate | Caption and research interpretation | Approved source image filename |
+| --- | --- | --- |
+| **V1. Traditional management** | Period styled executive discussion represents interpersonal bargaining, authority and managerial discretion. It is a composite illustration, not a photograph of a documented historical meeting. | `01-traditional-management.jpeg` |
+| **V2. Algorithmic influence** | An imagined New York City bus advertisement reading “Some Doors Should Stay Closed” illustrates systems influencing communication, decisions and public attention. This does **not** establish that the depicted advertisement was actually displayed on an MTA bus. | `02-algorithmic-influence.jpeg` |
+| **V3. Research and creative storytelling** | A promotional illustration for David Grand's forthcoming novel *The Back Door* connects the Institute's governance research to narrative exploration of algorithmic authority and its potential consequences. Fiction is not presented as empirical evidence. | `03-research-and-creative-storytelling.jpeg` |
+
+**Presentation wording:** V1: “The opening television scene establishes a recognizable period of human authority, interpersonal relationships, and managerial discretion.” V2: “The bus signage, ‘Some Doors Should Stay Closed,’ creates a visual connection to systems that increasingly mediate communication, decisions, and public attention.” V3: “*The Back Door* becomes a bridge between GRI's research into algorithmic authority and a fictional exploration of its potential consequences.”
+
+**Provenance note:** The three selected slide images were approved in the October 2026 GRI creative review. To maintain research integrity, classify these as communication graphics, not photographs, field observations, primary evidence or measured results. Their image files should be placed alongside the figures companion if the repository's binary upload capability becomes available. The separate approved image package carries these exact filenames.
+
