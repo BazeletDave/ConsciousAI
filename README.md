@@ -117,6 +117,8 @@ Explore GRI's longitudinal Uber and Lyft research, including the approximately $
 
 [View GRI Algorithmic Management Research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research)
 
+**Chicago Lyft Paired Trip Case Study:** [Read the GRI analysis of consecutive rides and estimated platform fee asymmetry](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md). A matched observational example highlighting transparency and management accountability, with explicit limits on causal inference.
+
 **Research Lead:** David Grand | Grand Research Institute  
 **Research Program:** 2021 to Present | Ongoing Longitudinal Research  
 **Research Scope:** Foundational inquiry since 2021, with subsequent field studies, published work, institutional analysis, and evolving research protocols. Individual studies retain their own documented dates; 2026 marks the formalization of several current investigations, not the beginning of the research program.
