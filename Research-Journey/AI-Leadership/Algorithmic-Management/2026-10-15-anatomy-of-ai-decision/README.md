@@ -42,9 +42,6 @@ Descriptive analytics asks what happened; predictive asks what may happen; presc
 
 **Unverified hypotheses:** Increased operational efficiency need not increase worker welfare proportionally; stronger data governance may improve accountability.
 
-## Evidence and publication protocol
-Distinguish (A) lecture synthesis, (B) cited public evidence, (C) GRI observations, and (D) hypotheses. Do not reproduce classroom slides as GRI originals. GRI imagery should be newly composed and mark unverified proprietary platform mechanisms as illustrative. AI-generated content alone does not establish exclusive copyright ownership. Track versions and source rights.
-
 ## Source anchors
 - Agrawal, A., Gans, J., and Goldfarb, A. (2018). *Prediction Machines*. Harvard Business Review Press.
 - NIST (2023). *AI Risk Management Framework 1.0*. https://doi.org/10.6028/NIST.AI.100-1
