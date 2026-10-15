@@ -81,6 +81,8 @@ ConsciousAI incorporates the Grand Research Institute's ongoing research into ar
 
 ### Featured Research | The AI Paradox — October 15, 2026
 
+[**Download the Complete 21-Page Illustrated PDF**](GRI-Research-Journey/GRI%20AI%20Oct%202026%20Edition.pdf)
+
 **[Read The AI Paradox: October 2026 Research Edition](Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md)**
 
 David Grand and the Grand Research Institute connect a contemporaneous Thunderbird faculty discussion with original longitudinal research into Uber algorithmic management, AI decision anatomy, workforce adaptation, agentic authority and institutional governance. This is the foundational installment of an evolving research series, with future updates planned through April 2027.
