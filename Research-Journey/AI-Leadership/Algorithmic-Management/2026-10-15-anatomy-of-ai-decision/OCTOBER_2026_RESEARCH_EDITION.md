@@ -5,7 +5,7 @@
 The organizational value of AI depends not only on prediction quality but on the judgments, incentives, governance and human consequences that convert predictions into decisions. This is a dated installment of a research journey beginning in 2021, with future updates anticipated through April 2027.
 
 ## 1. October's intellectual moment
-The Thunderbird/ASU discussion brought faculty, practitioners and learners together around data literacy, AI decision anatomy, workforce learning and the limits of automated decision quality. This edition preserves that discussion as a contemporaneous baseline and develops an independent GRI interpretation.
+Today's discussion at Thunderbird School of Global Management, Arizona State University, brought forward perspectives on data literacy, AI decision making, workforce transformation and the evolving role of human judgment. David Grand, founder of the Grand Research Institute, connects these insights with ongoing research into algorithmic management, leadership and institutional governance. This edition preserves that discussion as a contemporaneous baseline and develops an independent GRI interpretation.
 
 ## 2. Decision anatomy
 **Input → Prediction → Judgment → Action → Outcome → Feedback.** Judgment may be encoded in organizational policy or delegated authority. Feedback is not proof of automatic model retraining.
