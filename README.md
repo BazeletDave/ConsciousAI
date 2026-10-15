@@ -81,7 +81,7 @@ ConsciousAI incorporates the Grand Research Institute's ongoing research into ar
 
 ### Featured Research | The AI Paradox — October 15, 2026
 
-[**Download the Complete 21-Page Illustrated PDF**](GRI-Research-Journey/GRI%20AI%20Oct%202026%20Edition.pdf)
+[**Download the Complete 21-Page Illustrated PDF**](GRI-Research-Journey/GRI%20AI%20October%202026.pdf)
 
 **[Read The AI Paradox: October 2026 Research Edition](Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md)**
 
