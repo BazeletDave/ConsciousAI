@@ -2,7 +2,41 @@
 
 **Grand Research Institute (GRI) | Research Journey | Working historical case study | 16 October 2026**
 
-**Status:** Founder oral history and conceptual comparative framework. Not independently validated empirical findings.
+**Status:** Founder oral history, deposited contemporaneous archival images, and conceptual comparative framework. Source claims and causal interpretations remain subject to verification.
+
+## Historical Milestone 000 | WWI: The foundational operating system
+
+**Historical distinction:** According to the founder's account, Wholesale Warehousing Industries (WWI) preceded and informed the structured management practices later used in Grand Advertising, Inc. and other independent businesses. WWI was not Grand Advertising. The organizing principle was described as **“following the system”**: standardized training, performance expectations, mentoring, leadership progression and market replication. Specific corporate and chronological relationships require further documentation.
+
+### Archival evidence deposited October 2026
+
+The following files were uploaded to the parent `GRI-Research-Journey` folder. Original images are retained under their uploaded filenames. Descriptions are preliminary, and the presence of a publication does not independently verify every statement within it.
+
+| Source | File | Evidence category |
+|---|---|---|
+| *WWI Worldwide*, Vol. 2, Issue 20, April 2, 1993 | [Newsletter cover](../IMG_7175.jpeg) | Dated contemporaneous publication |
+| *WWI Worldwide*, “Juice” regional reports | [Newsletter page](../IMG_7177.jpeg) | Contemporary reporting on people, leadership and markets |
+| WWI distributorship listings | [Rankings page](../IMG_7176.jpeg) | Published performance figures; definitions and units require verification |
+| Handwritten office and owner list | [Historical notes](../IMG_7178.jpeg) | Potential network reconstruction; names and dates require corroboration |
+| Original historical photograph | [Business associates](../IMG_7185.jpeg) | Archival photographic evidence; identities and dates pending |
+| Original historical photograph | [Group photograph](../IMG_7186.jpeg) | Archival photographic evidence; identities and dates pending |
+| Original historical photograph | [Additional photograph](../IMG_7184.jpeg) | Archival photographic evidence; identities and dates pending |
+| Additional uploaded source | [IMG_7170](../IMG_7170.jpeg) | Classification pending |
+| Leadership model reference | [IMG_7171](../IMG_7171.jpeg) | Founder-supplied description of five-stage progression |
+| Contemporary comparative reference | [IMG_7172](../IMG_7172.png) | Modern analysis, not a 1990s source |
+| Generated multiera illustration | [Composite image](../F90718D8-3E72-46A6-A728-CC93DE7E7A31.png) | AI illustration, not historical evidence |
+
+### Institutional lineage and research implications
+
+```mermaid
+flowchart TD
+ W["WWI | earlier organizational foundation"] --> P["Following the system | training, evaluation, mentorship"]
+ P --> G["Grand Advertising, Inc. | subsequent enterprise"]
+ P --> O["Other independent businesses | specific links to verify"]
+ G --> R["GRI | research program from 2021"]
+```
+
+The archive supports inquiry into how standardized human-managed systems transmitted operating rules, developed leaders, used performance metrics and expanded across markets. Comparing these mechanisms with algorithmic management is a **research hypothesis**, not a claim that the earlier businesses employed AI. The five steps and eight steps may have antecedents predating WWI; their precise origins remain unverified.
 
 ## Historical Milestone 001 | Grand Advertising, Inc. | Orlando, Florida | 1990s
 
@@ -75,4 +109,4 @@ This study is part of the GRI Research Journey, whose contemporary AI research p
 
 These references supply contextual frameworks, **not verification** of Grand Advertising history.
 
-*Version 1.1 | 2026-10-16 | Added Historical Milestone 001 and image provenance; historical verification pending.*
+*Version 1.3 | 2026-10-16 | Added WWI institutional lineage and linked deposited archival evidence; detailed verification pending.*
