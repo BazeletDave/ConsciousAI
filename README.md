@@ -1,6 +1,28 @@
-# ConsciousAI: A Global Standard for Ethical AI Accountability
+# ConsciousAI | AI Governance, Algorithmic Management and Institutional Leadership
 
 **ConsciousAI** is a research repository within the Grand Research Institute ecosystem. It documents inquiry into artificial intelligence, algorithmic management, institutional governance, technological innovation, and human oversight. The repository brings together research publications, case studies, empirical observations, and selected project resources. It is not presented as a deployed ethics auditing service or a formal standards setting body.
+
+## Start Here | Research and Institutional Leadership
+
+**Grand Research Institute (GRI)** is an independent research organization founded by David Grand. This repository documents an evolving research program beginning in 2021, connecting global management, algorithmic decision systems, institutional political economy and accountable AI.
+
+**For government and institutional leaders:** [Global AI and SI governance research](GRI-Research-Journey/Institutional-Governance/Global-AI-SI-Governance/README.md) and [Living AI Ecosystem: information mobility and institutional adaptation](GRI-Research-Journey/Living-AI-Ecosystem/README.md).
+
+**For academic researchers:** [Consolidated research portfolio, methods and evidence limits](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md), [institutional leadership monograph](GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/README.md), and [October 2026 AI Paradox research edition](Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md).
+
+**For organizational leaders, collaborators and recruiters:** [Research portfolio and professional scope](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md), [algorithmic management field research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/), and [applied decision modeling research](GRI-Research-Journey/Algorithmic-Management/Predictive-Modeling-and-Human-Decisions/README.md).
+
+**For readers exploring the creative research ecosystem:** [The Back Door website](https://back-door-october-4-original.vercel.app/) and [Sunday Funday](https://www.youtube.com/@grandresearchinstitute).
+
+**Research integrity:** GRI distinguishes peer-reviewed external scholarship, independent working papers, documented observations, conceptual illustrations, exploratory protocols and future research. References to Thunderbird or ASU identify academic context, not university endorsement of GRI publications.
+
+### Featured Research | October 2026
+
+- [**The AI Paradox | Illustrated Research PDF**](GRI-Research-Journey/GRI%20AI%20October%202026.pdf)
+- [**Living AI Ecosystem | New Research Collection**](GRI-Research-Journey/Living-AI-Ecosystem/README.md)
+- [**Research Journey | Master Portfolio and Index**](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md)
+
+---
 
 ## The Back Door | Website
 
