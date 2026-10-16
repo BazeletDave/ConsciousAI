@@ -4,6 +4,16 @@
 
 **Status:** Founder oral history and conceptual comparative framework. Not independently validated empirical findings.
 
+## Historical Milestone 001 | Grand Advertising, Inc. | Orlando, Florida | 1990s
+
+![Grand Advertising, Inc. — historical storefront and AI-assisted reconstruction of 1990s field sales](../2A2F979B-015F-45C3-B193-DAB7C0B68D08.png)
+
+*Figure 1. Grand Advertising, Inc., Orlando, Florida, 1990s. Composite visual incorporating a founder-provided historical storefront photograph and AI-generated illustrative representations of direct sales personnel, promotional materials, and the business setting. The depicted people and reconstructed activities are illustrative, not independently authenticated archival photographs. Image added to the GRI Research Journey on 16 October 2026.*
+
+This milestone documents the founder's early practical experience with direct sales, leadership development, mentoring, field evaluation, and organizational replication. It is a historical antecedent to the Grand Research Institute's formal research program beginning in 2021, rather than evidence that the institute existed during the 1990s.
+
+**Image archive:** [View original uploaded composite](../2A2F979B-015F-45C3-B193-DAB7C0B68D08.png). The original uploaded asset is retained without modification for traceability.
+
 ## Research question
 How can practices of human leadership development, organizational replication, and accountable management inform institutional governance of increasingly autonomous AI systems?
 
@@ -65,4 +75,4 @@ This study is part of the GRI Research Journey, whose contemporary AI research p
 
 These references supply contextual frameworks, **not verification** of Grand Advertising history.
 
-*Version 1.0 | 2026-10-16 | Prepared from founder account; historical verification pending.*
+*Version 1.1 | 2026-10-16 | Added Historical Milestone 001 and image provenance; historical verification pending.*
