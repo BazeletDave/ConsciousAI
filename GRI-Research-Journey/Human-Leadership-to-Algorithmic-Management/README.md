@@ -22,7 +22,7 @@ According to founder David Grand's retrospective account, Grand Advertising oper
 
 **Reported progression:** Independent distributor → team leader conducting field observation and mentorship → development of five team leaders → assistant manager learning recruitment, interviews, operations and compliance → opportunity to establish a new market office with client campaigns.
 
-The founder reports geographic expansion from Orlando to several U.S. markets and Spain, and cites Nick Iavino and John Miller as illustrative subsequent career trajectories. These are **attributed claims**, not independently established evidence of specific client contracts, organizational ranking, career causality or global scale. Interviews, archival records and third party documentation are required before publication as verified historical findings.
+The founder reports geographic expansion from Orlando to several U.S. markets and Spain, and cites Nick Iovieno and John Miller as illustrative subsequent career trajectories. These are **attributed claims**, not independently established evidence of specific client contracts, organizational ranking, career causality or global scale. Interviews, archival records and third party documentation are required before publication as verified historical findings.
 
 ## Three eras: comparative visual
 ```mermaid
