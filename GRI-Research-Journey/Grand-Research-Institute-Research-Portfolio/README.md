@@ -5,10 +5,23 @@
 **Founder and research lead:** David Grand  
 **Independent research institution:** Grand Research Institute LLC, Florida  
 **Research program:** 2021 to Present | Ongoing  
-**Portfolio update:** October 12, 2026  
+**Portfolio update:** October 16, 2026  
 **Research status:** Published work, exploratory field studies, conceptual frameworks, applied prototypes, and a developing doctoral research agenda
 
 > **Science makes technology possible. Markets enable its expansion. Institutions determine whether technological progress produces responsible, sustainable benefits for society.**
+
+## Navigate the research
+
+| Reader priority | Recommended starting point |
+| --- | --- |
+| Public policy and institutional governance | [Global AI and SI governance](../Institutional-Governance/Global-AI-SI-Governance/README.md) |
+| New AI information exposure and institutional adaptation | [Living AI Ecosystem](../Living-AI-Ecosystem/README.md) |
+| Leadership, strategy and institutional theory | [Algorithmic Management and Institutional Leadership](../Algorithmic-Management-Institutional-Leadership/README.md) |
+| Applied platform management and field research | [Uber and Lyft research](../Algorithmic-Management/Uber-Lyft-Research/README.md) |
+| AI decision architecture and October 2026 academic context | [The AI Paradox research edition](../../Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md) |
+| Figures and visual interpretation | [Figures and visual materials](../Algorithmic-Management-Institutional-Leadership/Figures-and-Visual-Materials.md) |
+
+The portfolio is the canonical research index. Earlier and parallel directory structures remain available to preserve historical links and citation continuity.
 
 ## The research proposition
 
@@ -87,7 +100,7 @@ The **full text editions** below are available directly through GitHub. They pre
 
 ### Publication and evidence limits
 
-This archive contains original working papers and text editions of the consolidated publications, **not the source PDFs**. The PDF binaries have been prepared separately and have not been committed through the connected GitHub interface. Some documents may repeat earlier work because the comprehensive compendium preserves underlying papers. Figures, layout, and tables should be verified against the originals before formal citation.
+This portfolio subdirectory contains original working papers and searchable text editions of consolidated publications; it does not contain all corresponding source PDFs. A separate [October 2026 illustrated AI Paradox PDF](../GRI%20AI%20October%202026.pdf) is published elsewhere within the broader GRI Research Journey. Other source PDFs and graphics may remain outside GitHub pending publication review. Some documents may repeat earlier work because the comprehensive compendium preserves underlying papers. Figures, layout, and tables should be verified against the originals before formal citation.
 
 The detailed Uber and Lyft evidence dossier is **not published** because underlying screenshots and route information require disclosure and privacy review. In particular, observed offer equivalents should not be described as actual hourly wages.
 
