@@ -23,6 +23,18 @@
 
 The portfolio is the canonical research index. Earlier and parallel directory structures remain available to preserve historical links and citation continuity.
 
+## Historical leadership foundations and research chronology
+
+**1990s | Grand Advertising and human leadership practice.** Founder David Grand's practitioner history includes Grand Advertising's direct sales operations, team development, mentoring, standardized field training, performance feedback, and advancement practices. These experiences are historical context for the research questions, not retrospective empirical trials or formally published GRI studies.
+
+**Subsequent years | International business and institutional experience.** Entrepreneurial and cross border management experience informs comparative questions about negotiation, organizational culture, institutional constraints, and decision making. Specific achievements or outcomes require source documentation before being treated as independently verified.
+
+**2021 onward | GRI research journey.** Formalized inquiry into emerging technologies, leadership, artificial intelligence, algorithmic management, and institutional governance evolved into documented papers, observational cases, and governance frameworks. Each investigation retains its own actual date and evidentiary status.
+
+**Thunderbird graduate management study | Scholarly integration.** Relevant management, culture, negotiation, strategy, and institutional theories inform independent GRI inquiry. Coursework and faculty scholarship are attributed appropriately; neither course participation nor university affiliation constitutes independent validation or endorsement of GRI results.
+
+**Research standard.** Public materials distinguish lived practitioner experience, primary records, academic literature, independently documented observations, analytical interpretation, and untested hypotheses. Claims about impact, performance, or policy implications should link to auditable evidence and state limitations.
+
 ## The research proposition
 
 Artificial intelligence changes more than organizational efficiency. It changes how authority is delegated, how labor is governed, how evidence is authenticated, and how institutions retain control over decisions executed by automated systems. The central GRI question is:
