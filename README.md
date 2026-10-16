@@ -4,7 +4,7 @@
 
 ## Historical Foundations | From Human Leadership to AI Governance
 
-GRI's formal research journey began in **2021**, but the practical experience informing it extends to **Grand Advertising in the 1990s**, where founder David Grand worked with leadership development, training, motivation, organizational advancement, and performance management in direct sales operations. Subsequent international business and management experience, together with graduate study at Thunderbird School of Global Management, informs the present research into algorithmic management, human judgment, and institutional governance. These historical foundations are **practitioner experience**, not claims that GRI conducted formal research in the 1990s.
+GRI's formal research journey began in **2021**, but the practical experience informing it extends to **Grand Advertising in the 1990s**, where founder David Grand worked with leadership development, training, motivation, organizational advancement, and performance management in sales operations. Subsequent international business and management experience, together with graduate study at Thunderbird School of Global Management, informs the present research into algorithmic management, human judgment, and institutional governance. These historical foundations are **practitioner experience**, not claims that GRI conducted formal research in the 1990s.
 
 [Explore the research chronology, evidence status and scholarly foundations](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md).
 
