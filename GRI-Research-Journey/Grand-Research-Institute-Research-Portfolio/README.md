@@ -25,7 +25,7 @@ The portfolio is the canonical research index. Earlier and parallel directory st
 
 ## Historical leadership foundations and research chronology
 
-**1990s | Grand Advertising and human leadership practice.** Founder David Grand's practitioner history includes Grand Advertising's direct sales operations, team development, mentoring, standardized field training, performance feedback, and advancement practices. These experiences are historical context for the research questions, not retrospective empirical trials or formally published GRI studies.
+**1990s | Grand Advertising and human leadership practice.** Founder David Grand's practitioner history includes Grand Advertising's sales operations, team development, mentoring, standardized field training, performance feedback, and advancement practices. These experiences are historical context for the research questions, not retrospective empirical trials or formally published GRI studies.
 
 **Subsequent years | International business and institutional experience.** Entrepreneurial and cross border management experience informs comparative questions about negotiation, organizational culture, institutional constraints, and decision making. Specific achievements or outcomes require source documentation before being treated as independently verified.
 
