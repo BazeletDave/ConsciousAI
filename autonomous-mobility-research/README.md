@@ -4,6 +4,8 @@
 
 ---
 
+> **Archival research notice (October 2026):** This is a dated June 2025 working paper, preserved to document GRI's research development. Several statements below concerning autonomous-vehicle deployments, the June 2025 Part 555 regulatory characterization, safety comparisons, cited public trials, and the “Tag & Earn” program lack directly linked primary evidence in this document. They should **not be treated as independently verified current facts or regulatory guidance**. In particular, the description of Part 555 as a June 2025 rule change requires verification against the applicable NHTSA rulemaking and exemption authority. Original text remains visible for longitudinal comparison; consult updated primary sources before relying on any quantitative or legal claim.
+
 ## 1. Introduction  
 Autonomous vehicles (AVs), exemplified by recent RoboTaxi deployments from Waymo, Tesla, and Amazon's Zoox, represent a significant advancement driven by layered, probability based artificial intelligence (AI). This paper from the Grand Research Institute examines these complex systems, analyzing both their underlying technological constructs and the implications of recent public developments and regulatory shifts.
 
