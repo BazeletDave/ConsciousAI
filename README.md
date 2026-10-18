@@ -6,7 +6,7 @@
 
 **[Grand Research Institute — Institutional Research Brief →](GRI-Research-Journey/Institutional-Research-Brief/README.md)**
 
-A concise, evidence-qualified entry point for government, institutional, academic, and organizational readers. It connects the AI Paradox, the Legitimacy Paradox, algorithmic management, global governance, and the underlying research archive.
+A concise, evidence qualified entry point for government, institutional, academic, and organizational readers. It connects the AI Paradox, the Legitimacy Paradox, algorithmic management, global governance, and the underlying research archive.
 
 **[Explore the Master Research Portfolio](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md)** · **[Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md)** · **[Cambodian Antiquities and Institutional Legitimacy](GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md)**
 
