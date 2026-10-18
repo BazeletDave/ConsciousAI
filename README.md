@@ -8,6 +8,8 @@ GRI's formal research journey began in **2021**, but the practical experience in
 
 [Explore the research chronology, evidence status and scholarly foundations](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md).
 
+**Featured historical research:** [**The Legitimacy Paradox | Cambodian Antiquities, Douglas Latchford, and the AI Paradox →**](GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md) — A GRI research development paper connecting Khmer antiquities provenance, institutional legitimacy, and the governance of AI.
+
 ## Start Here | Research and Institutional Leadership
 
 **Grand Research Institute (GRI)** is an independent research organization founded by David Grand. This repository documents an evolving research program beginning in 2021, connecting global management, algorithmic decision systems, institutional political economy and accountable AI.
