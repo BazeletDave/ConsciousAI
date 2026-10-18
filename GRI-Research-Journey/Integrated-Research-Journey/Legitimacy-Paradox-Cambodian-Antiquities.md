@@ -112,8 +112,6 @@ The following references are reproduced as **source leads from the author suppli
 - “What Deters Antiquities Looting and Trafficking?” *Advances in Archaeological Practice* (2025).
 - United States Attorney's Office, Southern District of New York. Latchford related announcements and civil proceedings, 2019–2023, including the November 27, 2019 charges; November 8, 2021 Denver action; January 11, 2022 forfeiture action; August 8, 2022 return announcement; and 2023 estate settlement and repatriation announcements.
 
-**Next evidence task:** Add exact URLs, publication metadata, court identifiers, and object level provenance records. Preserve this research development edition as a dated record of the theory's evolution.
-
 ---
 
 *GRI Research Journey | David A. Grand | Working paper | August 2026 origin, October 2026 repository edition. Public research does not imply peer review, university endorsement, or empirical confirmation of the proposed theory.*
