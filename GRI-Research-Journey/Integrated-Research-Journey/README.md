@@ -9,6 +9,10 @@
 
 This is a living, open research program rather than a completed or independently validated theory. It connects the GRI research record, professional management practice, global management scholarship, and developing empirical methods. Earlier papers retain their own dates and claims. New evidence may support, qualify, or contradict the proposed frameworks.
 
+
+> **Featured historical research:** [**The Legitimacy Paradox | Cambodian Antiquities, Douglas Latchford, and the AI Paradox →**](Legitimacy-Paradox-Cambodian-Antiquities.md)  
+> Explore the full research companion on looted Khmer antiquities, provenance, institutional legitimacy, repatriation, and the structural implications for AI validation and governance.
+
 ## 1. Research origins and intellectual continuity
 
 | Period | Contribution | Evidence standard |
@@ -35,7 +39,7 @@ This chronology distinguishes the origin of management experience from the begin
 
 **Causal sequence under investigation:** objective → optimization → successful execution → human and institutional adaptation → second order effects → institutional response → changed equilibrium. The legitimacy mechanism can enter earlier, at the representation and validation stages.
 
-## 3. The Legitimacy Paradox as a historical research stream
+## 3. [The Legitimacy Paradox | Cambodian Antiquities and Douglas Latchford](Legitimacy-Paradox-Cambodian-Antiquities.md)
 
 The Latchford associated Cambodian antiquities record provides a bounded setting for tracing provenance narratives, intermediaries, expert validation, institutional acquisition, contradictory evidence, and restitution or repatriation. This is a structural comparison with AI governance, **not** a moral equivalence between AI and antiquities trafficking.
 
