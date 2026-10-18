@@ -102,6 +102,8 @@ A formal scholarly edition requires a systematic literature review, operational 
 
 ## 10. Research source base supplied in August 2026
 
+**Foundational investigative book:** Campbell, Matthew. *The Man Who Stole the Gods: A True Story of War, Obsession, and a Global Art Conspiracy*. New York: Portfolio/Penguin, 2026. ISBN 9780593716007. [Publisher record](https://www.penguinrandomhouse.com/books/739182/the-man-who-stole-the-gods-by-matthew-campbell/). This book is an important historical and investigative source for the Latchford case, including the networks connecting Khmer antiquities trafficking, collectors, dealers, and museums. It is distinct from judicial findings and peer-reviewed scholarship.
+
 The following references are reproduced as **source leads from the author supplied development paper**, not independently verified bibliographic entries:
 
 - Hanwong, Tanongsak, Lalita Hanwong, and Stephen A. Murphy. “The Prakhon Chai Hoard Debunked: Unravelling Six Decades of Myth, Misdirection, and Misidentification.” *International Journal of Cultural Property* 31 (2024): 177–201.
