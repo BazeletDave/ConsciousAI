@@ -16,9 +16,8 @@ GRI's formal research journey began in **2021**, but the practical experience in
 
 [Explore the research chronology, evidence status and scholarly foundations](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md).
 
-**Featured historical research:** [**The Legitimacy Paradox | Cambodian Antiquities, Douglas Latchford, and the AI Paradox →**](GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md) — A GRI research development paper connecting Khmer antiquities provenance, institutional legitimacy, and the governance of AI.
 
-## Start Here | Research and Institutional Leadership
+## Research and Institutional Leadership
 
 **Grand Research Institute (GRI)** is an independent research organization founded by David Grand. This repository documents an evolving research program beginning in 2021, connecting global management, algorithmic decision systems, institutional political economy and accountable AI.
 
@@ -40,7 +39,11 @@ GRI's formal research journey began in **2021**, but the practical experience in
 
 ---
 
-## The Back Door | Website
+## Related Creative and Public Engagement Projects
+
+The following projects are distinct from GRI's empirical research and are not presented as institutional findings.
+
+### The Back Door | Website
 
 Explore the world of *The Back Door*, the upcoming novel by David Grand, author of *From Code to Consciousness*. A fictional thriller about artificial intelligence, infrastructure, and power, its story feels closer to reality every day.
 
@@ -52,13 +55,13 @@ The game project is active and available through ASU Handshake. The game will co
 
 [View The Back Door Website Source](THE-BACK-DOOR-ORIGINAL-WEBSITE)
 
-## Sunday Funday | Grand Research Institute
+### Sunday Funday | Grand Research Institute
 
 Explore conversations on artificial intelligence, leadership, management, and governance.
 
 **[Watch Sunday Funday on YouTube](https://www.youtube.com/@grandresearchinstitute)**
 
-## 🌐 Mission
+## Mission
 
 To advance responsible artificial intelligence through transparent governance, empirical research, and accountable technological innovation.
 
@@ -68,7 +71,7 @@ Our mission is to ensure that as artificial intelligence assumes greater respons
 
 From Code to Consciousness: Advancing the science, management, and governance of responsible AI.
 
-## 🔑 Research Areas
+## Research Areas
 
 - **Algorithmic Management:** Platform labor, incentive structures, automated decision systems, and management accountability.
 - **Institutional Governance:** Human authorization, organizational oversight, transparency, and governance of autonomous systems.
@@ -78,7 +81,7 @@ From Code to Consciousness: Advancing the science, management, and governance of
 
 These are research priorities, not claims that operational software tools or community governance mechanisms have been deployed.
 
-## 📚 Research Foundations: *From Code to Consciousness*
+## Research Foundations: *From Code to Consciousness*
 
 *From Code to Consciousness* by David Grand provides an intellectual foundation for ongoing research conducted through the Grand Research Institute.
 
@@ -102,7 +105,7 @@ This project covers:
 *How AI can serve humanity’s collective good with transparency and responsibility.*
 
 
-## 📈 Potential Future Research Directions
+## Proposed Research Concepts (Not Deployed)
 
 - **Ethical Intelligence API** — For corporate AI auditing.  
 - **Transparency Graph** — To visualize algorithmic influence and origin.  
@@ -112,7 +115,7 @@ This project covers:
 
 Readers can review the linked research materials, examine stated evidence and limitations, and propose corrections or substantive additions through GitHub issues when enabled. Contributions should distinguish observations from hypotheses and conclusions and cite original sources where available.
 
-## 📚 Grand Research Institute | Research Journey
+## Grand Research Institute | Research Journey
 
 ConsciousAI incorporates the Grand Research Institute's ongoing research into artificial intelligence, algorithmic management, institutional governance, autonomous mobility, and human oversight.
 
