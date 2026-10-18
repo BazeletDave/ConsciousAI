@@ -7,7 +7,7 @@
 
 > **Core question:** What happens to human judgment, institutional authority, accountability, and governance when intelligent systems become successful enough to reshape the environments in which they operate?
 
-This is a living, open research program rather than a completed or independently validated theory. It connects the GRI research record, professional management practice, Thunderbird global management learning, and developing empirical methods. Earlier papers retain their own dates and claims. New evidence may support, qualify, or contradict the proposed frameworks.
+This is a living, open research program rather than a completed or independently validated theory. It connects the GRI research record, professional management practice, global management scholarship, and developing empirical methods. Earlier papers retain their own dates and claims. New evidence may support, qualify, or contradict the proposed frameworks.
 
 ## 1. Research origins and intellectual continuity
 
@@ -60,15 +60,13 @@ Candidate measures include override frequency, appeals, correction latency, prod
 
 Existing [Uber and Lyft research](../Algorithmic-Management/Uber-Lyft-Research/) provides an applied research stream, but individual offer observations must not be generalized into platform wide earnings or algorithmic intent without appropriate samples and identification.
 
-## 5. Thunderbird as a scholarly integration environment
+## 5. Global management as a research foundation
 
-Thunderbird School of Global Management coursework, including TAM 505 and TAM 582, provides opportunities to compare GRI propositions against established global management, intercultural communication, institutional theory, political economy, organizational learning, and leadership scholarship.
+Global management study provides analytical lenses for testing GRI propositions against established organizational behavior, intercultural communication, institutional theory, political economy, organizational learning, and leadership scholarship. These connections are integrated as research methods and conceptual comparisons rather than formal announcements about academic pathways or relationships.
 
-David A. Grand is the author of GRI's interpretations and original research propositions. Faculty members may be identified as instructors or intellectual influences **when the specific course, teaching relationship, or cited scholarship is documented**. Such attribution does not imply coauthorship, supervision, endorsement, or independent validation by Thunderbird or Arizona State University.
+For each learning connection, preserve the date, original source, relevant concept, research question, alternative interpretation, and resulting revision. The public record centers on the development of GRI's ideas and evidence, not individual instructors or future academic plans.
 
-For each academic connection, record: course and date; instructor where verified; assigned or published source; relevant concept; connection to a GRI research question; competing interpretation; and a revision or new test suggested by the learning. Do not republish copyrighted course materials without permission.
-
-Recurring cases, including the Latin American Intel case discussed in coursework, should be treated as opportunities to compare prior knowledge with new theoretical perspectives, not as proof of superior research outcomes.
+Recurring case studies, including international business cases, provide opportunities to revisit earlier findings, compare perspectives, and identify questions for further inquiry. Familiarity with a case does not replace fresh evidence or critical testing.
 
 ## 6. Research questions and empirical agenda
 
@@ -118,6 +116,6 @@ This public architecture is an integration of supplied author manuscripts and ex
 ---
 
 **Research authorship:** David A. Grand | Grand Research Institute  
-**Academic context:** Thunderbird School of Global Management, Arizona State University; independent GRI research, not a university publication or endorsement.  
+**Research context:** Independent GRI research integrating professional practice, global management scholarship, and longitudinal investigation.  
 **Status:** Living research development record. Public access supports scrutiny; it does not establish peer review.  
 **Revision principle:** preserve the dated intellectual history while allowing evidence to revise the conclusions.
