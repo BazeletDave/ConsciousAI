@@ -10,6 +10,8 @@
 
 > **Science makes technology possible. Markets enable its expansion. Institutions determine whether technological progress produces responsible, sustainable benefits for society.**
 
+**[Institutional Research Brief | Executive entry point for public-sector and institutional readers →](../Institutional-Research-Brief/README.md)**
+
 ## Navigate the research
 
 | Reader priority | Recommended starting point |
