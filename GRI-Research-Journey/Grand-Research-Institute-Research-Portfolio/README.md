@@ -6,7 +6,7 @@
 **Independent research institution:** Grand Research Institute LLC, Florida  
 **Research program:** 2021 to Present | Ongoing  
 **Portfolio update:** October 16, 2026  
-**Research status:** Published work, exploratory field studies, conceptual frameworks, applied prototypes, and a developing doctoral research agenda
+**Research status:** Published work, exploratory field studies, conceptual frameworks, applied prototypes, and a continuing research journey
 
 > **Science makes technology possible. Markets enable its expansion. Institutions determine whether technological progress produces responsible, sustainable benefits for society.**
 
@@ -19,6 +19,8 @@
 | Leadership, strategy and institutional theory | [Algorithmic Management and Institutional Leadership](../Algorithmic-Management-Institutional-Leadership/README.md) |
 | Applied platform management and field research | [Uber and Lyft research](../Algorithmic-Management/Uber-Lyft-Research/README.md) |
 | AI decision architecture and October 2026 academic context | [The AI Paradox research edition](../../Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md) |
+| **Cambodian antiquities, Douglas Latchford, and the Legitimacy Paradox** | [**Explore the historical research and AI Paradox connection**](../Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md) |
+| Integrated AI Paradox research architecture | [**Living GRI Research Journey**](../Integrated-Research-Journey/README.md) |
 | Figures and visual interpretation | [Figures and visual materials](../Algorithmic-Management-Institutional-Leadership/Figures-and-Visual-Materials.md) |
 
 The portfolio is the canonical research index. Earlier and parallel directory structures remain available to preserve historical links and citation continuity.
@@ -71,7 +73,7 @@ Its **Bretton Woods analogy is explicitly a testable institutional coordination 
 
 ## A unified research architecture
 
-Three empirical pillars anchor the developing doctoral agenda:
+Three empirical pillars anchor the continuing research program:
 
 1. **Algorithmic management:** How platforms allocate opportunities, measure performance, and exercise managerial control through software.
 2. **Agentic management:** How operational authority, audit trails, human approvals, and exception handling change when software agents execute work.
@@ -91,20 +93,23 @@ These studies are connected through institutional theory, organizational control
 
 **Research infrastructure:** The ConsciousAI repository, mobility research, applied digital projects, and ongoing field evidence capture create a version controlled public record that can be expanded and critically assessed.
 
-**Next phase:** Operational definitions, transparent sampling, reproducible datasets, comparative field studies, institutional case selection, independent criticism, and doctoral level validation.
+**Next phase:** Operational definitions, transparent sampling, reproducible datasets, comparative field studies, institutional case selection, independent criticism, and independent scholarly validation.
 
 ## Research library | Read the published archive
+
+**Featured research:** [**The Legitimacy Paradox | Cambodian Antiquities, Douglas Latchford, and the AI Paradox →**](../Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md) — A historical case of provenance, institutional validation, and the implications for AI governance.
+
 
 The **full text editions** below are available directly through GitHub. They preserve the extracted wording of the archived documents in searchable Markdown; PDF pagination, image placement, and some typesetting may differ from the source publications.
 
 ### Core portfolio
 
 1. **[Comprehensive Research Compendium | October 2026](GRI_Research_Journey_Comprehensive_Compendium_2026-10-09.md)** — the principal integrated research publication with underlying source studies.
-2. **[Executive Research Portfolio | October 2026](GRI_Research_Journey_Executive_Portfolio_2026-10-09.md)** — an accessible overview of GRI's institutional mission, research pillars, and prospective doctoral agenda.
+2. **[Executive Research Portfolio | October 2026](GRI_Research_Journey_Executive_Portfolio_2026-10-09.md)** — an accessible overview of GRI's institutional mission, research pillars, and continuing research development.
 
 ### Foundational research papers
 
-- **[Doctoral Journey: Evidence Upgrade and Research Review | August 2026](source-papers/Doctoral_Journey_Evidence_Upgrade_August_2026.md)** — research evidence quality, theoretical architecture, methodological gaps, and next scholarly requirements.
+- **[Evidence Upgrade and Research Review | August 2026](source-papers/Doctoral_Journey_Evidence_Upgrade_August_2026.md)** — research evidence quality, theoretical architecture, methodological gaps, and next scholarly requirements.
 - **[AI Paradox and Human Provenance | August 2026](source-papers/AI_Paradox_Human_Provenance_August_2026.md)** — identity, delegated authority, and the contestability of human agency.
 - **[AI Paradox: Integrated Political Economy | September 2026](source-papers/AI_Paradox_Integrated_Political_Economy_September_2026.md)** — institutional and economic consequences of increasingly autonomous systems.
 - **[From Code to Consciousness: GRI Research Working Paper](source-papers/From_Code_to_Consciousness_GRI_Research_Working_Paper.md)** — foundational research document; separate from the published nonfiction book.
@@ -116,7 +121,7 @@ This portfolio subdirectory contains original working papers and searchable text
 
 The detailed Uber and Lyft evidence dossier is **not published** because underlying screenshots and route information require disclosure and privacy review. In particular, observed offer equivalents should not be described as actual hourly wages.
 
-Work in progress is not peer reviewed by virtue of appearing in this public archive. Proposed doctoral research does not represent a completed doctoral dissertation or university endorsement.
+Work in progress is not peer reviewed by virtue of appearing in this public archive. Prospective research directions do not represent completed studies or university endorsement.
 
 ## Research quality and safeguards
 
