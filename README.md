@@ -2,6 +2,14 @@
 
 **ConsciousAI** is a research repository within the Grand Research Institute ecosystem. It documents inquiry into artificial intelligence, algorithmic management, institutional governance, technological innovation, and human oversight. The repository brings together research publications, case studies, empirical observations, and selected project resources. It is not presented as a deployed ethics auditing service or a formal standards setting body.
 
+## Institutional Research | Start Here
+
+**[Grand Research Institute — Institutional Research Brief →](GRI-Research-Journey/Institutional-Research-Brief/README.md)**
+
+A concise, evidence-qualified entry point for government, institutional, academic, and organizational readers. It connects the AI Paradox, the Legitimacy Paradox, algorithmic management, global governance, and the underlying research archive.
+
+**[Explore the Master Research Portfolio](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md)** · **[Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md)** · **[Cambodian Antiquities and Institutional Legitimacy](GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md)**
+
 ## Historical Foundations | From Human Leadership to AI Governance
 
 GRI's formal research journey began in **2021**, but the practical experience informing it extends to **Grand Advertising in the 1990s**, where founder David Grand worked with leadership development, training, motivation, organizational advancement, and performance management in sales operations. Subsequent international business and management experience, together with graduate study at Thunderbird School of Global Management, informs the present research into algorithmic management, human judgment, and institutional governance. These historical foundations are **practitioner experience**, not claims that GRI conducted formal research in the 1990s.
@@ -121,7 +129,7 @@ David Grand and the Grand Research Institute connect a contemporaneous Thunderbi
 
 [**Research Journey**](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio)
 
-Explore the Grand Research Institute's consolidated research portfolio, founder mission, AI governance frameworks, doctoral research direction, and supporting research publications.
+Explore the Grand Research Institute's consolidated research portfolio, founder mission, AI governance frameworks, continuing research development, and supporting research publications.
 
 ### Algorithmic Management, Institutional Leadership and the AI Paradox
 
