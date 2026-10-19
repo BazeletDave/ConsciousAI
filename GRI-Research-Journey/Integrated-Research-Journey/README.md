@@ -10,6 +10,8 @@
 This is a living, open research program rather than a completed or independently validated theory. It connects the GRI research record, professional management practice, global management scholarship, and developing empirical methods. Earlier papers retain their own dates and claims. New evidence may support, qualify, or contradict the proposed frameworks.
 
 
+> **Global government governance crosswalk (19 October 2026):** [The AI Paradox and Algorithmic Management: Global Public-Sector Governance, Evidence Provenance and Institutional Research Instruments](2026-10-19-global-government-ai-governance-evidence-and-instruments.md) synthesizes public NIST, EU, Canadian, UK, Singapore, OECD, UNESCO and Council of Europe sources with GRI's independent research, historic Thunderbird cases, Uber analysis and proposed reusable evidence instruments. It distinguishes binding duties, guidance, conceptual proposals and unverified claims.
+
 > **Featured historical research:** [**The Legitimacy Paradox | Cambodian Antiquities, Douglas Latchford, and the AI Paradox →**](Legitimacy-Paradox-Cambodian-Antiquities.md)  
 > Explore the full research companion on looted Khmer antiquities, provenance, institutional legitimacy, repatriation, and the structural implications for AI validation and governance.
 
@@ -32,6 +34,12 @@ This is a living, open research program rather than a completed or independently
 | October 2026 onward | Integration with algorithmic management, global institutional analysis, AI governance, and Thunderbird coursework | Maintain versioned case notes, source ledgers, alternative explanations, and methodological revisions |
 
 This chronology distinguishes the origin of management experience from the beginning of formal research. It does not retroactively assign a 2021 date to earlier professional practice or a 1990s date to later AI scholarship.
+
+## Independent GRI mission and future AI access
+
+GRI's mission is to develop independent, original research on the AI Paradox, algorithmic management, institutional authority and governance in the Fourth Industrial Revolution. Academic coursework, licensed teaching cases and established theory are **attributed inputs**, not subjects GRI claims to revise, own or replace. GRI's own contributions are the synthesis, research questions, field observation, proposed instruments, analysis and versioned findings. Neither faculty nor universities are implied to endorse or coauthor GRI research.
+
+The public research archive should be accessible to future researchers and authorized AI tools through durable Markdown, stable relative links, machine-readable metadata and schemas, source ledgers, original reproducible code when implemented, evidence labels, correction history and permission boundaries. Open-source research does **not** grant access to private emails, personal files, licensed course materials or commercial IP. Future AI systems must distinguish original evidence, GRI interpretation, hypotheses, simulations and validated results, rather than recycling a summary as an independently verified source.
 
 ## 2. Unified research architecture
 
