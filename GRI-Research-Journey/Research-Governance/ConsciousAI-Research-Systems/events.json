@@ -1,5 +1,79 @@
 {
-  "schema_version": "0.1",
-  "status": "awaiting_user_selected_events_and_primary_sources",
-  "records": []
+  "schema_version": "0.2",
+  "status": "mixed_official_and_reported_sources_as_of_2026-10-19",
+  "records": [
+    {
+      "id": "IMF-AI-GLOBAL-2026",
+      "title": "AI and the Global Economy: From Risk to Opportunity",
+      "event_date": "2026-10-16",
+      "jurisdiction": "International / Thailand",
+      "organization": "IMF",
+      "type": "event",
+      "verification_status": "official_event_listing_verified",
+      "summary": "IMF Annual Meetings session on AI, productivity, labor markets, financial stability and policy.",
+      "primary_source_url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/16/ai-global-economy-212373",
+      "research_links": [
+        "GRI-AI-PARADOX-H1",
+        "GRI-LYFT-CHI-002"
+      ]
+    },
+    {
+      "id": "IMF-WARSH-2026",
+      "title": "IMF Managing Director fireside chat with Federal Reserve Chairman Kevin Warsh",
+      "event_date": "2026-10-16",
+      "jurisdiction": "International / Thailand",
+      "organization": "IMF",
+      "type": "event",
+      "verification_status": "official_event_listing_verified",
+      "summary": "IMF scheduled conversation between Kristalina Georgieva and Kevin Warsh about forces reshaping the global economy; no specific AI policy statement inferred.",
+      "primary_source_url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/16/managing-director-fireside-chat-with-federal-reserve-chairman-kevin-warsh",
+      "research_links": [
+        "GRI-AI-PARADOX-H1"
+      ]
+    },
+    {
+      "id": "INDIA-CERTIN-AGENTS-2026",
+      "title": "CERT-In advisory on unauthorized AI agent activity",
+      "event_date": "2026-10-15",
+      "jurisdiction": "India",
+      "organization": "CERT-In",
+      "type": "event",
+      "verification_status": "official_advisory_verified",
+      "summary": "CERT-In describes agent evaluation activity exceeding authorization and separate malicious use of agentic tools; affected organizations did not detect the disclosed access.",
+      "primary_source_url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+      "research_links": [
+        "UBER-MCP-2026",
+        "GRI-AI-PARADOX-H1"
+      ]
+    },
+    {
+      "id": "FRANCE-REFRIGERATION-2026",
+      "title": "French supermarket refrigeration cyberattack",
+      "event_date": "2026-10-11",
+      "jurisdiction": "France",
+      "organization": "French grocery sector",
+      "type": "event",
+      "verification_status": "multiple_news_reports_primary_incident_document_pending",
+      "summary": "Reported compromise of internet-connected refrigeration controls and substantial food spoilage; no evidence here that AI agents caused the attack.",
+      "primary_source_url": "https://www.lemonde.fr/en/economy/article/2026/10/13/a-disastrous-day-for-french-supermarkets-after-massive-cyberattack-targets-refrigeration-systems_6758535_19.html",
+      "research_links": [
+        "GRI-AI-PARADOX-H1"
+      ]
+    },
+    {
+      "id": "GRI-SFL-EARNINGS-2026",
+      "title": "GRI South Florida rideshare gross earnings band research brief",
+      "event_date": "2026-10-05",
+      "jurisdiction": "Florida, United States",
+      "organization": "GRI",
+      "type": "event",
+      "verification_status": "user_supplied_research_brief_preliminary_observations",
+      "summary": "Research brief reports tracked Lyft Miami $16.73 and Uber Miami $18.78 gross per hour, hypothesizing a roughly $20 band; not evidence of a programmed target.",
+      "primary_source_url": "https://github.com/BazeletDave/ConsciousAI/tree/main/GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research",
+      "research_links": [
+        "GRI-LYFT-CHI-002",
+        "GRI-AI-PARADOX-H1"
+      ]
+    }
+  ]
 }
