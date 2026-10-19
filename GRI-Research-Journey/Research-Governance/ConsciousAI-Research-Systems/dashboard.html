@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GRI Global AI Governance Intelligence</title><style>
+:root{font-family:system-ui,-apple-system,sans-serif;color:#172333;background:#f4f7fa}body{margin:0}header{background:#101e33;color:white;padding:20px 5vw}h1{margin:0;font-size:1.5rem}small{color:#9ab2ca}.wrap{max-width:1400px;margin:auto;padding:22px;display:grid;grid-template-columns:260px 1fr 320px;gap:18px}.panel{background:white;border:1px solid #dce3ea;border-radius:12px;padding:16px;min-width:0}label{display:block;font-size:13px;font-weight:600;margin:14px 0 6px}select,input{width:100%;box-sizing:border-box;padding:10px;border:1px solid #aebbc8;border-radius:8px}#graph{width:100%;height:570px;background:#fafcff;border:1px solid #e0e6ec;border-radius:8px}circle{cursor:pointer;stroke:white;stroke-width:2}line{stroke:#aab9c8;stroke-width:1.5}text{font:12px system-ui;pointer-events:none;fill:#172333}.item{padding:10px;border-bottom:1px solid #e5e9ef;cursor:pointer}.item:hover{background:#f2f6fb}.meta{font-size:12px;color:#596c80}.pill{display:inline-block;background:#e8edf5;padding:3px 7px;border-radius:12px;font-size:11px;margin:3px}a{color:#1454a3;overflow-wrap:anywhere}pre{white-space:pre-wrap;overflow-wrap:anywhere}#details{font-size:14px;line-height:1.5}@media(max-width:980px){.wrap{grid-template-columns:1fr}#graph{height:450px}}</style></head>
+<body><header><h1>GRI | Global AI Governance Intelligence</h1><small>Research prototype · source status visible · not a live verified legal feed</small></header>
+<div class="wrap"><aside class="panel"><h3>Explore</h3><label for="filter">Jurisdiction / organization</label><select id="filter"><option value="">All</option></select><label for="kind">Record type</label><select id="kind"><option value="">All types</option></select><label for="search">Search evidence</label><input id="search" placeholder="Policy, event, case..."><p class="meta">Edges show research relationships, not causal claims. Select a node to inspect provenance.</p><h3>Events</h3><div id="events"></div></aside>
+<main class="panel"><h3>Institutional relationships</h3><svg id="graph" role="img" aria-label="Interactive research relationship network"></svg><p class="meta" id="count"></p><h3>Policy intake</h3><div id="policies"></div></main>
+<aside class="panel"><h3>Evidence and provenance</h3><div id="details">Select a node or event.</div></aside></div>
+<script>
+const $=id=>document.getElementById(id);let nodes=[],edges=[],events=[],policies=[];
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const color=t=>({observation:'#207d8a',company_report:'#5278b8',hypothesis:'#ad7d2c',policy:'#8046a3',event:'#c35b4c',institution:'#41765a',person:'#856fa5'}[t]||'#607487');
+async function get(path){const r=await fetch(path);if(!r.ok)throw Error(path+' '+r.status);return r.json()}
+function show(n){const d=$('details');d.innerHTML='<h3>'+esc(n.id||n.title)+'</h3><p>'+esc(n.claim||n.summary||n.title)+'</p>'+Object.entries(n).filter(([k])=>!['claim','summary','title'].includes(k)).map(([k,v])=>'<p><b>'+esc(k.replaceAll('_',' '))+':</b> '+esc(typeof v==='object'?JSON.stringify(v):v)+'</p>').join('')}
+function render(){
+ const q=$('search').value.toLowerCase(),org=$('filter').value,kind=$('kind').value;
+ const visible=nodes.filter(n=>(!org||n.organization===org||n.jurisdiction===org)&&(!kind||n.type===kind)&&JSON.stringify(n).toLowerCase().includes(q));
+ const ids=new Set(visible.map(n=>n.id));const e=edges.filter(x=>ids.has(x.source)&&ids.has(x.target));
+ const svg=$('graph'),w=svg.clientWidth||650,h=svg.clientHeight||570;svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
+ const positions=new Map(visible.map((n,i)=>{let angle=i*2.399963229728653,rad=40+Math.sqrt(i/Math.max(1,visible.length))*Math.min(w,h)*.36;return[n.id,{x:w/2+Math.cos(angle)*rad,y:h/2+Math.sin(angle)*rad}]}));
+ svg.innerHTML='';const ns='http://www.w3.org/2000/svg';
+ function el(tag,attrs){let a=document.createElementNS(ns,tag);Object.entries(attrs).forEach(([k,v])=>a.setAttribute(k,v));svg.appendChild(a);return a}
+ e.forEach(x=>{let a=positions.get(x.source),b=positions.get(x.target);el('line',{x1:a.x,y1:a.y,x2:b.x,y2:b.y})});
+ visible.forEach(n=>{let p=positions.get(n.id);const c=el('circle',{cx:p.x,cy:p.y,r:11,fill:color(n.type),tabindex:0,role:'button','aria-label':n.id});c.addEventListener('click',()=>show(n));c.addEventListener('keydown',ev=>{if(ev.key==='Enter')show(n)});let t=el('text',{x:p.x+15,y:p.y+4});t.textContent=(n.id||'').slice(0,28)});
+ $('count').textContent=visible.length+' visible nodes · '+e.length+' research relationships';
+ $('events').innerHTML=events.length?events.map(x=>'<div class="item" data-event="'+esc(x.id)+'"><b>'+esc(x.title)+'</b><div class="meta">'+esc(x.event_date||'Date pending')+' · '+esc(x.verification_status)+'</div></div>').join(''):'<p class="meta">No reviewed events entered yet.</p>';
+ document.querySelectorAll('[data-event]').forEach(el=>el.onclick=()=>show(events.find(x=>x.id===el.dataset.event)));
+ $('policies').innerHTML=policies.length?policies.map(x=>'<div class="item"><b>'+esc(x.title)+'</b><div class="meta">'+esc(x.jurisdiction)+' · '+esc(x.verification_status)+'</div></div>').join(''):'<p class="meta">No verified legal records have been ingested yet.</p>';
+}
+(async()=>{try{let [g,e,p]=await Promise.all([get('/graph'),get('/events'),get('/policies')]);nodes=g.nodes;edges=g.edges;events=e.records;policies=p.records;
+let orgs=[...new Set(nodes.map(x=>x.organization).filter(Boolean))].sort(),types=[...new Set(nodes.map(x=>x.type))].sort();$('filter').innerHTML+=[...orgs].map(x=>'<option>'+esc(x)+'</option>').join('');$('kind').innerHTML+=types.map(x=>'<option>'+esc(x)+'</option>').join('');['filter','kind','search'].forEach(x=>$(x).addEventListener('input',render));render()}catch(e){$('details').textContent='Cannot load research service: '+e.message+'. Start python server.py and open http://127.0.0.1:8000/dashboard';}})();
+</script></body></html>
