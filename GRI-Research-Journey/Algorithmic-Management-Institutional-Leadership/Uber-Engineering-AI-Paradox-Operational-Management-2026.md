@@ -35,3 +35,44 @@ Technical optimization may improve reliability without changing managerial autho
 
 ## Sources and provenance
 Primary materials: two Uber Engineering articles supplied in full in the research conversation, one describing MCP Gateway and one describing translation cache optimization. Named contributor attribution derives from a separately supplied screenshot excerpt. Exact URLs, dates, contributor roles and organizational assignments should be checked against the original publication pages before formal academic citation. Existing GRI Uber and Lyft research and institutional leadership materials provide the internal comparative framework. No Uber endorsement or privileged access is implied.
+
+
+## Extended comparative analysis: existing GRI cases
+
+### Case C: South Florida gross earnings band
+GRI's October 2026 Uber and Lyft dossier reports three Lyft style reservation offers with displayed gross earnings rates of $20.54 per displayed trip hour when including a known bonus and $19.79 excluding it. These are **preliminary offer calculations**, not a representative wage distribution, evidence of a platform wage target, or actual net income. The relevant institutional issue is whether a driver can see and challenge the variables that influence an offer, and whether managers can audit the resulting allocation.
+
+### Case D: Chicago paired consecutive transactions
+GRI Case Study 002 reports a contributor supplied screenshot showing consecutive Lyft trips by the same driver and passenger, 6.09 versus 5.95 miles, with passenger payments of $32.27 versus $40.81 and displayed **estimated Lyft fees** of $1.99 versus $21.03. Estimated fee shares were 6.17% and 51.53%, a 45.36 percentage point difference. The screenshot does not reveal final driver payouts, complete accounting or the pricing rule. This is an unusually concrete *auditability question*, not proof of misconduct. Source: [GRI Chicago case study](../Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md).
+
+### Cross case mechanism: where managerial discretion moves
+Kellogg, Valentine and Christin's (2020) framework identifies restricting, recommending, recording, rating, replacing and rewarding as algorithmic control mechanisms. GRI's platform cases foreground visibility, recommendation and economic allocation. Uber's MCP Gateway foregrounds permission to invoke operational tools and the ability to record or restrict agent actions. Its translation cache study foregrounds the infrastructural economics that make high volume computation practical. These are **analytical parallels**, not evidence that the same Uber systems determine Lyft pricing or that cache changes caused any worker outcome.
+
+A proposed process tracing chain is: management sets objectives and constraints; engineers implement data models, tools and permissions; automated systems produce outputs or actions; affected parties adapt; exceptions reach operational management; institutions determine what can be challenged and corrected. Evidence must be collected separately at every step.
+
+## Operational meeting comparison: practical instrument
+
+| Meeting question | Traditional management | Agent enabled management hypothesis | Observable measure |
+| --- | --- | --- | --- |
+| What changed? | Human assembled reporting | Automated exception detection | Reporting delay, missed anomalies |
+| Who can act? | Manager delegates to staff | Permissioned agent execution | Authorization and revocation logs |
+| What explains a result? | Manager requests analysis | Traceable tool and model outputs | Explanation completeness and reproducibility |
+| Who can object? | Worker or customer escalation | Formal appeal and override pathways | Appeal accessibility, correction latency |
+| Was value created? | Budget and productivity review | Integrated cost, quality and risk review | Unit costs, reliability, complaints, error losses |
+
+### Competing outcomes
+An agent can reduce coordination time **and** improve oversight if it provides traceable evidence, clear human veto rights and reliable correction. It can also accelerate errors if permissions are overbroad, information is incomplete or incentives reward throughput without adequate review. Both possibilities must be tested.
+
+## Institutional comparison and India research protocol
+The names Deepanshu Mehndiratta, Alok Srivastava, Vibhor Dhingra and Ankit Srivastava are preserved from the user supplied publication excerpt. Team membership, publication credits, role and location must be checked against full original sources. If a comparative study includes India based teams, sample by verified role and workplace, not inferred ethnicity or name. Use GLOBE practices versus values and power distance as hypotheses about organizational context, not explanations of any individual engineer's conduct. Record formal approval rights, actual escalation behavior, meeting structure, incentives, cross border coordination and applicable regulation.
+
+## Integration with GRI monograph
+This extension operationalizes the existing monograph's chapters on algorithmic organizational control, visibility allocation, institutional economics, financial value, agentic management, adaptive governance, comparative research design and falsification. The central GRI AI Compliance Paradox concerns systems that follow codified instructions while potentially diverging from their institutional purpose. For Uber MCP, the test is whether compliant tool calls produce accountable outcomes. For platform pricing, the test is whether rules and resulting allocations are intelligible and contestable. For cache optimization, the test is whether measured efficiency translates into durable operational value after reliability and other costs are considered.
+
+## Next evidence collection
+Priority 1: establish full article author lists, individual engineering roles and publication provenance. Priority 2: build a longitudinal register of matched rideshare transactions with confirmed final payouts and confounders. Priority 3: identify documented agent permission, override and audit patterns. Priority 4: interview managers and engineers, where authorized, on operational meeting changes. Priority 5: compare before and after financial, performance and institutional outcomes without treating association as causation.
+
+### Internal primary references
+- [GRI Uber and Lyft research dossier](../Algorithmic-Management/Uber-Lyft-Research/README.md)
+- [GRI Chicago paired transactions case](../Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md)
+- [GRI full research monograph](./Research-Monograph-Full-Text.md)
