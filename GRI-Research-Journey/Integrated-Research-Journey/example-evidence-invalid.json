@@ -1,0 +1,9 @@
+{
+  "record_id": "SYNTH-INVALID",
+  "observed_at_utc": "not-a-date",
+  "domain": "synthetic_governance_test",
+  "source_type": "synthetic_example",
+  "evidence_status": "not-a-permitted-category",
+  "claim": "Intentional invalid test fixture.",
+  "revision_id": "v0.1"
+}
