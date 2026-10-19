@@ -182,3 +182,5 @@ Explore GRI's longitudinal Uber and Lyft research, including the approximately $
 **Research Lead:** David Grand | Grand Research Institute  
 **Research Program:** 2021 to Present | Ongoing Longitudinal Research  
 **Research Scope:** Foundational inquiry since 2021, with subsequent field studies, published work, institutional analysis, and evolving research protocols. Individual studies retain their own documented dates; 2026 marks the formalization of several current investigations, not the beginning of the research program.
+
+**ConsciousAI research systems:** [Ethical Intelligence API, Transparency Graph and AI Policy Tracker](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/README.md) are now established as linked research specifications with an initial evidence registry and API contract. These are development assets, not deployed services.
