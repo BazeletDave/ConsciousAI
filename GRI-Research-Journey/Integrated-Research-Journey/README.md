@@ -13,6 +13,8 @@ This is a living, open research program rather than a completed or independently
 > **Featured historical research:** [**The Legitimacy Paradox | Cambodian Antiquities, Douglas Latchford, and the AI Paradox →**](Legitimacy-Paradox-Cambodian-Antiquities.md)  
 > Explore the full research companion on looted Khmer antiquities, provenance, institutional legitimacy, repatriation, and the structural implications for AI validation and governance.
 
+> **Academic ethics integration (19 October 2026):** [Donaldson's *Values in Tension* and the AI Paradox](2026-10-19-donaldson-global-ethics-algorithmic-management.md) connects the 1996 HBR global business ethics framework with GRI's independent algorithmic management research, with explicit attribution, source limitations and copyright safeguards.
+
 > **19 October 2026 cross-domain synthesis:** [The AI Paradox in the Fourth Industrial Revolution: Institutional Memory, Algorithmic Authority and Human Governance](2026-10-19-ai-paradox-institutional-memory-and-algorithmic-authority.md) develops GRI's independent comparative framework across digital legacy, financial decision systems, regulatory labeling, platform management and permission governed research archives. It distinguishes GRI research from commercial software and unverified implementation claims.
 
 > **19 October 2026 research milestone:** [Recursive Optimization, Feedback Integrity and Institutional Control](2026-10-19-recursive-optimization-feedback-and-institutional-control.md) extends the existing AI Paradox, platform management and institutional governance research through a documented synthesis and proposed empirical tests.
