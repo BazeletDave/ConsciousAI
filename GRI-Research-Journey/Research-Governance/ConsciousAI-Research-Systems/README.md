@@ -39,3 +39,7 @@ The [interactive research graph dashboard](dashboard.html) is served locally at 
 [GitHub Actions policy monitor](../../../.github/workflows/gri-policy-monitor.yml) is configured to request a run every three hours and supports manual dispatch. It runs the Python test suite and collects official U.S. Federal Register search metadata into [policy_candidates.json](policy_candidates.json) as an **unreviewed queue**, preserving first-seen timestamps and review status. The [collector](ingest_federal_register.py) is the first implemented official feed. GitHub Actions schedules can be delayed, disabled, or fail; **successful ongoing execution is not yet confirmed**. EU, ASEAN and other jurisdictions remain source candidates and are not yet automated.
 
 This is near-real-time periodic polling, not instantaneous event streaming. It cannot infer regulatory significance or validate claims without human source review. The interactive dashboard remains local and is not publicly hosted.
+
+## Global economic and institutional intelligence
+
+The [TAM 505 institutional economics framework](ECONOMIC-INTELLIGENCE.md) and [economic data source registry](economic_sources.json) extend the policy and event layers to macroeconomic conditions, labor markets, trade, infrastructure, institutional risk and managerial adaptation. Candidate feeds are not yet ingested or presented as real-time economic measurements.
