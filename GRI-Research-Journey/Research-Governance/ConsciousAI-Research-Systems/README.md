@@ -43,3 +43,7 @@ This is near-real-time periodic polling, not instantaneous event streaming. It c
 ## Global economic and institutional intelligence
 
 The [TAM 505 institutional economics framework](ECONOMIC-INTELLIGENCE.md) and [economic data source registry](economic_sources.json) extend the policy and event layers to macroeconomic conditions, labor markets, trade, infrastructure, institutional risk and managerial adaptation. Candidate feeds are not yet ingested or presented as real-time economic measurements.
+
+## Hosted deployment
+
+The dedicated [GRI Global Intelligence dashboard](https://gri-global-intelligence.onrender.com/dashboard) has been configured on Render as the `gri-global-intelligence` service, connected to this repository's `main` branch with automatic deployment enabled. [Render service status](https://dashboard.render.com/web/srv-dbb9i2jncjis7391jedg). The initial build was in progress at creation on October 19, 2026; the public URL is not proof of successful runtime operation. This separate service does not replace existing ConsciousAI deployments. The current dashboard reads checked in research and event data; international and economic feeds are not yet continuously ingested.
