@@ -1,0 +1,3 @@
+# GRI Publication and IP Controls
+
+Draft, 19 October 2026. Public research is distinct from private evidence, proprietary methods, personal data, licensed teaching materials and unpublished competition work. Before releasing any item, verify authorship, ownership, third-party permissions, consent, source integrity, academic rules and approval. Record a version and correction path. Existing repository MIT licensing remains unchanged and needs legal review; this document cannot revoke prior grants. Protect trade secrets by not uploading them. A public hash can authenticate a version but not its factual truth. Florida IP counsel and relevant university policies should review unresolved rights questions.
