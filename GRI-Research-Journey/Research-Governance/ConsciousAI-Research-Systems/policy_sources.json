@@ -1,0 +1,41 @@
+{
+  "schema_version": "0.1",
+  "status": "candidate_official_sources_require_endpoint_verification",
+  "sources": [
+    {
+      "id": "EU-COMMISSION",
+      "jurisdiction": "European Union",
+      "authority": "European Commission",
+      "homepage": "https://digital-strategy.ec.europa.eu/",
+      "status": "candidate_source_not_configured_for_automated_ingestion"
+    },
+    {
+      "id": "EU-EURLEX",
+      "jurisdiction": "European Union",
+      "authority": "EUR-Lex",
+      "homepage": "https://eur-lex.europa.eu/",
+      "status": "candidate_source_not_configured_for_automated_ingestion"
+    },
+    {
+      "id": "ASEAN",
+      "jurisdiction": "ASEAN",
+      "authority": "ASEAN Secretariat",
+      "homepage": "https://asean.org/",
+      "status": "candidate_source_not_configured_for_automated_ingestion"
+    },
+    {
+      "id": "US-FEDERAL-REGISTER",
+      "jurisdiction": "United States",
+      "authority": "Federal Register",
+      "homepage": "https://www.federalregister.gov/",
+      "status": "candidate_source_not_configured_for_automated_ingestion"
+    },
+    {
+      "id": "US-WHITE-HOUSE",
+      "jurisdiction": "United States",
+      "authority": "The White House",
+      "homepage": "https://www.whitehouse.gov/",
+      "status": "candidate_source_not_configured_for_automated_ingestion"
+    }
+  ]
+}
