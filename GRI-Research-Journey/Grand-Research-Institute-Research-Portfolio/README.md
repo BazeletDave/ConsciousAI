@@ -160,3 +160,7 @@ These works supply theoretical context; their inclusion does not imply endorseme
 ## Connected Uber and Lyft evidence program
 
 The [GRI Uber and Lyft field research](../Algorithmic-Management/Uber-Lyft-Research/README.md), [Chicago paired transaction case](../Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md), and [Uber engineering and managed agent case](../Algorithmic-Management-Institutional-Leadership/Uber-Engineering-AI-Paradox-Operational-Management-2026.md) form a linked comparative research program on economic allocation, agent permissions, engineering efficiency, operational management and institutional accountability. Uber and Lyft are separate firms; GRI field observations, company reported technical metrics and proposed hypotheses retain distinct evidence status.
+
+## ConsciousAI research systems development
+
+[Ethical Intelligence API, Transparency Graph and AI Policy Tracker](../Research-Governance/ConsciousAI-Research-Systems/README.md) connect GRI's institutional research to an initial structured evidence registry and documented interface specification. The three systems are in research prototype/design status and are not represented as operational corporate auditing or live legislative monitoring services.
