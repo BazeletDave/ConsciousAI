@@ -39,3 +39,8 @@ The complete text of the monograph is published in this repository. The original
 ## Figures and visual materials
 
 [**View the separate figures and charts companion**](./Figures-and-Visual-Materials.md). The graphical material corresponding to the monograph is documented in a separate companion file, with links to its original PDF page locations and explicit distinctions between published numerical evidence and illustrative research graphics.
+
+
+## Applied enterprise case: Uber engineering and the AI paradox
+
+[Read the integrated Uber engineering, operational management, and institutional accountability study](./Uber-Engineering-AI-Paradox-Operational-Management-2026.md). The research combines Uber's MCP Gateway, translation cache engineering and Software Factory accounts with [GRI's Uber and Lyft field research](../Algorithmic-Management/Uber-Lyft-Research/README.md), including the Chicago paired transaction case. It distinguishes company reported engineering outcomes, GRI observations and hypotheses, and proposes measurable managerial oversight and governance tests.
