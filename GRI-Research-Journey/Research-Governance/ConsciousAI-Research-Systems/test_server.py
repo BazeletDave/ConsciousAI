@@ -30,8 +30,8 @@ class ResearchServiceTests(unittest.TestCase):
 
     def test_graph_references_resolve(self):
         g = graph()
-        self.assertEqual(len(g["nodes"]), 4)
-        self.assertEqual(len(g["edges"]), 4)
+        self.assertEqual(len(g["nodes"]), 9)
+        self.assertEqual(len(g["edges"]), 12)
 
     def test_cases_filter(self):
         result = self.fetch("/cases?organization=Uber")
