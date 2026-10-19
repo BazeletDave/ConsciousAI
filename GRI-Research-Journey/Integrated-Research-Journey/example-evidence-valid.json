@@ -1,0 +1,11 @@
+{
+  "record_id": "SYNTH-001",
+  "observed_at_utc": "2026-10-19T12:00:00Z",
+  "domain": "synthetic_governance_test",
+  "source_type": "synthetic_example",
+  "evidence_status": "simulation",
+  "claim": "Synthetic example only; not a factual finding.",
+  "revision_id": "v0.1",
+  "permission_scope": "public",
+  "alternative_explanations": []
+}
