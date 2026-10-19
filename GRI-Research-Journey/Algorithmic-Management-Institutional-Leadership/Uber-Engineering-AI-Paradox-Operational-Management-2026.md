@@ -76,3 +76,54 @@ Priority 1: establish full article author lists, individual engineering roles an
 - [GRI Uber and Lyft research dossier](../Algorithmic-Management/Uber-Lyft-Research/README.md)
 - [GRI Chicago paired transactions case](../Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md)
 - [GRI full research monograph](./Research-Monograph-Full-Text.md)
+
+
+## Case E: Uber Software Factory and managed agent operations (new source supplied 19 October 2026)
+
+### Reported operational facts
+Uber's supplied Software Factory account states that more than 70% of pull requests are attributed to local or cloud agents, more than 3,600 agent skills have been built, and over 30,000 skill executions occur daily. From February to August 2026, weekly active agentic users reportedly increased sevenfold and requests 9.4 fold. The article reports cost per 1,000 requests down almost 34% from its peak with model held fixed, and cost per session down 52% from its June peak. Different metrics, baselines and dates must not be conflated. The article describes agents handling code review, CI repair, end to end pull requests, on call triage, bug diagnosis and maintenance, subject to human reviews and escalation. Attribution of a pull request to an agent does not establish that every stage was autonomous.
+
+### The six factor managerial cost model
+The article decomposes total spend as:
+
+**Users × sessions per user × turns per session × requests per turn × tokens per request × price per token.**
+
+This is a multiplicative operational accounting identity, not a demonstrated causal theory. GRI can use it to distinguish growth in adoption from efficiency gains, while adding quality, incident losses, human review costs, governance overhead and downstream value to assess organizational returns.
+
+### A managed agent control cycle
+Uber reports using task specific benchmarks and model selection based on quality, cost and reliability. Its uReview example measures precision, recall, F1, review cost, latency and noise. A reported AI Context Graph contains 24 million nodes and 80 million edges from over 30 internal systems. The article illustrates a single grounded query taking 38 seconds and producing the correct answer versus 20 minutes 9 seconds and an incorrect answer without grounding; this example is not a population level performance estimate.
+
+A proposed GRI management cycle is: leadership specifies objectives and acceptable risk; engineering defines benchmarks and access policies; agents execute bounded tasks; telemetry measures outcomes and exceptions; managers approve changes, review incidents and revise governance. This is an analytical abstraction, not a verified Uber organizational chart.
+
+### Direct connection to operational management meetings
+This case allows the meeting agenda to be studied as an operational control mechanism:
+1. **Portfolio:** Which agent workloads should exist, and who authorizes them?
+2. **Economics:** Did cost per *successful and accepted* outcome improve, accounting for human verification and rework?
+3. **Quality:** What happens to false positive reviews, missed defects, rollback rates and incident response?
+4. **Authority:** Who can grant tool access, change model defaults, override an agent or stop execution?
+5. **Labor and capability:** How do engineering roles, training, discretion, supervision and escalation change?
+6. **Institutional legitimacy:** Can affected employees and stakeholders inspect or contest consequential automated decisions?
+
+### AI paradox: efficiency versus institutional burden
+A testable proposition is that rising automated task share may reduce routine coordination time while increasing the importance of oversight, exception management, benchmark governance and clear assignment of responsibility. Counterhypotheses are equally important: agent automation may improve both efficiency and auditability, or produce little managerial change if human engineers retain effective decision control.
+
+### The integrated Uber and GRI research comparison
+- **GRI South Florida driver offers:** visibility and incentives; limited preliminary observations.
+- **GRI Chicago paired Lyft transactions:** explanation and contestability of divergent estimated fee allocations; not evidence of Uber's internal systems.
+- **Uber translation cache:** computational resource efficiency; not an AI management system by itself.
+- **Uber MCP Gateway:** delegated access and action authorization.
+- **Uber Software Factory:** automated production workflows, benchmarked agent quality and managerial spend controls.
+
+The comparative institutional mechanism is **allocation of decision rights under algorithmically mediated work**. These cases span different firms, technical functions and evidence types; do not claim a single shared causal system.
+
+### Research design and hypotheses
+H6: Increasing managed agent task share is associated with reduced manual reporting effort, conditional on task mix and organizational size.
+H7: Stronger agent benchmarking and permission controls predict fewer consequential execution errors after controlling for workload complexity.
+H8: Savings in model cost per session do not necessarily correspond to savings in total cost per accepted engineering outcome once review, retries and incidents are counted.
+H9: Managers shift meeting time from routine status review toward exception handling and policy decisions as automated task initiation increases.
+H10: Concentration of model routing and tool permissions may improve consistency but increase dependence on central platform governance.
+
+Required evidence includes a time series of human and agent initiated sessions, accepted PRs and revert rates, intervention and escalation records, incident severity, engineer time use, managerial meeting agendas, employee interviews, unit cost attribution and comparative controls. The source does not prove displacement, effects on India based engineering teams or enterprise wide financial returns.
+
+### Source and attribution note
+Source: Uber Software Factory engineering article supplied in full by the research contributor on 19 October 2026. Original publication URL, title, author list, and publication date remain to be verified before external bibliographic citation. Reported metrics are company statements and have not been independently replicated.
