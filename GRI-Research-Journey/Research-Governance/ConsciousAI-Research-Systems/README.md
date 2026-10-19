@@ -25,3 +25,8 @@ The initial case registry contains source described records only; it does not as
 
 ## Research integrity
 No external systems are accessed, no corporate systems audited, and no automatic policy updates are performed by this repository. A real deployment would require authentication, authorization, privacy controls, source ingestion, review processes, and maintenance ownership.
+
+## Local executable reference service
+The [Python research service](server.py) provides read only `GET /cases`, `GET /cases/{caseId}`, `GET /graph`, `GET /policies`, and a stateless `POST /assessments` evidence completeness endpoint. See [running instructions](RUNNING.md), [automated tests](test_server.py), [graph edges](graph.json) and [policy seed registry](policies.json).
+
+**Implementation status:** Local executable reference implementation, not hosted or deployed. The graph endpoint returns JSON nodes and edges rather than a visual UI. The policy registry is empty pending primary source verification; no real time ingestion is active.
