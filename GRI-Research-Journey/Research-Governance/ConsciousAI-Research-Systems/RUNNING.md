@@ -36,4 +36,4 @@ python -m unittest discover -v
 
 ## Visual interface and event intelligence
 
-After starting the local server, open `http://127.0.0.1:8000/dashboard` to explore the interactive graph. JSON feeds are available at `/events` and `/policy-sources`. Events and official policy entries must be reviewed and added to their versioned registries before they appear. No background polling is enabled.
+After starting the local server, open `http://127.0.0.1:8000/dashboard` to explore the interactive graph. JSON feeds are available at `/events` and `/policy-sources`. Events and official policy entries must be reviewed and added to their versioned registries before they appear. No background polling is performed by the local server. A separate GitHub Actions workflow is configured for scheduled Federal Register candidate collection; its successful execution has not been verified.
