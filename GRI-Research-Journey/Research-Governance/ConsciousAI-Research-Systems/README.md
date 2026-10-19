@@ -34,3 +34,8 @@ The [Python research service](server.py) provides read only `GET /cases`, `GET /
 ## Global intelligence interface and event research
 
 The [interactive research graph dashboard](dashboard.html) is served locally at `http://127.0.0.1:8000/dashboard` by [server.py](server.py). It visualizes the checked in evidence nodes and relationships, with filters and source status inspection. The [event registry](events.json) is ready for user selected event dossiers. The [official source candidate registry](policy_sources.json) and [policy ingestion and verification protocol](POLICY-INGESTION.md) cover EU, ASEAN and U.S. starting points. **This is a local interface, not a hosted live feed or a verified automated global tracker.**
+
+## Scheduled official policy intake
+[GitHub Actions policy monitor](../../../.github/workflows/gri-policy-monitor.yml) is configured to request a run every three hours and supports manual dispatch. It runs the Python test suite and collects official U.S. Federal Register search metadata into [policy_candidates.json](policy_candidates.json) as an **unreviewed queue**, preserving first-seen timestamps and review status. The [collector](ingest_federal_register.py) is the first implemented official feed. GitHub Actions schedules can be delayed, disabled, or fail; **successful ongoing execution is not yet confirmed**. EU, ASEAN and other jurisdictions remain source candidates and are not yet automated.
+
+This is near-real-time periodic polling, not instantaneous event streaming. It cannot infer regulatory significance or validate claims without human source review. The interactive dashboard remains local and is not publicly hosted.
