@@ -117,6 +117,6 @@ class Handler(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     host = os.environ.get("GRI_HOST", "127.0.0.1")
-    port = int(os.environ.get("GRI_PORT", "8000"))
+    port = int(os.environ.get("PORT", os.environ.get("GRI_PORT", "8000")))
     print(f"GRI local research prototype at http://{host}:{port}", flush=True)
     ThreadingHTTPServer((host, port), Handler).serve_forever()
