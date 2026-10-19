@@ -56,3 +56,8 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 [Read the Chicago paired transaction case study](case-study-002-chicago-consecutive-lyft-rides.md). The September 7 screenshot shows the same driver and passenger on consecutive outbound and return trips (as reported by the contributor), with near equal distance and duration but estimated Lyft fees of $1.99 and $21.03. The analysis distinguishes screenshot evidence, contributor supplied context, explanatory hypotheses and unverified final payouts. This case examines algorithmic management accountability and fare allocation transparency; it does not presume a causal mechanism or wrongdoing.
 
 © 2026 Grand Research Institute. All rights reserved.
+
+
+## Comparative Uber engineering and institutional management research
+
+[Read the expanded GRI study of Uber's MCP Gateway, translation infrastructure, and Software Factory](../../Algorithmic-Management-Institutional-Leadership/Uber-Engineering-AI-Paradox-Operational-Management-2026.md). This companion links the GRI South Florida rideshare observations and Chicago Lyft paired transaction case to enterprise engineering architecture, managed AI agents, managerial decision rights, and accountability. Uber and Lyft are distinct firms; the comparison is institutional and does not assume shared internal systems or causality.
