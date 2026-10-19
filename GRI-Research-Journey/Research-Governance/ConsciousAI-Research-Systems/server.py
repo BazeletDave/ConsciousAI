@@ -56,6 +56,19 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
         try:
+            if path in ("/dashboard", "/dashboard.html"):
+                payload = (ROOT / "dashboard.html").read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("X-Content-Type-Options", "nosniff")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+                return
+            if path == "/events":
+                return self.send_json(200, load("events.json"))
+            if path == "/policy-sources":
+                return self.send_json(200, load("policy_sources.json"))
             if path == "/health":
                 return self.send_json(200, {"status": "ok", "service": "GRI local research prototype"})
             if path == "/cases":
@@ -71,7 +84,7 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/policies":
                 return self.send_json(200, load("policies.json"))
             if path == "/":
-                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/cases", "/graph", "/policies", "POST /assessments"], "deployment": "local_prototype"})
+                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/cases", "/graph", "/policies", "/events", "/policy-sources", "/dashboard", "POST /assessments"], "deployment": "local_prototype"})
             return self.send_json(404, {"error": "unknown_route"})
         except (ValueError, OSError, KeyError, json.JSONDecodeError):
             return self.send_json(500, {"error": "invalid_research_data"})
