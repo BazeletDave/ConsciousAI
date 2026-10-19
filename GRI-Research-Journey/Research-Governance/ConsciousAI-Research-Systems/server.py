@@ -23,7 +23,16 @@ def graph():
     nodes = [{"id": x["id"], "label": x["claim"], "organization": x["organization"],
               "type": x["type"], "verification_status": x["verification_status"],
               "source": x["source"]} for x in records()]
-    edges = load("graph.json")["edges"]
+    event_records = load("events.json")["records"]
+    nodes.extend({"id": e["id"], "label": e["title"], "organization": e["organization"],
+                  "type": "event", "verification_status": e["verification_status"],
+                  "source": e["primary_source_url"], "claim": e["summary"],
+                  "jurisdiction": e["jurisdiction"]} for e in event_records)
+    edges = list(load("graph.json")["edges"])
+    for e in event_records:
+        for linked in e.get("research_links", []):
+            edges.append({"source": e["id"], "target": linked, "relation": "research_connection",
+                          "evidence_status": "analytical_link_not_causality"})
     valid = {n["id"] for n in nodes}
     if any(e["source"] not in valid or e["target"] not in valid for e in edges):
         raise ValueError("Graph edge references an unknown record")
