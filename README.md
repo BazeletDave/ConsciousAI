@@ -113,11 +113,18 @@ This project covers:
 *How AI can serve humanity’s collective good with transparency and responsibility.*
 
 
-## Proposed Research Concepts (Not Deployed)
+## ConsciousAI | Global Intelligence Research Systems
 
-- **Ethical Intelligence API** — For corporate AI auditing.  
-- **Transparency Graph** — To visualize algorithmic influence and origin.  
-- **Live Policy Tracker** — A global dashboard of AI-related legislation.
+The **[GRI Global Intelligence dashboard](https://gri-global-intelligence.onrender.com/dashboard)** is now publicly hosted, connecting institutional governance, AI engineering, algorithmic management, economic research and documented global events through a visual research interface.
+
+- **[Ethical Intelligence API](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/Ethical-Intelligence-API.md)** — An implemented research API prototype for evidence completeness, provenance and accountability assessment. It is not an enterprise auditing certification service.
+- **[Transparency Graph](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/Transparency-Graph.md)** — An interactive, hosted research graph connecting documented events, organizations, cases, institutional questions and evidence status.
+- **[Global Policy and Event Tracker](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/POLICY-INGESTION.md)** — A live dashboard with documented events and a configured scheduled U.S. Federal Register metadata collector. Candidate records require verification; comprehensive continuous global legislative ingestion is still in development.
+- **[Global Economic and Institutional Intelligence](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/ECONOMIC-INTELLIGENCE.md)** — The TAM 505-informed research framework connecting economic indicators, institutions, policy decisions and managerial adaptation. International economic feed ingestion remains a development objective.
+
+**[Explore the live dashboard](https://gri-global-intelligence.onrender.com/dashboard)** · **[View the research system, source registries and code](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/README.md)**
+
+**Operational distinction:** The dashboard is deployed; its API and visual graph use the current research datasets. Full enterprise auditing, human-verified worldwide legal coverage, and continuous ingestion of every international economic source are not represented as complete.
 
 ## Research Use and Contributions
 
