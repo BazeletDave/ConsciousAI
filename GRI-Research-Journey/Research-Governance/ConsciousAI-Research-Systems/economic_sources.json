@@ -1,0 +1,103 @@
+{
+  "schema_version": "0.1",
+  "status": "candidate_sources_not_ingested",
+  "sources": [
+    {
+      "id": "IMF",
+      "name": "International Monetary Fund",
+      "url": "https://www.imf.org/en/Data",
+      "domains": [
+        "growth",
+        "inflation",
+        "monetary",
+        "fiscal"
+      ],
+      "access": "public_and_dataset_specific"
+    },
+    {
+      "id": "WORLD-BANK",
+      "name": "World Bank",
+      "url": "https://api.worldbank.org/v2/",
+      "domains": [
+        "growth",
+        "development",
+        "infrastructure"
+      ],
+      "access": "public_api"
+    },
+    {
+      "id": "OECD",
+      "name": "OECD",
+      "url": "https://sdmx.oecd.org/",
+      "domains": [
+        "labor",
+        "prices",
+        "productivity"
+      ],
+      "access": "public_api_dataset_specific"
+    },
+    {
+      "id": "ILO",
+      "name": "ILOSTAT",
+      "url": "https://ilostat.ilo.org/data/",
+      "domains": [
+        "labor",
+        "wages"
+      ],
+      "access": "public_data"
+    },
+    {
+      "id": "BIS",
+      "name": "Bank for International Settlements",
+      "url": "https://www.bis.org/statistics/",
+      "domains": [
+        "credit",
+        "banking"
+      ],
+      "access": "public_data"
+    },
+    {
+      "id": "FRED",
+      "name": "Federal Reserve Economic Data",
+      "url": "https://fred.stlouisfed.org/docs/api/fred/",
+      "domains": [
+        "rates",
+        "inflation",
+        "employment"
+      ],
+      "access": "api_key_required"
+    },
+    {
+      "id": "EUROSTAT",
+      "name": "Eurostat",
+      "url": "https://ec.europa.eu/eurostat/web/main/data/database",
+      "domains": [
+        "eu_prices",
+        "labor",
+        "growth"
+      ],
+      "access": "public_api"
+    },
+    {
+      "id": "ASEANSTATS",
+      "name": "ASEANstats",
+      "url": "https://www.aseanstats.org/",
+      "domains": [
+        "asean_trade",
+        "investment",
+        "growth"
+      ],
+      "access": "source_specific"
+    },
+    {
+      "id": "EIU",
+      "name": "Economist Intelligence Unit",
+      "url": "https://www.eiu.com/",
+      "domains": [
+        "political_risk",
+        "economic_forecasts"
+      ],
+      "access": "licensed_not_assumed_available"
+    }
+  ]
+}
