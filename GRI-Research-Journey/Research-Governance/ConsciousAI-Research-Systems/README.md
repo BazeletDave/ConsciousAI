@@ -30,3 +30,7 @@ No external systems are accessed, no corporate systems audited, and no automatic
 The [Python research service](server.py) provides read only `GET /cases`, `GET /cases/{caseId}`, `GET /graph`, `GET /policies`, and a stateless `POST /assessments` evidence completeness endpoint. See [running instructions](RUNNING.md), [automated tests](test_server.py), [graph edges](graph.json) and [policy seed registry](policies.json).
 
 **Implementation status:** Local executable reference implementation, not hosted or deployed. The graph endpoint returns JSON nodes and edges rather than a visual UI. The policy registry is empty pending primary source verification; no real time ingestion is active.
+
+## Global intelligence interface and event research
+
+The [interactive research graph dashboard](dashboard.html) is served locally at `http://127.0.0.1:8000/dashboard` by [server.py](server.py). It visualizes the checked in evidence nodes and relationships, with filters and source status inspection. The [event registry](events.json) is ready for user selected event dossiers. The [official source candidate registry](policy_sources.json) and [policy ingestion and verification protocol](POLICY-INGESTION.md) cover EU, ASEAN and U.S. starting points. **This is a local interface, not a hosted live feed or a verified automated global tracker.**
