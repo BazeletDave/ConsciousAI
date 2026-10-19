@@ -1,0 +1,42 @@
+{
+  "schema_version": "0.1",
+  "status": "research_seed_not_independently_verified",
+  "records": [
+    {
+      "id": "GRI-LYFT-CHI-002",
+      "organization": "Lyft",
+      "type": "observation",
+      "claim": "Two reported consecutive trips show estimated platform fees of $1.99 and $21.03 despite similar trip lengths.",
+      "source": "GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md",
+      "verification_status": "preliminary_screenshot_and_contributor_context",
+      "limitations": "Final payouts, fee rules, trip IDs and causal drivers unverified."
+    },
+    {
+      "id": "UBER-MCP-2026",
+      "organization": "Uber",
+      "type": "company_report",
+      "claim": "Uber describes centralized MCP access, tool registration and permission controls for agents.",
+      "source": "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/Uber-Engineering-AI-Paradox-Operational-Management-2026.md",
+      "verification_status": "company_report_not_independently_replicated",
+      "limitations": "Does not establish Lyft pricing architecture."
+    },
+    {
+      "id": "UBER-SOFTWARE-FACTORY-2026",
+      "organization": "Uber",
+      "type": "company_report",
+      "claim": "Uber reports more than 70% of pull requests attributed to local or cloud agents and more than 30,000 daily agent skill executions.",
+      "source": "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/Uber-Engineering-AI-Paradox-Operational-Management-2026.md",
+      "verification_status": "company_report_not_independently_replicated",
+      "limitations": "Agent attribution does not imply autonomous end-to-end completion."
+    },
+    {
+      "id": "GRI-AI-PARADOX-H1",
+      "organization": "GRI",
+      "type": "hypothesis",
+      "claim": "More automation may reduce routine coordination while increasing governance and exception management requirements.",
+      "source": "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/Research-Monograph-Full-Text.md",
+      "verification_status": "proposed_testable_hypothesis",
+      "limitations": "Requires longitudinal and comparative empirical testing."
+    }
+  ]
+}
