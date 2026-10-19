@@ -13,6 +13,8 @@ This is a living, open research program rather than a completed or independently
 > **Featured historical research:** [**The Legitimacy Paradox | Cambodian Antiquities, Douglas Latchford, and the AI Paradox →**](Legitimacy-Paradox-Cambodian-Antiquities.md)  
 > Explore the full research companion on looted Khmer antiquities, provenance, institutional legitimacy, repatriation, and the structural implications for AI validation and governance.
 
+> **19 October 2026 research milestone:** [Recursive Optimization, Feedback Integrity and Institutional Control](2026-10-19-recursive-optimization-feedback-and-institutional-control.md) extends the existing AI Paradox, platform management and institutional governance research through a documented synthesis and proposed empirical tests.
+
 ## 1. Research origins and intellectual continuity
 
 | Period | Contribution | Evidence standard |
