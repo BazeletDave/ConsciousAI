@@ -1,0 +1,30 @@
+{
+  "schema_version": "0.1",
+  "description": "Research comparison graph; compared_with does not imply shared systems or causality.",
+  "edges": [
+    {
+      "source": "UBER-MCP-2026",
+      "target": "UBER-SOFTWARE-FACTORY-2026",
+      "relation": "compared_with",
+      "evidence_status": "research_comparison"
+    },
+    {
+      "source": "UBER-MCP-2026",
+      "target": "GRI-LYFT-CHI-002",
+      "relation": "compared_with",
+      "evidence_status": "cross_company_analytical_comparison_only"
+    },
+    {
+      "source": "GRI-AI-PARADOX-H1",
+      "target": "GRI-LYFT-CHI-002",
+      "relation": "tested_against",
+      "evidence_status": "proposed_not_validated"
+    },
+    {
+      "source": "GRI-AI-PARADOX-H1",
+      "target": "UBER-SOFTWARE-FACTORY-2026",
+      "relation": "tested_against",
+      "evidence_status": "proposed_not_validated"
+    }
+  ]
+}
