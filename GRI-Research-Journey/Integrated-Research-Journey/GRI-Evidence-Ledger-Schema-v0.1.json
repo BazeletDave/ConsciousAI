@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GRI Evidence and Algorithmic Decision Ledger v0.1",
+  "description": "Original GRI research schema. Data model only; not a validated government compliance instrument. No sensitive or licensed data.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_id",
+    "observed_at_utc",
+    "domain",
+    "source_type",
+    "evidence_status",
+    "claim",
+    "revision_id"
+  ],
+  "properties": {
+    "record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "observed_at_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "jurisdiction": {
+      "type": "string"
+    },
+    "domain": {
+      "type": "string"
+    },
+    "system_version": {
+      "type": "string"
+    },
+    "actor_role": {
+      "type": "string"
+    },
+    "source_uri": {
+      "type": "string",
+      "format": "uri"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "permission_scope": {
+      "type": "string",
+      "enum": [
+        "public",
+        "authorized_private",
+        "restricted"
+      ]
+    },
+    "claim": {
+      "type": "string"
+    },
+    "evidence_status": {
+      "enum": [
+        "primary_record",
+        "peer_reviewed_source",
+        "official_public_source",
+        "founder_observation",
+        "third_party_claim_unverified",
+        "GRI_hypothesis",
+        "simulation",
+        "independently_validated_result"
+      ]
+    },
+    "decision": {
+      "type": "string"
+    },
+    "affected_parties": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "observed_outcome": {
+      "type": "string"
+    },
+    "alternative_explanations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "independent_validator": {
+      "type": "string"
+    },
+    "appeal_path": {
+      "type": "string"
+    },
+    "correction_at_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "revision_id": {
+      "type": "string",
+      "minLength": 1
+    }
+  }
+}
