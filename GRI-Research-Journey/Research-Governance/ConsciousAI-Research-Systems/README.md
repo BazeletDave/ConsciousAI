@@ -42,7 +42,7 @@ This is near-real-time periodic polling, not instantaneous event streaming. It c
 
 ## Global economic and institutional intelligence
 
-The [TAM 505 institutional economics framework](ECONOMIC-INTELLIGENCE.md) and [economic data source registry](economic_sources.json) extend the policy and event layers to macroeconomic conditions, labor markets, trade, infrastructure, institutional risk and managerial adaptation. Candidate feeds are not yet ingested or presented as real-time economic measurements.
+The [Nelson model institutional economics framework](ECONOMIC-INTELLIGENCE.md) and [economic data source registry](economic_sources.json) extend the policy and event layers to macroeconomic conditions, labor markets, trade, infrastructure, institutional risk and managerial adaptation. Candidate feeds are not yet ingested or presented as real-time economic measurements.
 
 ## Hosted deployment
 
