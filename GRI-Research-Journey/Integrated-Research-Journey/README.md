@@ -142,3 +142,7 @@ This public architecture is an integration of supplied author manuscripts and ex
 **Research context:** Independent GRI research integrating professional practice, global management scholarship, and longitudinal investigation.  
 **Status:** Living research development record. Public access supports scrutiny; it does not establish peer review.  
 **Revision principle:** preserve the dated intellectual history while allowing evidence to revise the conclusions.
+
+## Applied case linkage: platform labor and enterprise agent management
+
+The [Uber and Lyft observational dossier](../Algorithmic-Management/Uber-Lyft-Research/README.md) and [Chicago paired transaction study](../Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md) connect with the [Uber MCP Gateway, translation optimization and Software Factory analysis](../Algorithmic-Management-Institutional-Leadership/Uber-Engineering-AI-Paradox-Operational-Management-2026.md). These cases apply the institutional power and AI paradox framework to visibility, allocation, delegated execution, operational meetings, governance and correction. The link is analytical rather than evidence of a shared technical system across companies.
