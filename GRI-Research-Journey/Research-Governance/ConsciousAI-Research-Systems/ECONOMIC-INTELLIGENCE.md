@@ -1,10 +1,10 @@
-# Global Economic and Institutional Intelligence | TAM 505 integration
+# Global Economic and Institutional Intelligence | Nelson Model
 
 **Research author:** David A. Grand, Grand Research Institute  
 **Status:** Research framework and initial data-source registry. The economic feeds below are **not yet running**.
 
-## TAM 505 analytical model
-Apply Professor Roy C. Nelson's institutional analysis as taught through Thunderbird's TAM 505 and the Dell Brazil / Rio Grande do Sul case:
+## Nelson model analytical framework
+Apply Professor Roy C. Nelson's institutional model, informed by his Thunderbird instruction and institutional case analysis:
 
 **Political and economic conditions → Institutions and rules → Actors and interests → Bargaining power → Managerial decisions → Adaptation.**
 
