@@ -170,6 +170,9 @@ Living comparative research on jurisdictional AI governance, accountable autonom
 
 ### Algorithmic Management Research
 
+**Enterprise AI and managerial accountability:** [Uber engineering, MCP Gateway and Software Factory comparative study](GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/Uber-Engineering-AI-Paradox-Operational-Management-2026.md) connects managed agents and engineering controls with GRI's rideshare observations and institutional leadership framework.
+
+
 Explore GRI's longitudinal Uber and Lyft research, including the approximately $20 gross earnings hypothesis, economic analysis, documented field observations, and governance implications.
 
 [View GRI Algorithmic Management Research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research)
