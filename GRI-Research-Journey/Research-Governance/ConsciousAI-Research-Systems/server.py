@@ -1,0 +1,100 @@
+"""GRI local research service. Python 3.10+, standard library only. NOT production-ready."""
+from __future__ import annotations
+import json
+import os
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
+from urllib.parse import urlparse, parse_qs, unquote
+
+ROOT = Path(__file__).resolve().parent
+MAX_BODY = 16_384
+
+def load(name):
+    with (ROOT / name).open(encoding="utf-8") as f:
+        return json.load(f)
+
+def records():
+    return load("cases.json")["records"]
+
+def case_by_id(case_id):
+    return next((x for x in records() if x["id"] == case_id), None)
+
+def graph():
+    nodes = [{"id": x["id"], "label": x["claim"], "organization": x["organization"],
+              "type": x["type"], "verification_status": x["verification_status"],
+              "source": x["source"]} for x in records()]
+    edges = load("graph.json")["edges"]
+    valid = {n["id"] for n in nodes}
+    if any(e["source"] not in valid or e["target"] not in valid for e in edges):
+        raise ValueError("Graph edge references an unknown record")
+    return {"nodes": nodes, "edges": edges,
+            "notice": "Analytical comparisons do not establish causation or shared systems."}
+
+def assessment(case_id):
+    case = case_by_id(case_id)
+    if case is None:
+        return None
+    return {"case_id": case_id, "assessment_type": "evidence_completeness_only",
+            "determination": "not_assessed_for_ethics_or_legal_compliance",
+            "verification_status": case["verification_status"],
+            "known_limitations": [case["limitations"]],
+            "review_required": True,
+            "notice": "This output is not an ethical certification, compliance determination, or finding of misconduct."}
+
+class Handler(BaseHTTPRequestHandler):
+    def send_json(self, status, data):
+        payload = json.dumps(data, ensure_ascii=False, indent=2).encode("utf-8")
+        self.send_response(status)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Cache-Control", "no-store")
+        self.send_header("Access-Control-Allow-Origin", "http://localhost:8000")
+        self.send_header("Content-Length", str(len(payload)))
+        self.end_headers()
+        self.wfile.write(payload)
+
+    def do_GET(self):
+        path = urlparse(self.path).path
+        query = parse_qs(urlparse(self.path).query)
+        try:
+            if path == "/health":
+                return self.send_json(200, {"status": "ok", "service": "GRI local research prototype"})
+            if path == "/cases":
+                items = records()
+                if "organization" in query:
+                    items = [x for x in items if x["organization"].casefold() == query["organization"][0].casefold()]
+                return self.send_json(200, {"records": items, "count": len(items)})
+            if path.startswith("/cases/"):
+                case = case_by_id(unquote(path[len("/cases/"):]))
+                return self.send_json(200 if case else 404, case or {"error": "unknown_case"})
+            if path == "/graph":
+                return self.send_json(200, graph())
+            if path == "/policies":
+                return self.send_json(200, load("policies.json"))
+            if path == "/":
+                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/cases", "/graph", "/policies", "POST /assessments"], "deployment": "local_prototype"})
+            return self.send_json(404, {"error": "unknown_route"})
+        except (ValueError, OSError, KeyError, json.JSONDecodeError):
+            return self.send_json(500, {"error": "invalid_research_data"})
+
+    def do_POST(self):
+        if urlparse(self.path).path != "/assessments":
+            return self.send_json(404, {"error": "unknown_route"})
+        length = self.headers.get("Content-Length")
+        if not length or not length.isdecimal() or int(length) > MAX_BODY:
+            return self.send_json(413, {"error": "invalid_or_excessive_body"})
+        if self.headers.get("Content-Type", "").split(";")[0].strip().lower() != "application/json":
+            return self.send_json(415, {"error": "json_required"})
+        try:
+            body = json.loads(self.rfile.read(int(length)))
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            return self.send_json(400, {"error": "invalid_json"})
+        if not isinstance(body, dict) or not isinstance(body.get("case_id"), str):
+            return self.send_json(400, {"error": "case_id_required"})
+        result = assessment(body["case_id"])
+        return self.send_json(200 if result else 404, result or {"error": "unknown_case"})
+
+if __name__ == "__main__":
+    host = os.environ.get("GRI_HOST", "127.0.0.1")
+    port = int(os.environ.get("GRI_PORT", "8000"))
+    print(f"GRI local research prototype at http://{host}:{port}", flush=True)
+    ThreadingHTTPServer((host, port), Handler).serve_forever()
