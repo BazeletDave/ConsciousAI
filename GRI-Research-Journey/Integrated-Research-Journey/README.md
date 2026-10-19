@@ -1,7 +1,7 @@
 # GRI Integrated Research Journey | Living Research Architecture
 
-> **Institutional power amplification and governance (19 October 2026):** [GRI Institutional Power Amplification Framework](2026-10-19-institutional-power-amplification-framework.md) develops access, capability, authority, consequences and feedback into testable research propositions. [Government-facing brief](../Research-Governance/GOVERNMENT-RESEARCH-BRIEF.md), [IP and publication controls](../Research-Governance/PUBLICATION-AND-IP-POLICY.md), [claim verification register](../Research-Governance/SOURCE-AND-CLAIM-REGISTER.md) and [academic integrity review](../Research-Governance/ACADEMIC-ORIGINALITY-AND-INTEGRITY-REVIEW.md) document release and evidence boundaries. [Schema validator](validate_evidence_ledger.py) and [synthetic valid](example-evidence-valid.json) / [invalid](example-evidence-invalid.json) examples demonstrate a proposed conformance test; execution in GitHub CI has not been confirmed.
-
+> **Featured GRI research | Institutional Power Amplification:** [**Access, Capability, Authority, Consequences and Feedback →**](2026-10-19-institutional-power-amplification-framework.md)  
+> A comparative research program connecting historical institutional power with AI-driven economic, political and organizational change. It advances falsifiable propositions on access, governance latency, institutional authority and recursive feedback.
 
 **Author and research lead:** David A. Grand, founder, Grand Research Institute  
 **Research origins:** 2021 onward; practitioner foundations in the 1990s  
