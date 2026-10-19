@@ -1,5 +1,14 @@
 # ConsciousAI | AI Governance, Algorithmic Management and Institutional Leadership
 
+## Research Governance and Institutional Power Amplification | October 2026
+
+**[GRI Institutional Power Amplification Framework](GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md)** examines access, capability, authority, consequences and feedback as testable institutional research dimensions.
+
+**[Government Research Brief](GRI-Research-Journey/Research-Governance/GOVERNMENT-RESEARCH-BRIEF.md)** · **[Publication and IP Controls](GRI-Research-Journey/Research-Governance/PUBLICATION-AND-IP-POLICY.md)** · **[Public Claim Register](GRI-Research-Journey/Research-Governance/SOURCE-AND-CLAIM-REGISTER.md)** · **[Academic Integrity Review](GRI-Research-Journey/Research-Governance/ACADEMIC-ORIGINALITY-AND-INTEGRITY-REVIEW.md)**
+
+These are public working research controls, not legal clearance, peer review, or government certification. The existing MIT license remains unchanged pending rights review. Restricted underlying research and academic materials are not published.
+
+
 **ConsciousAI** is a research repository within the Grand Research Institute ecosystem. It documents inquiry into artificial intelligence, algorithmic management, institutional governance, technological innovation, and human oversight. The repository brings together research publications, case studies, empirical observations, and selected project resources. It is not presented as a deployed ethics auditing service or a formal standards setting body.
 
 ## Institutional Research | Start Here
