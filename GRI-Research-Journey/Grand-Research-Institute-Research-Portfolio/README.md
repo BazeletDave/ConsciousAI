@@ -156,3 +156,7 @@ These works supply theoretical context; their inclusion does not imply endorseme
 **Repository:** [ConsciousAI](../../) | **Related field study:** [Uber and Lyft Algorithmic Management](../Algorithmic-Management/Uber-Lyft-Research/)
 
 *An independent, evolving research program. Public access enables scrutiny and collaboration; it is not proof of peer review or validation.*
+
+## Connected Uber and Lyft evidence program
+
+The [GRI Uber and Lyft field research](../Algorithmic-Management/Uber-Lyft-Research/README.md), [Chicago paired transaction case](../Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md), and [Uber engineering and managed agent case](../Algorithmic-Management-Institutional-Leadership/Uber-Engineering-AI-Paradox-Operational-Management-2026.md) form a linked comparative research program on economic allocation, agent permissions, engineering efficiency, operational management and institutional accountability. Uber and Lyft are separate firms; GRI field observations, company reported technical metrics and proposed hypotheses retain distinct evidence status.
