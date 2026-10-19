@@ -1,0 +1,43 @@
+openapi: 3.0.3
+info:
+  title: GRI Ethical Intelligence Research API
+  version: 0.1.0
+  description: Proposed research interface only. No server is deployed.
+paths:
+  /cases:
+    get:
+      summary: List registered research cases
+      responses:
+        '200':
+          description: Evidence classified case records
+  /cases/{caseId}:
+    get:
+      summary: Retrieve a case with provenance and limitations
+      parameters:
+        - in: path
+          name: caseId
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Case record
+        '404':
+          description: Unknown case
+  /assessments:
+    post:
+      summary: Request a nonbinding evidence completeness assessment
+      description: Design only. No automated ethical certification or legal judgment.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [case_id]
+              properties:
+                case_id:
+                  type: string
+      responses:
+        '200':
+          description: Proposed assessment and evidence gaps
