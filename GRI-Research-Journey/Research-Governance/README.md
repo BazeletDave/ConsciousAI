@@ -1,6 +1,7 @@
 # GRI Research Governance and Verification
 **Public controls | 19 October 2026**
 
+- [Executable agent governance | Microsoft AGT, ACS and the AI Paradox](2026-10-19-executable-agent-governance-microsoft-acs-agt.md)
 - [Institutional Research Brief for government and external reviewers](GOVERNMENT-RESEARCH-BRIEF.md)
 - [Research publication, intellectual property and disclosure policy (draft)](PUBLICATION-AND-IP-POLICY.md)
 - [Public source and claim verification register](SOURCE-AND-CLAIM-REGISTER.md)
