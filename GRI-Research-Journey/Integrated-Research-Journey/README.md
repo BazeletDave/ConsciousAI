@@ -26,6 +26,8 @@ This is a living, open research program rather than a completed or independently
 
 > **19 October 2026 research milestone:** [Recursive Optimization, Feedback Integrity and Institutional Control](2026-10-19-recursive-optimization-feedback-and-institutional-control.md) extends the existing AI Paradox, platform management and institutional governance research through a documented synthesis and proposed empirical tests.
 
+> **Academic comparative research (19 October 2026):** [Thunderbird institutional cases, management scholarship and autonomous AI governance](2026-10-19-academic-comparative-research-crosswalk.md) connects existing GRI work on Uber, Lyft, Waymo, agent governance and the AI Paradox to academic literature, including Harvard Business Review, with explicit evidence and attribution boundaries.
+
 ## 1. Research origins and intellectual continuity
 
 | Period | Contribution | Evidence standard |
