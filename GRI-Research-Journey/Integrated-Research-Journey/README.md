@@ -1,5 +1,8 @@
 # GRI Integrated Research Journey | Living Research Architecture
 
+> **21 October 2026 | Living Algorithmic Governance:** [The Here and Now: Executable Governance, Algorithmic Management and Institutional Adaptation](2026-10-21-algorithmic-governance-living-research.md) integrates reinforcement learning, smartphone and fleet telemetry, Uber platform management, the NSA/PHP security governance discussion, the Nelson Model, GLOBE, and empirical policy engineering. Includes Mermaid system diagrams, an intervention authority scale, evidence maturity levels, chart-ready measures and falsifiable propositions. Source limitations and unvalidated code are explicitly labeled.
+
+
 > **Featured GRI research | Institutional Power Amplification:** [**Access, Capability, Authority, Consequences and Feedback →**](2026-10-19-institutional-power-amplification-framework.md)  
 > A comparative research program connecting historical institutional power with AI-driven economic, political and organizational change. It advances falsifiable propositions on access, governance latency, institutional authority and recursive feedback.
 
