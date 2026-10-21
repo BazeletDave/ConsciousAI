@@ -1,0 +1,24 @@
+{
+  "case_id": "GRI-PHP-2026-10-21",
+  "evidence_policy": "All source code claims, institutional actions and timestamps require direct source links. Unverified entries are hypotheses, not findings.",
+  "upstream_patch_details": [
+    {"cve":"CVE-2026-109618","advisory_id":"GHSA-394v-7p9m-53v5","advisory_id_status":"unverified","branches":["PHP-8.2","PHP-8.3","PHP-8.4","PHP-8.5"],"claimed_functions":["php_request_startup_ex()","sapi_read_post_data()","rfc1867_post_handler()","zend_ini_parse_u_quantity()"],"claimed_regression_test":"ext/standard/tests/request/oom_startup.phpt","evidence_status":"verification_required","commit_sha":null,"patch_url":null,"regression_test_url":null},
+    {"cve":"CVE-2026-109619","advisory_id":"GHSA-6wmf-4rv5-p3rp","advisory_id_status":"unverified","branches":["PHP-8.2","PHP-8.3","PHP-8.4","PHP-8.5"],"claimed_functions":["php_request_shutdown()","php_session_destroy()","zend_clean_global_trace()","zend_bailout_clean_trace()"],"claimed_regression_test":"ext/session/tests/upload_progress_uaf.phpt","evidence_status":"verification_required","commit_sha":null,"patch_url":null,"regression_test_url":null}
+  ],
+  "institutional_timeline": [
+    {"phase":"public_disclosure","timestamp_utc":null,"evidence_status":"verification_required","note":"Exact publication time must be sourced"},
+    {"phase":"change_authorization","timestamp_utc":null,"evidence_status":"not_observed","note":"No globally uniform CAB authorization exists"},
+    {"phase":"managed_host_remediation","timestamp_utc":null,"evidence_status":"verification_required","note":"Operator specific record required"},
+    {"phase":"enterprise_remediation","timestamp_utc":null,"evidence_status":"not_observed","note":"No universal enterprise fleet completion timestamp"},
+    {"phase":"public_sector_restoration","timestamp_utc":null,"evidence_status":"not_observed","note":"Institution specific restoration evidence required"}
+  ],
+  "nelson_model": {
+    "rules":"Patch SLAs, disclosure practices and change controls vary by institution; no universal 24 hour requirement established.",
+    "actors":"PHP maintainers, distributors, hosting operators, enterprise SecOps, public institutions and users.",
+    "interests":"Security, availability, operational cost, accountability and reputation.",
+    "power":"Centralized operators may deploy changes across managed fleets; decentralized operators have distinct approval and dependency constraints.",
+    "options":"Vendor release, verified distribution backport, temporary containment with documented residual risk.",
+    "commitments":"Assign accountable owner, change authorization and independent verification.",
+    "adaptation":"Compare actual timestamped disclosure, authorization, remediation and verification records; do not infer elapsed hours."
+  }
+}
