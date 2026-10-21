@@ -143,3 +143,9 @@ These are **GRI working hypotheses**, not established causal findings. Prespecif
 **Integrity:** Sources above provide foundational frameworks, not verification of vendor internals or of the earlier NSA advisory. This work is independent GRI research. Thunderbird academic influences do not imply faculty or university endorsement.
 
 [Integrated Research Journey](README.md) · [Institutional Power Amplification](2026-10-19-institutional-power-amplification-framework.md)
+
+## Implemented research artifacts | 21 October 2026
+
+The previously proposed offline governance engineering milestones now have [committed reference code, a synthetic experiment generator, automated tests, an event schema and evidence register](../Research-Governance/Executable-Governance/README.md). The package also generates a labeled SVG confusion matrix chart and machine-readable synthetic metrics when run. These are implemented **source artifacts**, not claims that tests have been executed in CI, that real driving data were evaluated, or that production governance has been deployed.
+
+The NSA/PHP advisory remains **unverified pending the original notice and asset evidence**. Real-world deployment, longitudinal validation, external ethics review and comparative human-subject research are not represented as complete.
