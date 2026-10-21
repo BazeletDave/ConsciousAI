@@ -15,5 +15,5 @@ class ConsistencyCLITests(unittest.TestCase):
     def test_unverified_does_not_exit_zero(self):
         report,code=evaluate({"assets":[{}]},{"type":"object","required":["assets"]})
         self.assertNotEqual(code,0)
-        self.assertFalse(report["independently_certified"])
+        self.assertEqual(report["status"], "INVALID_LEDGER")
 if __name__=="__main__":unittest.main()
