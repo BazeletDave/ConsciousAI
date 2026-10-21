@@ -27,7 +27,7 @@ flowchart LR
 | Implemented research module | What visitors can inspect | Evidence status |
 | --- | --- | --- |
 | [**Motion Classification**](GRI-Research-Journey/Research-Governance/Motion-Classification/README.md) | Six-axis IMU feature extraction, Random Forest with probability calibration, synthetic data generation, evaluation and tests | Source committed; synthetic-only; real-world accuracy not validated |
-| [**Academic Integrity & AI-Assisted Learning**](GRI-Research-Journey/Research-Governance/Academic-Integrity/README.md) | Browser event collector, assessment-specific AI permissions, Python policy decisions and tests | Source committed; no student monitoring deployment or misconduct detection claim |
+| [**Academic Integrity & AI-Assisted Learning**](GRI-Research-Journey/Research-Governance/Academic-Integrity/README.md) | Syllabus-governed AI learning, course-specific ethics and authorization, verified error-feedback pathways, plus a Python policy engine and browser telemetry prototype | Source committed; no student monitoring deployment or misconduct detection claim |
 | [**Executable Governance**](GRI-Research-Journey/Research-Governance/Executable-Governance/README.md) | Versioned decision rules, event schema, audit digests, synthetic experiments and SVG chart generator | Source committed; offline research; no production safety authorization |
 
 **The shared research question:** When does a technically observable event become an exercise of institutional authority, and what evidence, authorization, review and accountability must exist before an intervention?
