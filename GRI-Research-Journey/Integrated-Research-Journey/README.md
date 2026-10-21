@@ -1,5 +1,8 @@
 # GRI Integrated Research Journey | Living Research Architecture
 
+> **21 October 2026 | Sensor classification and governance:** [Synthetic IMU Random Forest research prototype](../Research-Governance/Motion-Classification/README.md) implements six-axis feature extraction, a calibrated classifier, deterministic synthetic data, evaluation scaffolding and tests. It separates motion inference from authorized institutional intervention and explicitly limits performance claims to simulation.
+
+
 > **21 October 2026 | Academic integrity and AI-assisted learning:** [Executable academic governance prototype](../Research-Governance/Academic-Integrity/README.md) combines browser telemetry, assessment-specific AI-use permissions, a policy-aware Python decision engine and unit tests. It explicitly distinguishes observed events from evidence of misconduct and preserves human review and appeal.
 
 
