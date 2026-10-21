@@ -1,0 +1,266 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PHP runtime evidence ledger - structural record schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ledger_metadata",
+    "assets"
+  ],
+  "properties": {
+    "ledger_metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ledger_id",
+        "schema_version",
+        "generated_at_utc",
+        "auditor"
+      ],
+      "properties": {
+        "ledger_id": {
+          "type": "string",
+          "format": "uuid"
+        },
+        "schema_version": {
+          "type": "string",
+          "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+        },
+        "generated_at_utc": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "auditor": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "name",
+            "email",
+            "role"
+          ],
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "email": {
+              "type": "string",
+              "format": "email"
+            },
+            "role": {
+              "enum": [
+                "Lead Auditor",
+                "SecOps Engineer",
+                "Compliance Officer",
+                "Infrastructure Lead"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/asset"
+      }
+    }
+  },
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "asset_id",
+        "hostname",
+        "environment",
+        "runtime_profile",
+        "source_verification",
+        "deployment_authorization",
+        "image_integrity",
+        "worker_recycle_evidence",
+        "active_runtime_validation",
+        "audit_classification"
+      ],
+      "properties": {
+        "asset_id": {
+          "type": "string",
+          "pattern": "^AST-[A-Z0-9]{4,12}$"
+        },
+        "hostname": {
+          "type": "string",
+          "minLength": 1
+        },
+        "environment": {
+          "enum": [
+            "production",
+            "staging",
+            "disaster-recovery",
+            "managed-edge"
+          ]
+        },
+        "runtime_profile": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "php_version",
+            "process_manager",
+            "is_internet_facing"
+          ],
+          "properties": {
+            "php_version": {
+              "type": "string",
+              "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+(?:[-+][A-Za-z0-9.-]+)?$"
+            },
+            "process_manager": {
+              "enum": [
+                "php-fpm",
+                "apache-mod_php",
+                "frankenphp",
+                "litespeed",
+                "php-cgi"
+              ]
+            },
+            "is_internet_facing": {
+              "type": "boolean"
+            }
+          }
+        },
+        "source_verification": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "branch",
+            "upstream_commit_hash",
+            "vendor_backport_verified",
+            "diff_verification_status"
+          ],
+          "properties": {
+            "branch": {
+              "type": "string",
+              "minLength": 1
+            },
+            "upstream_commit_hash": {
+              "type": "string"
+            },
+            "vendor_backport_verified": {
+              "type": "boolean"
+            },
+            "diff_verification_status": {
+              "enum": [
+                "VERIFIED_AUDITED",
+                "PENDING_SOURCE_CHECK",
+                "UNSUPPORTED_BRANCH"
+              ]
+            }
+          }
+        },
+        "deployment_authorization": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "change_reference",
+            "approved_by",
+            "approval_timestamp_utc"
+          ],
+          "properties": {
+            "change_reference": {
+              "type": "string",
+              "minLength": 1
+            },
+            "approved_by": {
+              "type": "string",
+              "format": "email"
+            },
+            "approval_timestamp_utc": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "image_integrity": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "image_digest_sha256",
+            "registry_uri",
+            "signature_verified"
+          ],
+          "properties": {
+            "image_digest_sha256": {
+              "type": "string"
+            },
+            "registry_uri": {
+              "type": "string",
+              "minLength": 1
+            },
+            "signature_verified": {
+              "type": "boolean"
+            }
+          }
+        },
+        "worker_recycle_evidence": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "restart_command",
+            "master_pid",
+            "process_start_time_utc",
+            "recycle_confirmed"
+          ],
+          "properties": {
+            "restart_command": {
+              "type": "string",
+              "minLength": 1
+            },
+            "master_pid": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "process_start_time_utc": {
+              "type": "string",
+              "format": "date-time"
+            },
+            "recycle_confirmed": {
+              "type": "boolean"
+            }
+          }
+        },
+        "active_runtime_validation": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "validation_method",
+            "in_memory_version_string",
+            "tested_at_utc"
+          ],
+          "properties": {
+            "validation_method": {
+              "enum": [
+                "CLI_INSPECTION",
+                "HTTP_PHPINFO_ENDPOINT",
+                "IN_MEMORY_SYMBOL_AUDIT"
+              ]
+            },
+            "in_memory_version_string": {
+              "type": "string",
+              "minLength": 1
+            },
+            "tested_at_utc": {
+              "type": "string",
+              "format": "date-time"
+            }
+          }
+        },
+        "audit_classification": {
+          "enum": [
+            "POPULATION_COMPLETE",
+            "VERIFIED_AUDITED",
+            "REMEDIATION_INCOMPLETE"
+          ]
+        }
+      }
+    }
+  }
+}
