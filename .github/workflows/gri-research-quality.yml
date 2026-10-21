@@ -26,6 +26,9 @@ jobs:
       - name: Motion classification tests
         working-directory: GRI-Research-Journey/Research-Governance/Motion-Classification
         run: python -m unittest discover -p 'test_*.py' -v
+      - name: PHP case study evidence integrity tests
+        working-directory: GRI-Research-Journey/Research-Governance/PHP2Shell
+        run: python -m unittest discover -p 'test_*.py' -v
       - name: Research service and ingestion tests
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python -m unittest discover -p 'test_*.py' -v
