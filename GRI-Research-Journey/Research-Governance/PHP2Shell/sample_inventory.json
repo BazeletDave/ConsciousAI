@@ -1,0 +1,29 @@
+{
+  "assets": [
+    {
+      "name": "public-web-1",
+      "php_version": "8.3.35",
+      "internet_facing": true,
+      "criticality": "high"
+    },
+    {
+      "name": "managed-service",
+      "php_version": "8.3.35",
+      "internet_facing": true,
+      "criticality": "high",
+      "vendor_backport_evidence": "Operator advisory requires verification"
+    },
+    {
+      "name": "internal-db-admin",
+      "php_version": "8.2.30",
+      "internet_facing": false,
+      "criticality": "medium"
+    },
+    {
+      "name": "patched-api-gateway",
+      "php_version": "8.3.36",
+      "internet_facing": true,
+      "criticality": "high"
+    }
+  ]
+}
