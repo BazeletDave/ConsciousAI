@@ -10,6 +10,34 @@ Grand Research Institute connects historical political economy, global managemen
 
 **ConsciousAI** is a research repository within the Grand Research Institute ecosystem. It documents inquiry into artificial intelligence, algorithmic management, institutional governance, technological innovation, and human oversight. The repository brings together research publications, case studies, empirical observations, and selected project resources. It is not presented as a deployed ethics auditing service or a formal standards setting body.
 
+## Applied AI Research | From Sensor Data to Accountable Decisions
+
+**ConsciousAI includes inspectable research code—not only policy analysis.** Grand Research Institute is investigating how machine-learning observations become organizational decisions, and how executable governance can constrain those decisions before they affect people.
+
+```mermaid
+flowchart LR
+ A["Sensor and browser telemetry"] --> B["Event detection / ML inference"]
+ B --> C["Evidence quality and contextual policy"]
+ C --> D["Governance decision engine"]
+ D --> E["Human review, appeal and audit"]
+ E --> F["Policy revision and institutional learning"]
+ F --> C
+```
+
+| Implemented research module | What visitors can inspect | Evidence status |
+| --- | --- | --- |
+| [**Motion Classification**](GRI-Research-Journey/Research-Governance/Motion-Classification/README.md) | Six-axis IMU feature extraction, Random Forest with probability calibration, synthetic data generation, evaluation and tests | Source committed; synthetic-only; real-world accuracy not validated |
+| [**Academic Integrity & AI-Assisted Learning**](GRI-Research-Journey/Research-Governance/Academic-Integrity/README.md) | Browser event collector, assessment-specific AI permissions, Python policy decisions and tests | Source committed; no student monitoring deployment or misconduct detection claim |
+| [**Executable Governance**](GRI-Research-Journey/Research-Governance/Executable-Governance/README.md) | Versioned decision rules, event schema, audit digests, synthetic experiments and SVG chart generator | Source committed; offline research; no production safety authorization |
+
+**The shared research question:** When does a technically observable event become an exercise of institutional authority, and what evidence, authorization, review and accountability must exist before an intervention?
+
+The applications span driver safety, platform work, university assessment policies, fleet management and AI agents. In educational settings, the aim is to support **permitted and transparent AI-assisted learning** while protecting academic integrity, procedural fairness and student rights. Neither browser tab changes nor motion classifications establish human intent or misconduct.
+
+**[Explore the Living Algorithmic Governance research synthesis →](GRI-Research-Journey/Integrated-Research-Journey/2026-10-21-algorithmic-governance-living-research.md)** · **[Research Journey →](GRI-Research-Journey/Integrated-Research-Journey/README.md)**
+
+**Implementation transparency:** These modules contain code and tests, but the GitHub commits alone do not establish successful CI execution, independent scientific validation, university adoption or real-world deployment.
+
 ## Institutional Research | Start Here
 
 **[Grand Research Institute — Institutional Research Brief →](GRI-Research-Journey/Institutional-Research-Brief/README.md)**
