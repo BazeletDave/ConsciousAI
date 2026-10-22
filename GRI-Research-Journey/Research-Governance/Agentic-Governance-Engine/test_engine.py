@@ -35,6 +35,9 @@ class GovernanceTests(unittest.TestCase):
         self.assertEqual(self.evaluate(self.act("1"),now=101001)["status"],"REJECTED_AUTHORITY")
         self.engine.revoke("t1")
         self.assertEqual(self.evaluate(self.act("2"),now=101002)["status"],"REJECTED_AUTHORITY")
+        second=GovernanceEngine(self.key)
+        second.revoke("t1")
+        self.assertEqual(second.evaluate(self.act("3"),self.cap(),now=self.now,tick=1000)["status"],"REJECTED_AUTHORITY")
     def test_limits(self):
         self.assertEqual(self.evaluate(self.act("1","70"))["status"],"AUTHORIZED_SIMULATION")
         self.assertEqual(self.evaluate(self.act("2","30"))["status"],"REJECTED_LIMIT")
