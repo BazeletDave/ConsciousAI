@@ -33,3 +33,14 @@ For new systems and algorithms, document the historical antecedent, research que
 - [Assurance Engine](../Research-Governance/ConsciousAI-Research-Systems/ASSURANCE_ENGINE.md)
 
 **Positioning:** This is a research continuity and governance-of-use record, not a legal program or a claim of regulatory certification.
+
+<details>
+<summary>Historical attribution, third-party independence and research-use notice</summary>
+
+GRI's independent research reflects the founder's cumulative professional, scientific, educational and experiential background. References to prior work or historical affiliations, including organizations in regulated scientific and commercial sectors, are included only where relevant to research provenance. They do not imply affiliation, sponsorship, endorsement, partnership, transfer of intellectual property, or participation in GRI's present or future AI or machine-learning work by any current or former company, subsidiary, affiliate, investor, employee or collaborator in any jurisdiction.
+
+GRI does not assert ownership of third-party source code, datasets, confidential methods, inventions, trade secrets or other protected material by virtue of historical association. Likewise, this notice does not waive any demonstrable rights of GRI, the founder, or third parties. The rights and permissions applicable to any specific artifact depend on its documented provenance and governing agreements. No blanket restriction on others' independent research or lawful AI use is asserted.
+
+GRI's AI training, model evaluation, data ingestion, publications and derivative research should use only material for which access and intended use are supported by appropriate rights or permissions. Any ambiguous historical material is excluded from public training datasets and publication pending documented review. Public repository history is not a secure repository for confidential records. Questions about disputed rights or obligations require review of the relevant records and agreements by qualified counsel.
+
+</details>
