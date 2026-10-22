@@ -4,6 +4,7 @@ import json
 import os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from assurance_engine import evaluate
 from urllib.parse import urlparse, parse_qs, unquote
 
 ROOT = Path(__file__).resolve().parent
@@ -49,6 +50,35 @@ def assessment(case_id):
             "known_limitations": [case["limitations"]],
             "review_required": True,
             "notice": "This output is not an ethical certification, compliance determination, or finding of misconduct."}
+
+
+def assurance_dashboard():
+    """Read-only evidence assessment; no synthetic benchmark performance is presented as real."""
+    watchlist = load("ai_intelligence.json")
+    items = []
+    for item in watchlist["records"]:
+        # Watchlist publisher homepages are references, not independently reviewed evidence.
+        record = {"id": item["id"], "claim": item["summary"],
+                  "observed_at": watchlist["updated_at"] + "T00:00:00+00:00",
+                  "verification_status": "unreviewed",
+                  "sources": [{"publisher": source["name"], "url": source["url"],
+                               "independently_reviewed": False} for source in item["sources"]]}
+        result = evaluate(record)
+        items.append({"id": item["id"], "title": item["title"],
+                      "domain": item["domain"], "verification_status": item["verification_status"],
+                      "assessment": result})
+    return {"schema_version": "1.0", "mode": "research_prototype_read_only",
+            "data_origin": "curated_watchlist_not_verified_incident_evidence",
+            "evaluated_at": None, "watchlist_updated_at": watchlist["updated_at"],
+            "records_assessed": len(items),
+            "review_required": sum(x["assessment"]["review_required"] for x in items),
+            "eligible_for_human_publication_review": sum(x["assessment"]["decision"] == "eligible_for_human_publication_review" for x in items),
+            "accuracy": None, "precision": None, "recall": None,
+            "false_positive_rate": None, "false_negative_rate": None,
+            "brier_score": None, "drift": None, "bias_evaluation": None,
+            "benchmark_status": "not_evaluated_no_independently_labeled_dataset",
+            "items": items,
+            "notice": "Evidence gating is operational; model performance, fairness and drift are not measured until independent labeled evaluation data are available."}
 
 class Handler(BaseHTTPRequestHandler):
     def send_json(self, status, data):
@@ -99,6 +129,8 @@ class Handler(BaseHTTPRequestHandler):
                     "counts": {"cases": len(cases), "events": len(events), "policies": len(policies)},
                     "verification_status_counts": counts,
                     "notice": "Record counts do not establish independent verification, legal compliance, or causation."})
+            if path == "/assurance/overview":
+                return self.send_json(200, assurance_dashboard())
             if path == "/ai-intelligence":
                 return self.send_json(200, load("ai_intelligence.json"))
             if path == "/events":
@@ -120,7 +152,7 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/policies":
                 return self.send_json(200, load("policies.json"))
             if path == "/":
-                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/cases", "/graph", "/policies", "/events", "/ai-intelligence", "/policy-sources", "/dashboard", "POST /assessments"], "deployment": "local_prototype"})
+                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/cases", "/graph", "/policies", "/events", "/assurance/overview", "/ai-intelligence", "/policy-sources", "/dashboard", "POST /assessments"], "deployment": "local_prototype"})
             return self.send_json(404, {"error": "unknown_route"})
         except (ValueError, OSError, KeyError, json.JSONDecodeError):
             return self.send_json(500, {"error": "invalid_research_data"})
