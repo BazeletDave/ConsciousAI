@@ -1,0 +1,5 @@
+date,actor,action,source_url,evidence_class,limitation
+2026-10-21,PHP Security Team,Released critical security advisory and patched versions,https://www.php.net/?p=6507,primary_vendor,Does not quantify global compromises
+2026-10-21,US NSA,Advised inventory patching logging and possible isolation,https://www.nsa.gov/press-room/press-releases-statements/press-release-view/article/4630238/nsa-advisory-critical-patches-recommended-for-php-vulnerabilities/,primary_government,Advisory not proof of any agency compromise
+2026-10-21,ENISA and EU partners,Issued joint immediate-action guidance,https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities,primary_government,Not proof of coordinated attack attribution
+2026-10-21,Canadian Centre for Cyber Security,Recommended patches monitoring and isolation where necessary,https://www.cyber.gc.ca/en/alerts-advisories/al26-026-critical-vulnerabilities-impacting-php-cve-2026-109618-cve-2026-109619,primary_government,Does not prove successful exploitation
