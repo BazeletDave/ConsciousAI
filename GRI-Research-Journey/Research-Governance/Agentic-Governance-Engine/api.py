@@ -3,7 +3,7 @@ import os
 from dataclasses import asdict
 from fastapi import FastAPI, Header, HTTPException
 from pydantic import BaseModel, Field
-from .engine import GovernanceEngine, Capability, Action, sign_capability
+from engine import GovernanceEngine, Capability, Action, sign_capability
 import time, uuid
 
 app=FastAPI(title="GRI Agentic Governance Research API",version="2.0.0")
