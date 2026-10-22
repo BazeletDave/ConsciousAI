@@ -1,3 +1,5 @@
+> **22 October 2026 | Longitudinal research continuity and academic standards:** [Bazelet, global Uber collaboration and cross-jurisdictional institutional governance](2026-10-22-longitudinal-cross-jurisdictional-platform-and-biotech-research.md) connects prior work to current AI assurance prototypes. Historical leads are marked for artifact-level verification; original dates and collaborator contributions must be preserved. New research must state its question, theoretical lens, primary evidence, methods, limitations, reproducible results where applicable, and institutional implications. This is GRI's independent research, not a claim of Thunderbird endorsement.
+
 # GRI Integrated Research Journey | Living Research Architecture
 
 > **21 October 2026 | Sensor classification and governance:** [Synthetic IMU Random Forest research prototype](../Research-Governance/Motion-Classification/README.md) implements six-axis feature extraction, a calibrated classifier, deterministic synthetic data, evaluation scaffolding and tests. It separates motion inference from authorized institutional intervention and explicitly limits performance claims to simulation.
