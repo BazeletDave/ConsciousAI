@@ -61,6 +61,18 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(payload)
 
+    def do_HEAD(self):
+        path = urlparse(self.path).path
+        if path in ("/", "/dashboard", "/dashboard.html", "/health"):
+            self.send_response(200)
+            self.send_header("Content-Length", "0")
+            self.send_header("Cache-Control", "no-store")
+            self.end_headers()
+        else:
+            self.send_response(404)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+
     def do_GET(self):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
@@ -74,6 +86,19 @@ class Handler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(payload)
                 return
+            if path == "/intelligence/summary":
+                cases = records()
+                events = load("events.json")["records"]
+                policies = load("policies.json")["records"]
+                counts = {}
+                for item in cases + events + policies:
+                    status = item.get("verification_status", "unspecified")
+                    counts[status] = counts.get(status, 0) + 1
+                return self.send_json(200, {"schema_version": "1.0",
+                    "assessment_type": "registry_inventory_not_independent_verification",
+                    "counts": {"cases": len(cases), "events": len(events), "policies": len(policies)},
+                    "verification_status_counts": counts,
+                    "notice": "Record counts do not establish independent verification, legal compliance, or causation."})
             if path == "/events":
                 return self.send_json(200, load("events.json"))
             if path == "/policy-sources":

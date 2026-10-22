@@ -53,6 +53,19 @@ class ResearchServiceTests(unittest.TestCase):
     def test_policies_empty_not_live(self):
         self.assertEqual(self.fetch("/policies")["records"], [])
 
+    def test_intelligence_summary_preserves_verification_categories(self):
+        summary = self.fetch("/intelligence/summary")
+        self.assertEqual(summary["assessment_type"], "registry_inventory_not_independent_verification")
+        self.assertEqual(summary["counts"]["cases"], len(load("cases.json")["records"]))
+        self.assertEqual(summary["counts"]["events"], len(load("events.json")["records"]))
+        self.assertEqual(sum(summary["verification_status_counts"].values()), sum(summary["counts"].values()))
+
+    def test_head_dashboard_probe(self):
+        req = Request(f"http://127.0.0.1:{self.port}/dashboard", method="HEAD")
+        with urlopen(req, timeout=3) as response:
+            self.assertEqual(response.status, 200)
+            self.assertEqual(response.read(), b"")
+
     def test_registry_valid(self):
         data = load("cases.json")
         self.assertEqual(len({r["id"] for r in data["records"]}), len(data["records"]))
