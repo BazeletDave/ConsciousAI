@@ -20,6 +20,7 @@ The Nelson institutional approach informs the research questions about rules, ac
 * Token-bucket velocity breaker and explicitly approved manual reset
 * Idempotency rejection by action ID
 * Canonical SHA-256 linear hash-chain ledger with a verification routine
+* Exportable cryptographic evidence bundles, independent offline verification and trusted checkpoint comparison (checkpoint publication remains external and unimplemented)
 * Loopback-oriented FastAPI simulation endpoints and regression tests
 
 ## Run locally
@@ -37,7 +38,7 @@ Run the commands from the module directory. The API is restricted to local demon
 
 ## Important limits and remaining work
 
-This is an **initial backend research implementation**, not a complete production platform. The in-memory ledger is not durable or independently anchored; a privileged attacker could rewrite and rehash it. The HMAC key is for local demonstration, not an institutional signing service. A single process lock does not protect multiple replicas. The demo API has no production identity provider or operator RBAC. A live frontend integration, persistent transactional datastore, external ledger anchoring, secure key management, container hardening, CI and deployment verification remain necessary.
+This is an **initial backend research implementation**, not a complete production platform. The in-memory ledgers are not durable or independently anchored; the evidence export verifier can compare a supplied trusted checkpoint but cannot establish its provenance; a privileged attacker could rewrite and rehash it. The HMAC key is for local demonstration, not an institutional signing service. A single process lock does not protect multiple replicas. The demo API has no production identity provider or operator RBAC. A live frontend integration, persistent transactional datastore, external ledger anchoring, secure key management, container hardening, CI and deployment verification remain necessary.
 
 The API must not be exposed to the public internet without authentication and deployment hardening. The demo capability issuance endpoint is intentionally insecure outside a controlled laboratory.
 
