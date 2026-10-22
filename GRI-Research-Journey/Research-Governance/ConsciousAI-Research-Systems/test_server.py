@@ -60,6 +60,15 @@ class ResearchServiceTests(unittest.TestCase):
         self.assertEqual(summary["counts"]["events"], len(load("events.json")["records"]))
         self.assertEqual(sum(summary["verification_status_counts"].values()), sum(summary["counts"].values()))
 
+    def test_ai_intelligence_watchlist_is_explicitly_unverified(self):
+        data = self.fetch("/ai-intelligence")
+        self.assertEqual(data["status"], "curated_research_watchlist_not_live_verified_feed")
+        self.assertGreaterEqual(len(data["records"]), 4)
+        for record in data["records"]:
+            self.assertIn("pending_primary_source_review", record["verification_status"])
+            self.assertTrue(record["sources"])
+            self.assertTrue(all(source["url"].startswith("https://") for source in record["sources"]))
+
     def test_head_dashboard_probe(self):
         req = Request(f"http://127.0.0.1:{self.port}/dashboard", method="HEAD")
         with urlopen(req, timeout=3) as response:
