@@ -1,4 +1,6 @@
-> **22 October 2026 | Digital Bretton Woods research:** [Nelson Model, PHP2Shell, verified institutional recovery and AI governance](GRI-Research-Journey/Integrated-Research-Journey/Digital-Bretton-Woods/README.md). Independent working research, evidence qualified.\n\n# ConsciousAI | AI Governance, Algorithmic Management and Institutional Leadership
+> **22 October 2026 | Digital Bretton Woods research:** [Nelson Model, PHP2Shell, verified institutional recovery and AI governance](GRI-Research-Journey/Integrated-Research-Journey/Digital-Bretton-Woods/README.md). Independent working research, evidence qualified.
+
+# ConsciousAI | AI Governance, Algorithmic Management and Institutional Leadership
 
 ## The AI Paradox | Institutional Power in the Fourth Industrial Revolution
 
