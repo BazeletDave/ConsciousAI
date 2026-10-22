@@ -69,6 +69,17 @@ class ResearchServiceTests(unittest.TestCase):
             self.assertTrue(record["sources"])
             self.assertTrue(all(source["url"].startswith("https://") for source in record["sources"]))
 
+    def test_assurance_overview_is_read_only_and_unmeasured(self):
+        result = self.fetch("/assurance/overview")
+        self.assertEqual(result["records_assessed"], len(load("ai_intelligence.json")["records"]))
+        self.assertEqual(result["review_required"], result["records_assessed"])
+        self.assertEqual(result["eligible_for_human_publication_review"], 0)
+        self.assertIsNone(result["accuracy"])
+        self.assertIsNone(result["brier_score"])
+        self.assertIsNone(result["drift"])
+        self.assertTrue(all(x["assessment"]["decision"] == "hold_for_review" for x in result["items"]))
+        self.assertTrue(all(not x["assessment"]["automated_remediation_allowed"] for x in result["items"]))
+
     def test_head_dashboard_probe(self):
         req = Request(f"http://127.0.0.1:{self.port}/dashboard", method="HEAD")
         with urlopen(req, timeout=3) as response:
