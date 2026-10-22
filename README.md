@@ -1,6 +1,11 @@
-> **22 October 2026 | Digital Bretton Woods research:** [Nelson Model, PHP2Shell, verified institutional recovery and AI governance](GRI-Research-Journey/Integrated-Research-Journey/Digital-Bretton-Woods/README.md). Independent working research, evidence qualified.
-
 # ConsciousAI | AI Governance, Algorithmic Management and Institutional Leadership
+
+## Current Research | Institutional Cybersecurity and AI Governance
+
+**Research update · 22 October 2026**  
+GRI's ongoing institutional recovery research examines critical PHP security vulnerabilities, verified remediation, operational resilience, and the governance of increasingly autonomous systems. The analysis applies the Nelson Model within GRI's independent research framework and distinguishes documented evidence from emerging hypotheses.
+
+[**Explore the Digital Bretton Woods research and evidence register →**](GRI-Research-Journey/Integrated-Research-Journey/Digital-Bretton-Woods/README.md)
 
 ## The AI Paradox | Institutional Power in the Fourth Industrial Revolution
 
