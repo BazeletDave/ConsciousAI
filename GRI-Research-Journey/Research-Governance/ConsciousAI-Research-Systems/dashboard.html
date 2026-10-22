@@ -10,7 +10,14 @@ const $=id=>document.getElementById(id);let nodes=[],edges=[],events=[],policies
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const color=t=>({observation:'#207d8a',company_report:'#5278b8',hypothesis:'#ad7d2c',policy:'#8046a3',event:'#c35b4c',institution:'#41765a',person:'#856fa5'}[t]||'#607487');
 async function get(path){const r=await fetch(path);if(!r.ok)throw Error(path+' '+r.status);return r.json()}
-function show(n){if(!n)return;const d=$('details');d.innerHTML='<h3>'+esc(n.id||n.title)+'</h3><p>'+esc(n.claim||n.summary||n.title)+'</p>'+Object.entries(n).filter(([k])=>!['claim','summary','title'].includes(k)).map(([k,v])=>'<p><b>'+esc(k.replaceAll('_',' '))+':</b> '+esc(typeof v==='object'?JSON.stringify(v):v)+'</p>').join('')}
+function show(n){
+ if(!n)return;
+ const d=$('details');
+ const status=n.verification_status||'unspecified';
+ d.innerHTML='<h3>'+esc(n.id||n.title)+'</h3><p>'+esc(n.claim||n.summary||n.title)+'</p><div class="status-note">Verification status: '+esc(status)+'. Research connections do not establish causation.</div>'+Object.entries(n).filter(([k])=>!['claim','summary','title'].includes(k)).map(([k,v])=>'<p><b>'+esc(k.replaceAll('_',' '))+':</b> '+esc(typeof v==='object'?JSON.stringify(v):v)+'</p>').join('');
+ const url=n.primary_source_url||n.source;
+ if(typeof url==='string'&&url.startsWith('https://')){const a=document.createElement('a');a.href=url;a.target='_blank';a.rel='noopener noreferrer';a.className='provenance-link';a.textContent='Open source ↗';d.appendChild(a)}
+}
 function renderEvents(){
  const query=$('event-search').value.trim().toLowerCase(),region=$('event-region').value,limit=Number($('event-limit').value)||10;
  const list=events.filter(x=>(!region||x.jurisdiction===region)&&(!query||[x.title,x.summary,x.organization,x.jurisdiction,x.verification_status].join(' ').toLowerCase().includes(query))).sort((a,b)=>(b.event_date||'').localeCompare(a.event_date||'')||a.title.localeCompare(b.title));
