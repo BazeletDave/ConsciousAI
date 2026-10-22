@@ -89,6 +89,7 @@ class GovernanceEngine:
         self.window = deque()
         self.token_windows = {}
         self.seen = set()
+        self.last_wall_time = None
         self.revoked = set()
         self.tripped = False
 
@@ -105,6 +106,9 @@ class GovernanceEngine:
             tick = time.monotonic() if tick is None else float(tick)
             if not math.isfinite(now) or not math.isfinite(tick):
                 raise ValueError("Invalid clock")
+            if self.last_wall_time is not None and now < self.last_wall_time:
+                return self._log(action,"REJECTED_CLOCK","Wall clock moved backwards",now)
+            self.last_wall_time = now
             if action.action_id in self.seen:
                 return self._log(action,"REJECTED_DUPLICATE","Duplicate action ID",now)
             self.seen.add(action.action_id)
