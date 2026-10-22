@@ -1,0 +1,26 @@
+name: GRI Agentic Governance Research CI
+on:
+  pull_request:
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine/**'
+      - '.github/workflows/gri-agentic-governance.yml'
+  push:
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine/**'
+      - '.github/workflows/gri-agentic-governance.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Compile sources
+        run: python -m compileall -q GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine
+      - name: Run deterministic governance tests
+        working-directory: GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine
+        run: python -m unittest discover -p 'test_*.py' -v
