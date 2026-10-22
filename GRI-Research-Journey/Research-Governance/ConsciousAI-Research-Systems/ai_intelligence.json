@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "status": "curated_research_watchlist_not_live_verified_feed",
+  "updated_at": "2026-10-22",
+  "methodology": "Items are research monitoring priorities, not incident findings. Source URLs point to authoritative publisher homepages or security advisory collections. A human researcher must verify each specific bulletin, date, CVE, and attribution before elevating it to a confirmed event.",
+  "records": [
+    {
+      "id": "GRI-INTEL-PHP-2026",
+      "title": "PHP security advisories and reported exploitation",
+      "domain": "Cybersecurity",
+      "jurisdiction": "Global",
+      "priority": "high",
+      "verification_status": "research_watchlist_pending_primary_source_review",
+      "summary": "Track PHP security releases, specific CVE advisories, reported exploitation and patch adoption. Do not infer a confirmed compromise from exploitation attempts.",
+      "sources": [
+        {
+          "name": "PHP official releases",
+          "url": "https://www.php.net/releases/"
+        },
+        {
+          "name": "CISA Known Exploited Vulnerabilities",
+          "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "name": "NVD",
+          "url": "https://nvd.nist.gov/"
+        }
+      ],
+      "institutional_lens": "Disclosure to remediation lag, runtime attestation, accountability and verifiable patch coverage"
+    },
+    {
+      "id": "GRI-INTEL-FBI-CISA-2026",
+      "title": "Government cybersecurity advisories and incident coordination",
+      "domain": "Institutional governance",
+      "jurisdiction": "United States",
+      "priority": "high",
+      "verification_status": "research_watchlist_pending_primary_source_review",
+      "summary": "Track relevant FBI, CISA and NSA bulletins. Separate agency guidance, investigation announcements and independently established attacker attribution.",
+      "sources": [
+        {
+          "name": "FBI cybersecurity",
+          "url": "https://www.fbi.gov/investigate/cyber"
+        },
+        {
+          "name": "CISA alerts",
+          "url": "https://www.cisa.gov/news-events/cybersecurity-advisories"
+        },
+        {
+          "name": "NSA cybersecurity",
+          "url": "https://www.nsa.gov/Cybersecurity/"
+        }
+      ],
+      "institutional_lens": "Institutional coordination, response capacity and evidence provenance"
+    },
+    {
+      "id": "GRI-INTEL-AI-GOV-2026",
+      "title": "AI agent governance and technical control standards",
+      "domain": "AI governance",
+      "jurisdiction": "Global",
+      "priority": "high",
+      "verification_status": "research_watchlist_pending_primary_source_review",
+      "summary": "Track authoritative standards and technical control publications for autonomous and agentic systems. Research hypotheses are not compliance certifications.",
+      "sources": [
+        {
+          "name": "NIST AI RMF",
+          "url": "https://www.nist.gov/itl/ai-risk-management-framework"
+        },
+        {
+          "name": "OECD AI Policy Observatory",
+          "url": "https://oecd.ai/"
+        }
+      ],
+      "institutional_lens": "Delegation boundaries, auditability, human oversight and the AI Compliance Paradox"
+    },
+    {
+      "id": "GRI-INTEL-GLOBAL-2026",
+      "title": "International AI policy and institutional change",
+      "domain": "Global policy",
+      "jurisdiction": "International",
+      "priority": "medium",
+      "verification_status": "research_watchlist_pending_primary_source_review",
+      "summary": "Monitor official legal and policy developments, preserving jurisdiction, instrument status, effective date and primary-source citations.",
+      "sources": [
+        {
+          "name": "EU AI policy",
+          "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+        },
+        {
+          "name": "US Federal Register",
+          "url": "https://www.federalregister.gov/"
+        }
+      ],
+      "institutional_lens": "Nelson Model: rules, actors, interests, power, legitimacy, options and adaptation"
+    }
+  ]
+}
