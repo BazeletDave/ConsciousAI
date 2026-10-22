@@ -1,6 +1,7 @@
 name: GRI Agentic Governance Research CI
 on:
   pull_request:
+    branches: [main, develop]
     paths:
       - 'GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine/**'
       - '.github/workflows/gri-agentic-governance.yml'
@@ -13,14 +14,44 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:15
+        env:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: gri_governance
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U postgres -d gri_governance"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    env:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/gri_governance
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: Install test dependencies
+        run: python -m pip install pytest psycopg2-binary
       - name: Compile sources
         run: python -m compileall -q GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine
+      - name: Execute real PostgreSQL migration
+        env:
+          PGPASSWORD: postgres
+        run: |
+          psql -v ON_ERROR_STOP=1 -h localhost -U postgres -d gri_governance -f GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine/migrations/001_initial_gri_governance_schema.sql
       - name: Run deterministic governance tests
         working-directory: GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine
         run: python -m unittest discover -p 'test_*.py' -v
+      - name: Validate migrated database structure
+        env:
+          PGPASSWORD: postgres
+        run: |
+          psql -v ON_ERROR_STOP=1 -h localhost -U postgres -d gri_governance -Atc "SELECT count(*) FROM information_schema.tables WHERE table_schema='public' AND table_name IN ('governance_issuer_keys','agent_capabilities','idempotency_records','evidence_chain_heads','circuit_breaker_states','authorization_reservations','evidence_records','evidence_checkpoints')" | grep -x 8
+      # Integration/concurrency tests must be added before this workflow can
+      # support merge approval. No evidence-export or security check is skipped.
