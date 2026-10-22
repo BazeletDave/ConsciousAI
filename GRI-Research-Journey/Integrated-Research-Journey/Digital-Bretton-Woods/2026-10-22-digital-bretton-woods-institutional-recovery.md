@@ -6,8 +6,8 @@
 ## Executive decision
 Critical systems must not be declared trustworthy solely because a patch was installed or a service restarted. Emergency patching is necessary; independent evidence of runtime integrity, identity integrity, dependency state, service continuity, and agent authorization is required before consequential capabilities are restored.
 
-## Verified incident baseline
-* PHP security advisory, 21 October 2026: CVE-2026-109618 and CVE-2026-109619 allow unauthenticated remote code execution in affected web-facing PHP installations. Fixed upstream versions: 8.2.35, 8.3.36, 8.4.27, 8.5.12. Vendor backports require separate verification. https://www.php.net/?p=6507
+## Verified incident baseline\nThe PHP Project and ENISA published primary advisories on 21 October 2026. The two CVEs are rated CVSS v4 9.2 by ENISA. These claims concern upstream PHP; downstream distributions and their backports require vendor specific verification.
+* PHP security advisory, 21 October 2026: CVE-2026-109618 and CVE-2026-109619 allow unauthenticated remote code execution in affected web-facing PHP installations. Fixed upstream versions: 8.2.35, 8.3.36, 8.4.27, 8.5.12. Vendor backports require separate verification. https://www.php.net/archive/2026.php#2026-10-21-5
 * US NSA, 21 October: inventory, vendor patching, enhanced logging, replacement of end-of-life services, and possible isolation where patching cannot be completed. https://www.nsa.gov/press-room/press-releases-statements/press-release-view/article/4630238/nsa-advisory-critical-patches-recommended-for-php-vulnerabilities/
 * ENISA and European partners, 21 October: coordinated identification, provider engagement, patching, and prioritization of exposed systems. https://www.enisa.europa.eu/news/joint-statement-on-critical-php-vulnerabilities
 * Canadian Centre for Cyber Security, 21 October: inventory third-party products, appliances and containers, monitor compromise indicators, and isolate exposed applications if remediation is infeasible. https://www.cyber.gc.ca/en/alerts-advisories/al26-026-critical-vulnerabilities-impacting-php-cve-2026-109618-cve-2026-109619
@@ -44,7 +44,7 @@ A restoration decision should record: (1) asset and dependency inventory; (2) ef
 
 **Do not delay urgent patching while waiting for this checklist.** Prioritize exposure reduction and continuity of essential services; scale evidence requirements to risk.
 
-## Research program and measurable outcomes
+## Illustrative technical case: automated patch false assurance\nA submitted Python patching routine checks only the CLI PHP version, performs privileged wildcard package updates and restarts, and reports success without post-change validation. Unsupported PHP branches fall into a misleading success branch. This is a **hypothetical code review finding**, not evidence that any government deployed this script. It demonstrates the distinction between executed instructions, reported compliance and independently verified outcomes. The safer institutional response is inventory, approved change, postpatch runtime verification, service health testing and signed restoration approval.\n\n## Research program and measurable outcomes
 * Compare response latency, time to verified recovery, recurrence of compromise, service disruption, and the share of restorations with independent assurance.
 * Collect timestamped primary advisories, operator change records where authorized, and public incident reports; distinguish observed, reported, inferred, and hypothetical claims.
 * Use matched case comparisons rather than infer causation from coincident outages.
