@@ -99,6 +99,8 @@ class Handler(BaseHTTPRequestHandler):
                     "counts": {"cases": len(cases), "events": len(events), "policies": len(policies)},
                     "verification_status_counts": counts,
                     "notice": "Record counts do not establish independent verification, legal compliance, or causation."})
+            if path == "/ai-intelligence":
+                return self.send_json(200, load("ai_intelligence.json"))
             if path == "/events":
                 return self.send_json(200, load("events.json"))
             if path == "/policy-sources":
@@ -118,7 +120,7 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/policies":
                 return self.send_json(200, load("policies.json"))
             if path == "/":
-                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/cases", "/graph", "/policies", "/events", "/policy-sources", "/dashboard", "POST /assessments"], "deployment": "local_prototype"})
+                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/cases", "/graph", "/policies", "/events", "/ai-intelligence", "/policy-sources", "/dashboard", "POST /assessments"], "deployment": "local_prototype"})
             return self.send_json(404, {"error": "unknown_route"})
         except (ValueError, OSError, KeyError, json.JSONDecodeError):
             return self.send_json(500, {"error": "invalid_research_data"})
