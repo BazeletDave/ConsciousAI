@@ -1,14 +1,14 @@
 # Nelson Model | Methodological Boundaries for GRI Research
 
-**Status:** Independent GRI methodological note, 22 October 2026. Not an endorsement by Thunderbird or its faculty.
+**Academic context:** The Nelson Model, developed at Thunderbird under the teaching of Roy Nelson, informs GRI's institutional analysis. GRI's subsequent AI governance applications are independent research and do not imply Thunderbird or faculty endorsement.
 
 ## Purpose
 GRI uses an institutional political-economy lens to examine how rules, actors, interests, power, policy choices and implementation capacity shape algorithmic and agentic management. This is a research method, not a claim that every case has the same causal structure.
 
-## Original teaching example: currency devaluation risk
-A slide titled *Assessing Prospects for Financial Crisis* presents seven diagnostic conditions for currency devaluation: (1) fixed versus flexible exchange rate; (2) large versus small current-account deficit; (3) large versus small budget deficit; (4) small versus large foreign reserves; (5) large versus small foreign debt; (6) high versus low political risk; and (7) large versus small contagion effect. The first listed condition is a heuristic, not an unconditional claim that all fixed exchange rates fail or that flexible rates prevent crises. The slide is a user-provided teaching reference; its provenance, date and permitted reproduction rights should be established before embedding the image itself.
+## Nelson Model: financial crisis indicators
+The Nelson Model's financial crisis assessment identifies seven diagnostic conditions for currency devaluation: (1) fixed versus flexible exchange rate; (2) large versus small current-account deficit; (3) large versus small budget deficit; (4) small versus large foreign reserves; (5) large versus small foreign debt; (6) high versus low political risk; and (7) large versus small contagion effect. The first listed condition is a heuristic, not an unconditional claim that all fixed exchange rates fail or that flexible rates prevent crises. The financial indicators retain their original economic context; any future reproduction of instructional materials must respect attribution and rights.
 
-These indicators are **currency-crisis indicators**, not an AI risk score, nor an exhaustive formal specification of the broader institutional approach. Do not relabel them as native cybersecurity, autonomous vehicle or LLM indicators.
+These are **currency-crisis indicators**, not an AI risk score or an exhaustive specification of the broader Nelson Model. Do not relabel them as native cybersecurity, autonomous vehicle or LLM indicators.
 
 ## GRI comparative extension (proposed; requires empirical validation)
 | Institutional question | Candidate AI-specific observable | Limitations |
