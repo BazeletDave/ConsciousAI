@@ -28,10 +28,12 @@ From the repository root:
 
 ```bash
 python -m pip install -r GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine/requirements.txt
-python -m unittest GRI-Research-Journey.Research-Governance.Agentic-Governance-Engine.test_engine
+cd GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine
+python -m unittest test_engine
+uvicorn api:app --host 127.0.0.1 --port 8000
 ```
 
-Because repository folder names contain hyphens, for execution use the standalone project folder copied outside this tree, or run the test file from the project directory after adapting package imports. A clean package layout is a follow-up integration task.
+Run the commands from the module directory. The API is restricted to local demonstration.
 
 ## Important limits and remaining work
 
