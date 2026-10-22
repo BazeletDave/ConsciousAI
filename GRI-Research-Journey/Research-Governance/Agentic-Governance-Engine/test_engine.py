@@ -1,5 +1,5 @@
 import unittest, threading
-from .engine import GovernanceEngine, Capability, Action, sign_capability
+from engine import GovernanceEngine, Capability, Action, sign_capability
 
 class GovernanceTests(unittest.TestCase):
     def setUp(self):
