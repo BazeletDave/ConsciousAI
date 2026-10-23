@@ -61,3 +61,8 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 ## Comparative Uber engineering and institutional management research
 
 [Read the expanded GRI study of Uber's MCP Gateway, translation infrastructure, and Software Factory](../../Algorithmic-Management-Institutional-Leadership/Uber-Engineering-AI-Paradox-Operational-Management-2026.md). This companion links the GRI South Florida rideshare observations and Chicago Lyft paired transaction case to enterprise engineering architecture, managed AI agents, managerial decision rights, and accountability. Uber and Lyft are distinct firms; the comparison is institutional and does not assume shared internal systems or causality.
+
+
+## Approved driver interview | October 23, 2026
+
+[Appendix A: Participant 0107, South Florida Uber and Lyft interview](appendix-a-interview-0107-2026-10-23.md) documents GRI approved qualitative findings on offer acceptance, unpaid time, academic and rest constraints, route chaining and perceived algorithmic opacity. Authorized by David Grand, Grand Research Institute, October 23, 2026. Participant claims about platform behavior are distinguished from independently verified mechanisms; fuel calculations are reproducible illustrations.
