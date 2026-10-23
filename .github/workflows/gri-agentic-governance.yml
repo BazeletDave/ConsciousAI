@@ -47,7 +47,9 @@ jobs:
           psql -v ON_ERROR_STOP=1 -h localhost -U postgres -d gri_governance -f GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine/migrations/001_initial_gri_governance_schema.sql
       - name: Run deterministic governance tests
         working-directory: GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine
-        run: python -m unittest discover -p 'test_*.py' -v
+        run: |
+          python -m unittest discover -p 'test_engine.py' -v
+          python -m unittest discover -p 'test_evidence.py' -v
       - name: Run PostgreSQL integration and security tests
         working-directory: GRI-Research-Journey/Research-Governance/Agentic-Governance-Engine
         run: python -m pytest test_postgres_integration.py -v --maxfail=1
