@@ -16,7 +16,7 @@ Grand Research Institute (GRI) | ConsciousAI
 
 ### 1. Offer acceptance
 
-The participant prioritizes expected financial compensation, estimating the impact of trip duration, mileage, fuel and vehicle costs. A reported airport offer of $14.15 for 33.3 miles and 46 minutes illustrates a declined offer. The participant perceives a mix of low and unusually high offers and hypothesizes that earnings converge toward $15 to $20 gross per hour. The latter is a participant hypothesis, not an independently verified platform policy.
+The participant prioritizes expected financial compensation, estimating the impact of trip duration, mileage, fuel and vehicle costs. A reported airport offer of $14.15 for 33.3 miles and 46 minutes illustrates a declined offer. The participant perceives a mix of low and unusually high offers and hypothesizes that earnings converge toward a $20 hourly average. This reported earnings average is a participant hypothesis, not an independently verified platform policy.
 
 ### 2. Unpaid time and operating expenses
 
@@ -24,7 +24,7 @@ The participant defines uncompensated activity as pickup travel, rider waiting, 
 
 ### 3. Time constraints and fatigue
 
-Academic coursework, family obligations, personal needs and adequate rest constrain working hours. The participant describes listening to course readings through Apple CarPlay while traveling or waiting, subject to safe driving practices. The participant raises a research question about how fatigue management can account for work across competing applications when each platform has incomplete information.
+Academic coursework, family obligations, personal needs and adequate rest constrain working hours. The source describes converting course readings to MP3 files and playing them through Apple CarPlay during transit or waiting periods. This is participant reported practice, not a recommendation to study while driving. The participant asserts that platform fatigue controls fail to account for hours on competing applications and characterizes the resulting limitations as biased. The actual scope of cross platform tracking, fatigue controls, and bias is not independently verified.
 
 ### 4. Information needed for decision quality
 
@@ -32,7 +32,7 @@ The participant favors transparent, profitable dispatch sequences rather than is
 
 ### 5. Distrust and adaptation
 
-The participant reports distrust of opaque incentives and perceived algorithmic manipulation. Experienced drivers may develop acceptance strategies based on observed offer patterns. Intentional earnings caps and manipulation remain unverified hypotheses.
+The participant reports distrust of opaque incentives and perceived algorithmic manipulation, including a perceived enforced earnings cap. Experienced drivers may develop acceptance strategies based on observed offer patterns. Intentional earnings caps and manipulation remain unverified hypotheses.
 
 ## Reproducible illustrative calculations
 
@@ -48,6 +48,10 @@ These figures exclude pickup and return miles, maintenance, depreciation, insura
 ## Institutional analysis
 
 GRI applies an institutional approach taught by Professor Roy C. Nelson at Thunderbird School of Global Management, examining rules, actors, interests, power, information asymmetries, incentives and adaptation. The interview illustrates the tension between platform dispatch optimization and workers' economic viability, autonomy, safety and trust. This interpretation is independent GRI research, not university or faculty endorsement.
+
+## Source reconciliation and methodological note
+
+The controlling source is the three page Word worksheet titled *Appendix A: Print Worksheet Driver Research Interview*, Participant 0107, dated October 23, 2026, supplied by GRI. The source specifies a **$20 hourly average** in Question 1; an earlier transcription stated a $15 to $20 range and has been corrected here. The source also explicitly characterizes cross application fatigue controls as flawed and biased, and discusses an enforced earnings cap; those statements are faithfully represented as **participant assertions**, not established platform facts. The worksheet's statement that the airport offer falls below minimum wage is a participant assessment, not a legal finding. The numerical analysis below the original worksheet is an independently calculated illustration, not part of the participant's original tabulation.
 
 ## Evidence boundaries
 
