@@ -1,0 +1,9 @@
+# Dependencies for the isolated PostgreSQL research API (not a production lockfile).
+fastapi>=0.110,<1
+pydantic>=2,<3
+sqlalchemy>=2,<3
+psycopg2-binary>=2.9,<3
+cryptography>=42
+rfc8785>=0.1
+httpx>=0.27
+pytest>=8
