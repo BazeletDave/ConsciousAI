@@ -80,6 +80,13 @@ class ResearchServiceTests(unittest.TestCase):
         self.assertTrue(all(x["assessment"]["decision"] == "hold_for_review" for x in result["items"]))
         self.assertTrue(all(not x["assessment"]["automated_remediation_allowed"] for x in result["items"]))
 
+    def test_triage_endpoint_is_read_only_and_explainable(self):
+        result = self.fetch("/intelligence/triage")
+        self.assertEqual(result["count"], len(load("events.json")["records"]))
+        self.assertEqual(result["method"], "deterministic_missing_evidence_heuristic")
+        self.assertTrue(all(x["requires_human_review"] for x in result["records"]))
+        self.assertTrue(all(x["model_trained"] is False for x in result["records"]))
+
     def test_head_dashboard_probe(self):
         req = Request(f"http://127.0.0.1:{self.port}/dashboard", method="HEAD")
         with urlopen(req, timeout=3) as response:
