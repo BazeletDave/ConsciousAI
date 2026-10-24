@@ -70,4 +70,4 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 
 ## Comparative institutional governance | Brazil 2026
 
-[See GRI's TAM 505 Brazil electoral platform governance comparison](../../Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md), linking platform information asymmetry and contestability in ridesharing to public institutional oversight of political information systems. This is a comparison of institutional structures, not an assertion of common algorithms or verified election interference.
+[See GRI's Thunderbird-informed Brazil electoral platform governance comparison](../../Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md), linking platform information asymmetry and contestability in ridesharing to public institutional oversight of political information systems. This is a comparison of institutional structures, not an assertion of common algorithms or verified election interference.
