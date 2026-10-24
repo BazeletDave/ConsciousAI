@@ -5,6 +5,7 @@ import os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from assurance_engine import evaluate
+from mobility_engine import public_summary
 from urllib.parse import urlparse, parse_qs, unquote
 
 ROOT = Path(__file__).resolve().parent
@@ -137,6 +138,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, load("events.json"))
             if path == "/policy-sources":
                 return self.send_json(200, load("policy_sources.json"))
+            if path == "/mobility/summary":
+                return self.send_json(200, public_summary())
             if path == "/health":
                 return self.send_json(200, {"status": "ok", "service": "GRI local research prototype"})
             if path == "/cases":
