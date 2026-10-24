@@ -2,7 +2,7 @@
 
 ## Research Update | October 23, 2026
 
-**GRI comparative institutional research:** [Brazil 2026: AI, Electoral Institutions and Platform Governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) connects TAM 505 institutional analysis with the AI Paradox and [Uber and Lyft algorithmic management research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md), including [Appendix A: Driver Interview 0107](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/appendix-a-interview-0107-2026-10-23.md). The Brazil case records reported allegations, responses and verification requirements without treating disputed political claims as established facts. The driver interview is GRI approved qualitative evidence; participant perceptions are not independently verified platform mechanisms. These are independent GRI studies informed by graduate coursework, not university or faculty endorsements.
+**GRI comparative institutional research:** [Brazil 2026: AI, Electoral Institutions and Platform Governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) connects graduate-level institutional analysis informed by Thunderbird School of Global Management at Arizona State University with the AI Paradox and [Uber and Lyft algorithmic management research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md), including [Appendix A: Driver Interview 0107](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/appendix-a-interview-0107-2026-10-23.md). The Brazil case records reported allegations, responses and verification requirements without treating disputed political claims as established facts. The driver interview is GRI approved qualitative evidence; participant perceptions are not independently verified platform mechanisms. These are independent GRI studies informed by graduate coursework, not university or faculty endorsements.
 
 ## Current Research | Institutional Cybersecurity and AI Governance
 
@@ -59,7 +59,7 @@ A concise, evidence qualified entry point for government, institutional, academi
 
 ## Historical Foundations | From Human Leadership to AI Governance
 
-GRI's formal research journey began in **2021**, but the practical experience informing it extends to **Grand Advertising in the 1990s**, where founder David Grand worked with leadership development, training, motivation, organizational advancement, and performance management in sales operations. Subsequent international business and management experience, together with graduate study at Thunderbird School of Global Management, informs the present research into algorithmic management, human judgment, and institutional governance. These historical foundations are **practitioner experience**, not claims that GRI conducted formal research in the 1990s.
+GRI's formal research journey began in **2021**, but the practical experience informing it extends to **Grand Advertising in the 1990s**, where founder David Grand worked with leadership development, training, motivation, organizational advancement, and performance management in sales operations. Subsequent international business and management experience, together with graduate study at Thunderbird School of Global Management at Arizona State University, informs the present research into algorithmic management, human judgment, and institutional governance. These historical foundations are **practitioner experience**, not claims that GRI conducted formal research in the 1990s.
 
 [Explore the research chronology, evidence status and scholarly foundations](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md).
 
@@ -76,7 +76,7 @@ GRI's formal research journey began in **2021**, but the practical experience in
 
 **For readers exploring the creative research ecosystem:** [The Back Door website](https://back-door-october-4-original.vercel.app/) and [Sunday Funday](https://www.youtube.com/@grandresearchinstitute).
 
-**Research integrity:** GRI distinguishes peer-reviewed external scholarship, independent working papers, documented observations, conceptual illustrations, exploratory protocols and future research. References to Thunderbird or ASU identify academic context, not university endorsement of GRI publications.
+**Research integrity:** GRI distinguishes peer-reviewed external scholarship, independent working papers, documented observations, conceptual illustrations, exploratory protocols and future research. References to Thunderbird School of Global Management at Arizona State University identify academic context, not university endorsement of GRI publications.
 
 ### Featured Research | October 2026
 
