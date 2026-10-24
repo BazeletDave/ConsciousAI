@@ -66,3 +66,8 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 ## Approved driver interview | October 23, 2026
 
 [Appendix A: Participant 0107, South Florida Uber and Lyft interview](appendix-a-interview-0107-2026-10-23.md) documents GRI approved qualitative findings on offer acceptance, unpaid time, academic and rest constraints, route chaining and perceived algorithmic opacity. Authorized by David Grand, Grand Research Institute, October 23, 2026. Participant claims about platform behavior are distinguished from independently verified mechanisms; fuel calculations are reproducible illustrations.
+
+
+## Comparative institutional governance | Brazil 2026
+
+[See GRI's TAM 505 Brazil electoral platform governance comparison](../../Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md), linking platform information asymmetry and contestability in ridesharing to public institutional oversight of political information systems. This is a comparison of institutional structures, not an assertion of common algorithms or verified election interference.
