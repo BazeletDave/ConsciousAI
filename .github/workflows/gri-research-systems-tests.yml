@@ -1,0 +1,24 @@
+name: GRI Research Systems Tests
+on:
+  pull_request:
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/**'
+      - '.github/workflows/gri-research-systems-tests.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/**'
+      - '.github/workflows/gri-research-systems-tests.yml'
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Run research system unit tests
+        run: python -m unittest discover -v
