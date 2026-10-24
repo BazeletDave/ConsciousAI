@@ -1,5 +1,9 @@
 # ConsciousAI | AI Governance, Algorithmic Management and Institutional Leadership
 
+## Research Update | October 23, 2026
+
+**GRI comparative institutional research:** [Brazil 2026: AI, Electoral Institutions and Platform Governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) connects TAM 505 institutional analysis with the AI Paradox and [Uber and Lyft algorithmic management research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md), including [Appendix A: Driver Interview 0107](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/appendix-a-interview-0107-2026-10-23.md). The Brazil case records reported allegations, responses and verification requirements without treating disputed political claims as established facts. The driver interview is GRI approved qualitative evidence; participant perceptions are not independently verified platform mechanisms. These are independent GRI studies informed by graduate coursework, not university or faculty endorsements.
+
 ## Current Research | Institutional Cybersecurity and AI Governance
 
 **Research update · 22 October 2026**  
