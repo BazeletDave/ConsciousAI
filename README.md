@@ -11,6 +11,10 @@ GRI's ongoing institutional recovery research examines critical PHP security vul
 
 [**Explore the Digital Bretton Woods research and evidence register →**](GRI-Research-Journey/Integrated-Research-Journey/Digital-Bretton-Woods/README.md)
 
+## Research Integration | IFC Accountability, Institutional Incentives and AI
+
+[**IFC Performance Standards, Nelson's Three Worldviews and the AI Compliance Paradox →**](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-ifc-incentives-performance-standards-ai-governance-crosswalk.md) connects the IFC's 2012 environmental and social safeguards, a separately attributed 2018 external opinion on AIMM incentives, and Thunderbird global political economy teaching to GRI's independent hypotheses on algorithmic management, delegated agent authority, stakeholder harms and contestable institutional decisions. The research note distinguishes primary policy, advocacy interpretation and unvalidated GRI extensions; it does not imply IFC or university endorsement.
+
 ## The AI Paradox | Institutional Power in the Fourth Industrial Revolution
 
 **What happens when intelligence, capital, data and automation amplify institutional power faster than human governance can adapt?**
