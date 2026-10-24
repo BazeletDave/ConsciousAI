@@ -2,7 +2,7 @@
 
 **Grand Research Institute | Research Journey | October 23, 2026**  
 **Status:** Exploratory comparative institutional case; allegations not independently established  
-**Academic foundation:** TAM 505 Global and Regional Environments, taught by Professor Roy C. Nelson at Thunderbird School of Global Management. GRI's application is independent research, not faculty or university endorsement.
+**Academic foundation:** Graduate study in Global and Regional Environments, taught by Professor Roy C. Nelson at Thunderbird School of Global Management at Arizona State University (course reference: TAM 505). GRI's application is independent research, not faculty or university endorsement.
 
 ## Research question
 
@@ -22,9 +22,9 @@ How do electoral institutions respond when private platform moderation, AI-gener
 
 **Important:** Neither this transcript nor GRI's analysis establishes intentional platform bias, deployment of a manipulation tool, electoral effects, or criminal liability. Any later corroboration must be dated, linked and recorded separately.
 
-## TAM 505 institutional analysis
+## Thunderbird institutional analysis
 
-The institutional approach taught in TAM 505 by Professor Roy C. Nelson examines how rules, organizations, interests, power and historical context structure strategic choices. GRI applies the following analytic sequence:
+The institutional approach taught by Professor Roy C. Nelson at Thunderbird School of Global Management at Arizona State University examines how rules, organizations, interests, power and historical context structure strategic choices. GRI applies the following analytic sequence:
 
 1. **Worldview and country context:** Brazil's political economy, democratic competition, regulatory setting and institutional history.
 2. **Rules:** Electoral law, court authority, platform moderation rules, transparency obligations and rights of expression.
