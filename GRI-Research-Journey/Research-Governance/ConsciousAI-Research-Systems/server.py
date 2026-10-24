@@ -8,6 +8,7 @@ from assurance_engine import evaluate
 from mobility_engine import public_summary
 from model_registry import platform_capabilities
 from evaluation_pipeline import evaluation_capabilities
+from risk_triage import triage
 from urllib.parse import urlparse, parse_qs, unquote
 
 ROOT = Path(__file__).resolve().parent
@@ -134,6 +135,9 @@ class Handler(BaseHTTPRequestHandler):
                     "notice": "Record counts do not establish independent verification, legal compliance, or causation."})
             if path == "/assurance/overview":
                 return self.send_json(200, assurance_dashboard())
+            if path == "/intelligence/triage":
+                items = load("events.json")["records"]
+                return self.send_json(200, {"schema_version": "1.3", "method": "deterministic_missing_evidence_heuristic", "records": [triage(item) for item in items], "count": len(items), "notice": "Research triage only; no trained model or compliance determination."})
             if path == "/ai-intelligence":
                 return self.send_json(200, load("ai_intelligence.json"))
             if path == "/events":
