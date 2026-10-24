@@ -71,3 +71,8 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 ## Comparative institutional governance | Brazil 2026
 
 [See GRI's Thunderbird-informed Brazil electoral platform governance comparison](../../Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md), linking platform information asymmetry and contestability in ridesharing to public institutional oversight of political information systems. This is a comparison of institutional structures, not an assertion of common algorithms or verified election interference.
+
+
+## Agentic security and functional authority | October 23, 2026
+
+[Uber Persona Guardrail: institutional boundaries, delegated authority and the AI Compliance Paradox](uber-persona-guardrail-institutional-authority-2026-10-23.md) analyzes Uber's reported PAGE results and guardrail architecture alongside GRI's Uber and Lyft comparative governance research. It distinguishes input/output classification from intermediate tool authorization, separates reported results from independently verified evidence, and specifies requirements for an offline research prototype.
