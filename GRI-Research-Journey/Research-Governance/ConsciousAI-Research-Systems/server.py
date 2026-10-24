@@ -7,6 +7,7 @@ from pathlib import Path
 from assurance_engine import evaluate
 from mobility_engine import public_summary
 from model_registry import platform_capabilities
+from evaluation_pipeline import evaluation_capabilities
 from urllib.parse import urlparse, parse_qs, unquote
 
 ROOT = Path(__file__).resolve().parent
@@ -139,6 +140,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, load("events.json"))
             if path == "/policy-sources":
                 return self.send_json(200, load("policy_sources.json"))
+            if path == "/platform/evaluation":
+                return self.send_json(200, evaluation_capabilities())
             if path == "/platform/capabilities":
                 return self.send_json(200, platform_capabilities())
             if path == "/mobility/summary":
