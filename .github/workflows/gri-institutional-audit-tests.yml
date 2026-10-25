@@ -1,0 +1,22 @@
+name: GRI Institutional Audit Prototype Tests
+on:
+  push:
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/institutional_audit.py'
+      - '.github/workflows/gri-institutional-audit-tests.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install cryptographic test dependency
+        run: python -m pip install 'cryptography>=43,<47'
+      - name: Run isolated adversarial audit tests
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python -m unittest -v institutional_audit.AuditTests
