@@ -1,0 +1,32 @@
+name: Frontier Governance Research Verification
+on:
+  push:
+    branches: [research/frontier-hierarchical-governance-v0-2]
+  pull_request:
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/Frontier-Hierarchical-Governance/**'
+      - '.github/workflows/frontier-governance-research.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Python policy regression tests
+        run: python -m unittest discover -s GRI-Research-Journey/Research-Governance/Frontier-Hierarchical-Governance -p 'test_*.py' -v
+      - name: Install pinned OPA
+        run: |
+          curl --fail --location --retry 3 --output /tmp/opa https://github.com/open-policy-agent/opa/releases/download/v1.4.2/opa_linux_amd64_static
+          chmod +x /tmp/opa
+          /tmp/opa version
+      - name: OPA compile and tests
+        run: |
+          D=GRI-Research-Journey/Research-Governance/Frontier-Hierarchical-Governance
+          /tmp/opa check --strict "$D/policy.rego" "$D/policy_test.rego"
+          /tmp/opa test -v "$D/policy.rego" "$D/policy_test.rego"
