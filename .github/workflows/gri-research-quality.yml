@@ -32,3 +32,23 @@ jobs:
       - name: Research service and ingestion tests
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python -m unittest discover -p 'test_*.py' -v
+      - name: Compile research modules
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python -m compileall -q .
+      - name: Validate candidate dataset and research release gates
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: |
+          python build_research_dataset.py
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from research_benchmark import validate
+          rows=json.loads(Path("research_dataset/candidate_metadata.json").read_text())
+          manifest=json.loads(Path("research_dataset/manifest.json").read_text())
+          assert manifest["records"]==len(rows)
+          assert manifest["benchmark_eligible"] is False
+          assert manifest["independently_adjudicated"]==0
+          assert not validate(rows)["eligible"]
+          assert all(r["publication_authorized"] is False for r in rows)
+          print("Research rights and independent-review gates remain enforced.")
+          PY
