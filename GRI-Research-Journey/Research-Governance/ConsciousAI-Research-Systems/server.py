@@ -11,6 +11,7 @@ from evaluation_pipeline import evaluation_capabilities
 from evidence_quality import score, dataset_manifest
 from risk_triage import triage
 from governance_telemetry import public_snapshot
+from institutional_bridge import research_snapshot
 from urllib.parse import urlparse, parse_qs, unquote
 
 ROOT = Path(__file__).resolve().parent
@@ -148,6 +149,8 @@ class Handler(BaseHTTPRequestHandler):
                 evidence["content_sha256"] = digest
                 evidence["status"] = "source_integrity_checked_not_independently_audited"
                 return self.send_json(200, evidence)
+            if path == "/institutional/research-framework":
+                return self.send_json(200, research_snapshot())
             if path == "/governance/telemetry":
                 return self.send_json(200, public_snapshot())
             if path == "/assurance/overview":
