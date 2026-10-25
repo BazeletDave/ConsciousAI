@@ -28,6 +28,10 @@ def group_holdout(rows):
  for g in groups:
   bucket=int(hashlib.sha256(("GRI-v1:"+g).encode()).hexdigest()[:8],16)%5
   assignment[g]="holdout" if bucket==0 else "development"
+ if len(groups)>1 and not any(x=="holdout" for x in assignment.values()):
+  assignment[groups[-1]]="holdout"
+ if len(groups)>1 and not any(x=="development" for x in assignment.values()):
+  assignment[groups[0]]="development"
  return [dict(r,split=assignment[r["case_family"]]) for r in rows]
 def manifest(rows):
  payload=json.dumps(rows,sort_keys=True,separators=(",",":"),ensure_ascii=False)
