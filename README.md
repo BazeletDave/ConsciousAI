@@ -1,4 +1,8 @@
-# ConsciousAI | AI Governance, Algorithmic Management and Institutional Leadership
+# Grand Research Institute | Global Governance Intelligence & ConsciousAI
+
+Grand Research Institute (GRI) develops an independent, evidence-led research and engineering program linking graduate-level global management scholarship, institutional analysis, algorithmic management, applied artificial intelligence, and accountable governance. **The Global Governance Intelligence Dashboard is a central deployed research interface within GRI—not a separate organization, independent certifier, or autonomous authority.** ConsciousAI is the public research and source-code repository supporting that program.
+
+**Institutional intelligence feedback loop:** academic and public research → GRI hypotheses and empirical protocols → documented evidence and source qualification → AI-assisted analysis and reproducible technical testing → human review, contestability and authorization → revised research and governance controls. This describes the operating model and research direction; it does not imply that every ML, telemetry, or certification capability is currently deployed or validated. Thunderbird School of Global Management at Arizona State University is an academic influence, not a sponsor or endorser of GRI.
 
 ## Live GRI Governance Intelligence Dashboard
 
