@@ -149,6 +149,13 @@ class Handler(BaseHTTPRequestHandler):
                                  "verification": x["verification"], "review_status": x["review_status"],
                                  "last_seen_at": x["last_seen_at"]} for x in rows],
                     "notice": "Metadata is not evidence of compliance, safety, fraud, or misconduct."})
+            if path == "/intelligence/live-feed":
+                feed_path = ROOT / "intelligence_feed.json"
+                if not feed_path.exists():
+                    return self.send_json(200, {"status": "awaiting_first_scheduled_collection",
+                        "mode": "official_metadata_triage_only", "queue": [],
+                        "notice": "No automated feed has been published by the scheduled job yet."})
+                return self.send_json(200, load("intelligence_feed.json"))
             if path == "/ai-intelligence":
                 return self.send_json(200, load("ai_intelligence.json"))
             if path == "/events":
