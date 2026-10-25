@@ -5,39 +5,34 @@
   "disclaimer": "Independent GRI synthesis; no university or faculty endorsement implied. No restricted course texts, exam materials or licensed case reproductions.",
   "records": [
     {
-      "faculty": "Roy C. Nelson",
-      "area": "Global political economy",
-      "foundation": "Liberalism, economic nationalism, structuralism and institutional bargaining",
-      "application": "GRI AI governance and mobility institutional analysis",
-      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+      "area": "Global Political Economy & Institutional Analysis",
+      "foundation": "Liberalism, economic nationalism and structuralism; institutional incentives, actors, bargaining power and policy choices.",
+      "application": "Compare AI regulation, technology diffusion and mobility-platform governance across institutional environments.",
+      "attribution": "Graduate-level global management synthesis; Nelson's Three Views of the World is a teaching source, not a GRI-authored model."
     },
     {
-      "faculty": "Lena Booth",
-      "area": "Financial value creation",
-      "foundation": "Risk-adjusted value creation, financial incentives and scenario analysis",
-      "application": "GRI platform economics and incentive studies",
-      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+      "area": "Financial Value Creation & Incentive Design",
+      "foundation": "Risk-adjusted value creation, cash flows, discounting, incentive alignment, scenario analysis and financial uncertainty.",
+      "application": "Evaluate platform economics, algorithmic compensation, productivity claims and who bears operational risk.",
+      "attribution": "Graduate-level financial management synthesis; empirical financial conclusions require case-specific evidence."
     },
     {
-      "faculty": "David Slocum",
-      "area": "Global leadership",
-      "foundation": "Trust, adaptive leadership, responsible management and cross-cultural decision-making",
-      "application": "GRI agentic management and human oversight",
-      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+      "area": "Leadership, Trust & Organizational Change",
+      "foundation": "Adaptive leadership, responsible management, stakeholder trust, cross-cultural communication and organizational decision-making.",
+      "application": "Assess agentic delegation, human oversight, institutional accountability and adoption risks.",
+      "attribution": "Graduate-level leadership synthesis; not a claim of institutional endorsement."
     },
     {
-      "faculty": "Sophal Ear",
-      "area": "Institutional governance",
-      "foundation": "Political economy and institutional legitimacy research context",
-      "application": "GRI evidence provenance and accountability",
-      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+      "area": "Institutional Legitimacy & Governance",
+      "foundation": "Political economy, legitimacy, provenance, contestability, accountability and remediation.",
+      "application": "Evaluate evidence integrity, disputed claims, governance safeguards and public-interest outcomes.",
+      "attribution": "Independent GRI analytical extension of global management and institutional governance concepts."
     },
     {
-      "faculty": "Landry Singh",
-      "area": "Global management",
-      "foundation": "Academic context; specific framework attribution pending verification",
-      "application": "GRI future evidence-linked studies",
-      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+      "area": "Global Management & Comparative Case Methods",
+      "foundation": "Country context, stakeholder mapping, comparative cases, research questions, documented assumptions and limitations.",
+      "application": "Connect research cases across countries, organizations, AI systems and governance regimes.",
+      "attribution": "General research methodology and graduate study synthesis; no unverified faculty-specific framework attribution."
     }
   ]
 }
