@@ -1,12 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-25T02:49:07.211864+00:00",
+  "generated_at": "2026-10-25T02:50:16.550591+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
       "source_id": "EU-COMMISSION-NEWS",
-      "status": "failed",
-      "error_type": "HTTPError"
+      "status": "fetched",
+      "items": 10,
+      "method": "rss_atom"
     },
     {
       "source_id": "UK-DfT",
@@ -28,6 +29,126 @@
     }
   ],
   "queue": [
+    {
+      "id": "9678e6a7e92a17318941",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Commissioner \u0160ef\u010dovi\u010d at the press conference following the informal Foreign Affairs Council (Trade)",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2252",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "8c1dad43b7051a6055e2",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by President von der Leyen to the Hungarian National Assembly on the occasion of the 70th anniversary of the Hungarian Revolution of 1956",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2251",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "cb329e845b92361faf1f",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission proposes stronger recognition of European heritage sites*",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2250",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "39e2a72478301db140b2",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 23 / 10 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2249",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "425109611f18a3301e1f",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "EU Civil Protection Mechanism turns 25",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2248",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "67eb30ca5fd6129b0116",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "EU announces an additional \u20ac22.5 million to reinforce humanitarian assistance in Yemen",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2247",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "08232c073ce2361f8f0c",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Opening remarks by Commissioner Kubilius at the Launch Event of the 3rd Hybrid Threats Report",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2242",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "4022d0d55e69e76f1180",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission opens investigation into possible anticompetitive conduct by Omya in the supply of calcium carbonates to the paper industry",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2232",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "1901560086abffad829f",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by Commissioner Lahbib at the Resilient Europe Conference",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2239",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "0673be2479d35ee84fb7",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission welcomes commitments of Coca-Cola, Nestl\u00e9, and Danone to modify recycling claims on plastic bottles",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2238",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "66c49fa6eacfc851551c",
       "source_id": "UK-DfT",
@@ -414,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -731,6 +852,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 53,
+  "review_required": 63,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
