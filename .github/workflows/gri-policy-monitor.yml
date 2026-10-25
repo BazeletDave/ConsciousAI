@@ -23,11 +23,14 @@ jobs:
       - name: Ingest official Federal Register metadata
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python ingest_federal_register.py
+      - name: Generate governance intelligence review feed
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python intelligence_pipeline.py
       - name: Commit updated review queue
         run: |
           git config user.name "gri-policy-monitor[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/policy_candidates.json
+          git add GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/policy_candidates.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/intelligence_feed.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh official Federal Register policy review queue"
             git push
