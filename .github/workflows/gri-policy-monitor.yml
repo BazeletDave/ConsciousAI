@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/gri-policy-monitor.yml'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/build_assurance_evidence.py'
   schedule:
     - cron: '17 */3 * * *'
 permissions:
