@@ -1,0 +1,26 @@
+name: GRI Production Assurance Evidence Gate
+on:
+  push:
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/production_assurance_gate.py'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/production_assurance_evidence.json'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_production_assurance_gate.py'
+      - '.github/workflows/gri-production-assurance.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  evidence-integrity:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify fail-closed gate tests
+        run: python -m unittest -v test_production_assurance_gate
+      - name: Publish current honest readiness classification
+        run: python production_assurance_gate.py
