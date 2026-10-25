@@ -1,0 +1,1 @@
+{"schema_version":"gri-production-assurance-v1","as_of_utc":"2026-10-25","controls":{},"notice":"No production control is marked verified without linked reviewable evidence. A live Render deploy and an available free database do not establish certification."}
