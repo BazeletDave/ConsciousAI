@@ -8,6 +8,41 @@
 .gri-hero{position:relative;overflow:hidden;background:radial-gradient(circle at 84% 12%,#285d72 0,transparent 36%),linear-gradient(128deg,#061224 0%,#102a40 65%,#103b47 100%);padding:0 24px;border-bottom:2px solid #b89a64;color:#fff}
 .gri-hero:before{content:"";position:absolute;inset:0;pointer-events:none;opacity:.16;background-image:linear-gradient(#8cb9c71c 1px,transparent 1px),linear-gradient(90deg,#8cb9c71c 1px,transparent 1px);background-size:44px 44px}
 .gri-hero-inner{position:relative;max-width:1430px;margin:auto}.gri-brand{display:flex;gap:17px;align-items:center;padding:26px 0;border-bottom:1px solid #b4d0df2d}.gri-monogram{width:59px;height:59px;border:1px solid #d8c18e;border-radius:5px;display:grid;place-items:center;font-family:Georgia,serif;font-size:21px;letter-spacing:-.06em;color:#e5d2a5}.gri-eyebrow{display:block;font-size:12px;letter-spacing:.24em;font-weight:750;color:#f2f6f8}.gri-brand-caption{display:block;margin-top:7px;font-size:11px;color:#adc5d1;letter-spacing:.045em}.gri-hero-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(270px,.65fr);gap:7%;align-items:end;padding:64px 0 60px}.gri-kicker,.gri-aside-kicker{font-size:11px;font-weight:750;letter-spacing:.21em;color:#dfc38a}.gri-hero h1{font-family:Georgia,"Times New Roman",serif;font-weight:400;letter-spacing:-.055em;font-size:clamp(3rem,6.3vw,6.3rem);line-height:1.03;margin:22px 0 23px}.gri-hero h1 em{font-weight:400;color:#d7c095}.gri-deck{font-size:clamp(15px,1.6vw,18px);line-height:1.75;color:#c8d9e1;max-width:770px}.gri-hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.gri-hero-actions a{padding:13px 17px;border:1px solid #d0bb91;color:#f8f2e7;text-decoration:none;border-radius:3px;font-size:13px;font-weight:650}.gri-hero-actions a:first-child{background:#d6be8e;color:#0c2434}.gri-hero-aside{border-left:1px solid #b8ced54f;padding:8px 0 8px 25px}.gri-hero-aside strong{display:block;font-size:27px;font-family:Georgia,serif;font-weight:400;margin:20px 0 8px}.gri-hero-aside>span:not(.gri-aside-kicker){font-size:13px;color:#d2dce4}.gri-hero-aside p{font-size:13px;line-height:1.7;color:#b8ccd6;margin:23px 0}.gri-academic{font-size:11px;line-height:1.6;color:#9db7c3;border-top:1px solid #b8ced54f;padding-top:14px}.gri-hero-footer{border-top:1px solid #b4d0df2d;display:flex;justify-content:space-between;gap:16px;padding:18px 0 22px;color:#a8c1cd;font-size:10px;letter-spacing:.065em}.gri-hero-footer b{display:block;margin-top:7px;color:#e0eaf0;font-weight:600;letter-spacing:.05em}@media(max-width:800px){.gri-hero-grid{grid-template-columns:1fr;gap:35px;padding:43px 0}.gri-hero-aside{max-width:650px}.gri-hero-footer{flex-direction:column}.gri-brand-caption{line-height:1.5}}
+
+/* GRI institutional layout refinement — presentation only; existing DOM IDs and JS preserved */
+:root{--gri-surface:#fff;--gri-border:#d8e1e7;--gri-ink:#152b3b;--gri-muted:#586d7b;--gri-accent:#a88b59}
+html{scroll-behavior:smooth}body{background:#f3f5f6;color:var(--gri-ink);line-height:1.55}
+.executive,.wrap{max-width:1360px}
+.executive{padding:30px 28px 0}
+.executive+.executive{padding-top:22px}
+.executive>.panel{padding:28px 32px}
+.executive h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:clamp(1.65rem,2.3vw,2.35rem);letter-spacing:-.025em;line-height:1.18;color:#142c3d;margin:0 0 13px}
+.executive p{font-size:14px;line-height:1.8;color:#526674}
+.panel,.kpi,.intel-strip article{background:var(--gri-surface);border:1px solid var(--gri-border);border-radius:8px;box-shadow:0 2px 12px #172d3b08}
+.panel{padding:24px}
+.panel h2,.panel h3{color:#183348}
+.kpis{gap:14px}.kpi{border-top:2px solid var(--gri-accent);padding:23px 22px;border-radius:8px}
+.kpi strong{font-family:Georgia,serif;font-weight:400;font-size:clamp(1.75rem,2.8vw,2.55rem)}
+.kpi span{font-size:11px;letter-spacing:.045em;text-transform:uppercase;font-weight:650}
+.intel-nav{gap:8px;margin-top:20px}.intel-nav a{border-radius:4px;padding:11px 15px;background:#fff;font-size:12px;letter-spacing:.015em}
+.intel-nav a:hover{transform:none;background:#f2f6f7;border-color:#9eafb9}
+.intel-strip{gap:14px;margin:22px 0}.intel-strip article{border-radius:8px;padding:22px}
+.intel-strip h3{letter-spacing:.11em;font-size:10px}.intel-strip .value{font-family:Georgia,serif;font-weight:400;font-size:1.45rem}
+.wrap{padding:24px 28px 48px;grid-template-columns:minmax(220px,260px) minmax(0,1fr) minmax(240px,290px);gap:16px}
+.wrap>.panel,.wrap>aside>.panel{min-width:0}
+#graph{border:1px solid #d6e1e6;border-radius:6px;background:#f9fbfc}
+.model-grid{gap:14px}.model-field,.event-card{border-radius:6px;padding:16px;box-shadow:none}
+.event-card:hover{background:#f6f9fa;border-color:#a9bbc6}
+.event-tag,.source-state{letter-spacing:.06em}
+.source-table th{font-size:10px;text-transform:uppercase;letter-spacing:.08em}
+#case-library .panel,#gri-research-method .panel{border-left:3px solid var(--gri-accent)}
+#gri-research-method .model-note{border-top:1px solid #e3e9ed;padding-top:16px;margin-top:18px}
+.gri-hero-grid{padding:54px 0 51px}.gri-hero h1{font-size:clamp(2.8rem,5.8vw,5.7rem)}
+.gri-hero-aside strong{font-size:25px}.gri-hero-footer{font-size:10px}
+@media(max-width:1150px){.wrap{grid-template-columns:minmax(220px,260px) minmax(0,1fr)}.wrap>aside:last-child{grid-column:1/-1}}
+@media(max-width:760px){.executive{padding:19px 15px 0}.executive+.executive{padding-top:16px}.executive>.panel{padding:22px 19px}.wrap{padding:16px 15px 34px;grid-template-columns:minmax(0,1fr)}.wrap>aside:last-child{grid-column:auto}.panel{padding:19px}.kpis{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.kpi{padding:15px}.intel-strip{grid-template-columns:1fr}.gri-hero-grid{padding:38px 0}.gri-hero h1{font-size:clamp(2.5rem,10vw,4rem)}#graph{height:440px}}
+@media(max-width:430px){.kpis{grid-template-columns:1fr 1fr}.kpi strong{font-size:1.65rem}.event-toolbar{grid-template-columns:1fr}.gri-hero-actions a{width:100%;text-align:center}}
+
 </style></head>
 <body><header class="gri-hero"><div class="gri-hero-inner"><div class="gri-brand"><span class="gri-monogram" aria-hidden="true">GRI</span><div><span class="gri-eyebrow">GRAND RESEARCH INSTITUTE</span><span class="gri-brand-caption">Independent research · Institutional intelligence · AI governance</span></div></div><div class="gri-hero-grid"><div><p class="gri-kicker">GLOBAL INTELLIGENCE / RESEARCH PLATFORM</p><h1>Intelligence for an<br><em>accountable future.</em></h1><p class="gri-deck">Where artificial intelligence, global institutions, and human decision-making converge. An evidence-led research environment examining governance, emerging technology, algorithmic management, and institutional change.</p><div class="gri-hero-actions"><a href="#assurance-overview">Explore assurance research</a><a href="#graph">View institutional network</a></div></div><aside class="gri-hero-aside"><span class="gri-aside-kicker">RESEARCH LEADERSHIP</span><strong>David Grand</strong><span>Founder · Grand Research Institute</span><p>Graduate-level global management and leadership research informed by academic study at Thunderbird School of Global Management, Arizona State University.</p><div class="gri-academic">Independent GRI research · No university affiliation or endorsement implied</div></aside></div><div class="gri-hero-footer"><span>RESEARCH DOMAINS <b>AI GOVERNANCE / INSTITUTIONAL SYSTEMS / GLOBAL MANAGEMENT</b></span><span>Evidence status is visible · Not a verified legal or compliance feed</span></div></div></header>
 <section class="executive" id="gri-research-method"><div class="panel"><p class="gri-kicker" style="color:#876634;margin:0 0 8px">GRAND RESEARCH INSTITUTE / RESEARCH METHODOLOGY</p><h2 style="margin:0 0 10px">Institutional AI Governance Research</h2><p>GRI investigates how artificial intelligence changes organizational decisions, economic incentives, institutional accountability and societal outcomes. Its research integrates global political economy, financial analysis, leadership, comparative case methods and reproducible engineering.</p><p class="model-note"><b>Research workflow:</b> Frame the question &middot; Document evidence &middot; Evaluate algorithms and incentives &middot; Assess institutional impact &middot; Publish limitations and review status.</p></div></section>
