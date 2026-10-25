@@ -76,3 +76,8 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 ## Agentic security and functional authority | October 23, 2026
 
 [Uber Persona Guardrail: institutional boundaries, delegated authority and the AI Compliance Paradox](uber-persona-guardrail-institutional-authority-2026-10-23.md) analyzes Uber's reported PAGE results and guardrail architecture alongside GRI's Uber and Lyft comparative governance research. It distinguishes input/output classification from intermediate tool authorization, separates reported results from independently verified evidence, and specifies requirements for an offline research prototype.
+
+
+## Algorithmic Mobility Paradox | Scholarly working paper, October 2026
+
+[Read the GRI Algorithmic Mobility Paradox working paper](algorithmic-mobility-paradox-working-paper-2026-10.md). This independent research contribution integrates three driver narratives on offer acceptance, geographic Boost incentives, and perceived surge dynamics into five testable hypotheses, a mixed-methods field protocol, and an institutional governance framework. All alleged platform mechanisms and intentions remain unverified. The paper is a conceptual working manuscript, not a peer-reviewed empirical finding.
