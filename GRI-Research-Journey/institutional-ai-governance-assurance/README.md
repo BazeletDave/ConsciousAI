@@ -4,6 +4,19 @@
 
 This portfolio organizes applied research on AI governance, institutional accountability, cybersecurity assurance, compliance verification, and delegated agent authority. It is independent GRI research, not an official U.S. Treasury, university, or government program.
 
+## Originating case | Treasury AI engineering exercise
+
+**[Case 001: Institutional AI Label Verification and Human Authority](https://github.com/BazeletDave/GRI-Institutional-AI-Governance)** is the original AI engineering portfolio, now independently maintained as a GRI research case. It began as a submission exercise for a U.S. Department of the Treasury AI Specialist opportunity, including a TTB alcohol label verification design scenario. It is no longer presented as an active job submission.
+
+**Research transition:** The original exercise tested the ability to build an AI assisted classification workflow. GRI now studies the institutional consequences: who defines valid labels, verifies source rules, handles ambiguous outputs, authorizes use, reviews errors, records overrides, and remains accountable. This case provides a concrete comparison with algorithmic management, agentic delegation, and cybersecurity assurance.
+
+**Academic context:** The comparative institutional questions draw on teaching at Thunderbird School of Global Management at Arizona State University, including Roy C. Nelson's institutional and political economy frameworks. This is independent GRI analysis, not a university or faculty sponsored project.
+
+**Evidence boundary:** The original assignment's stakeholder accounts are exercise scenarios, not verified Treasury interviews. Neither the case nor the repository implies access to federal systems, official Treasury endorsement, regulatory validation, or production deployment.
+
+**Primary research repository:** [GRI-Institutional-AI-Governance](https://github.com/BazeletDave/GRI-Institutional-AI-Governance)  
+**Related prototype repository:** [Treasury-TTB-Label-Verification](https://github.com/BazeletDave/Treasury-TTB-Label-Verification)
+
 ## Research streams
 
 1. **Treasury AI Label Verification:** An exploratory labeling and decision support case study examining rule traceability, confidence, human adjudication, and audit evidence. Treasury references describe the case context, not government authorization or endorsement.
