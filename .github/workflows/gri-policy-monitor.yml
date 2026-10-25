@@ -41,6 +41,9 @@ jobs:
       - name: Produce deterministic assurance evaluation evidence
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python build_assurance_evidence.py
+      - name: Verify generated evidence and local HTTP endpoints
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python -m unittest -v test_server.ResearchServiceTests.test_assurance_evidence_integrity_and_classification test_server.ResearchServiceTests.test_governance_telemetry_fails_closed_without_source test_server.ResearchServiceTests.test_health_endpoint
       - name: Commit updated review queue
         run: |
           git config user.name "gri-policy-monitor[bot]"
