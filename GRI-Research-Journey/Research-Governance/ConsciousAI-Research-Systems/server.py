@@ -149,6 +149,12 @@ class Handler(BaseHTTPRequestHandler):
                                  "verification": x["verification"], "review_status": x["review_status"],
                                  "last_seen_at": x["last_seen_at"]} for x in rows],
                     "notice": "Metadata is not evidence of compliance, safety, fraud, or misconduct."})
+            if path == "/intelligence/international-mobility":
+                feed_path = ROOT / "international_mobility_feed.json"
+                if not feed_path.exists():
+                    return self.send_json(200, {"status": "awaiting_first_collection", "queue": [],
+                        "notice": "Candidate feed ingestion has not completed."})
+                return self.send_json(200, load("international_mobility_feed.json"))
             if path == "/intelligence/live-feed":
                 feed_path = ROOT / "intelligence_feed.json"
                 if not feed_path.exists():
