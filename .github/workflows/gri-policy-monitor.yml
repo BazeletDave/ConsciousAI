@@ -52,5 +52,15 @@ jobs:
           git add GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/research_dataset/candidate_metadata.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/research_dataset/manifest.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/policy_candidates.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/intelligence_feed.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/international_mobility_feed.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh official Federal Register policy review queue"
-            git push
+            # A concurrent README or research commit can advance main during collection.
+            # Rebase only this generated-data commit; fail closed on conflicting edits.
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              git fetch origin main
+              git rebase origin/main || { git rebase --abort; exit 1; }
+            done
+            echo "Unable to publish review queue after three attempts" >&2
+            exit 1
           fi
