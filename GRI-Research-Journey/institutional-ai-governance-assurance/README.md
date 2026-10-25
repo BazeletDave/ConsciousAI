@@ -37,7 +37,7 @@ These are research design documents, not claims that the hypotheses have been te
 
 ## Evidence and publication standards
 
-Distinguish research prototypes, hypothetical examples, source-supported institutional claims, and empirically validated outcomes. No operational deployment, regulatory approval, or independent certification is implied. Preserve existing Treasury experiment source material and historic paths as case evidence rather than rewriting their provenance.
+Distinguish research prototypes, hypothetical examples, source-supported institutional claims, and empirically validated outcomes. The GRI Global Governance Intelligence Dashboard is operationally deployed on Render; this institutional-assurance research module does not thereby acquire regulatory approval, independently validated production controls, or third-party certification. Preserve existing Treasury experiment source material and historic paths as case evidence rather than rewriting their provenance.
 
 ## Related research
 
