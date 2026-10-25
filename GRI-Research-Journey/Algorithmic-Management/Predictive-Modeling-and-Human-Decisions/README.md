@@ -26,3 +26,9 @@ Explore four graphics covering the evidence inventory, human decision pathways, 
 
 [Return to Algorithmic Management and Institutional Leadership](../../Algorithmic-Management-Institutional-Leadership/README.md)  
 [Return to Research Journey Portfolio](../../Grand-Research-Institute-Research-Portfolio/README.md)
+
+## Research-stream closure | October 25, 2026
+
+[**The Predictive Systems Paradox: Sportsbook Pricing, AI Advice, Human Reliance, and Institutional Accountability — final GRI research synthesis**](./Predictive-Systems-Paradox-Case-Closure-2026-10-25.md)
+
+**Status: CLOSED TO FURTHER REAL-MONEY WAGERING TRIALS.** This approximately 4,000-word independent research paper, authored by David A. Grand, converts the user-reported approximately $50 loss into a bounded governance case and a non-wagering evaluation protocol. The loss is not independently audited; no final parlay outcome or profitable predictive model is claimed. Existing research remains preserved for scholarly reference, evidence corrections, and governance comparisons. The closure does not suspend GRI's broader AI research program.
