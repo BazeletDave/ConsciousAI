@@ -1,5 +1,17 @@
 # ConsciousAI | AI Governance, Algorithmic Management and Institutional Leadership
 
+## Live GRI Governance Intelligence Dashboard
+
+**[OPEN THE LIVE GRI GLOBAL GOVERNANCE INTELLIGENCE DASHBOARD](https://gri-global-intelligence.onrender.com/dashboard)**
+
+Grand Research Institute's deployed research intelligence platform brings together public-source monitoring, institutional governance research, evidence-quality assessment, and review-oriented AI assurance. The automated collection workflow is configured to refresh every three hours; source availability and review status can vary.
+
+**[Live dashboard](https://gri-global-intelligence.onrender.com/dashboard)** · **[Service health](https://gri-global-intelligence.onrender.com/health)** · **[Research systems and methodology](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/)** · **[Continuous research intake](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONTINUOUS_RESEARCH_INTAKE.md)**
+
+*Operational research platform, not an independently certified compliance service. Candidate intelligence is not automatically verified; ML performance claims require independently reviewed evaluation data.*
+
+---
+
 ## Research Update | October 23, 2026
 
 **GRI comparative institutional research:** [Brazil 2026: AI, Electoral Institutions and Platform Governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) connects graduate-level institutional analysis informed by Thunderbird School of Global Management at Arizona State University with the AI Paradox and [Uber and Lyft algorithmic management research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md), including [Appendix A: Driver Interview 0107](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/appendix-a-interview-0107-2026-10-23.md). The Brazil case records reported allegations, responses and verification requirements without treating disputed political claims as established facts. The driver interview is GRI approved qualitative evidence; participant perceptions are not independently verified platform mechanisms. These are independent GRI studies informed by graduate coursework, not university or faculty endorsements.
