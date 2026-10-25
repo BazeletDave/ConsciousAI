@@ -16,13 +16,13 @@
     "id": "GRI-002",
     "title": "Uber Persona Guardrail research",
     "domain": "agentic_governance",
-    "source_url": "https://arxiv.org/abs/2610.03434",
-    "source_type": "External research paper",
-    "verification": "PRIMARY_DOCUMENT",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI",
+    "source_type": "Internal GRI research reference; external primary source pending verification",
+    "verification": "UNVERIFIED",
     "governance_risk": "Out-of-scope agent instructions and functional boundary violations",
     "safeguard": "Input/output validation, semantic allowlist/blocklist and independent evaluation",
     "opportunity": "Benchmark bounded agent authorization",
-    "review_status": "SOURCE_REVIEWED",
+    "review_status": "RESEARCH_LEAD",
     "last_reviewed": "2026-10-24"
   },
   {
