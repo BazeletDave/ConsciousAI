@@ -138,6 +138,17 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/intelligence/triage":
                 items = load("events.json")["records"]
                 return self.send_json(200, {"schema_version": "1.3", "method": "deterministic_missing_evidence_heuristic", "records": [triage(item) for item in items], "count": len(items), "notice": "Research triage only; no trained model or compliance determination."})
+            if path == "/intelligence/governance-registry":
+                ledger_path = ROOT.parent.parent / "institutional-ai-governance-assurance" / "intelligence-registry" / "evidence_ledger.json"
+                ledger = json.loads(ledger_path.read_text(encoding="utf-8"))
+                rows = ledger.get("records", [])
+                return self.send_json(200, {"schema_version": "1.0",
+                    "mode": "public_metadata_research_review_only",
+                    "count": len(rows), "human_review_required": True,
+                    "records": [{"id": x["id"], "source_url": x["source_url"],
+                                 "verification": x["verification"], "review_status": x["review_status"],
+                                 "last_seen_at": x["last_seen_at"]} for x in rows],
+                    "notice": "Metadata is not evidence of compliance, safety, fraud, or misconduct."})
             if path == "/ai-intelligence":
                 return self.send_json(200, load("ai_intelligence.json"))
             if path == "/events":
