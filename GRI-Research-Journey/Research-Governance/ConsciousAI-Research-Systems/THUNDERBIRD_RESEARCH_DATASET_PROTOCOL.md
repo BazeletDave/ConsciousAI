@@ -1,6 +1,6 @@
-# Thunderbird-informed institutional research dataset protocol
+# GRI independent institutional research dataset protocol
 
-**Status:** Research protocol, not an independently labeled dataset. **Institution:** Thunderbird School of Global Management at Arizona State University. Educational frameworks are attributed to faculty; GRI extensions are separate hypotheses.
+**Status:** Independent Grand Research Institute (GRI) research protocol, not an independently labeled dataset. **Research lead:** David Grand, founder of GRI. Graduate study at Thunderbird School of Global Management at Arizona State University, published Harvard Business School and other teaching cases, faculty frameworks, and professional experience inform the research journey. These academic institutions and publishers do **not** sponsor, endorse, validate, or co-author GRI research. Faculty-developed frameworks are attributed; all GRI extensions and conclusions are independently owned and must be empirically evaluated.
 
 ## Candidate case families
 - **Roy C. Nelson — institutional and political-economy analysis:** Intel site selection; Brazil versus Argentina investment decisions; WTO cotton and wind disputes; IFC environmental and social safeguards; Brazil's devaluation. Apply liberalism, economic nationalism and structuralism as *alternative analytical lenses*, not ground-truth labels.
@@ -9,7 +9,7 @@
 - **Agentic governance:** delegation, capability boundaries, approvals, traceability, exception handling, and institutional accountability.
 
 ## Source and copyright controls
-Teaching materials, proprietary case packets, graded submissions and identifiable interview data are **not** copied into public training sets. Public records are limited to bibliographic metadata, original GRI analytical annotations and links to lawful source material. Faculty-developed frameworks must be credited. Institutional affiliation is not an endorsement.
+Published case titles, citations and independently authored analyses may be used where permitted. Harvard Business School cases, Harvard Business Review articles, other teaching materials, proprietary case packets, graded submissions and identifiable interview data are **not** copied into public training sets without applicable rights and consent. Public records are limited to bibliographic metadata, original GRI analytical annotations and links to lawful source material. Faculty-developed frameworks must be credited. Institutional affiliation is not an endorsement.
 
 ## Labeling and review protocol
 1. Record claim, provenance URL or authorized internal citation, source type, jurisdiction, time and limitations.
