@@ -142,4 +142,22 @@ let orgs=[...new Set(nodes.map(x=>x.organization).filter(Boolean))].sort(),types
   input.addEventListener('input',render);render();
  }catch(error){count.textContent='Unavailable';results.textContent='Case registry could not be loaded. Other dashboard sections remain available.';}
 })();
+</script><script>
+(async function(){
+ const target=document.getElementById('academic-foundations-list');
+ try{
+  const response=await fetch('/institutional/academic-foundations');
+  if(!response.ok)throw Error('unavailable');
+  const data=await response.json();
+  for(const item of data.records){
+   const article=document.createElement('article');article.className='model-field';
+   const heading=document.createElement('h3');heading.textContent=item.faculty;article.appendChild(heading);
+   const area=document.createElement('p');area.className='meta';area.textContent=item.area;article.appendChild(area);
+   const foundation=document.createElement('p');foundation.textContent=item.foundation;article.appendChild(foundation);
+   const application=document.createElement('p');application.className='meta';application.textContent='GRI application: '+item.application;article.appendChild(application);
+   target.appendChild(article);
+  }
+  target.firstChild.nodeType===3&&target.removeChild(target.firstChild);
+ }catch(error){target.textContent='Academic foundation records temporarily unavailable.';}
+})();
 </script></body></html>
