@@ -1,0 +1,36 @@
+name: GRI Governance Intelligence Research Intake
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gri-governance-intelligence
+  cancel-in-progress: false
+jobs:
+  research-intake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate registry and collection code
+        working-directory: GRI-Research-Journey/institutional-ai-governance-assurance/intelligence-registry
+        run: python -m unittest discover -p 'test_*.py' -v
+      - name: Collect public GitHub metadata for review
+        working-directory: GRI-Research-Journey/institutional-ai-governance-assurance/intelligence-registry
+        run: python collect.py
+      - name: Commit evidence ledger only
+        run: |
+          git config user.name "gri-intelligence[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add GRI-Research-Journey/institutional-ai-governance-assurance/intelligence-registry/evidence_ledger.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: update unreviewed GRI public intelligence ledger"
+            git push
+          fi
