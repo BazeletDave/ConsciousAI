@@ -30,6 +30,7 @@ jobs:
       - name: Generate governance intelligence review feed
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python intelligence_pipeline.py
+      # Connector validation run: official-index discovery and evidence integrity checks.
       - name: Collect international and mobility feed candidates
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python international_mobility_collector.py
