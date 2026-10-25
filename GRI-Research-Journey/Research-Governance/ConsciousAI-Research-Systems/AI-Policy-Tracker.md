@@ -1,6 +1,6 @@
 # AI Policy Tracker | Research specification
 
-**Status:** Structured registry design; not a live dashboard or automated legal update feed.
+**Status:** A public research dashboard and a configured scheduled U.S. Federal Register metadata intake exist. This is not an independently verified global legal-update or compliance-monitoring service.
 
 ## Purpose
 Track the legal and institutional environment surrounding AI systems without conflating enacted law, proposed legislation, guidance, technical standards, and company policy.
@@ -18,4 +18,4 @@ Track the legal and institutional environment surrounding AI systems without con
 ## GRI research applications
 Compare how rules governing automated decisions, employment, privacy, contestability and enterprise accountability vary across jurisdictions. Institutional comparisons should consider implementation capacity and enforcement, not only written legal text.
 
-**No legal advice:** This research specification does not provide jurisdiction specific compliance determinations. The repository does not currently ingest official feeds or verify legislation in real time.
+**No legal advice:** This research specification does not provide jurisdiction specific compliance determinations. The repository includes a scheduled official-source metadata collector and an unreviewed candidate queue; successful individual runs and current freshness require operational verification. It does not verify legislation in real time or provide legal compliance determinations.
