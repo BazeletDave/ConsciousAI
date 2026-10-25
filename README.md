@@ -4,6 +4,8 @@ Grand Research Institute (GRI) develops an independent, evidence-led research an
 
 **Institutional intelligence feedback loop:** academic and public research → GRI hypotheses and empirical protocols → documented evidence and source qualification → AI-assisted analysis and reproducible technical testing → human review, contestability and authorization → revised research and governance controls. This describes the operating model and research direction; it does not imply that every ML, telemetry, or certification capability is currently deployed or validated. Thunderbird School of Global Management at Arizona State University is an academic influence, not a sponsor or endorser of GRI.
 
+**[Current deployment and research capability status](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md)** — authoritative distinction between deployed GRI services, implemented research components, and features awaiting independent validation.
+
 ## Live GRI Governance Intelligence Dashboard
 
 **[OPEN THE LIVE GRI GLOBAL GOVERNANCE INTELLIGENCE DASHBOARD](https://gri-global-intelligence.onrender.com/dashboard)**
