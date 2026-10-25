@@ -1,10 +1,6 @@
 # Grand Research Institute | Global Governance Intelligence & ConsciousAI
 
-Grand Research Institute (GRI) develops an independent, evidence-led research and engineering program linking graduate-level global management scholarship, institutional analysis, algorithmic management, applied artificial intelligence, and accountable governance. **The Global Governance Intelligence Dashboard is a central deployed research interface within GRI—not a separate organization, independent certifier, or autonomous authority.** ConsciousAI is the public research and source-code repository supporting that program.
-
-**Institutional intelligence feedback loop:** academic and public research → GRI hypotheses and empirical protocols → documented evidence and source qualification → AI-assisted analysis and reproducible technical testing → human review, contestability and authorization → revised research and governance controls. This describes the operating model and research direction; it does not imply that every ML, telemetry, or certification capability is currently deployed or validated. Thunderbird School of Global Management at Arizona State University is an academic influence, not a sponsor or endorser of GRI.
-
-**[Current deployment and research capability status](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md)** — authoritative distinction between deployed GRI services, implemented research components, and features awaiting independent validation.
+Grand Research Institute (GRI) advances interdisciplinary research and applied AI engineering across institutional governance, global management, algorithmic systems, and human-centered accountability. **ConsciousAI** is GRI's public research and engineering repository, connecting scholarly inquiry with the deployed **Global Governance Intelligence Dashboard**.
 
 ## Live GRI Governance Intelligence Dashboard
 
@@ -14,7 +10,6 @@ Grand Research Institute's deployed research intelligence platform brings togeth
 
 **[Live dashboard](https://gri-global-intelligence.onrender.com/dashboard)** · **[Service health](https://gri-global-intelligence.onrender.com/health)** · **[Research systems and methodology](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/)** · **[Continuous research intake](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONTINUOUS_RESEARCH_INTAKE.md)**
 
-*Operational research platform, not an independently certified compliance service. Candidate intelligence is not automatically verified; ML performance claims require independently reviewed evaluation data.*
 
 ---
 
@@ -260,3 +255,10 @@ Explore GRI's longitudinal Uber and Lyft research, including the approximately $
 **Research Scope:** Foundational inquiry since 2021, with subsequent field studies, published work, institutional analysis, and evolving research protocols. Individual studies retain their own documented dates; 2026 marks the formalization of several current investigations, not the beginning of the research program.
 
 **ConsciousAI research systems:** [Ethical Intelligence API, Transparency Graph and AI Policy Tracker](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/README.md) are now established as linked research specifications with an initial evidence registry and API contract. The research dashboard and selected read-only APIs are publicly deployed on Render; enterprise auditing, comprehensive legal monitoring, and independent certification remain outside the verified operating scope.
+
+
+---
+
+## Technical assurance, research status and academic independence
+
+The [deployment and research capability register](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md) documents which services are deployed, which research components are implemented, and which require further evaluation or independent assessment. Deployment is not equivalent to independent certification. GRI research is independent; academic references to Thunderbird School of Global Management at Arizona State University do not imply institutional sponsorship or endorsement. Evidence and publication limitations are addressed in the linked research protocols.
