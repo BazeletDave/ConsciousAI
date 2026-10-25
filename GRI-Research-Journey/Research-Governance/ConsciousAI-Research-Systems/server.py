@@ -8,6 +8,7 @@ from assurance_engine import evaluate
 from mobility_engine import public_summary
 from model_registry import platform_capabilities
 from evaluation_pipeline import evaluation_capabilities
+from evidence_quality import score, dataset_manifest
 from risk_triage import triage
 from urllib.parse import urlparse, parse_qs, unquote
 
@@ -168,6 +169,11 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, load("events.json"))
             if path == "/policy-sources":
                 return self.send_json(200, load("policy_sources.json"))
+            if path == "/evidence/quality":
+                items = records() + load("events.json")["records"]
+                return self.send_json(200, {"schema_version":"1.0","dataset":dataset_manifest(items),
+                    "scores":[score(x) for x in items],"human_review_required":True,
+                    "notice":"Heuristic evidence-completeness diagnostics, not independent claim verification or ML."})
             if path == "/platform/evaluation":
                 return self.send_json(200, evaluation_capabilities())
             if path == "/platform/capabilities":
