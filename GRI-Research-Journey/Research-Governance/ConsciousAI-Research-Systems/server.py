@@ -150,6 +150,8 @@ class Handler(BaseHTTPRequestHandler):
                 evidence["content_sha256"] = digest
                 evidence["status"] = "source_integrity_checked_not_independently_audited"
                 return self.send_json(200, evidence)
+            if path == "/institutional/academic-foundations":
+                return self.send_json(200, json.loads((BASE / "academic_foundations.json").read_text(encoding="utf-8")))
             if path == "/institutional/cases":
                 return self.send_json(200, public_case_explorer())
             if path == "/institutional/research-framework":
