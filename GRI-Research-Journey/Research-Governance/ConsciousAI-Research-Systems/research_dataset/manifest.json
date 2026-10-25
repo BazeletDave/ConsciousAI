@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "dataset_digest": "33342f0d81971d6b0f10ed548b3cfb9420c6987d43a1c71fe4901a7205ec3c13",
+  "records": 9,
+  "split_counts": {
+    "development": 4,
+    "holdout": 5
+  },
+  "case_families": [
+    "case_registry",
+    "event_registry"
+  ],
+  "independently_adjudicated": 0,
+  "label_coverage": 0,
+  "rights_status": "public_metadata_only_review_pending",
+  "benchmark_eligible": false,
+  "limitations": [
+    "Metadata rights still require steward approval",
+    "No verified labels",
+    "Case families are coarse; expand before assessing generalization",
+    "No proprietary teaching text or personal interviews included"
+  ]
+}
