@@ -135,6 +135,19 @@ class Handler(BaseHTTPRequestHandler):
                     "counts": {"cases": len(cases), "events": len(events), "policies": len(policies)},
                     "verification_status_counts": counts,
                     "notice": "Record counts do not establish independent verification, legal compliance, or causation."})
+            if path == "/governance/assurance-evidence":
+                evidence_path = ROOT / "assurance_evidence_snapshot.json"
+                if not evidence_path.is_file():
+                    return self.send_json(200, {"status": "awaiting_first_collection", "notice": "No persisted assurance evaluation evidence yet; not ML inference."})
+                from hashlib import sha256
+                from build_assurance_evidence import canonical
+                evidence = json.loads(evidence_path.read_text(encoding="utf-8"))
+                digest = evidence.pop("content_sha256", None)
+                if evidence.get("schema_version") != "1.0" or evidence.get("source") != "gri_deterministic_assurance_engine" or digest != sha256(canonical(evidence)).hexdigest():
+                    return self.send_json(503, {"status": "invalid_evidence", "notice": "Snapshot integrity failed."})
+                evidence["content_sha256"] = digest
+                evidence["status"] = "source_integrity_checked_not_independently_audited"
+                return self.send_json(200, evidence)
             if path == "/governance/telemetry":
                 return self.send_json(200, public_snapshot())
             if path == "/assurance/overview":
