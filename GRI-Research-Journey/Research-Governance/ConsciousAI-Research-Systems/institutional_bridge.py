@@ -4,14 +4,16 @@ No model promotion, agent execution, publication, or storage mutation.
 from pathlib import Path
 import sys
 
-ENGINEERING = Path(__file__).resolve().parents[1] / "engineering"
+ENGINEERING = Path(__file__).resolve().parents[2] / "engineering"
 
 def research_snapshot():
     if not ENGINEERING.is_dir():
         return {"status":"unavailable","reason":"research engineering directory missing"}
     path = str(ENGINEERING)
-    if path not in sys.path:
-        sys.path.insert(0,path)
+    if path in sys.path:
+        sys.path.remove(path)
+    sys.path.insert(0,path)
+    sys.modules.pop("model_registry", None)
     from intelligence_graph import IntelligenceGraph
     from agent_control import authorize
     from model_registry import ModelRegistry

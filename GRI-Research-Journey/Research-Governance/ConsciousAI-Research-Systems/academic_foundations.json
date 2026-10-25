@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "publisher": "Grand Research Institute",
+  "academic_context": "Graduate research informed by Thunderbird School of Global Management at Arizona State University",
+  "disclaimer": "Independent GRI synthesis; no university or faculty endorsement implied. No restricted course texts, exam materials or licensed case reproductions.",
+  "records": [
+    {
+      "faculty": "Roy C. Nelson",
+      "area": "Global political economy",
+      "foundation": "Liberalism, economic nationalism, structuralism and institutional bargaining",
+      "application": "GRI AI governance and mobility institutional analysis",
+      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+    },
+    {
+      "faculty": "Lena Booth",
+      "area": "Financial value creation",
+      "foundation": "Risk-adjusted value creation, financial incentives and scenario analysis",
+      "application": "GRI platform economics and incentive studies",
+      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+    },
+    {
+      "faculty": "David Slocum",
+      "area": "Global leadership",
+      "foundation": "Trust, adaptive leadership, responsible management and cross-cultural decision-making",
+      "application": "GRI agentic management and human oversight",
+      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+    },
+    {
+      "faculty": "Sophal Ear",
+      "area": "Institutional governance",
+      "foundation": "Political economy and institutional legitimacy research context",
+      "application": "GRI evidence provenance and accountability",
+      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+    },
+    {
+      "faculty": "Landry Singh",
+      "area": "Global management",
+      "foundation": "Academic context; specific framework attribution pending verification",
+      "application": "GRI future evidence-linked studies",
+      "attribution": "GRI coursework-derived synthesis; independently verify primary teaching or publication source before specific faculty quotation or claim"
+    }
+  ]
+}
