@@ -1,0 +1,67 @@
+[
+  {
+    "id": "GRI-001",
+    "title": "Treasury-origin AI label verification",
+    "domain": "institutional_compliance",
+    "source_url": "https://github.com/BazeletDave/GRI-Institutional-AI-Governance",
+    "source_type": "GRI historical engineering artifact",
+    "verification": "PRIMARY_DOCUMENT",
+    "governance_risk": "AI label outputs could be mistaken for authoritative regulatory decisions",
+    "safeguard": "Rule provenance, human adjudication, versioned tests and appeal pathway",
+    "opportunity": "Auditable assisted labeling and institutional decision support",
+    "review_status": "SOURCE_REVIEWED",
+    "last_reviewed": "2026-10-24"
+  },
+  {
+    "id": "GRI-002",
+    "title": "Uber Persona Guardrail research",
+    "domain": "agentic_governance",
+    "source_url": "https://arxiv.org/abs/2610.03434",
+    "source_type": "External research paper",
+    "verification": "PRIMARY_DOCUMENT",
+    "governance_risk": "Out-of-scope agent instructions and functional boundary violations",
+    "safeguard": "Input/output validation, semantic allowlist/blocklist and independent evaluation",
+    "opportunity": "Benchmark bounded agent authorization",
+    "review_status": "SOURCE_REVIEWED",
+    "last_reviewed": "2026-10-24"
+  },
+  {
+    "id": "GRI-003",
+    "title": "Uber ADR open-source agent security",
+    "domain": "agentic_security",
+    "source_url": "https://github.com/uber/ADR",
+    "source_type": "External open-source project",
+    "verification": "PRIMARY_DOCUMENT",
+    "governance_risk": "Unobserved agent activity and unsafe tool access",
+    "safeguard": "Discovery, observability, benchmarking, threat detection and human escalation",
+    "opportunity": "Evaluate agent trace governance and incident response",
+    "review_status": "SOURCE_REVIEWED",
+    "last_reviewed": "2026-10-24"
+  },
+  {
+    "id": "GRI-004",
+    "title": "Waymo Waymax autonomous driving simulation",
+    "domain": "mobility_safety",
+    "source_url": "https://github.com/waymo-research/waymax",
+    "source_type": "External research repository",
+    "verification": "PRIMARY_DOCUMENT",
+    "governance_risk": "Simulation metrics misrepresented as real-world safety validation",
+    "safeguard": "Clearly separate simulated metrics from operational claims; respect non-commercial license",
+    "opportunity": "Controlled multi-agent scenario and safety metric research",
+    "review_status": "SOURCE_REVIEWED",
+    "last_reviewed": "2026-10-24"
+  },
+  {
+    "id": "GRI-005",
+    "title": "Potential AI-enabled student enrollment fraud",
+    "domain": "education_integrity",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI",
+    "source_type": "Classroom discussion research lead; repository is a contextual reference only",
+    "verification": "UNVERIFIED",
+    "governance_risk": "Potential enrollment fraud and equally serious false accusations against legitimate students",
+    "safeguard": "Independent evidence, due process, privacy protection and human review",
+    "opportunity": "Study identity assurance and student aid program integrity without profiling",
+    "review_status": "RESEARCH_LEAD",
+    "last_reviewed": "2026-10-24"
+  }
+]
