@@ -53,6 +53,10 @@ The applications span driver safety, platform work, university assessment polici
 
 **Implementation transparency:** These modules contain code and tests, but the GitHub commits alone do not establish successful CI execution, independent scientific validation, university adoption or real-world deployment.
 
+## GRI Institutional AI Governance & Assurance
+
+[**Explore the independent governance and assurance research portfolio**](GRI-Research-Journey/institutional-ai-governance-assurance/README.md). This portfolio incorporates the Treasury AI label verification case as an exploratory research study alongside agentic controls, cybersecurity assurance, and institutional risk analysis. It does not imply U.S. Treasury affiliation or endorsement.
+
 ## Institutional Research | Start Here
 
 **[Grand Research Institute — Institutional Research Brief →](GRI-Research-Journey/Institutional-Research-Brief/README.md)**
