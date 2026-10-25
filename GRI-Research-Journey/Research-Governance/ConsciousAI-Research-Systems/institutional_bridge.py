@@ -4,7 +4,7 @@ No model promotion, agent execution, publication, or storage mutation.
 from pathlib import Path
 import sys
 
-ENGINEERING = Path(__file__).resolve().parents[1] / "engineering"
+ENGINEERING = Path(__file__).resolve().parents[2] / "engineering"
 
 def research_snapshot():
     if not ENGINEERING.is_dir():
