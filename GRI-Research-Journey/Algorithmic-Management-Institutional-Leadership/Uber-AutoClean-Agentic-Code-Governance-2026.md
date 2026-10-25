@@ -49,3 +49,27 @@ Collect task-level diffs, flag state evidence, CI results, validator verdicts, r
 
 ## Research governance
 Evidence classification: industry primary-source self-report; GRI analytical interpretation; unvalidated hypotheses. Verify publication metadata and preserve source snapshots and retrieval date in the source register. Do not reproduce proprietary code or claim Uber endorsement. No software or deployment changes are proposed by this case study.
+
+## Research integration update | 24 October 2026
+
+### Governance separation and decision rights
+AutoClean is an instructive example of differentiated authority: the cleanup agent proposes code changes, PolyglotPiranha performs deterministic Boolean transformations, scoped fixers address CI failures, CodeCourt evaluates final properties independently, and human owners decide whether to accept the change. The reported validation gate is a design control, not independent evidence of zero regressions.
+
+### Comparative Uber engineering evidence
+- **Persona Guardrail:** input and output boundary enforcement for agentic capabilities. Compare authorization at invocation time against AutoClean's verification of a resulting code diff. See [GRI Persona Guardrail analysis](../Algorithmic-Management/Uber-Lyft-Research/uber-persona-guardrail-institutional-authority-2026-10-23.md).
+- **Legal Redlining Agent:** lawyer-supervised document changes and a combination of deterministic policy and probabilistic feedback. Compare human legal approval against AutoClean's engineering ownership and review. The reported efficiency and accuracy measures are not interchangeable with AutoClean's cleanup counts.
+- **Comparative synthesis:** [Uber Agentic Engineering: From Functional Guardrails to Institutional Accountability](../Algorithmic-Management/Uber-Lyft-Research/2026-10-24-uber-agentic-engineering-reference-synthesis.md).
+
+### GRI governance intelligence platform design implications (proposals, not implemented features)
+1. **Execution and verification separation:** assign task-performing and independently evaluating agents distinct permissions, identities and audit events.
+2. **Deterministic-first policy:** prefer executable invariants, schema validation, static checks and constrained transformations before model judgment.
+3. **Capability-scoped repair:** define allowed file classes, operations, tools and time-limited authorizations; disallow a test repair agent from altering production code.
+4. **Evidence-linked approval:** retain the originating task, tool invocations, diff hashes, CI outcomes, property-level verdicts, human reviewer identity and decision.
+5. **Fail-closed escalation:** reject or quarantine artifacts when critical validators fail; provide appeal and authorized re-evaluation rather than silently bypassing gates.
+6. **Measurement and learning:** track defect escape rate, false rejections, reviewer burden, total cost, elapsed time and reversal frequency before claiming effectiveness.
+
+### Testable comparative design
+Evaluate matched maintenance tasks across (A) general-purpose agent plus CI, (B) deterministic tooling plus CI, and (C) scoped agent, deterministic transformations, CI, independent property validators and human approval. Pre-register semantic-regression and scope-violation outcomes, use blinded reviewers where possible, and record rejected as well as accepted changes. This is a proposed study, not a completed experiment.
+
+### Institutional boundary
+GRI's independent interpretation is informed by institutional and global-management study at Thunderbird School of Global Management at Arizona State University. Neither Uber nor Thunderbird endorses these hypotheses. The supplied Uber Engineering text is a corporate primary account; original URL, publication metadata, validation dataset and cost figures require independent verification before scholarly citation. This update adds no Uber proprietary source code and does not assert that GRI's deployed platform implements AutoClean or CodeCourt.
