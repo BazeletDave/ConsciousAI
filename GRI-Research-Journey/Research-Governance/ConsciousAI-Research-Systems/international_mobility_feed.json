@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-25T20:50:00.594960+00:00",
+  "generated_at": "2026-10-25T23:16:23.246648+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "English, English",
+      "title": "Skip to main content",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
