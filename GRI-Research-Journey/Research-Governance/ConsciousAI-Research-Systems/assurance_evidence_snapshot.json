@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "source": "gri_deterministic_assurance_engine",
+  "generated_at": "2026-10-25T13:14:27.008618+00:00",
+  "watchlist_updated_at": "2026-10-22",
+  "evaluation_count": 4,
+  "human_review_count": 4,
+  "results": [
+    {
+      "record_id": "GRI-INTEL-AI-GOV-2026",
+      "record_hash": "c06c434e0a9d99d4eb3538bd60101ba0f8c1cc6ebeaafc970c88d6b229dd1ebc",
+      "decision": "hold_for_review",
+      "review_required": true
+    },
+    {
+      "record_id": "GRI-INTEL-FBI-CISA-2026",
+      "record_hash": "074f27a0d0ee25c6469d1e4ab8f80626e72e8bbb7ed5cf946457dafbb2e19fe9",
+      "decision": "hold_for_review",
+      "review_required": true
+    },
+    {
+      "record_id": "GRI-INTEL-GLOBAL-2026",
+      "record_hash": "d747f3882979ec242af702788c3b664ef5cbc54d482d62355d1fb72b43e666e5",
+      "decision": "hold_for_review",
+      "review_required": true
+    },
+    {
+      "record_id": "GRI-INTEL-PHP-2026",
+      "record_hash": "32095ec10017a9e4f4e51fa512be40b4e6fe89116de41f70518fa7a56e4189c0",
+      "decision": "hold_for_review",
+      "review_required": true
+    }
+  ],
+  "scope": "Actual deterministic watchlist assurance evaluations; NOT production ML inference, model accuracy, or independent source verification.",
+  "content_sha256": "fd6e2e025fba056e5c43094091496922b02909e3ed0beb588e5ccd564ab9fc14"
+}
