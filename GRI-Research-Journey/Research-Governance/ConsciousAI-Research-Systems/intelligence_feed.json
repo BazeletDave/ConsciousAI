@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "mode": "automated_official_metadata_triage",
+  "generated_at": "2026-10-25T02:44:17.986279+00:00",
+  "source_last_collection_at": "2026-10-25T02:44:17.943993+00:00",
+  "source_registry_sha256": "55485406337ea33b44efbf6d32119abdd8b7d560933e157aa06327b3eb9f6acb",
+  "source_records": 76,
+  "matched_records": 10,
+  "human_review_required": 10,
+  "queue": [
+    {
+      "id": "US-FR-2026-21794",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21794/federal-motor-vehicle-safety-standards-modernization-of-fmvss-no-108-to-accommodate-ads-equipped",
+      "title": "Federal Motor Vehicle Safety Standards; Modernization of FMVSS No. 108 To Accommodate ADS-Equipped Vehicles",
+      "publication_date": "2026-10-26",
+      "topics": [
+        "automated",
+        "vehicle"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-21723",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/26/2026-21723/cooperative-research-and-development-agreement-super-intelligence-si-situational-awareness-tools-for",
+      "title": "Cooperative Research and Development Agreement: Super Intelligence (SI) Situational Awareness Tools for Analyzing Coast Guard (CG) Sensor Feeds for Search and Rescue (SAR)",
+      "publication_date": "2026-10-26",
+      "topics": [
+        "automated"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-21710",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/23/2026-21710/notice-of-public-meetings-of-the-michigan-advisory-committee-to-the-us-commission-on-civil-rights",
+      "title": "Notice of Public Meetings of the Michigan Advisory Committee to the U.S. Commission on Civil Rights",
+      "publication_date": "2026-10-23",
+      "topics": [
+        "artificial intelligence"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-21447",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/20/2026-21447/notice-of-order-regarding-exclusion-and-removal-of-deepseek-products-from-federal-civilian-executive",
+      "title": "Notice of Order Regarding Exclusion and Removal of DeepSeek Products From Federal Civilian Executive Branch Information Technology Systems and Procurements",
+      "publication_date": "2026-10-20",
+      "topics": [
+        "artificial intelligence"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-21313",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/19/2026-21313/information-collection-being-reviewed-by-the-federal-communications-commission-under-delegated",
+      "title": "Information Collection Being Reviewed by the Federal Communications Commission Under Delegated Authority",
+      "publication_date": "2026-10-19",
+      "topics": [
+        "automated"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-20891",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/14/2026-20891/division-of-program-coordination-planning-and-strategic-initiatives-office-of-the-director-notice-of",
+      "title": "Division of Program Coordination, Planning, and Strategic Initiatives, Office of the Director Notice of Proposed Reorganization",
+      "publication_date": "2026-10-14",
+      "topics": [
+        "artificial intelligence"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-20734",
+      "source_url": "https://www.federalregister.gov/documents/2026/10/09/2026-20734/parts-and-accessories-necessary-for-safe-operation-application-for-exemption-from-aurora-operations",
+      "title": "Parts and Accessories Necessary for Safe Operation; Application for Exemption From Aurora Operations, Inc (USDOT #341156)",
+      "publication_date": "2026-10-09",
+      "topics": [
+        "automated",
+        "vehicle"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-19964",
+      "source_url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger",
+      "title": "The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks",
+      "publication_date": "2026-09-30",
+      "topics": [
+        "transportation",
+        "vehicle"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-18612",
+      "source_url": "https://www.federalregister.gov/documents/2026/09/11/2026-18612/medical-devices-cardiovascular-devices-classification-of-the-cardiovascular-machine-learning-based",
+      "title": "Medical Devices; Cardiovascular Devices; Classification of the Cardiovascular Machine Learning-Based Notification Software",
+      "publication_date": "2026-09-11",
+      "topics": [
+        "machine learning"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-16884",
+      "source_url": "https://www.federalregister.gov/documents/2026/08/19/2026-16884/solicitation-of-nominations-for-membership-on-the-noaa-science-advisory-board-sab",
+      "title": "Solicitation of Nominations for Membership on the NOAA Science Advisory Board (SAB)",
+      "publication_date": "2026-08-19",
+      "topics": [
+        "artificial intelligence",
+        "machine learning"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    }
+  ],
+  "health": {
+    "pipeline": "completed",
+    "source_collection_status": "not_independently_verified_by_this_stage"
+  },
+  "notice": "Keyword triage only; neither ML classification nor independent factual verification. All candidates remain unreviewed."
+}

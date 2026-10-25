@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-25T02:44:19.415951+00:00",
+  "mode": "candidate_publisher_feed_discovery",
+  "sources": [
+    {
+      "source_id": "EU-COMMISSION-NEWS",
+      "status": "failed",
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "UK-DfT",
+      "status": "fetched",
+      "items": 20
+    },
+    {
+      "source_id": "NHTSA",
+      "status": "failed",
+      "error_type": "HTTPError"
+    },
+    {
+      "source_id": "UBER-ENGINEERING",
+      "status": "failed",
+      "error_type": "HTTPError"
+    }
+  ],
+  "queue": [
+    {
+      "id": "66c49fa6eacfc851551c",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Policy paper: DfT engagement on the Heathrow expansion consultation",
+      "source_url": "https://www.gov.uk/government/publications/dft-engagement-on-the-heathrow-expansion-consultation",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "2866f83a70a85be2fd6f",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Transparency data: Major Road Network and Large Local Majors programme",
+      "source_url": "https://www.gov.uk/government/publications/major-road-network-and-large-local-majors-programme",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "fbe67bcc0bbfdd384cf9",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Guidance: Minimising headlight glare and its effects",
+      "source_url": "https://www.gov.uk/government/publications/minimising-headlight-glare-and-its-effects",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "42677b92b022a50287e7",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Transparency data: Highways maintenance funding allocations",
+      "source_url": "https://www.gov.uk/government/publications/highways-maintenance-funding-allocations",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "51a05e95549c7ffe3834",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Record funding, record results: 7,000 miles of smoother journeys as government tackles potholes",
+      "source_url": "https://www.gov.uk/government/news/record-funding-record-results-7000-miles-of-smoother-journeys-as-government-tackles-potholes",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "9d5a373d232f2a88e37a",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Transparency data: Local highways maintenance transparency reports",
+      "source_url": "https://www.gov.uk/government/publications/local-highways-maintenance-transparency-reports",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "c4d04c232ac575535bf4",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Amending the building regulations: electric vehicle charging infrastructure",
+      "source_url": "https://www.gov.uk/government/consultations/amending-the-building-regulations-electric-vehicle-charging-infrastructure",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "22c910aa0a3ee3e4021d",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Expanding electric vehicle charging access for tenants and leaseholders",
+      "source_url": "https://www.gov.uk/government/consultations/expanding-electric-vehicle-charging-access-for-tenants-and-leaseholders",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "639241e307c98532f843",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Drivers to save up to \u00a3300 when installing EV chargers at home, as government slashes unnecessary red tape",
+      "source_url": "https://www.gov.uk/government/news/drivers-to-save-up-to-300-when-installing-ev-chargers-at-home-as-government-slashes-unnecessary-red-tape",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "69f1f5de90310b15a955",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Transparency data: DfT: workforce management information, September 2026",
+      "source_url": "https://www.gov.uk/government/publications/dft-workforce-management-information-september-2026",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "4038cbb897365ccc0152",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Publication of the DVLA business plan 2026 to 2027",
+      "source_url": "https://www.gov.uk/government/speeches/publication-of-the-dvla-business-plan-2026-to-2027",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "643831026f9541df8551",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Full steam ahead: new station for Bradford",
+      "source_url": "https://www.gov.uk/government/news/full-steam-ahead-new-station-for-bradford",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "7fbffa4994913f9d87bd",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Policy paper: Post-adoption statement for the national policy statement for ports",
+      "source_url": "https://www.gov.uk/government/publications/post-adoption-statement-for-the-national-policy-statement-for-ports",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "526c180335a464711f25",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Policy paper: The national policy statement for ports",
+      "source_url": "https://www.gov.uk/government/publications/the-national-policy-statement-for-ports",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "09086541493da8c1567f",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "SS Richard Montgomery mast removal project",
+      "source_url": "https://www.gov.uk/government/speeches/ss-richard-montgomery-mast-removal-project",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "ff21211761f64ef89d6a",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Guidance: A coastal concordat for England",
+      "source_url": "https://www.gov.uk/government/publications/a-coastal-concordat-for-england",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "90fee0611af67ac574aa",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Decision: Tackley level crossing: Transport and Works Act order",
+      "source_url": "https://www.gov.uk/government/publications/network-rail-tackley-level-crossing-transport-and-works-act-order",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "ef24439091da69771e6f",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Stronger safeguards for wheelchair users and better-trained staff to support disabled air passengers",
+      "source_url": "https://www.gov.uk/government/news/stronger-safeguards-for-wheelchair-users-and-better-trained-staff-to-support-disabled-air-passengers",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "011301f5eac113963202",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Corporate report: Aviation Accessibility Implementation Group update",
+      "source_url": "https://www.gov.uk/government/publications/aviation-accessibility-implementation-group-update",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "647c539132189f01b746",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Accredited official statistics: Reported road casualties in Great Britain, provisional estimates: year ending June 2026",
+      "source_url": "https://www.gov.uk/government/statistics/announcements/reported-road-casualties-in-great-britain-provisional-estimates-year-ending-june-2026",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    }
+  ],
+  "review_required": 20,
+  "notice": "Publisher feed metadata is unreviewed. Feed availability and publisher identity must be validated; no independent verification or trained ML classification."
+}
