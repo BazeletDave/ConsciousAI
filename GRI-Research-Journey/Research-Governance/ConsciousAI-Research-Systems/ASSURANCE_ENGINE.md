@@ -1,6 +1,6 @@
 # GRI Institutional Intelligence and Assurance Engine — v1
 
-**Status: executable research prototype, NOT a validated safety system, trained machine-learning model, continuous sensor network, security product, or certification service.**
+**Status: executable evidence-assessment component within GRI's publicly deployed research dashboard. Its deterministic checks are operational research functionality; they are NOT an independently validated safety system, trained machine-learning model, continuous sensor network, security product, or certification service.**
 
 ## Purpose
 A reproducible, evidence-first bridge between the GRI intelligence dashboard and an eventual institutional assurance platform. The central falsifiable hypothesis: systems can satisfy local objectives while generating globally unsafe, biased or institutionally illegitimate outcomes.
