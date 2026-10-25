@@ -7,12 +7,14 @@ from pathlib import Path
 from urllib.request import Request,urlopen
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
+from html.parser import HTMLParser
+from urllib.parse import urljoin
 ROOT=Path(__file__).resolve().parent
 SOURCES=[
- {"id":"EU-COMMISSION-NEWS","category":"international_regulatory","jurisdiction":"EU","feed":"https://digital-strategy.ec.europa.eu/en/rss.xml","publisher":"European Commission Digital Strategy"},
+ {"id":"EU-COMMISSION-NEWS","category":"international_regulatory","jurisdiction":"EU","feed":"https://digital-strategy.ec.europa.eu/en/news","mode":"official_html","allowed_host":"digital-strategy.ec.europa.eu","path_prefix":"/en/","publisher":"European Commission Digital Strategy"},
  {"id":"UK-DfT","category":"international_regulatory","jurisdiction":"UK","feed":"https://www.gov.uk/government/organisations/department-for-transport.atom","publisher":"UK Department for Transport"},
- {"id":"NHTSA","category":"mobility_industry","jurisdiction":"US","feed":"https://www.nhtsa.gov/press-releases/rss.xml","publisher":"NHTSA"},
- {"id":"UBER-ENGINEERING","category":"mobility_industry","jurisdiction":"corporate","feed":"https://www.uber.com/blog/engineering/rss/","publisher":"Uber Engineering"},
+ {"id":"NHTSA","category":"mobility_industry","jurisdiction":"US","feed":"https://www.nhtsa.gov/press-releases","mode":"official_html","allowed_host":"www.nhtsa.gov","path_prefix":"/press-releases/","publisher":"NHTSA"},
+ {"id":"UBER-ENGINEERING","category":"mobility_industry","jurisdiction":"corporate","feed":"https://www.uber.com/us/en/blog/engineering/","mode":"official_html","allowed_host":"www.uber.com","path_prefix":"/us/en/blog/","publisher":"Uber Engineering"},
 ]
 # Candidate endpoints may fail or redirect; a failed source is reported, never silently marked healthy.
 def parse_feed(data,source):
@@ -34,6 +36,33 @@ def parse_feed(data,source):
    "source_url":link,"verification_status":"publisher_feed_item_unreviewed",
    "human_review_required":True,"publication_authorized":False})
  return items
+class PublisherLinks(HTMLParser):
+ def __init__(self):super().__init__();self.links=[];self.href=None;self.text=[]
+ def handle_starttag(self,tag,attrs):
+  if tag=="a":self.href=dict(attrs).get("href");self.text=[]
+ def handle_data(self,data):
+  if self.href is not None:self.text.append(data)
+ def handle_endtag(self,tag):
+  if tag=="a" and self.href is not None:
+   self.links.append((self.href," ".join(" ".join(self.text).split())))
+   self.href=None;self.text=[]
+def parse_official_page(data,source):
+ parser=PublisherLinks();parser.feed(data.decode("utf-8","replace"))
+ rows={}
+ for href,title in parser.links:
+  url=urljoin(source["feed"],href);u=urlparse(url)
+  if u.scheme!="https" or u.hostname!=source["allowed_host"] or not u.path.startswith(source["path_prefix"]):continue
+  if url.rstrip("/")==source["feed"].rstrip("/") or len(title)<15:continue
+  if any(x in u.path.lower() for x in ("/tag/","/category/","/page/","/author/")):continue
+  url=u._replace(query="",fragment="").geturl()
+  digest=hashlib.sha256((source["id"]+"|"+url).encode()).hexdigest()[:20]
+  rows[digest]={"id":digest,"source_id":source["id"],"publisher":source["publisher"],
+   "jurisdiction":source["jurisdiction"],"category":source["category"],"title":title[:350],
+   "source_url":url,"verification_status":"official_publisher_index_link_unreviewed",
+   "discovery_method":"official_html_index","source_index_url":source["feed"],
+   "human_review_required":True,"publication_authorized":False}
+ return list(rows.values())
+
 def collect(fetch=None,sources=None,now=None):
  sources=sources if sources is not None else SOURCES
  if fetch is None:
@@ -46,14 +75,14 @@ def collect(fetch=None,sources=None,now=None):
  for src in sources:
   try:
    if urlparse(src["feed"]).scheme!="https":raise ValueError("source must use HTTPS")
-   rows=parse_feed(fetch(src["feed"]),src)
+   rows=(parse_official_page(fetch(src["feed"]),src) if src.get("mode")=="official_html" else parse_feed(fetch(src["feed"]),src))
    for row in rows[:30]:queue[row["id"]]=row
-   health.append({"source_id":src["id"],"status":"fetched","items":len(rows)})
+   health.append({"source_id":src["id"],"status":"fetched" if rows else "empty_unvalidated","items":len(rows),"method":src.get("mode","rss_atom")})
   except (OSError,ValueError,ET.ParseError,KeyError) as e:
    health.append({"source_id":src["id"],"status":"failed","error_type":type(e).__name__})
  return {"schema_version":"1.0","generated_at":now or datetime.now(timezone.utc).isoformat(),
-  "mode":"candidate_publisher_feed_discovery","sources":health,"queue":list(queue.values())[:120],
-  "review_required":len(queue),"notice":"Publisher feed metadata is unreviewed. Feed availability and publisher identity must be validated; no independent verification or trained ML classification."}
+  "mode":"official_publisher_index_or_feed_discovery","sources":health,"queue":list(queue.values())[:120],
+  "review_required":len(queue),"notice":"Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."}
 def main():
  p=argparse.ArgumentParser();p.add_argument("--output",type=Path,default=ROOT/"international_mobility_feed.json");a=p.parse_args()
  result=collect()
