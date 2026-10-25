@@ -1,6 +1,6 @@
 # Ethical Intelligence API | Research specification
 
-**Status:** API contract and research prototype only; not deployed.
+**Status:** Publicly deployed research API includes evidence-completeness assessment routes; this document also describes broader proposed capabilities that are not fully implemented or validated.
 
 ## Objective
 Evaluate whether an algorithmically mediated decision has identifiable authority, sufficient provenance, meaningful review, and documented correction pathways. The output is an evidence completeness assessment, **not** a certification that a company or decision is ethical, fair, lawful, or compliant.
@@ -23,7 +23,7 @@ Evaluate whether an algorithmically mediated decision has identifiable authority
 | Economic impact | Who receives value or bears cost? | `affected_parties` |
 
 ## Interface
-See [OpenAPI contract](openapi.yaml) for proposed `GET /cases`, `GET /cases/{caseId}`, and `POST /assessments` routes. The contract is descriptive and is **not** an active HTTP endpoint.
+See [OpenAPI contract](openapi.yaml) for proposed `GET /cases`, `GET /cases/{caseId}`, and `POST /assessments` routes. The contract documents the research interface; selected read-only and assessment endpoints are served by the GRI Render deployment. The contract may include proposed fields or behaviors that require separate verification against the live implementation.
 
 ## Case application
 The Chicago Lyft paired transaction case would be marked **unresolved** pending final payout data, fee definitions, transaction IDs, demand context and a documented explanation. Uber's MCP Gateway is a separate engineering case about delegated tool access and audit controls, not a source for Lyft pricing decisions.
