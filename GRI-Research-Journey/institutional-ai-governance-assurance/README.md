@@ -28,6 +28,10 @@ This portfolio organizes applied research on AI governance, institutional accoun
 
 These are research design documents, not claims that the hypotheses have been tested or that prototypes are production validated.
 
+## Government AI, semiconductor systems and infrastructure
+
+[**Integrated research agenda: Treasury, USAJOBS, NVIDIA, Tesla and the AI Governance Paradox**](government-ai-semiconductor-systems-governance-2026.md) examines how public-sector screening, hardware-rooted trust, agent authority, autonomous mobility, and institutional accountability interact. The analysis distinguishes manufacturer security capabilities from demonstrated model fairness and end-to-end safety. This cross-repository program connects ConsciousAI, GRI-Institutional-AI-Governance, and Treasury-TTB-Label-Verification.
+
 ## Research streams
 
 1. **Treasury AI Label Verification:** An exploratory labeling and decision support case study examining rule traceability, confidence, human adjudication, and audit evidence. Treasury references describe the case context, not government authorization or endorsement.
