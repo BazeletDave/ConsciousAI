@@ -10,6 +10,7 @@ from model_registry import platform_capabilities
 from evaluation_pipeline import evaluation_capabilities
 from evidence_quality import score, dataset_manifest
 from risk_triage import triage
+from governance_telemetry import public_snapshot
 from urllib.parse import urlparse, parse_qs, unquote
 
 ROOT = Path(__file__).resolve().parent
@@ -134,6 +135,8 @@ class Handler(BaseHTTPRequestHandler):
                     "counts": {"cases": len(cases), "events": len(events), "policies": len(policies)},
                     "verification_status_counts": counts,
                     "notice": "Record counts do not establish independent verification, legal compliance, or causation."})
+            if path == "/governance/telemetry":
+                return self.send_json(200, public_snapshot())
             if path == "/assurance/overview":
                 return self.send_json(200, assurance_dashboard())
             if path == "/intelligence/triage":
