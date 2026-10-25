@@ -1,6 +1,6 @@
 # Transparency Graph | Research specification
 
-**Status:** Data model and initial machine readable evidence registry, not an operational enterprise graph.
+**Status:** The GRI public dashboard deploys an interactive research graph backed by curated evidence records; it is not an operational enterprise knowledge graph or independently validated causal model.
 
 ## Purpose
 Represent the path from organizational objectives through engineered systems and automated decisions to observed outcomes, human consequences and correction. Explicit provenance and uncertainty are mandatory.
@@ -22,4 +22,4 @@ Every edge must have an `evidence_status`. A `compared_with` edge denotes an ana
 ## Evidence design
 Each record includes an ID, claim, organization, date context, source pointer, classification (`observation`, `company_report`, `hypothesis`), verification status, and limitations. See [cases.json](cases.json) and [evidence.schema.json](evidence.schema.json).
 
-Future capabilities: temporal versioning, provenance queries, privacy aware access, visual graph exploration, role based corrections and institutional audit trails. None is represented as currently running.
+The visual research graph is deployed. Future capabilities include full temporal versioning, authenticated provenance queries, privacy-aware access, role-based corrections, and institutional audit trails; these are not claimed as operational.
