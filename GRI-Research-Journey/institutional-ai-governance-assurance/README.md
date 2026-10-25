@@ -4,6 +4,12 @@
 
 This portfolio organizes applied research on AI governance, institutional accountability, cybersecurity assurance, compliance verification, and delegated agent authority. It is independent GRI research, not an official U.S. Treasury, university, or government program.
 
+## Research integration | Living institutional intelligence
+
+The Treasury-origin exercise is **Case 001 in an expanding GRI institutional research program**, not a current job application. The [GRI Institutional AI Governance repository](https://github.com/BazeletDave/GRI-Institutional-AI-Governance) develops the case and its methods; the [original TTB label-verification repository](https://github.com/BazeletDave/Treasury-TTB-Label-Verification) preserves the historical exercise and illustrative scenarios. Both connect to the [Accelerating AI Governance Paradox](accelerating-ai-governance-paradox-living-research-framework.md), which studies how capability, deployment, and institutional assurance evolve at different rates.
+
+**Living-system pathway:** original case evidence → provenance and rights verification → dated, versioned case record → cross-sector comparison → human-reviewed governance findings → dashboard publication → longitudinal re-evaluation. The [GRI dashboard](https://gri-global-intelligence.onrender.com/dashboard) is deployed; automated ingestion of these Treasury case materials is a planned integration and must not be described as operational without a verified pipeline.
+
 ## Originating case | Treasury AI engineering exercise
 
 **[Case 001: Institutional AI Label Verification and Human Authority](https://github.com/BazeletDave/GRI-Institutional-AI-Governance)** is the original AI engineering portfolio, now independently maintained as a GRI research case. It began as a submission exercise for a U.S. Department of the Treasury AI Specialist opportunity, including a TTB alcohol label verification design scenario. It is no longer presented as an active job submission.
