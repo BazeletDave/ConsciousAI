@@ -11,7 +11,7 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin
 ROOT=Path(__file__).resolve().parent
 SOURCES=[
- {"id":"EU-COMMISSION-NEWS","category":"international_regulatory","jurisdiction":"EU","feed":"https://digital-strategy.ec.europa.eu/en/news","mode":"official_html","allowed_host":"digital-strategy.ec.europa.eu","path_prefix":"/en/","publisher":"European Commission Digital Strategy"},
+ {"id":"EU-COMMISSION-NEWS","category":"international_regulatory","jurisdiction":"EU","feed":"https://ec.europa.eu/commission/presscorner/api/rss?language=en","publisher":"European Commission Press Corner"},
  {"id":"UK-DfT","category":"international_regulatory","jurisdiction":"UK","feed":"https://www.gov.uk/government/organisations/department-for-transport.atom","publisher":"UK Department for Transport"},
  {"id":"NHTSA","category":"mobility_industry","jurisdiction":"US","feed":"https://www.nhtsa.gov/press-releases","mode":"official_html","allowed_host":"www.nhtsa.gov","path_prefix":"/press-releases/","publisher":"NHTSA"},
  {"id":"UBER-ENGINEERING","category":"mobility_industry","jurisdiction":"corporate","feed":"https://www.uber.com/us/en/blog/engineering/","mode":"official_html","allowed_host":"www.uber.com","path_prefix":"/us/en/blog/","publisher":"Uber Engineering"},
