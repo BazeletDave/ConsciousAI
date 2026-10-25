@@ -181,7 +181,20 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/mobility/summary":
                 return self.send_json(200, public_summary())
             if path == "/health":
-                return self.send_json(200, {"status": "ok", "service": "GRI local research prototype"})
+                required = ("cases.json", "events.json", "policies.json", "intelligence_feed.json", "international_mobility_feed.json", "research_dataset/manifest.json")
+                missing = [name for name in required if not (ROOT / name).is_file()]
+                invalid = []
+                for name in required:
+                    if name not in missing:
+                        try:
+                            load(name)
+                        except (ValueError, OSError, json.JSONDecodeError):
+                            invalid.append(name)
+                ready = not missing and not invalid
+                return self.send_json(200 if ready else 503, {"status":"ok" if ready else "degraded",
+                    "service":"GRI governance intelligence research platform",
+                    "required_datasets":len(required),"missing":missing,"invalid":invalid,
+                    "notice":"Readiness verifies local data presence and JSON parsing, not freshness, external source uptime, or independent research validation."})
             if path == "/cases":
                 items = records()
                 if "organization" in query:
