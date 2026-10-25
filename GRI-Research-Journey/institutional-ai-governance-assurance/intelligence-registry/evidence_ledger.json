@@ -2,5 +2,45 @@
   "schema_version": "1.0",
   "source": "GitHub public repository metadata",
   "research_only": true,
-  "records": []
+  "records": [
+    {
+      "id": "github:bazeletdave/gri-institutional-ai-governance",
+      "source_url": "https://github.com/BazeletDave/GRI-Institutional-AI-Governance",
+      "observed_updated_at": "2026-10-25T01:11:48Z",
+      "observed_pushed_at": "2026-10-25T01:11:44Z",
+      "observed_default_branch": "main",
+      "last_seen_at": "2026-10-25T11:59:29.277140+00:00",
+      "first_seen_at": "2026-10-25T11:59:29.277140+00:00",
+      "verification": "PRIMARY_DOCUMENT_METADATA_UNREVIEWED",
+      "review_status": "RESEARCH_LEAD",
+      "human_review_required": true,
+      "automated_enforcement": false
+    },
+    {
+      "id": "github:uber/adr",
+      "source_url": "https://github.com/uber/ADR",
+      "observed_updated_at": "2026-10-25T07:41:49Z",
+      "observed_pushed_at": "2026-10-24T01:53:39Z",
+      "observed_default_branch": "main",
+      "last_seen_at": "2026-10-25T11:59:29.277140+00:00",
+      "first_seen_at": "2026-10-25T11:59:29.277140+00:00",
+      "verification": "PRIMARY_DOCUMENT_METADATA_UNREVIEWED",
+      "review_status": "RESEARCH_LEAD",
+      "human_review_required": true,
+      "automated_enforcement": false
+    },
+    {
+      "id": "github:waymo-research/waymax",
+      "source_url": "https://github.com/waymo-research/waymax",
+      "observed_updated_at": "2026-10-23T08:38:42Z",
+      "observed_pushed_at": "2025-10-23T04:29:20Z",
+      "observed_default_branch": "main",
+      "last_seen_at": "2026-10-25T11:59:29.277140+00:00",
+      "first_seen_at": "2026-10-25T11:59:29.277140+00:00",
+      "verification": "PRIMARY_DOCUMENT_METADATA_UNREVIEWED",
+      "review_status": "RESEARCH_LEAD",
+      "human_review_required": true,
+      "automated_enforcement": false
+    }
+  ]
 }
