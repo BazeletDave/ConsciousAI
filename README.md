@@ -37,6 +37,10 @@ Grand Research Institute connects historical political economy, global managemen
 
 **ConsciousAI** is a research repository within the Grand Research Institute ecosystem. It documents inquiry into artificial intelligence, algorithmic management, institutional governance, technological innovation, and human oversight. The repository brings together research publications, case studies, empirical observations, and selected project resources. It is not presented as a deployed ethics auditing service or a formal standards setting body.
 
+## New Research Module | Inference Integrity and Institutional Accountability
+
+**[Explore the GRI ML Governance research prototype v0.2](GRI-Research-Journey/Research-Governance/Inference-Integrity/README.md)**: inspectable Python code and synthetic tests connecting inference feature integrity, score replay, policy controls, candidate proxy screening, and institutional accountability. This is an independent GRI research module, not a certified fairness system or a deployed credit decision service. Dashboard integration remains a separate engineering step.
+
 ## Applied AI Research | From Sensor Data to Accountable Decisions
 
 **ConsciousAI includes inspectable research code—not only policy analysis.** Grand Research Institute is investigating how machine-learning observations become organizational decisions, and how executable governance can constrain those decisions before they affect people.
