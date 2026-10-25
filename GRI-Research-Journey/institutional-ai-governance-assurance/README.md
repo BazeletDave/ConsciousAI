@@ -17,6 +17,10 @@ This portfolio organizes applied research on AI governance, institutional accoun
 **Primary research repository:** [GRI-Institutional-AI-Governance](https://github.com/BazeletDave/GRI-Institutional-AI-Governance)  
 **Related prototype repository:** [Treasury-TTB-Label-Verification](https://github.com/BazeletDave/Treasury-TTB-Label-Verification)
 
+## Intelligence registry prototype
+
+[Offline signal registry, validation code, tests, and sample research leads](intelligence-registry/README.md) connects Treasury-origin labeling, Uber agent security, Waymax simulation, and educational integrity signals. It is a non-deployed reference implementation; source verification and human review are required before dashboard ingestion.
+
 ## Comparative research expansion | October 2026
 
 - [Research program architecture](research-program-architecture.md) — four linked cases, institutional comparison, testable propositions, and research boundaries.
