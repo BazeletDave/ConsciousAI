@@ -55,6 +55,35 @@ These are **institutional analogies**, not evidence that Uber and Meta use the s
 **Framework:** Access → Capability → Authority → Consequences → Feedback.  
 A research program should distinguish system capability, actual deployment, measurable effects, authorized decision rights, procedural review and remediation.
 
+
+## Featured extension | The 2026 comeback and the AI Paradox (October 26, 2026)
+
+**Research priority:** This case is elevated as a central *working case*, not a settled finding about electoral causation. Lula's electoral comeback—described in the research narrative by a Tom Brady analogy—creates a timely opportunity to examine how digital transformation, Fourth Industrial Revolution technologies, social-media mobilization, and Meta's platform infrastructure interact with democratic institutions. The analogy is illustrative, not an empirical measure.
+
+**Proposed hypothesis (unvalidated):** Algorithmically mediated visibility and digitally coordinated mobilization can change the pace and reach of political participation faster than electoral oversight and independent audit can reconstruct the mechanisms. This does **not** establish that Meta, AI, or a specific algorithm caused or secured Lula's victory.
+
+### Falsifiable research questions
+
+1. What independently documented changes occurred in digital outreach, engagement, and offline mobilization between electoral rounds?
+2. Did publicly verifiable Meta moderation, ranking, or account-access changes occur, and when? What explanations and counterevidence exist?
+3. What evidence distinguishes human-led social-media organizing, ordinary recommendation systems, paid distribution, and generative-AI content?
+4. Can geographic turnout changes be associated with measurable digital activity after controlling for campaign events, demographics, media coverage, and other confounders?
+5. Which electoral oversight and platform transparency mechanisms provided timely disclosure, review, appeal, or remediation?
+
+### Evidence and attribution protocol
+
+- **Confirmed event:** official electoral results, dates, turnout, and candidate identities, sourced to Brazil's Tribunal Superior Eleitoral (TSE) or equivalent primary records; verify before adding numerical claims.
+- **Reported observation:** dated reporting about campaign outreach or platform actions, attributed to its publisher and corroborated where possible.
+- **Contested allegation:** campaign claims and platform rebuttals presented side by side; never convert allegations into findings.
+- **Research hypothesis:** causal pathways to test; require comparison groups, pre/post observations, documented alternative explanations, and sensitivity checks.
+- **Unresolved:** platform-internal ranking data, causal effect on individual voting, and counterfactual election outcomes unless credible independent evidence becomes available.
+
+### Proposed evidence ledger fields
+
+`event_id | event_date | source_url | source_type | actor | claim | counterclaim | evidence_grade | platform_mechanism | geographic_scope | observed_metric | confounders | reviewer | review_date | status`
+
+**Cross-case research bridge:** Compare platform information asymmetry and contestability with GRI's Uber/Lyft algorithmic-management evidence; similarities are governance analogies, not claims of common code, intent, or measured effect. The case remains independent GRI scholarship, not a Thunderbird assignment or university endorsement.
+
 ## Method and next evidence steps
 
 - Obtain original news reports and primary filings; preserve publication dates and direct quotations.
