@@ -152,3 +152,49 @@ Alternative explanations include selection effects, quality of underlying system
 - Doug Guthrie, Marco Serrato, Apple University, Duke executive education, Jabil, *The Infodemic Machine*, “Mulberry,” Treasury-related external claims: **verify source identity, permission and specific attribution before treating as factual case evidence.**
 
 **Disclosure:** This research synthesis was prepared with AI drafting assistance under GRI direction. It is an independent working document and does not imply that any named organization or faculty member participated in or endorsed the publication.
+
+
+## Verified public-source exhibits and bibliography supplement — October 2026
+
+This supplement records independently checkable external evidence and keeps it distinct from GRI hypotheses and research prototypes.
+
+### Exhibit A — Global occupational exposure to generative AI (ILO, 2025)
+
+| Indicator | Published estimate | Meaning |
+|---|---:|---|
+| Workers in occupations with some GenAI exposure | 25% | Occupational task exposure, **not** observed job displacement |
+| Workers in highest exposure gradient | 3.3% | Highest ILO exposure category, **not** the number replaced |
+
+**Source:** ILO, *Generative AI and Jobs: A Refined Global Index of Occupational Exposure*, Working Paper 140, 20 May 2025. https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure
+
+### Exhibit B — WEF labor market projection (2025 report, forecast to 2030)
+
+| Projected change | Jobs (millions) |
+|---|---:|
+| New jobs | 170 |
+| Displaced jobs | 92 |
+| Net new jobs | 78 |
+
+**Source:** World Economic Forum, *Future of Jobs Report 2025*. https://www.weforum.org/publications/the-future-of-jobs-report-2025 . Survey-based projections, not realized employment statistics; these should not be combined with ILO occupational exposure estimates.
+
+### Exhibit C — Governance reference architecture
+
+NIST's voluntary AI Risk Management Framework 1.0 (2023) specifies **Govern, Map, Measure, Manage**. These functions provide a published comparator for GRI's proposed evidence controls. Source: https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10
+
+OECD's AI Principles, updated in 2024, address traceability, accountability, risk management, and appropriate mechanisms for intervention. Source: https://www.oecd.org/en/topics/ai-principles.html
+
+### Exhibit D — Verified Thunderbird-related scholarship
+
+Arizona Board of Regents lists **Doug Guthrie and David Slocum (2025), “Through the looking glass: Inefficient deregulation in the United States and efficient state ownership in China,”** *Research in the Sociology of Organizations*, pp. 283–311. This supports an institutional comparison lens; it does **not** empirically validate the AI Learning Paradox. https://experts.azregents.edu/en/persons/doug-guthrie/
+
+ASU's Center for Work and Democracy identifies Doug Guthrie as leading Apple University efforts in China during 2014–2019. This biographical detail is independently documented; specific Apple internal results still require sources. https://cwd.asu.edu/people/faculty-affiliates/doug-guthrie
+
+Thunderbird identifies David Slocum as Professor of Practice with leadership and executive education responsibilities. https://thunderbird.asu.edu/node/3218
+
+**Attribution status:** Additional faculty work, including Dr. Landry's publications, remains to be verified by exact author, title, and publication before inclusion. No personal conversation is presented as a published quotation.
+
+### Figure design and reproducibility note
+
+The companion 22-page executive PDF includes two quantitative bar exhibits drawn from the ILO and WEF values above. All other framework graphics are conceptual. The report includes source URLs and methodological distinctions; it does not invent GRI dashboard performance measurements.
+
+**Author and disclosure:** David A. Grand, Grand Research Institute. AI-assisted research synthesis and layout. Independent working publication; not peer reviewed and not endorsed by named universities, government agencies, or faculty.
