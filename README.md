@@ -23,6 +23,8 @@ GRI's independent research tests the gap between accelerating platform capabilit
 
 **[Read the 2016–2026 Academic Evidence Review: Algorithmic Politics, AI Agents, Semiconductors and Institutional Accountability](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-algorithmic-politics-decade-evidence-review.md)** — peer-reviewed experiments, institutional semiconductor research, sourced quantitative comparison, conceptual diagrams, null findings, and the governance connection to academic integrity. The evidence does not establish that AI or Meta determined any election.
 
+**[Explore the Cross-Sector Institutional Research Atlas: Treasury, Miami Dolphins / Hard Rock, Academic Integrity, Mobility and AI Infrastructure](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-cross-sector-algorithmic-authority-institutions.md)** — an evidence-qualified map of how algorithms organize visibility, hiring-related research questions, organizational decisions and accountability, including verified links to six GRI repositories. Public job postings are evidence of organizational priorities, not proof of AI screening or hiring decisions.
+
 ---
 
 ## Research Update | October 23, 2026
