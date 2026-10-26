@@ -1,12 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-26T13:00:53.113829+00:00",
+  "generated_at": "2026-10-26T20:29:13.112190+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
       "source_id": "EU-COMMISSION-NEWS",
-      "status": "failed",
-      "error_type": "TimeoutError"
+      "status": "fetched",
+      "items": 10,
+      "method": "rss_atom"
     },
     {
       "source_id": "UK-DfT",
@@ -28,6 +29,126 @@
     }
   ],
   "queue": [
+    {
+      "id": "3dc3ec743950553925e0",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by Commissioner Serafin on the presentation of the High-Level Group Report on the Future of the European Commission's Civil Service",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2259",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "997967f981a22af8b726",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by President von der Leyen with Commissioner Serafin and Catherine Day, Chair of the High-Level Group on the Future of the Commission's Civil Service, on the occasion of the handover of the report by the external advisers on the Large-scale review",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2258",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "20efe88ab566a10d434d",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 26 / 10 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2257",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "b4486759b5dee704c346",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission launches T-MED Investment Platform with up to \u20ac4.5 billion in EU guarantees",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2256",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "fda9c85b7e9d6f0d5df7",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "An outside-in perspective on the future of the European Commission's civil service",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2253",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "16d405aba1ece7f70465",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "EU citizens think innovative foods can be useful but want more information, new Eurobarometer shows",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2231",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "9678e6a7e92a17318941",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Commissioner \u0160ef\u010dovi\u010d at the press conference following the informal Foreign Affairs Council (Trade)",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2252",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "8c1dad43b7051a6055e2",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by President von der Leyen to the Hungarian National Assembly on the occasion of the 70th anniversary of the Hungarian Revolution of 1956",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2251",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "cb329e845b92361faf1f",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission proposes stronger recognition of European heritage sites*",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2250",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "39e2a72478301db140b2",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 23 / 10 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2249",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "3dde24513f3af09ed76a",
       "source_id": "UK-DfT",
@@ -269,6 +390,20 @@
       "publication_authorized": false
     },
     {
+      "id": "2ecaf2bc49cf8f6bee35",
+      "source_id": "NHTSA",
+      "publisher": "NHTSA",
+      "jurisdiction": "US",
+      "category": "mobility_industry",
+      "title": "Trump\u2019s Transportation Department Moves to Modernize Tire Safety Standards, Deliver Safer American Roads",
+      "source_url": "https://www.nhtsa.gov/press-releases/move-to-modernize-tire-safety-standards",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.nhtsa.gov/press-releases",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "626788d4564c8798185b",
       "source_id": "NHTSA",
       "publisher": "NHTSA",
@@ -395,26 +530,12 @@
       "publication_authorized": false
     },
     {
-      "id": "00b391dda85869075be2",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department to Invest $20 Million to Help Law Enforcement Tackle Dangerous Driving",
-      "source_url": "https://www.nhtsa.gov/press-releases/dangerous-driving-20-million-investment-law-enforcement",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "bf5d5a49a20e4dd1eb72",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -731,6 +852,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 53,
+  "review_required": 63,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
