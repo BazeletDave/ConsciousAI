@@ -25,6 +25,8 @@ GRI's independent research tests the gap between accelerating platform capabilit
 
 **[Explore the Cross-Sector Institutional Research Atlas: Treasury, Miami Dolphins / Hard Rock, Academic Integrity, Mobility and AI Infrastructure](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-cross-sector-algorithmic-authority-institutions.md)** — an evidence-qualified map of how algorithms organize visibility, hiring-related research questions, organizational decisions and accountability, including verified links to six GRI repositories. Public job postings are evidence of organizational priorities, not proof of AI screening or hiring decisions.
 
+**[Reproducible evidence baseline and source register](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-evidence-maturity-baseline.md)** — six reviewed GRI repository READMEs, a machine-readable CSV, Python reproducibility script, and a transparent documentation-status figure. This is a narrow internal baseline, **not** an institutional adoption estimate or validated employer-screening study.
+
 ---
 
 ## Research Update | October 23, 2026
