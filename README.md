@@ -13,6 +13,16 @@ Grand Research Institute's deployed research intelligence platform brings togeth
 
 ---
 
+## Featured Research Priority | Brazil 2026 and the AI Governance Paradox
+
+**Electoral comeback, digital transformation, and institutional accountability.** Lula's 2026 comeback offers a central working case for examining whether—and through what measurable mechanisms—social-media mobilization, Meta's platform infrastructure, and Fourth Industrial Revolution technologies reshape electoral visibility and democratic participation. The Tom Brady comeback comparison is a narrative analogy; **it is not evidence that AI or Meta caused the election result**.
+
+GRI's independent research tests the gap between accelerating platform capability and the ability of public institutions to verify, contest, and govern consequential digital decisions. The case distinguishes **official election results**, **documented platform activity**, **disputed allegations**, and **unvalidated causal hypotheses**. It proposes event-level evidence tracking, platform transparency review, turnout and mobilization analysis, alternative-explanation testing, and comparison with algorithmic management in other sectors.
+
+**[Read the expanded Brazil 2026 AI Paradox research case and evidence protocol](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md)**
+
+---
+
 ## Research Update | October 23, 2026
 
 **GRI comparative institutional research:** [Brazil 2026: AI, Electoral Institutions and Platform Governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) connects graduate-level institutional analysis informed by Thunderbird School of Global Management at Arizona State University with the AI Paradox and [Uber and Lyft algorithmic management research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md), including [Appendix A: Driver Interview 0107](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/appendix-a-interview-0107-2026-10-23.md). The Brazil case records reported allegations, responses and verification requirements without treating disputed political claims as established facts. The driver interview is GRI approved qualitative evidence; participant perceptions are not independently verified platform mechanisms. These are independent GRI studies informed by graduate coursework, not university or faculty endorsements.
