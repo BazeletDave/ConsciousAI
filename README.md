@@ -1,25 +1,36 @@
-# Grand Research Institute | Global Governance Intelligence & ConsciousAI
+# Grand Research Institute
+### Global Governance Intelligence · ConsciousAI Research Program
 
-Grand Research Institute (GRI) advances interdisciplinary research and applied AI engineering across institutional governance, global management, algorithmic systems, and human-centered accountability. **ConsciousAI** is GRI's public research and engineering repository, connecting scholarly inquiry with the deployed **Global Governance Intelligence Dashboard**.
+**Independent research led by David Grand**
 
-## Live GRI Governance Intelligence Dashboard
+Grand Research Institute (GRI) investigates how artificial intelligence, algorithmic management and global digital infrastructure reshape organizational authority, economic opportunity and institutional accountability. **ConsciousAI** is the institute's public research and engineering archive, developed through David Grand's continuing professional, academic and research journey.
 
-**[OPEN THE LIVE GRI GLOBAL GOVERNANCE INTELLIGENCE DASHBOARD](https://gri-global-intelligence.onrender.com/dashboard)**
+GRI draws on graduate-level study and interdisciplinary scholarship, including learning undertaken at Thunderbird School of Global Management, Arizona State University. **GRI is independent: its research is not sponsored, reviewed or endorsed by Thunderbird, ASU, government agencies or other institutions unless explicitly documented.** Academic integrity, source attribution, licensing and independent verification govern the publication of this work.
 
-Grand Research Institute's deployed research intelligence platform brings together public-source monitoring, institutional governance research, evidence-quality assessment, and review-oriented AI assurance. The automated collection workflow is configured to refresh every three hours; source availability and review status can vary.
+## Research infrastructure
 
-**[Live dashboard](https://gri-global-intelligence.onrender.com/dashboard)** · **[Service health](https://gri-global-intelligence.onrender.com/health)** · **[Research systems and methodology](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/)** · **[Continuous research intake](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONTINUOUS_RESEARCH_INTAKE.md)**
+**[GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard)** · [Service health](https://gri-global-intelligence.onrender.com/health) · [Institutional source registry](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md) · [Research intake and methodology](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONTINUOUS_RESEARCH_INTAKE.md)
 
+The dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
 
----
+## Research program | Core themes
 
-## Featured Research Priority | Brazil 2026 and the AI Governance Paradox
+| Research area | Selected work |
+| --- | --- |
+| **AI Governance Paradox and institutional power** | [Institutional Power Amplification Framework](GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md) |
+| **Global regulation and public institutions** | [Institutional source registry: EU AI Office, Council of Europe, OECD, NIST, Treasury](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md) |
+| **Algorithmic politics and platform governance** | [2016–2026 academic evidence review](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-algorithmic-politics-decade-evidence-review.md) · [Brazil 2026 working case](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) |
+| **Institutional AI adoption and decision authority** | [Treasury, enterprise sport, education and mobility research atlas](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-cross-sector-algorithmic-authority-institutions.md) |
+| **Academic integrity and responsible AI assistance** | [Syllabus-governed research and executable prototype](GRI-Research-Journey/Research-Governance/Academic-Integrity/README.md) |
+| **Evidence and reproducibility** | [Research register and reproducible baseline](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-evidence-maturity-baseline.md) |
 
-**Electoral comeback, digital transformation, and institutional accountability.** Lula's 2026 comeback offers a central working case for examining whether—and through what measurable mechanisms—social-media mobilization, Meta's platform infrastructure, and Fourth Industrial Revolution technologies reshape electoral visibility and democratic participation. The Tom Brady comeback comparison is a narrative analogy; **it is not evidence that AI or Meta caused the election result**.
+The **Brazil 2026 election** is one comparative working case among several. The research examines platform visibility, algorithmic distribution, political mobilization and institutional accountability without claiming that Meta or AI caused an election result.
 
-GRI's independent research tests the gap between accelerating platform capability and the ability of public institutions to verify, contest, and govern consequential digital decisions. The case distinguishes **official election results**, **documented platform activity**, **disputed allegations**, and **unvalidated causal hypotheses**. It proposes event-level evidence tracking, platform transparency review, turnout and mobilization analysis, alternative-explanation testing, and comparison with algorithmic management in other sectors.
+## Research standards and maturity
 
-**[Read the expanded Brazil 2026 AI Paradox research case and evidence protocol](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md)**
+GRI distinguishes published empirical findings, primary institutional records, practitioner observations, working hypotheses and illustrative prototypes. The presence of code or an institutional reference does not establish independent validation, production deployment or affiliation. Research findings require provenance, competing explanations, documented limitations and opportunities for correction.
+
+[Institutional Research Brief](GRI-Research-Journey/Institutional-Research-Brief/README.md) · [Master Research Portfolio](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md) · [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md)
 
 ---
 
