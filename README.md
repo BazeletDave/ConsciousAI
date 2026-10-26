@@ -9,9 +9,9 @@ GRI draws on graduate-level study and interdisciplinary scholarship, including l
 
 ## Research infrastructure
 
-**[GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard)** · [Service health](https://gri-global-intelligence.onrender.com/health) · [Institutional source registry](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md) · [Research intake and methodology](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONTINUOUS_RESEARCH_INTAKE.md)
+**[GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard)** · **[The Back Door — AI Paradox Lab (Render)](https://the-back-door.onrender.com)** · [Service health](https://gri-global-intelligence.onrender.com/health) · [Institutional source registry](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md) · [Research intake and methodology](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONTINUOUS_RESEARCH_INTAKE.md)
 
-The dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
+**Research and creative projects are distinct:** The Back Door AI Paradox Lab is the GRI research-oriented site hosted on Render under the service name `the-back-door`. The separate [Back Door creative IP website](https://back-door-october-4-original.vercel.app/) hosts the novel/game visual experience on Vercel.\n\nThe governance dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
 
 ## Research program | Core themes
 
