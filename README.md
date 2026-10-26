@@ -21,6 +21,8 @@ GRI's independent research tests the gap between accelerating platform capabilit
 
 **[Read the expanded Brazil 2026 AI Paradox research case and evidence protocol](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md)**
 
+**[Read the 2016–2026 Academic Evidence Review: Algorithmic Politics, AI Agents, Semiconductors and Institutional Accountability](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-algorithmic-politics-decade-evidence-review.md)** — peer-reviewed experiments, institutional semiconductor research, sourced quantitative comparison, conceptual diagrams, null findings, and the governance connection to academic integrity. The evidence does not establish that AI or Meta determined any election.
+
 ---
 
 ## Research Update | October 23, 2026
