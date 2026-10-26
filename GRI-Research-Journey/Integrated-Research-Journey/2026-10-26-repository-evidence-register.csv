@@ -1,0 +1,7 @@
+case_id,sector,source_type,source_url,documented_ai_relevance,documented_deployment,documented_human_review,source_scope,review_date
+GRI001,research,repository_readme,https://github.com/BazeletDave/ConsciousAI,yes,yes,not_assessed,GRI_public_dashboard_and_research_modules,2026-10-26
+GRI002,public_sector,repository_readme,https://github.com/BazeletDave/GRI-Institutional-AI-Governance,yes,no,not_assessed,independent_research_not_treasury_deployment,2026-10-26
+GRI003,public_sector,repository_readme,https://github.com/BazeletDave/Treasury-TTB-Label-Verification,yes,no,not_assessed,historical_engineering_exercise,2026-10-26
+GRI004,publishing,repository_readme,https://github.com/BazeletDave/from-code-to-consciousness,yes,no,not_assessed,book_and_conceptual_scholarship,2026-10-26
+GRI005,creative,repository_readme,https://github.com/BazeletDave/THE-BACK-DOOR,yes,no,not_assessed,creative_website_and_storytelling_not_ai_deployment_evidence,2026-10-26
+GRI006,interdisciplinary,repository_readme,https://github.com/BazeletDave/ZERO,yes,no,not_assessed,research_themes_not_independent_ai_deployment_evidence,2026-10-26
