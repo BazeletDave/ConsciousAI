@@ -1,166 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Back Door | David Grand</title>
-  <meta name="description" content="The Back Door, a technological thriller by David Grand. Every system was following its rules. That was the problem.">
-  <style>
-    *{box-sizing:border-box}
-    html{scroll-behavior:smooth}
-    body{margin:0;background:#070a0d;color:#f4f2ed;font-family:Arial,Helvetica,sans-serif;line-height:1.6}
-    a{color:inherit}
-    header{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:20px 6vw;background:rgba(7,10,13,.9);border-bottom:1px solid #232a30}
-    .brand{font-weight:900;letter-spacing:.13em;text-decoration:none}
-    .brand span{color:#d71920}
-    nav{display:flex;gap:24px}
-    nav a{text-decoration:none;color:#b8bec3;font-size:.9rem}
-    .hero{min-height:90vh;display:grid;grid-template-columns:1.1fr .9fr;gap:6vw;align-items:center;padding:8vw 7vw;background:radial-gradient(circle at 75% 40%,#172331 0,#0b1117 30%,#070a0d 68%)}
-    .eyebrow{font-size:.78rem;letter-spacing:.28em;color:#99a6b2;font-weight:700}
-    h1{font-size:clamp(2.8rem,6vw,6.4rem);line-height:.93;letter-spacing:-.05em;margin:.35em 0}
-    h1 span{color:#d71920}
-    .lead{font-size:clamp(1rem,1.4vw,1.25rem);max-width:700px;color:#c7ccd0}
-    .button{display:inline-block;margin-top:20px;padding:13px 20px;border:1px solid #d71920;background:#d71920;text-decoration:none;text-transform:uppercase;letter-spacing:.12em;font-size:.75rem;font-weight:800}
-    .cover{display:flex;justify-content:center}
-    .cover-box{width:min(100%,520px);aspect-ratio:2/3;background:linear-gradient(180deg,#111820,#050607);border:1px solid #28313a;box-shadow:0 30px 90px rgba(0,0,0,.6);display:flex;align-items:center;justify-content:center;text-align:center;padding:40px}
-    .cover-box h2{font-size:clamp(2rem,5vw,4.5rem);line-height:.95;margin:0}
-    .cover-box .red{color:#d71920}
-    .cover-box p{color:#c4c9cd;letter-spacing:.15em}
-    .section{padding:95px 10vw;border-top:1px solid #20262c}
-    .section h2{font-size:clamp(2rem,4vw,4rem);line-height:1.05;max-width:900px;margin:.35em 0}
-    .section p{max-width:850px;color:#c3c8cc;font-size:1.1rem}
-    blockquote{margin:55px 0 0;padding:25px 0;border-top:1px solid #343c43;border-bottom:1px solid #343c43;font-size:clamp(1.5rem,3vw,3rem);font-weight:800;max-width:950px}
-    .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:45px}
-    .grid article{border:1px solid #293139;padding:28px;background:#0b1015}
-    .grid h3{margin-top:0}
-    footer{display:flex;justify-content:space-between;gap:30px;padding:35px 5vw;border-top:1px solid #20262c;color:#8f979d;font-size:.82rem}
-    footer span{color:#d71920}
-    @media(max-width:850px){
-      nav{display:none}
-      .hero{grid-template-columns:1fr;padding:65px 7vw}
-      .cover{order:-1}
-      .grid{grid-template-columns:1fr 1fr}
-      .section{padding:70px 7vw}
-    }
-    @media(max-width:520px){
-      .grid{grid-template-columns:1fr}
-      h1{font-size:2.7rem}
-      footer{flex-direction:column}
-    }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080c12">
+<meta name="description" content="The Back Door, a technological thriller by David Grand. A story of artificial intelligence, human judgment, institutional power, and the Florida Keys.">
+<meta property="og:title" content="The Back Door | A Technological Thriller">
+<meta property="og:description" content="Every system was following its rules. That was the problem.">
+<meta property="og:type" content="website">
+<title>The Back Door — A Technological Thriller by David Grand</title>
+<style>
+:root{color-scheme:dark;--ink:#080c12;--panel:#111923;--paper:#f4f0e9;--muted:#b4c0c8;--line:#31404b;--signal:#e84a3f;--gold:#d8b58d}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--paper);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.65}a{color:inherit}a:focus-visible,button:focus-visible{outline:3px solid var(--gold);outline-offset:4px}::selection{background:#9d342d;color:#fff}
+.skip{position:absolute;top:-80px;left:20px;background:#fff;color:#111;padding:10px;z-index:100}.skip:focus{top:15px}
+.topbar{position:sticky;top:0;z-index:30;background:rgba(8,12,18,.94);border-bottom:1px solid #293541;backdrop-filter:blur(16px)}.nav-wrap{max-width:1380px;margin:auto;padding:17px 5vw;display:flex;align-items:center;justify-content:space-between;gap:20px}.wordmark{text-decoration:none;font-size:.95rem;font-weight:900;letter-spacing:.19em;white-space:nowrap}.wordmark b{color:var(--signal)}nav{display:flex;align-items:center;gap:25px}nav a{text-decoration:none;font-size:.83rem;color:#d0d8dd}nav a:hover,.textlink:hover{color:#fff}.nav-cta{border:1px solid #65717b;padding:9px 15px!important}.nav-cta:hover{border-color:var(--signal)}
+.hero{position:relative;min-height:690px;overflow:hidden;display:flex;align-items:center;background:radial-gradient(ellipse at 78% 56%,rgba(56,95,111,.24),transparent 48%),linear-gradient(135deg,#090d13 8%,#121f2b 62%,#080c12 100%)}.hero:after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.32;background:repeating-linear-gradient(105deg,transparent 0,transparent 92px,rgba(204,224,229,.05) 93px,transparent 94px)}.hero-inner{position:relative;z-index:1;max-width:1380px;margin:auto;padding:90px 5vw 100px;width:100%;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(270px,.75fr);align-items:center;gap:7vw}.kicker{font-size:.76rem;font-weight:800;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}h1,h2,h3,p{margin-top:0}h1{font-size:clamp(3.4rem,7.6vw,8.4rem);letter-spacing:-.075em;line-height:.91;margin:25px 0 29px;font-weight:900}h1 span{color:var(--signal)}.hero-copy{font-size:clamp(1.08rem,1.65vw,1.35rem);color:#d0d9dd;max-width:640px}.tagline{border-left:3px solid var(--signal);padding-left:18px;font-size:1.07rem;color:#f1ebe2;margin:30px 0}.actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:47px;padding:12px 19px;border:1px solid var(--signal);text-decoration:none;text-transform:uppercase;font-size:.74rem;font-weight:900;letter-spacing:.13em;transition:background .2s,color .2s}.btn.primary{background:var(--signal);color:#090d12}.btn.primary:hover{background:#ff7165}.btn.secondary{background:transparent}.btn.secondary:hover{background:#2a1820}.book{width:min(100%,350px);margin:auto;aspect-ratio:2/3;position:relative;background:linear-gradient(160deg,#1a2b39 0%,#0b1016 60%,#06080c 100%);border:1px solid #59616a;box-shadow:20px 35px 70px #0009,-9px 0 0 #080b0f,0 0 80px #d5493217;display:flex;flex-direction:column;justify-content:space-between;padding:34px;text-align:center;transform:rotate(3deg)}.book:before{content:"";position:absolute;inset:12px;border:1px solid #8e9b9c45;pointer-events:none}.book .author{font-size:.68rem;letter-spacing:.23em}.book strong{font-size:clamp(2.5rem,5vw,4.7rem);line-height:.93;letter-spacing:-.065em}.book strong em{font-style:normal;color:var(--signal)}.book .bottom{font-size:.7rem;letter-spacing:.17em;color:var(--gold)}
+main section:not(.hero){padding:100px 5vw}.inner{max-width:1200px;margin:auto}.section-heading{font-size:clamp(2.2rem,4.5vw,4.4rem);line-height:1.07;letter-spacing:-.055em;max-width:900px;margin:15px 0 26px}.intro{max-width:840px;font-size:1.16rem;color:#c4d0d6}.story{background:#101820;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.story-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:7vw;align-items:center}.statement{font-size:clamp(1.6rem,3.3vw,3rem);font-weight:800;line-height:1.2;letter-spacing:-.035em;border-left:4px solid var(--signal);padding-left:26px}.signal-line{height:1px;background:linear-gradient(90deg,var(--signal),transparent);margin:26px 0}.aside{color:var(--muted);font-size:.93rem}.themes{background:#080c12}.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin-top:43px}.card{background:#111a24;border:1px solid #34424c;padding:28px;min-height:235px}.card .num{font-size:.75rem;color:var(--gold);letter-spacing:.2em}.card h3{font-size:1.35rem;margin:25px 0 10px}.card p{font-size:.95rem;color:#b9c7ce}.world{background:linear-gradient(120deg,#15232c,#0b1119);border-top:1px solid var(--line)}.world-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:45px}.world article{padding-top:17px;border-top:2px solid #a75b51}.world h3{font-size:1.25rem}.world p{color:#c3cdd2}.research{background:#121a22;border-top:1px solid var(--line)}.research-grid{display:grid;grid-template-columns:1fr 1fr;gap:6vw}.research-note{background:#1c2731;border:1px solid #41515e;padding:28px}.research-note strong{color:var(--gold)}.research-note p{color:#c2cdd4;margin-bottom:0}.textlink{color:#f2d1bc;text-underline-offset:5px}.author-section{background:#080c12;border-top:1px solid var(--line)}.author-grid{display:grid;grid-template-columns:1fr 1fr;gap:8vw}.author-grid p{color:#c1cbd2}footer{border-top:1px solid #35404a;padding:35px 5vw;background:#080c12}.footer-inner{max-width:1200px;margin:auto;display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:.8rem;color:#aebbc4}.footer-inner a{color:#d1d9de}.status{display:inline-block;border:1px solid #8e6e52;padding:6px 10px;color:#efd2b3;letter-spacing:.16em;font-size:.69rem;text-transform:uppercase;margin-top:25px}
+@media(max-width:900px){.hero-inner,.story-grid,.research-grid,.author-grid{grid-template-columns:1fr}.hero-inner{gap:65px}.hero{min-height:auto}.book{max-width:310px}.cards{grid-template-columns:repeat(2,1fr)}.world-grid{grid-template-columns:1fr 1fr}nav{gap:14px}}
+@media(max-width:600px){.nav-wrap{align-items:flex-start;flex-direction:column}nav{flex-wrap:wrap;gap:12px 18px}nav a{font-size:.77rem}.nav-cta{padding:5px 9px!important}.hero-inner{padding-top:62px;padding-bottom:70px}main section:not(.hero){padding:70px 6vw}.cards,.world-grid{grid-template-columns:1fr}.card{min-height:0}h1{font-size:clamp(3.2rem,14vw,5rem)}.book{transform:rotate(1deg)}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn{transition:none}}
+</style>
 </head>
 <body>
-
-<header>
-  <a class="brand" href="#top">THE <span>BACK</span> DOOR</a>
-  <nav>
-    <a href="#story">The Novel</a>
-    <a href="#themes">Themes</a>
-    <a href="#author">Author</a>
-  </nav>
-</header>
-
-<main id="top">
-
-<section class="hero">
-  <div>
-    <p class="eyebrow">A TECHNOLOGICAL THRILLER BY DAVID GRAND</p>
-
-    <h1>
-      EVERY SYSTEM WAS<br>
-      FOLLOWING ITS RULES.<br>
-      <span>THAT WAS THE PROBLEM.</span>
-    </h1>
-
-    <p class="lead">
-      A technological thriller set against the Florida Keys, where artificial intelligence,
-      autonomous systems, surveillance, infrastructure, governance and human judgment collide.
-    </p>
-
-    <a class="button" href="#story">Discover the story</a>
-
-    <p class="eyebrow" style="margin-top:35px;color:#d71920">COMING SOON</p>
-  </div>
-
-  <div class="cover">
-    <div class="cover-box">
-      <div>
-        <p>A NOVEL BY DAVID GRAND</p>
-        <h2>THE<br><span class="red">BACK</span><br>DOOR</h2>
-        <p>COMING SOON</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="story" class="section">
-  <p class="eyebrow">THE NOVEL</p>
-
-  <h2>What happens when every system is working exactly as designed?</h2>
-
-  <p>
-    The Back Door explores a world in which artificial intelligence, surveillance,
-    autonomous technology and institutional authority no longer operate as separate systems.
-    The danger is not necessarily a machine breaking its rules. It is what can happen when
-    interconnected systems follow their rules perfectly while the humans responsible for them
-    no longer understand the whole.
-  </p>
-
-  <blockquote>
-    “Every system was following its rules. That was the problem.”
-  </blockquote>
-</section>
-
-<section id="themes" class="section">
-  <p class="eyebrow">THE WORLD OF THE BACK DOOR</p>
-
-  <h2>People. Places. Data. Power. Consequences.</h2>
-
-  <div class="grid">
-    <article>
-      <h3>Autonomy</h3>
-      <p>Systems increasingly interpret information, recommend actions and act before institutions can respond.</p>
-    </article>
-
-    <article>
-      <h3>Governance</h3>
-      <p>Authority becomes harder to locate when responsibility is distributed across algorithms and organizations.</p>
-    </article>
-
-    <article>
-      <h3>Surveillance</h3>
-      <p>The same technologies that create safety and convenience can create unprecedented visibility and control.</p>
-    </article>
-
-    <article>
-      <h3>Human Judgment</h3>
-      <p>The decisive question is not whether technology can act. It is who retains the authority to decide when it should.</p>
-    </article>
-  </div>
-</section>
-
-<section id="author" class="section">
-  <p class="eyebrow">ABOUT THE AUTHOR</p>
-
-  <h2>David Grand</h2>
-
-  <p>
-    David Grand writes at the intersection of artificial intelligence, leadership,
-    management, mobility, governance and global systems. The Back Door turns those questions
-    into a technological thriller grounded in real places and increasingly plausible capabilities.
-  </p>
-
-  <p>
-    <a href="https://david-grand.com">Visit david-grand.com →</a>
-  </p>
-</section>
-
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar"><div class="nav-wrap"><a class="wordmark" href="#top" aria-label="The Back Door home">THE <b>BACK</b> DOOR</a><nav aria-label="Main navigation"><a href="#story">The Story</a><a href="#themes">Themes</a><a href="#world">The World</a><a href="#author">Author</a><a class="nav-cta" href="#research">Research Connection</a></nav></div></header>
+<main id="main">
+<section class="hero" id="top" aria-labelledby="hero-title"><div class="hero-inner"><div><p class="kicker">A technological thriller by David Grand</p><h1 id="hero-title">THE<br><span>BACK</span><br>DOOR.</h1><p class="hero-copy">In the Florida Keys, the boundaries between artificial intelligence, surveillance, autonomous systems and institutional power begin to disappear.</p><p class="tagline">Every system was following its rules.<br><strong>That was the problem.</strong></p><div class="actions"><a class="btn primary" href="#story">Enter the Story</a><a class="btn secondary" href="#world">Explore the World</a></div><span class="status">Novel in development · Coming soon</span></div><div class="book" role="img" aria-label="Conceptual book-cover typography for The Back Door by David Grand"><div class="author">A NOVEL BY DAVID GRAND</div><strong>THE<br><em>BACK</em><br>DOOR</strong><div class="bottom">EVERY SYSTEM HAS AN ENTRY POINT</div></div></div></section>
+<section class="story" id="story" aria-labelledby="story-title"><div class="inner story-grid"><div><p class="kicker">01 / The premise</p><h2 class="section-heading" id="story-title">When systems converge, who is accountable?</h2><p class="intro">The Back Door imagines a world where algorithms, connected infrastructure and institutional decisions are no longer separate. Each system may be functioning as designed. Together, they create consequences no single operator intended—or can fully explain.</p><p class="intro">Set against the Florida Keys, the story places human judgment at the center of a technological landscape moving faster than its institutions.</p></div><div><p class="statement">The danger isn't always a system that breaks its rules. Sometimes it's a world in which every system obeys them.</p><div class="signal-line"></div><p class="aside">A fictional narrative exploring real questions about autonomy, accountability and authority. Story details and characters are fictional.</p></div></div></section>
+<section class="themes" id="themes" aria-labelledby="themes-title"><div class="inner"><p class="kicker">02 / Forces in collision</p><h2 class="section-heading" id="themes-title">Technology moves. Institutions respond. People live with the consequences.</h2><div class="cards"><article class="card"><span class="num">01 / AUTONOMY</span><h3>Systems That Act</h3><p>Intelligent systems shift from making recommendations to initiating consequential actions.</p></article><article class="card"><span class="num">02 / VISIBILITY</span><h3>Data That Watches</h3><p>Connected sensors and digital records reshape what can be seen, inferred and controlled.</p></article><article class="card"><span class="num">03 / AUTHORITY</span><h3>Power Without a Center</h3><p>Responsibility becomes difficult to locate when decisions cross technical and institutional boundaries.</p></article><article class="card"><span class="num">04 / JUDGMENT</span><h3>The Human Decision</h3><p>At the critical moment, someone must decide what should happen—not simply what can happen.</p></article></div></div></section>
+<section class="world" id="world" aria-labelledby="world-title"><div class="inner"><p class="kicker">03 / The world</p><h2 class="section-heading" id="world-title">A familiar coastline. An unfamiliar system of power.</h2><p class="intro">The setting brings together the intimacy of island communities and the scale of global technological infrastructure.</p><div class="world-grid"><article><h3>Florida Keys</h3><p>Water, bridges and isolated corridors create a distinctive landscape where physical and digital systems intersect.</p></article><article><h3>Connected Infrastructure</h3><p>Transportation, mobility, communications and surveillance become parts of a shared technological environment.</p></article><article><h3>Global Consequences</h3><p>Local decisions connect to broader questions of trade, institutional legitimacy, governance and control.</p></article></div></div></section>
+<section class="research" id="research" aria-labelledby="research-title"><div class="inner research-grid"><div><p class="kicker">04 / Fiction meets inquiry</p><h2 class="section-heading" id="research-title">Inspired by questions the world is already asking.</h2><p class="intro">The novel's themes intersect with independent research by Grand Research Institute on the AI Paradox: the acceleration of intelligent capabilities and the challenge of keeping institutions, governance and human accountability aligned.</p><div class="actions"><a class="btn primary" href="https://gri-global-intelligence.onrender.com/dashboard" target="_blank" rel="noopener noreferrer">Explore GRI Research</a><a class="btn secondary" href="https://github.com/BazeletDave/ConsciousAI" target="_blank" rel="noopener noreferrer">ConsciousAI Repository</a></div></div><aside class="research-note"><strong>Fiction and research are distinct.</strong><p>The Back Door is a creative work, not a scientific finding, government report or forecast. GRI research materials contain their own evidence standards, hypotheses and limitations. References to research do not imply that the novel's events are factual.</p></aside></div></section>
+<section class="author-section" id="author" aria-labelledby="author-title"><div class="inner author-grid"><div><p class="kicker">05 / About the author</p><h2 class="section-heading" id="author-title">David Grand</h2></div><div><p>David Grand works across global management, artificial intelligence, mobility and institutional governance. The Back Door translates enduring questions about technology and responsibility into a fictional technological thriller.</p><p>Explore the author's broader work at <a class="textlink" href="https://david-grand.com" target="_blank" rel="noopener noreferrer">david-grand.com</a>.</p><p class="aside">Publication date and purchasing information have not been announced.</p></div></div></section>
 </main>
-
-<footer>
-  <div>THE <span>BACK</span> DOOR</div>
-  <div>© 2026 David Grand. All rights reserved.</div>
-</footer>
-
-</body>
-</html>
+<footer><div class="footer-inner"><span>THE BACK DOOR · A TECHNOLOGICAL THRILLER</span><span>© 2026 David Grand. All rights reserved.</span><a href="#top">Back to top ↑</a></div></footer>
+</body></html>
