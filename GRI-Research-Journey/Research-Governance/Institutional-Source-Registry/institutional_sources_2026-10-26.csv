@@ -1,0 +1,8 @@
+source_id,institution,jurisdiction,source_class,topic,source_url,claim_scope,reviewed_date,status
+EU001,European Commission AI Office,European Union,primary_regulator,AI Act enforcement,https://digital-strategy.ec.europa.eu/en/policies/ai-act-governance-and-enforcement,AI_Office_and_national_authorities_governance_roles,2026-10-26,source_verified
+EU002,European Commission,European Union,primary_regulator,AI Act framework,https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai,regulatory_framework_and_phased_application,2026-10-26,source_verified
+EU003,Council of Europe,Europe_and_signatories,primary_treaty_body,AI democracy rights framework,https://www.coe.int/en/web/artificial-intelligence/the-framework-convention-on-artificial-intelligence,convention_principles_and_safeguards_not_all_country_ratifications,2026-10-26,source_verified
+INT001,OECD,international,intergovernmental_policy,AI principles,https://oecd.ai/en/ai-principles,2019_principles_updated_2024,2026-10-26,source_verified
+INT002,OECD,international,intergovernmental_research,semiconductor supply chains,https://www.oecd.org/en/publications/mapping-the-semiconductor-value-chain_4154cdbf-en.html,semiconductor_value_chain_and_concentration,2026-10-26,source_verified
+US001,NIST,United States,government_standard,AI Risk Management Framework,https://www.nist.gov/itl/ai-risk-management-framework,voluntary_AI_RMF_guidance_not_statute,2026-10-26,source_verified
+US002,US Treasury,United States,government_primary,agency AI governance,https://home.treasury.gov/policy-issues/financial-markets-financial-institutions-and-fiscal-service/treasury-and-artificial-intelligence,agency_AI_governance_not_hiring_screening_evidence,2026-10-26,source_verified
