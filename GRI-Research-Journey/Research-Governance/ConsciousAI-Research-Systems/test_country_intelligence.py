@@ -1,9 +1,10 @@
 """Offline country collection, provenance, review, classification and HTTP tests."""
 from copy import deepcopy
+from datetime import datetime, timezone
 import json
 import unittest
 from unittest.mock import patch
-from country_intelligence import collect, country_mentions, parse, permitted, snapshot, publication_time, TrustedRedirect
+from country_intelligence import collect, country_mentions, parse, permitted, snapshot, publication_time, TrustedRedirect, source_freshness, coverage_assessment
 from country_topics import TopicModel, EXAMPLES, HOLDOUT
 
 SOURCE = {"id": "TEST", "publisher": "Synthetic publisher", "url": "https://example.org/feed", "host": "example.org", "mode": "rss", "country": None}
@@ -49,6 +50,39 @@ class CountryIntelligenceTests(unittest.TestCase):
         self.assertEqual(data["records"], [])
         self.assertEqual(data["sources"][0]["availability_reason"], "expected_document_not_returned")
         self.assertEqual(data["sources"][0]["recheck_policy"], "next_scheduled_collection")
+
+    def test_freshness_uses_source_time_and_failure_state(self):
+        now = datetime.fromisoformat(LATER)
+        source = {"status": "fetched", "last_success_at": NOW}
+        self.assertEqual(source_freshness(source, now), "current")
+        self.assertEqual(source_freshness(dict(source, status="failed"), now), "retained_after_source_failure")
+        source["last_success_at"] = "2026-10-27T12:00:00+00:00"
+        self.assertEqual(source_freshness(source, now), "stale")
+
+    def test_freshness_rejects_missing_naive_and_future_times(self):
+        now = datetime.fromisoformat(NOW)
+        for stamp in [None, "bad", "2026-10-27T20:00:00", LATER]:
+            self.assertNotEqual(source_freshness({"last_success_at": stamp}, now), "current")
+
+    def test_coverage_counts_stale_unavailable_and_current_separately(self):
+        result = coverage_assessment([
+            {"status": "fetched", "last_success_at": NOW},
+            {"status": "failed", "last_success_at": NOW},
+            {"status": "fetched", "last_success_at": "2026-10-26T20:00:00+00:00"}], datetime.fromisoformat(LATER))
+        self.assertEqual(result["current_sources"], 1)
+        self.assertEqual(result["unavailable_sources"], 1)
+        self.assertEqual(result["stale_sources"], 1)
+        self.assertEqual(result["configured_sources"], 3)
+
+    def test_snapshot_identifies_retained_records_without_mutating_feed(self):
+        feed = self.run_collection()
+        feed["sources"][0]["attempted_at"] = LATER
+        original = deepcopy(feed)
+        with patch("country_intelligence.read_feed", return_value=feed):
+            result = snapshot("BRA")
+        self.assertTrue(result["records"][0]["retained_from_prior_collection"])
+        self.assertIn("coverage_assessment", result)
+        self.assertEqual(feed, original)
 
     def test_real_ml_has_explicit_instructional_provenance(self):
         model = TopicModel()

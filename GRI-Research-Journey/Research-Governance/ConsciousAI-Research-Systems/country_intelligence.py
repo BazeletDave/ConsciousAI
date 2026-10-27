@@ -282,6 +282,34 @@ def read_feed():
         return {"schema_version": "1.0", "generated_at": None, "sources": [], "records": [], "changes": [], "status": "awaiting_first_collection"}
 
 
+def source_freshness(source, now=None):
+    """Assess retrieval freshness independently of snapshot compilation time."""
+    now = now or datetime.now(timezone.utc)
+    try:
+        stamp = datetime.fromisoformat(source["last_success_at"].replace("Z", "+00:00"))
+        if stamp.tzinfo is None:
+            raise ValueError("Timezone required")
+        age = (now - stamp).total_seconds() / 3600
+        if age < -5 / 60:
+            return "timestamp_invalid"
+    except (KeyError, TypeError, ValueError, AttributeError):
+        return "never_collected_or_timestamp_invalid"
+    if source.get("status") == "failed":
+        return "retained_after_source_failure"
+    return "current" if age <= 6 else "stale"
+
+
+def coverage_assessment(sources, now=None):
+    now = now or datetime.now(timezone.utc)
+    states = [source_freshness(source, now) for source in sources]
+    return {"assessed_at": now.isoformat(), "current_sources": states.count("current"),
+            "configured_sources": len(sources), "stale_sources": states.count("stale"),
+            "unavailable_sources": sum(source.get("status") == "failed" for source in sources),
+            "freshness_window_hours": 6, "scheduled_interval_hours": 3,
+            "scope": "all_configured_publishers_not_country_specific_coverage",
+            "notice": "Current retrieval is not content validation. Snapshot compilation does not renew source freshness."}
+
+
 def snapshot(code=None, topic=None):
     catalog = load_catalog()
     countries = catalog["countries"]
@@ -290,14 +318,19 @@ def snapshot(code=None, topic=None):
     if topic and topic not in CHANNELS and topic != "needs_review":
         raise ValueError("Unknown topic")
     data = read_feed()
+    assessed_at = datetime.now(timezone.utc)
+    source_attempts = {source["id"]: source.get("attempted_at") for source in data.get("sources", [])}
+    source_states = {source["id"]: source_freshness(source, assessed_at) for source in data.get("sources", [])}
     all_records = data.get("records", [])
     selected = [r for r in all_records if (not code or code in r["country_codes"]) and (not topic or r["topic"]["label"] == topic)]
     from research_evolution import load as load_evolution
     evolution = load_evolution()
     links = {(x["record_id"], x["content_sha256"]): x["research"] for x in evolution.get("evidence_connections", [])}
-    selected = [dict(r, related_research=links.get((r["id"], r["content_sha256"]), [])) for r in selected]
+    selected = [dict(r, source_freshness=source_states.get(r["source_id"], "source_status_unknown"),
+                     retained_from_prior_collection=r.get("last_seen_at") != source_attempts.get(r["source_id"]), related_research=links.get((r["id"], r["content_sha256"]), [])) for r in selected]
     counts = {c["code"]: sum(c["code"] in r["country_codes"] for r in all_records) for c in countries}
     return dict(data, records=selected, count=len(selected),
+                coverage_assessment=coverage_assessment(data.get("sources", []), assessed_at),
                 research_evolution={k: v for k, v in evolution.items() if k not in ("documents", "evidence_connections")},
                 countries=[dict(c, record_count=counts[c["code"]]) for c in countries],
                 selected_country=code, selected_topic=topic, channels=CHANNELS,

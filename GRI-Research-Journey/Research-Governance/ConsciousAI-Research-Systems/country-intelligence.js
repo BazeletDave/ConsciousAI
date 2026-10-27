@@ -41,6 +41,7 @@
       byId('country-comparative').hidden = true;
       byId('country-baseline').textContent = 'Loading the selected country assessment…';
       byId('country-evolution').textContent = '';
+      byId('country-coverage-summary').textContent = '';
       byId('country-page').textContent = '';
       byId('country-prev').disabled = true; byId('country-next').disabled = true;
       byId('country-brazil-link').hidden = true;
@@ -99,8 +100,10 @@
         research.append(themes);
       }
       const health = byId('country-sources'); health.replaceChildren();
-      const available = data.sources.filter(s => s.status === 'fetched' || s.status === 'empty').length;
-      byId('country-coverage-summary').textContent = available + ' of ' + data.sources.length + ' configured sources available at last collection. ' + (available < data.sources.length ? 'Coverage is limited; unavailable sources are checked again on the next scheduled run.' : 'Collection timestamps and source details are available below.');
+      const coverage = data.coverage_assessment;
+      byId('country-coverage-summary').textContent = coverage
+        ? coverage.current_sources + ' of ' + coverage.configured_sources + ' configured publishers collected within the six hour freshness window. ' + (coverage.current_sources < coverage.configured_sources ? 'Some evidence may be retained from earlier collections. ' : '') + 'Publisher totals describe the full collection, not coverage of this country. Sources are scheduled for recheck every three hours.'
+        : 'Source timestamps and collection details are available below.';
       for (const source of data.sources) {
         const age = source.last_success_at ? (Date.now() - Date.parse(source.last_success_at)) / 3600000 : NaN;
         const current = Number.isFinite(age) && age >= -5/60 && age <= 6;
@@ -120,6 +123,10 @@
         const label = names[record.topic.label] || 'Topic requires review';
         card.append(node('span', label, 'pill'), node('span', 'Human review required', 'pill'));
         if (changes.has(record.id)) card.append(node('span', changes.get(record.id) === 'metadata_changed' ? 'Metadata revised since prior run' : 'Newly discovered in latest run', 'pill'));
+        if (record.retained_from_prior_collection || (record.source_freshness && record.source_freshness !== 'current')) {
+          const retained = record.source_freshness === 'retained_after_source_failure';
+          card.append(node('span', retained ? 'Retained evidence · source unavailable at last attempt' : record.retained_from_prior_collection ? 'Retained evidence · not observed in latest collection' : 'Source freshness requires review', 'pill'));
+        }
         card.append(node('h4', record.title), node('p', record.publisher + ' · Published ' + (record.published_at ? date(record.published_at) : record.publication_date || 'Not supplied by publisher'), 'meta'));
         const provenance = node('details'); provenance.append(node('summary', 'Evidence and model details'));
         provenance.append(node('p', 'First observed ' + date(record.first_seen_at) + ' · Last seen ' + date(record.last_seen_at), 'meta'));
