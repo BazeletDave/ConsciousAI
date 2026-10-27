@@ -24,6 +24,8 @@ GRI draws on graduate-level study and interdisciplinary scholarship, including l
 | **Academic integrity and responsible AI assistance** | [Syllabus-governed research and executable prototype](GRI-Research-Journey/Research-Governance/Academic-Integrity/README.md) |
 | **Evidence and reproducibility** | [Research register and reproducible baseline](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-evidence-maturity-baseline.md) |
 
+**Brazil 2026 integrated research:** [Electoral information, financial repricing and institutional governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-brazil-election-financial-market-governance.md) extends the existing platform governance case with documented October 26 market reactions, exchange safeguards and a proposed event-study protocol. The financial evidence does not establish AI causation.
+
 The **Brazil 2026 election** is one comparative working case among several. The research examines platform visibility, algorithmic distribution, political mobilization and institutional accountability without claiming that Meta or AI caused an election result.
 
 ## Research standards and maturity
