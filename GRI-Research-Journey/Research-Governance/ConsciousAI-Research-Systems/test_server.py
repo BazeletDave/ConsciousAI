@@ -121,6 +121,34 @@ class ResearchServiceTests(unittest.TestCase):
         self.assertEqual(data["missing"], [])
         self.assertEqual(data["invalid"], [])
 
+    def test_health_get_and_head_agree_on_missing_data(self):
+        from tempfile import TemporaryDirectory
+        from pathlib import Path
+        from unittest.mock import patch
+        with TemporaryDirectory() as directory, patch("server.ROOT", Path(directory)):
+            for method in ("GET", "HEAD"):
+                with self.subTest(method=method), self.assertRaises(HTTPError) as ctx:
+                    urlopen(Request(f"http://127.0.0.1:{self.port}/health", method=method), timeout=3)
+                with ctx.exception as response:
+                    self.assertEqual(response.code, 503)
+                    body = response.read()
+                    if method == "HEAD":
+                        self.assertEqual(body, b"")
+                    else:
+                        self.assertEqual(json.loads(body)["status"], "degraded")
+
+    def test_collection_diagnostic_does_not_disable_service(self):
+        from tempfile import TemporaryDirectory
+        from pathlib import Path
+        from unittest.mock import patch
+        with TemporaryDirectory() as directory, patch("server.ROOT", Path(directory)):
+            data = self.fetch("/health/collections")
+            self.assertEqual(data["status"], "attention_required")
+            self.assertTrue(all(x["status"] == "missing" for x in data["feeds"]))
+            with urlopen(Request(f"http://127.0.0.1:{self.port}/health/collections", method="HEAD"), timeout=3) as response:
+                self.assertEqual(response.status, 200)
+                self.assertEqual(response.read(), b"")
+
     def test_registry_valid(self):
         data = load("cases.json")
         self.assertEqual(len({r["id"] for r in data["records"]}), len(data["records"]))
