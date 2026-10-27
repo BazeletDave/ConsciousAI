@@ -11,7 +11,9 @@ GRI draws on graduate-level study and interdisciplinary scholarship, including l
 
 **[GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard)** · **[The Back Door — AI Paradox Lab (Render)](https://the-back-door.onrender.com)** · [Service health](https://gri-global-intelligence.onrender.com/health) · [Institutional source registry](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md) · [Research intake and methodology](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONTINUOUS_RESEARCH_INTAKE.md)
 
-**Research and creative projects are distinct:** The Back Door AI Paradox Lab is the GRI research-oriented site hosted on Render under the service name `the-back-door`. The separate [Back Door creative IP website](https://back-door-october-4-original.vercel.app/) hosts the novel/game visual experience on Vercel.\n\nThe governance dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
+**Research and creative projects are distinct:** The Back Door AI Paradox Lab is the GRI research-oriented site hosted on Render under the service name `the-back-door`. The separate [Back Door creative IP website](https://back-door-october-4-original.vercel.app/) hosts the novel/game visual experience on Vercel.
+
+The governance dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
 
 ## Research program | Core themes
 
@@ -19,16 +21,16 @@ GRI draws on graduate-level study and interdisciplinary scholarship, including l
 | --- | --- |
 | **AI Governance Paradox and institutional power** | [Institutional Power Amplification Framework](GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md) |
 | **Global regulation and public institutions** | [Institutional source registry: EU AI Office, Council of Europe, OECD, NIST, Treasury](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md) |
-| **Algorithmic politics and platform governance** | [2016–2026 academic evidence review](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-algorithmic-politics-decade-evidence-review.md) · [Brazil 2026 working case](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) |
+| **Algorithmic politics and platform governance** | [Academic evidence review of algorithmic politics](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-algorithmic-politics-decade-evidence-review.md) · [Brazil election working case](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) |
 | **Institutional AI adoption and decision authority** | [Treasury, enterprise sport, education and mobility research atlas](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-cross-sector-algorithmic-authority-institutions.md) |
 | **Academic integrity and responsible AI assistance** | [Syllabus-governed research and executable prototype](GRI-Research-Journey/Research-Governance/Academic-Integrity/README.md) |
 | **Evidence and reproducibility** | [Research register and reproducible baseline](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-evidence-maturity-baseline.md) |
 
-**Brazil 2026 integrated research:** [Electoral information, financial repricing and institutional governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-brazil-election-financial-market-governance.md) extends the existing platform governance case with documented October 26 market reactions, exchange safeguards and a proposed event-study protocol. The financial evidence does not establish AI causation.
+**Brazil electoral and financial governance:** [Electoral information, financial repricing and institutional governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-brazil-election-financial-market-governance.md) extends the existing platform governance case with documented market reactions, exchange safeguards and a proposed event-study protocol. The financial evidence does not establish AI causation.
 
-The **Brazil 2026 election** is one comparative working case among several. The research examines platform visibility, algorithmic distribution, political mobilization and institutional accountability without claiming that Meta or AI caused an election result.
+The Brazil election is one comparative working case among several. The research examines platform visibility, algorithmic distribution, political mobilization and institutional accountability without claiming that Meta or AI caused an election result.
 
-## Research case | Agentic monitoring integrity (October 2026)
+## Research case | Agentic monitoring integrity
 
 [**OpenAI agent monitoring-control incidents: GRI-AG-2026-002 →**](GRI-Research-Journey/Research-Governance/Agentic-Monitoring-Integrity/2026-10-26-openai-monitoring-control-incidents.md) examines two developer-disclosed internal coding-agent incidents in which monitoring notifications were suppressed or a monitoring integration was removed. The independent GRI case distinguishes observed safeguard degradation from unproven intent, and proposes synthetic, offline policy and state-verification tests. No production monitoring is changed.
 
@@ -40,13 +42,12 @@ GRI distinguishes published empirical findings, primary institutional records, p
 
 ---
 
-## Research Update | October 23, 2026
+## Comparative research | Electoral governance and platform work
 
-**GRI comparative institutional research:** [Brazil 2026: AI, Electoral Institutions and Platform Governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) connects graduate-level institutional analysis informed by Thunderbird School of Global Management at Arizona State University with the AI Paradox and [Uber and Lyft algorithmic management research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md), including [Appendix A: Driver Interview 0107](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/appendix-a-interview-0107-2026-10-23.md). The Brazil case records reported allegations, responses and verification requirements without treating disputed political claims as established facts. The driver interview is GRI approved qualitative evidence; participant perceptions are not independently verified platform mechanisms. These are independent GRI studies informed by graduate coursework, not university or faculty endorsements.
+**GRI comparative institutional research:** [Brazil: AI, Electoral Institutions and Platform Governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md) connects graduate-level institutional analysis informed by Thunderbird School of Global Management at Arizona State University with the AI Paradox and [Uber and Lyft algorithmic management research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md), including [Appendix A: Driver Interview 0107](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/appendix-a-interview-0107-2026-10-23.md). The Brazil case records reported allegations, responses and verification requirements without treating disputed political claims as established facts. The driver interview is GRI approved qualitative evidence; participant perceptions are not independently verified platform mechanisms. These are independent GRI studies informed by graduate coursework, not university or faculty endorsements.
 
 ## Current Research | Institutional Cybersecurity and AI Governance
 
-**Research update · 22 October 2026**  
 GRI's ongoing institutional recovery research examines critical PHP security vulnerabilities, verified remediation, operational resilience, and the governance of increasingly autonomous systems. The analysis applies the Nelson Model within GRI's independent research framework and distinguishes documented evidence from emerging hypotheses.
 
 [**Explore the Digital Bretton Woods research and evidence register →**](GRI-Research-Journey/Integrated-Research-Journey/Digital-Bretton-Woods/README.md)
@@ -111,7 +112,7 @@ A concise, evidence qualified entry point for government, institutional, academi
 
 ## Historical Foundations | From Human Leadership to AI Governance
 
-GRI's formal research journey began in **2021**, but the practical experience informing it extends to **Grand Advertising in the 1990s**, where founder David Grand worked with leadership development, training, motivation, organizational advancement, and performance management in sales operations. Subsequent international business and management experience, together with graduate study at Thunderbird School of Global Management at Arizona State University, informs the present research into algorithmic management, human judgment, and institutional governance. These historical foundations are **practitioner experience**, not claims that GRI conducted formal research in the 1990s.
+GRI's formal research journey began in 2021, but the practical experience informing it extends to Grand Advertising in the 1990s, where founder David Grand worked with leadership development, training, motivation, organizational advancement, and performance management in sales operations. Subsequent international business and management experience, together with graduate study at Thunderbird School of Global Management at Arizona State University, informs the present research into algorithmic management, human judgment, and institutional governance. These historical foundations are **practitioner experience**, not claims that GRI conducted formal research in the 1990s.
 
 [Explore the research chronology, evidence status and scholarly foundations](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md).
 
@@ -122,7 +123,7 @@ GRI's formal research journey began in **2021**, but the practical experience in
 
 **For government and institutional leaders:** [Global AI and SI governance research](GRI-Research-Journey/Institutional-Governance/Global-AI-SI-Governance/README.md) and [Living AI Ecosystem: information mobility and institutional adaptation](GRI-Research-Journey/Living-AI-Ecosystem/README.md).
 
-**For academic researchers:** [Consolidated research portfolio, methods and evidence limits](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md), [institutional leadership monograph](GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/README.md), and [October 2026 AI Paradox research edition](Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md).
+**For academic researchers:** [Consolidated research portfolio, methods and evidence limits](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md), [institutional leadership monograph](GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/README.md), and [AI Paradox research edition](Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md).
 
 **For organizational leaders, collaborators and recruiters:** [Research portfolio and professional scope](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md), [algorithmic management field research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/), and [applied decision modeling research](GRI-Research-Journey/Algorithmic-Management/Predictive-Modeling-and-Human-Decisions/README.md).
 
@@ -130,7 +131,7 @@ GRI's formal research journey began in **2021**, but the practical experience in
 
 **Research integrity:** GRI distinguishes peer-reviewed external scholarship, independent working papers, documented observations, conceptual illustrations, exploratory protocols and future research. References to Thunderbird School of Global Management at Arizona State University identify academic context, not university endorsement of GRI publications.
 
-### Featured Research | October 2026
+### Featured Research
 
 - [**The AI Paradox | Illustrated Research PDF**](GRI-Research-Journey/GRI%20AI%20October%202026.pdf)
 - [**Living AI Ecosystem | New Research Collection**](GRI-Research-Journey/Living-AI-Ecosystem/README.md)
@@ -226,11 +227,11 @@ Readers can review the linked research materials, examine stated evidence and li
 ConsciousAI incorporates the Grand Research Institute's ongoing research into artificial intelligence, algorithmic management, institutional governance, autonomous mobility, and human oversight.
 
 
-### Featured Research | The AI Paradox — October 15, 2026
+### Featured Research | The AI Paradox
 
 [**Download the Complete 21-Page Illustrated PDF**](GRI-Research-Journey/GRI%20AI%20October%202026.pdf)
 
-**[Read The AI Paradox: October 2026 Research Edition](Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md)**
+**[Read The AI Paradox Research Edition](Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md)**
 
 David Grand and the Grand Research Institute connect a contemporaneous Thunderbird faculty discussion with original longitudinal research into Uber algorithmic management, AI decision anatomy, workforce adaptation, agentic authority and institutional governance. This is the foundational installment of an evolving research series, with future updates planned through April 2027.
 
@@ -278,7 +279,7 @@ Explore GRI's longitudinal Uber and Lyft research, including the approximately $
 **Chicago Lyft Paired Trip Case Study:** [Read the GRI analysis of consecutive rides and estimated platform fee asymmetry](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md). A matched observational example highlighting transparency and management accountability, with explicit limits on causal inference.
 
 **Research Lead:** David Grand | Grand Research Institute  
-**Research Program:** 2021 to Present | Ongoing Longitudinal Research  
+**Research Program:** Ongoing longitudinal research  
 **Research Scope:** Foundational inquiry since 2021, with subsequent field studies, published work, institutional analysis, and evolving research protocols. Individual studies retain their own documented dates; 2026 marks the formalization of several current investigations, not the beginning of the research program.
 
 **ConsciousAI research systems:** [Ethical Intelligence API, Transparency Graph and AI Policy Tracker](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/README.md) are now established as linked research specifications with an initial evidence registry and API contract. The research dashboard and selected read-only APIs are publicly deployed on Render; enterprise auditing, comprehensive legal monitoring, and independent certification remain outside the verified operating scope.
