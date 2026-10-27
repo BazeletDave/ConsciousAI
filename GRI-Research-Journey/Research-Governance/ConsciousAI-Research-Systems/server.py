@@ -124,6 +124,9 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
         try:
+            if path == "/institutional/research-evolution":
+                from research_evolution import load as load_evolution
+                return self.send_json(200, load_evolution())
             if path == "/country-intelligence.js":
                 payload = (ROOT / "country-intelligence.js").read_bytes()
                 self.send_response(200)

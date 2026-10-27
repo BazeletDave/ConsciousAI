@@ -23,6 +23,9 @@
     catch { return node('span', label); }
     a.href = url; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a;
   };
+  let lastSelection = '';
+  let page = 0;
+  const pageSize = 8;
   let initialized = false;
   let inFlight = null;
   async function refresh() {
@@ -33,6 +36,15 @@
     const topic = byId('country-topic').value;
     byId('country-refresh').disabled = true;
     byId('country-state').textContent = 'Loading country evidence…';
+    if (lastSelection !== selected + '|' + topic) {
+      for (const id of ['country-records', 'country-channels', 'country-comparative', 'country-sources']) byId(id).replaceChildren();
+      byId('country-comparative').hidden = true;
+      byId('country-baseline').textContent = 'Loading the selected country assessment…';
+      byId('country-evolution').textContent = '';
+      byId('country-page').textContent = '';
+      byId('country-prev').disabled = true; byId('country-next').disabled = true;
+      byId('country-brazil-link').hidden = true;
+    }
     try {
       const query = new URLSearchParams({country: selected});
       if (topic) query.set('topic', topic);
@@ -54,7 +66,10 @@
         initialized = true;
       }
       const country = data.countries.find(c => c.code === selected);
+      lastSelection = selected + '|' + topic;
       const rows = data.records;
+      const evolution = data.research_evolution;
+      byId('country-evolution').textContent = evolution && evolution.generated_at ? 'Research connections updated ' + date(evolution.generated_at) + ' · ' + evolution.document_count + ' public research documents · ' + evolution.connected_records + ' evidence records connected. ' + (evolution.learning_candidate.status === 'blocked' ? 'Model development awaits reviewed training and evaluation data.' : 'A learning candidate has been evaluated; the active model remains unchanged pending review.') : 'Research connection index awaiting its first build.';
       byId('country-state').textContent = country.name + ' · ' + rows.length + ' evidence candidates · Snapshot ' + date(data.generated_at);
       byId('country-baseline').textContent = 'Political direction: awaiting reviewed baseline. Country mentions and newly discovered records do not establish a political shift. Business effects require institutional and sector review.';
       const channels = byId('country-channels'); channels.replaceChildren();
@@ -96,19 +111,30 @@
       const list = byId('country-records'); list.replaceChildren();
       const changes = new Map((data.changes || []).map(c => [c.record_id, c.kind]));
       const visible = byId('country-changes-only').checked ? rows.filter(r => changes.has(r.id)) : rows;
-      for (const record of visible.slice(0, 40)) {
+      page = Math.min(page, Math.max(0, Math.ceil(visible.length / pageSize) - 1));
+      for (const record of visible.slice(page * pageSize, (page + 1) * pageSize)) {
         const card = node('article', undefined, 'country-record');
         const label = names[record.topic.label] || 'Topic requires review';
         card.append(node('span', label, 'pill'), node('span', 'Human review required', 'pill'));
         if (changes.has(record.id)) card.append(node('span', changes.get(record.id) === 'metadata_changed' ? 'Metadata revised since prior run' : 'Newly discovered in latest run', 'pill'));
         card.append(node('h4', record.title), node('p', record.publisher + ' · Published ' + date(record.published_at), 'meta'));
-        card.append(node('p', 'First observed ' + date(record.first_seen_at) + ' · Last seen ' + date(record.last_seen_at), 'meta'));
-        card.append(node('p', 'Country assignment: publisher jurisdiction or title mention, subject to review. Legal status: ' + record.legal_status.replaceAll('_', ' ') + '.', 'meta'));
-        card.append(node('p', record.topic.abstained ? 'ML abstained. A reviewer must assign the topic.' : 'Experimental ML topic suggestion · uncalibrated weight ' + record.topic.score + '. This is not impact confidence.', 'meta'));
-        card.append(link('Inspect publisher record', record.source_url)); list.append(card);
+        const provenance = node('details'); provenance.append(node('summary', 'Evidence and model details'));
+        provenance.append(node('p', 'First observed ' + date(record.first_seen_at) + ' · Last seen ' + date(record.last_seen_at), 'meta'));
+        provenance.append(node('p', 'Country assignment: publisher jurisdiction or title mention, subject to review. Legal status: ' + record.legal_status.replaceAll('_', ' ') + '.', 'meta'));
+        provenance.append(node('p', record.topic.abstained ? 'ML abstained. A reviewer must assign the topic.' : 'Experimental ML topic suggestion · uncalibrated weight ' + record.topic.score + '. This is not impact confidence.', 'meta'));
+        card.append(provenance, link('Inspect publisher record', record.source_url));
+        if (record.related_research && record.related_research.length) {
+          const related = node('details'); related.append(node('summary', 'Connections to GRI research'));
+          related.append(node('p', 'Suggested title similarities; not verified evidence or causal conclusions.', 'meta'));
+          for (const research of record.related_research) { const p = node('p'); p.append(link(research.title, research.url)); related.append(p); }
+          card.append(related);
+        }
+        list.append(card);
       }
       if (!visible.length) list.append(node('p', 'No candidates in this selection. Limited source coverage does not imply no political or policy activity.', 'status-note'));
-      if (visible.length > 40) list.append(node('p', 'Showing 40 of ' + visible.length + ' candidates. Use the topic filter or inspect the API.', 'meta'));
+      byId('country-page').textContent = visible.length ? 'Showing ' + (page * pageSize + 1) + '–' + Math.min((page + 1) * pageSize, visible.length) + ' of ' + visible.length : 'No candidates';
+      byId('country-prev').disabled = page === 0;
+      byId('country-next').disabled = (page + 1) * pageSize >= visible.length;
       const model = data.model;
       byId('country-model').textContent = model ? 'Experimental topic model: ' + model.model_version + '. ' + model.training_examples + ' author created training examples; ' + model.evaluation_examples + ' instructional holdout examples. Holdout macro F1 ' + model.macro_f1.toFixed(3) + '. No independent labels or real news validation. No political or economic forecasts.' : 'Model evaluation awaiting collection.';
       byId('country-brazil-link').hidden = selected !== 'BRA';
@@ -123,6 +149,9 @@
       byId('country-sources').replaceChildren();
       byId('country-model').textContent = 'Model information unavailable for this request.';
       byId('country-baseline').textContent = 'Country assessment unavailable for this request.';
+      byId('country-evolution').textContent = 'Research connections unavailable for this request.';
+      byId('country-page').textContent = '';
+      byId('country-prev').disabled = true; byId('country-next').disabled = true;
       byId('country-brazil-link').hidden = true;
     } finally {
       clearTimeout(timer);
@@ -138,7 +167,9 @@
     const url = new URL(window.location.href); url.searchParams.set('country', byId('country-select').value);
     window.history.replaceState(null, '', url);
   });
-  ['country-select', 'country-topic', 'country-changes-only'].forEach(id => byId(id).addEventListener('change', refresh));
+  ['country-select', 'country-topic', 'country-changes-only'].forEach(id => byId(id).addEventListener('change', () => { page = 0; refresh(); }));
+  byId('country-prev').addEventListener('click', () => { page = Math.max(0, page - 1); refresh(); });
+  byId('country-next').addEventListener('click', () => { page += 1; refresh(); });
   byId('country-refresh').addEventListener('click', refresh);
   refresh();
   setInterval(() => { if (!document.hidden) refresh(); }, 60000);

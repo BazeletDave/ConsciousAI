@@ -49,6 +49,9 @@ jobs:
       - name: Record country collection failure without interrupting existing collectors
         if: steps.country-intelligence.outcome == 'failure'
         run: echo '::warning::Country intelligence collection failed. Inspect per-source status and last successful collection timestamps.'
+      - name: Rebuild research connections and evaluate governed learning candidates
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python research_evolution.py
       - name: Verify generated evidence and local HTTP endpoints
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python -m unittest -v test_server.ResearchServiceTests.test_assurance_evidence_integrity_and_classification test_server.ResearchServiceTests.test_governance_telemetry_fails_closed_without_source test_server.ResearchServiceTests.test_health_endpoint
@@ -58,6 +61,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/assurance_evidence_snapshot.json
           git add GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/country_intelligence/feed.json
+          git add GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/country_intelligence/research_evolution.json
           git add GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/research_dataset/candidate_metadata.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/research_dataset/manifest.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/policy_candidates.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/intelligence_feed.json GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/international_mobility_feed.json
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh official Federal Register policy review queue"
