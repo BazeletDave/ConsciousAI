@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T15:21:21.524316+00:00",
+  "generated_at": "2026-10-27T20:46:11.417612+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -24,11 +24,35 @@
     {
       "source_id": "UBER-ENGINEERING",
       "status": "fetched",
-      "items": 23,
+      "items": 24,
       "method": "official_html"
     }
   ],
   "queue": [
+    {
+      "id": "74d4bf22f6c231a211e9",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commissioner Roswall's speech at the event, \u2018From Principles to International Cooperation: Mobilising Biodiversity Finance through High-Integrity Nature Credits'",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2276",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "4ba9b09f478a6f061c36",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Joint statement by High Representative/Vice-President Kallas and Commissioner Kos on the early parliamentary elections in Serbia",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2275",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "a8614becff14826df26f",
       "source_id": "EU-COMMISSION-NEWS",
@@ -126,25 +150,13 @@
       "publication_authorized": false
     },
     {
-      "id": "4fb0d3dfc25a3f9beaa3",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "56b4a5b858b595bacbd7",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Questions and answers on the EU Climate Resilience Framework",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2245",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "05afdb3834f63e2aa76e",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Remarks by Executive Vice-President Ribera and Commissioner Hoekstra at the press conference  on the EU framework for climate resilience",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2264",
+      "title": "Accredited official statistics: Domestic Road Freight Statistics: July 2025 to June 2026",
+      "source_url": "https://www.gov.uk/government/statistics/announcements/domestic-road-freight-statistics-july-2025-to-june-2026",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -378,18 +390,6 @@
       "publication_authorized": false
     },
     {
-      "id": "51a05e95549c7ffe3834",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Record funding, record results: 7,000 miles of smoother journeys as government tackles potholes",
-      "source_url": "https://www.gov.uk/government/news/record-funding-record-results-7000-miles-of-smoother-journeys-as-government-tackles-potholes",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "2ecaf2bc49cf8f6bee35",
       "source_id": "NHTSA",
       "publisher": "NHTSA",
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -684,6 +684,34 @@
       "publication_authorized": false
     },
     {
+      "id": "98ebcf39d3c944755fa4",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Freight Search: Composing a Shared Search Index from Independently Owned Fragments",
+      "source_url": "https://www.uber.com/us/en/blog/high-performance-search-platform/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "f849c31792b777184c6e",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "source_url": "https://www.uber.com/us/en/blog/uber-announce-work/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "1326b0a7976ecfa4891d",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -824,20 +852,6 @@
       "publication_authorized": false
     },
     {
-      "id": "f7d6b600ac46b47b6c00",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "Running a Software Factory Efficiently at Uber Scale",
-      "source_url": "https://www.uber.com/us/en/blog/efficient-software-factory/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "8c953ae57b2a3bf46b1b",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -852,6 +866,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 63,
+  "review_required": 64,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
