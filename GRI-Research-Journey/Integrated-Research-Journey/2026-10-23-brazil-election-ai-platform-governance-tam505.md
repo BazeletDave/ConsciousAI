@@ -135,6 +135,36 @@ The current generator samples group and period cells independently. Extension to
 
 **Research connection:** This instrument makes the case's platform exposure question executable within GRI's AI Governance Paradox program. Its empirical counterpart can link documented moderation events and policy dates to measured reach, comparison groups and institutional review records.
 
+## Executable methods contribution | Campaign post telemetry
+
+David Grand contributed the [campaign telemetry model](campaign_post_telemetry.py) as the descriptive measurement companion to the [platform policy causal model](platform_policy_did.py). The submitted generator, candidate labels, formulas and seed 42 are preserved.
+
+Run from this directory:
+
+```bash
+python -m pip install -r requirements-campaign-telemetry.txt
+python campaign_post_telemetry.py
+```
+
+| Metric | Definition | Aggregation |
+| --- | --- | --- |
+| Total interactions | Likes + shares + comments | Mean per post by candidate |
+| Engagement rate | Total interactions / organic impressions | Arithmetic mean of post ratios |
+| Reach efficiency | Organic impressions / followers at posting | Arithmetic mean of post ratios |
+
+Execution verified on 200 simulated posts:
+
+| Candidate label | Engagement rate | Reach efficiency | Mean total interactions |
+| --- | --- | --- | --- |
+| Lula | 0.215646 | 0.111141 | 116144.17 |
+| Opponent | 0.153604 | 0.115442 | 108662.93 |
+
+These are synthetic descriptive outputs. The summary performs no significance test. The variable named reach efficiency uses impressions, which can include repeated exposure, rather than unique audience reach. Interaction counts are events rather than unique people. The arithmetic mean of post ratios differs from a pooled ratio of summed numerators and denominators.
+
+**Research integration:** This module defines measurable engagement and exposure variables for the Brazil platform governance evidence architecture. The two submitted simulations generate independent datasets; no automatic data linkage is implied. Observed telemetry would need post and account identifiers, dates, platform records, organic versus paid attribution and documented policy exposure before integration with the causal design.
+
+**Authorship:** David Grand | Grand Research Institute. Synthetic research prototype.
+
 ## Method and next evidence steps
 
 - Obtain original news reports and primary filings; preserve publication dates and direct quotations.
