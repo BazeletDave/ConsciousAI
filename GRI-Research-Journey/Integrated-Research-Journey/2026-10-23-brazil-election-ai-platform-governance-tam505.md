@@ -184,3 +184,7 @@ The [country intelligence methods](../Research-Governance/ConsciousAI-Research-S
 ## Comparative continuation: Israel
 
 The [Israel institutional platform case](2026-10-27-israel-platform-governance-ai-paradox.md) follows this study with a separate primary source register for digital electoral coordination, AI governance and economic uncertainty. The [Brazil and Israel research framework](2026-10-27-brazil-israel-comparative-institutional-intelligence.md) connects both cases through From Code to Consciousness, the Fourth Industrial Revolution, algorithmic management and the AI Paradox. The comparison proposes shared questions and instruments; it does not establish identical conduct, common causes or validated electoral effects.
+
+## United States comparative extension
+
+The [United States case](2026-10-27-united-states-institutional-ai-governance.md) adds English language federal policy metadata and institutional AI governance context. The [three country comparison](2026-10-27-brazil-israel-united-states-comparative-intelligence.md) connects Brazil, Israel and the United States through the same GRI research themes while preserving differences in sources, policy stages and evaluation limits.

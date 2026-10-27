@@ -51,3 +51,7 @@ The country collector adds UN News Middle East discovery, a fixed Bank of Israel
 Israel is promoted as a comparative case in the selector while the twelve country South America pilot remains intact. The experimental topic model retains its existing instructional training set. Hebrew title association is supported, but Hebrew topic classification is unvalidated and may abstain. No election or economic forecast is trained on this case. Existing review gates remain in force.
 
 Next work should obtain full electoral and legislative primary records, record platform responses, establish reviewed timelines and multilingual labels, and define prospective tests before estimating political or economic effects. GRI is independent; source inclusion does not imply institutional endorsement.
+
+## United States comparative extension
+
+The [United States case](2026-10-27-united-states-institutional-ai-governance.md) adds English language federal policy metadata and institutional AI governance context. The [three country comparison](2026-10-27-brazil-israel-united-states-comparative-intelligence.md) connects Brazil, Israel and the United States through the same GRI research themes while preserving differences in sources, policy stages and evaluation limits.

@@ -3113,14 +3113,17 @@
       "region": "North America",
       "pilot": false,
       "aliases": [
-        "united states"
+        "united states",
+        "united states of america",
+        "u.s."
       ],
       "political_assessment": {
         "status": "awaiting_reviewed_baseline",
         "direction": null,
         "effective_date": null,
         "evidence": []
-      }
+      },
+      "comparison_country": true
     },
     {
       "code": "URY",

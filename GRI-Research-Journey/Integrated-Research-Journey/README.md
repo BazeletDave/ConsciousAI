@@ -170,3 +170,7 @@ The [Uber and Lyft observational dossier](../Algorithmic-Management/Uber-Lyft-Re
 ## Comparative country intelligence: Brazil and Israel
 
 [Explore the comparative framework](2026-10-27-brazil-israel-comparative-institutional-intelligence.md) connecting the [Brazil case](2026-10-23-brazil-election-ai-platform-governance-tam505.md) and the [Israel case](2026-10-27-israel-platform-governance-ai-paradox.md) to From Code to Consciousness, the Fourth Industrial Revolution, algorithmic management, institutional authority and the AI Paradox. Dated evidence, source access limits and causal uncertainty remain visible in each country study.
+
+## United States comparative extension
+
+The [United States case](2026-10-27-united-states-institutional-ai-governance.md) adds English language federal policy metadata and institutional AI governance context. The [three country comparison](2026-10-27-brazil-israel-united-states-comparative-intelligence.md) connects Brazil, Israel and the United States through the same GRI research themes while preserving differences in sources, policy stages and evaluation limits.

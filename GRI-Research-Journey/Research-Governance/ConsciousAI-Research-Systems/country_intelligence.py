@@ -23,6 +23,7 @@ ROOT = Path(__file__).resolve().parent
 DATA = ROOT / "country_intelligence"
 MAX_BYTES = 2_000_000
 SOURCES = [
+    {"id": "USA-FEDERAL-REGISTER", "publisher": "Office of the Federal Register", "url": "https://www.federalregister.gov/api/v1/documents.json", "host": "www.federalregister.gov", "mode": "federal_register_snapshot", "country": "USA"},
     {"id": "WTO", "publisher": "WTO news", "url": "https://www.wto.org/library/rss/latest_news_e.xml", "host": "www.wto.org", "mode": "rss", "country": None},
     {"id": "UN-AMERICAS", "publisher": "UN News", "url": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml", "host": "news.un.org", "mode": "rss", "country": None},
     {"id": "BRA-MDIC", "publisher": "Brazil Ministry of Development, Industry, Trade and Services", "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/ultimas-noticias/@@RSS", "host": "www.gov.br", "mode": "rss", "country": "BRA", "article_path": r"/mdic/pt-br/assuntos/noticias/\d{4}/[^/]+/[^/]+"},
@@ -38,6 +39,7 @@ CHANNELS = {
     "algorithmic_management": "Review automated workplace decisions, platform labor protections and appeal mechanisms.",
     "artificial_intelligence": "Review AI rules, adoption, procurement, compute infrastructure and accountable authority.",
 }
+US_TERMS = ("artificial intelligence", "machine learning", "automated", "algorithm", "algorithmic", "platform", "workforce", "labor", "employment", "trade", "tariff", "investment", "export", "import", "election", "electoral", "voting", "autonomous", "vehicle", "transportation")
 
 
 class PlainText(HTMLParser):
@@ -113,7 +115,32 @@ def publication_time(value):
 
 
 def parse(raw, source):
-    if source["mode"] == "official_document":
+    if source["mode"] == "federal_register_snapshot":
+        data = json.loads(raw)
+        if not isinstance(data, dict) or not isinstance(data.get("records"), list):
+            raise ValueError("Invalid Federal Register snapshot")
+        collected = datetime.fromisoformat(data["last_collection_at"].replace("Z", "+00:00"))
+        if collected.tzinfo is None:
+            raise ValueError("Collection timestamp requires a timezone")
+        rows = []
+        for item in data["records"]:
+            if not isinstance(item, dict):
+                continue
+            text = str(item.get("title") or "") + " " + str(item.get("abstract") or "")
+            matches = [term for term in US_TERMS if re.search(r"(?<!\w)" + re.escape(term) + r"(?:s|ed|ing)?(?!\w)", normalize(text))]
+            if not matches:
+                continue
+            kind = str(item.get("instrument_type") or "unknown")
+            legal = "proposed_rule_not_final" if kind.casefold() in ("proposed rule", "prorule") else "notice_not_a_final_rule" if kind.casefold() == "notice" else "document_type_reported_effective_status_requires_review"
+            rows.append({"title": plain(item.get("title")), "source_url": item.get("official_source_url", ""),
+                         "published_at": None, "publication_date": item.get("publication_date"),
+                         "source_observed_at": item.get("last_seen_at", data["last_collection_at"]),
+                         "document_type": "federal_register_metadata", "instrument_type": kind,
+                         "publishing_office": item.get("issuing_authority"), "legal_status": legal,
+                         "document_number": item.get("document_number"), "triage_terms": matches,
+                         "classification_input_sha256": sha256(text.encode()).hexdigest(),
+                         "_classification_text": text})
+    elif source["mode"] == "official_document":
         parser = DocumentTitle()
         parser.feed(raw.decode("utf-8", "replace"))
         title = plain(" ".join(parser.parts))
@@ -151,7 +178,7 @@ def parse(raw, source):
                          "published_at": publication_time(fields.get("pubDate") or fields.get("published") or fields.get("date")),
                          "document_type": "publisher_news_metadata", "legal_status": "not_assessed"})
     return [r for r in rows if r["title"] and permitted(r["source_url"], source["host"])
-            and (not source.get("article_path") or re.fullmatch(source["article_path"], urlparse(r["source_url"]).path.rstrip("/")))][:60]
+            and (not source.get("article_path") or re.fullmatch(source["article_path"], urlparse(r["source_url"]).path.rstrip("/")))][:250 if source["mode"] == "federal_register_snapshot" else 60]
 
 
 def country_mentions(title, countries):
@@ -178,20 +205,23 @@ def collect(previous=None, fetcher=fetch, sources=None, countries=None, now=None
 
     def retrieve(source):
         try:
-            raw = fetcher(source)
-            return source, parse(raw, source), sha256(raw).hexdigest(), None
+            raw = (ROOT / "policy_candidates.json").read_bytes() if source["mode"] == "federal_register_snapshot" else fetcher(source)
+            collected_at = json.loads(raw)["last_collection_at"] if source["mode"] == "federal_register_snapshot" else now
+            return source, parse(raw, source), sha256(raw).hexdigest(), None, collected_at
         except (OSError, ValueError, KeyError, TypeError, ET.ParseError) as error:
-            return source, [], None, type(error).__name__
+            return source, [], None, type(error).__name__, None
 
     with ThreadPoolExecutor(max_workers=4) as pool:
-        for source, rows, digest, error in pool.map(retrieve, sources):
+        for source, rows, digest, error, collected_at in pool.map(retrieve, sources):
             prior_health = source_prior.get(source["id"], {})
             health.append({"id": source["id"], "publisher": source["publisher"], "url": source["url"],
                            "status": "failed" if error else "fetched" if rows else "empty",
                            "items": len(rows), "attempted_at": now,
-                           "last_success_at": prior_health.get("last_success_at") if error else now,
+                           "last_success_at": prior_health.get("last_success_at") if error else collected_at,
+                           "collection_method": source["mode"],
                            "response_sha256": digest, "error_type": error})
             for row in rows:
+                classification_text = row.pop("_classification_text", row["title"])
                 codes = sorted(set(country_mentions(row["title"], countries) + ([source["country"]] if source.get("country") else [])))
                 if not codes:
                     continue
@@ -201,7 +231,7 @@ def collect(previous=None, fetcher=fetch, sources=None, countries=None, now=None
                 changed = bool(old and old["content_sha256"] != fingerprint)
                 record = dict(row, id=identity, source_id=source["id"], publisher=source["publisher"],
                               country_codes=codes, country_assignment="publisher_jurisdiction_or_title_mention_requires_review",
-                              topic=model.predict(row["title"]), content_sha256=fingerprint,
+                              topic=model.predict(classification_text), content_sha256=fingerprint,
                               previous_content_sha256=old["content_sha256"] if changed else (old or {}).get("previous_content_sha256"),
                               first_seen_at=(old or {}).get("first_seen_at", now), last_seen_at=now,
                               content_changed_at=now if changed else (old or {}).get("content_changed_at"),
@@ -255,7 +285,7 @@ def snapshot(code=None, topic=None):
                 countries=[dict(c, record_count=counts[c["code"]]) for c in countries],
                 selected_country=code, selected_topic=topic, channels=CHANNELS,
                 comparative_research=json.loads((DATA / "comparative_research.json").read_text(encoding="utf-8")),
-                coverage="South America pilot and Israel comparative extension, with limited publisher coverage; not comprehensive worldwide monitoring",
+                coverage="South America pilot with Israel and United States comparative cases; limited publisher coverage, not comprehensive worldwide monitoring",
                 brazil_research_url="https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md")
 
 

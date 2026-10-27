@@ -147,7 +147,39 @@ class CountryIntelligenceTests(unittest.TestCase):
         self.assertEqual(country_mentions('ישראל', [israel]), ['ISR'])
         self.assertTrue(TopicModel().predict('בחירות בישראל')['abstained'])
         data = snapshot('ISR')
-        self.assertEqual(data['comparative_research']['countries'], ['BRA', 'ISR'])
+        self.assertEqual(data['comparative_research']['countries'], ['BRA', 'ISR', 'USA'])
         self.assertEqual(len(data['comparative_research']['themes']), 5)
         self.assertTrue(all(c['url'].startswith('https://github.com/BazeletDave/ConsciousAI/') for c in data['comparative_research']['cases']))
         self.assertEqual(data['comparative_research']['status'], 'comparative_research_not_causal_equivalence')
+
+    def test_us_metadata_preserves_document_stage_and_date_only_publication(self):
+        from country_intelligence import SOURCES
+        source = next(s for s in SOURCES if s['id'] == 'USA-FEDERAL-REGISTER')
+        rows = [dict(title='Artificial intelligence governance', abstract='Automated decision review', official_source_url='https://www.federalregister.gov/documents/2026/1', instrument_type=kind, document_number=kind, publication_date='2026-10-27', last_seen_at=NOW) for kind in ['Proposed Rule', 'Notice', 'Rule']]
+        payload = {'last_collection_at': NOW, 'records': rows}
+        parsed = parse(json.dumps(payload).encode(), source)
+        self.assertEqual([r['legal_status'] for r in parsed], ['proposed_rule_not_final', 'notice_not_a_final_rule', 'document_type_reported_effective_status_requires_review'])
+        self.assertTrue(all(r['published_at'] is None and r['publication_date'] == '2026-10-27' for r in parsed))
+        self.assertTrue(all(len(r['classification_input_sha256']) == 64 for r in parsed))
+
+    def test_us_source_snapshot_is_reused_without_network_or_false_freshness(self):
+        from country_intelligence import SOURCES
+        source = next(s for s in SOURCES if s['id'] == 'USA-FEDERAL-REGISTER')
+        payload = {'last_collection_at': NOW, 'records': [{'title': 'AI workforce management', 'abstract': 'Artificial intelligence employment', 'official_source_url': 'https://www.federalregister.gov/documents/2026/1', 'instrument_type': 'Notice'}]}
+        def network_not_allowed(source):
+            raise AssertionError('The country adapter must not duplicate the network collection')
+        with patch('pathlib.Path.read_bytes', return_value=json.dumps(payload).encode()):
+            data = collect(fetcher=network_not_allowed, sources=[source], countries=[], now=LATER)
+        self.assertEqual(data['sources'][0]['last_success_at'], NOW)
+        self.assertEqual(data['sources'][0]['attempted_at'], LATER)
+        self.assertEqual(data['records'][0]['country_codes'], ['USA'])
+        self.assertNotIn('_classification_text', data['records'][0])
+        self.assertFalse(data['records'][0]['publication_authorized'])
+
+    def test_us_adapter_rejects_unsafe_urls_and_irrelevant_metadata(self):
+        from country_intelligence import SOURCES
+        source = next(s for s in SOURCES if s['id'] == 'USA-FEDERAL-REGISTER')
+        rows = [{'title': 'Artificial intelligence', 'official_source_url': 'https://www.federalregister.gov.evil.org/doc'}, {'title': 'Commemorative ceremony', 'official_source_url': 'https://www.federalregister.gov/doc'}]
+        self.assertEqual(parse(json.dumps({'last_collection_at': NOW, 'records': rows}).encode(), source), [])
+        with self.assertRaises(ValueError):
+            parse(json.dumps({'last_collection_at': '2026-10-27T20:00:00', 'records': []}).encode(), source)

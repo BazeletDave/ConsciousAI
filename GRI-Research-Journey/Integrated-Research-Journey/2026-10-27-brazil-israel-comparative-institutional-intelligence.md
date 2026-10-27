@@ -39,3 +39,7 @@ The dashboard provides direct [Brazil](https://gri-global-intelligence.onrender.
 The underlying pathway connects the [Institutional Power Amplification Framework](2026-10-19-institutional-power-amplification-framework.md), [Living Algorithmic Governance](2026-10-21-algorithmic-governance-living-research.md), [Algorithmic Management and Institutional Leadership](../Algorithmic-Management-Institutional-Leadership/README.md), and [GRI's consolidated research portfolio](../Grand-Research-Institute-Research-Portfolio/README.md). The [country system methods](../Research-Governance/ConsciousAI-Research-Systems/COUNTRY_INTELLIGENCE.md) document source and model controls.
 
 This creates a reusable comparative case structure for subsequent countries. New country coverage requires its own verified sources, dated evidence, language evaluation and institutional analysis; catalog inclusion alone is insufficient.
+
+## United States comparative extension
+
+The [United States case](2026-10-27-united-states-institutional-ai-governance.md) adds English language federal policy metadata and institutional AI governance context. The [three country comparison](2026-10-27-brazil-israel-united-states-comparative-intelligence.md) connects Brazil, Israel and the United States through the same GRI research themes while preserving differences in sources, policy stages and evaluation limits.

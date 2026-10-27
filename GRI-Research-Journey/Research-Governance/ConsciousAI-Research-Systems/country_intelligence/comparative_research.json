@@ -1,10 +1,11 @@
 {
   "schema_version": "1.0",
-  "title": "Brazil and Israel: comparative institutional intelligence",
+  "title": "Brazil, Israel and the United States: comparative institutional intelligence",
   "status": "comparative_research_not_causal_equivalence",
   "countries": [
     "BRA",
-    "ISR"
+    "ISR",
+    "USA"
   ],
   "cases": [
     {
@@ -16,9 +17,14 @@
       "code": "ISR",
       "label": "Israel electoral platforms and institutional AI case",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-israel-platform-governance-ai-paradox.md"
+    },
+    {
+      "code": "USA",
+      "label": "United States regulatory institutions and AI case",
+      "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md"
     }
   ],
-  "comparison_url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-comparative-institutional-intelligence.md",
+  "comparison_url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
   "themes": [
     {
       "name": "From Code to Consciousness",
