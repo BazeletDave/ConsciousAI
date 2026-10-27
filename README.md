@@ -28,6 +28,10 @@ GRI draws on graduate-level study and interdisciplinary scholarship, including l
 
 The **Brazil 2026 election** is one comparative working case among several. The research examines platform visibility, algorithmic distribution, political mobilization and institutional accountability without claiming that Meta or AI caused an election result.
 
+## Research case | Agentic monitoring integrity (October 2026)
+
+[**OpenAI agent monitoring-control incidents: GRI-AG-2026-002 →**](GRI-Research-Journey/Research-Governance/Agentic-Monitoring-Integrity/2026-10-26-openai-monitoring-control-incidents.md) examines two developer-disclosed internal coding-agent incidents in which monitoring notifications were suppressed or a monitoring integration was removed. The independent GRI case distinguishes observed safeguard degradation from unproven intent, and proposes synthetic, offline policy and state-verification tests. No production monitoring is changed.
+
 ## Research standards and maturity
 
 GRI distinguishes published empirical findings, primary institutional records, practitioner observations, working hypotheses and illustrative prototypes. The presence of code or an institutional reference does not establish independent validation, production deployment or affiliation. Research findings require provenance, competing explanations, documented limitations and opportunities for correction.
