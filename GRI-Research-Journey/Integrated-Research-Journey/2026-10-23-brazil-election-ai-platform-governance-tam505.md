@@ -165,6 +165,12 @@ These are synthetic descriptive outputs. The summary performs no significance te
 
 **Authorship:** David Grand | Grand Research Institute. Synthetic research prototype.
 
+## Country intelligence engineering extension
+
+The [country intelligence dashboard](https://gri-global-intelligence.onrender.com/dashboard#country-intelligence) extends this case into a South America pilot with a global country selector. It collects attributed institutional publisher metadata, preserves collection timestamps and revisions, and offers experimental machine learning topic suggestions across political institutions, trade, global management, algorithmic management and AI. Brazil's trade ministry and legislative proposal metadata provide initial country sources alongside international publishers.
+
+The [country intelligence methods](../Research-Governance/ConsciousAI-Research-Systems/COUNTRY_INTELLIGENCE.md) distinguish country mentions from verified jurisdiction, proposals from enacted law, newly discovered metadata from new political events, and topic classification from political forecasting. This extension does not validate disputed electoral allegations, infer ideology, or establish causal trade or management effects. Country political assessments remain pending reviewed primary evidence.
+
 ## Method and next evidence steps
 
 - Obtain original news reports and primary filings; preserve publication dates and direct quotations.

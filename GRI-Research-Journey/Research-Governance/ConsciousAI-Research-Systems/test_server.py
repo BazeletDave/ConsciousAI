@@ -153,5 +153,20 @@ class ResearchServiceTests(unittest.TestCase):
         data = load("cases.json")
         self.assertEqual(len({r["id"] for r in data["records"]}), len(data["records"]))
 
+    def test_country_intelligence_routes(self):
+        data = self.fetch("/intelligence/countries?country=BRA")
+        self.assertEqual(data["selected_country"], "BRA")
+        self.assertTrue(all("BRA" in row["country_codes"] for row in data["records"]))
+        self.assertEqual(sum(c["pilot"] for c in data["countries"]), 12)
+        for path, status in [("/intelligence/countries?country=ZZZ", 404),
+                             ("/intelligence/countries?country=BRA&topic=invented", 400)]:
+            with self.assertRaises(HTTPError) as ctx:
+                self.fetch(path)
+            self.assertEqual(ctx.exception.code, status)
+        with urlopen(f"http://127.0.0.1:{self.port}/country-intelligence.js", timeout=3) as response:
+            self.assertEqual(response.status, 200)
+            self.assertIn("text/javascript", response.headers["Content-Type"])
+            self.assertIn(b"textContent", response.read())
+
 if __name__ == "__main__":
     unittest.main()

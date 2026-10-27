@@ -6,6 +6,7 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from assurance_engine import evaluate
 from operational_health import readiness, collection_status
+from country_intelligence import snapshot as country_snapshot
 from mobility_engine import public_summary
 from model_registry import platform_capabilities
 from evaluation_pipeline import evaluation_capabilities
@@ -123,6 +124,25 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
         try:
+            if path == "/country-intelligence.js":
+                payload = (ROOT / "country-intelligence.js").read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/javascript; charset=utf-8")
+                self.send_header("X-Content-Type-Options", "nosniff")
+                self.send_header("Cache-Control", "no-cache")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+                return
+            if path == "/intelligence/countries":
+                code = query.get("country", [None])[0]
+                topic = query.get("topic", [None])[0]
+                try:
+                    return self.send_json(200, country_snapshot(code, topic))
+                except LookupError:
+                    return self.send_json(404, {"error": "unknown_country"})
+                except ValueError:
+                    return self.send_json(400, {"error": "invalid_country_query_or_snapshot"})
             if path in ("/dashboard", "/dashboard.html"):
                 payload = (ROOT / "dashboard.html").read_bytes()
                 self.send_response(200)

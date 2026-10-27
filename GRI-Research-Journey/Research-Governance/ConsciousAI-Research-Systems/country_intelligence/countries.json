@@ -1,0 +1,3274 @@
+{
+  "schema_version": "1.0",
+  "source_url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+  "retrieved_at": "2026-10-27T20:35:22.702943+00:00",
+  "notice": "World Bank countries and economies metadata; not a determination of sovereignty. Political assessments require separate reviewed evidence.",
+  "countries": [
+    {
+      "code": "AFG",
+      "name": "Afghanistan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "afghanistan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ALB",
+      "name": "Albania",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "albania"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "DZA",
+      "name": "Algeria",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "algeria"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ASM",
+      "name": "American Samoa",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "american samoa"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "AND",
+      "name": "Andorra",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "andorra"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "AGO",
+      "name": "Angola",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "angola"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ATG",
+      "name": "Antigua and Barbuda",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "antigua and barbuda"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ARG",
+      "name": "Argentina",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "argentina"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ARM",
+      "name": "Armenia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "armenia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ABW",
+      "name": "Aruba",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "aruba"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "AUS",
+      "name": "Australia",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "australia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "AUT",
+      "name": "Austria",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "austria"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "AZE",
+      "name": "Azerbaijan",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "azerbaijan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BHS",
+      "name": "Bahamas, The",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "bahamas, the"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BHR",
+      "name": "Bahrain",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "bahrain"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BGD",
+      "name": "Bangladesh",
+      "region": "South Asia",
+      "pilot": false,
+      "aliases": [
+        "bangladesh"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BRB",
+      "name": "Barbados",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "barbados"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BLR",
+      "name": "Belarus",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "belarus"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BEL",
+      "name": "Belgium",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "belgium"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BLZ",
+      "name": "Belize",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "belize"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BEN",
+      "name": "Benin",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "benin"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BMU",
+      "name": "Bermuda",
+      "region": "North America",
+      "pilot": false,
+      "aliases": [
+        "bermuda"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BTN",
+      "name": "Bhutan",
+      "region": "South Asia",
+      "pilot": false,
+      "aliases": [
+        "bhutan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BOL",
+      "name": "Bolivia",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "bolivia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BIH",
+      "name": "Bosnia and Herzegovina",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "bosnia and herzegovina"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BWA",
+      "name": "Botswana",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "botswana"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BRA",
+      "name": "Brazil",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "brazil",
+        "brasil",
+        "brasileiro",
+        "brasileira"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "VGB",
+      "name": "British Virgin Islands",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "british virgin islands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BRN",
+      "name": "Brunei Darussalam",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "brunei darussalam"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BGR",
+      "name": "Bulgaria",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "bulgaria"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BFA",
+      "name": "Burkina Faso",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "burkina faso"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "BDI",
+      "name": "Burundi",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "burundi"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CPV",
+      "name": "Cabo Verde",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "cabo verde"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "KHM",
+      "name": "Cambodia",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "cambodia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CMR",
+      "name": "Cameroon",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "cameroon"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CAN",
+      "name": "Canada",
+      "region": "North America",
+      "pilot": false,
+      "aliases": [
+        "canada"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CYM",
+      "name": "Cayman Islands",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "cayman islands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CAF",
+      "name": "Central African Republic",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "central african republic"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TCD",
+      "name": "Chad",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "chad"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CHI",
+      "name": "Channel Islands",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "channel islands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CHL",
+      "name": "Chile",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "chile",
+        "chileno"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CHN",
+      "name": "China",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "china"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "COL",
+      "name": "Colombia",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "colombia",
+        "colômbia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "COM",
+      "name": "Comoros",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "comoros"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "COD",
+      "name": "Congo, Dem. Rep.",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "congo, dem. rep."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "COG",
+      "name": "Congo, Rep.",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "congo, rep."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CRI",
+      "name": "Costa Rica",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "costa rica"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CIV",
+      "name": "Cote d'Ivoire",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "cote d'ivoire"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "HRV",
+      "name": "Croatia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "croatia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CUB",
+      "name": "Cuba",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "cuba"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CUW",
+      "name": "Curacao",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "curacao"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CYP",
+      "name": "Cyprus",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "cyprus"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CZE",
+      "name": "Czechia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "czechia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "DNK",
+      "name": "Denmark",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "denmark"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "DJI",
+      "name": "Djibouti",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "djibouti"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "DMA",
+      "name": "Dominica",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "dominica"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "DOM",
+      "name": "Dominican Republic",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "dominican republic"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ECU",
+      "name": "Ecuador",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "ecuador",
+        "equador"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "EGY",
+      "name": "Egypt, Arab Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "egypt, arab rep."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SLV",
+      "name": "El Salvador",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "el salvador"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GNQ",
+      "name": "Equatorial Guinea",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "equatorial guinea"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ERI",
+      "name": "Eritrea",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "eritrea"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "EST",
+      "name": "Estonia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "estonia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SWZ",
+      "name": "Eswatini",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "eswatini"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ETH",
+      "name": "Ethiopia",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "ethiopia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "FRO",
+      "name": "Faroe Islands",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "faroe islands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "FJI",
+      "name": "Fiji",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "fiji"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "FIN",
+      "name": "Finland",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "finland"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "FRA",
+      "name": "France",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "france"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PYF",
+      "name": "French Polynesia",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "french polynesia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GAB",
+      "name": "Gabon",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "gabon"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GMB",
+      "name": "Gambia, The",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "gambia, the"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GEO",
+      "name": "Georgia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "georgia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "DEU",
+      "name": "Germany",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "germany"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GHA",
+      "name": "Ghana",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "ghana"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GIB",
+      "name": "Gibraltar",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "gibraltar"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GRC",
+      "name": "Greece",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "greece"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GRL",
+      "name": "Greenland",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "greenland"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GRD",
+      "name": "Grenada",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "grenada"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GUM",
+      "name": "Guam",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "guam"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GTM",
+      "name": "Guatemala",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "guatemala"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GIN",
+      "name": "Guinea",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "guinea"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GNB",
+      "name": "Guinea-Bissau",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "guinea-bissau"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GUY",
+      "name": "Guyana",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "guyana",
+        "guiana"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "HTI",
+      "name": "Haiti",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "haiti"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "HND",
+      "name": "Honduras",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "honduras"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "HKG",
+      "name": "Hong Kong SAR, China",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "hong kong sar, china"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "HUN",
+      "name": "Hungary",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "hungary"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ISL",
+      "name": "Iceland",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "iceland"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "IND",
+      "name": "India",
+      "region": "South Asia",
+      "pilot": false,
+      "aliases": [
+        "india"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "IDN",
+      "name": "Indonesia",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "indonesia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "IRN",
+      "name": "Iran, Islamic Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "iran, islamic rep."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "IRQ",
+      "name": "Iraq",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "iraq"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "IRL",
+      "name": "Ireland",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "ireland"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "IMN",
+      "name": "Isle of Man",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "isle of man"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ISR",
+      "name": "Israel",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "israel"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ITA",
+      "name": "Italy",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "italy"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "JAM",
+      "name": "Jamaica",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "jamaica"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "JPN",
+      "name": "Japan",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "japan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "JOR",
+      "name": "Jordan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "jordan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "KAZ",
+      "name": "Kazakhstan",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "kazakhstan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "KEN",
+      "name": "Kenya",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "kenya"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "KIR",
+      "name": "Kiribati",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "kiribati"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PRK",
+      "name": "Korea, Dem. People's Rep.",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "korea, dem. people's rep."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "KOR",
+      "name": "Korea, Rep.",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "korea, rep."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "XKX",
+      "name": "Kosovo",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "kosovo"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "KWT",
+      "name": "Kuwait",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "kuwait"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "KGZ",
+      "name": "Kyrgyz Republic",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "kyrgyz republic"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LAO",
+      "name": "Lao PDR",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "lao pdr"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LVA",
+      "name": "Latvia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "latvia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LBN",
+      "name": "Lebanon",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "lebanon"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LSO",
+      "name": "Lesotho",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "lesotho"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LBR",
+      "name": "Liberia",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "liberia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LBY",
+      "name": "Libya",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "libya"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LIE",
+      "name": "Liechtenstein",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "liechtenstein"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LTU",
+      "name": "Lithuania",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "lithuania"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LUX",
+      "name": "Luxembourg",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "luxembourg"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MAC",
+      "name": "Macao SAR, China",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "macao sar, china"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MDG",
+      "name": "Madagascar",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "madagascar"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MWI",
+      "name": "Malawi",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "malawi"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MYS",
+      "name": "Malaysia",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "malaysia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MDV",
+      "name": "Maldives",
+      "region": "South Asia",
+      "pilot": false,
+      "aliases": [
+        "maldives"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MLI",
+      "name": "Mali",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "mali"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MLT",
+      "name": "Malta",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "malta"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MHL",
+      "name": "Marshall Islands",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "marshall islands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MRT",
+      "name": "Mauritania",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "mauritania"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MUS",
+      "name": "Mauritius",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "mauritius"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MEX",
+      "name": "Mexico",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "mexico"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "FSM",
+      "name": "Micronesia, Fed. Sts.",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "micronesia, fed. sts."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MDA",
+      "name": "Moldova",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "moldova"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MCO",
+      "name": "Monaco",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "monaco"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MNG",
+      "name": "Mongolia",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "mongolia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MNE",
+      "name": "Montenegro",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "montenegro"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MAR",
+      "name": "Morocco",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "morocco"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MOZ",
+      "name": "Mozambique",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "mozambique"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MMR",
+      "name": "Myanmar",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "myanmar"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NAM",
+      "name": "Namibia",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "namibia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NRU",
+      "name": "Naoero",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "naoero"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NPL",
+      "name": "Nepal",
+      "region": "South Asia",
+      "pilot": false,
+      "aliases": [
+        "nepal"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NLD",
+      "name": "Netherlands",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "netherlands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NCL",
+      "name": "New Caledonia",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "new caledonia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NZL",
+      "name": "New Zealand",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "new zealand"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NIC",
+      "name": "Nicaragua",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "nicaragua"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NER",
+      "name": "Niger",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "niger"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NGA",
+      "name": "Nigeria",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "nigeria"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MKD",
+      "name": "North Macedonia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "north macedonia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MNP",
+      "name": "Northern Mariana Islands",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "northern mariana islands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "NOR",
+      "name": "Norway",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "norway"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "OMN",
+      "name": "Oman",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "oman"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PAK",
+      "name": "Pakistan",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "pakistan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PLW",
+      "name": "Palau",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "palau"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PAN",
+      "name": "Panama",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "panama"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PNG",
+      "name": "Papua New Guinea",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "papua new guinea"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PRY",
+      "name": "Paraguay",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "paraguay",
+        "paraguai"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PER",
+      "name": "Peru",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "peru",
+        "perú"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PHL",
+      "name": "Philippines",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "philippines"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "POL",
+      "name": "Poland",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "poland"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PRT",
+      "name": "Portugal",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "portugal"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PRI",
+      "name": "Puerto Rico (US)",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "puerto rico (us)"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "QAT",
+      "name": "Qatar",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "qatar"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ROU",
+      "name": "Romania",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "romania"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "RUS",
+      "name": "Russian Federation",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "russian federation"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "RWA",
+      "name": "Rwanda",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "rwanda"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "WSM",
+      "name": "Samoa",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "samoa"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SMR",
+      "name": "San Marino",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "san marino"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "STP",
+      "name": "Sao Tome and Principe",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "sao tome and principe"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SAU",
+      "name": "Saudi Arabia",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "saudi arabia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SEN",
+      "name": "Senegal",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "senegal"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SRB",
+      "name": "Serbia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "serbia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SYC",
+      "name": "Seychelles",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "seychelles"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SLE",
+      "name": "Sierra Leone",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "sierra leone"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SGP",
+      "name": "Singapore",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "singapore"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SXM",
+      "name": "Sint Maarten (Dutch part)",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "sint maarten (dutch part)"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SVK",
+      "name": "Slovak Republic",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "slovak republic"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SVN",
+      "name": "Slovenia",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "slovenia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SLB",
+      "name": "Solomon Islands",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "solomon islands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SOM",
+      "name": "Somalia, Fed. Rep.",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "somalia, fed. rep."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ZAF",
+      "name": "South Africa",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "south africa"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SSD",
+      "name": "South Sudan",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "south sudan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ESP",
+      "name": "Spain",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "spain"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LKA",
+      "name": "Sri Lanka",
+      "region": "South Asia",
+      "pilot": false,
+      "aliases": [
+        "sri lanka"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "KNA",
+      "name": "St. Kitts and Nevis",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "st. kitts and nevis"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "LCA",
+      "name": "St. Lucia",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "st. lucia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "MAF",
+      "name": "St. Martin (French part)",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "st. martin (french part)"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "VCT",
+      "name": "St. Vincent and the Grenadines",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "st. vincent and the grenadines"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SDN",
+      "name": "Sudan",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "sudan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SUR",
+      "name": "Suriname",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "suriname",
+        "surinam"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SWE",
+      "name": "Sweden",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "sweden"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "CHE",
+      "name": "Switzerland",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "switzerland"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "SYR",
+      "name": "Syrian Arab Republic",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "syrian arab republic"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TJK",
+      "name": "Tajikistan",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "tajikistan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TZA",
+      "name": "Tanzania",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "tanzania"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "THA",
+      "name": "Thailand",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "thailand"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TLS",
+      "name": "Timor-Leste",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "timor-leste"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TGO",
+      "name": "Togo",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "togo"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TON",
+      "name": "Tonga",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "tonga"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TTO",
+      "name": "Trinidad and Tobago",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "trinidad and tobago"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TUN",
+      "name": "Tunisia",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "tunisia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TUR",
+      "name": "Turkiye",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "turkiye"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TKM",
+      "name": "Turkmenistan",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "turkmenistan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TCA",
+      "name": "Turks and Caicos Islands",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "turks and caicos islands"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "TUV",
+      "name": "Tuvalu",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "tuvalu"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "UGA",
+      "name": "Uganda",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "uganda"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "UKR",
+      "name": "Ukraine",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "ukraine"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ARE",
+      "name": "United Arab Emirates",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "united arab emirates"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "GBR",
+      "name": "United Kingdom",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "united kingdom"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "USA",
+      "name": "United States",
+      "region": "North America",
+      "pilot": false,
+      "aliases": [
+        "united states"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "URY",
+      "name": "Uruguay",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "uruguay",
+        "uruguai"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "UZB",
+      "name": "Uzbekistan",
+      "region": "Europe & Central Asia",
+      "pilot": false,
+      "aliases": [
+        "uzbekistan"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "VUT",
+      "name": "Vanuatu",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "vanuatu"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "VEN",
+      "name": "Venezuela",
+      "region": "Latin America & Caribbean ",
+      "pilot": true,
+      "aliases": [
+        "venezuela"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "VNM",
+      "name": "Viet Nam",
+      "region": "East Asia & Pacific",
+      "pilot": false,
+      "aliases": [
+        "viet nam"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "VIR",
+      "name": "Virgin Islands (U.S.)",
+      "region": "Latin America & Caribbean ",
+      "pilot": false,
+      "aliases": [
+        "virgin islands (u.s.)"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "PSE",
+      "name": "West Bank and Gaza",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "west bank and gaza"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "YEM",
+      "name": "Yemen, Rep.",
+      "region": "Middle East, North Africa, Afghanistan & Pakistan",
+      "pilot": false,
+      "aliases": [
+        "yemen, rep."
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ZMB",
+      "name": "Zambia",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "zambia"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    },
+    {
+      "code": "ZWE",
+      "name": "Zimbabwe",
+      "region": "Sub-Saharan Africa ",
+      "pilot": false,
+      "aliases": [
+        "zimbabwe"
+      ],
+      "political_assessment": {
+        "status": "awaiting_reviewed_baseline",
+        "direction": null,
+        "effective_date": null,
+        "evidence": []
+      }
+    }
+  ]
+}
