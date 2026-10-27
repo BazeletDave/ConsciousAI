@@ -2,8 +2,35 @@ openapi: 3.0.3
 info:
   title: GRI Ethical Intelligence Research API
   version: 0.1.0
-  description: Proposed research interface only. No server is deployed.
+  description: Research interface supporting the deployed GRI dashboard and local execution. No certification or independent validation is implied.
 paths:
+  /health:
+    get:
+      summary: Check required local dataset presence and JSON parsing
+      responses:
+        '200':
+          description: Required datasets are readable
+        '503':
+          description: A required dataset is missing or invalid
+    head:
+      summary: Return the same readiness status as GET without a response body
+      responses:
+        '200':
+          description: Required datasets are readable
+        '503':
+          description: A required dataset is missing or invalid
+  /health/collections:
+    get:
+      summary: Inspect local collection timestamps and publisher fetch outcomes
+      description: Six hour age threshold with five minute future clock tolerance. Does not control service readiness or establish evidence accuracy.
+      responses:
+        '200':
+          description: Diagnostic report with current or attention_required status
+    head:
+      summary: Check diagnostic route availability without a response body
+      responses:
+        '200':
+          description: Diagnostic route is available
   /cases:
     get:
       summary: List registered research cases

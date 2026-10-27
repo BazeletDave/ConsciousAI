@@ -5,6 +5,7 @@ import os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from assurance_engine import evaluate
+from operational_health import readiness, collection_status
 from mobility_engine import public_summary
 from model_registry import platform_capabilities
 from evaluation_pipeline import evaluation_capabilities
@@ -98,11 +99,17 @@ class Handler(BaseHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "http://localhost:8000")
         self.send_header("Content-Length", str(len(payload)))
         self.end_headers()
-        self.wfile.write(payload)
+        if self.command != "HEAD":
+            self.wfile.write(payload)
 
     def do_HEAD(self):
         path = urlparse(self.path).path
-        if path in ("/", "/dashboard", "/dashboard.html", "/health"):
+        if path == "/health":
+            data = readiness(ROOT)
+            return self.send_json(200 if data["status"] == "ok" else 503, data)
+        if path == "/health/collections":
+            return self.send_json(200, collection_status(ROOT))
+        if path in ("/", "/dashboard", "/dashboard.html"):
             self.send_response(200)
             self.send_header("Content-Length", "0")
             self.send_header("Cache-Control", "no-store")
@@ -208,20 +215,10 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/mobility/summary":
                 return self.send_json(200, public_summary())
             if path == "/health":
-                required = ("cases.json", "events.json", "policies.json", "intelligence_feed.json", "international_mobility_feed.json", "research_dataset/manifest.json")
-                missing = [name for name in required if not (ROOT / name).is_file()]
-                invalid = []
-                for name in required:
-                    if name not in missing:
-                        try:
-                            load(name)
-                        except (ValueError, OSError, json.JSONDecodeError):
-                            invalid.append(name)
-                ready = not missing and not invalid
-                return self.send_json(200 if ready else 503, {"status":"ok" if ready else "degraded",
-                    "service":"GRI governance intelligence research platform",
-                    "required_datasets":len(required),"missing":missing,"invalid":invalid,
-                    "notice":"Readiness verifies local data presence and JSON parsing, not freshness, external source uptime, or independent research validation."})
+                data = readiness(ROOT)
+                return self.send_json(200 if data["status"] == "ok" else 503, data)
+            if path == "/health/collections":
+                return self.send_json(200, collection_status(ROOT))
             if path == "/cases":
                 items = records()
                 if "organization" in query:
@@ -235,7 +232,7 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/policies":
                 return self.send_json(200, load("policies.json"))
             if path == "/":
-                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/cases", "/graph", "/policies", "/events", "/assurance/overview", "/ai-intelligence", "/policy-sources", "/dashboard", "POST /assessments"], "deployment": "local_prototype"})
+                return self.send_json(200, {"service": "GRI Research Systems", "endpoints": ["/health", "/health/collections", "/cases", "/graph", "/policies", "/events", "/assurance/overview", "/ai-intelligence", "/policy-sources", "/dashboard", "POST /assessments"], "deployment": "local_prototype"})
             return self.send_json(404, {"error": "unknown_route"})
         except (ValueError, OSError, KeyError, json.JSONDecodeError):
             return self.send_json(500, {"error": "invalid_research_data"})
