@@ -61,7 +61,7 @@ def connect(records, documents):
     norms = [math.sqrt(sum(v * v for v in row.values())) for row in vectors]
     links = []
     for record in records:
-        geography = " ".join({"BRA": "Brazil", "ISR": "Israel"}.get(c, "") for c in record.get("country_codes", []))
+        geography = " ".join({"BRA": "Brazil", "ISR": "Israel", "USA": "United States"}.get(c, "") for c in record.get("country_codes", []))
         counts = Counter(retrieval_terms(record["title"] + " " + geography))
         query = {t: n * idf[t] for t, n in counts.items() if t in idf}
         norm = math.sqrt(sum(v * v for v in query.values()))

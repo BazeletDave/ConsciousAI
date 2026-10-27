@@ -53,7 +53,7 @@
       const data = await response.json();
       if (controller !== inFlight) return;
       if (!initialized) {
-        const groups = [['South America pilot', c => c.pilot], ['Comparative case: Israel', c => c.comparison_country], ['Other countries and economies · limited coverage', c => !c.pilot && !c.comparison_country]];
+        const groups = [['South America pilot', c => c.pilot], ['Comparative cases: Israel and United States', c => c.comparison_country], ['Other countries and economies · limited coverage', c => !c.pilot && !c.comparison_country]];
         byId('country-select').replaceChildren();
         for (const [label, matches] of groups) {
           const group = document.createElement('optgroup'); group.label = label;
@@ -85,7 +85,7 @@
         research.append(node('h3', comparison.title), node('p', comparison.notice, 'model-note'));
         const cases = node('div', undefined, 'intel-nav');
         for (const item of comparison.cases) {
-          const button = node('button', 'View ' + (item.code === 'BRA' ? 'Brazil' : 'Israel') + ' evidence');
+          const button = node('button', 'View ' + (data.countries.find(c => c.code === item.code)?.name || item.code) + ' evidence');
           button.type = 'button'; button.disabled = item.code === selected;
           button.addEventListener('click', () => { byId('country-select').value = item.code; byId('country-select').dispatchEvent(new Event('change')); });
           cases.append(button, link(item.label, item.url));
@@ -117,9 +117,10 @@
         const label = names[record.topic.label] || 'Topic requires review';
         card.append(node('span', label, 'pill'), node('span', 'Human review required', 'pill'));
         if (changes.has(record.id)) card.append(node('span', changes.get(record.id) === 'metadata_changed' ? 'Metadata revised since prior run' : 'Newly discovered in latest run', 'pill'));
-        card.append(node('h4', record.title), node('p', record.publisher + ' · Published ' + date(record.published_at), 'meta'));
+        card.append(node('h4', record.title), node('p', record.publisher + ' · Published ' + (record.published_at ? date(record.published_at) : record.publication_date || 'Not supplied by publisher'), 'meta'));
         const provenance = node('details'); provenance.append(node('summary', 'Evidence and model details'));
         provenance.append(node('p', 'First observed ' + date(record.first_seen_at) + ' · Last seen ' + date(record.last_seen_at), 'meta'));
+        if (record.source_observed_at) provenance.append(node('p', 'Upstream observation ' + date(record.source_observed_at) + '. Local snapshot compilation does not establish a new source fetch.', 'meta'));
         provenance.append(node('p', 'Country assignment: publisher jurisdiction or title mention, subject to review. Legal status: ' + record.legal_status.replaceAll('_', ' ') + '.', 'meta'));
         provenance.append(node('p', record.topic.abstained ? 'ML abstained. A reviewer must assign the topic.' : 'Experimental ML topic suggestion · uncalibrated weight ' + record.topic.score + '. This is not impact confidence.', 'meta'));
         card.append(provenance, link('Inspect publisher record', record.source_url));
