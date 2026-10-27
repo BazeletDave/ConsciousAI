@@ -1442,14 +1442,17 @@
       "region": "Middle East, North Africa, Afghanistan & Pakistan",
       "pilot": false,
       "aliases": [
-        "israel"
+        "israel",
+        "israeli",
+        "ישראל"
       ],
       "political_assessment": {
         "status": "awaiting_reviewed_baseline",
         "direction": null,
         "effective_date": null,
         "evidence": []
-      }
+      },
+      "comparison_country": true
     },
     {
       "code": "ITA",

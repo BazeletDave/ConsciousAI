@@ -180,3 +180,7 @@ The [country intelligence methods](../Research-Governance/ConsciousAI-Research-S
 - Compare this case to the existing GRI [Uber and Lyft dossier](../Algorithmic-Management/Uber-Lyft-Research/README.md) and [Participant 0107 interview](../Algorithmic-Management/Uber-Lyft-Research/appendix-a-interview-0107-2026-10-23.md).
 
 **Authorship:** Grand Research Institute | Independent research development record | October 23, 2026.
+
+## Comparative continuation: Israel
+
+The [Israel institutional platform case](2026-10-27-israel-platform-governance-ai-paradox.md) follows this study with a separate primary source register for digital electoral coordination, AI governance and economic uncertainty. The [Brazil and Israel research framework](2026-10-27-brazil-israel-comparative-institutional-intelligence.md) connects both cases through From Code to Consciousness, the Fourth Industrial Revolution, algorithmic management and the AI Paradox. The comparison proposes shared questions and instruments; it does not establish identical conduct, common causes or validated electoral effects.

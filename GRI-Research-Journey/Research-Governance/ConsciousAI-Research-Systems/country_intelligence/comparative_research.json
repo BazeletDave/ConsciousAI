@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "title": "Brazil and Israel: comparative institutional intelligence",
+  "status": "comparative_research_not_causal_equivalence",
+  "countries": [
+    "BRA",
+    "ISR"
+  ],
+  "cases": [
+    {
+      "code": "BRA",
+      "label": "Brazil platform governance case",
+      "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md"
+    },
+    {
+      "code": "ISR",
+      "label": "Israel electoral platforms and institutional AI case",
+      "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-israel-platform-governance-ai-paradox.md"
+    }
+  ],
+  "comparison_url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-comparative-institutional-intelligence.md",
+  "themes": [
+    {
+      "name": "From Code to Consciousness",
+      "question": "Who authorizes decisions, understands consequences and provides meaningful human review?",
+      "evidence_status": "GRI conceptual interpretation; no machine sentience claim"
+    },
+    {
+      "name": "Fourth Industrial Revolution",
+      "question": "How do digital information, AI capability and physical infrastructure combine to reshape institutional power?",
+      "evidence_status": "Comparative research lens; effects require measurement"
+    },
+    {
+      "name": "Algorithmic management",
+      "question": "How are ranking, moderation, allocation and appeal decisions governed across platforms and workplaces?",
+      "evidence_status": "Shared management mechanisms proposed for study; not evidence of identical systems"
+    },
+    {
+      "name": "The AI Paradox",
+      "question": "Does capability grow faster than evidence, authority and accountability can adapt?",
+      "evidence_status": "Testable GRI hypothesis; not a confirmed causal result"
+    },
+    {
+      "name": "GRI Research Journey",
+      "question": "How do country observations become traceable evidence, comparative learning and revised governance?",
+      "evidence_status": "Versioned evidence and review pathway"
+    }
+  ],
+  "notice": "Analytical links compare mechanisms and questions. They do not prove coordinated conduct, identical political events, electoral manipulation, or causal economic impacts."
+}
