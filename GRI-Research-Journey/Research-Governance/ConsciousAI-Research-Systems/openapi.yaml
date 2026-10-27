@@ -4,6 +4,28 @@ info:
   version: 0.1.0
   description: Research interface supporting the deployed GRI dashboard and local execution. No certification or independent validation is implied.
 paths:
+  /intelligence/countries:
+    get:
+      summary: Country evidence, source health and experimental ML topic suggestions
+      description: Limited publisher coverage. Political direction and causal impacts require separately reviewed evidence. No political forecasts are generated.
+      parameters:
+        - in: query
+          name: country
+          schema:
+            type: string
+          description: World Bank three letter country or economy code, such as BRA
+        - in: query
+          name: topic
+          schema:
+            type: string
+            enum: [political_institutions, trade_investment, organizational_management, algorithmic_management, artificial_intelligence, needs_review]
+      responses:
+        '200':
+          description: Filtered metadata candidates, catalog, collection status and model evaluation
+        '400':
+          description: Invalid topic or snapshot
+        '404':
+          description: Unknown country code
   /health:
     get:
       summary: Check required local dataset presence and JSON parsing
