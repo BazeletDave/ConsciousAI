@@ -166,3 +166,7 @@ The [Uber and Lyft observational dossier](../Algorithmic-Management/Uber-Lyft-Re
 ## Brazil 2026 | Thunderbird institutional AI governance comparison
 
 [Read the October 23, 2026 Brazil electoral platform governance case](2026-10-23-brazil-election-ai-platform-governance-tam505.md). GRI applies the institutional analytical approach taught by Professor Roy C. Nelson at Thunderbird School of Global Management at Arizona State University to reported Meta content restrictions, AI political media and electoral oversight, with an explicit evidence register and comparisons to Uber and Lyft algorithmic management. Allegations and hypotheses are not presented as verified platform mechanisms or electoral effects.
+
+## Comparative country intelligence: Brazil and Israel
+
+[Explore the comparative framework](2026-10-27-brazil-israel-comparative-institutional-intelligence.md) connecting the [Brazil case](2026-10-23-brazil-election-ai-platform-governance-tam505.md) and the [Israel case](2026-10-27-israel-platform-governance-ai-paradox.md) to From Code to Consciousness, the Fourth Industrial Revolution, algorithmic management, institutional authority and the AI Paradox. Dated evidence, source access limits and causal uncertainty remain visible in each country study.

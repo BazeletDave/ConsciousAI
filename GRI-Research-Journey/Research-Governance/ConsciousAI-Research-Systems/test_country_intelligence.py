@@ -120,3 +120,26 @@ class CountryIntelligenceTests(unittest.TestCase):
         self.assertIsNone(publication_time(None))
         self.assertIsNone(publication_time('2026-10-27'))
         self.assertIsNone(publication_time('invalid'))
+
+    def test_official_document_watcher_rejects_access_walls(self):
+        source = dict(SOURCE, mode="official_document", country="ISR", expected_title="Research Department Staff Forecast")
+        raw = b'<html><head><title>Research Department Staff Forecast | Bank of Israel</title></head></html>'
+        row = parse(raw, source)[0]
+        self.assertEqual(row['document_type'], 'fixed_official_document_metadata')
+        self.assertIsNone(row['published_at'])
+        for raw in [b'<html><title>Access denied</title></html>', b'<html><h1>Research Department Staff Forecast</h1></html>']:
+            with self.assertRaises(ValueError): parse(raw, source)
+
+    def test_israel_is_comparative_case_without_changing_pilot(self):
+        from country_intelligence import load_catalog
+        catalog = load_catalog()['countries']
+        israel = next(c for c in catalog if c['code'] == 'ISR')
+        self.assertTrue(israel['comparison_country'])
+        self.assertFalse(israel['pilot'])
+        self.assertEqual(country_mentions('ישראל', [israel]), ['ISR'])
+        self.assertTrue(TopicModel().predict('בחירות בישראל')['abstained'])
+        data = snapshot('ISR')
+        self.assertEqual(data['comparative_research']['countries'], ['BRA', 'ISR'])
+        self.assertEqual(len(data['comparative_research']['themes']), 5)
+        self.assertTrue(all(c['url'].startswith('https://github.com/BazeletDave/ConsciousAI/') for c in data['comparative_research']['cases']))
+        self.assertEqual(data['comparative_research']['status'], 'comparative_research_not_causal_equivalence')

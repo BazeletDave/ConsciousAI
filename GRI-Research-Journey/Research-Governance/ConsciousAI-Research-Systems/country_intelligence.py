@@ -27,6 +27,9 @@ SOURCES = [
     {"id": "UN-AMERICAS", "publisher": "UN News", "url": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml", "host": "news.un.org", "mode": "rss", "country": None},
     {"id": "BRA-MDIC", "publisher": "Brazil Ministry of Development, Industry, Trade and Services", "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/@@RSS", "host": "www.gov.br", "mode": "rss", "country": "BRA"},
     {"id": "BRA-CAMARA", "publisher": "Brazil Chamber of Deputies", "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?keywords=intelig%C3%AAncia%20artificial&ordem=DESC&ordenarPor=id&itens=30", "host": "dadosabertos.camara.leg.br", "mode": "camara", "country": "BRA"},
+    {"id": "UN-MIDDLE-EAST", "publisher": "UN News", "url": "https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml", "host": "news.un.org", "mode": "rss", "country": None},
+    {"id": "ISR-BOI-FORECAST", "publisher": "Bank of Israel", "url": "https://boi.org.il/en/communication-and-publications/press-releases/21-10-26-aen/", "host": "boi.org.il", "mode": "official_document", "country": "ISR", "expected_title": "Research Department Staff Forecast"},
+    {"id": "ISR-CEC-DIGITAL", "publisher": "Israel Central Elections Committee", "url": "https://www.gov.il/en/pages/dover_21", "host": "www.gov.il", "mode": "official_document", "country": "ISR", "expected_title": "26th Knesset"},
 ]
 CHANNELS = {
     "political_institutions": "Review governing authority, coalition support, institutional constraints and effective dates.",
@@ -44,6 +47,25 @@ class PlainText(HTMLParser):
 
     def handle_data(self, text):
         self.parts.append(text)
+
+
+class DocumentTitle(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.in_title = False
+        self.parts = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "title":
+            self.in_title = True
+
+    def handle_endtag(self, tag):
+        if tag == "title":
+            self.in_title = False
+
+    def handle_data(self, text):
+        if self.in_title:
+            self.parts.append(text)
 
 
 def plain(text, limit=350):
@@ -91,7 +113,15 @@ def publication_time(value):
 
 
 def parse(raw, source):
-    if source["mode"] == "camara":
+    if source["mode"] == "official_document":
+        parser = DocumentTitle()
+        parser.feed(raw.decode("utf-8", "replace"))
+        title = plain(" ".join(parser.parts))
+        if normalize(source["expected_title"]) not in normalize(title):
+            raise ValueError("Expected official document title absent; possible access wall")
+        rows = [{"title": title, "source_url": source["url"], "published_at": None,
+                 "document_type": "fixed_official_document_metadata", "legal_status": "not_assessed"}]
+    elif source["mode"] == "camara":
         data = json.loads(raw)
         if not isinstance(data, dict) or not isinstance(data.get("dados"), list):
             raise ValueError("Invalid Chamber response")
@@ -210,7 +240,8 @@ def snapshot(code=None, topic=None):
     return dict(data, records=selected, count=len(selected),
                 countries=[dict(c, record_count=counts[c["code"]]) for c in countries],
                 selected_country=code, selected_topic=topic, channels=CHANNELS,
-                coverage="South America pilot plus country mentions in limited international publisher feeds; not comprehensive worldwide monitoring",
+                comparative_research=json.loads((DATA / "comparative_research.json").read_text(encoding="utf-8")),
+                coverage="South America pilot and Israel comparative extension, with limited publisher coverage; not comprehensive worldwide monitoring",
                 brazil_research_url="https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md")
 
 

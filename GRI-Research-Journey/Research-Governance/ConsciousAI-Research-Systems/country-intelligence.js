@@ -41,11 +41,11 @@
       const data = await response.json();
       if (controller !== inFlight) return;
       if (!initialized) {
-        const groups = [['South America pilot', true], ['Other countries and economies · limited coverage', false]];
+        const groups = [['South America pilot', c => c.pilot], ['Comparative case: Israel', c => c.comparison_country], ['Other countries and economies · limited coverage', c => !c.pilot && !c.comparison_country]];
         byId('country-select').replaceChildren();
-        for (const [label, pilot] of groups) {
+        for (const [label, matches] of groups) {
           const group = document.createElement('optgroup'); group.label = label;
-          data.countries.filter(c => c.pilot === pilot).forEach(c => {
+          data.countries.filter(matches).forEach(c => {
             const option = node('option', c.name); option.value = c.code; group.append(option);
           });
           byId('country-select').append(group);
@@ -63,6 +63,26 @@
         card.append(node('b', names[key]), node('span', rows.filter(r => r.topic.label === key).length + ' candidates in this selection'), node('p', question, 'model-note'));
         channels.append(card);
       });
+      const research = byId('country-comparative'); research.replaceChildren();
+      const comparison = data.comparative_research;
+      research.hidden = !comparison || !comparison.countries.includes(selected);
+      if (!research.hidden) {
+        research.append(node('h3', comparison.title), node('p', comparison.notice, 'model-note'));
+        const cases = node('div', undefined, 'intel-nav');
+        for (const item of comparison.cases) {
+          const button = node('button', 'View ' + (item.code === 'BRA' ? 'Brazil' : 'Israel') + ' evidence');
+          button.type = 'button'; button.disabled = item.code === selected;
+          button.addEventListener('click', () => { byId('country-select').value = item.code; byId('country-select').dispatchEvent(new Event('change')); });
+          cases.append(button, link(item.label, item.url));
+        }
+        research.append(cases, link('Read the comparative institutional framework', comparison.comparison_url));
+        const themes = node('div', undefined, 'country-channels');
+        for (const theme of comparison.themes) {
+          const card = node('article', undefined, 'model-field');
+          card.append(node('b', theme.name), node('p', theme.question, 'model-note'), node('span', theme.evidence_status)); themes.append(card);
+        }
+        research.append(themes);
+      }
       const health = byId('country-sources'); health.replaceChildren();
       for (const source of data.sources) {
         const age = source.last_success_at ? (Date.now() - Date.parse(source.last_success_at)) / 3600000 : NaN;
@@ -98,6 +118,8 @@
       byId('country-state').textContent = 'Country evidence unavailable. Other dashboard services remain available.';
       byId('country-records').replaceChildren(node('p', 'The request failed or timed out. Refresh to retry.'));
       byId('country-channels').replaceChildren();
+      byId('country-comparative').replaceChildren();
+      byId('country-comparative').hidden = true;
       byId('country-sources').replaceChildren();
       byId('country-model').textContent = 'Model information unavailable for this request.';
       byId('country-baseline').textContent = 'Country assessment unavailable for this request.';
@@ -107,6 +129,15 @@
       if (controller === inFlight) byId('country-refresh').disabled = false;
     }
   }
+  const requested = new URLSearchParams(window.location.search).get('country');
+  if (requested && /^[A-Z]{3}$/.test(requested)) {
+    const option = node('option', requested); option.value = requested;
+    byId('country-select').append(option); byId('country-select').value = requested;
+  }
+  byId('country-select').addEventListener('change', () => {
+    const url = new URL(window.location.href); url.searchParams.set('country', byId('country-select').value);
+    window.history.replaceState(null, '', url);
+  });
   ['country-select', 'country-topic', 'country-changes-only'].forEach(id => byId(id).addEventListener('change', refresh));
   byId('country-refresh').addEventListener('click', refresh);
   refresh();
