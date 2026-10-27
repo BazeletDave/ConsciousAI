@@ -121,6 +121,23 @@ class ResearchServiceTests(unittest.TestCase):
         self.assertEqual(data["missing"], [])
         self.assertEqual(data["invalid"], [])
 
+    def test_global_network_asset_is_served_as_an_image(self):
+        path = f"http://127.0.0.1:{self.port}/assets/global-institutional-network-v1.webp"
+        with urlopen(path, timeout=3) as response:
+            body = response.read()
+            self.assertEqual(response.headers['Content-Type'], 'image/webp')
+            self.assertEqual(response.headers['X-Content-Type-Options'], 'nosniff')
+            self.assertEqual(body[:4], b'RIFF')
+            self.assertEqual(body[8:12], b'WEBP')
+            self.assertEqual(int(response.headers['Content-Length']), len(body))
+        with urlopen(Request(path, method='HEAD'), timeout=3) as response:
+            self.assertEqual(response.status, 200)
+            self.assertGreater(int(response.headers['Content-Length']), 0)
+            self.assertEqual(response.read(), b'')
+        with self.assertRaises(HTTPError) as ctx:
+            urlopen(f"http://127.0.0.1:{self.port}/assets/cases.json", timeout=3)
+        self.assertEqual(ctx.exception.code, 404)
+
     def test_health_get_and_head_agree_on_missing_data(self):
         from tempfile import TemporaryDirectory
         from pathlib import Path
