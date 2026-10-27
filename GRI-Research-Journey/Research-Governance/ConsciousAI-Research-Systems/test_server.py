@@ -168,5 +168,14 @@ class ResearchServiceTests(unittest.TestCase):
             self.assertIn("text/javascript", response.headers["Content-Type"])
             self.assertIn(b"textContent", response.read())
 
+    def test_research_evolution_is_explicitly_separate_from_active_training(self):
+        data = self.fetch('/institutional/research-evolution')
+        self.assertGreater(data['document_count'], 0)
+        self.assertFalse(data['learning_candidate']['active_model_updated'])
+        self.assertEqual(data['learning_candidate']['status'], 'blocked')
+        country = self.fetch('/intelligence/countries?country=BRA')
+        self.assertNotIn('documents', country['research_evolution'])
+        self.assertTrue(all('related_research' in r for r in country['records']))
+
 if __name__ == "__main__":
     unittest.main()

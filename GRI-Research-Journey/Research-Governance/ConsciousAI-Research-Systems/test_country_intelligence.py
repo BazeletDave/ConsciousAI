@@ -121,6 +121,14 @@ class CountryIntelligenceTests(unittest.TestCase):
         self.assertIsNone(publication_time('2026-10-27'))
         self.assertIsNone(publication_time('invalid'))
 
+    def test_directory_metadata_is_excluded_with_audit_record(self):
+        previous = self.run_collection(raw=rss('Brazil news directory', 'https://example.org/news/2026'))
+        source = dict(SOURCE, article_path=r'/news/\d{4}/[^/]+')
+        data = collect(previous, fetcher=lambda s: rss('Brazil trade news', 'https://example.org/news/2026/trade'), sources=[source], countries=COUNTRIES, now=LATER)
+        self.assertEqual(len(data['records']), 1)
+        self.assertEqual(data['quality_exclusions'][0]['reason'], 'directory_or_nonarticle_path')
+        self.assertTrue(data['records'][0]['source_url'].endswith('/trade'))
+
     def test_official_document_watcher_rejects_access_walls(self):
         source = dict(SOURCE, mode="official_document", country="ISR", expected_title="Research Department Staff Forecast")
         raw = b'<html><head><title>Research Department Staff Forecast | Bank of Israel</title></head></html>'

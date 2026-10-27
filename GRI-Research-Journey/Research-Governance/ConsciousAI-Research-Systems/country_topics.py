@@ -72,10 +72,14 @@ def tokens(text):
 
 
 class TopicModel:
-    def __init__(self):
-        self.counts = {label: Counter(tokens(" ".join(rows))) for label, rows in EXAMPLES.items()}
+    def __init__(self, examples=None):
+        examples = EXAMPLES if examples is None else examples
+        if set(examples) != set(EXAMPLES) or any(not isinstance(rows, list) or not rows or not all(isinstance(x, str) and tokens(x) for x in rows) for rows in examples.values()):
+            raise ValueError("All topic classes require nonempty training examples")
+        self.counts = {label: Counter(tokens(" ".join(rows))) for label, rows in examples.items()}
         self.vocabulary = set().union(*(set(c) for c in self.counts.values()))
-        self.training_sha256 = hashlib.sha256(json.dumps(EXAMPLES, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+        self.training_sha256 = hashlib.sha256(json.dumps(examples, sort_keys=True, ensure_ascii=False).encode()).hexdigest()
+        self.version = VERSION if examples is EXAMPLES else VERSION + "-candidate-" + self.training_sha256[:12]
 
     def predict(self, text):
         counts = Counter(tokens(text[:10000]))
@@ -94,7 +98,7 @@ class TopicModel:
         return {"label": label if accepted else "needs_review", "suggested_label": label,
                 "score": round(weight, 4), "score_type": "uncalibrated_topic_weight",
                 "known_terms": len(overlap), "abstained": not accepted,
-                "model_version": VERSION, "human_review_required": True}
+                "model_version": self.version, "human_review_required": True}
 
     def evaluation(self):
         pairs = [(expected, self.predict(text)["label"]) for expected, rows in HOLDOUT.items() for text in rows]

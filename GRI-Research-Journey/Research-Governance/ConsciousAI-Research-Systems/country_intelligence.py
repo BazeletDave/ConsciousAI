@@ -25,7 +25,7 @@ MAX_BYTES = 2_000_000
 SOURCES = [
     {"id": "WTO", "publisher": "WTO news", "url": "https://www.wto.org/library/rss/latest_news_e.xml", "host": "www.wto.org", "mode": "rss", "country": None},
     {"id": "UN-AMERICAS", "publisher": "UN News", "url": "https://news.un.org/feed/subscribe/en/news/region/americas/feed/rss.xml", "host": "news.un.org", "mode": "rss", "country": None},
-    {"id": "BRA-MDIC", "publisher": "Brazil Ministry of Development, Industry, Trade and Services", "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/@@RSS", "host": "www.gov.br", "mode": "rss", "country": "BRA"},
+    {"id": "BRA-MDIC", "publisher": "Brazil Ministry of Development, Industry, Trade and Services", "url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/ultimas-noticias/@@RSS", "host": "www.gov.br", "mode": "rss", "country": "BRA", "article_path": r"/mdic/pt-br/assuntos/noticias/\d{4}/[^/]+/[^/]+"},
     {"id": "BRA-CAMARA", "publisher": "Brazil Chamber of Deputies", "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes?keywords=intelig%C3%AAncia%20artificial&ordem=DESC&ordenarPor=id&itens=30", "host": "dadosabertos.camara.leg.br", "mode": "camara", "country": "BRA"},
     {"id": "UN-MIDDLE-EAST", "publisher": "UN News", "url": "https://news.un.org/feed/subscribe/en/news/region/middle-east/feed/rss.xml", "host": "news.un.org", "mode": "rss", "country": None},
     {"id": "ISR-BOI-FORECAST", "publisher": "Bank of Israel", "url": "https://boi.org.il/en/communication-and-publications/press-releases/21-10-26-aen/", "host": "boi.org.il", "mode": "official_document", "country": "ISR", "expected_title": "Research Department Staff Forecast"},
@@ -150,7 +150,8 @@ def parse(raw, source):
             rows.append({"title": plain(fields.get("title")), "source_url": fields.get("link", ""),
                          "published_at": publication_time(fields.get("pubDate") or fields.get("published") or fields.get("date")),
                          "document_type": "publisher_news_metadata", "legal_status": "not_assessed"})
-    return [r for r in rows if r["title"] and permitted(r["source_url"], source["host"])][:60]
+    return [r for r in rows if r["title"] and permitted(r["source_url"], source["host"])
+            and (not source.get("article_path") or re.fullmatch(source["article_path"], urlparse(r["source_url"]).path.rstrip("/")))][:60]
 
 
 def country_mentions(title, countries):
@@ -165,6 +166,13 @@ def collect(previous=None, fetcher=fetch, sources=None, countries=None, now=None
     previous = previous or {}
     prior = {r["id"]: r for r in previous.get("records", [])}
     source_prior = {s["id"]: s for s in previous.get("sources", [])}
+    exclusions = list(previous.get("quality_exclusions", []))
+    for source in sources:
+        if source.get("article_path"):
+            for identity, row in list(prior.items()):
+                if row["source_id"] == source["id"] and not re.fullmatch(source["article_path"], urlparse(row["source_url"]).path.rstrip("/")):
+                    exclusions.append({"record_id": identity, "source_id": source["id"], "reason": "directory_or_nonarticle_path", "observed_at": now})
+                    del prior[identity]
     model = TopicModel()
     health, seen, changes = [], set(), []
 
@@ -208,6 +216,7 @@ def collect(previous=None, fetcher=fetch, sources=None, countries=None, now=None
     return {"schema_version": "1.0", "generated_at": now, "mode": "publisher_metadata_with_experimental_ml_topic_triage",
             "collection_status": "all_sources_failed" if health and all(s["status"] == "failed" for s in health) else "partial_failure" if any(s["status"] == "failed" for s in health) else "completed",
             "sources": health, "records": records, "changes": changes,
+            "quality_exclusions": exclusions[-100:],
             "retention_limit": 1000, "collection_count": len(seen), "model": model.evaluation(),
             "notice": "Country mentions and ML topics are review candidates. New discovery is not a new political event. No ideology, election outcome, legal force, or causal economic impact is inferred."}
 
@@ -236,8 +245,13 @@ def snapshot(code=None, topic=None):
     data = read_feed()
     all_records = data.get("records", [])
     selected = [r for r in all_records if (not code or code in r["country_codes"]) and (not topic or r["topic"]["label"] == topic)]
+    from research_evolution import load as load_evolution
+    evolution = load_evolution()
+    links = {(x["record_id"], x["content_sha256"]): x["research"] for x in evolution.get("evidence_connections", [])}
+    selected = [dict(r, related_research=links.get((r["id"], r["content_sha256"]), [])) for r in selected]
     counts = {c["code"]: sum(c["code"] in r["country_codes"] for r in all_records) for c in countries}
     return dict(data, records=selected, count=len(selected),
+                research_evolution={k: v for k, v in evolution.items() if k not in ("documents", "evidence_connections")},
                 countries=[dict(c, record_count=counts[c["code"]]) for c in countries],
                 selected_country=code, selected_topic=topic, channels=CHANNELS,
                 comparative_research=json.loads((DATA / "comparative_research.json").read_text(encoding="utf-8")),
