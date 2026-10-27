@@ -99,12 +99,15 @@
         research.append(themes);
       }
       const health = byId('country-sources'); health.replaceChildren();
+      const available = data.sources.filter(s => s.status === 'fetched' || s.status === 'empty').length;
+      byId('country-coverage-summary').textContent = available + ' of ' + data.sources.length + ' configured sources available at last collection. ' + (available < data.sources.length ? 'Coverage is limited; unavailable sources are checked again on the next scheduled run.' : 'Collection timestamps and source details are available below.');
       for (const source of data.sources) {
         const age = source.last_success_at ? (Date.now() - Date.parse(source.last_success_at)) / 3600000 : NaN;
         const current = Number.isFinite(age) && age >= -5/60 && age <= 6;
-        const label = source.status === 'failed' ? 'Collection failed' : !current ? 'Collection stale or unavailable' : source.status === 'empty' ? 'Fetched with no usable items' : 'Collection current';
+        const label = source.status === 'failed' ? (source.availability_reason === 'expected_document_not_returned' ? 'Expected document not returned; no evidence accepted' : 'Source unavailable at last attempt') : !current ? 'Collection stale or unavailable' : source.status === 'empty' ? 'Fetched with no usable items' : 'Collection current';
         const p = node('p', undefined, 'meta');
         p.append(link(source.publisher, source.url), node('span', ' · ' + label + ' · Last success ' + date(source.last_success_at)));
+        if (source.status === 'failed') p.append(node('span', ' · Recheck: next scheduled collection · Diagnostic: ' + (source.error_type || 'unknown')));
         health.append(p);
       }
       if (!data.sources.length) health.append(node('p', 'Awaiting first source collection.'));

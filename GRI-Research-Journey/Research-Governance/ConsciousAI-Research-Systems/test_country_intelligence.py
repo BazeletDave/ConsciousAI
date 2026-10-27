@@ -21,6 +21,35 @@ class CountryIntelligenceTests(unittest.TestCase):
     def run_collection(self, raw=None, previous=None, now=NOW):
         return collect(previous, fetcher=lambda source: raw or rss(), sources=[SOURCE], countries=COUNTRIES, now=now)
 
+    def test_timeout_recovers_on_single_retry(self):
+        calls = []
+        def temporary(source):
+            calls.append(source)
+            if len(calls) == 1:
+                raise TimeoutError("temporary")
+            return rss()
+        data = collect(fetcher=temporary, sources=[SOURCE], countries=COUNTRIES, now=NOW)
+        self.assertEqual(len(calls), 2)
+        self.assertEqual(data["sources"][0]["status"], "fetched")
+
+    def test_access_denied_is_not_retried(self):
+        from urllib.error import HTTPError
+        from unittest.mock import Mock
+        fetcher = Mock(side_effect=HTTPError(SOURCE["url"], 403, "denied", {}, None))
+        data = collect(fetcher=fetcher, sources=[SOURCE], countries=COUNTRIES, now=NOW)
+        self.assertEqual(fetcher.call_count, 1)
+        self.assertEqual(data["sources"][0]["status"], "failed")
+
+    def test_title_validation_remains_unavailable_without_retry(self):
+        from unittest.mock import Mock
+        source = dict(SOURCE, mode="official_document", expected_title="Verified research")
+        fetcher = Mock(return_value=b"<html><title>Access page</title></html>")
+        data = collect(fetcher=fetcher, sources=[source], countries=COUNTRIES, now=NOW)
+        self.assertEqual(fetcher.call_count, 1)
+        self.assertEqual(data["records"], [])
+        self.assertEqual(data["sources"][0]["availability_reason"], "expected_document_not_returned")
+        self.assertEqual(data["sources"][0]["recheck_policy"], "next_scheduled_collection")
+
     def test_real_ml_has_explicit_instructional_provenance(self):
         model = TopicModel()
         result = model.predict("Artificial intelligence neural networks")

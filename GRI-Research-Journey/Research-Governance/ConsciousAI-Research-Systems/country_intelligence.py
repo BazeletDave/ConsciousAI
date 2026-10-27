@@ -13,6 +13,8 @@ import os
 from pathlib import Path
 import re
 import tempfile
+import socket
+from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, build_opener, HTTPRedirectHandler
 from xml.etree import ElementTree as ET
@@ -99,6 +101,20 @@ def fetch(source):
         if len(raw) > MAX_BYTES:
             raise ValueError("Response exceeds collection bound")
         return raw
+
+
+def fetch_with_recovery(source, fetcher):
+    """Retry one transient transport failure; never retry access or validation blocks."""
+    for attempt in range(2):
+        try:
+            return fetcher(source), attempt + 1
+        except (OSError, URLError) as error:
+            transient = (isinstance(error, HTTPError) and error.code in (500, 502, 503, 504)) or (
+                not isinstance(error, HTTPError) and (
+                    isinstance(error, (TimeoutError, socket.timeout, ConnectionError)) or
+                    isinstance(getattr(error, "reason", None), (TimeoutError, socket.timeout, ConnectionError))))
+            if not transient or attempt:
+                raise
 
 
 def publication_time(value):
@@ -205,21 +221,22 @@ def collect(previous=None, fetcher=fetch, sources=None, countries=None, now=None
 
     def retrieve(source):
         try:
-            raw = (ROOT / "policy_candidates.json").read_bytes() if source["mode"] == "federal_register_snapshot" else fetcher(source)
+            raw = (ROOT / "policy_candidates.json").read_bytes() if source["mode"] == "federal_register_snapshot" else fetch_with_recovery(source, fetcher)[0]
             collected_at = json.loads(raw)["last_collection_at"] if source["mode"] == "federal_register_snapshot" else now
-            return source, parse(raw, source), sha256(raw).hexdigest(), None, collected_at
+            return source, parse(raw, source), sha256(raw).hexdigest(), None, collected_at, None
         except (OSError, ValueError, KeyError, TypeError, ET.ParseError) as error:
-            return source, [], None, type(error).__name__, None
+            return source, [], None, type(error).__name__, None, ("expected_document_not_returned" if source["mode"] == "official_document" and isinstance(error, ValueError) and str(error).startswith("Expected official document title absent") else "source_response_unavailable_or_invalid")
 
     with ThreadPoolExecutor(max_workers=4) as pool:
-        for source, rows, digest, error, collected_at in pool.map(retrieve, sources):
+        for source, rows, digest, error, collected_at, reason in pool.map(retrieve, sources):
             prior_health = source_prior.get(source["id"], {})
             health.append({"id": source["id"], "publisher": source["publisher"], "url": source["url"],
                            "status": "failed" if error else "fetched" if rows else "empty",
                            "items": len(rows), "attempted_at": now,
                            "last_success_at": prior_health.get("last_success_at") if error else collected_at,
                            "collection_method": source["mode"],
-                           "response_sha256": digest, "error_type": error})
+                           "response_sha256": digest, "error_type": error,
+                           "availability_reason": reason, "recheck_policy": "next_scheduled_collection" if error else None})
             for row in rows:
                 classification_text = row.pop("_classification_text", row["title"])
                 codes = sorted(set(country_mentions(row["title"], countries) + ([source["country"]] if source.get("country") else [])))
