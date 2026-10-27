@@ -117,6 +117,24 @@ A research program should distinguish system capability, actual deployment, meas
 
 **Methodological rule:** Distinguish (a) platform bots and generative AI agents, (b) ordinary recommendation algorithms, and (c) human social-media coordination. Avoid conflating them. Any later claim about Trump, Zuckerberg, Meta, Bolsonaro or Lula must be anchored in dated primary records and include relevant responses or counterevidence.
 
+
+## Executable methods contribution | Platform policy Difference in Differences
+
+David Grand contributed the [synthetic platform policy model](platform_policy_did.py) to operationalize the reach component of this research. The model compares affected and comparison groups before and after a simulated policy change, with a programmed interaction effect of −8.5 reach units. The submitted specification and random seed are preserved; NumPy and pandas imports and a design clarification were added for standalone execution.
+
+Install the isolated research dependencies and run from this directory:
+
+```bash
+python -m pip install -r requirements-platform-did.txt
+python platform_policy_did.py
+```
+
+The interaction coefficient is the simulated differential change in reach. Independent OLS verification with seed 101 produced an estimate of −9.6684 with a conventional standard error of 1.3460. Synthetic outputs belong to the methods development record and must remain separate from observed Brazil evidence.
+
+The current generator samples group and period cells independently. Extension to observed account panels requires account identifiers, repeated dates, verified policy exposure, prepolicy trend assessment, account clustered inference and documentation of concurrent events. Reach is the modeled outcome; electoral and financial outcomes require separate identification strategies.
+
+**Research connection:** This instrument makes the case's platform exposure question executable within GRI's AI Governance Paradox program. Its empirical counterpart can link documented moderation events and policy dates to measured reach, comparison groups and institutional review records.
+
 ## Method and next evidence steps
 
 - Obtain original news reports and primary filings; preserve publication dates and direct quotations.
