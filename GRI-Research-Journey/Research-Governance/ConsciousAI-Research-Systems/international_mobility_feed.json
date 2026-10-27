@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T21:11:48.873290+00:00",
+  "generated_at": "2026-10-27T22:13:21.886001+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -684,6 +684,34 @@
       "publication_authorized": false
     },
     {
+      "id": "98ebcf39d3c944755fa4",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Freight Search: Composing a Shared Search Index from Independently Owned Fragments",
+      "source_url": "https://www.uber.com/us/en/blog/high-performance-search-platform/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "f849c31792b777184c6e",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Uber brings ChatGPT Work to all employees with OpenAI",
+      "source_url": "https://www.uber.com/us/en/blog/uber-announce-work/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "1326b0a7976ecfa4891d",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -817,34 +845,6 @@
       "category": "mobility_industry",
       "title": "From Chaos to Control: Addressing Shard Distribution Challenges in M3DB with Subclusters",
       "source_url": "https://www.uber.com/us/en/blog/from-chaos-to-control/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "f7d6b600ac46b47b6c00",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "Running a Software Factory Efficiently at Uber Scale",
-      "source_url": "https://www.uber.com/us/en/blog/efficient-software-factory/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "046c4612c34eee1fa894",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "Running Cost-Efficient Export Workloads at Uber",
-      "source_url": "https://www.uber.com/us/en/blog/running-cost-efficient-export/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
