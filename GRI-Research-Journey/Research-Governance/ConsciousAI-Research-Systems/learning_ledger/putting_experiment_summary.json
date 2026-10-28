@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "status": "completed_synthetic_experiment",
+  "title": "Putting curriculum comparison",
+  "trained_models": 60,
+  "training_trials": 360000,
+  "holdout_first_attempts": 90000,
+  "independent_seeds": 20,
+  "primary_finding": "No demonstrated nominal superiority of goal proximal curriculum",
+  "nominal_success": {
+    "fixed": {
+      "mean": 0.6654,
+      "low": 0.6434,
+      "high": 0.6858,
+      "seeds": 20
+    },
+    "forward": {
+      "mean": 0.6636,
+      "low": 0.6422,
+      "high": 0.6844,
+      "seeds": 20
+    },
+    "goal_proximal": {
+      "mean": 0.6652,
+      "low": 0.6436,
+      "high": 0.686,
+      "seeds": 20
+    }
+  },
+  "paired_differences": {
+    "goal_proximal_minus_forward": {
+      "mean": 0.0016000000000000124,
+      "low": -0.0005999999999999839,
+      "high": 0.004000000000000009,
+      "seeds": 20
+    },
+    "goal_proximal_minus_fixed": {
+      "mean": -0.00020000000000000017,
+      "low": -0.002800000000000008,
+      "high": 0.0021999999999999962,
+      "seeds": 20
+    }
+  },
+  "assurance_finding": "All arms acted on every hidden severe friction case; explicit scope and sensor flags were held.",
+  "model_promoted": false,
+  "reproduction": {
+    "verified": true,
+    "runs": 60,
+    "rerun_matched": true,
+    "source_hashes_checked": 3
+  },
+  "report_url": "https://github.com/BazeletDave/ConsciousAI/tree/main/GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Putting-Experiment",
+  "artifact_hashes": {
+    "protocol.json": "27b8898da397ae80639fbb178e8e2a9384c7bde99622dd8bc3eeee04e482af6c",
+    "experiment.py": "f7f595ef540812d20b5efc549afc2c8da1ce6f7eb00a32abbfae1ea6c729b6a2",
+    "test_experiment.py": "fb93051ddc644580a375e83d7c4497dd8d0e9275dd195531e889e8045b978f40",
+    "reproduce.py": "0ad9572d6e5242e89e4e39e2a431f96f88f73c17fafa63b510bc393ad409e5b2",
+    "run_manifest.json": "d6001a0b3b47a49b19b9aead3d26e9899210c1e05b6fd776fa67ea0c9250d918",
+    "results.json": "61859ad6e7e80e45cf2a7ff05a82475d7a4883c0d92e78331f38cf202f5135da",
+    "reproduction_result.json": "c7120fdbf6c29f60bda7a1e3da32eeee83ba518abf76daefc66c950b09f8ca23",
+    "README.md": "6d95530dd9b979ee63fb6eb478e8e28cedc8342bfe2c3af1b829f3b94d383a34",
+    "figure.svg": "56ae5e37e79a260f90a4099d3eb59c571d8fc0be34665f640d544b03bc5e8724"
+  }
+}

@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/gri-policy-monitor.yml'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/curriculum_experiment_bridge.py'
       - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/learning_ledger.py'
       - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/robotics_snapshot.py'
       - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/learning_ledger/program.json'
@@ -59,6 +60,7 @@ jobs:
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: |
           python robotics_snapshot.py
+          python curriculum_experiment_bridge.py
           python learning_ledger.py
       - name: Verify generated evidence and local HTTP endpoints
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems

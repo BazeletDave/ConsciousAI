@@ -1,5 +1,5 @@
 {
-  "version": "0.3",
+  "version": "0.4",
   "owner": "Grand Research Institute",
   "title": "Leadership Learning, Algorithmic Management and Institutional Assurance",
   "book": {
@@ -347,5 +347,11 @@
   ],
   "pending_source_requests": [
     "A passage explicitly describing external distraction conditioning, if this mechanism is to remain in the case; competitive pressure on page 70 is a distinct construct."
-  ]
+  ],
+  "curriculum_experiment": {
+    "status": "completed_synthetic",
+    "report_url": "https://github.com/BazeletDave/ConsciousAI/tree/main/GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Putting-Experiment",
+    "primary_finding": "No demonstrated nominal superiority of goal proximal curriculum",
+    "model_promoted": false
+  }
 }

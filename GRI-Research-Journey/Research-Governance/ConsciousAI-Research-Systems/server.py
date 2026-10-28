@@ -137,6 +137,12 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
         try:
+            if path == "/institutional/curriculum-experiment":
+                from curriculum_experiment_bridge import snapshot as experiment_snapshot
+                try:
+                    return self.send_json(200, experiment_snapshot(ROOT))
+                except (OSError, ValueError, KeyError, TypeError):
+                    return self.send_json(503, {"status":"experiment_integrity_unavailable", "model_promoted":False})
             if path == "/institutional/learning-ledger":
                 from learning_ledger import load_snapshot as learning_snapshot
                 try:

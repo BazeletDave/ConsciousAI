@@ -141,6 +141,12 @@ def main():
                  'evaluation':evolution.get('learning_candidate'),
                  'scope':'existing_topic_classifier_not_robot_motor_learning'}
     result = build(feeds, program, previous, candidate=candidate)
+    from curriculum_experiment_bridge import snapshot as experiment_snapshot
+    try:
+        result['curriculum_experiment'] = experiment_snapshot()
+    except (OSError, ValueError, KeyError, TypeError):
+        result['curriculum_experiment'] = {'status':'integrity_unavailable', 'model_promoted':False}
+    result['content_sha256'] = digest({k:v for k,v in result.items() if k != 'content_sha256'})
     OUTPUT.parent.mkdir(exist_ok=True)
     with tempfile.NamedTemporaryFile('w', dir=OUTPUT.parent, delete=False, encoding='utf8') as handle:
         json.dump(result, handle, ensure_ascii=False, indent=2)
