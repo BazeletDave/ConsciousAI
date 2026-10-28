@@ -98,10 +98,31 @@ def build(repo=REPO):
              'content_sha256':content_hash,'topics':tags,'evidence_status':status,
              'alternate_paths':[],'passages':passages(text)}
         seen[content_hash]=row;documents.append(row)
-    return {'schema_version':'1.0','generated_at':datetime.now(timezone.utc).isoformat(),
+    external_sources=[]
+    external_path=repo/'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/external_research_sources.json'
+    if external_path.is_file():
+        external=json.loads(external_path.read_text(encoding='utf-8'))
+        external_sources=external.get('sources',[])
+        allowed={'BazeletDave/ZERO','BazeletDave/from-code-to-consciousness','BazeletDave/GRI-Institutional-AI-Governance','BazeletDave/Treasury-TTB-Label-Verification'}
+        for source in external.get('documents',[]):
+            repository=source['repository'];path=source['path'];text=source['content']
+            if repository not in allowed or DENY.search(path) or len(text.encode())>200_000:continue
+            if not source['url'].startswith('https://github.com/'+repository+'/blob/') or '..' in Path(path).parts:continue
+            relative='external/'+repository+'/'+path
+            title=next((l.lstrip('# ').strip() for l in text.splitlines() if l.startswith('# ')),Path(path).stem)[:240]
+            if title.casefold()=='readme':title=repository.split('/')[-1]+' research overview'
+            content_hash=sha256(text.encode()).hexdigest()
+            if content_hash in seen:
+                seen[content_hash]['alternate_paths'].append({'path':relative,'url':source['url']});continue
+            tags=[key for key,(_,pattern) in TOPICS.items() if re.search(pattern,title+' '+text,re.I)] or ['other_gri_research']
+            row={'id':sha256(relative.encode()).hexdigest()[:20],'path':relative,'title':title,'url':source['url'],
+                 'content_sha256':content_hash,'topics':tags,'evidence_status':'public_repository_research_not_independently_verified',
+                 'alternate_paths':[],'passages':passages(text),'repository':repository}
+            seen[content_hash]=row;documents.append(row)
+    return {'external_sources':external_sources,'schema_version':'1.0','generated_at':datetime.now(timezone.utc).isoformat(),
             'documents':documents,'linked_artifacts':linked,'excluded_counts':dict(excluded),
             'corpus_digest':digest(documents),'scope':list(SCOPES),
-            'notice':'Public ConsciousAI repository research only. Files elsewhere, private chats and external repositories are not included. Repository claims require source and evidence review.'}
+            'notice':'Public ConsciousAI research and the listed public GRI repository snapshots. Private chats, restricted material and unlisted repositories are not included. Repository claims require source and evidence review.'}
 
 @lru_cache(maxsize=2)
 def load_index(signature):
@@ -125,7 +146,7 @@ def catalog(topic=None):
         'topics':[{'id':key,'title':title,'documents':sum(key in r['topics'] for r in d['documents'])} for key,(title,_) in TOPICS.items()],
         'documents':[{k:v for k,v in r.items() if k!='passages'} for r in docs],
         'linked_artifacts':d['linked_artifacts'],'excluded_counts':d['excluded_counts'],
-        'answer_method':'extractive_bm25_passage_retrieval','notice':d['notice']}
+        'external_sources':d.get('external_sources',[]),'answer_method':'extractive_bm25_passage_retrieval','notice':d['notice']}
 
 @lru_cache(maxsize=2)
 def fitted(signature):

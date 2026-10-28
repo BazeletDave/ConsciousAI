@@ -32,7 +32,8 @@
     }catch(_){if(sequence===request)answer.textContent='The research answer service is unavailable. Other dashboard modules remain available.';}
   });
   get('/research/catalog').then(d=>{
-    catalog=d;byId('research-library-status').textContent=d.document_count+' indexed documents · '+d.passage_count+' passages · '+d.linked_artifacts.length+' linked artifacts · updated '+d.generated_at;
+    catalog=d;byId('research-library-status').textContent=d.document_count+' indexed documents · '+d.passage_count+' passages · '+d.linked_artifacts.length+' linked artifacts · '+(1+(d.external_sources||[]).length)+' connected repositories · updated '+d.generated_at;
+    for(const source of (d.external_sources||[])){byId('research-library-status').append(text('p',source.repository+' · '+(source.status||'initial snapshot')+' · '+source.documents+' documents'));}
     for(const topic of d.topics){const option=text('option',topic.title+' ('+topic.documents+')');option.value=topic.id;byId('research-topic').append(option);}
     const artifacts=byId('research-library-artifacts');artifacts.replaceChildren();for(const a of d.linked_artifacts){const p=text('p','');p.append(link(a.title,a.url));artifacts.append(p);}browse();
   }).catch(()=>{byId('research-library-status').textContent='Research coverage is unavailable. Other dashboard modules remain available.';});

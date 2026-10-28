@@ -62,5 +62,7 @@ def platform_capabilities():
             "mode": "research_prototype_read_only", "models": list(MODEL_CATALOG),
             "registered_models": len(MODEL_CATALOG), "trained_models": 0,
             "model_promotion": "requires_independent_review",
+            "research_collection": {"catalog": "/research/catalog", "questions": "/research/ask",
+                "answer_method": "extractive_bm25_passage_retrieval", "generative_model": False},
             "applications": ["mobility", "governance", "institutional", "cyber"],
             "notice": "Predictive models remain planned. Enrollment document retrieval fits a TF IDF feature index to reviewed public summaries; independent retrieval evaluation is pending."}

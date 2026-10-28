@@ -11,3 +11,9 @@ GET /research/ask?q=...&topic=... uses BM25 statistical passage retrieval and re
 Existing country evidence connections now scan the broader GRI research roots as well. Their analytical links remain proposed associations, not causal findings. This integration does not train a predictive model or promote unreviewed claims.
 
 Validation: run python -m unittest discover -v. Rebuild locally with python unified_research.py. Inspect source links, topic coverage, irrelevant questions, restricted paths, long questions, source line provenance and the dashboard search flow before release.
+
+## Connected public research repositories
+
+The external research collector refreshes public text documents from BazeletDave/ZERO, BazeletDave/from-code-to-consciousness, BazeletDave/GRI-Institutional-AI-Governance, and BazeletDave/Treasury-TTB-Label-Verification every six hours. The allowlist is fixed in code. Each repository must be confirmed public before ingestion. Private content, raw participant material and source mirrors remain excluded. Successful collection replaces that repository's snapshot, removing deleted documents; failed collection retains its prior content with a visible failure status. Repository refresh status and document counts appear in the dashboard. No private repository or unlisted source is implied.
+
+The snapshots retain source Git blob and tree identifiers. Each text source is limited to 200 KB and each repository to 100 text documents. Bound failures are visible rather than silently truncating claims of complete coverage. The generated unified index is rebuilt on deployment using the latest committed snapshots. External repository questions use the same extractive evidence and uncertainty boundaries as local questions.

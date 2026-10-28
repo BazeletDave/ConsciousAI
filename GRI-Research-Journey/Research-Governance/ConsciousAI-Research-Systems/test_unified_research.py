@@ -16,7 +16,7 @@ class UnifiedResearchTests(unittest.TestCase):
         self.assertEqual(answer['status'],'sources_found')
         self.assertTrue(any('Uber' in s['title'] for s in answer['sources']))
         for source in answer['sources']:
-            self.assertTrue(source['url'].startswith('https://github.com/BazeletDave/ConsciousAI/blob/main/'))
+            self.assertTrue(source['url'].startswith('https://github.com/BazeletDave/'))
             self.assertIn('#L',source['url'])
             self.assertTrue(source['evidence_status'])
             self.assertGreaterEqual(source['line'],1)
@@ -72,6 +72,9 @@ class UnifiedResearchTests(unittest.TestCase):
         self.assertTrue(answer['sources'])
         self.assertTrue(answer['limitations'])
         for s in answer['sources']:
+            if s['path'].startswith('external/'):
+                self.assertTrue(s['url'].startswith('https://github.com/BazeletDave/'))
+                continue
             lines=(research.REPO/s['path']).read_text().splitlines()
             self.assertIn(lines[s['line']-1].strip(),s['excerpt'] if len(lines[s['line']-1].strip())<800 else lines[s['line']-1])
 
