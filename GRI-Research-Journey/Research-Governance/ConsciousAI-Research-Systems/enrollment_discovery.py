@@ -72,7 +72,11 @@ def parse(data, source):
         if not isinstance(body.get('results'), list): raise ValueError('unexpected search API schema')
         raw = [(r.get('link',''), r.get('title',''), r.get('public_timestamp')) for r in body['results'] if isinstance(r,dict)]
     else:
-        parser = Links(); parser.feed(data.decode('utf-8', 'replace')); raw = parser.rows
+        html = data.decode('utf-8', 'replace')
+        if re.search(r'<title[^>]*>[^<]*(?:access denied|just a moment|forbidden)',html,re.I) or re.search(r'verify you are human|request has been blocked',html,re.I):
+            raise ValueError('publisher access wall')
+        parser = Links(); parser.feed(html); raw = parser.rows
+        if not raw: raise ValueError('publisher index has no parseable links')
     rows = {}
     for href, title, published in raw:
         if not isinstance(href,str) or not isinstance(title,str): continue

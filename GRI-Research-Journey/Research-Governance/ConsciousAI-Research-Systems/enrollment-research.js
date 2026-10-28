@@ -79,5 +79,8 @@
   }
   form.addEventListener('submit', e => { e.preventDefault(); render(); });
   document.getElementById('enrollment-country').addEventListener('change', render);
+  // Keep an open dashboard current without creating a new collection job.
+  setInterval(() => { if (document.visibilityState === 'visible') render(); }, 60000);
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') render(); });
   render();
 })();

@@ -115,6 +115,11 @@ class EnrollmentDiscoveryTests(unittest.TestCase):
         from urllib.request import Request
         with self.assertRaises(ValueError):SafeRedirect().redirect_request(Request(SOURCE['url']),None,302,'',{},'https://evil.test/')
 
+    def test_access_walls_and_unparseable_indexes_are_not_success(self):
+        source={**SOURCE,'mode':'html'}
+        for body in [b'<title>Access Denied</title>', b'<p>Verify you are human</p>', b'<p>Loading...</p>']:
+            with self.subTest(body=body),self.assertRaises(ValueError):parse(body,source)
+
     def test_html_index_parser(self):
         source={**SOURCE,'mode':'html'}
         rows=parse(b'<a href="/government/news/identity">Student <b>loan</b> identity fraud</a><a href="https://evil.test/">Student loan fraud</a>',source)
