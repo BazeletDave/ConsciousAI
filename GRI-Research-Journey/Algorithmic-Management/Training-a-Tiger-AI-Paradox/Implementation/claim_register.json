@@ -1,0 +1,173 @@
+[
+  {
+    "id": "GRI-I001",
+    "claim": "The public research service health endpoint returned HTTP 200 in the captured observation.",
+    "evidence_class": "source_observation",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://gri-global-intelligence.onrender.com/health",
+        "origin_id": "gri-live-health"
+      }
+    ]
+  },
+  {
+    "id": "GRI-I002",
+    "claim": "The assurance overview supplied no measured accuracy or calibration at observation.",
+    "evidence_class": "source_observation",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://gri-global-intelligence.onrender.com/assurance/overview",
+        "origin_id": "gri-live-assurance"
+      }
+    ]
+  },
+  {
+    "id": "GRI-I003",
+    "claim": "A selected local reproduction of the existing assurance and mobility suites passed 14 tests.",
+    "evidence_class": "source_observation",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://github.com/BazeletDave/ConsciousAI/blob/41d2d89c3bd0e52726fc26b6676622c664fcd031/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_assurance_engine.py",
+        "origin_id": "local-baseline-run"
+      }
+    ],
+    "local_evidence": "results/baseline.json"
+  },
+  {
+    "id": "GRI-I004",
+    "claim": "ZERO provides a synthetic 36 record fixture with 18 paired scenarios.",
+    "evidence_class": "repository_document",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://github.com/BazeletDave/ZERO/blob/main/datasets/bias_audit/README.md",
+        "origin_id": "zero-authored-pilot"
+      }
+    ]
+  },
+  {
+    "id": "GRI-I005",
+    "claim": "The deposited contents photograph places putting before short game and full swing.",
+    "evidence_class": "source_observation",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [],
+    "local_asset": "IMG_7475.jpeg",
+    "source_resolution": "local asset manifest; not a public URL"
+  },
+  {
+    "id": "GRI-I006",
+    "claim": "The quotation screenshot reproduces exact words from Earl Woods.",
+    "evidence_class": "unresolved_lead",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [],
+    "local_asset": "IMG_7474.jpeg",
+    "contradiction_open": true,
+    "reason": "original page and wording not established"
+  },
+  {
+    "id": "GRI-I007",
+    "claim": "A 1993 WWI publication is listed in the historical archive.",
+    "evidence_class": "repository_document",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://github.com/BazeletDave/ConsciousAI/blob/41d2d89c3bd0e52726fc26b6676622c664fcd031/GRI-Research-Journey/Human-Leadership-to-Algorithmic-Management/README.md",
+        "origin_id": "gri-historical-index"
+      }
+    ]
+  },
+  {
+    "id": "GRI-I008",
+    "claim": "Founder reports client campaigns involving Papa John\u2019s, Tire Kingdom, and Florida Marlins.",
+    "evidence_class": "founder_account",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://github.com/BazeletDave/ConsciousAI/blob/41d2d89c3bd0e52726fc26b6676622c664fcd031/GRI-Research-Journey/Human-Leadership-to-Algorithmic-Management/README.md",
+        "origin_id": "founder-retrospective-account"
+      }
+    ]
+  },
+  {
+    "id": "GRI-I009",
+    "claim": "Founder reports New York Yankees campaign involvement.",
+    "evidence_class": "founder_account",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [],
+    "record_basis": "current user statement; dated campaign record not resolved"
+  },
+  {
+    "id": "GRI-I010",
+    "claim": "The Met announced 14 Cambodia and 2 Thailand returns in December 2023.",
+    "evidence_class": "source_observation",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://www.metmuseum.org/press-releases/return-of-khmer-works-2023-news",
+        "origin_id": "met-2023-announcement"
+      }
+    ]
+  },
+  {
+    "id": "GRI-I011",
+    "claim": "The Met announced physical transfer of the 14 Cambodia sculptures in July 2024.",
+    "evidence_class": "source_observation",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://www.metmuseum.org/press-releases/cambodia-transfer-2024-news",
+        "origin_id": "met-2024-transfer"
+      }
+    ]
+  },
+  {
+    "id": "GRI-I012",
+    "claim": "Waymax is an external mobility research simulator, not an inspected GRI trained model.",
+    "evidence_class": "repository_document",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://github.com/waymo-research/waymax/blob/main/README.md",
+        "origin_id": "waymax-author-readme"
+      }
+    ]
+  },
+  {
+    "id": "GRI-I013",
+    "claim": "Evans Research is a named lead whose exact document identity remains unresolved.",
+    "evidence_class": "unresolved_lead",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [],
+    "record_basis": "current user statement and scoped unsuccessful retrieval"
+  },
+  {
+    "id": "GRI-I014",
+    "claim": "A new offline source lineage gate detects duplicated evidence origins in a synthetic counterexample.",
+    "evidence_class": "source_observation",
+    "observed_at": "2026-10-28T13:28:47.327228+00:00",
+    "reviewer": null,
+    "sources": [
+      {
+        "url": "https://github.com/BazeletDave/ConsciousAI/blob/41d2d89c3bd0e52726fc26b6676622c664fcd031/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/assurance_engine.py",
+        "origin_id": "local-comparative-test"
+      }
+    ],
+    "local_evidence": "results/baseline.json"
+  }
+]

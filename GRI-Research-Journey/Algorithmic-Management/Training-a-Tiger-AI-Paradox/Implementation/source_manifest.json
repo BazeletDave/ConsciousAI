@@ -1,0 +1,72 @@
+[
+  {
+    "repository": "BazeletDave/ConsciousAI",
+    "path": "GRI-Research-Journey/Human-Leadership-to-Algorithmic-Management/README.md",
+    "blob_sha": "82a4c6ab07e17338ecc0eade25d0d286bce9d4dd",
+    "snapshot_path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Human-Leadership-to-Algorithmic-Management/README.md",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI/blob/41d2d89c3bd0e52726fc26b6676622c664fcd031/GRI-Research-Journey/Human-Leadership-to-Algorithmic-Management/README.md"
+  },
+  {
+    "repository": "BazeletDave/ConsciousAI",
+    "path": "GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md",
+    "blob_sha": "f08d450070870503a78def50dfcd460481f83ae6",
+    "snapshot_path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md"
+  },
+  {
+    "repository": "BazeletDave/ConsciousAI",
+    "path": "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md",
+    "blob_sha": "5302e59cc737df78d84d631bbcc0023dfbdb4e36",
+    "snapshot_path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md"
+  },
+  {
+    "repository": "BazeletDave/ConsciousAI",
+    "path": "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/mobility_engine.py",
+    "blob_sha": "0986aee87b351cd38a98ce44a29788d9b6ac5a46",
+    "snapshot_path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/mobility_engine.py",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI/blob/41d2d89c3bd0e52726fc26b6676622c664fcd031/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/mobility_engine.py"
+  },
+  {
+    "repository": "BazeletDave/ConsciousAI",
+    "path": "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/assurance_engine.py",
+    "blob_sha": "43b8488bdb919d5e7b0234c5a6e86d7a9dbd30f4",
+    "snapshot_path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/assurance_engine.py",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI/blob/41d2d89c3bd0e52726fc26b6676622c664fcd031/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/assurance_engine.py"
+  },
+  {
+    "repository": "BazeletDave/ConsciousAI",
+    "path": "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_assurance_engine.py",
+    "blob_sha": "7129929815ef9450964da40fa3f55ea00d2d67b2",
+    "snapshot_path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_assurance_engine.py",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_assurance_engine.py"
+  },
+  {
+    "repository": "BazeletDave/ConsciousAI",
+    "path": "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_mobility_engine.py",
+    "blob_sha": "2a84b4e713ef5e9ad4e82d83bbf7766c09c4d7e5",
+    "snapshot_path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_mobility_engine.py",
+    "source_url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_mobility_engine.py"
+  },
+  {
+    "repository": "BazeletDave/ZERO",
+    "path": "datasets/bias_audit/audit.py",
+    "blob_sha": "0557085fa5c7f4d18f56636889788cd708f726c8",
+    "snapshot_path": "source_snapshots/ZERO/datasets/bias_audit/audit.py",
+    "source_url": "https://github.com/BazeletDave/ZERO/blob/main/datasets/bias_audit/audit.py"
+  },
+  {
+    "repository": "BazeletDave/ZERO",
+    "path": "datasets/bias_audit/verify_pilot.py",
+    "blob_sha": "f4c8762cc30483bb83f4f81b30f9fcb748695377",
+    "snapshot_path": "source_snapshots/ZERO/datasets/bias_audit/verify_pilot.py",
+    "source_url": "https://github.com/BazeletDave/ZERO/blob/main/datasets/bias_audit/verify_pilot.py"
+  },
+  {
+    "repository": "BazeletDave/ZERO",
+    "path": "datasets/bias_audit/synthetic_pilot.jsonl",
+    "blob_sha": "7c0a9e07851a9ae8a0258c325928d1a7053acefd",
+    "snapshot_path": "source_snapshots/ZERO/datasets/bias_audit/synthetic_pilot.jsonl",
+    "source_url": "https://github.com/BazeletDave/ZERO/blob/main/datasets/bias_audit/synthetic_pilot.jsonl"
+  }
+]

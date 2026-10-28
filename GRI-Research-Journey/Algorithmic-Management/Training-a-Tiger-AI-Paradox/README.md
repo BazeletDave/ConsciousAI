@@ -33,3 +33,9 @@ This independent GRI case implies no sponsorship or endorsement by Harvard, Thun
 * [Institutional AI governance and assurance](https://github.com/BazeletDave/GRI-Institutional-AI-Governance)
 
 The Word document is the approved artifact; the Markdown edition preserves its text with pagination markers removed.
+
+## Integrated research implementation edition
+
+[Read the implementation dossier](Implementation/DOSSIER.md) · [Download its Word edition](Implementation/GRI_Integrated_Research_Implementation_Dossier.docx) · [Reproduce the code and baseline](Implementation/README.md)
+
+The 28 October 2026 implementation edition connects existing GRI systems, deposited management history, the Cambodian antiquities case, Treasury materials, ZERO, mobility, and new book source observations. It records 26 passing unit tests, ZERO integrity verification, five public endpoint observations, a source lineage counterexample and implemented offline control, a fourteen record claim register, and scoped next milestones. These results are distinct from the fictional SKL scenario and do not establish a trained golf model or a causal validation of the AI Paradox. Runtime dashboard components were not modified by this addition.

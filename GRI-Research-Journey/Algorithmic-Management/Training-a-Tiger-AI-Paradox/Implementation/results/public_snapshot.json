@@ -1,0 +1,212 @@
+{
+  "mode": "read_only_point_in_time_observation",
+  "endpoints": [
+    {
+      "url": "https://gri-global-intelligence.onrender.com/health",
+      "observed_at": "2026-10-28T13:28:47.327228+00:00",
+      "http_status": 200,
+      "response": {
+        "status": "ok",
+        "service": "GRI governance intelligence research platform",
+        "required_datasets": 6,
+        "missing": [],
+        "invalid": [],
+        "notice": "Readiness verifies local data presence and JSON parsing, not freshness, external source uptime, or independent research validation."
+      }
+    },
+    {
+      "url": "https://gri-global-intelligence.onrender.com/health/collections",
+      "observed_at": "2026-10-28T13:28:47.328211+00:00",
+      "http_status": 200,
+      "response": {
+        "schema_version": "1.0",
+        "checked_at": "2026-10-28T13:28:50.304292+00:00",
+        "status": "current",
+        "max_age_seconds": 21600,
+        "clock_skew_seconds": 300,
+        "feeds": [
+          {
+            "dataset": "policy_candidates.json",
+            "timestamp_field": "last_collection_at",
+            "collected_at": "2026-10-28T12:52:59.320007+00:00",
+            "age_seconds": 2150.984,
+            "status": "current"
+          },
+          {
+            "dataset": "intelligence_feed.json",
+            "timestamp_field": "source_last_collection_at",
+            "collected_at": "2026-10-28T12:52:59.320007+00:00",
+            "age_seconds": 2150.984,
+            "status": "current"
+          },
+          {
+            "dataset": "international_mobility_feed.json",
+            "timestamp_field": "generated_at",
+            "collected_at": "2026-10-28T12:53:01.124144+00:00",
+            "age_seconds": 2149.18,
+            "status": "current",
+            "source_collection_status": "all_fetched"
+          }
+        ],
+        "notice": "Local collection timestamps are operational metadata, not proof of source accuracy, independent verification, or complete coverage. This diagnostic does not control service readiness."
+      }
+    },
+    {
+      "url": "https://gri-global-intelligence.onrender.com/intelligence/summary",
+      "observed_at": "2026-10-28T13:28:47.329141+00:00",
+      "http_status": 200,
+      "response": {
+        "schema_version": "1.0",
+        "assessment_type": "registry_inventory_not_independent_verification",
+        "counts": {
+          "cases": 4,
+          "events": 5,
+          "policies": 0
+        },
+        "verification_status_counts": {
+          "preliminary_screenshot_and_contributor_context": 1,
+          "company_report_not_independently_replicated": 2,
+          "proposed_testable_hypothesis": 1,
+          "official_event_listing_verified": 2,
+          "official_advisory_verified": 1,
+          "multiple_news_reports_primary_incident_document_pending": 1,
+          "user_supplied_research_brief_preliminary_observations": 1
+        },
+        "notice": "Record counts do not establish independent verification, legal compliance, or causation."
+      }
+    },
+    {
+      "url": "https://gri-global-intelligence.onrender.com/assurance/overview",
+      "observed_at": "2026-10-28T13:28:47.329648+00:00",
+      "http_status": 200,
+      "response": {
+        "schema_version": "1.0",
+        "mode": "research_prototype_read_only",
+        "data_origin": "curated_watchlist_not_verified_incident_evidence",
+        "evaluated_at": null,
+        "watchlist_updated_at": "2026-10-22",
+        "records_assessed": 4,
+        "review_required": 4,
+        "eligible_for_human_publication_review": 0,
+        "accuracy": null,
+        "precision": null,
+        "recall": null,
+        "false_positive_rate": null,
+        "false_negative_rate": null,
+        "brier_score": null,
+        "drift": null,
+        "bias_evaluation": null,
+        "benchmark_status": "not_evaluated_no_independently_labeled_dataset",
+        "items": [
+          {
+            "id": "GRI-INTEL-PHP-2026",
+            "title": "PHP security advisories and reported exploitation",
+            "domain": "Cybersecurity",
+            "verification_status": "research_watchlist_pending_primary_source_review",
+            "assessment": {
+              "record_id": "GRI-INTEL-PHP-2026",
+              "record_hash": "32095ec10017a9e4f4e51fa512be40b4e6fe89116de41f70518fa7a56e4189c0",
+              "decision": "hold_for_review",
+              "flags": [],
+              "distinct_publishers": 3,
+              "review_required": true,
+              "automated_remediation_allowed": false,
+              "notice": "Not a truth certification or legal/compliance determination."
+            }
+          },
+          {
+            "id": "GRI-INTEL-FBI-CISA-2026",
+            "title": "Government cybersecurity advisories and incident coordination",
+            "domain": "Institutional governance",
+            "verification_status": "research_watchlist_pending_primary_source_review",
+            "assessment": {
+              "record_id": "GRI-INTEL-FBI-CISA-2026",
+              "record_hash": "074f27a0d0ee25c6469d1e4ab8f80626e72e8bbb7ed5cf946457dafbb2e19fe9",
+              "decision": "hold_for_review",
+              "flags": [],
+              "distinct_publishers": 3,
+              "review_required": true,
+              "automated_remediation_allowed": false,
+              "notice": "Not a truth certification or legal/compliance determination."
+            }
+          },
+          {
+            "id": "GRI-INTEL-AI-GOV-2026",
+            "title": "AI agent governance and technical control standards",
+            "domain": "AI governance",
+            "verification_status": "research_watchlist_pending_primary_source_review",
+            "assessment": {
+              "record_id": "GRI-INTEL-AI-GOV-2026",
+              "record_hash": "c06c434e0a9d99d4eb3538bd60101ba0f8c1cc6ebeaafc970c88d6b229dd1ebc",
+              "decision": "hold_for_review",
+              "flags": [],
+              "distinct_publishers": 2,
+              "review_required": true,
+              "automated_remediation_allowed": false,
+              "notice": "Not a truth certification or legal/compliance determination."
+            }
+          },
+          {
+            "id": "GRI-INTEL-GLOBAL-2026",
+            "title": "International AI policy and institutional change",
+            "domain": "Global policy",
+            "verification_status": "research_watchlist_pending_primary_source_review",
+            "assessment": {
+              "record_id": "GRI-INTEL-GLOBAL-2026",
+              "record_hash": "d747f3882979ec242af702788c3b664ef5cbc54d482d62355d1fb72b43e666e5",
+              "decision": "hold_for_review",
+              "flags": [],
+              "distinct_publishers": 2,
+              "review_required": true,
+              "automated_remediation_allowed": false,
+              "notice": "Not a truth certification or legal/compliance determination."
+            }
+          }
+        ],
+        "notice": "Evidence gating is operational; model performance, fairness and drift are not measured until independent labeled evaluation data are available."
+      }
+    },
+    {
+      "url": "https://gri-global-intelligence.onrender.com/governance/assurance-evidence",
+      "observed_at": "2026-10-28T13:28:47.330206+00:00",
+      "http_status": 200,
+      "response": {
+        "schema_version": "1.0",
+        "source": "gri_deterministic_assurance_engine",
+        "generated_at": "2026-10-28T12:53:01.183294+00:00",
+        "watchlist_updated_at": "2026-10-22",
+        "evaluation_count": 4,
+        "human_review_count": 4,
+        "results": [
+          {
+            "record_id": "GRI-INTEL-AI-GOV-2026",
+            "record_hash": "c06c434e0a9d99d4eb3538bd60101ba0f8c1cc6ebeaafc970c88d6b229dd1ebc",
+            "decision": "hold_for_review",
+            "review_required": true
+          },
+          {
+            "record_id": "GRI-INTEL-FBI-CISA-2026",
+            "record_hash": "074f27a0d0ee25c6469d1e4ab8f80626e72e8bbb7ed5cf946457dafbb2e19fe9",
+            "decision": "hold_for_review",
+            "review_required": true
+          },
+          {
+            "record_id": "GRI-INTEL-GLOBAL-2026",
+            "record_hash": "d747f3882979ec242af702788c3b664ef5cbc54d482d62355d1fb72b43e666e5",
+            "decision": "hold_for_review",
+            "review_required": true
+          },
+          {
+            "record_id": "GRI-INTEL-PHP-2026",
+            "record_hash": "32095ec10017a9e4f4e51fa512be40b4e6fe89116de41f70518fa7a56e4189c0",
+            "decision": "hold_for_review",
+            "review_required": true
+          }
+        ],
+        "scope": "Actual deterministic watchlist assurance evaluations; NOT production ML inference, model accuracy, or independent source verification.",
+        "content_sha256": "70b696da42d44ec45b555c9e4ba0297a64e814960a2b44913d780c9fc1b863b8",
+        "status": "source_integrity_checked_not_independently_audited"
+      }
+    }
+  ]
+}

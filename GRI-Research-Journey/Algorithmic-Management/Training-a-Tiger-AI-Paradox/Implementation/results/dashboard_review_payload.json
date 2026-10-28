@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.0",
+  "mode": "offline_research_review_only",
+  "records": [
+    {
+      "id": "GRI-I001",
+      "evidence_class": "source_observation",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I002",
+      "evidence_class": "source_observation",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I003",
+      "evidence_class": "source_observation",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I004",
+      "evidence_class": "repository_document",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I005",
+      "evidence_class": "source_observation",
+      "source_count": 0,
+      "declared_origin_count": 0,
+      "flags": [
+        "human_review_pending",
+        "observation_source_missing"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I006",
+      "evidence_class": "unresolved_lead",
+      "source_count": 0,
+      "declared_origin_count": 0,
+      "flags": [
+        "human_review_pending",
+        "unresolved_contradiction"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I007",
+      "evidence_class": "repository_document",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I008",
+      "evidence_class": "founder_account",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I009",
+      "evidence_class": "founder_account",
+      "source_count": 0,
+      "declared_origin_count": 0,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I010",
+      "evidence_class": "source_observation",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I011",
+      "evidence_class": "source_observation",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I012",
+      "evidence_class": "repository_document",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I013",
+      "evidence_class": "unresolved_lead",
+      "source_count": 0,
+      "declared_origin_count": 0,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    },
+    {
+      "id": "GRI-I014",
+      "evidence_class": "source_observation",
+      "source_count": 1,
+      "declared_origin_count": 1,
+      "flags": [
+        "human_review_pending"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    }
+  ],
+  "notice": "Declared origins require source review; passing checks is not verification, ML inference, or deployment authorization."
+}

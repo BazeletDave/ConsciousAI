@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-10-28T13:28:06.776115+00:00",
+  "mode": "local_reproducibility_baseline_not_field_validation",
+  "checks": [
+    {
+      "name": "existing_engines",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_calibration (test_assurance_engine.AssuranceTests.test_calibration) ... ok\ntest_classification (test_assurance_engine.AssuranceTests.test_classification) ... ok\ntest_contradiction_blocks (test_assurance_engine.AssuranceTests.test_contradiction_blocks) ... ok\ntest_drift (test_assurance_engine.AssuranceTests.test_drift) ... ok\ntest_invalid_source (test_assurance_engine.AssuranceTests.test_invalid_source) ... ok\ntest_missing_independent_evidence_fails_closed (test_assurance_engine.AssuranceTests.test_missing_independent_evidence_fails_closed) ... ok\ntest_verified_requires_human_review (test_assurance_engine.AssuranceTests.test_verified_requires_human_review) ... ok\ntest_class (test_mobility_engine.TestMobility.test_class) ... ok\ntest_deadline (test_mobility_engine.TestMobility.test_deadline) ... ok\ntest_economics (test_mobility_engine.TestMobility.test_economics) ... ok\ntest_invalid (test_mobility_engine.TestMobility.test_invalid) ... ok\ntest_no_fake_ml (test_mobility_engine.TestMobility.test_no_fake_ml) ... ok\ntest_ranking (test_mobility_engine.TestMobility.test_ranking) ... ok\ntest_sleep (test_mobility_engine.TestMobility.test_sleep) ... ok\n\n----------------------------------------------------------------------\nRan 14 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "name": "zero_integrity",
+      "exit_code": 0,
+      "stdout": "PASS: valid fixture, partition counts, pending release, and five injected data failures\n",
+      "stderr": ""
+    },
+    {
+      "name": "new_lineage_checks",
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "test_contradiction_blocks (test_claim_registry.RegistryTests.test_contradiction_blocks) ... ok\ntest_credential_url_rejected (test_claim_registry.RegistryTests.test_credential_url_rejected) ... ok\ntest_duplicate_ids_rejected (test_claim_registry.RegistryTests.test_duplicate_ids_rejected) ... ok\ntest_duplicate_url_is_detected (test_claim_registry.RegistryTests.test_duplicate_url_is_detected) ... ok\ntest_external_actions_block (test_claim_registry.RegistryTests.test_external_actions_block) ... ok\ntest_missing_source (test_claim_registry.RegistryTests.test_missing_source) ... ok\ntest_naive_timestamp_rejected (test_claim_registry.RegistryTests.test_naive_timestamp_rejected) ... ok\ntest_no_truth_or_action_authority (test_claim_registry.RegistryTests.test_no_truth_or_action_authority) ... ok\ntest_synthetic_not_empirical (test_claim_registry.RegistryTests.test_synthetic_not_empirical) ... ok\ntest_training_effect_requires_measurement (test_claim_registry.RegistryTests.test_training_effect_requires_measurement) ... ok\ntest_two_origins_still_need_review (test_claim_registry.RegistryTests.test_two_origins_still_need_review) ... ok\ntest_two_publishers_one_origin_not_independent (test_claim_registry.RegistryTests.test_two_publishers_one_origin_not_independent) ... ok\n\n----------------------------------------------------------------------\nRan 12 tests in 0.003s\n\nOK\n"
+    }
+  ],
+  "source_identities": [
+    {
+      "path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Human-Leadership-to-Algorithmic-Management/README.md",
+      "expected_blob": "82a4c6ab07e17338ecc0eade25d0d286bce9d4dd",
+      "actual_blob": "82a4c6ab07e17338ecc0eade25d0d286bce9d4dd",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md",
+      "expected_blob": "f08d450070870503a78def50dfcd460481f83ae6",
+      "actual_blob": "f08d450070870503a78def50dfcd460481f83ae6",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md",
+      "expected_blob": "5302e59cc737df78d84d631bbcc0023dfbdb4e36",
+      "actual_blob": "5302e59cc737df78d84d631bbcc0023dfbdb4e36",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/mobility_engine.py",
+      "expected_blob": "0986aee87b351cd38a98ce44a29788d9b6ac5a46",
+      "actual_blob": "0986aee87b351cd38a98ce44a29788d9b6ac5a46",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/assurance_engine.py",
+      "expected_blob": "43b8488bdb919d5e7b0234c5a6e86d7a9dbd30f4",
+      "actual_blob": "43b8488bdb919d5e7b0234c5a6e86d7a9dbd30f4",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_assurance_engine.py",
+      "expected_blob": "7129929815ef9450964da40fa3f55ea00d2d67b2",
+      "actual_blob": "7129929815ef9450964da40fa3f55ea00d2d67b2",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ConsciousAI/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_mobility_engine.py",
+      "expected_blob": "2a84b4e713ef5e9ad4e82d83bbf7766c09c4d7e5",
+      "actual_blob": "2a84b4e713ef5e9ad4e82d83bbf7766c09c4d7e5",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ZERO/datasets/bias_audit/audit.py",
+      "expected_blob": "0557085fa5c7f4d18f56636889788cd708f726c8",
+      "actual_blob": "0557085fa5c7f4d18f56636889788cd708f726c8",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ZERO/datasets/bias_audit/verify_pilot.py",
+      "expected_blob": "f4c8762cc30483bb83f4f81b30f9fcb748695377",
+      "actual_blob": "f4c8762cc30483bb83f4f81b30f9fcb748695377",
+      "matches": true
+    },
+    {
+      "path": "source_snapshots/ZERO/datasets/bias_audit/synthetic_pilot.jsonl",
+      "expected_blob": "7c0a9e07851a9ae8a0258c325928d1a7053acefd",
+      "actual_blob": "7c0a9e07851a9ae8a0258c325928d1a7053acefd",
+      "matches": true
+    }
+  ],
+  "synthetic_counterexample": {
+    "scope": "one synthetic duplicate-origin counterexample, not a population benchmark",
+    "existing_gate": {
+      "record_id": "synthetic-duplicate-origin",
+      "record_hash": "de88fbaf5260ddd90a729b6c448d0c4d4334263ee914585a503b3bedab2754af",
+      "decision": "eligible_for_human_publication_review",
+      "flags": [],
+      "distinct_publishers": 2,
+      "review_required": true,
+      "automated_remediation_allowed": false,
+      "notice": "Not a truth certification or legal/compliance determination."
+    },
+    "lineage_gate": {
+      "id": "synthetic-duplicate-origin",
+      "evidence_class": "synthetic_fixture",
+      "source_count": 2,
+      "declared_origin_count": 1,
+      "flags": [
+        "duplicate_source_url",
+        "independence_not_established",
+        "shared_evidence_origin"
+      ],
+      "disposition": "hold_for_review",
+      "truth_certified": false,
+      "autonomous_action_allowed": false
+    }
+  },
+  "zero_audit": {
+    "audit_version": "0.1.0",
+    "dataset_sha256": "6927810e6a78060a347eaf912d02a00a81cb3af150f9e9d6f0c3011973612ac6",
+    "records": 36,
+    "scenarios": 18,
+    "by_split": {
+      "test": {
+        "records": 6,
+        "label_counts": {
+          "approval_required": 2,
+          "authorized": 2,
+          "prohibited": 2
+        },
+        "style_counts": {
+          "formal": 3,
+          "plain": 3
+        }
+      },
+      "train": {
+        "records": 24,
+        "label_counts": {
+          "approval_required": 8,
+          "authorized": 8,
+          "prohibited": 8
+        },
+        "style_counts": {
+          "formal": 12,
+          "plain": 12
+        }
+      },
+      "validation": {
+        "records": 6,
+        "label_counts": {
+          "approval_required": 2,
+          "authorized": 2,
+          "prohibited": 2
+        },
+        "style_counts": {
+          "formal": 3,
+          "plain": 3
+        }
+      }
+    },
+    "integrity_passed": true,
+    "errors": [],
+    "human_review_complete": false,
+    "training_release_approved": false,
+    "interpretation": "Integrity and design coverage only. This audit does not establish fairness, model performance, demographic representation, or freedom from bias."
+  },
+  "all_checks_passed": true
+}
