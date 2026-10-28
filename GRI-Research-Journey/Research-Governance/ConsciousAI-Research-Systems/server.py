@@ -137,6 +137,12 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
         try:
+            if path == "/institutional/learning-ledger":
+                from learning_ledger import load_snapshot as learning_snapshot
+                try:
+                    return self.send_json(200, learning_snapshot(ROOT))
+                except (ValueError, KeyError, TypeError):
+                    return self.send_json(503, {"status":"invalid_learning_ledger", "model_updated":False})
             if path == "/assets/global-institutional-network-v1.webp":
                 return self.send_network_image()
             if path == "/institutional/research-evolution":
@@ -297,3 +303,4 @@ if __name__ == "__main__":
     port = int(os.environ.get("PORT", os.environ.get("GRI_PORT", "8000")))
     print(f"GRI local research prototype at http://{host}:{port}", flush=True)
     ThreadingHTTPServer((host, port), Handler).serve_forever()
+

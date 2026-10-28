@@ -18,6 +18,7 @@ ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[2]
 OUTPUT = ROOT / "country_intelligence/research_evolution.json"
 SCOPES = ("GRI-Research-Journey/Integrated-Research-Journey",
+          "GRI-Research-Journey/Institutional-Research-Reports",
           "GRI-Research-Journey/Algorithmic-Management",
           "GRI-Research-Journey/Institutional-Governance",
           "GRI-Research-Journey/Living-AI-Ecosystem")
@@ -169,3 +170,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

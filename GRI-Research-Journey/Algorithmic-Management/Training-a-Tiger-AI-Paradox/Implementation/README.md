@@ -34,3 +34,7 @@ The public payload is an offline candidate for integration, not a deployed API c
 ## Scope
 
 No production system, model, dashboard endpoint, account, or participant data was changed. No trained golf model, Waymax execution, clinical research, government system access, or independent certification is claimed. Source snapshots are GRI materials, retained with repository and Git blob provenance. No external Waymax code or book page images are redistributed.
+
+## Leadership learning and comparative implementation
+
+[Read the dossier expansion](EXPANSION.md) for the documented Training a Tiger learning sequence, robotics publisher observations, Brazil, Israel and U.S. comparisons, institutional correction research, and the dashboard learning ledger. The existing three hour workflow now includes observation and ledger generation; active model release remains separately governed.

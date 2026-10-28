@@ -1,0 +1,187 @@
+{
+  "version": "0.1",
+  "owner": "Grand Research Institute",
+  "title": "Leadership Learning, Algorithmic Management and Institutional Assurance",
+  "book": {
+    "title": "Training a Tiger",
+    "authors": [
+      "Earl Woods",
+      "Pete McDaniel"
+    ],
+    "evidence_basis": "User supplied contents photographs; chapter titles and start pages only",
+    "quote_status": "No attributed quotation has been verified against the corresponding page",
+    "raw_book_pages_published": false
+  },
+  "learning_sequence": [
+    {
+      "id": "relationship",
+      "chapter": "Develop a Relationship",
+      "start_page": 3,
+      "proposed_translation": "Define human responsibility and learner goals",
+      "evaluation_requirement": "Document owner, purpose, affected parties and review rights",
+      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "excerpt_received": false,
+      "model_training_authorized": false
+    },
+    {
+      "id": "cooperation",
+      "chapter": "How to Work Together",
+      "start_page": 22,
+      "proposed_translation": "Specify feedback and delegation boundaries",
+      "evaluation_requirement": "Record the permitted task, escalation route and reviewer",
+      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "excerpt_received": false,
+      "model_training_authorized": false
+    },
+    {
+      "id": "mechanics",
+      "chapter": "Fundamentals and Mechanics",
+      "start_page": 37,
+      "proposed_translation": "Establish a reproducible baseline",
+      "evaluation_requirement": "Freeze system version, task definition and baseline evaluation",
+      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "excerpt_received": false,
+      "model_training_authorized": false
+    },
+    {
+      "id": "putting",
+      "chapter": "The First Phase: Putting",
+      "start_page": 56,
+      "proposed_translation": "Test a goal proximal curriculum as a research hypothesis",
+      "evaluation_requirement": "Compare against forward curriculum with matched compute and seeds",
+      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "excerpt_received": false,
+      "model_training_authorized": false
+    },
+    {
+      "id": "short_game",
+      "chapter": "The Short Game",
+      "start_page": 74,
+      "proposed_translation": "Expand task horizon after predefined evaluation",
+      "evaluation_requirement": "Record held out task outcomes and failure modes",
+      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "excerpt_received": false,
+      "model_training_authorized": false
+    },
+    {
+      "id": "full_swing",
+      "chapter": "The Full Swing",
+      "start_page": 98,
+      "proposed_translation": "Evaluate broader task scope and perturbations",
+      "evaluation_requirement": "Measure robustness separately from nominal success",
+      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "excerpt_received": false,
+      "model_training_authorized": false
+    },
+    {
+      "id": "practice",
+      "chapter": "Practice",
+      "start_page": 129,
+      "proposed_translation": "Repeat, retain errors and assess transfer",
+      "evaluation_requirement": "Document training budget, holdout design and negative results",
+      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "excerpt_received": false,
+      "model_training_authorized": false
+    },
+    {
+      "id": "seek_help",
+      "chapter": "When It’s Time to Seek Help",
+      "start_page": 169,
+      "proposed_translation": "Evaluate escalation and institutional correction",
+      "evaluation_requirement": "Measure missed interventions, review delays and verified remediation",
+      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "excerpt_received": false,
+      "model_training_authorized": false
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "robotics",
+      "scope": "Precision manipulation and humanoid robotics",
+      "question": "Does curriculum sequencing improve held out robustness under matched training budgets?"
+    },
+    {
+      "id": "road_autonomy",
+      "scope": "Waymo, Zoox and Tesla Cybercab as distinct comparison subjects",
+      "question": "How do operating domain, authority, exposure, intervention and correction differ?",
+      "status": "watchlist_not_assertion_of_deployment_or_equivalence"
+    },
+    {
+      "id": "air_mobility",
+      "scope": "Air taxis and eVTOL systems",
+      "question": "Which certification, operating authority, pilot or supervision, and infrastructure milestones are documented?"
+    },
+    {
+      "id": "institutional_correction",
+      "scope": "Cambodian antiquities and institutional legitimacy",
+      "question": "How do provenance challenge, review authority, remedy and institutional learning compare?",
+      "case_path": "GRI-Research-Journey/Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md",
+      "boundary": "Analytical governance comparison, not physical safety or ML transfer evidence"
+    }
+  ],
+  "jurisdictions": [
+    {
+      "code": "BRA",
+      "scope": "National, state and municipal authority must be distinguished",
+      "reference": "https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-consultas-setoriais-sobre-criterios-de-aeronavegabilidade-e-ruido-para-o-evtol-eve-100",
+      "reference_kind": "Dated regulator consultation announcement; not current certification proof"
+    },
+    {
+      "code": "ISR",
+      "scope": "Road trial permission, safety driver and operating conditions require instrument review",
+      "reference": "https://www.gov.il/en/departments/units/ministry_of_transport_traffic_authority",
+      "reference_kind": "Agency remit page; not an operating permit"
+    },
+    {
+      "code": "USA",
+      "scope": "Federal vehicle safety, state operation, local authority and aviation regulation require separate records",
+      "reference": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+      "aviation_reference": "https://www.faa.gov/aam",
+      "reference_kind": "Regulator information pages; verify applicable instrument and effective date"
+    }
+  ],
+  "milestones": [
+    {
+      "id": "passage_review",
+      "status": "planned",
+      "required_evidence": "Page specific paraphrase, edition and verified source context",
+      "automatic_promotion_allowed": false
+    },
+    {
+      "id": "simulation_protocol",
+      "status": "planned",
+      "required_evidence": "Task, baseline, matched budgets, seeds, perturbations and holdout plan",
+      "automatic_promotion_allowed": false
+    },
+    {
+      "id": "independent_evaluation",
+      "status": "planned",
+      "required_evidence": "Frozen data, rights, reviewer records, leakage checks and reproducible metrics",
+      "automatic_promotion_allowed": false
+    },
+    {
+      "id": "dashboard_observation",
+      "status": "planned",
+      "required_evidence": "Successful workflow and deployed endpoint observations with timestamps",
+      "automatic_promotion_allowed": false
+    },
+    {
+      "id": "candidate_model",
+      "status": "planned",
+      "required_evidence": "Existing governed candidate evaluation result plus separate release authorization",
+      "automatic_promotion_allowed": false
+    }
+  ],
+  "correction_register": [],
+  "correction_fields": [
+    "id",
+    "challenged_claim_id",
+    "prior_source_hash",
+    "corrected_source_hash",
+    "reviewer",
+    "decision",
+    "remedy_evidence",
+    "reviewed_at"
+  ],
+  "model_policy": "Collection and ledger updates run every three hours; separate candidate evaluation may run when reviewed eligible data exist; no automatic active model replacement."
+}
