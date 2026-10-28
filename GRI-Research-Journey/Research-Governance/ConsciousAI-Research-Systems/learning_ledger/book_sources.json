@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "IMG_7479",
+      "supplied_filename": "IMG_7479.jpeg",
+      "sha256": "c67c55bf5231f831cc00f6b89913b11b11999373031c4c05db70c189c22ee15c",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7478",
+      "supplied_filename": "IMG_7478.jpeg",
+      "sha256": "c7f2b0617157f763345c29982d0864850c9b640c8f2495178958363395b0160d",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7477",
+      "supplied_filename": "IMG_7477.jpeg",
+      "sha256": "e46f89d07b08f73513619b81317197f9c7084e575b1bcb4fa033196d481c7d25",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7476",
+      "supplied_filename": "IMG_7476.jpeg",
+      "sha256": "40e31d423add8e9821906febc05aa61a137356d00d49ca4cc76b526f1b1c6d5c",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7481",
+      "supplied_filename": "IMG_7481.jpeg",
+      "sha256": "a86032d95850e337a3ce59b5a83ce20c99ecda42263144eea9066a3409a16499",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7480",
+      "supplied_filename": "IMG_7480.jpeg",
+      "sha256": "74baebfb3b9715776de5ba092b88b6d2bd9dec27ecba9cd102fd7a300c344b4f",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7482",
+      "supplied_filename": "IMG_7482.jpeg",
+      "sha256": "0bf2be021d90ef5fbf6ca5fe6c4bae70cccfdfc739568e070972b4ab00a7eba6",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7484",
+      "supplied_filename": "IMG_7484.jpeg",
+      "sha256": "40710479f8965f11809c72ae23631f22bf2d4e3f3729a7d044b6140e22796530",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7483",
+      "supplied_filename": "IMG_7483.jpeg",
+      "sha256": "b0ebef68cf55753ca15cd805d0b9000ec2568b53711ebc28bbdae3cff98110d4",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_7470(2)",
+      "supplied_filename": "IMG_7470(2).jpeg",
+      "sha256": "6fa81c717f560be11d02eedc82f74b0a855a88b0ac2e01154772fbe4d57db7e5",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared"
+    }
+  ]
+}

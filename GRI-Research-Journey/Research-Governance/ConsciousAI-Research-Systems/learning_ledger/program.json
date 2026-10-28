@@ -1,5 +1,5 @@
 {
-  "version": "0.1",
+  "version": "0.2",
   "owner": "Grand Research Institute",
   "title": "Leadership Learning, Algorithmic Management and Institutional Assurance",
   "book": {
@@ -8,9 +8,17 @@
       "Earl Woods",
       "Pete McDaniel"
     ],
-    "evidence_basis": "User supplied contents photographs; chapter titles and start pages only",
-    "quote_status": "No attributed quotation has been verified against the corresponding page",
-    "raw_book_pages_published": false
+    "evidence_basis": "User supplied title page, copyright page, dedication, contents, publisher jacket and Tiger Woods foreword photographs",
+    "quote_status": "No verbatim book quotation published; earlier compound quotation remains unverified",
+    "raw_book_pages_published": false,
+    "edition": "First edition",
+    "copyright_year": 1997,
+    "publisher": "HarperCollins Publishers",
+    "isbn_10": "0-06-270178-9",
+    "copyright_holder": "Earl Woods",
+    "bibliography_status": "supported_by_supplied_photographs_not_independent_authentication",
+    "source_review_path": "book_source_review.md",
+    "source_register": "book_sources.json"
   },
   "learning_sequence": [
     {
@@ -19,9 +27,14 @@
       "start_page": 3,
       "proposed_translation": "Define human responsibility and learner goals",
       "evaluation_requirement": "Document owner, purpose, affected parties and review rights",
-      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "evidence_status": "chapter_location_supported_substantive_passage_review_pending",
       "excerpt_received": false,
-      "model_training_authorized": false
+      "model_training_authorized": false,
+      "source_review_received": true,
+      "supporting_source_ids": [
+        "IMG_7480",
+        "IMG_7481"
+      ]
     },
     {
       "id": "cooperation",
@@ -29,9 +42,14 @@
       "start_page": 22,
       "proposed_translation": "Specify feedback and delegation boundaries",
       "evaluation_requirement": "Record the permitted task, escalation route and reviewer",
-      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "evidence_status": "chapter_location_supported_substantive_passage_review_pending",
       "excerpt_received": false,
-      "model_training_authorized": false
+      "model_training_authorized": false,
+      "source_review_received": true,
+      "supporting_source_ids": [
+        "IMG_7480",
+        "IMG_7481"
+      ]
     },
     {
       "id": "mechanics",
@@ -39,9 +57,14 @@
       "start_page": 37,
       "proposed_translation": "Establish a reproducible baseline",
       "evaluation_requirement": "Freeze system version, task definition and baseline evaluation",
-      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "evidence_status": "chapter_location_supported_substantive_passage_review_pending",
       "excerpt_received": false,
-      "model_training_authorized": false
+      "model_training_authorized": false,
+      "source_review_received": true,
+      "supporting_source_ids": [
+        "IMG_7480",
+        "IMG_7481"
+      ]
     },
     {
       "id": "putting",
@@ -49,9 +72,15 @@
       "start_page": 56,
       "proposed_translation": "Test a goal proximal curriculum as a research hypothesis",
       "evaluation_requirement": "Compare against forward curriculum with matched compute and seeds",
-      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "evidence_status": "curriculum_order_supported_by_jacket_and_contents_algorithmic_translation_proposed",
       "excerpt_received": false,
-      "model_training_authorized": false
+      "model_training_authorized": false,
+      "source_review_received": true,
+      "supporting_source_ids": [
+        "IMG_7476",
+        "IMG_7480",
+        "IMG_7481"
+      ]
     },
     {
       "id": "short_game",
@@ -59,9 +88,14 @@
       "start_page": 74,
       "proposed_translation": "Expand task horizon after predefined evaluation",
       "evaluation_requirement": "Record held out task outcomes and failure modes",
-      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "evidence_status": "chapter_location_supported_substantive_passage_review_pending",
       "excerpt_received": false,
-      "model_training_authorized": false
+      "model_training_authorized": false,
+      "source_review_received": true,
+      "supporting_source_ids": [
+        "IMG_7480",
+        "IMG_7481"
+      ]
     },
     {
       "id": "full_swing",
@@ -69,9 +103,15 @@
       "start_page": 98,
       "proposed_translation": "Evaluate broader task scope and perturbations",
       "evaluation_requirement": "Measure robustness separately from nominal success",
-      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "evidence_status": "curriculum_order_supported_by_jacket_and_contents_algorithmic_translation_proposed",
       "excerpt_received": false,
-      "model_training_authorized": false
+      "model_training_authorized": false,
+      "source_review_received": true,
+      "supporting_source_ids": [
+        "IMG_7476",
+        "IMG_7480",
+        "IMG_7481"
+      ]
     },
     {
       "id": "practice",
@@ -79,9 +119,14 @@
       "start_page": 129,
       "proposed_translation": "Repeat, retain errors and assess transfer",
       "evaluation_requirement": "Document training budget, holdout design and negative results",
-      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "evidence_status": "chapter_location_supported_substantive_passage_review_pending",
       "excerpt_received": false,
-      "model_training_authorized": false
+      "model_training_authorized": false,
+      "source_review_received": true,
+      "supporting_source_ids": [
+        "IMG_7480",
+        "IMG_7481"
+      ]
     },
     {
       "id": "seek_help",
@@ -89,9 +134,14 @@
       "start_page": 169,
       "proposed_translation": "Evaluate escalation and institutional correction",
       "evaluation_requirement": "Measure missed interventions, review delays and verified remediation",
-      "evidence_status": "GRI_proposed_mapping_pending_passage_review",
+      "evidence_status": "chapter_location_supported_substantive_passage_review_pending",
       "excerpt_received": false,
-      "model_training_authorized": false
+      "model_training_authorized": false,
+      "source_review_received": true,
+      "supporting_source_ids": [
+        "IMG_7480",
+        "IMG_7481"
+      ]
     }
   ],
   "comparisons": [
@@ -172,7 +222,21 @@
       "automatic_promotion_allowed": false
     }
   ],
-  "correction_register": [],
+  "correction_register": [
+    {
+      "id": "BOOK-INTERPRETATION-2026-10-28",
+      "challenged_claim_id": "putting_first_as_universal_session_order",
+      "decision": "Distinguish developmental curriculum from recalled session order; neither alone establishes an RL algorithm.",
+      "sources": [
+        "IMG_7476",
+        "IMG_7480",
+        "IMG_7481",
+        "IMG_7483"
+      ],
+      "review_status": "GRI_source_analysis_pending_independent_review",
+      "model_update": false
+    }
+  ],
   "correction_fields": [
     "id",
     "challenged_claim_id",
@@ -183,5 +247,50 @@
     "remedy_evidence",
     "reviewed_at"
   ],
-  "model_policy": "Collection and ledger updates run every three hours; separate candidate evaluation may run when reviewed eligible data exist; no automatic active model replacement."
+  "model_policy": "Collection and ledger updates run every three hours; separate candidate evaluation may run when reviewed eligible data exist; no automatic active model replacement.",
+  "source_supported_findings": [
+    {
+      "id": "curriculum_progression",
+      "source_ids": [
+        "IMG_7476",
+        "IMG_7480",
+        "IMG_7481"
+      ],
+      "finding": "Publisher jacket and contents support progression from putting toward the full swing after basic elements are mastered.",
+      "boundary": "This supports instructional progression, not proof of an RL backward chaining implementation or improved sample efficiency."
+    },
+    {
+      "id": "learner_initiative",
+      "source_ids": [
+        "IMG_7483"
+      ],
+      "locator": "Foreword page x",
+      "finding": "Tiger retrospectively describes learner initiative and supportive parental guidance.",
+      "boundary": "Autobiographical testimony, not independent causal evidence."
+    },
+    {
+      "id": "practice_order",
+      "source_ids": [
+        "IMG_7483"
+      ],
+      "locator": "Foreword pages x to xi",
+      "finding": "Tiger recalls sessions involving the pitching area followed by the putting green.",
+      "boundary": "A practice session order need not equal a developmental curriculum; do not encode putting first as a rule for every session."
+    },
+    {
+      "id": "values_and_voice",
+      "source_ids": [
+        "IMG_7479",
+        "IMG_7482",
+        "IMG_7483"
+      ],
+      "finding": "Dedication and foreword connect education, care, support, integrity and the opportunity to express disagreement.",
+      "boundary": "GRI institutional assurance mappings are analytical proposals, not mechanisms specified by the authors."
+    }
+  ],
+  "pending_source_requests": [
+    "Selected passage from chapter 6 near page 56 explaining putting progression",
+    "Selected passage explaining distraction conditioning, with visible page number",
+    "Selected passage from chapter 13 near page 169 explaining when and how to seek help"
+  ]
 }

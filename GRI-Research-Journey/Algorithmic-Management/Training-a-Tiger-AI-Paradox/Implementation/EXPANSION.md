@@ -23,7 +23,7 @@ The existing candidate gate requires at least ten reviewed training records and 
 
 ## Documenting the Training a Tiger sequence
 
-The supplied contents photographs establish chapter names and start pages. Attributed passages require page specific verification before they can be published as Earl Woods quotations. This extension contains original analytical mappings rather than unverified quotations.
+The supplied title and copyright photographs identify the 1997 first edition. The publisher jacket supports progression from putting toward the full swing; the foreword adds learner initiative, parental support and a distinct account of practice session order. [Read the source review](../../../Research-Governance/ConsciousAI-Research-Systems/learning_ledger/book_source_review.md). The supplied contents photographs establish chapter names and start pages. Attributed passages require page specific verification before they can be published as Earl Woods quotations. This extension contains original analytical mappings rather than unverified quotations.
 
 | Source chapter and start page | Proposed GRI research translation | Evaluation requirement |
 | --- | --- | --- |
@@ -40,7 +40,7 @@ These translations are GRI proposals pending passage review. They are not a clai
 
 For each supplied passage, record edition, page, chapter, a concise original paraphrase, proposed mechanism, alternative interpretation, test, and limitation. Preserve photographs privately. Public records should contain bibliographic pointers and original analysis rather than reproduced pages or an accumulating reconstruction of the book. Book possession and a research submission do not themselves establish rights to train a model on the text.
 
-The next requested source material is the title and copyright page for edition identification, the opening explanation of the putting sequence near page 56, and one passage describing distraction or seeking outside help. Short selected passages are sufficient to start. These can refine the mapping without requiring the whole book.
+The title and copyright page have now been reviewed. The next requested source material is the opening explanation of the putting sequence near page 56 and selected passages describing distraction and seeking outside help. Short selected passages are sufficient to start. These can refine the mapping without requiring the whole book.
 
 ## Corporate and jurisdiction comparisons
 
