@@ -4,6 +4,18 @@ info:
   version: 0.1.0
   description: Research interface supporting the deployed GRI dashboard and local execution. No certification or independent validation is implied.
 paths:
+  /assurance/overview:
+    get:
+      summary: Evidence gate assessment and aggregate steward attested benchmark readiness
+      responses:
+        "200":
+          description: Metrics remain null unless a valid reviewed holdout is configured privately
+  /assurance/review-queue:
+    get:
+      summary: Candidate evidence seed manifest with hashes and human review prerequisites
+      responses:
+        "200":
+          description: Seed queue only, not authenticated review workflow state
   /institutional/tiger-assurance:
     get:
       summary: Retained synthetic independent assurance and recovery experiment

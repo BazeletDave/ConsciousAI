@@ -5,6 +5,7 @@ import os
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from assurance_engine import evaluate
+from assurance_benchmark import public_benchmark, review_queue
 from operational_health import readiness, collection_status
 from country_intelligence import snapshot as country_snapshot
 from mobility_engine import public_summary
@@ -78,16 +79,14 @@ def assurance_dashboard():
         items.append({"id": item["id"], "title": item["title"],
                       "domain": item["domain"], "verification_status": item["verification_status"],
                       "assessment": result})
-    return {"schema_version": "1.0", "mode": "research_prototype_read_only",
+    benchmark = public_benchmark()
+    return {**benchmark, "evaluation": benchmark, "review_queue_url": "/assurance/review-queue",
+            "schema_version": "1.1", "mode": "research_prototype_read_only",
             "data_origin": "curated_watchlist_not_verified_incident_evidence",
             "evaluated_at": None, "watchlist_updated_at": watchlist["updated_at"],
             "records_assessed": len(items),
             "review_required": sum(x["assessment"]["review_required"] for x in items),
             "eligible_for_human_publication_review": sum(x["assessment"]["decision"] == "eligible_for_human_publication_review" for x in items),
-            "accuracy": None, "precision": None, "recall": None,
-            "false_positive_rate": None, "false_negative_rate": None,
-            "brier_score": None, "drift": None, "bias_evaluation": None,
-            "benchmark_status": "not_evaluated_no_independently_labeled_dataset",
             "items": items,
             "notice": "Evidence gating is operational; model performance, fairness and drift are not measured until independent labeled evaluation data are available."}
 
@@ -272,6 +271,8 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, research_snapshot())
             if path == "/governance/telemetry":
                 return self.send_json(200, public_snapshot())
+            if path == "/assurance/review-queue":
+                return self.send_json(200, review_queue(load("ai_intelligence.json")))
             if path == "/assurance/overview":
                 return self.send_json(200, assurance_dashboard())
             if path in ("/research/catalog", "/research/ask"):
