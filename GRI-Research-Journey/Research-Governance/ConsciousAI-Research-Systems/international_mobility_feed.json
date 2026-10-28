@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T05:41:02.527163+00:00",
+  "generated_at": "2026-10-28T12:53:01.124144+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,54 @@
     }
   ],
   "queue": [
+    {
+      "id": "0e7f3c694b55582bcd15",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Press remarks by Commissioner J\u00f8rgensen following the Dialogue with European refineries",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2278",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "dfc049735b38594f592b",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 28 / 10 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2277",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "fdaa12538013348998f2",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Factsheet - EU Demography Toolbox",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2271",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "cb4f2bae6cf2cbba1bdb",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "New Eurobarometer survey shows young people's growing engagement and views on participatory democracy, youth issues, and EU's added value in their lives",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2274",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "74d4bf22f6c231a211e9",
       "source_id": "EU-COMMISSION-NEWS",
@@ -102,49 +150,13 @@
       "publication_authorized": false
     },
     {
-      "id": "cd09d362b35bdb1ac25f",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "5cdaa3d45fe4be9391d2",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Commission proposes to reinforce Frontex:  stronger border protection, a greater role on returns and more effective crisis response",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2260",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "a14151342a2635123763",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Factsheet - EU Framework for Climate Resilience",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2246",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "e6e913de6bd3f8f92089",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Questions and answers on the Commission proposal to reinforce Frontex: stronger border protection, a greater role on returns and more effective crisis response",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2261",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "b3bea361c19dcb41d74f",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission presents Climate Resilience Framework for a better prepared and protected Europe",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2244",
+      "title": "Guidance: Using a Blue Badge in Europe",
+      "source_url": "https://www.gov.uk/government/publications/blue-badge-using-it-in-the-eu",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -373,18 +385,6 @@
       "category": "international_regulatory",
       "title": "Guidance: Minimising headlight glare and its effects",
       "source_url": "https://www.gov.uk/government/publications/minimising-headlight-glare-and-its-effects",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "42677b92b022a50287e7",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Transparency data: Highways maintenance funding allocations",
-      "source_url": "https://www.gov.uk/government/publications/highways-maintenance-funding-allocations",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
