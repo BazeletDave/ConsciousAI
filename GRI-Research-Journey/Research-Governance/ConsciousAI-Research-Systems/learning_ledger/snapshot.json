@@ -1,29 +1,29 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T14:50:42.224520+00:00",
-  "cycle_count": 5,
+  "generated_at": "2026-10-28T14:57:52.807806+00:00",
+  "cycle_count": 6,
   "mode": "metadata_observation_and_learning_sequence_review",
   "feed_health": [
     {
       "feed": "countries",
-      "generated_at": "2026-10-28T14:50:37.717657+00:00",
-      "age_seconds": 4.506863,
+      "generated_at": "2026-10-28T14:57:46.443719+00:00",
+      "age_seconds": 6.364087,
       "status": "source_failures",
       "reported_source_failures": 3,
       "scope": "upstream_snapshot_age_not_article_or_source_freshness"
     },
     {
       "feed": "mobility",
-      "generated_at": "2026-10-28T14:50:37.609676+00:00",
-      "age_seconds": 4.614844,
+      "generated_at": "2026-10-28T14:57:46.347289+00:00",
+      "age_seconds": 6.460517,
       "status": "snapshot_available",
       "reported_source_failures": 0,
       "scope": "upstream_snapshot_age_not_article_or_source_freshness"
     },
     {
       "feed": "robotics_pages",
-      "generated_at": "2026-10-28T14:50:39.210381+00:00",
-      "age_seconds": 3.014139,
+      "generated_at": "2026-10-28T14:57:48.138307+00:00",
+      "age_seconds": 4.669499,
       "status": "source_failures",
       "reported_source_failures": 1,
       "scope": "upstream_snapshot_age_not_article_or_source_freshness"
@@ -62,11 +62,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "document_type_reported_effective_status_requires_review",
-      "content_sha256": "e34295feb9527d09bc2824ec777e5d49ae7625cf6d715d1b6b3a55c3a8226d85",
+      "content_sha256": "9b7d6c8335f885b347e1f4ff7a41e8406d64d40cb70856f70b38f0b005fba693",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:fdbba33cc5d84ec987fcb052",
-      "metadata_sha256": "a9fe945a9ec528e42645547a5abb5871baaf6b2fc40426130143c684e63db4bb",
+      "metadata_sha256": "8dae22c7b2b24dc2130d6c9a2f5f8cf75ba02cc2e34bf96654c9a3e9a80843c1",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -125,11 +125,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "notice_not_a_final_rule",
-      "content_sha256": "4ca9b060c9e159ccfd0d4c5154b24b2bed1bd23fa1078756357db7440571490f",
+      "content_sha256": "3052c6cfb462368bde02c0ac27349c506159b185a0b450be8dfa4ccdb44eb7c2",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:fa65fa4c88936c52b4f74a7e",
-      "metadata_sha256": "bdc8885811b5b6e268343273ac50d4a5730fa8b773ac5a3fd31ea8ecb7e23f09",
+      "metadata_sha256": "ff87757e161fc8acca06981a86ddd9a82950ade9b1a80f0e32edf334f0dccd95",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -252,11 +252,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "notice_not_a_final_rule",
-      "content_sha256": "67fac8715ebc63be79fe2e97f5cee50809c8a1a487ffb86d0d21567106fbed24",
+      "content_sha256": "da7d68a461f9fec80375fbe9fd9826edb4ad89cbd6f92a28ff7a2ad8dac1732a",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:e53313565538841959224b36",
-      "metadata_sha256": "f0ec33427371db3c2daf55ae9e009c527e03e57dffa734672d08b43d5eaab55b",
+      "metadata_sha256": "ff2be7280c7b1f3fa75fea343ff516764b980803d1b5b8e522aa29c73b9863cb",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -357,11 +357,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "proposed_rule_not_final",
-      "content_sha256": "1b19add0a5d4bc748d37d1d07bd3cc046bfb99a31c83a82de7f940568fe0351e",
+      "content_sha256": "dd8c4ef91dd835104240720823c34d115a082f0ee0f1ea6d9592ce3fd825ea5d",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:de3d3a58405cef75e233e43e",
-      "metadata_sha256": "79a10e5599cb39e678813f58908eb27abcba2cd9ba72ab30ccfc938f24e364b1",
+      "metadata_sha256": "44407c8e20c616195912e55e3c5840c5a58c8703ae398dc5e82f4669c2b43acb",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -588,11 +588,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "document_type_reported_effective_status_requires_review",
-      "content_sha256": "44143848f326ffa82036bb5c74e5f1b2f06040252a0c2113c0ba5ce53bef97bc",
+      "content_sha256": "5cc0dd15f2ef6bd9a4673e561ed5a1a60719c5675d38f143dfc1dbb5ebe0259a",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:bff1a7e46550fb3eb2151285",
-      "metadata_sha256": "918117c87851b589e8e08c55104c50f14543518424a453d8689ba1a5c92caaae",
+      "metadata_sha256": "8c3a042d4397bb29dd95bc1104ee5f2d13e7adb08a1157cfdcaada9725575d10",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -609,11 +609,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "proposed_rule_not_final",
-      "content_sha256": "10555e5ea9e2f7eac95e35851da66e647ab3219b7e38e26442168eab6d2d6b32",
+      "content_sha256": "744869dedd40d670f5510c8e43790e03e347bdc3f469f3f48539a8724e9a09a9",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:bf5ef81c55400fda2228897c",
-      "metadata_sha256": "55837506ca139960af72d2f1b7b851e64ef512bd70edde112700caafa7375396",
+      "metadata_sha256": "b0267950efdf2814b02c34d2e65c90ffd663f13729fbfa5d140b071156d27537",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -630,11 +630,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "notice_not_a_final_rule",
-      "content_sha256": "724e3af1bbcade7c020c0406feb205a8c8caabbd76825bef421622130e082b6b",
+      "content_sha256": "e1d2b9c5b389a04a0932e4bd2f2c25aec9727d197b6d7665dfef70723b6cae0d",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:bd07bbe5d81439c7d312c64c",
-      "metadata_sha256": "c59ef67e171eef7937e5135fc8454a2fd8ccf397598db4acbf7e2853c8549de5",
+      "metadata_sha256": "c3e9d19edce92328c066dcc97bb5e80fd06da37eee5258794cf59b9528855cc4",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -861,11 +861,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "proposed_rule_not_final",
-      "content_sha256": "3e39c18bd0edf7a13935ec4d0085613f53be86082574d85cd5abe290018c67de",
+      "content_sha256": "866b58ca61faffe3129d519aa17f78a1a8be54ed8083b28652ebcfed1c83f962",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:958e2bc1a020d8f707f85732",
-      "metadata_sha256": "7867c2de830450a91fe54e5aa45e9c747b7fa9f41284b4c49dfd942d754a5dc2",
+      "metadata_sha256": "370438377c4c438c5deef6da3453a99d8d882cf7fb11f703fc196728168c68ad",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -903,11 +903,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "document_type_reported_effective_status_requires_review",
-      "content_sha256": "1b13771ca3557eb4610c4386657e264d9fbc1fac60a3275606dccdfdc6477214",
+      "content_sha256": "61fe4af69b770440d3dd63511a730d1453298133cdce7aed844e422e231850d6",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:91efdcd514fb297ecd8601d8",
-      "metadata_sha256": "0e3e4de91d2ac0f079f14eff31ab18d89b4bec561fe90bf8768b2e2f4b311f9e",
+      "metadata_sha256": "f7247550428ac86e14351f4f3f51d0d154a598c6f7961d2f1534ffc863a6c942",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -1218,11 +1218,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "document_type_reported_effective_status_requires_review",
-      "content_sha256": "3ebed6eeff097cd009000cf418a8ee824de7385c89c30e07a62270e3a11c164a",
+      "content_sha256": "d7bdccc3584110261899db7019df07f1221eecc6c085e34f349ea82c3dc89561",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:593c44a3b5f7d83bcc53e4af",
-      "metadata_sha256": "2fe63d2ef74585fd6bfa01d9c3d049d8a774586422a11ba5eff83a8ec3a0fd70",
+      "metadata_sha256": "9fa4785218ed1e12b5442a89c5b6fdbc678bbaa1944f80c482b8c022f9c7bbdb",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -1408,11 +1408,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "notice_not_a_final_rule",
-      "content_sha256": "85389f9ec96c788fcfe32765f14f4b31105dce5f55d2f35d38daa7f8fc6249b2",
+      "content_sha256": "a576b932d0a147e8e3a113d449bd41935157e4010eaa627da58b2d92ea8277ac",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:422244d2169f151459cfe81a",
-      "metadata_sha256": "8ff40b5edf0fb6c704e2c072ee3d8b4162e40b04453cdeeae8bfd62fdd261076",
+      "metadata_sha256": "bdc34186ebfcc0dcc209750459857b58a2ab8925067b531b5c37882ae812ba93",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -1450,11 +1450,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "notice_not_a_final_rule",
-      "content_sha256": "3e55145abdc79287803cf23ae2e29ec08b6f4553baea7864a267eeccae1e3cd2",
+      "content_sha256": "1133423a9a5cde6e324e02eb6cc77d915d60e36ec9c5f5d5c859484050c2fb51",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:41b1c358efbaa5e5c5a64f2c",
-      "metadata_sha256": "69773751f05f0f755e73416d0c852430d9fd1cdc4c39541c4803e55ffca604e2",
+      "metadata_sha256": "cb7f7ff700dc9d28d670e16426ecb12097cf3c419c1f7159540585c08d19a483",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -1513,11 +1513,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "notice_not_a_final_rule",
-      "content_sha256": "fcd36bc4fe00726dfed227c6d131dd365a923d0af768525f727f6b37414f641b",
+      "content_sha256": "d0dd16d6ffbc334017e5f89af4b5d4bae2b1645eeaa2c39c9de12b08802262bc",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:39167e27616fc0205401a9b2",
-      "metadata_sha256": "fd79b6231d500d3f0d036ac7322f6d66b2d885fef4258836fee351be32af6758",
+      "metadata_sha256": "46ad9569846868f93fc53c103c3429ec5f6077be5224868b950d359238b7ceae",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -1828,11 +1828,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": "proposed_rule_not_final",
-      "content_sha256": "60b8109bc00bf57a73e4208ac3724f9b3dedcb4f53ed6246d6368172df64e721",
+      "content_sha256": "782615b394747e2d683ddbcfad8c11a7c671c966a9312781c17608f52e16a098",
       "source_kind": null,
       "configured_track": null,
       "id": "countries:10b965dff3bc3da58f7d9f9d",
-      "metadata_sha256": "5729f052ac7c1cc9f3687c9c776c9a286f60882bd7d81f7a7cadbf3f1b15a7a0",
+      "metadata_sha256": "8adf34d67530e315f7baacd6b2fa5284b9643b925925211c2667ae9331837294",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -2958,7 +2958,7 @@
       "publication_authorized": false
     },
     {
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -2970,7 +2970,7 @@
       "source_kind": null,
       "configured_track": null,
       "id": "mobility:bf5d5a49a20e4dd1eb72",
-      "metadata_sha256": "39f447ead3dd6ab4fff239c54d276c792653ca3b1e9849b60e95144e25ef468c",
+      "metadata_sha256": "b8e5d2a355e634caf10c3dde259119b91477df8fa186d40d54e47c38dfb3f372",
       "tracks": [],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
@@ -3448,11 +3448,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": null,
-      "content_sha256": "96b48f1280cbbd856ce998742ea92ea5d0adb5c4f8384406c34ec93cc0983d56",
+      "content_sha256": "6c66ac7192e8caa4a6726283aa44a1f0a38672e8073d9b77541e7a236378f606",
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
       "id": "robotics_pages:NHTSA-SGO",
-      "metadata_sha256": "a404ea4dde0bf43c944875b0b8c9fcf11066df1daf5f56fecee0ed6fa1f7d523",
+      "metadata_sha256": "87c6b2b3fa18dac268ba5ca93c4cb96e874210a11e6aec39d842653ae34f0404",
       "tracks": [
         "road_autonomy"
       ],
@@ -3595,11 +3595,11 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": null,
-      "content_sha256": "686f4e1f6881fa4ad683c6a3acb23eb044842aaa07a6c7423a2fe927a3aeeed2",
+      "content_sha256": "d834fa7d4092f68129c4c9a1405549506d1d2d9f5c5cdb8aa288b20b0a7d6d48",
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
       "id": "robotics_pages:WAYMO-SAFETY",
-      "metadata_sha256": "e3ec6f212305f63e601ed150e88b069a4997ed841395f9d332732d44dd53ac18",
+      "metadata_sha256": "ebf88307e112e450c413750df3a099f6fd9e699e75e649280649279f816e3988",
       "tracks": [
         "road_autonomy"
       ],
@@ -3618,20 +3618,41 @@
       "jurisdiction": null,
       "published_at": null,
       "legal_status": null,
-      "content_sha256": "5f30f9e7f2f79dfa3f4a4cb47fb18428e793f46aa3544272e14f72df1bb777cc",
+      "content_sha256": "dea04110b7c31d10474fc354def9ae4c9b242143e8dee35666d08f56b156e9d9",
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
       "id": "robotics_pages:FAA-AAM",
-      "metadata_sha256": "e9497fb30bd0d5272807b0fc9bbad9495a8f10ca2154ffb6c0ab5493ef4fbdce",
+      "metadata_sha256": "0afc1b59bdcedbf733e9a9ce849fc1404038fc3415b57434667510f4146253db",
       "tracks": [
         "air_mobility"
       ],
       "relation": "keyword_candidate_not_verified_comparison",
       "human_review_required": true,
       "publication_authorized": false
+    },
+    {
+      "title": "MDIC avalia sucesso de capacitação em negociações entre ICT-empresa",
+      "source_url": "https://www.gov.br/mdic/pt-br/assuntos/noticias/2026/outubro/mdic-avalia-sucesso-de-capacitacao-em-negociacoes-entre-ict-empresa",
+      "source_id": "BRA-MDIC",
+      "publisher": "Brazil Ministry of Development, Industry, Trade and Services",
+      "country_codes": [
+        "BRA"
+      ],
+      "jurisdiction": null,
+      "published_at": "2026-10-28T13:27:47+00:00",
+      "legal_status": "not_assessed",
+      "content_sha256": "58fcb430e1ff187d90d8d663f546ee7fd9a090d55c102be77fb327879853f457",
+      "source_kind": null,
+      "configured_track": null,
+      "id": "countries:009eb68e1a4a9c176c1279cf",
+      "metadata_sha256": "9e2152c68f1920be3914b217144e9f99b8a65e36e73535e53dfae4d3d6fd07c2",
+      "tracks": [],
+      "relation": "keyword_candidate_not_verified_comparison",
+      "human_review_required": true,
+      "publication_authorized": false
     }
   ],
-  "records_observed_this_cycle": 173,
+  "records_observed_this_cycle": 174,
   "events": [
     {
       "record_id": "countries:0134610cb2da71df7b8018fc",
@@ -5531,12 +5552,183 @@
       "prior_metadata_sha256": "6ddddda52953dbac75e1b215e1f954ac711e321a7a2cc42eb5d637c1077593f5",
       "previous_event_sha256": "e0f916724892316ca3c2d945c95755a073967865bb3a8153e70f10438dc113d7",
       "event_sha256": "a689172c6b222bde80c3d45137d2906ddf6eae816ee26726cdffebaa29c60bd2"
+    },
+    {
+      "record_id": "countries:009eb68e1a4a9c176c1279cf",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "first_observed",
+      "metadata_sha256": "9e2152c68f1920be3914b217144e9f99b8a65e36e73535e53dfae4d3d6fd07c2",
+      "prior_metadata_sha256": null,
+      "previous_event_sha256": "a689172c6b222bde80c3d45137d2906ddf6eae816ee26726cdffebaa29c60bd2",
+      "event_sha256": "65aae6cc24da95b51727d138e798e1de859562904c7a525a1d14eecff5a19d52"
+    },
+    {
+      "record_id": "countries:10b965dff3bc3da58f7d9f9d",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "8adf34d67530e315f7baacd6b2fa5284b9643b925925211c2667ae9331837294",
+      "prior_metadata_sha256": "5729f052ac7c1cc9f3687c9c776c9a286f60882bd7d81f7a7cadbf3f1b15a7a0",
+      "previous_event_sha256": "65aae6cc24da95b51727d138e798e1de859562904c7a525a1d14eecff5a19d52",
+      "event_sha256": "a9b4e2cc4ede52fbd73040f2af676d83562a105fd2155c66ca3ca6719ef82a91"
+    },
+    {
+      "record_id": "countries:39167e27616fc0205401a9b2",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "46ad9569846868f93fc53c103c3429ec5f6077be5224868b950d359238b7ceae",
+      "prior_metadata_sha256": "fd79b6231d500d3f0d036ac7322f6d66b2d885fef4258836fee351be32af6758",
+      "previous_event_sha256": "a9b4e2cc4ede52fbd73040f2af676d83562a105fd2155c66ca3ca6719ef82a91",
+      "event_sha256": "b8dabf247a4690abe878c205e0d22f2a45e312edee31a5e4821e0446951b885f"
+    },
+    {
+      "record_id": "countries:41b1c358efbaa5e5c5a64f2c",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "cb7f7ff700dc9d28d670e16426ecb12097cf3c419c1f7159540585c08d19a483",
+      "prior_metadata_sha256": "69773751f05f0f755e73416d0c852430d9fd1cdc4c39541c4803e55ffca604e2",
+      "previous_event_sha256": "b8dabf247a4690abe878c205e0d22f2a45e312edee31a5e4821e0446951b885f",
+      "event_sha256": "a492281df736e080ad7c5ce693fd8efe1d6aca54b6111084e2a0285625673d01"
+    },
+    {
+      "record_id": "countries:422244d2169f151459cfe81a",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "bdc34186ebfcc0dcc209750459857b58a2ab8925067b531b5c37882ae812ba93",
+      "prior_metadata_sha256": "8ff40b5edf0fb6c704e2c072ee3d8b4162e40b04453cdeeae8bfd62fdd261076",
+      "previous_event_sha256": "a492281df736e080ad7c5ce693fd8efe1d6aca54b6111084e2a0285625673d01",
+      "event_sha256": "c34e47d70af0d17016a7de4c0a65cffa04e2ed187c57946b2e6a462362439e10"
+    },
+    {
+      "record_id": "countries:593c44a3b5f7d83bcc53e4af",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "9fa4785218ed1e12b5442a89c5b6fdbc678bbaa1944f80c482b8c022f9c7bbdb",
+      "prior_metadata_sha256": "2fe63d2ef74585fd6bfa01d9c3d049d8a774586422a11ba5eff83a8ec3a0fd70",
+      "previous_event_sha256": "c34e47d70af0d17016a7de4c0a65cffa04e2ed187c57946b2e6a462362439e10",
+      "event_sha256": "2ff181bb0ebe9b2b1c4489f44642199ee830bf2c78910654892315066d7c44ba"
+    },
+    {
+      "record_id": "countries:91efdcd514fb297ecd8601d8",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "f7247550428ac86e14351f4f3f51d0d154a598c6f7961d2f1534ffc863a6c942",
+      "prior_metadata_sha256": "0e3e4de91d2ac0f079f14eff31ab18d89b4bec561fe90bf8768b2e2f4b311f9e",
+      "previous_event_sha256": "2ff181bb0ebe9b2b1c4489f44642199ee830bf2c78910654892315066d7c44ba",
+      "event_sha256": "2cd482147fee75c566ee031f430d8aa71919fc598952dfe64289f972b7748343"
+    },
+    {
+      "record_id": "countries:958e2bc1a020d8f707f85732",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "370438377c4c438c5deef6da3453a99d8d882cf7fb11f703fc196728168c68ad",
+      "prior_metadata_sha256": "7867c2de830450a91fe54e5aa45e9c747b7fa9f41284b4c49dfd942d754a5dc2",
+      "previous_event_sha256": "2cd482147fee75c566ee031f430d8aa71919fc598952dfe64289f972b7748343",
+      "event_sha256": "132a669a460179f189e296c7d6e6f36a737d2af6f63759cbfcf40e415cb7c6f4"
+    },
+    {
+      "record_id": "countries:bd07bbe5d81439c7d312c64c",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "c3e9d19edce92328c066dcc97bb5e80fd06da37eee5258794cf59b9528855cc4",
+      "prior_metadata_sha256": "c59ef67e171eef7937e5135fc8454a2fd8ccf397598db4acbf7e2853c8549de5",
+      "previous_event_sha256": "132a669a460179f189e296c7d6e6f36a737d2af6f63759cbfcf40e415cb7c6f4",
+      "event_sha256": "42bf10c9e443d67a67cdbf913bfd65a5cfc8bb4765e8f311208ae06b93b9a126"
+    },
+    {
+      "record_id": "countries:bf5ef81c55400fda2228897c",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "b0267950efdf2814b02c34d2e65c90ffd663f13729fbfa5d140b071156d27537",
+      "prior_metadata_sha256": "55837506ca139960af72d2f1b7b851e64ef512bd70edde112700caafa7375396",
+      "previous_event_sha256": "42bf10c9e443d67a67cdbf913bfd65a5cfc8bb4765e8f311208ae06b93b9a126",
+      "event_sha256": "c65e79090de3f4a84416a062f7591f75f7e12dde65f26d0b96ae4f83e25e7cb8"
+    },
+    {
+      "record_id": "countries:bff1a7e46550fb3eb2151285",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "8c3a042d4397bb29dd95bc1104ee5f2d13e7adb08a1157cfdcaada9725575d10",
+      "prior_metadata_sha256": "918117c87851b589e8e08c55104c50f14543518424a453d8689ba1a5c92caaae",
+      "previous_event_sha256": "c65e79090de3f4a84416a062f7591f75f7e12dde65f26d0b96ae4f83e25e7cb8",
+      "event_sha256": "9051e1b9ba51e480f21ef7dce8d959c3e0ee30ca7ffa2bc98bf9da697beedd19"
+    },
+    {
+      "record_id": "countries:de3d3a58405cef75e233e43e",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "44407c8e20c616195912e55e3c5840c5a58c8703ae398dc5e82f4669c2b43acb",
+      "prior_metadata_sha256": "79a10e5599cb39e678813f58908eb27abcba2cd9ba72ab30ccfc938f24e364b1",
+      "previous_event_sha256": "9051e1b9ba51e480f21ef7dce8d959c3e0ee30ca7ffa2bc98bf9da697beedd19",
+      "event_sha256": "4f6a38c3e6abdd998afd7d91a69a831f0c1cbef73c6ba42d37d703f997abcfe7"
+    },
+    {
+      "record_id": "countries:e53313565538841959224b36",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "ff2be7280c7b1f3fa75fea343ff516764b980803d1b5b8e522aa29c73b9863cb",
+      "prior_metadata_sha256": "f0ec33427371db3c2daf55ae9e009c527e03e57dffa734672d08b43d5eaab55b",
+      "previous_event_sha256": "4f6a38c3e6abdd998afd7d91a69a831f0c1cbef73c6ba42d37d703f997abcfe7",
+      "event_sha256": "f1672bc4a7261b0dc8cfb9df095101cb5fabe044971cacf2a0196c1f4e592631"
+    },
+    {
+      "record_id": "countries:fa65fa4c88936c52b4f74a7e",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "ff87757e161fc8acca06981a86ddd9a82950ade9b1a80f0e32edf334f0dccd95",
+      "prior_metadata_sha256": "bdc8885811b5b6e268343273ac50d4a5730fa8b773ac5a3fd31ea8ecb7e23f09",
+      "previous_event_sha256": "f1672bc4a7261b0dc8cfb9df095101cb5fabe044971cacf2a0196c1f4e592631",
+      "event_sha256": "03668880f74760b5eb7b6726c66246b9974550b89ab0af66dbbb48df55ec39db"
+    },
+    {
+      "record_id": "countries:fdbba33cc5d84ec987fcb052",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "8dae22c7b2b24dc2130d6c9a2f5f8cf75ba02cc2e34bf96654c9a3e9a80843c1",
+      "prior_metadata_sha256": "a9fe945a9ec528e42645547a5abb5871baaf6b2fc40426130143c684e63db4bb",
+      "previous_event_sha256": "03668880f74760b5eb7b6726c66246b9974550b89ab0af66dbbb48df55ec39db",
+      "event_sha256": "443d40a62f155c77ca0e1a0d60902b47beb6cb8d7d924edd8e5794263a1866df"
+    },
+    {
+      "record_id": "mobility:bf5d5a49a20e4dd1eb72",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "b8e5d2a355e634caf10c3dde259119b91477df8fa186d40d54e47c38dfb3f372",
+      "prior_metadata_sha256": "39f447ead3dd6ab4fff239c54d276c792653ca3b1e9849b60e95144e25ef468c",
+      "previous_event_sha256": "443d40a62f155c77ca0e1a0d60902b47beb6cb8d7d924edd8e5794263a1866df",
+      "event_sha256": "e735e1b37f35bd88955d6146bbe3635a93f32d067cf2ee2c79c881f6d2309eef"
+    },
+    {
+      "record_id": "robotics_pages:FAA-AAM",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "0afc1b59bdcedbf733e9a9ce849fc1404038fc3415b57434667510f4146253db",
+      "prior_metadata_sha256": "e9497fb30bd0d5272807b0fc9bbad9495a8f10ca2154ffb6c0ab5493ef4fbdce",
+      "previous_event_sha256": "e735e1b37f35bd88955d6146bbe3635a93f32d067cf2ee2c79c881f6d2309eef",
+      "event_sha256": "45ebfa3cc6180088d9b71a62fcfd74c2e46ef2f213acd9bbaa31c0cfe29aac4c"
+    },
+    {
+      "record_id": "robotics_pages:NHTSA-SGO",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "87c6b2b3fa18dac268ba5ca93c4cb96e874210a11e6aec39d842653ae34f0404",
+      "prior_metadata_sha256": "a404ea4dde0bf43c944875b0b8c9fcf11066df1daf5f56fecee0ed6fa1f7d523",
+      "previous_event_sha256": "45ebfa3cc6180088d9b71a62fcfd74c2e46ef2f213acd9bbaa31c0cfe29aac4c",
+      "event_sha256": "cd0c7ba09f29e43e889e260558f9a64770ebbd90ffdabccfac6db64f59cc80bd"
+    },
+    {
+      "record_id": "robotics_pages:WAYMO-SAFETY",
+      "observed_at": "2026-10-28T14:57:52.807806+00:00",
+      "kind": "metadata_revised",
+      "metadata_sha256": "ebf88307e112e450c413750df3a099f6fd9e699e75e649280649279f816e3988",
+      "prior_metadata_sha256": "e3ec6f212305f63e601ed150e88b069a4997ed841395f9d332732d44dd53ac18",
+      "previous_event_sha256": "cd0c7ba09f29e43e889e260558f9a64770ebbd90ffdabccfac6db64f59cc80bd",
+      "event_sha256": "90d02659c9262b555bc48e46ee7fb8e373a6a6208b68150ba0cb6287d834906a"
     }
   ],
   "history_anchor": null,
   "archived_event_count": 0,
   "program": {
-    "version": "0.2",
+    "version": "0.3",
     "owner": "Grand Research Institute",
     "title": "Leadership Learning, Algorithmic Management and Institutional Assurance",
     "book": {
@@ -5609,14 +5801,16 @@
         "start_page": 56,
         "proposed_translation": "Test a goal proximal curriculum as a research hypothesis",
         "evaluation_requirement": "Compare against forward curriculum with matched compute and seeds",
-        "evidence_status": "curriculum_order_supported_by_jacket_and_contents_algorithmic_translation_proposed",
-        "excerpt_received": false,
+        "evidence_status": "substantive_passage_supported_algorithmic_translation_proposed",
+        "excerpt_received": true,
         "model_training_authorized": false,
         "source_review_received": true,
         "supporting_source_ids": [
-          "IMG_7476",
-          "IMG_7480",
-          "IMG_7481"
+          "IMG_D03CBA0B-DD84-4261-AA52-16EDFB8FEF89",
+          "IMG_B277DD6C-B42F-453D-AFC3-3493B4352A74",
+          "IMG_A26F1C9C-1B63-400B-B57E-58D0D2A5074A",
+          "IMG_8B23EB32-F91D-4BCF-9244-042F90D16C5B",
+          "IMG_6DAC7E44-1C96-43E4-8DEF-2E32F8F9CF67"
         ]
       },
       {
@@ -5671,13 +5865,12 @@
         "start_page": 169,
         "proposed_translation": "Evaluate escalation and institutional correction",
         "evaluation_requirement": "Measure missed interventions, review delays and verified remediation",
-        "evidence_status": "chapter_location_supported_substantive_passage_review_pending",
-        "excerpt_received": false,
+        "evidence_status": "opening_passage_supported_escalation_translation_proposed",
+        "excerpt_received": true,
         "model_training_authorized": false,
         "source_review_received": true,
         "supporting_source_ids": [
-          "IMG_7480",
-          "IMG_7481"
+          "IMG_4792C7FE-C3F9-4784-A81B-60580B3CB3BE"
         ]
       }
     ],
@@ -5772,6 +5965,16 @@
         ],
         "review_status": "GRI_source_analysis_pending_independent_review",
         "model_update": false
+      },
+      {
+        "id": "BOOK-PRESSURE-2026-10-28",
+        "challenged_claim_id": "competitive_pressure_equals_adversarial_disturbance",
+        "decision": "Page 70 supports competitive pressure practice. External distraction conditioning and robotic perturbation robustness remain separate unverified mechanisms.",
+        "sources": [
+          "IMG_6DAC7E44-1C96-43E4-8DEF-2E32F8F9CF67"
+        ],
+        "review_status": "GRI_source_analysis_pending_independent_review",
+        "model_update": false
       }
     ],
     "correction_fields": [
@@ -5823,17 +6026,61 @@
         ],
         "finding": "Dedication and foreword connect education, care, support, integrity and the opportunity to express disagreement.",
         "boundary": "GRI institutional assurance mappings are analytical proposals, not mechanisms specified by the authors."
+      },
+      {
+        "id": "putting_progression_passage",
+        "source_ids": [
+          "IMG_D03CBA0B-DD84-4261-AA52-16EDFB8FEF89"
+        ],
+        "locator": "pages 56 to 57",
+        "finding": "Earl explicitly recommends beginning with putting, proceeding toward chipping, pitching and the full swing, using demonstration and familiar actions before advancing after proficiency.",
+        "boundary": "Source supported pedagogical account; an RL curriculum and causal efficacy remain separate research propositions."
+      },
+      {
+        "id": "imagery_and_context",
+        "source_ids": [
+          "IMG_B277DD6C-B42F-453D-AFC3-3493B4352A74",
+          "IMG_A26F1C9C-1B63-400B-B57E-58D0D2A5074A"
+        ],
+        "locator": "pages 62 to 65",
+        "finding": "The instruction links target visualization, short initial distance, later distance expansion and attention to ground conditions.",
+        "boundary": "No claim that internal model representations are equivalent to human visualization."
+      },
+      {
+        "id": "process_outcome_distinction",
+        "source_ids": [
+          "IMG_8B23EB32-F91D-4BCF-9244-042F90D16C5B"
+        ],
+        "locator": "pages 68 to 69",
+        "finding": "The account distinguishes practicing a repeatable stroke from practicing successful putts and emphasizes the first putt in longer distance play.",
+        "boundary": "A basis for separately measuring action consistency, task success and residual error rather than a single reward."
+      },
+      {
+        "id": "pressure_practice",
+        "source_ids": [
+          "IMG_6DAC7E44-1C96-43E4-8DEF-2E32F8F9CF67"
+        ],
+        "locator": "page 70",
+        "finding": "A competitive practice account describes pressure building with consecutive successful putts.",
+        "boundary": "Supports practice under competitive pressure, not evidence of visual distraction, external force disturbances or zero shot robotic adaptation."
+      },
+      {
+        "id": "specialist_handoff",
+        "source_ids": [
+          "IMG_4792C7FE-C3F9-4784-A81B-60580B3CB3BE"
+        ],
+        "locator": "page 169",
+        "finding": "Earl acknowledges limits to his instructional expertise and recommends objective assessment of when a teaching professional should take over.",
+        "boundary": "Supports a proposed competence boundary and specialist escalation comparison; the continuation of the chapter is not supplied."
       }
     ],
     "pending_source_requests": [
-      "Selected passage from chapter 6 near page 56 explaining putting progression",
-      "Selected passage explaining distraction conditioning, with visible page number",
-      "Selected passage from chapter 13 near page 169 explaining when and how to seek help"
+      "A passage explicitly describing external distraction conditioning, if this mechanism is to remain in the case; competitive pressure on page 70 is a distinct construct."
     ]
   },
-  "program_sha256": "f38f5d6620d743a519ea5e7b5f9e0f329d63e9e11c8fea0b2b18c2303784fd7f",
+  "program_sha256": "3a23ea26c10f62caa9fe55fd23635c0896fc980c08eb4fef3cff2acb10f0707c",
   "candidate_evaluation": {
-    "snapshot_generated_at": "2026-10-28T14:50:39.150139+00:00",
+    "snapshot_generated_at": "2026-10-28T14:57:48.081148+00:00",
     "evaluation": {
       "status": "blocked",
       "accepted_records": 0,
@@ -5854,5 +6101,5 @@
   "model_updated": false,
   "verification_promoted": false,
   "notice": "Observed metadata changes are not deployment milestones, regulatory findings, or learned model improvements. Event history beyond the retained window remains in Git history.",
-  "content_sha256": "ff21b25228640a9ead3ba9edb5ecaedd2c4b16a8f842570e4e40e0d26e93e6cc"
+  "content_sha256": "fb3bc786a3cdfb2461e30f4d72f53b4360bf3b8993e711317b3fa8418e78ffd1"
 }

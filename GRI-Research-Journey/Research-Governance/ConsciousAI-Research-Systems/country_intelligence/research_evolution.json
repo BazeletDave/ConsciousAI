@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T14:50:39.150139+00:00",
+  "generated_at": "2026-10-28T14:57:48.081148+00:00",
   "mode": "evolving_repository_retrieval_with_governed_learning_candidates",
   "catalog_sha256": "5324aad08b0c2b6236e3ef53d94381c117631c864c6e9589253fd4e985c62cd1",
   "document_count": 59,
@@ -8,9 +8,7 @@
   "changes": {
     "added": [],
     "removed": [],
-    "revised": [
-      "GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/EXPANSION.md"
-    ]
+    "revised": []
   },
   "documents": [
     {
@@ -430,7 +428,7 @@
   "evidence_connections": [
     {
       "record_id": "fdbba33cc5d84ec987fcb052",
-      "content_sha256": "e34295feb9527d09bc2824ec777e5d49ae7625cf6d715d1b6b3a55c3a8226d85",
+      "content_sha256": "9b7d6c8335f885b347e1f4ff7a41e8406d64d40cb70856f70b38f0b005fba693",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -487,7 +485,7 @@
     },
     {
       "record_id": "fa65fa4c88936c52b4f74a7e",
-      "content_sha256": "4ca9b060c9e159ccfd0d4c5154b24b2bed1bd23fa1078756357db7440571490f",
+      "content_sha256": "3052c6cfb462368bde02c0ac27349c506159b185a0b450be8dfa4ccdb44eb7c2",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -544,7 +542,7 @@
     },
     {
       "record_id": "e53313565538841959224b36",
-      "content_sha256": "67fac8715ebc63be79fe2e97f5cee50809c8a1a487ffb86d0d21567106fbed24",
+      "content_sha256": "da7d68a461f9fec80375fbe9fd9826edb4ad89cbd6f92a28ff7a2ad8dac1732a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -625,7 +623,7 @@
     },
     {
       "record_id": "de3d3a58405cef75e233e43e",
-      "content_sha256": "1b19add0a5d4bc748d37d1d07bd3cc046bfb99a31c83a82de7f940568fe0351e",
+      "content_sha256": "dd8c4ef91dd835104240720823c34d115a082f0ee0f1ea6d9592ce3fd825ea5d",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -697,7 +695,7 @@
     },
     {
       "record_id": "bff1a7e46550fb3eb2151285",
-      "content_sha256": "44143848f326ffa82036bb5c74e5f1b2f06040252a0c2113c0ba5ce53bef97bc",
+      "content_sha256": "5cc0dd15f2ef6bd9a4673e561ed5a1a60719c5675d38f143dfc1dbb5ebe0259a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -730,7 +728,7 @@
     },
     {
       "record_id": "bf5ef81c55400fda2228897c",
-      "content_sha256": "10555e5ea9e2f7eac95e35851da66e647ab3219b7e38e26442168eab6d2d6b32",
+      "content_sha256": "744869dedd40d670f5510c8e43790e03e347bdc3f469f3f48539a8724e9a09a9",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -754,7 +752,7 @@
     },
     {
       "record_id": "bd07bbe5d81439c7d312c64c",
-      "content_sha256": "724e3af1bbcade7c020c0406feb205a8c8caabbd76825bef421622130e082b6b",
+      "content_sha256": "e1d2b9c5b389a04a0932e4bd2f2c25aec9727d197b6d7665dfef70723b6cae0d",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -907,7 +905,7 @@
     },
     {
       "record_id": "958e2bc1a020d8f707f85732",
-      "content_sha256": "3e39c18bd0edf7a13935ec4d0085613f53be86082574d85cd5abe290018c67de",
+      "content_sha256": "866b58ca61faffe3129d519aa17f78a1a8be54ed8083b28652ebcfed1c83f962",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -964,7 +962,7 @@
     },
     {
       "record_id": "91efdcd514fb297ecd8601d8",
-      "content_sha256": "1b13771ca3557eb4610c4386657e264d9fbc1fac60a3275606dccdfdc6477214",
+      "content_sha256": "61fe4af69b770440d3dd63511a730d1453298133cdce7aed844e422e231850d6",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -1078,7 +1076,7 @@
     },
     {
       "record_id": "593c44a3b5f7d83bcc53e4af",
-      "content_sha256": "3ebed6eeff097cd009000cf418a8ee824de7385c89c30e07a62270e3a11c164a",
+      "content_sha256": "d7bdccc3584110261899db7019df07f1221eecc6c085e34f349ea82c3dc89561",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -1135,7 +1133,7 @@
     },
     {
       "record_id": "422244d2169f151459cfe81a",
-      "content_sha256": "85389f9ec96c788fcfe32765f14f4b31105dce5f55d2f35d38daa7f8fc6249b2",
+      "content_sha256": "a576b932d0a147e8e3a113d449bd41935157e4010eaa627da58b2d92ea8277ac",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1168,7 +1166,7 @@
     },
     {
       "record_id": "41b1c358efbaa5e5c5a64f2c",
-      "content_sha256": "3e55145abdc79287803cf23ae2e29ec08b6f4553baea7864a267eeccae1e3cd2",
+      "content_sha256": "1133423a9a5cde6e324e02eb6cc77d915d60e36ec9c5f5d5c859484050c2fb51",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -1249,7 +1247,7 @@
     },
     {
       "record_id": "39167e27616fc0205401a9b2",
-      "content_sha256": "fcd36bc4fe00726dfed227c6d131dd365a923d0af768525f727f6b37414f641b",
+      "content_sha256": "d0dd16d6ffbc334017e5f89af4b5d4bae2b1645eeaa2c39c9de12b08802262bc",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -1444,7 +1442,7 @@
     },
     {
       "record_id": "10b965dff3bc3da58f7d9f9d",
-      "content_sha256": "60b8109bc00bf57a73e4208ac3724f9b3dedcb4f53ed6246d6368172df64e721",
+      "content_sha256": "782615b394747e2d683ddbcfad8c11a7c671c966a9312781c17608f52e16a098",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
