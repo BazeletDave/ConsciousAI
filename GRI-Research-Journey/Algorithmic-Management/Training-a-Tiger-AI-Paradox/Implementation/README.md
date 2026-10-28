@@ -38,3 +38,7 @@ No production system, model, dashboard endpoint, account, or participant data wa
 ## Leadership learning and comparative implementation
 
 [Read the dossier expansion](EXPANSION.md) for the documented Training a Tiger learning sequence, robotics publisher observations, Brazil, Israel and U.S. comparisons, institutional correction research, and the dashboard learning ledger. The existing three hour workflow now includes observation and ledger generation; active model release remains separately governed.
+
+## Controlled putting curriculum experiment
+
+[Read the completed experiment and failure analysis](Putting-Experiment/README.md). Sixty synthetic models were trained across three curricula and 20 seeds with matched budgets. Nominal performance did not demonstrate curriculum superiority. The retained results expose a hidden condition detection failure; source hashes and a successful reproduction check accompany the package.

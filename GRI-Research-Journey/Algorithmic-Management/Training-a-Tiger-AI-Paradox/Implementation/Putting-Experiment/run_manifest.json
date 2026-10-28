@@ -1,0 +1,10 @@
+{
+  "frozen_at": "2026-10-28T15:04:21.176555+00:00",
+  "files": {
+    "protocol.json": "27b8898da397ae80639fbb178e8e2a9384c7bde99622dd8bc3eeee04e482af6c",
+    "experiment.py": "f7f595ef540812d20b5efc549afc2c8da1ce6f7eb00a32abbfae1ea6c729b6a2",
+    "test_experiment.py": "fb93051ddc644580a375e83d7c4497dd8d0e9275dd195531e889e8045b978f40"
+  },
+  "protocol_sha256": "7e6f8346cc770bbc3509c824d1cae1f8c8ea5a1b76cfad86e0ceecfdaed63850",
+  "note": "Written before execution; not external preregistration."
+}
