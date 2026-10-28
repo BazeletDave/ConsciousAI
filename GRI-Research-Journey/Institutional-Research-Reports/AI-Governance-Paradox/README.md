@@ -26,6 +26,10 @@ Published external evidence, GRI analytical propositions, and completed software
 
 [GRI public research dashboard](https://gri-global-intelligence.onrender.com/dashboard)
 
+## Research instrumentation
+
+[Institutional decision episode measurement](Measurement/README.md) provides executable metric definitions, synthetic fixtures, reproducible results, and an executive learning evaluation protocol. Eight test methods pass; field validation remains a separate research step.
+
 ## Edition record
 
 The presentation revision removes the report number, aligns the cover and executive framing to GRI's mission, updates the description of the existing research platform, and links the implementation evidence. The 22 page structure and original exhibits are retained. [Original October edition](archive/October-2026-original.pdf) · [Revision notes](REVISION_NOTES.md).

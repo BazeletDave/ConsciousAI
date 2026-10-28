@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "dataset_sha256": "ea5fd2482d9aa428c3393b615fba62a7a8602f6bafba9fa166c57702c94d2bb8",
+  "evidence_counts": {
+    "synthetic": 3,
+    "observational": 0
+  },
+  "metrics": {
+    "trace_completeness": {
+      "numerator": 2,
+      "denominator": 3,
+      "value": 0.6666666666666666
+    },
+    "approval_without_recorded_authority": {
+      "numerator": 1,
+      "denominator": 2,
+      "value": 0.5
+    },
+    "adjudicated_approval_accuracy": {
+      "numerator": 1,
+      "denominator": 2,
+      "value": 0.5
+    },
+    "false_approvals_among_reviewed_approvals": {
+      "numerator": 1,
+      "denominator": 2,
+      "value": 0.5
+    },
+    "intervention_completion": {
+      "numerator": 1,
+      "denominator": 2,
+      "value": 0.5
+    },
+    "verified_remediation": {
+      "numerator": 1,
+      "denominator": 2,
+      "value": 0.5
+    }
+  },
+  "intervention_latency": {
+    "completed_n": 1,
+    "median_seconds": 10.0,
+    "maximum_seconds": 10.0
+  },
+  "episodes": [
+    {
+      "id": "e1",
+      "evidence_status": "synthetic",
+      "trace_complete": true,
+      "intervention_seconds": 10.0,
+      "approval_without_recorded_authority": false,
+      "false_approval": false,
+      "adjudicated": true,
+      "decision_correct": true,
+      "intervention_required": true,
+      "remediation_evaluated": true,
+      "remediation_verified": true
+    },
+    {
+      "id": "e2",
+      "evidence_status": "synthetic",
+      "trace_complete": true,
+      "intervention_seconds": null,
+      "approval_without_recorded_authority": true,
+      "false_approval": true,
+      "adjudicated": true,
+      "decision_correct": false,
+      "intervention_required": true,
+      "remediation_evaluated": true,
+      "remediation_verified": false
+    },
+    {
+      "id": "e3",
+      "evidence_status": "synthetic",
+      "trace_complete": false,
+      "intervention_seconds": null,
+      "approval_without_recorded_authority": false,
+      "false_approval": false,
+      "adjudicated": false,
+      "decision_correct": null,
+      "intervention_required": false,
+      "remediation_evaluated": false,
+      "remediation_verified": false
+    }
+  ],
+  "limitations": [
+    "Recorded authority and reviewer labels require external verification.",
+    "Missing interventions remain in the completion denominator; latency describes completed interventions only.",
+    "Synthetic and observational episodes must be analyzed separately for substantive conclusions.",
+    "No causal learning effect, regulatory compliance, or production authorization is established."
+  ]
+}

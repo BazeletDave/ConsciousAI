@@ -1,0 +1,66 @@
+[
+  {
+    "id": "e1",
+    "evidence_status": "synthetic",
+    "decided_at": "2026-10-28T12:00:00Z",
+    "actor_id": "synthetic-agent",
+    "accountable_owner": "synthetic-owner",
+    "policy_version": "p1",
+    "system_version": "s1",
+    "evidence_refs": [
+      "fixture:1"
+    ],
+    "approved": true,
+    "authority_valid": true,
+    "adjudicated_authorized": true,
+    "adjudicator_id": "synthetic-reviewer",
+    "intervention_required": true,
+    "triggered_at": "2026-10-28T12:00:01Z",
+    "intervened_at": "2026-10-28T12:00:11Z",
+    "remediation_verified": true,
+    "remediation_review_id": "review:1",
+    "remediation_evidence_ref": "fixture:remedy"
+  },
+  {
+    "id": "e2",
+    "evidence_status": "synthetic",
+    "decided_at": "2026-10-28T12:00:00Z",
+    "actor_id": "synthetic-agent",
+    "accountable_owner": "synthetic-owner",
+    "policy_version": "p1",
+    "system_version": "s1",
+    "evidence_refs": [
+      "fixture:1"
+    ],
+    "approved": true,
+    "authority_valid": false,
+    "adjudicated_authorized": false,
+    "adjudicator_id": "synthetic-reviewer",
+    "intervention_required": true,
+    "triggered_at": "2026-10-28T12:00:01Z",
+    "intervened_at": null,
+    "remediation_verified": false,
+    "remediation_review_id": "review:1",
+    "remediation_evidence_ref": "fixture:remedy"
+  },
+  {
+    "id": "e3",
+    "evidence_status": "synthetic",
+    "decided_at": "2026-10-28T12:00:00Z",
+    "actor_id": "synthetic-agent",
+    "accountable_owner": "synthetic-owner",
+    "policy_version": "p1",
+    "system_version": "s1",
+    "evidence_refs": [],
+    "approved": false,
+    "authority_valid": true,
+    "adjudicated_authorized": null,
+    "adjudicator_id": "synthetic-reviewer",
+    "intervention_required": false,
+    "triggered_at": null,
+    "intervened_at": null,
+    "remediation_verified": null,
+    "remediation_review_id": "review:1",
+    "remediation_evidence_ref": "fixture:remedy"
+  }
+]
