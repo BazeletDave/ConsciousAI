@@ -1,0 +1,5 @@
+source_id,title,issuer,url,source_class,verification_status,usage
+CISA2030,CISA 2030 Defend Harden Prevail,CISA,https://www.cisa.gov/about/CISA2030,primary_government,full_text_pending,policy anchor
+NIST_AI_RMF,AI Risk Management Framework,NIST,https://www.nist.gov/itl/ai-risk-management-framework,primary_government,document_review_pending,AI risk comparison
+NIST_CSF2,Cybersecurity Framework 2.0,NIST,https://www.nist.gov/cyberframework,primary_government,document_review_pending,cybersecurity control comparison
+CISA_CPG,Cross Sector Cybersecurity Performance Goals,CISA,https://www.cisa.gov/cross-sector-cybersecurity-performance-goals,primary_government,document_review_pending,critical infrastructure baseline
