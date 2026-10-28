@@ -33,7 +33,7 @@ TOPICS = {
 }
 INDEX_LOCK = Lock()
 STOP=set('a an the and or of to in for by with as is are from on at not what how why does do can could would should which who when where about explain research gri grand institute'.split())
-ALIASES={'vehicles':'vehicle','institutions':'institution','algorithms':'algorithm','drivers':'driver','4ir':'industrial','av':'autonomous','avs':'autonomous','ml':'learning','ai':'artificial','learning':'learning'}
+ALIASES={'vehicles':'vehicle','institutions':'institution','algorithms':'algorithm','drivers':'driver','4ir':'industrial','av':'autonomous','avs':'autonomous','ml':'learning','ai':'artificial','learning':'learning','uses':'use','using':'use'}
 
 def terms(text):
     return [ALIASES.get(t,t) for t in re.findall(r'[a-z0-9]+',text.lower()) if t not in STOP and len(t)>1]
@@ -49,15 +49,22 @@ def candidates(repo):
     return sorted(paths)
 
 def passages(text):
-    rows=[];buffer=[];start=1;in_code=False
+    rows=[];buffer=[];start=1;in_code=False;reference_level=None
     def flush():
         nonlocal buffer
         if buffer:
             value=' '.join(buffer).strip()
-            if len(value)>=60 and not value.startswith('|'):
+            if len(value)>=60 and not value.startswith('|') and value.count('](')<4 and not re.match(r'^\d+\.\s+[^.]{0,80}\(20\d\d\)',value):
                 rows.append({'line':start,'text':value[:1300]})
             buffer=[]
     for number,line in enumerate(text.splitlines(),1):
+        heading=re.match(r'^(#{1,6})\s+(.+)',line)
+        if heading:
+            flush()
+            level=len(heading.group(1))
+            if reference_level is not None and level<=reference_level: reference_level=None
+            if re.match(r'(?:\d+[.)]?\s*)?(?:references\b|referenced literature|bibliograph|selected sources|primary sources|source and verification register)',heading.group(2),re.I): reference_level=level
+        if reference_level is not None: continue
         if line.strip().startswith('```'):
             flush();in_code=not in_code;continue
         if in_code:continue
@@ -156,7 +163,8 @@ def fitted(signature):
             row={**passage,'document_id':document['id'],'title':document['title'],'url':document['url']+'#L'+str(passage['line']),
                  'path':document['path'],'topics':document['topics'],'evidence_status':document['evidence_status']}
             # Title boosts topic relevance without injecting external facts.
-            row['counts']=Counter(terms(document['title']+' '+document['title']+' '+passage['text']))
+            row['counts']=Counter(terms(passage['text']))
+            row['title_terms']=set(terms(document['title']))
             row['length']=sum(row['counts'].values());rows.append(row)
     frequency=Counter(t for r in rows for t in r['counts'])
     idf={t:math.log(1+(len(rows)-n+.5)/(n+.5)) for t,n in frequency.items()}
@@ -173,8 +181,11 @@ def ask(question,topic=None):
         overlap=query & r['counts'].keys()
         if not overlap:continue
         score=math.fsum(idf[t]*(r['counts'][t]*2.2)/(r['counts'][t]+1.2*(.25+.75*r['length']/max(average,1))) for t in overlap)
-        # Require meaningful support for multi term questions, not one incidental word.
+        score *= len(overlap)/max(1,len(query))
+        score += .15*math.fsum(idf.get(t,0) for t in query & r['title_terms'])
+        # Require meaningful support in the passage body, not the title alone.
         if len(overlap)<min(2,len(query)):continue
+        if re.search(r'not an? .{0,60}endorsement|not attributed to|not independently verified|independent educational research note',r['text'],re.I): score*=.45
         ranked.append((score,r,overlap))
     ranked.sort(key=lambda x:(-x[0],x[1]['path'],x[1]['line']))
     sources=[];seen=set();seen_titles=set()

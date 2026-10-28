@@ -22,6 +22,13 @@ class UnifiedResearchTests(unittest.TestCase):
             self.assertGreaterEqual(source['line'],1)
         self.assertEqual(len({s['title'] for s in answer['sources']}),len(answer['sources']))
 
+    def test_answers_require_body_support_and_avoid_reference_lists(self):
+        d=research.ask('How does Uber use agentic AI in engineering?')
+        self.assertTrue(d['sources'])
+        for source in d['sources']:
+            self.assertGreaterEqual(len(set(research.terms(source['excerpt'])) & set(research.terms(d['question']))),2)
+            self.assertLess(source['excerpt'].count(']('),4)
+
     def test_unknown_question_has_no_invented_answer(self):
         d=research.ask('xyzzzz quantumfrobnitz')
         self.assertEqual(d['status'],'insufficient_indexed_support')
@@ -58,6 +65,8 @@ class UnifiedResearchTests(unittest.TestCase):
         rows=research.passages(text)
         self.assertEqual(rows[0]['line'],3)
         self.assertNotIn('secret',json.dumps(rows))
+        bibliography=research.passages('# Paper\n\nA substantive research paragraph with enough text to be indexed for reproducible source review.\n\n## References\n\n1. Example (2026). Uber artificial intelligence engineering bibliography only.\n')
+        self.assertNotIn('bibliography only',json.dumps(bibliography))
 
     def test_integrity_check_rejects_changed_cache(self):
         with TemporaryDirectory() as directory:
