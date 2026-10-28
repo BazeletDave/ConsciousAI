@@ -36,6 +36,6 @@ Program version 0.2 records these supported observations and retains the algorit
 
 The configured three hour cycle copies the current program and its hash into the dashboard ledger. This is a versioned source review contribution, not model training on the book or independent validation of a robotics curriculum.
 
-## Next source material
+## Subsequent passage review
 
-The most useful next contribution is a selected passage near page 56 explaining the putting progression, one passage on distraction conditioning with its page number, and a selected passage near page 169 explaining seeking help. The supplied edition and copyright page need not be sent again.
+Selected putting passages and the opening of chapter 13 have now been supplied. [Read the page specific supplement](putting_and_escalation_review.md) for the findings and program version 0.3. Competitive pressure is supported on page 70; external distraction conditioning remains a separate source question. The earlier table documents the initial review stage.

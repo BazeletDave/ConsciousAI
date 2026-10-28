@@ -80,6 +80,96 @@
       "origin": "user_supplied_book_photograph",
       "public_image_published": false,
       "model_training_rights": "not_cleared"
+    },
+    {
+      "id": "IMG_264B692E-4F23-4D3C-BA80-156678871C6F",
+      "supplied_filename": "IMG_264B692E-4F23-4D3C-BA80-156678871C6F.jpeg",
+      "sha256": "2fac5c76eeb236ed5c9782680f7f2a327376d97b5ffb004c94e5828e8747deef",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "54 to 55"
+    },
+    {
+      "id": "IMG_D03CBA0B-DD84-4261-AA52-16EDFB8FEF89",
+      "supplied_filename": "IMG_D03CBA0B-DD84-4261-AA52-16EDFB8FEF89.jpeg",
+      "sha256": "beced896009fb2a4862d51c145bf957e7bc5437d282d2e74bff57cbf806fea95",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "56 to 57"
+    },
+    {
+      "id": "IMG_77C9BAC6-7F4C-4BDD-9709-7196F16F7C62",
+      "supplied_filename": "IMG_77C9BAC6-7F4C-4BDD-9709-7196F16F7C62.jpeg",
+      "sha256": "01a782fc620b5851c8d5e3c291a5e772fdc4c4f2e7860ea15793064ed589ff94",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "60 to 61"
+    },
+    {
+      "id": "IMG_B277DD6C-B42F-453D-AFC3-3493B4352A74",
+      "supplied_filename": "IMG_B277DD6C-B42F-453D-AFC3-3493B4352A74.jpeg",
+      "sha256": "f7ac98187ee61b63ffec9a3b97f53f35d611563e33944ce943b7d5eb1ad7e940",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "62 to 63"
+    },
+    {
+      "id": "IMG_A26F1C9C-1B63-400B-B57E-58D0D2A5074A",
+      "supplied_filename": "IMG_A26F1C9C-1B63-400B-B57E-58D0D2A5074A.jpeg",
+      "sha256": "033636b5c091889e84cc8b514fcdc1f2593ecb5623a2fcaf0571823b2a7ffb51",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "64 to 65"
+    },
+    {
+      "id": "IMG_F407B9AE-E60C-4D61-AAB4-6971D977D532",
+      "supplied_filename": "IMG_F407B9AE-E60C-4D61-AAB4-6971D977D532.jpeg",
+      "sha256": "ae9a099af93ec28d7b306c59a0509dd1c6fb1b10e7f594954c7ac2a5f3514af9",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "66 to 67"
+    },
+    {
+      "id": "IMG_8B23EB32-F91D-4BCF-9244-042F90D16C5B",
+      "supplied_filename": "IMG_8B23EB32-F91D-4BCF-9244-042F90D16C5B.jpeg",
+      "sha256": "093d4a0317573fcf8819e53d46e6872cb93efd237695c319a87b5820cd439c1a",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "68 to 69"
+    },
+    {
+      "id": "IMG_6DAC7E44-1C96-43E4-8DEF-2E32F8F9CF67",
+      "supplied_filename": "IMG_6DAC7E44-1C96-43E4-8DEF-2E32F8F9CF67.jpeg",
+      "sha256": "a96818a4d6dd0a72a04db23f0b2c6b30406006a90989ff10429abc01d6fc86cc",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "70 to 71"
+    },
+    {
+      "id": "IMG_7F437D74-EEDC-4078-8609-9EED876618F6",
+      "supplied_filename": "IMG_7F437D74-EEDC-4078-8609-9EED876618F6.jpeg",
+      "sha256": "dee22e1b8b559705ed0a3e374140fc2016a24830e27288d989b332b2bec92bdd",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "72 to 73"
+    },
+    {
+      "id": "IMG_4792C7FE-C3F9-4784-A81B-60580B3CB3BE",
+      "supplied_filename": "IMG_4792C7FE-C3F9-4784-A81B-60580B3CB3BE.jpeg",
+      "sha256": "3289e8aa87111a2015554029a5fcf290524d7741d8da38c8549658042f1c3d4c",
+      "origin": "user_supplied_book_photograph",
+      "public_image_published": false,
+      "model_training_rights": "not_cleared",
+      "printed_pages": "169"
     }
   ]
 }

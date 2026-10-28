@@ -1,5 +1,5 @@
 {
-  "version": "0.2",
+  "version": "0.3",
   "owner": "Grand Research Institute",
   "title": "Leadership Learning, Algorithmic Management and Institutional Assurance",
   "book": {
@@ -72,14 +72,16 @@
       "start_page": 56,
       "proposed_translation": "Test a goal proximal curriculum as a research hypothesis",
       "evaluation_requirement": "Compare against forward curriculum with matched compute and seeds",
-      "evidence_status": "curriculum_order_supported_by_jacket_and_contents_algorithmic_translation_proposed",
-      "excerpt_received": false,
+      "evidence_status": "substantive_passage_supported_algorithmic_translation_proposed",
+      "excerpt_received": true,
       "model_training_authorized": false,
       "source_review_received": true,
       "supporting_source_ids": [
-        "IMG_7476",
-        "IMG_7480",
-        "IMG_7481"
+        "IMG_D03CBA0B-DD84-4261-AA52-16EDFB8FEF89",
+        "IMG_B277DD6C-B42F-453D-AFC3-3493B4352A74",
+        "IMG_A26F1C9C-1B63-400B-B57E-58D0D2A5074A",
+        "IMG_8B23EB32-F91D-4BCF-9244-042F90D16C5B",
+        "IMG_6DAC7E44-1C96-43E4-8DEF-2E32F8F9CF67"
       ]
     },
     {
@@ -134,13 +136,12 @@
       "start_page": 169,
       "proposed_translation": "Evaluate escalation and institutional correction",
       "evaluation_requirement": "Measure missed interventions, review delays and verified remediation",
-      "evidence_status": "chapter_location_supported_substantive_passage_review_pending",
-      "excerpt_received": false,
+      "evidence_status": "opening_passage_supported_escalation_translation_proposed",
+      "excerpt_received": true,
       "model_training_authorized": false,
       "source_review_received": true,
       "supporting_source_ids": [
-        "IMG_7480",
-        "IMG_7481"
+        "IMG_4792C7FE-C3F9-4784-A81B-60580B3CB3BE"
       ]
     }
   ],
@@ -235,6 +236,16 @@
       ],
       "review_status": "GRI_source_analysis_pending_independent_review",
       "model_update": false
+    },
+    {
+      "id": "BOOK-PRESSURE-2026-10-28",
+      "challenged_claim_id": "competitive_pressure_equals_adversarial_disturbance",
+      "decision": "Page 70 supports competitive pressure practice. External distraction conditioning and robotic perturbation robustness remain separate unverified mechanisms.",
+      "sources": [
+        "IMG_6DAC7E44-1C96-43E4-8DEF-2E32F8F9CF67"
+      ],
+      "review_status": "GRI_source_analysis_pending_independent_review",
+      "model_update": false
     }
   ],
   "correction_fields": [
@@ -286,11 +297,55 @@
       ],
       "finding": "Dedication and foreword connect education, care, support, integrity and the opportunity to express disagreement.",
       "boundary": "GRI institutional assurance mappings are analytical proposals, not mechanisms specified by the authors."
+    },
+    {
+      "id": "putting_progression_passage",
+      "source_ids": [
+        "IMG_D03CBA0B-DD84-4261-AA52-16EDFB8FEF89"
+      ],
+      "locator": "pages 56 to 57",
+      "finding": "Earl explicitly recommends beginning with putting, proceeding toward chipping, pitching and the full swing, using demonstration and familiar actions before advancing after proficiency.",
+      "boundary": "Source supported pedagogical account; an RL curriculum and causal efficacy remain separate research propositions."
+    },
+    {
+      "id": "imagery_and_context",
+      "source_ids": [
+        "IMG_B277DD6C-B42F-453D-AFC3-3493B4352A74",
+        "IMG_A26F1C9C-1B63-400B-B57E-58D0D2A5074A"
+      ],
+      "locator": "pages 62 to 65",
+      "finding": "The instruction links target visualization, short initial distance, later distance expansion and attention to ground conditions.",
+      "boundary": "No claim that internal model representations are equivalent to human visualization."
+    },
+    {
+      "id": "process_outcome_distinction",
+      "source_ids": [
+        "IMG_8B23EB32-F91D-4BCF-9244-042F90D16C5B"
+      ],
+      "locator": "pages 68 to 69",
+      "finding": "The account distinguishes practicing a repeatable stroke from practicing successful putts and emphasizes the first putt in longer distance play.",
+      "boundary": "A basis for separately measuring action consistency, task success and residual error rather than a single reward."
+    },
+    {
+      "id": "pressure_practice",
+      "source_ids": [
+        "IMG_6DAC7E44-1C96-43E4-8DEF-2E32F8F9CF67"
+      ],
+      "locator": "page 70",
+      "finding": "A competitive practice account describes pressure building with consecutive successful putts.",
+      "boundary": "Supports practice under competitive pressure, not evidence of visual distraction, external force disturbances or zero shot robotic adaptation."
+    },
+    {
+      "id": "specialist_handoff",
+      "source_ids": [
+        "IMG_4792C7FE-C3F9-4784-A81B-60580B3CB3BE"
+      ],
+      "locator": "page 169",
+      "finding": "Earl acknowledges limits to his instructional expertise and recommends objective assessment of when a teaching professional should take over.",
+      "boundary": "Supports a proposed competence boundary and specialist escalation comparison; the continuation of the chapter is not supplied."
     }
   ],
   "pending_source_requests": [
-    "Selected passage from chapter 6 near page 56 explaining putting progression",
-    "Selected passage explaining distraction conditioning, with visible page number",
-    "Selected passage from chapter 13 near page 169 explaining when and how to seek help"
+    "A passage explicitly describing external distraction conditioning, if this mechanism is to remain in the case; competitive pressure on page 70 is a distinct construct."
   ]
 }
