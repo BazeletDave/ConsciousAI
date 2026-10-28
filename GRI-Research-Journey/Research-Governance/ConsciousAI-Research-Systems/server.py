@@ -92,6 +92,17 @@ def assurance_dashboard():
             "notice": "Evidence gating is operational; model performance, fairness and drift are not measured until independent labeled evaluation data are available."}
 
 class Handler(BaseHTTPRequestHandler):
+    def send_founder_portrait(self):
+        payload = (ROOT / "assets/david-grand-portrait-v1.jpeg").read_bytes()
+        self.send_response(200)
+        self.send_header("Content-Type", "image/jpeg")
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.send_header("Cache-Control", "public, max-age=31536000, immutable")
+        self.send_header("Content-Length", str(len(payload)))
+        self.end_headers()
+        if self.command != "HEAD":
+            self.wfile.write(payload)
+
     def send_network_image(self):
         payload = (ROOT / "assets/global-institutional-network-v1.webp").read_bytes()
         self.send_response(200)
@@ -116,6 +127,8 @@ class Handler(BaseHTTPRequestHandler):
 
     def do_HEAD(self):
         path = urlparse(self.path).path
+        if path == "/assets/david-grand-portrait-v1.jpeg":
+            return self.send_founder_portrait()
         if path == "/assets/global-institutional-network-v1.webp":
             return self.send_network_image()
         if path == "/health":
@@ -149,6 +162,8 @@ class Handler(BaseHTTPRequestHandler):
                     return self.send_json(200, learning_snapshot(ROOT))
                 except (ValueError, KeyError, TypeError):
                     return self.send_json(503, {"status":"invalid_learning_ledger", "model_updated":False})
+            if path == "/assets/david-grand-portrait-v1.jpeg":
+                return self.send_founder_portrait()
             if path == "/assets/global-institutional-network-v1.webp":
                 return self.send_network_image()
             if path == "/institutional/research-evolution":
