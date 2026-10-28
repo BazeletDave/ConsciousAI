@@ -118,8 +118,21 @@ def validate_state(state):
         if r['verification'] != 'unreviewed_publisher_metadata' or r.get('human_review_required') is not True or r.get('fraud_training_eligible') is not False:
             raise ValueError('discovery evidence promotion forbidden')
     expected = fit_metadata(state['records'],state)
-    for k in ('corpus_digest','idf','vectors','documents','vocabulary_size'):
+    for k in ('corpus_digest','documents','vocabulary_size'):
         if state['model'].get(k) != expected[k]: raise ValueError('model and corpus do not match')
+    # Python versions can differ by a few ULPs in floating point summation.
+    # Preserve exact keys and digest; allow only immaterial numeric variation.
+    def same_weights(actual, reference):
+        if not isinstance(actual, dict) or actual.keys() != reference.keys(): return False
+        return all(isinstance(actual[t], (int, float)) and not isinstance(actual[t], bool)
+                   and math.isfinite(actual[t]) and math.isclose(actual[t], value, rel_tol=1e-12, abs_tol=1e-12)
+                   for t, value in reference.items())
+    if not same_weights(state['model'].get('idf'), expected['idf']):
+        raise ValueError('model vocabulary weights do not match corpus')
+    vectors = state['model'].get('vectors')
+    if not isinstance(vectors,dict) or vectors.keys() != expected['vectors'].keys() or any(
+            not same_weights(vectors[k], weights) for k, weights in expected['vectors'].items()):
+        raise ValueError('model vectors do not match corpus')
     return state
 
 def collect(previous=None, fetcher=fetch, sources=None, now=None):

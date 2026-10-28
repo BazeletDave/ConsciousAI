@@ -70,6 +70,15 @@ class EnrollmentDiscoveryTests(unittest.TestCase):
             else:b['records'].append(b['records'][0])
             with self.subTest(kind=kind),self.assertRaises(ValueError):validate_state(b)
 
+    def test_cross_runtime_float_rounding_is_allowed_but_drift_is_rejected(self):
+        a=self.collect()
+        key=next(iter(a['model']['vectors']))
+        term=next(iter(a['model']['vectors'][key]))
+        a['model']['vectors'][key][term]+=1e-14
+        validate_state(a)
+        a['model']['vectors'][key][term]+=1e-4
+        with self.assertRaises(ValueError): validate_state(a)
+
     def test_similarity_unknown_words_and_country_filter(self):
         a=self.collect()
         self.assertTrue(related(a,'identity fraud'))
