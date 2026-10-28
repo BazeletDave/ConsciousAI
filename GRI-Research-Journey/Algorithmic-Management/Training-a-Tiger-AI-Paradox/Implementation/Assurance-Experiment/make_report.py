@@ -89,5 +89,6 @@ The last command repeats training and evaluation in memory and compares the full
 Preserve this experiment. A subsequent separately frozen study should test validation on the full task dimensions, sensor calibration and integrity, independent holdout reviewers, and recorded human rejection and release decisions. It must evaluate both missed hazards and unnecessary intervention. This synthetic result does not establish a robot, a general RL system, coaching effectiveness, clinical transfer, or real world operational safety.
 '''
 report+='\nRetained candidate examples are the first two eligible held cases per model and condition; they are not a representative failure sample. Regenerate this report and figure with python make_report.py after installing Matplotlib.\n'
+report+='\nThe action allowance fractions refer to the main task decision, not the preflight or calibration probes. Probe operations are assumed available observations; their physical risk, energy, duration and containment are not simulated. This is not evidence of safe exploration in a physical system.\n'
 (D/'README.md').write_text(report)
 print('Report and figure created')

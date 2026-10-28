@@ -388,9 +388,9 @@
     "verify.py": "d13463bb59a2eee2a7ef95dfc913cd8398105a050a78357a06c6ca3d028484db",
     "reproduction_result.json": "d58e4252dcb0d0d6ddc6e0557685906025ec731c04190c61dedb1733ec8704ec",
     "run_record.json": "5c0503314d934f4b9aa00ec6adc91dd35c3d4b889e0874a7afa24f9e9b37b7f8",
-    "README.md": "749d46abddebca894d9e8727fdf7ced6597959b62b5c1af30c5ae39a7b5740d4",
+    "README.md": "d446f74c6e3563ced0cc19a3f463d08a42b2aeb0a02bff34ccfbacdcf4b093a3",
     "figure.svg": "631e9d180ff4e18f44f59a78770379bd79c69b64674242da70fefb715fb154c2",
-    "make_report.py": "8e581c912af82664c767adf47622b22f0ff767cf100b4f596d740d4cf3e56018"
+    "make_report.py": "61b56171411d4a783a21835d30b95f41a750aeef6030ce828d3f635acc7f418d"
   },
   "report_url": "https://github.com/BazeletDave/ConsciousAI/tree/main/GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment",
   "limitations": [
@@ -398,6 +398,7 @@
     "The independent monitor has an additional observation budget.",
     "Recovery is counterfactual and always requires human review.",
     "Validation examines longitudinal probes and omits lateral task performance.",
-    "No curriculum superiority demonstrated; no causal generalization to human coaching."
+    "No curriculum superiority demonstrated; no causal generalization to human coaching.",
+    "Action allowances concern the main task; physical probe risk, energy and duration are not simulated."
   ]
 }
