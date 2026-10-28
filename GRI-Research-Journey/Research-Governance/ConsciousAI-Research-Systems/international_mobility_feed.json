@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T12:53:01.124144+00:00",
+  "generated_at": "2026-10-28T14:44:40.574990+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -145,6 +145,42 @@
       "category": "international_regulatory",
       "title": "Factsheet: A stronger Frontex",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2263",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "3c9b4d77a54c305dcd31",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Guidance: Rail infrastructure costs review: terms of reference",
+      "source_url": "https://www.gov.uk/government/publications/rail-infrastructure-costs-review-terms-of-reference",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "737e37983c6105f28abb",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Independent report: Cost of public electric vehicle charging review",
+      "source_url": "https://www.gov.uk/government/publications/cost-of-public-electric-vehicle-charging-review",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "642964bd69b5d8b8a80d",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Policy paper: Northern Growth Strategy: Case for change",
+      "source_url": "https://www.gov.uk/government/publications/northern-growth-strategy-case-for-change",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -354,42 +390,6 @@
       "publication_authorized": false
     },
     {
-      "id": "66c49fa6eacfc851551c",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Policy paper: DfT engagement on the Heathrow expansion consultation",
-      "source_url": "https://www.gov.uk/government/publications/dft-engagement-on-the-heathrow-expansion-consultation",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "2866f83a70a85be2fd6f",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Transparency data: Major Road Network and Large Local Majors programme",
-      "source_url": "https://www.gov.uk/government/publications/major-road-network-and-large-local-majors-programme",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "fbe67bcc0bbfdd384cf9",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Guidance: Minimising headlight glare and its effects",
-      "source_url": "https://www.gov.uk/government/publications/minimising-headlight-glare-and-its-effects",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "2ecaf2bc49cf8f6bee35",
       "source_id": "NHTSA",
       "publisher": "NHTSA",
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",

@@ -1,6 +1,23 @@
 {
-  "generated_at": "2026-10-28T14:37:43.291080+00:00",
+  "generated_at": "2026-10-28T14:44:42.800424+00:00",
   "records": [
+    {
+      "id": "WAYMO-SAFETY",
+      "source_id": "WAYMO-SAFETY",
+      "publisher": "Waymo",
+      "title": "Safety Impact",
+      "source_url": "https://www.waymo.com/safety/impact/",
+      "country_codes": [
+        "USA"
+      ],
+      "content_sha256": "aab7568d553e7ee88f3d44c8fb11af6752994c58ede5bf2934f88b4d85e548cc",
+      "published_at": null,
+      "source_kind": "company_self_report",
+      "configured_track": "road_autonomy",
+      "verification_status": "publisher_page_observation_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "ZOOX-SAFETY",
       "source_id": "ZOOX-SAFETY",
@@ -19,6 +36,23 @@
       "publication_authorized": false
     },
     {
+      "id": "FAA-AAM",
+      "source_id": "FAA-AAM",
+      "publisher": "Federal Aviation Administration",
+      "title": "Advanced Air Mobility & eVTOLs | Federal Aviation Administration Lock United States Department of Transportation",
+      "source_url": "https://www.faa.gov/aam",
+      "country_codes": [
+        "USA"
+      ],
+      "content_sha256": "6ff474b92b3a5f86cd312cf02ef4e61732bba0a465ec62c9692b2d3c4f02092c",
+      "published_at": null,
+      "source_kind": "regulator_information",
+      "configured_track": "air_mobility",
+      "verification_status": "publisher_page_observation_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "NHTSA-SGO",
       "source_id": "NHTSA-SGO",
       "publisher": "NHTSA",
@@ -27,7 +61,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "21c5a04ddce0f79d3e2f0532e84d86bf33cae178813e5b792e2cff5ecf784c15",
+      "content_sha256": "175d37b7a163d51903f65565f25e90e0011ac8630b032fe0e3ee7ee95a8f072b",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -51,30 +85,13 @@
       "verification_status": "publisher_page_observation_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
-    },
-    {
-      "id": "ISR-TRAFFIC-AUTHORITY",
-      "source_id": "ISR-TRAFFIC-AUTHORITY",
-      "publisher": "Israel Ministry of Transport and Road Safety",
-      "title": "Traffic Administration | Ministry of Transport and Road Safety",
-      "source_url": "https://www.gov.il/en/departments/units/ministry_of_transport_traffic_authority",
-      "country_codes": [
-        "ISR"
-      ],
-      "content_sha256": "e5d489e84e077b6978ae5a7f78573248f13a371c96eae64cc720d3664a5e6331",
-      "published_at": null,
-      "source_kind": "agency_remit_page_not_operating_permission",
-      "configured_track": "road_autonomy",
-      "verification_status": "publisher_page_observation_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
     }
   ],
   "sources": [
     {
       "source_id": "WAYMO-SAFETY",
-      "status": "failed",
-      "error_type": "URLError"
+      "status": "fetched",
+      "bytes": 393940
     },
     {
       "source_id": "ZOOX-SAFETY",
@@ -83,13 +100,13 @@
     },
     {
       "source_id": "FAA-AAM",
-      "status": "failed",
-      "error_type": "URLError"
+      "status": "fetched",
+      "bytes": 110997
     },
     {
       "source_id": "NHTSA-SGO",
       "status": "fetched",
-      "bytes": 146050
+      "bytes": 146417
     },
     {
       "source_id": "BRA-ANAC-AAM",
@@ -98,8 +115,8 @@
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
-      "status": "fetched",
-      "bytes": 31113
+      "status": "failed",
+      "error_type": "HTTPError"
     }
   ],
   "notice": "Page byte changes may reflect layout or tracking changes. They are not evidence of a robotics deployment, safety improvement, or regulatory approval."
