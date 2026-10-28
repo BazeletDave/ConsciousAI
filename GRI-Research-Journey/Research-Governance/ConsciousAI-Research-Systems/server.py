@@ -259,6 +259,24 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, public_snapshot())
             if path == "/assurance/overview":
                 return self.send_json(200, assurance_dashboard())
+            if path in ("/research/catalog", "/research/ask"):
+                from unified_research import catalog as research_catalog, ask as research_ask
+                try:
+                    topic = query.get("topic", [None])[0] or None
+                    if path == "/research/catalog":
+                        return self.send_json(200, research_catalog(topic))
+                    return self.send_json(200, research_ask(query.get("q", [""])[0], topic))
+                except ValueError:
+                    return self.send_json(400, {"error": "invalid_research_question_topic_or_index"})
+            if path == "/research-library.js":
+                payload = (ROOT / "research-library.js").read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/javascript; charset=utf-8")
+                self.send_header("X-Content-Type-Options", "nosniff")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+                return
             if path == "/intelligence/enrollment-research":
                 from enrollment_research import snapshot as enrollment_snapshot
                 try:
@@ -350,6 +368,10 @@ class Handler(BaseHTTPRequestHandler):
         return self.send_json(200 if result else 404, result or {"error": "unknown_case"})
 
 if __name__ == "__main__":
+    from unified_research import main as rebuild_research_index
+    rebuild_research_index()
+    from research_evolution import main as rebuild_research_connections
+    rebuild_research_connections()
     host = os.environ.get("GRI_HOST", "127.0.0.1")
     port = int(os.environ.get("PORT", os.environ.get("GRI_PORT", "8000")))
     print(f"GRI local research prototype at http://{host}:{port}", flush=True)

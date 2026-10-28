@@ -4,6 +4,30 @@ info:
   version: 0.1.0
   description: Research interface supporting the deployed GRI dashboard and local execution. No certification or independent validation is implied.
 paths:
+  /research/catalog:
+    get:
+      summary: Public GRI research coverage and source links
+      parameters:
+        - in: query
+          name: topic
+          schema: {type: string}
+      responses:
+        '200': {description: Indexed document catalog with explicit coverage and evidence limits}
+        '400': {description: Unknown research topic or invalid index}
+  /research/ask:
+    get:
+      summary: Extractive research answers with cited source passages
+      parameters:
+        - in: query
+          name: q
+          required: true
+          schema: {type: string, maxLength: 800}
+        - in: query
+          name: topic
+          schema: {type: string}
+      responses:
+        '200': {description: Cited passages or explicit insufficient support result}
+        '400': {description: Invalid question topic or index}
   /intelligence/enrollment-research:
     get:
       summary: Reviewed enrollment research, live discovery, adaptive metadata retrieval and study opportunities

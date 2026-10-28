@@ -17,11 +17,7 @@ from country_topics import TopicModel, EXAMPLES, tokens
 ROOT = Path(__file__).resolve().parent
 REPO = ROOT.parents[2]
 OUTPUT = ROOT / "country_intelligence/research_evolution.json"
-SCOPES = ("GRI-Research-Journey/Integrated-Research-Journey",
-          "GRI-Research-Journey/Institutional-Research-Reports",
-          "GRI-Research-Journey/Algorithmic-Management",
-          "GRI-Research-Journey/Institutional-Governance",
-          "GRI-Research-Journey/Living-AI-Ecosystem")
+SCOPES = ("GRI-Research-Journey", "Research-Journey", "research", "autonomous-mobility-research")
 BASE = "https://github.com/BazeletDave/ConsciousAI/blob/main/"
 TERM_MAP = {"brasil": "brazil", "inteligencia": "intelligence", "governanca": "governance",
             "algoritmica": "algorithmic", "algoritmos": "algorithmic", "comercio": "trade",
@@ -43,7 +39,7 @@ def catalog(repo=REPO):
         if path.is_symlink() or not path.resolve().is_relative_to(repo.resolve()):
             continue
         relative = path.relative_to(repo).as_posix()
-        if re.search(r"syllabus|assignment|exam|answer.?key", relative, re.I) or path.stat().st_size > 2_000_000:
+        if re.search(r"syllabus|assignment|exam|answer.?key|source_snapshots|private|restricted|appendix-a-interview", relative, re.I) or path.stat().st_size > 2_000_000:
             continue
         text = path.read_text(encoding="utf-8")
         title = next((x.lstrip("# ").strip() for x in text.splitlines() if x.startswith("# ")), path.stem)[:200]
