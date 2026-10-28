@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T15:12:02.610335+00:00",
+  "generated_at": "2026-10-28T20:16:13.131078+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "114d9fae784b98c6ab34",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commissioner Roswall's address at a High-level side-event at CBD COP17, \u201cRestoring nature \u2013 from commitments to action\u201d",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2280",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "65b6f913d3ff387c9195",
       "source_id": "EU-COMMISSION-NEWS",
@@ -138,13 +150,13 @@
       "publication_authorized": false
     },
     {
-      "id": "682a4aeb645eef74cec4",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "a32d6507416984ae00c8",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Daily News 27 / 10 / 2026",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2270",
+      "title": "Leeds station set for biggest transformation in a generation as government backs city\u2019s growth with a \u00a3303 million upgrade",
+      "source_url": "https://www.gov.uk/government/news/leeds-station-set-for-biggest-transformation-in-a-generation-as-government-backs-citys-growth-with-a-303-million-upgrade",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -373,18 +385,6 @@
       "category": "international_regulatory",
       "title": "Transparency data: Zero emission flight demonstrator competition: successful projects",
       "source_url": "https://www.gov.uk/government/publications/zero-emission-flight-demonstrator-competition-successful-projects",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "39304ec6e74cc96250f6",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Guidance: CCTV and recording devices for traffic offences: list of certifications granted",
-      "source_url": "https://www.gov.uk/government/publications/list-of-certifications-granted-for-approved-devices",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
