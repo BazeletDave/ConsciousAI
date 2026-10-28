@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28T14:57:46.347289+00:00",
+  "generated_at": "2026-10-28T15:12:02.610335+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "65b6f913d3ff387c9195",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Address by Commissioner Valdis Dombrovskis to the 111th conference of Directors General of the National Statistical Institutes",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2279",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "0e7f3c694b55582bcd15",
       "source_id": "EU-COMMISSION-NEWS",
@@ -133,18 +145,6 @@
       "category": "international_regulatory",
       "title": "Daily News 27 / 10 / 2026",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2270",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "03d1996aa3f435c6298a",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Factsheet: A stronger Frontex",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2263",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "English, English",
+      "title": "Skip to main content",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
