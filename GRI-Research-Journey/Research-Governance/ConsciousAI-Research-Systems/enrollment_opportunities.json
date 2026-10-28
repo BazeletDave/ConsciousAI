@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "opportunities": [
+    {
+      "id": "AI-ATTRIBUTION",
+      "title": "When does automation become an AI enabled enrollment scheme?",
+      "question": "Which technical evidence distinguishes human impersonation, scripts, and generative AI in confirmed enrollment fraud?",
+      "design": "Compare adjudicated identity fraud cases with institutional reports that explicitly identify automation. Code AI attribution separately and seek authorized technical corroboration.",
+      "source_ids": [
+        "DOJ-TEXAS-2026",
+        "DOJ-ONLINE-2025",
+        "CCCCO-FRAUD-FAQ"
+      ],
+      "query": "student identity fraud bots artificial intelligence",
+      "metrics": [
+        "AI attribution evidence completeness",
+        "mechanism coding agreement",
+        "verification time"
+      ],
+      "submission_path": "Comparative case study and methods paper",
+      "status": "proposed_research_not_finding",
+      "submission_ready": false,
+      "review_required": true
+    },
+    {
+      "id": "CONTROL-ACCESS",
+      "title": "Fraud prevention and legitimate student access",
+      "question": "Do stronger identity controls reduce fraud while increasing verification delays or false positives for legitimate students?",
+      "design": "Prospective institutional study with authorized aggregate outcomes, an identified comparison period, and separate fraud and access measures. Public reports alone cannot establish causal effects.",
+      "source_ids": [
+        "FSA-APP-26-09",
+        "CCCCO-DII-21-200-03",
+        "AUS-ASQA-AUDIT-2024"
+      ],
+      "query": "student identity verification fraud controls",
+      "metrics": [
+        "confirmed fraud rate with denominator",
+        "false positive rate",
+        "appeal resolution time",
+        "legitimate aid delay"
+      ],
+      "submission_path": "Governance evaluation protocol",
+      "status": "proposed_research_not_finding",
+      "submission_ready": false,
+      "review_required": true
+    },
+    {
+      "id": "INCENTIVES-OVERSIGHT",
+      "title": "Enrollment incentives and fragmented institutional oversight",
+      "question": "How do funding incentives and divided responsibilities affect the verification of genuine educational participation?",
+      "design": "Structured comparison across United States aid systems, UK university franchising, and Australian vocational providers. Preserve differences in funding and law; do not assume a shared AI mechanism.",
+      "source_ids": [
+        "UK-PAC-FRANCHISE-2024",
+        "AUS-GHOST-COLLEGES-2025",
+        "DOJ-ONLINE-2025"
+      ],
+      "query": "student finance fraud college franchise integrity",
+      "metrics": [
+        "oversight responsibility clarity",
+        "reported control testing",
+        "participation verification",
+        "documented remediation"
+      ],
+      "submission_path": "International comparative governance paper",
+      "status": "proposed_research_not_finding",
+      "submission_ready": false,
+      "review_required": true
+    },
+    {
+      "id": "EVIDENCE-LEARNING",
+      "title": "Administrative labels and model learning errors",
+      "question": "Can unresolved application flags become misleading fraud labels that reproduce exclusion when used in machine learning?",
+      "design": "Audit label provenance and compare administrative flags with independently resolved outcomes. The 2021 California memorandum motivates a hypothesis; it does not establish that model contamination occurred.",
+      "source_ids": [
+        "CCCCO-DII-21-200-03",
+        "AUS-ASQA-AUDIT-2024"
+      ],
+      "query": "fraud machine learning identity verification",
+      "metrics": [
+        "label correction rate",
+        "agreement with resolved outcomes",
+        "precision and recall on independent cases"
+      ],
+      "submission_path": "AI assurance methods study",
+      "status": "proposed_research_not_finding",
+      "submission_ready": false,
+      "review_required": true
+    }
+  ]
+}

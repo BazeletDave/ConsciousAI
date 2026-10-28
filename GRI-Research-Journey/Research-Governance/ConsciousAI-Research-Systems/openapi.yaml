@@ -6,7 +6,7 @@ info:
 paths:
   /intelligence/enrollment-research:
     get:
-      summary: Curated enrollment research and corpus fitted document relevance
+      summary: Reviewed enrollment research, live discovery, adaptive metadata retrieval and study opportunities
       parameters:
         - in: query
           name: q
@@ -16,7 +16,7 @@ paths:
           schema: {type: string, pattern: '^[A-Z]{3}$'}
       responses:
         '200':
-          description: Attributed incidents, institutional references, coverage and TF IDF similarity; no fraud probability
+          description: Attributed incidents, institutional references, discovery source health, versioned TF IDF metadata model and proposed studies; no fraud probability
         '400':
           description: Invalid query or research snapshot
         '500':

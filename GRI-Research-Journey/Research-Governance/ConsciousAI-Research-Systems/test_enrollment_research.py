@@ -10,7 +10,7 @@ class EnrollmentResearchTests(unittest.TestCase):
 
     def test_attributed_report_excluded_from_fitted_corpus(self):
         index = DocumentIndex(validate(self.data)["records"])
-        self.assertEqual(len(index.rows), 3)
+        self.assertEqual(len(index.rows), 9)
         self.assertTrue(all(r["record_type"] == "institutional_reference" for r in index.rows))
         self.assertFalse(any("GRI-ENROLLMENT" in r["id"] for r in index.rows))
 
@@ -29,10 +29,10 @@ class EnrollmentResearchTests(unittest.TestCase):
         self.assertNotEqual(a, DocumentIndex(self.data["records"]).digest)
 
     def test_country_filter_does_not_invent_global_coverage(self):
-        result = snapshot("identity", "BRA")
+        result = snapshot("identity", "CAN")
         self.assertEqual(result["records"], [])
         self.assertEqual(result["retrieval"]["matches"], [])
-        self.assertEqual(result["coverage"]["countries"], ["USA"])
+        self.assertEqual(result["coverage"]["countries"], ["AUS", "GBR", "USA"])
 
     def test_fail_closed_invalid_or_unreviewed_data(self):
         for change in ({"contains_personal_data": True}, {"training_eligible": True}, {"retrieval_eligible": True}, {"source_url": "javascript:alert(1)"}):
@@ -40,6 +40,16 @@ class EnrollmentResearchTests(unittest.TestCase):
             with self.subTest(change=change), self.assertRaises(ValueError): validate(d)
         d=copy.deepcopy(self.data); d["records"].append(d["records"][0])
         with self.assertRaises(ValueError): validate(d)
+
+    def test_opportunities_are_proposals_with_resolvable_sources(self):
+        d = snapshot()
+        ids = {r["id"] for r in d["records"]}
+        self.assertEqual(len(d["opportunities"]), 4)
+        for opportunity in d["opportunities"]:
+            self.assertTrue(set(opportunity["source_ids"]).issubset(ids))
+            self.assertFalse(opportunity["submission_ready"])
+            self.assertTrue(opportunity["review_required"])
+        self.assertIn("sources", d["discovery"])
 
     def test_query_limits(self):
         for args in (("a"*501, None), ("", "invalid")):
@@ -60,8 +70,8 @@ class EnrollmentHTTPTests(unittest.TestCase):
         from urllib.request import urlopen
         from urllib.error import HTTPError
         d = self.fetch('/intelligence/enrollment-research?q=identity&country=USA')
-        self.assertEqual(d['counts']['records'], 4)
-        self.assertEqual(d['retrieval']['fitted_documents'], 3)
+        self.assertEqual(d['counts']['records'], 7)
+        self.assertEqual(d['retrieval']['fitted_documents'], 9)
         with self.assertRaises(HTTPError) as error:
             self.fetch('/intelligence/enrollment-research?country=invalid')
         self.assertEqual(error.exception.code, 400)

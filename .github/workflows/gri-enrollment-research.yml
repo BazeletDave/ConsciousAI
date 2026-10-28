@@ -1,0 +1,54 @@
+name: GRI Enrollment Research Discovery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gri-enrollment-research.yml'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/enrollment_discovery.py'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/enrollment_sources.json'
+  schedule:
+    - cron: '31 */6 * * *'
+permissions:
+  contents: write
+concurrency:
+  group: gri-enrollment-research
+  cancel-in-progress: false
+jobs:
+  discover-and-adapt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Test source boundaries and metadata learning
+        run: python -m unittest test_enrollment_discovery test_enrollment_research -v
+      - name: Collect sources and adapt retrieval model
+        id: collection
+        continue-on-error: true
+        run: python enrollment_discovery.py
+      - name: Validate retained state even when sources fail
+        run: python -c "import json; from enrollment_discovery import validate_state, STATE; validate_state(json.loads(STATE.read_text()))"
+      - name: Persist collection health and versioned metadata model
+        working-directory: .
+        run: |
+          git config user.name "gri-enrollment-research[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/enrollment_discovery.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data: refresh enrollment research discovery and adaptive retrieval"
+            for attempt in 1 2 3; do
+              if git push origin HEAD:main; then exit 0; fi
+              git fetch origin main
+              git rebase origin/main || { git rebase --abort; exit 1; }
+            done
+            exit 1
+          fi
+      - name: Surface total source failure
+        if: steps.collection.outcome == 'failure'
+        run: exit 1

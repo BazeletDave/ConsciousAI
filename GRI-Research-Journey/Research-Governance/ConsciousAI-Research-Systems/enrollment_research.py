@@ -72,9 +72,21 @@ def snapshot(query="", country=None, path=None):
     rows = data["records"]
     index = DocumentIndex(rows)
     filtered = [r for r in rows if not country or r["country"] == country]
-    return {"schema_version": "1.0", "stream_id": "global_enrollment_identity_fraud", "updated_at": data["updated_at"],
-            "status": "curated_research_with_document_retrieval", "collection_mode": "curated_snapshot_no_automatic_global_collection",
-            "coverage": {"intended": "global", "countries": sorted({r["country"] for r in rows}), "notice": "Initial sources cover the United States only; counts do not measure prevalence."},
+    from enrollment_discovery import snapshot as discovery_snapshot
+    discovery = discovery_snapshot(query, country)
+    opportunities = json.loads((ROOT / "enrollment_opportunities.json").read_text())["opportunities"]
+    source_ids = {r["id"] for r in rows}
+    if any(not set(o["source_ids"]).issubset(source_ids) for o in opportunities):
+        raise ValueError("opportunity references an unknown reviewed source")
+    visible_ids = {r["id"] for r in filtered}
+    opportunities = [o for o in opportunities if not country or set(o["source_ids"]) & visible_ids]
+    if discovery.get("model"):
+        from enrollment_discovery import related, validate_state, STATE
+        state = validate_state(json.loads(STATE.read_text()))
+        opportunities = [{**o, "discovery_leads": related(state, o["query"], country)[:3]} for o in opportunities]
+    return {"discovery": discovery, "opportunities": opportunities, "schema_version": "1.0", "stream_id": "global_enrollment_identity_fraud", "updated_at": data["updated_at"],
+            "status": "curated_research_with_document_retrieval", "collection_mode": "scheduled_official_metadata_discovery_with_curated_case_research",
+            "coverage": {"intended": "global", "countries": sorted({r["country"] for r in rows}), "notice": "Reviewed comparisons cover the listed countries only; counts do not measure global prevalence. Not all comparisons establish AI involvement."},
             "selected_country": country, "query": query, "records": filtered,
             "counts": {"records": len(filtered), "attributed_incidents": sum(r["record_type"] == "attributed_incident" for r in filtered), "institutional_references": sum(r["record_type"] == "institutional_reference" for r in filtered)},
             "retrieval": {"model_id": "enrollment-document-tfidf", "version": "1.0", "method": "corpus_fitted_tfidf_cosine", "fitted_documents": len(index.rows), "corpus_digest": index.digest,

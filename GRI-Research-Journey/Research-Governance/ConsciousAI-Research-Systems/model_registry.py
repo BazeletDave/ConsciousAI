@@ -3,6 +3,10 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 MODEL_CATALOG = (
+    {"id": "enrollment-discovery-tfidf", "domain": "institutional",
+     "method": "adaptive_publisher_title_tfidf_cosine", "status": "scheduled_metadata_adaptation",
+     "trained": False, "fitted_feature_index": True, "evaluation": None,
+     "endpoint": "/intelligence/enrollment-research", "fraud_classifier": False},
     {"id": "enrollment-document-tfidf", "domain": "institutional",
      "method": "corpus_fitted_tfidf_cosine", "status": "research_retrieval",
      "trained": False, "fitted_feature_index": True, "evaluation": None,

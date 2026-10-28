@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "sources": [
+    {
+      "id": "UK-GOV-SEARCH",
+      "country": "GBR",
+      "publisher": "UK Government",
+      "mode": "govuk_json",
+      "url": "https://www.gov.uk/api/search.json?q=student%20finance%20fraud&count=50&fields=title,link,public_timestamp",
+      "allowed_host": "www.gov.uk",
+      "path_prefix": "/government/"
+    },
+    {
+      "id": "UK-FRANCHISE-SEARCH",
+      "country": "GBR",
+      "publisher": "UK Government franchising research",
+      "mode": "govuk_json",
+      "url": "https://www.gov.uk/api/search.json?q=franchised%20higher%20education%20fraud&count=50&fields=title,link,public_timestamp",
+      "allowed_host": "www.gov.uk",
+      "path_prefix": "/government/"
+    },
+    {
+      "id": "US-TREASURY",
+      "country": "USA",
+      "publisher": "US Treasury",
+      "mode": "html",
+      "url": "https://home.treasury.gov/news/press-releases",
+      "allowed_host": "home.treasury.gov",
+      "path_prefix": "/news/press-releases/"
+    },
+    {
+      "id": "AU-COUNTERFRAUD",
+      "country": "AUS",
+      "publisher": "Commonwealth Fraud Prevention Centre",
+      "mode": "html",
+      "url": "https://www.counterfraud.gov.au/news",
+      "allowed_host": "www.counterfraud.gov.au",
+      "path_prefix": "/news/"
+    },
+    {
+      "id": "AU-ASQA",
+      "country": "AUS",
+      "publisher": "Australian Skills Quality Authority",
+      "mode": "html",
+      "url": "https://www.asqa.gov.au/news-events/news",
+      "allowed_host": "www.asqa.gov.au",
+      "path_prefix": "/news-events/"
+    },
+    {
+      "id": "US-ED-OIG",
+      "country": "USA",
+      "publisher": "US Education OIG",
+      "mode": "html",
+      "url": "https://oig.ed.gov/resources/news-and-updates",
+      "allowed_host": "oig.ed.gov",
+      "path_prefix": "/"
+    },
+    {
+      "id": "US-DOJ-NDNY",
+      "country": "USA",
+      "publisher": "US Department of Justice",
+      "mode": "html",
+      "url": "https://www.justice.gov/usao-ndny/pr",
+      "allowed_host": "www.justice.gov",
+      "path_prefix": "/usao-ndny/pr/"
+    }
+  ]
+}
