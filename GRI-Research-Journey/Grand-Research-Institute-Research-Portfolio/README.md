@@ -23,6 +23,7 @@
 | AI decision architecture and October 2026 academic context | [The AI Paradox research edition](../../Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md) |
 | **Cambodian antiquities, Douglas Latchford, and the Legitimacy Paradox** | [**Explore the historical research and AI Paradox connection**](../Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md) |
 | Integrated AI Paradox research architecture | [**Living GRI Research Journey**](../Integrated-Research-Journey/README.md) |
+| Institutional learning and accountable AI leadership | [The AI Governance Paradox: Institutional Research Report](../Institutional-Research-Reports/AI-Governance-Paradox/README.md) |
 | Figures and visual interpretation | [Figures and visual materials](../Algorithmic-Management-Institutional-Leadership/Figures-and-Visual-Materials.md) |
 
 The portfolio is the canonical research index. Earlier and parallel directory structures remain available to preserve historical links and citation continuity.
