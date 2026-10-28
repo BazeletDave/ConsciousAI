@@ -30,3 +30,7 @@ Related research: [comparative architecture](../research-program-architecture.md
 The existing GRI research server now defines a read-only `GET /intelligence/governance-registry` route that returns the checked-in ledger's public metadata. This is an interface integration, **not** a claim that Render has deployed or validated it. The ledger begins empty until a successful collection run. The [dashboard adapter](dashboard_adapter.py) is a separate local reference implementation.
 
 **Operational limitation:** GitHub Actions writes may trigger automatic deployment if the linked Render service deploys from `main`. No direct Render deployment or configuration change was initiated. Verify CI permissions, runtime tests, deployment status, and endpoint response before describing the feed as operational.
+
+## Global enrollment and identity fraud research stream
+
+The [Synthetic Student Paradox](../../../research/case-studies/synthetic-student-paradox-2026.md) now links to a [global comparative research protocol](../../../research/case-studies/global-enrollment-identity-fraud-research-stream.md). It defines an incident and claim evidence model, mapping to this registry, proposed dashboard views, and evaluated document intelligence tasks. The classroom account remains attributed and independently unverified; no individual student data or fraud labels are introduced. This documentation link does not add a collector, dashboard display, or trained model.
