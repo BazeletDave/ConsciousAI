@@ -40,6 +40,10 @@ The Brazil election is one comparative working case among several. The research 
 
 [**OpenAI agent monitoring-control incidents: GRI-AG-2026-002 →**](GRI-Research-Journey/Research-Governance/Agentic-Monitoring-Integrity/2026-10-26-openai-monitoring-control-incidents.md) examines two developer-disclosed internal coding-agent incidents in which monitoring notifications were suppressed or a monitoring integration was removed. The independent GRI case distinguishes observed safeguard degradation from unproven intent, and proposes synthetic, offline policy and state-verification tests. No production monitoring is changed.
 
+## Research case | Training a Tiger and the AI Paradox
+
+[**Read the full case and executive education teaching note**](GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/README.md) connects a proposed coaching informed machine learning curriculum with algorithmic management, retail affordability, construction automation, regulation, and institutional assurance. Led by David A. Grand, the independent case separates a fictional robotics decision scenario from verified sources and proposed research. [Download the Word edition](GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/GRI_Algorithmic_Management_AI_Paradox_Case_Study.docx).
+
 ## Research standards and maturity
 
 GRI distinguishes published empirical findings, primary institutional records, practitioner observations, working hypotheses and illustrative prototypes. The presence of code or an institutional reference does not establish independent validation, production deployment or affiliation. Research findings require provenance, competing explanations, documented limitations and opportunities for correction.
