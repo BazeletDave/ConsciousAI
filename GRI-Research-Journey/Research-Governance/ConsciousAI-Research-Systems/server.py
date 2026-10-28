@@ -226,6 +226,31 @@ class Handler(BaseHTTPRequestHandler):
                     return self.send_json(404, {"error": "unknown_country"})
                 except ValueError:
                     return self.send_json(400, {"error": "invalid_country_query_or_snapshot"})
+            if path == "/research/cisa2030/assurance":
+                domains = [
+                    ("defend", "Defend", "Detection outcome"),
+                    ("harden", "Harden", "Patch verification"),
+                    ("prevail", "Prevail", "Recovery verification"),
+                    ("human_authority", "Human authority", "Human override effectiveness"),
+                    ("evidence_integrity", "Evidence integrity", "Provenance verification"),
+                    ("institutional_legitimacy", "Institutional legitimacy", "Remediation documentation"),
+                ]
+                return self.send_json(200, {
+                    "schema_version": "1.0",
+                    "classification": "research_only_no_operational_measurements",
+                    "domains": [{"id": key, "label": label, "measure": measure, "status": "unmeasured"} for key, label, measure in domains],
+                    "notice": "All operational measurements are unmeasured. GRI independent academic research, not CISA certification or Thunderbird endorsement."
+                })
+            if path == "/research/cisa2030":
+                payload = (ROOT / "cisa2030.html").read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Cache-Control", "no-store")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                if self.command != "HEAD":
+                    self.wfile.write(payload)
+                return
             if path in ("/dashboard", "/dashboard.html"):
                 payload = (ROOT / "dashboard.html").read_bytes()
                 self.send_response(200)
