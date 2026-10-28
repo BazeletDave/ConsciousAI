@@ -4,7 +4,7 @@ class TestRegistry(unittest.TestCase):
     def test_catalog(self):
         x=platform_capabilities()
         self.assertEqual(x["trained_models"], 0)
-        self.assertEqual(x["registered_models"], 4)
+        self.assertEqual(x["registered_models"], 5)
     def test_missing(self):
         self.assertFalse(evaluate_release({})["eligible"])
     def test_reject_unreviewed(self):

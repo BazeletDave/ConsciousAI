@@ -184,6 +184,15 @@ class Handler(BaseHTTPRequestHandler):
             if path == "/institutional/research-evolution":
                 from research_evolution import load as load_evolution
                 return self.send_json(200, load_evolution())
+            if path == "/enrollment-research.js":
+                payload = (ROOT / "enrollment-research.js").read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/javascript; charset=utf-8")
+                self.send_header("X-Content-Type-Options", "nosniff")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+                return
             if path == "/country-intelligence.js":
                 payload = (ROOT / "country-intelligence.js").read_bytes()
                 self.send_response(200)
@@ -250,6 +259,12 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, public_snapshot())
             if path == "/assurance/overview":
                 return self.send_json(200, assurance_dashboard())
+            if path == "/intelligence/enrollment-research":
+                from enrollment_research import snapshot as enrollment_snapshot
+                try:
+                    return self.send_json(200, enrollment_snapshot(query.get("q", [""])[0], query.get("country", [None])[0]))
+                except ValueError:
+                    return self.send_json(400, {"error": "invalid_enrollment_query_or_snapshot"})
             if path == "/intelligence/triage":
                 items = load("events.json")["records"]
                 return self.send_json(200, {"schema_version": "1.3", "method": "deterministic_missing_evidence_heuristic", "records": [triage(item) for item in items], "count": len(items), "notice": "Research triage only; no trained model or compliance determination."})

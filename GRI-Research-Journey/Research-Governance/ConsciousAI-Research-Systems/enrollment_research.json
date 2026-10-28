@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-10-28",
+  "records": [
+    {
+      "id": "GRI-ENROLLMENT-SPRING-2026",
+      "title": "Synthetic Student Paradox: reported spring 2026 course incident",
+      "country": "USA",
+      "record_type": "attributed_incident",
+      "verification": "attributed_report_not_independently_verified",
+      "ai_role": "AI attributed by speaker; technical mechanism unverified",
+      "summary": "Participant supplied classroom account attributed to Mansour Javidan reports roughly 140 enrollments, a little over 30 described as fraudulent, real identities used without consent, AI registration and subsequent student loan applications. Approval, disbursement and loss are unknown.",
+      "source_url": "https://github.com/BazeletDave/ConsciousAI/blob/main/research/case-studies/synthetic-student-paradox-2026.md",
+      "source_date": "2026-10-24",
+      "retrieval_eligible": false,
+      "last_reviewed": "2026-10-28",
+      "training_eligible": false,
+      "contains_personal_data": false
+    },
+    {
+      "id": "CCCCO-FRAUD-FAQ",
+      "title": "California Community Colleges fraud mechanisms",
+      "country": "USA",
+      "record_type": "institutional_reference",
+      "verification": "primary_source_reviewed_not_incident_adjudication",
+      "ai_role": "Institution describes scripts and AI assisted simulated attendance",
+      "summary": "Institutional description of stolen identity enrollment, bots, recruited straw students, simulated class attendance and financial aid fraud. Human and automated mechanisms can coexist.",
+      "source_url": "https://www.cccco.edu/About-Us/Chancellors-Office/Divisions/Information-Services-Technology-Innovation/fraud-prevention/fraud-faq/",
+      "source_date": null,
+      "retrieval_eligible": true,
+      "last_reviewed": "2026-10-28",
+      "training_eligible": false,
+      "contains_personal_data": false
+    },
+    {
+      "id": "CCCCO-DII-21-200-03",
+      "title": "California enrollment fraud controls and feedback",
+      "country": "USA",
+      "record_type": "institutional_reference",
+      "verification": "primary_source_reviewed_not_incident_adjudication",
+      "ai_role": "Bot detection and machine learning feedback described",
+      "summary": "August 2021 memorandum describes automated registration bot detection, machine learning application filtering, review deadlines and false positives affecting legitimate student accounts. Administrative labels require independent review before use as fraud ground truth.",
+      "source_url": "https://www.cccco.edu/-/media/CCCCO-Website/Files/DII/dii-21-200-03-important-application-and-financial-aid-fraud-a11y.pdf",
+      "source_date": "2021-08-30",
+      "retrieval_eligible": true,
+      "last_reviewed": "2026-10-28",
+      "training_eligible": false,
+      "contains_personal_data": false
+    },
+    {
+      "id": "FSA-APP-26-09",
+      "title": "Federal Student Aid identity confirmation and resolution",
+      "country": "USA",
+      "record_type": "institutional_reference",
+      "verification": "primary_source_reviewed_not_incident_adjudication",
+      "ai_role": "AI involvement in specific incidents not established",
+      "summary": "Federal guidance describes identity confirmation, review of fraud risk flags, administrator overrides and resolution options for admitted or enrolled students. Successful identity confirmation allows aid processing to continue.",
+      "source_url": "https://fsapartners.ed.gov/knowledge-center/library/electronic-announcements/2026-07-17/real-time-fafsa-fraud-detection-and-identity-confirmation-frequently-asked-questions-updated-sept-21-2026",
+      "source_date": "2026-09-21",
+      "retrieval_eligible": true,
+      "last_reviewed": "2026-10-28",
+      "training_eligible": false,
+      "contains_personal_data": false
+    }
+  ]
+}

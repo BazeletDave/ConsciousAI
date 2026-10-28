@@ -60,3 +60,6 @@ No autonomous enforcement, individual fraud scores, or automatic evidence promot
 ## Delivery status
 Completed: case expansion, source grounded comparative protocol, and registry documentation cross links.
 Pending implementation: incident schema and validator, reviewed seed corpus, source adapters, dashboard rendering, staging validation, evaluated ML models, and any ongoing collection schedule.
+
+## Implemented dashboard connection
+October 28, 2026: The research service now implements GET /intelligence/enrollment-research, a dedicated dashboard panel, a validated curated source snapshot, and corpus fitted TF IDF document retrieval registered with platform capabilities. See [implementation and extension instructions](../../GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/ENROLLMENT_RESEARCH.md). The index contains only reviewed institutional summaries; the attributed incident remains outside fitting. Automated global collection, an independently evaluated predictive model, and expanded geographic coverage remain pending. Deployment status must be verified separately from repository implementation.

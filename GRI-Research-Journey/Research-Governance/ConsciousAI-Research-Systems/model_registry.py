@@ -3,6 +3,10 @@ from __future__ import annotations
 from datetime import datetime, timezone
 
 MODEL_CATALOG = (
+    {"id": "enrollment-document-tfidf", "domain": "institutional",
+     "method": "corpus_fitted_tfidf_cosine", "status": "research_retrieval",
+     "trained": False, "fitted_feature_index": True, "evaluation": None,
+     "endpoint": "/intelligence/enrollment-research", "fraud_classifier": False},
     {"id": "mobility-offer-forecast", "domain": "mobility", "method": "supervised_regression",
      "status": "design", "trained": False, "evaluation": None},
     {"id": "governance-risk-anomaly", "domain": "governance", "method": "anomaly_detection",
@@ -55,4 +59,4 @@ def platform_capabilities():
             "registered_models": len(MODEL_CATALOG), "trained_models": 0,
             "model_promotion": "requires_independent_review",
             "applications": ["mobility", "governance", "institutional", "cyber"],
-            "notice": "Model entries describe planned applications, not trained or deployed ML."}
+            "notice": "Predictive models remain planned. Enrollment document retrieval fits a TF IDF feature index to reviewed public summaries; independent retrieval evaluation is pending."}

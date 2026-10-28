@@ -4,6 +4,23 @@ info:
   version: 0.1.0
   description: Research interface supporting the deployed GRI dashboard and local execution. No certification or independent validation is implied.
 paths:
+  /intelligence/enrollment-research:
+    get:
+      summary: Curated enrollment research and corpus fitted document relevance
+      parameters:
+        - in: query
+          name: q
+          schema: {type: string, maxLength: 500}
+        - in: query
+          name: country
+          schema: {type: string, pattern: '^[A-Z]{3}$'}
+      responses:
+        '200':
+          description: Attributed incidents, institutional references, coverage and TF IDF similarity; no fraud probability
+        '400':
+          description: Invalid query or research snapshot
+        '500':
+          description: Research data unavailable
   /institutional/research-evolution:
     get:
       summary: Inspect versioned research retrieval and governed learning candidate status
