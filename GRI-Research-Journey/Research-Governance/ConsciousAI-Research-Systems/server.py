@@ -163,6 +163,21 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
         try:
+            if path == "/institutional/tiger-assurance":
+                from tiger_assurance_bridge import snapshot as tiger_snapshot
+                try:
+                    return self.send_json(200, tiger_snapshot(ROOT))
+                except (OSError, ValueError, KeyError, TypeError):
+                    return self.send_json(503, {"status":"tiger_assurance_integrity_unavailable", "model_promoted":False})
+            if path == "/tiger-assurance.js":
+                payload = (ROOT / "tiger-assurance.js").read_bytes()
+                self.send_response(200)
+                self.send_header("Content-Type", "text/javascript; charset=utf-8")
+                self.send_header("X-Content-Type-Options", "nosniff")
+                self.send_header("Content-Length", str(len(payload)))
+                self.end_headers()
+                self.wfile.write(payload)
+                return
             if path == "/institutional/curriculum-experiment":
                 from curriculum_experiment_bridge import snapshot as experiment_snapshot
                 try:

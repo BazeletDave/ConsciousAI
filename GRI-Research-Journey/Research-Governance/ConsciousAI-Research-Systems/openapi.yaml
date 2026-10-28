@@ -4,6 +4,12 @@ info:
   version: 0.1.0
   description: Research interface supporting the deployed GRI dashboard and local execution. No certification or independent validation is implied.
 paths:
+  /institutional/tiger-assurance:
+    get:
+      summary: Retained synthetic independent assurance and recovery experiment
+      responses:
+        '200': {description: Hash checked results and summary; no training or operational promotion}
+        '503': {description: Experiment integrity could not be verified}
   /research/catalog:
     get:
       summary: Public GRI research coverage and source links

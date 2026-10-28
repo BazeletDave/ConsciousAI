@@ -42,3 +42,7 @@ No production system, model, dashboard endpoint, account, or participant data wa
 ## Controlled putting curriculum experiment
 
 [Read the completed experiment and failure analysis](Putting-Experiment/README.md). Sixty synthetic models were trained across three curricula and 20 seeds with matched budgets. Nominal performance did not demonstrate curriculum superiority. The retained results expose a hidden condition detection failure; source hashes and a successful reproduction check accompany the package.
+
+## Independent assurance and controlled recovery experiment
+
+[Read the frozen assurance study](Assurance-Experiment/README.md). The new study trains 100 synthetic models across 20 new seeds and five curricula, with 600,000 training interactions and 120,000 assigned holdout cases. Trustworthy independent measurements detected every hidden friction change in this experiment; biased measurements defeated the monitor. Local recovery checks passed about 99.7% of candidates while only about 21.4% of assigned hidden shift tasks completed successfully. Equal exposure curriculum order showed no superiority. Full reproduction matched; every recovery candidate remains subject to human review, with no operational model promotion. The original putting artifacts remain unchanged.

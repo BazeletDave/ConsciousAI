@@ -1,0 +1,27 @@
+name: GRI Tiger Assurance Experiment
+on:
+  pull_request:
+    paths:
+      - 'GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment/**'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gri-tiger-assurance.yml'
+      - 'GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment/**'
+permissions:
+  contents: read
+jobs:
+  verify-retained-study:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test observer and recovery boundaries
+        run: python -m unittest -v
+      - name: Verify original baseline and retained experiment lineage
+        run: python verify.py

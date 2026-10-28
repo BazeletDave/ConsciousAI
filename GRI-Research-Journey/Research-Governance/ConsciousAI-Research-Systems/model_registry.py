@@ -62,6 +62,8 @@ def platform_capabilities():
             "mode": "research_prototype_read_only", "models": list(MODEL_CATALOG),
             "registered_models": len(MODEL_CATALOG), "trained_models": 0,
             "model_promotion": "requires_independent_review",
+            "tiger_assurance_experiment": {"endpoint": "/institutional/tiger-assurance",
+                "mode": "retained_synthetic_results_read_only", "model_promoted": False},
             "research_collection": {"catalog": "/research/catalog", "questions": "/research/ask",
                 "answer_method": "extractive_bm25_passage_retrieval", "generative_model": False},
             "applications": ["mobility", "governance", "institutional", "cyber"],

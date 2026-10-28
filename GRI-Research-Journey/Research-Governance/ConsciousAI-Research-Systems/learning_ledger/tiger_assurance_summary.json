@@ -1,0 +1,403 @@
+{
+  "schema_version": "1.0",
+  "status": "completed_synthetic_assurance_experiment",
+  "trained_models": 100,
+  "training_interactions": 600000,
+  "assigned_holdout_cases": 120000,
+  "independent_seeds": 20,
+  "model_promoted": false,
+  "operational_actions_authorized": 0,
+  "finding": "Independent observation detects the trustworthy hidden shift; biased probes defeat the monitor; local recovery validation does not establish task recovery.",
+  "arms": [
+    {
+      "arm": "fixed",
+      "nominal_success": {
+        "mean": 0.661,
+        "low": 0.6376666666666666,
+        "high": 0.6839999999999999,
+        "seeds": 20
+      },
+      "nominal_unnecessary_hold": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "hidden_baseline_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "hidden_monitor_allow": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "biased_probe_monitor_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "probe_dropout_hold": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "recovery_validation": {
+        "mean": 0.997,
+        "low": 0.9946666666666667,
+        "high": 0.999,
+        "seeds": 20
+      },
+      "recovery_task_success_per_assigned_case": {
+        "mean": 0.21366666666666667,
+        "low": 0.198,
+        "high": 0.23,
+        "seeds": 20
+      },
+      "moderate_surface_hold": {
+        "mean": 0.5026666666666667,
+        "low": 0.4866666666666667,
+        "high": 0.519,
+        "seeds": 20
+      },
+      "mechanical_jitter_hold": {
+        "mean": 0.16733333333333333,
+        "low": 0.15566666666666668,
+        "high": 0.179,
+        "seeds": 20
+      }
+    },
+    {
+      "arm": "forward_gated",
+      "nominal_success": {
+        "mean": 0.655,
+        "low": 0.6323333333333333,
+        "high": 0.677,
+        "seeds": 20
+      },
+      "nominal_unnecessary_hold": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "hidden_baseline_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "hidden_monitor_allow": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "biased_probe_monitor_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "probe_dropout_hold": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "recovery_validation": {
+        "mean": 0.997,
+        "low": 0.9946666666666667,
+        "high": 0.999,
+        "seeds": 20
+      },
+      "recovery_task_success_per_assigned_case": {
+        "mean": 0.21366666666666667,
+        "low": 0.19866666666666666,
+        "high": 0.22933333333333333,
+        "seeds": 20
+      },
+      "moderate_surface_hold": {
+        "mean": 0.47433333333333333,
+        "low": 0.4563333333333333,
+        "high": 0.4926666666666667,
+        "seeds": 20
+      },
+      "mechanical_jitter_hold": {
+        "mean": 0.16666666666666666,
+        "low": 0.15466666666666667,
+        "high": 0.17966666666666667,
+        "seeds": 20
+      }
+    },
+    {
+      "arm": "goal_gated",
+      "nominal_success": {
+        "mean": 0.6576666666666666,
+        "low": 0.6363333333333333,
+        "high": 0.6789999999999999,
+        "seeds": 20
+      },
+      "nominal_unnecessary_hold": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "hidden_baseline_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "hidden_monitor_allow": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "biased_probe_monitor_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "probe_dropout_hold": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "recovery_validation": {
+        "mean": 0.997,
+        "low": 0.9946666666666667,
+        "high": 0.999,
+        "seeds": 20
+      },
+      "recovery_task_success_per_assigned_case": {
+        "mean": 0.21366666666666667,
+        "low": 0.19866666666666666,
+        "high": 0.22933333333333333,
+        "seeds": 20
+      },
+      "moderate_surface_hold": {
+        "mean": 0.491,
+        "low": 0.4756666666666667,
+        "high": 0.507,
+        "seeds": 20
+      },
+      "mechanical_jitter_hold": {
+        "mean": 0.167,
+        "low": 0.155,
+        "high": 0.179,
+        "seeds": 20
+      }
+    },
+    {
+      "arm": "forward_equal_exposure",
+      "nominal_success": {
+        "mean": 0.6633333333333333,
+        "low": 0.641,
+        "high": 0.6853333333333333,
+        "seeds": 20
+      },
+      "nominal_unnecessary_hold": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "hidden_baseline_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "hidden_monitor_allow": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "biased_probe_monitor_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "probe_dropout_hold": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "recovery_validation": {
+        "mean": 0.997,
+        "low": 0.9946666666666667,
+        "high": 0.999,
+        "seeds": 20
+      },
+      "recovery_task_success_per_assigned_case": {
+        "mean": 0.214,
+        "low": 0.19933333333333333,
+        "high": 0.229,
+        "seeds": 20
+      },
+      "moderate_surface_hold": {
+        "mean": 0.502,
+        "low": 0.48433333333333334,
+        "high": 0.52,
+        "seeds": 20
+      },
+      "mechanical_jitter_hold": {
+        "mean": 0.16833333333333333,
+        "low": 0.156,
+        "high": 0.181,
+        "seeds": 20
+      }
+    },
+    {
+      "arm": "goal_equal_exposure",
+      "nominal_success": {
+        "mean": 0.662,
+        "low": 0.64,
+        "high": 0.684,
+        "seeds": 20
+      },
+      "nominal_unnecessary_hold": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "hidden_baseline_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "hidden_monitor_allow": {
+        "mean": 0.0,
+        "low": 0.0,
+        "high": 0.0,
+        "seeds": 20
+      },
+      "biased_probe_monitor_allow": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "probe_dropout_hold": {
+        "mean": 1.0,
+        "low": 1.0,
+        "high": 1.0,
+        "seeds": 20
+      },
+      "recovery_validation": {
+        "mean": 0.997,
+        "low": 0.9946666666666667,
+        "high": 0.999,
+        "seeds": 20
+      },
+      "recovery_task_success_per_assigned_case": {
+        "mean": 0.21366666666666667,
+        "low": 0.19866666666666666,
+        "high": 0.229,
+        "seeds": 20
+      },
+      "moderate_surface_hold": {
+        "mean": 0.5053333333333333,
+        "low": 0.48866666666666664,
+        "high": 0.5223333333333333,
+        "seeds": 20
+      },
+      "mechanical_jitter_hold": {
+        "mean": 0.16866666666666666,
+        "low": 0.15633333333333332,
+        "high": 0.181,
+        "seeds": 20
+      }
+    }
+  ],
+  "paired_comparisons": {
+    "hidden_hazard_action_reduction_fixed": {
+      "mean": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "seeds": 20
+    },
+    "hidden_hazard_action_reduction_forward_gated": {
+      "mean": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "seeds": 20
+    },
+    "hidden_hazard_action_reduction_goal_gated": {
+      "mean": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "seeds": 20
+    },
+    "hidden_hazard_action_reduction_forward_equal_exposure": {
+      "mean": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "seeds": 20
+    },
+    "hidden_hazard_action_reduction_goal_equal_exposure": {
+      "mean": 1.0,
+      "low": 1.0,
+      "high": 1.0,
+      "seeds": 20
+    },
+    "equal_exposure_order": {
+      "mean": -0.001333333333333331,
+      "low": -0.005333333333333324,
+      "high": 0.002666666666666667,
+      "seeds": 20
+    },
+    "gated_order": {
+      "mean": 0.0026666666666666505,
+      "low": -2.2204460492503132e-17,
+      "high": 0.005666666666666642,
+      "seeds": 20
+    }
+  },
+  "reproduction": {
+    "verified": true,
+    "models": 100,
+    "original_baseline_hashes_match": true,
+    "rerun_performed": true,
+    "rerun_matched": true,
+    "notice": "Engineering reproducibility check; not independent scientific or physical safety validation"
+  },
+  "source_freeze_commit": "4eb16e70d5c1689346ced41e143da1ad11e5769d",
+  "artifact_hashes": {
+    "protocol.json": "ad073e11ff8c86cf57e48507664119ca8c88d03773e9468aefd86b171da2f70c",
+    "monitor.py": "0127a38d274bff4cdac491243a29a8871dfb74bd440c7945296cac882e93cd58",
+    "experiment.py": "6212354153a4ee129dcfb75c187d291dc293047e2e492276b20e768bd313c17e",
+    "test_assurance.py": "f277513ea9c8a98103d0f7214b9556d63b031db40172e20c239b7115018c7480",
+    "freeze_manifest.json": "48dec158d22031c0627c62c1159576137e01c8f02dc64b6aaaee63c4f33438ea",
+    "results.json.gz": "95872bec1c2b610db633cf0d800db302fc86c469feb93b244fe5589a6646d51f",
+    "verify.py": "d13463bb59a2eee2a7ef95dfc913cd8398105a050a78357a06c6ca3d028484db",
+    "reproduction_result.json": "d58e4252dcb0d0d6ddc6e0557685906025ec731c04190c61dedb1733ec8704ec",
+    "run_record.json": "5c0503314d934f4b9aa00ec6adc91dd35c3d4b889e0874a7afa24f9e9b37b7f8",
+    "README.md": "749d46abddebca894d9e8727fdf7ced6597959b62b5c1af30c5ae39a7b5740d4",
+    "figure.svg": "631e9d180ff4e18f44f59a78770379bd79c69b64674242da70fefb715fb154c2",
+    "make_report.py": "8e581c912af82664c767adf47622b22f0ff767cf100b4f596d740d4cf3e56018"
+  },
+  "report_url": "https://github.com/BazeletDave/ConsciousAI/tree/main/GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment",
+  "limitations": [
+    "Synthetic stopping position simulator; not a robot or physical safety validation.",
+    "The independent monitor has an additional observation budget.",
+    "Recovery is counterfactual and always requires human review.",
+    "Validation examines longitudinal probes and omits lateral task performance.",
+    "No curriculum superiority demonstrated; no causal generalization to human coaching."
+  ]
+}
