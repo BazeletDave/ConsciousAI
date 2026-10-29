@@ -37,3 +37,31 @@ Test rival explanations: ordinary business cycle recovery, non-AI investment, en
 - [Research intellectual property and security policy](../Research-Governance/ConsciousAI-Research-Systems/INTELLECTUAL_PROPERTY_AND_RESEARCH_SECURITY.md)
 
 **Publication control:** public-source research note and original author interpretation only; no private classroom content, complete third-party transcript or unsupported quantitative claim. Further portions of the fireside chat should be added with speaker identification and source timestamps before exact quotations are published.
+
+
+## Transcript continuation: AI demand, supply, monetary policy and institutional uncertainty
+**Source status:** The following is GRI's original analytical paraphrase of a second partial transcript passage supplied by the author. Exact spoken words, speaker labels, timing and completeness require verification against an official recording or transcript before quotation.
+
+Georgieva's question connects energy shocks, war-related disruptions, and uneven global investment enthusiasm about AI. She asks how monetary policy should evaluate AI's short- and long-run effects and what policymakers may be underweighting.
+
+The response identifies three distinct channels:
+1. **Near-term demand before supply:** AI-related capital spending can increase aggregate demand before productivity benefits emerge. The speaker describes a prospective positive supply shock over the medium term, while warning that central banks must evaluate its inflation and employment consequences along the transition.
+2. **Central-bank analytical transformation:** AI tools may help policy institutions process extensive, noisy, lagged and sometimes mismeasured economic data. This is a forecast about analytical capability, not evidence that models eliminate measurement error, hallucination, data bias or judgment.
+3. **Real-economy and market-structure uncertainty:** Productivity and aggregate wealth may increase, but the employment transition, distribution of profits, business failures and concentration of market power are uncertain. Investment outcomes depend on who can capture returns and how markets are structured.
+
+The speaker also describes an external productivity-and-jobs task force and a proposed Bay Area field hearing on November 16. **This scheduling claim comes from the supplied passage and has not been independently verified here.**
+
+### GRI research extension: the temporal AI investment paradox
+AI infrastructure expansion can raise near-term demand for electricity, semiconductors, construction, financing and skilled labor even when the anticipated medium-run supply effect is disinflationary through productivity. These effects differ across countries and may be amplified by energy constraints, climate exposure and import dependence. The timing and net effect are empirical questions, not established forecasts.
+
+### GRI research extension: the central-bank epistemic paradox
+AI could help central banks extract signals from large datasets while also introducing model dependence, correlated errors, opaque feature selection and new governance risks. Improved forecasting accuracy must be demonstrated with out-of-sample benchmarks, historical vintages and human review rather than inferred from access to more information.
+
+### Proposed evidence and evaluation
+- Compare announced and realized AI capex, grid interconnection and power prices, semiconductor shipments, credit conditions, labor demand and productivity, preserving vintage and publication lags.
+- Separate short-run demand effects from medium-run supply effects with alternative identification strategies, energy-shock controls and country heterogeneity.
+- Test whether AI-assisted nowcasts outperform transparent conventional baselines on vintage-correct holdout data, with error calibration, robustness and human accountability.
+- Evaluate distribution of gains by labor, firm size, location and domestic versus foreign ownership; distinguish market concentration from proven anticompetitive conduct.
+- Apply Nelson's institutional perspectives and Signé's global AI divide research as analytical lenses; use IMF macroeconomic indicators, World Bank energy-finance projects and resilience indicators to examine cross-border differences.
+
+**No regression, forecast validation, live model deployment, or official transcript authentication is claimed by this addition.**
