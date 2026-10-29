@@ -65,3 +65,21 @@ AI could help central banks extract signals from large datasets while also intro
 - Apply Nelson's institutional perspectives and Signé's global AI divide research as analytical lenses; use IMF macroeconomic indicators, World Bank energy-finance projects and resilience indicators to examine cross-border differences.
 
 **No regression, forecast validation, live model deployment, or official transcript authentication is claimed by this addition.**
+
+
+## Transcript continuation: NHI, financial stability and independent task forces
+**Evidence status:** Original GRI analysis of a third author-supplied partial spoken passage. The conversational term **“NHI” (non-human intellect)** is used by the participants in the supplied passage; it is not adopted here as an official Federal Reserve, IMF or GRI scientific classification. Exact wording and attribution remain subject to checking against an official recording.
+
+Georgieva proposes a three-part policy question: near-term inflation and possible later disinflation, financial stability risk, and productivity upside. She asks which dimension should dominate the central bank's task forces. Warsh declines to privilege a single outcome. His stated approach, as represented in the supplied passage, is to let independent task forces on productivity and jobs, data collection, and inflation generate new intellectual capital for FOMC deliberation rather than merely validate the chair's assumptions. He emphasizes private capital experimentation, the central bank's price-stability and employment remit, financial stability, scenario analysis, negative tail risks, and humility about whether intervention can improve outcomes.
+
+### GRI analytical findings and hypotheses
+1. **Triangular policy tradeoff:** AI investment may raise short-run demand and price pressures, enable future productivity-led disinflation, and create financial stability exposure through leverage, valuation reversals, concentrated suppliers or infrastructure bottlenecks. These are conditional mechanisms requiring measurement.
+2. **Governance by scenario, not winner-picking:** Regulators need not identify winning firms to assess systemic exposure. Stress scenarios can consider failed AI investment expectations, correlated credit losses, electricity bottlenecks, market concentration, cyber outages and cross-border capital spillovers.
+3. **Independent challenge and epistemic resilience:** Task forces are most useful when they can challenge institutional consensus, document assumptions, surface alternative hypotheses, and make their evidentiary limits visible.
+4. **Global divide transmission:** A capital reversal or energy shock may affect countries differently according to debt exposure, infrastructure resilience, currency vulnerability and reliance on imported compute. Link these scenarios to World Bank energy-finance history, IMF macroeconomic indicators and Signé's published AI divide framework.
+5. **Nelson model:** GRI independently interprets liberalism through private capital allocation and international coordination, economic nationalism through domestic strategic capacity and public risk management, and structuralism through asymmetric exposure and concentration of investment returns.
+
+### Suggested assurance protocol
+Record for each scenario: shock definition, transmission mechanism, horizon, affected population, leading indicators, counterevidence, institution with authority to act, feasible mitigation, residual risk, and human reviewer. Distinguish possibility, model estimate, and verified observed event. Do not describe speculative tail risks as actual financial instability.
+
+**Next evidence step:** Obtain the complete official recording or transcript with timestamps and verify the task-force count, mandates, names, hearing schedule and historical anecdote before asserting them as independent institutional facts.
