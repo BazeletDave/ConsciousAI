@@ -28,3 +28,9 @@ No client information, media, HMAC secret or principal IDs are returned by the r
 5. Confirm Render deploy contract and health/readiness behavior before merge. **Do not merge or deploy until the gates pass.**
 
 **Disposition:** Implementation committed; full-system integration verification pending. No production merge or Render deployment.
+
+## Subsequent verified CI addendum — supersedes historical pending statements above
+
+The preceding sections document the state **at initial implementation**, not current status. Later GitHub Actions runs executed the full checkout, original Training a Tiger HTTP regression, Tiger Legacy integration tests, synthetic snapshot integrity check, GitHub-signed attestation and GitHub CLI signature verification. On expanded ledger commit `0ad077ba5e1717d2ab02e9b84bd9c80ccea640b3`, [quality run 40972535075](https://github.com/BazeletDave/ConsciousAI/actions/runs/40972535075) succeeded: **28 Tiger Legacy tests and 217 dashboard tests**. On final documentation commit `73dd13a3adc0f5f26e6e916b6d32e64f17f07fbf`, [quality run 40972638780](https://github.com/BazeletDave/ConsciousAI/actions/runs/40972638780) and the two additional workflows succeeded.
+
+These CI results close the original **test execution, HTTP compatibility and signed-provenance verification** blockers. Remaining: independent external reviewer attestation (no GitHub PR review submission visible), source branch reconciliation (branch diverged from main), and separate authorization/security review before production deployment. No production cybersecurity effectiveness claim.
