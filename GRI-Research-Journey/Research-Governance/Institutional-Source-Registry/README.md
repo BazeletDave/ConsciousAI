@@ -47,3 +47,7 @@ The GRI dashboard remains an independent research system. Listing an institution
 ## Landry Signé public scholarship
 
 [Landry Signé public research register](LANDRY_SIGNE_PUBLIC_RESEARCH.md) indexes publicly identifiable publications and proposes a rights-aware, human-reviewed pathway to GRI institutional governance research, AI agent analysis and future ML evaluation. This is an indexed research candidate, not evidence of a live dashboard feed or trained model. Retain the spelling **Landry Signé** and preserve attribution and endorsement boundaries.
+
+## Featured integrated GRI research
+
+- [Energy, Development Finance, and the Global AI Divide — David A. Grand](../../Integrated-Research-Journey/2026-10-28-energy-finance-ai-divide-resilience.md): integrates Signé's public development scholarship, Nelson's institutional perspectives, World Bank/IMF finance, electricity infrastructure, and ASU resilience learning. This is original GRI analysis, with hypotheses pending empirical testing and no implied faculty endorsement.
