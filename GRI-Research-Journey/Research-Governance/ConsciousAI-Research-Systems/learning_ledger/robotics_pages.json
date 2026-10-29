@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T20:16:15.819073+00:00",
+  "generated_at": "2026-10-29T00:55:39.655588+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "7727d2b32d15e098d6652ee8c6c90812d67c858a92dd81df78f5fc76ba22f0e5",
+      "content_sha256": "eda3d71fd63e135bedfd240d27c87bff3aba07e1b2e3bafc09abe2eab67db92f",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "b957267313ca94579df915ec2103b8f25e0f1fa7e646942df6919dc548d5ee94",
+      "content_sha256": "774e80cfacf42896f71cf7dfe92af7cf2b2a48f9f2aa9e35c7ffbc68dbfa883a",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -61,7 +61,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "9048d7c1626c840666ebdc4af15b76d212471db1d141c2219bf3db8a0ce1fb8d",
+      "content_sha256": "b4bdc6a9057cca4b7e4f5fe603798bb02196142078e7b4b8ac894d46430a7b0e",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -101,7 +101,7 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110999
+      "bytes": 111000
     },
     {
       "source_id": "NHTSA-SGO",
