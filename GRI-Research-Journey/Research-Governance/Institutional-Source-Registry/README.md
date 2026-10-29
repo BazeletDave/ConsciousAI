@@ -43,3 +43,7 @@ The dashboard integration should consume only allowlisted institutional domains,
 - [Academic integrity and AI-assisted learning](../Academic-Integrity/README.md)
 
 The GRI dashboard remains an independent research system. Listing an institution does not indicate partnership, endorsement, direct access or regulatory authority.
+
+## Landry Signé public scholarship
+
+[Landry Signé public research register](LANDRY_SIGNE_PUBLIC_RESEARCH.md) indexes publicly identifiable publications and proposes a rights-aware, human-reviewed pathway to GRI institutional governance research, AI agent analysis and future ML evaluation. This is an indexed research candidate, not evidence of a live dashboard feed or trained model. Retain the spelling **Landry Signé** and preserve attribution and endorsement boundaries.
