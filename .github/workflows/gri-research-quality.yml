@@ -77,3 +77,12 @@ jobs:
         uses: actions/attest-build-provenance@v2
         with:
           subject-path: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/tiger_legacy_synthetic_snapshot.json
+
+      - name: Reproduce complete Tiger Legacy evidence package
+        run: python GRI-Research-Journey/Research-Governance/Tiger-Legacy/verify_release.py
+      - name: Verify signed GitHub provenance against trusted repository identity
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh attestation verify GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/tiger_legacy_synthetic_snapshot.json --repo "${{ github.repository }}"
