@@ -35,3 +35,7 @@ The current nine-record metadata dataset with two coarse case families is **not*
 
 ## Research status statement
 GRI is an independent evolving research and governance intelligence platform. Implementation, scientific validation, operational resilience, and external benchmarking are distinct claims. Comparisons to government, university or frontier-lab platforms require a defined benchmark and independent evidence.
+
+## Intellectual property and security policy
+
+All source intake, faculty attribution, classroom material handling, model training and dashboard publication must follow [GRI Intellectual Property and Research Security Guardrails](INTELLECTUAL_PROPERTY_AND_RESEARCH_SECURITY.md). This policy requires rights classification and human review; technical enforcement must be separately tested before production claims.
