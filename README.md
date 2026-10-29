@@ -44,6 +44,14 @@ The Brazil election is one comparative working case among several. The research 
 
 [**Read the full case and executive education teaching note**](GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/README.md) connects a proposed coaching informed machine learning curriculum with algorithmic management, retail affordability, construction automation, regulation, and institutional assurance. Led by David A. Grand, the independent case separates a fictional robotics decision scenario from verified sources and proposed research. [Download the Word edition](GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/GRI_Algorithmic_Management_AI_Paradox_Case_Study.docx).
 
+## Research milestone | Tiger Legacy synthetic cybersecurity assurance
+
+**[Tiger Legacy Version One — Research and Engineering Record](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md)** · [Formal threat model](GRI-Research-Journey/Research-Governance/Tiger-Legacy/FORMAL-THREAT-MODEL.md) · [Reproducible evidence](GRI-Research-Journey/Research-Governance/Tiger-Legacy/REPRODUCIBLE-EVIDENCE-PACKAGE.md) · [Research methods](GRI-Research-Journey/Research-Governance/Tiger-Legacy/RESEARCH-METHODS-AND-RESULTS.md)
+
+GRI's independent **Training a Tiger → Tiger Assurance → Tiger Legacy** research progression examines the distinction between local compliance and institutionally verifiable outcomes. Tiger Legacy Version One adds a synthetic authorization lab, durable SQLite evidence experiment, adversarial negative tests, read-only reporting integration and GitHub-signed artifact provenance. **28 Tiger Legacy tests and 217 research-system tests passed** in [verified GitHub Actions run 40972535075](https://github.com/BazeletDave/ConsciousAI/actions/runs/40972535075). The original Training a Tiger experiment and its findings are preserved as a separate research record.
+
+**Evidence limits:** Research prototype only; real authentication, independent external academic review, operational cybersecurity effectiveness and client-specific integration are not established. The work is led by **David A. Grand, Grand Research Institute**. Thunderbird School of Global Management is an academic affiliation, not a sponsor or certifying body. The Tiger Legacy changes remain in a separate development pull request pending source-branch reconciliation and release approval.
+
 ## Research standards and maturity
 
 GRI distinguishes published empirical findings, primary institutional records, practitioner observations, working hypotheses and illustrative prototypes. The presence of code or an institutional reference does not establish independent validation, production deployment or affiliation. Research findings require provenance, competing explanations, documented limitations and opportunities for correction.
