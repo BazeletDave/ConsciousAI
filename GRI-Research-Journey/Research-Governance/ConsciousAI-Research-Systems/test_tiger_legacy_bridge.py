@@ -58,6 +58,32 @@ class TigerLegacyBridgeTests(unittest.TestCase):
         snapshot(self.root)
         self.assertEqual(before, [(self.root / n).read_bytes() for n in (MANIFEST, SNAPSHOT)])
 
+    def test_original_tiger_assurance_route_retains_contract(self):
+        """Protect existing Training a Tiger route and integrity-failure behavior."""
+        from tiger_assurance_bridge import snapshot as original_snapshot
+        reference = original_snapshot(server.ROOT)
+        self.assertFalse(reference["model_promoted"])
+        self.assertEqual(reference["operational_actions_authorized"], 0)
+        httpd = ThreadingHTTPServer(("127.0.0.1", 0), server.Handler)
+        thread = threading.Thread(target=httpd.serve_forever, daemon=True)
+        thread.start()
+        url = f"http://127.0.0.1:{httpd.server_port}/institutional/tiger-assurance"
+        try:
+            with urlopen(url, timeout=3) as response:
+                self.assertEqual(response.status, 200)
+                result = json.load(response)
+                self.assertEqual(result["integrity_status"], reference["integrity_status"])
+                self.assertFalse(result["model_promoted"])
+            with patch("tiger_assurance_bridge.snapshot", side_effect=ValueError("synthetic corruption")):
+                with self.assertRaises(HTTPError) as exc:
+                    urlopen(url, timeout=3)
+                self.assertEqual(exc.exception.code, 503)
+                self.assertFalse(json.load(exc.exception)["model_promoted"])
+        finally:
+            httpd.shutdown()
+            httpd.server_close()
+            thread.join(timeout=3)
+
     def test_http_success_and_fail_closed(self):
         httpd = ThreadingHTTPServer(("127.0.0.1", 0), server.Handler)
         thread = threading.Thread(target=httpd.serve_forever, daemon=True)
