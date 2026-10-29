@@ -33,3 +33,9 @@ Reviewed actual `main` branch `server.py`, `tiger_assurance_bridge.py`, `tiger-a
 2. Add separate read-only Tiger Legacy bridge and HTTP endpoint, with fail-closed error handling and separately trusted digest/manifest.
 3. Test valid snapshot, absent snapshot, tampered snapshot, swapped report plus digest, unauthorized publication claims, and no regression to existing Tiger Assurance.
 4. Preserve all Training a Tiger results and dashboard research boundaries. Record exact CI run and deployment SHA before any release.
+
+## Current verified integration addendum — supersedes historical local-only status
+
+The initial local-only findings above are retained for historical provenance. Subsequent full-repository GitHub Actions verified the separate Tiger Legacy HTTP bridge, 503 fail-closed behavior, original Training a Tiger assurance endpoint compatibility, 217 dashboard tests and 28 Tiger Legacy tests. [Expanded quality run 40972535075](https://github.com/BazeletDave/ConsciousAI/actions/runs/40972535075) passed. GitHub signed attestation was published and independently checked using GitHub CLI against repository identity. [Final reviewed documentation branch quality run 40972638780](https://github.com/BazeletDave/ConsciousAI/actions/runs/40972638780) passed.
+
+**Scope:** verified in GitHub CI, not live Render deployment or external independent peer review. The original adapter baseline remains a record of its earlier verification stage, not the current release status.
