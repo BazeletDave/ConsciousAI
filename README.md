@@ -21,12 +21,6 @@ GRI draws on graduate-level study and interdisciplinary scholarship, including l
 
 The governance dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
 
-## Featured research initiative | Tiger Legacy
-
-**[Tiger Legacy — Cybersecurity, AI Assurance & Institutional Governance](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md)** is GRI's cybersecurity assurance research initiative. It extends the [Training a Tiger assurance experiments](GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment/README.md) toward questions of security evidence, scoped agentic authorization, human oversight and verifiable institutional response.
-
-**Current status:** Research foundation and reusable-component inventory established. Cybersecurity implementation, client-system testing and dashboard integration are **not underway**; these require an audit review and separate authorization. Existing synthetic experiment outcomes do not establish production security effectiveness.
-
 ## Research program | Core themes
 
 | Research area | Selected work |
@@ -41,6 +35,10 @@ The governance dashboard supports public-source intelligence and evidence review
 **Brazil electoral and financial governance:** [Electoral information, financial repricing and institutional governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-brazil-election-financial-market-governance.md) extends the existing platform governance case with documented market reactions, exchange safeguards and a proposed event-study protocol. The financial evidence does not establish AI causation.
 
 The Brazil election is one comparative working case among several. The research examines platform visibility, algorithmic distribution, political mobilization and institutional accountability without claiming that Meta or AI caused an election result.
+
+### Related research | Tiger Legacy
+
+[Tiger Legacy](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md) extends GRI's [Training a Tiger assurance experiments](GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment/README.md) into proposed cybersecurity assurance, evidence integrity and human authorization research. The foundation is documented; implementation and dashboard integration remain on hold pending audit review and separate authorization.
 
 ## Research case | Agentic monitoring integrity
 
