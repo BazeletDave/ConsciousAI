@@ -47,3 +47,11 @@ The existing `Training-a-Tiger-AI-Paradox` research artifacts and source-frozen 
 7. Record independent findings and unresolved risks; do not equate passing tests with certification.
 
 **Release control:** No production merge or Render deployment is authorized by this evidence package.
+
+## Subsequent verified checkpoint
+
+**Run:** https://github.com/BazeletDave/ConsciousAI/actions/runs/40972028096  
+**Commit verified:** `8f1e4fe3a2dffeb3e181ba557345721b72ac232b`  
+**Outcome:** GitHub Actions research quality job completed successfully. The full-checkout `verify_release.py` step and GitHub CLI `gh attestation verify ... --repo BazeletDave/ConsciousAI` step both completed with success. Original Training a Tiger HTTP regression, synthetic report integrity, 16 Tiger Legacy tests and 217 dashboard tests passed. This closes the prior *signature verification pending* checkpoint for the tested commit.
+
+**Important provenance distinction:** This package was subsequently edited on the same branch, so the verified run does not automatically attest to later documentation commits. New commits require their own CI results. GitHub identity verification is independent of the in-repository manifest but is not a third-party security audit or validation of experimental truth.
