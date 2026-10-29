@@ -48,3 +48,14 @@ No client identifiers, confidential audit details, private media, secrets, scans
 Independent external reproduction; threat model and trusted identity boundary; durable and independently anchored synthetic evidence; expanded adversarial testing; formal methods and limitations for peer review; explicit human authorization before any production merge or deployment.
 
 **All results are to be classified by evidence: proposed, implemented, CI-tested, independently reviewed or deployed.** This research is independently conducted by GRI.
+
+## Next research milestone: threat model and durable evidence
+
+The following additional research artifacts have been committed on the **same development branch**:
+
+- [Formal synthetic STRIDE threat model](FORMAL-THREAT-MODEL.md)
+- [SQLite durable synthetic ledger](version_one/evidence_ledger.py) and [12 adversarial ledger tests](version_one/tests/test_evidence_ledger.py)
+- [Independent reproduction protocol](INDEPENDENT-REPRODUCTION-PROTOCOL.md)
+- [Research methods, hypotheses and limitations](RESEARCH-METHODS-AND-RESULTS.md)
+
+**Verification scope:** These newly added artifacts must pass their own latest-commit CI before their test results can be marked verified. External independent reproduction requires an actual reviewer outside the implementation team and remains uncompleted until documented. Do not equate GitHub-hosted CI with independent peer review.
