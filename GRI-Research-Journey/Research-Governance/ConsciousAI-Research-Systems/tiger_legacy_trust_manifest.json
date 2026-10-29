@@ -1,0 +1,7 @@
+{
+  "schema_version": "gri.tiger_legacy.trust_manifest.v1",
+  "classification": "research_only_repository_pinned_digest",
+  "snapshot_file": "tiger_legacy_synthetic_snapshot.json",
+  "snapshot_sha256": "c1803311d806e65aba10a5af933ca982569225b9d7cba5f8b1c8762936c2bdfb",
+  "note": "Pinned digest maintained separately from report. This is repository provenance, NOT an external trust anchor; an attacker controlling both files can replace both."
+}

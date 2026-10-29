@@ -162,6 +162,14 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
         try:
+            if path == "/institutional/tiger-legacy":
+                from tiger_legacy_bridge import snapshot as legacy_snapshot
+                try:
+                    return self.send_json(200, legacy_snapshot(ROOT))
+                except (OSError, ValueError, KeyError, TypeError):
+                    return self.send_json(503, {"status": "tiger_legacy_integrity_unavailable",
+                                                "model_promoted": False,
+                                                "operational_actions_authorized": 0})
             if path == "/institutional/tiger-assurance":
                 from tiger_assurance_bridge import snapshot as tiger_snapshot
                 try:

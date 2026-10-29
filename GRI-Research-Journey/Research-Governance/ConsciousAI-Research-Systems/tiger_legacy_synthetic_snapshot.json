@@ -1,0 +1,23 @@
+{
+  "classification": "synthetic_research_only",
+  "content_sha256": "4a2473c6ad4447038bdc2e8370e7e7ef22ac82ea4b13efb1d54435d6c661de44",
+  "evidence_integrity": "local_hmac_chain_verified_not_independently_audited",
+  "fixture_checks": {
+    "authorized_before_expiry": true,
+    "cross_tenant_denied": true,
+    "denied_at_expiry": true,
+    "revoked_denied": true
+  },
+  "fixture_checks_passed": 4,
+  "fixture_checks_total": 4,
+  "limitations": [
+    "No real authentication, persistence, independent attestation, or client integration.",
+    "Fixture checks are not regression suite results or evidence of production security."
+  ],
+  "model_promoted": false,
+  "operational_actions_authorized": 0,
+  "production_security": "unmeasured",
+  "schema_version": "gri.tiger_legacy.synthetic_assurance.v1",
+  "source_commit": "research/tiger-legacy-foundation-2026:synthetic-fixture-v1",
+  "test_scope": "deterministic_fixture_not_regression_suite"
+}
