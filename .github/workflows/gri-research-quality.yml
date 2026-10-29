@@ -73,7 +73,7 @@ jobs:
           print("Synthetic report passed repository-pinned integrity verification.")
           PY
       - name: GitHub-signed provenance for synthetic snapshot
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
         uses: actions/attest-build-provenance@v2
         with:
           subject-path: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/tiger_legacy_synthetic_snapshot.json
