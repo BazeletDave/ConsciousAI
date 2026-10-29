@@ -191,7 +191,9 @@ ASU's Center for Work and Democracy identifies Doug Guthrie as leading Apple Uni
 
 Thunderbird identifies David Slocum as Professor of Practice with leadership and executive education responsibilities. https://thunderbird.asu.edu/node/3218
 
-**Attribution status:** Additional faculty work, including Dr. Landry's publications, remains to be verified by exact author, title, and publication before inclusion. No personal conversation is presented as a published quotation.
+**Published scholarship:** Landry Signé, *Realizing Africa's Potential: A Journey to Prosperity* (Brookings Institution Press, 2025), ISBN 9780815740988. Publication details are supported by the supplied book listing. Specific arguments require page-level examination before citation as evidence for GRI research claims.
+
+**Faculty acknowledgement:** GRI recognizes Dr. Landry Signé's scholarly contributions and the educational influence of Thunderbird faculty. Recognition does not imply faculty authorship, review, sponsorship, or endorsement of this independent report. Personal conversations are not represented as published quotations.
 
 ### Figure design and reproducibility note
 
