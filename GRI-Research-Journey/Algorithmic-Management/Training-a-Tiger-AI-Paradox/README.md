@@ -25,6 +25,10 @@ Uber, Walmart, and Promise Robotics materials are identified as corporate statem
 
 This independent GRI case implies no sponsorship or endorsement by Harvard, Thunderbird, ASU, the Woods family, or the companies discussed.
 
+## Related GRI initiative | Tiger Legacy
+
+**[Explore Tiger Legacy — Cybersecurity, AI Assurance & Institutional Governance](../../Research-Governance/Tiger-Legacy/README.md).** Tiger Legacy is a distinct GRI cybersecurity research initiative that proposes to reuse and evaluate methods from the existing Training a Tiger assurance experiments, particularly the distinction between successful local checks and failure under hidden distribution shifts. It does **not** change this case study, its experiments, or its results. Security engineering and dashboard integration are on hold pending audit and separate authorization.
+
 ## Connection to the research journey
 
 * [ConsciousAI research program](../../../README.md)
