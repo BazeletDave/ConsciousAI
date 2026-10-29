@@ -1,0 +1,30 @@
+name: Research rights and security checks
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  rights-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test fail-closed research rights gate
+        run: PYTHONPATH=security python -m unittest discover -s security -p 'test_*.py' -v
+      - name: Validate tracked research intake JSON files
+        shell: bash
+        run: |
+          mapfile -d '' files < <(find research-intake -type f -name '*.json' -print0 2>/dev/null || true)
+          if (( ${#files[@]} )); then
+            python security/research_rights_gate.py "${files[@]}"
+          fi
+      - name: Reject likely private key material in tracked files
+        shell: bash
+        run: |
+          if git grep -n -E -- '-----BEGIN (RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----' -- ':!security/test_research_rights_gate.py'; then
+            echo 'Private key material detected' >&2
+            exit 1
+          fi
