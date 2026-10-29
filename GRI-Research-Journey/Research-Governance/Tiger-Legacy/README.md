@@ -1,7 +1,7 @@
 # Tiger Legacy | Security Governance & Institutional Assurance
 
 **Grand Research Institute (GRI) — research foundation**  
-**Status:** Concept and integration planning only; implementation not authorized  
+**Status:** Independent synthetic Version One implementation initiated; no client integration or production security authorization  
 **Established:** October 2026
 
 ## Research purpose
@@ -56,3 +56,9 @@ The key research distinction is **reported compliance versus demonstrated assura
 ## Research provenance
 
 This initiative is an independent extension of GRI's existing Training a Tiger, AI Paradox, institutional governance, authorization, and evidence-integrity research. It does not imply endorsement or participation by any outside organization.
+
+## Version One engineering record
+
+[Version One scope](VERSION-ONE.md) · [Implementation and synthetic tests](version_one/README.md) · [Verified baseline and next steps](DEVELOPMENT-STATUS.md)
+
+The synthetic reference engine and regression tests are committed on the Tiger Legacy development branch. Test execution, production authentication, durable evidence, independent review, and dashboard integration are **not yet verified**. The original Training a Tiger research remains a separate experiment and is not a claim of cybersecurity validation.
