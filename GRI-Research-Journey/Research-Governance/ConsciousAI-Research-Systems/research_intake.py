@@ -37,6 +37,26 @@ def validate(record):
         raise ValueError("publication requires approved review")
     if record["review_status"] == "approved" and not record.get("reviewer"):
         raise ValueError("approved record requires reviewer")
+    # Fail closed for any research record that carries third-party source rights metadata.
+    # Legacy original GRI records remain compatible; externally sourced records
+    # require the complete rights manifest before public publication.
+    rights_keys = {"source_id", "author", "publisher", "url", "rights_basis", "license",
+                   "visibility", "ingestion_permission", "training_permission",
+                   "citation_locator", "content_hash"}
+    externally_sourced = record.get("source_type", "").lower() in {
+        "external", "external_publication", "faculty_publication",
+        "course_material", "third_party", "public_source"}
+    if externally_sourced or rights_keys.intersection(record):
+        import sys
+        security_root = Path(__file__).resolve().parents[3] / "security"
+        if str(security_root) not in sys.path:
+            sys.path.insert(0, str(security_root))
+        from research_rights_gate import validate as validate_rights
+        issues = validate_rights(record)
+        if issues:
+            raise ValueError("research rights gate: " + "; ".join(issues))
+        if record["publication_authorized"] and not record["ingestion_permission"]:
+            raise ValueError("publication requires approved ingestion rights")
     return record
 
 def build_knowledge_snapshot(records):
