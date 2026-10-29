@@ -6,6 +6,8 @@ on:
   workflow_dispatch:
 permissions:
   contents: read
+  id-token: write
+  attestations: write
 jobs:
   research-tests:
     runs-on: ubuntu-latest
@@ -52,3 +54,35 @@ jobs:
           assert all(r["publication_authorized"] is False for r in rows)
           print("Research rights and independent-review gates remain enforced.")
           PY
+
+      - name: Tiger Legacy synthetic security and reporting tests
+        working-directory: GRI-Research-Journey/Research-Governance/Tiger-Legacy/version_one
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Tiger Legacy dashboard HTTP integration and full existing regression
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python -m unittest discover -p 'test_*.py' -v
+      - name: Validate Tiger Legacy snapshot against repository pinned digest
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from tiger_legacy_bridge import snapshot
+          data=snapshot(Path.cwd())
+          assert data["operational_actions_authorized"] == 0
+          assert data["model_promoted"] is False
+          print("Synthetic report passed repository-pinned integrity verification.")
+          PY
+      - name: GitHub-signed provenance for synthetic snapshot
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/attest-build-provenance@v2
+        with:
+          subject-path: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/tiger_legacy_synthetic_snapshot.json
+
+      - name: Reproduce complete Tiger Legacy evidence package
+        run: python GRI-Research-Journey/Research-Governance/Tiger-Legacy/verify_release.py
+      - name: Verify signed GitHub provenance against trusted repository identity
+        if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh attestation verify GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/tiger_legacy_synthetic_snapshot.json --repo "${{ github.repository }}"
