@@ -1,51 +1,61 @@
-# Tiger Legacy | Engineering and Research Status
+# GRI Tiger Legacy Version One | Engineering and Research Status
 
-**Grand Research Institute | 29 October 2026**  
-**Project:** GRI Tiger Legacy Version One  
-**Source of truth:** existing ConsciousAI Tiger Legacy directory and research/tiger-legacy-foundation-2026 development branch
+**Research lead:** David A. Grand | **Institution:** Grand Research Institute (GRI)  
+**Academic affiliation:** Thunderbird School of Global Management, Arizona State University. Independent research; no institutional sponsorship, endorsement, or certification implied.  
+**Status:** Synthetic research implementation and GitHub CI verification passed; not independently audited or production deployed.  
+**Updated:** 29 October 2026
 
-## Confirmed repository artifacts
+## Verified release evidence
 
-- [Version One scope](VERSION-ONE.md) — committed; defines authorization boundaries and acceptance gates.
-- [Synthetic security engine](version_one/tiger_legacy.py) — committed; in-memory resource isolation, ownership checks, scoped consent grants, expiry, revocation, hash-chained HMAC evidence.
-- [Security regression suite](version_one/tests/test_security.py) — eight test methods committed; execution and passing results **not yet independently verified**.
-- [Synthetic engine documentation](version_one/README.md) — implementation limitations and reuse boundaries documented.
-- [Training a Tiger independent assurance experiment](../../Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment/README.md) — separate existing synthetic experiment; its recorded results are not cybersecurity validation.
+- Full-repository GitHub Actions run: https://github.com/BazeletDave/ConsciousAI/actions/runs/40972028096
+- Tested source revision: `8f1e4fe3a2dffeb3e181ba557345721b72ac232b`.
+- **16/16** Tiger Legacy synthetic security/reporting tests passed.
+- **217/217** dashboard/research-system tests passed; dashboard suite was also repeated in the quality workflow.
+- Existing Training a Tiger endpoint: test verified valid synthetic evidence response **HTTP 200**, simulated integrity failure **HTTP 503**, no model promotion.
+- Separate Tiger Legacy endpoint: read-only synthetic aggregate; report-integrity failures fail closed.
+- Repository-pinned SHA-256 snapshot validation passed.
+- GitHub signed attestation creation passed; GitHub CLI `gh attestation verify ... --repo BazeletDave/ConsciousAI` passed in the same CI run.
+- Historical signed attestation: https://github.com/BazeletDave/ConsciousAI/attestations/61527064 ; Rekor log index 3578807002. The latest run's attestation is associated with the latest run and must be checked against its own digest and subject before citation.
 
-## Reuse verification
+## Current implemented components
 
-| Component | Source inspected | Integration verified | Disposition |
-| --- | --- | --- | --- |
-| Agentic Governance Engine | engine.py sampled | No | Reuse canonicalization / hash chain patterns only after tests and interface review |
-| CISA 2030 Evidence Ledger | evidence_ledger.py sampled | No | Do not connect directly: existing collector rejects synthetic records |
-| Agentic Authorization Prototype | README reviewed | No | Research-only; externally authenticated identity and approvals absent |
-| Training a Tiger assurance experiment | README reviewed | No | Reuse evaluation methods and failure boundaries, not its metrics as security scores |
-| GRI dashboard | Not inspected for this milestone | No | No data feed, endpoint, or display claims yet |
+| Component | Classification | Evidence |
+| --- | --- | --- |
+| Synthetic authorization lab | Implemented, CI-tested | `version_one/tiger_legacy.py`, `tests/test_security.py` |
+| Synthetic offline reporting | Implemented, CI-tested | `version_one/reporting.py`, `tests/test_reporting.py` |
+| Dashboard bridge | Implemented, CI-tested | `../ConsciousAI-Research-Systems/tiger_legacy_bridge.py` |
+| Separate read-only HTTP route | Implemented, CI-tested | `../ConsciousAI-Research-Systems/server.py`, `test_tiger_legacy_bridge.py` |
+| Full-checkout reproducibility | Implemented, CI-tested | `verify_release.py` |
+| Signed provenance | GitHub workflow verified | GitHub Actions quality run, attestation step and CLI verification |
+| Real authentication and authorization | **Not implemented** | Caller-supplied principal is not a trusted identity |
+| Durable ledger and independently held trust root | **Not implemented** | In-memory HMAC, repository-pinned digest and GitHub CI provenance have distinct trust limits |
+| Real client platform remediation | **Not authorized / not performed** | No client access or deployment |
+| Production cybersecurity validation | **Unmeasured** | Passing synthetic tests is not a security audit |
 
-## Research finding and interpretation
+## Original Training a Tiger preservation
 
-The Training a Tiger assurance experiment reported that high local recovery validation success did not establish comparable hidden-shift task completion. This motivates Tiger Legacy's **end-to-end negative testing** and explicit evidence limits. It does not establish that Tiger Legacy is secure, compatible, deployed, or independently assessed.
+Original Training a Tiger experiment source and retained findings are a separate research record. This development cycle did not modify those experiment artifacts. The existing `/institutional/tiger-assurance` interface retains its independent integrity bridge. Do not transfer original experiment metrics into Tiger Legacy security claims or relabel original local recovery metrics as generalization or certification.
 
-## Implementation limitations
+## Research interpretation and limitations
 
-- Principals are caller-supplied strings; **authentication is not implemented**.
-- Resources, grants and event chain are in memory; no durable storage, backup, cross-process concurrency or independent anchoring.
-- HMAC uses a local research key; it is not independent third-party attestation.
-- Event verification checks the in-memory chain, not an externally retained trusted checkpoint.
-- No real media storage, HTTP access controls, production key management, recovery testing or dashboard integration.
-- Security controls must not be described as operationally effective until tested and independently reviewed.
+The verified results demonstrate that specified synthetic scenarios and repository-level HTTP contracts pass under the tested GitHub environment. They do **not** establish production identity security, media confidentiality, recovery durability, adversarial robustness, real-world system effectiveness, or independent academic validation. Signed provenance authenticates the reported artifact's workflow lineage and digest within the GitHub trust model, not the scientific truth of its contents.
 
-## Next steps and acceptance gates
+## Next engineering and academic gates
 
-1. **Execute tests:** Run `cd GRI-Research-Journey/Research-Governance/Tiger-Legacy/version_one && python -m unittest discover -s tests -v`; preserve command, environment, test count, pass/fail, and commit SHA in a dated verification record.
-2. **Close coverage gaps:** Add negative tests for malformed tenant IDs, invalid time inputs, grant replacement, duplicate identifiers, missing evidence, and altered event head.
-3. **Threat model:** Define trusted identity, tenant context, consent authority, evidence trust root, media ownership, attacker capabilities, and isolation assumptions.
-4. **Durability:** Implement a synthetic SQLite-backed audit store with immutable event semantics, transactional writes, trusted checkpoints and replay verification.
-5. **Authorization:** Separate trusted authentication and approval validation from caller supplied identifiers. Preserve default deny and revocation semantics.
-6. **Assurance protocol:** Apply Training a Tiger's independent observation, hidden failure and recovery evaluation approach to cyber scenarios with declared test budgets and failure boundaries.
-7. **Dashboard:** Inspect the existing GRI dashboard ingestion and reporting contracts; add a read-only aggregate synthetic test adapter, labeled research-only. No live client data.
-8. **Integration:** Run reproducible CI and regression suites before merging to main or deploying; retain audit trail and human review.
+1. Independent reviewer reproduces tests and validates provenance using a separately controlled environment.
+2. Threat model and security assumptions: attacker control, tenant boundaries, trusted identity, approval, key lifecycle and evidence custody.
+3. Synthetic durable transactional ledger, backup/restore tests and independent checkpoint trust anchor.
+4. Negative/adversarial coverage for malformed identities, concurrency, replay, grant replacement, rollback, compromised repository and compromised CI assumptions.
+5. Full peer-review package: research question, hypotheses, method, dataset/fixture provenance, reproducibility, limitations, negative findings and bibliography.
+6. Production deployment only after explicit separate authorization, security review and compatibility acceptance.
 
-## Change control
+## References
 
-For each future milestone, update the engineering source, tests, this status register, and relevant Training a Tiger/Tiger Assurance cross-references in the same development cycle. Keep raw findings, assumptions, failures, and limitations visible. No automatic production deployment, client access, or security certification.
+- [Reproducible evidence package](REPRODUCIBLE-EVIDENCE-PACKAGE.md)
+- [Research quality standards](ENGINEERING-RESEARCH-STANDARDS.md)
+- [Mission and integration safeguards](MISSION-AND-INTEGRATION-GUARDRAILS.md)
+- [Version One scope](VERSION-ONE.md)
+- [Initial compatibility baseline](COMPATIBILITY-BASELINE-2026-10-29.md)
+- [Integration engineering history](INTEGRATION-STATUS-2026-10-29.md)
+
+**No merge to `main` or Render deployment has been performed by this milestone.**
