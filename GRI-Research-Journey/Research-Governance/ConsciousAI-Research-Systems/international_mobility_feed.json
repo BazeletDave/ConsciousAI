@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-29T09:57:15.269255+00:00",
+  "generated_at": "2026-10-29T18:28:16.108017+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,42 @@
     }
   ],
   "queue": [
+    {
+      "id": "39446a22e7a8eb0a7b09",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission greenlights Czechia's seventh and final payment request for \u20ac951 million under NextGenerationEU",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2294",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "051561c8cba2cc7b62f6",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 29 / 10 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2290",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "3a618e481c6ab41393e9",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Keynote speech by President von der Leyen on EU-Canada relations at the C.D. Howe Institute",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2288",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "c0aa71d343d32afda051",
       "source_id": "EU-COMMISSION-NEWS",
@@ -109,42 +145,6 @@
       "category": "international_regulatory",
       "title": "New Eurobarometer survey shows young people's growing engagement and views on participatory democracy, youth issues, and EU's added value in their lives",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2274",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "74d4bf22f6c231a211e9",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commissioner Roswall's speech at the event, \u2018From Principles to International Cooperation: Mobilising Biodiversity Finance through High-Integrity Nature Credits'",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2276",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "4ba9b09f478a6f061c36",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Joint statement by High Representative/Vice-President Kallas and Commissioner Kos on the early parliamentary elections in Serbia",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2275",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "a8614becff14826df26f",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Speech by Commissioner Dombrovskis at the annual conference of the Regulatory Scrutiny Board",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2273",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -234,18 +234,6 @@
       "publication_authorized": false
     },
     {
-      "id": "ee18e357293abec4bbd3",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Public electric vehicle charge points: cyber security",
-      "source_url": "https://www.gov.uk/government/consultations/public-electric-vehicle-charge-points-cyber-security",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "d0a3d2d4a7cb92f5ac97",
       "source_id": "UK-DfT",
       "publisher": "UK Department for Transport",
@@ -253,6 +241,18 @@
       "category": "international_regulatory",
       "title": "Research: LNER single leg pricing and Simpler Fares trial evaluation",
       "source_url": "https://www.gov.uk/government/publications/lner-single-leg-pricing-and-simpler-fares-trial-evaluation",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "ee18e357293abec4bbd3",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Public electric vehicle charge points: cyber security",
+      "source_url": "https://www.gov.uk/government/consultations/public-electric-vehicle-charge-points-cyber-security",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
