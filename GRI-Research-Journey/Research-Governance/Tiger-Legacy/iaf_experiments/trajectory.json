@@ -1,0 +1,44 @@
+{
+  "synthetic_only": true,
+  "id": "agent-policy-drift-001",
+  "initial": {
+    "token": true,
+    "mandate": true,
+    "consent": true,
+    "revoked": false,
+    "conflict": false,
+    "operator": true,
+    "separated": true,
+    "action": "read"
+  },
+  "events": [
+    {
+      "update": {},
+      "propose": "read"
+    },
+    {
+      "update": {},
+      "propose": "export"
+    },
+    {
+      "update": {
+        "revoked": true
+      },
+      "propose": "read"
+    },
+    {
+      "update": {
+        "revoked": false,
+        "conflict": true
+      },
+      "propose": "read"
+    },
+    {
+      "update": {
+        "conflict": false,
+        "mandate": false
+      },
+      "propose": "read"
+    }
+  ]
+}
