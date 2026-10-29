@@ -21,6 +21,12 @@ GRI draws on graduate-level study and interdisciplinary scholarship, including l
 
 The governance dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
 
+## Featured research initiative | Tiger Legacy
+
+**[Tiger Legacy — Cybersecurity, AI Assurance & Institutional Governance](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md)** is GRI's cybersecurity assurance research initiative. It extends the [Training a Tiger assurance experiments](GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/Assurance-Experiment/README.md) toward questions of security evidence, scoped agentic authorization, human oversight and verifiable institutional response.
+
+**Current status:** Research foundation and reusable-component inventory established. Cybersecurity implementation, client-system testing and dashboard integration are **not underway**; these require an audit review and separate authorization. Existing synthetic experiment outcomes do not establish production security effectiveness.
+
 ## Research program | Core themes
 
 | Research area | Selected work |
