@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "synthetic_only": true,
+  "scenarios": [
+    {
+      "id": "valid",
+      "token": true,
+      "mandate": true,
+      "consent": true,
+      "revoked": false,
+      "conflict": false,
+      "operator": true,
+      "separated": true,
+      "action": "read",
+      "expected_allow": true
+    },
+    {
+      "id": "token_without_mandate",
+      "token": true,
+      "mandate": false,
+      "consent": true,
+      "revoked": false,
+      "conflict": false,
+      "operator": true,
+      "separated": true,
+      "action": "read",
+      "expected_allow": false
+    },
+    {
+      "id": "revoked_consent",
+      "token": true,
+      "mandate": true,
+      "consent": true,
+      "revoked": true,
+      "conflict": false,
+      "operator": true,
+      "separated": true,
+      "action": "read",
+      "expected_allow": false
+    },
+    {
+      "id": "conflicting_authority",
+      "token": true,
+      "mandate": true,
+      "consent": true,
+      "revoked": false,
+      "conflict": true,
+      "operator": true,
+      "separated": true,
+      "action": "read",
+      "expected_allow": false
+    },
+    {
+      "id": "no_operator",
+      "token": true,
+      "mandate": true,
+      "consent": true,
+      "revoked": false,
+      "conflict": false,
+      "operator": false,
+      "separated": true,
+      "action": "read",
+      "expected_allow": false
+    },
+    {
+      "id": "same_requester_approver",
+      "token": true,
+      "mandate": true,
+      "consent": true,
+      "revoked": false,
+      "conflict": false,
+      "operator": true,
+      "separated": false,
+      "action": "read",
+      "expected_allow": false
+    },
+    {
+      "id": "expired_consent",
+      "token": true,
+      "mandate": true,
+      "consent": false,
+      "revoked": false,
+      "conflict": false,
+      "operator": true,
+      "separated": true,
+      "action": "read",
+      "expected_allow": false
+    },
+    {
+      "id": "adaptive_agent_escalation",
+      "token": true,
+      "mandate": true,
+      "consent": true,
+      "revoked": false,
+      "conflict": false,
+      "operator": true,
+      "separated": true,
+      "action": "export",
+      "expected_allow": false
+    }
+  ]
+}
