@@ -81,3 +81,8 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 ## Algorithmic Mobility Paradox | Scholarly working paper, October 2026
 
 [Read the GRI Algorithmic Mobility Paradox working paper](algorithmic-mobility-paradox-working-paper-2026-10.md). This independent research contribution integrates three driver narratives on offer acceptance, geographic Boost incentives, and perceived surge dynamics into five testable hypotheses, a mixed-methods field protocol, and an institutional governance framework. All alleged platform mechanisms and intentions remain unverified. The paper is a conceptual working manuscript, not a peer-reviewed empirical finding.
+
+
+## October 30 evidence integration
+
+[Three UberX offers](2026-10-30-three-driver-submitted-offer-screenshots-cost-analysis.md), [Comfort and XL offer analysis](2026-10-30-comfort-xl-driver-offers-institutional-assurance.md), [TPA driver narrative](tpa-driver-waiting-lot-qualitative-observation-2026-10.md), and [earnings claim verification queue](2026-10-30-earnings-benchmark-source-verification-queue.md) are distinct evidence types. Screenshots show proposed offers, not final payments. The airport account is uncorroborated firsthand testimony. The earnings claims require original source checks. All calculations must separate pickup and trip time, unpaid waiting and return travel, fuel only residuals, fully allocated operating costs, and taxes. The five dimension governance codebook and Tiger Assurance provenance principles apply; no independent audit or operational platform access is claimed.
