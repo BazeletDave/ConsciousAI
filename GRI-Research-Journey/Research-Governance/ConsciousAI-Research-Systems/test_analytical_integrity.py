@@ -20,6 +20,18 @@ class AnalyticalIntegrityTests(unittest.TestCase):
             "academic_framework":{"id":"nelson","attribution":"Roy C. Nelson"},
             "claim_type":"reported_claim","limitations":"Small sample",
             "review_status":"approved","reviewer_id":"reviewer-1","reviewed_at":"2026-10-30"}, "cases")
+        self.assertEqual(r["classification"], "verified_claim_blocked_pending_evidence")
+        self.assertFalse(r["certified"])
+        self.assertEqual(r["public_attestation"]["record_decision"], None)
+    def test_complete_record_with_explicit_attestation_can_be_eligible(self):
+        r = assess_record({"id":"e","verification_status":"independently_verified",
+            "source":"https://example.org/report","publication_date":"2026-10-01",
+            "retrieved_at":"2026-10-30","document_locator":"page 2",
+            "independent_verification":True,
+            "academic_framework":{"id":"nelson","attribution":"Roy C. Nelson"},
+            "claim_type":"reported_claim","limitations":"Small sample",
+            "review_status":"approved","reviewer_id":"reviewer-1","reviewed_at":"2026-10-30",
+            "public_attestation":{"record_decision":"approved","approval_asserted":True}}, "cases")
         self.assertEqual(r["classification"], "eligible_for_verified_claim")
         self.assertFalse(r["certified"])
     def test_unreviewed_hypothesis_is_not_empirical_finding(self):
