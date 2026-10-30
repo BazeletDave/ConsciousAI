@@ -25,7 +25,7 @@ All publicly released open source code, documentation, references, and evidence 
 
 Institutional intelligence, source evidence and governance analysis.
 
-[![AI Paradox Lab](assets/gri-ai-paradox-lab-visual.svg)](https://the-back-door.onrender.com)
+[![AI Paradox Lab: AI governance and human oversight](IMG_6526.jpeg)](https://the-back-door.onrender.com)
 
 **[AI Paradox Lab](https://the-back-door.onrender.com)**
 
