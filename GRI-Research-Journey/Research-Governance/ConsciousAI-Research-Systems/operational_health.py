@@ -13,6 +13,7 @@ FEEDS = (
     ("policy_candidates.json", "last_collection_at"),
     ("intelligence_feed.json", "source_last_collection_at"),
     ("international_mobility_feed.json", "generated_at"),
+    ("enrollment_discovery.json", "generated_at"),
 )
 
 
@@ -54,9 +55,11 @@ def collection_status(root, now=None):
             if parsed.tzinfo is None or parsed.utcoffset() is None:
                 raise ValueError("Timezone required")
             age = (now - parsed).total_seconds()
+            limit = 18 * 60 * 60 if name == "enrollment_discovery.json" else MAX_AGE_SECONDS
+            item["max_age_seconds"] = limit
             item.update(collected_at=stamp, age_seconds=round(age, 3),
                         status="future_timestamp" if age < -CLOCK_SKEW_SECONDS else
-                        "stale" if age > MAX_AGE_SECONDS else "current")
+                        "stale" if age > limit else "current")
             if name == "international_mobility_feed.json":
                 sources = data.get("sources")
                 valid = (isinstance(sources, list) and bool(sources) and
@@ -65,6 +68,24 @@ def collection_status(root, now=None):
                 item["source_collection_status"] = "all_fetched" if valid else "incomplete"
                 if not valid and item["status"] == "current":
                     item["status"] = "collection_incomplete"
+            if name == "enrollment_discovery.json":
+                sources = data.get("sources")
+                valid = (isinstance(sources, list) and bool(sources) and
+                         all(isinstance(s, dict) and isinstance(s.get("source_id"), str)
+                             and s.get("status") in {"fetched", "fetched_no_relevant_titles", "failed"}
+                             for s in sources))
+                item["cadence_seconds"] = 6 * 60 * 60
+                item["schedule_overdue"] = age > 6 * 60 * 60
+                item["source_collection_status"] = "invalid" if not valid else (
+                    "incomplete" if any(s["status"] == "failed" for s in sources) else "all_fetched")
+                item["sources"] = [{key: s.get(key) for key in (
+                    "source_id", "status", "error_type", "http_status", "attempted_at",
+                    "last_success_at", "consecutive_failures", "first_failure_at", "intervention")}
+                    for s in sources] if valid else []
+                if not valid or any(s["status"] == "failed" for s in sources):
+                    if item["status"] == "current": item["status"] = "collection_incomplete"
+                elif item["status"] == "current" and item["schedule_overdue"]:
+                    item["status"] = "delayed"
         except FileNotFoundError:
             pass
         except (ValueError, OSError):

@@ -11,6 +11,8 @@ import math
 import os
 import re
 import tempfile
+import xml.etree.ElementTree as ET
+from urllib.error import HTTPError
 from datetime import datetime, timezone, timedelta
 from html.parser import HTMLParser
 from pathlib import Path
@@ -46,7 +48,7 @@ class SafeRedirect(HTTPRedirectHandler):
 
 def fetch(url):
     canonical(url, urlparse(url).hostname)
-    request = Request(url, headers={'User-Agent':'GRI-Institutional-Research/1.0 (metadata discovery)', 'Accept':'application/json,text/html'})
+    request = Request(url, headers={'User-Agent':'GRI-Institutional-Research/1.0 (metadata discovery)', 'Accept':'application/rss+xml,application/xml,text/html,application/json'})
     with build_opener(SafeRedirect()).open(request, timeout=18) as response:
         canonical(response.url, urlparse(url).hostname)
         data = response.read(MAX_BYTES + 1)
@@ -71,12 +73,25 @@ def parse(data, source):
         body = json.loads(data)
         if not isinstance(body.get('results'), list): raise ValueError('unexpected search API schema')
         raw = [(r.get('link',''), r.get('title',''), r.get('public_timestamp')) for r in body['results'] if isinstance(r,dict)]
-    else:
+    elif source['mode'] == 'rss':
+        if re.search(br'<!DOCTYPE|<!ENTITY', data, re.I):
+            raise ValueError('XML declarations forbidden')
+        try:
+            feed = ET.fromstring(data)
+        except ET.ParseError as exc:
+            raise ValueError('invalid RSS document') from exc
+        if feed.tag != 'rss' or feed.find('channel') is None:
+            raise ValueError('expected RSS channel')
+        raw = [(item.findtext('link', ''), item.findtext('title', ''), item.findtext('pubDate'))
+               for item in feed.findall('./channel/item')]
+    elif source['mode'] == 'html':
         html = data.decode('utf-8', 'replace')
         if re.search(r'<title[^>]*>[^<]*(?:access denied|just a moment|forbidden)',html,re.I) or re.search(r'verify you are human|request has been blocked',html,re.I):
             raise ValueError('publisher access wall')
         parser = Links(); parser.feed(html); raw = parser.rows
         if not raw: raise ValueError('publisher index has no parseable links')
+    else:
+        raise ValueError('unsupported source mode')
     rows = {}
     for href, title, published in raw:
         if not isinstance(href,str) or not isinstance(title,str): continue
@@ -151,17 +166,20 @@ def collect(previous=None, fetcher=fetch, sources=None, now=None):
         try:
             canonical(source['url'],source['allowed_host'])
             parsed=parse(fetcher(source['url']),source)
-            return source, parsed, None
+            return source, parsed, None, None
         except (OSError, ValueError, KeyError, TypeError) as e:
-            return source, [], type(e).__name__
+            return source, [], type(e).__name__, e.code if isinstance(e, HTTPError) else None
     health=[];new_ids=set();changed_ids=set()
     with ThreadPoolExecutor(max_workers=3) as pool:
         fetched = list(pool.map(request,sources))
-    for source, incoming, error in fetched:
+    for source, incoming, error, http_status in fetched:
         prior=old_health.get(source['id'],{})
         health.append({'source_id':source['id'],'publisher':source['publisher'],'country':source['country'],
             'source_url':source['url'],'status':'failed' if error else ('fetched' if incoming else 'fetched_no_relevant_titles'),
-            'error_type':error,'items':len(incoming),'attempted_at':now,
+            'error_type':error,'http_status':http_status,'items':len(incoming),'attempted_at':now,
+            'consecutive_failures':prior.get('consecutive_failures',0)+1 if error else 0,
+            'first_failure_at':(prior.get('first_failure_at') or now) if error else None,
+            'intervention':('publisher_access_requires_approved_endpoint_or_manual_review' if http_status in (401,403,406,429) else 'inspect_source_format_or_connectivity') if error else None,
             'last_success_at':prior.get('last_success_at') if error else now})
         for row in incoming:
             old=old_rows.get(row['id'])

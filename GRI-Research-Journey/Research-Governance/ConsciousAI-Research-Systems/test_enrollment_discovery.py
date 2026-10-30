@@ -125,3 +125,29 @@ class EnrollmentDiscoveryTests(unittest.TestCase):
         rows=parse(b'<a href="/government/news/identity">Student <b>loan</b> identity fraud</a><a href="https://evil.test/">Student loan fraud</a>',source)
         self.assertEqual(len(rows),1)
         self.assertEqual(rows[0]['title'],'Student loan identity fraud')
+
+    def test_rss_metadata_and_source_boundaries(self):
+        source={**SOURCE, 'mode':'rss'}
+        data=b'<rss><channel><item><title>Student loan fraud controls</title><link>https://www.gov.uk/government/news/fraud</link><pubDate>Fri, 30 Oct 2026 12:00:00 GMT</pubDate><description>Not ingested</description></item><item><title>Student loan fraud elsewhere</title><link>https://evil.test/x</link></item></channel></rss>'
+        rows=parse(data,source)
+        self.assertEqual(len(rows),1)
+        self.assertIsNotNone(rows[0]['source_date'])
+        self.assertNotIn('description',rows[0])
+        self.assertEqual(parse(b'<rss><channel/></rss>',source),[])
+        for bad in [b'<html><title>Access denied</title></html>', b'<rss>', b'<!DOCTYPE rss><rss><channel/></rss>']:
+            with self.assertRaises(ValueError):parse(bad,source)
+
+    def test_failure_details_and_recovery(self):
+        from urllib.error import HTTPError
+        a=self.collect()
+        def fail(url): raise HTTPError(url,406,'Not acceptable',{},None)
+        b=collect(a,fetcher=fail,sources=[SOURCE],now='2026-10-29T18:00:00+00:00')
+        c=collect(b,fetcher=fail,sources=[SOURCE],now='2026-10-30T18:00:00+00:00')
+        h=c['sources'][0]
+        self.assertEqual(h['http_status'],406)
+        self.assertEqual(h['consecutive_failures'],2)
+        self.assertEqual(h['first_failure_at'],b['generated_at'])
+        self.assertEqual(h['last_success_at'],NOW)
+        recovered=self.collect(c,now='2026-10-31T18:00:00+00:00')['sources'][0]
+        self.assertEqual(recovered['consecutive_failures'],0)
+        self.assertIsNone(recovered['first_failure_at'])

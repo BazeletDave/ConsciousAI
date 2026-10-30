@@ -18,7 +18,7 @@ class OperationalHealthTests(unittest.TestCase):
             self.write(name, {})
         for name, field in FEEDS:
             data = {field: self.now.isoformat()}
-            if name == "international_mobility_feed.json":
+            if name in {"international_mobility_feed.json", "enrollment_discovery.json"}:
                 data["sources"] = [{"source_id": "fixture", "status": "fetched"}]
             self.write(name, data)
 
@@ -81,3 +81,22 @@ class OperationalHealthTests(unittest.TestCase):
     def test_naive_reference_time_rejected(self):
         with self.assertRaises(ValueError):
             collection_status(self.root, datetime(2026, 10, 27))
+
+    def test_enrollment_partial_failure_not_masked_by_recent_run(self):
+        self.write("enrollment_discovery.json", {"generated_at": self.now.isoformat(), "sources": [
+            {"source_id": "oig", "status": "failed", "http_status": 406, "consecutive_failures": 3},
+            {"source_id": "doj", "status": "fetched_no_relevant_titles"}]})
+        item = self.status()["feeds"][-1]
+        self.assertEqual(self.status()["status"], "attention_required")
+        self.assertEqual(item["status"], "collection_incomplete")
+        self.assertEqual(item["sources"][0]["http_status"], 406)
+
+    def test_enrollment_delayed_stale_missing_and_malformed(self):
+        for hours, expected in [(6, "current"), (7, "delayed"), (19, "stale")]:
+            self.write("enrollment_discovery.json", {"generated_at": (self.now-timedelta(hours=hours)).isoformat(),
+                "sources": [{"source_id":"fixture", "status":"fetched"}]})
+            self.assertEqual(self.status()["feeds"][-1]["status"], expected)
+        self.write("enrollment_discovery.json", {"generated_at": self.now.isoformat(), "sources": [None]})
+        self.assertEqual(self.status()["feeds"][-1]["status"], "collection_incomplete")
+        (self.root/"enrollment_discovery.json").unlink()
+        self.assertEqual(self.status()["feeds"][-1]["status"], "missing")

@@ -59,8 +59,8 @@
       "id": "US-DOJ-NDNY",
       "country": "USA",
       "publisher": "US Department of Justice",
-      "mode": "html",
-      "url": "https://www.justice.gov/usao-ndny/pr",
+      "mode": "rss",
+      "url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
       "allowed_host": "www.justice.gov",
       "path_prefix": "/usao-ndny/pr/"
     }

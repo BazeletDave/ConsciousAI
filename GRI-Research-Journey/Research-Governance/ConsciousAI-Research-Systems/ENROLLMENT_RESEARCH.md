@@ -61,3 +61,13 @@ These are proposed measures, not measured results. Independently reviewed, autho
 Operational availability and evidence completeness require separate measurements. A collection success elsewhere cannot establish that every relevant source was checked. Failed or unavailable checks must remain unknown rather than count as successful verification. Repairing collectors and extending collection health coverage are follow up engineering tasks; this document does not claim those repairs are complete.
 
 This addition extends the existing research stream. It changes no individual fraud labels, activates no predictive training and submits no scholarly manuscript.
+
+## Collector recovery and health coverage
+
+The DOJ Northern District of New York collector now uses the RSS endpoint advertised by its official press release index. RSS parsing retains titles, links and publication dates only, checks the expected document structure, rejects entity declarations, and applies the existing host and article path restrictions. A valid feed containing no relevant titles is distinct from an access wall or parsing failure.
+
+Enrollment discovery is included in GET /health/collections. Each source exposes its latest attempt, last successful fetch, HTTP error code where available, failure streak since this instrumentation began, and intervention category. A recent collection attempt cannot hide a failed source. Successful collection clears the failure streak; retained records do not count as a successful fetch.
+
+The six hour collection cadence and 18 hour stale threshold are separate. A successful but overdue snapshot is marked delayed after six hours, stale after 18 hours; missing, invalid and partial source states require attention. This diagnostic remains separate from server readiness, so a publisher failure does not take the dashboard offline.
+
+Education OIG returned HTTP 406 during the October 30 repair check, including its public homepage. This is an unresolved publisher access limitation, not a repaired parser or an empty result. It remains enabled and visibly failed for subsequent scheduled checks. An accessible publisher approved endpoint or manual institutional review is required if access continues to be denied. Public access restrictions are not bypassed. Temporary upstream errors elsewhere are likewise retained explicitly.

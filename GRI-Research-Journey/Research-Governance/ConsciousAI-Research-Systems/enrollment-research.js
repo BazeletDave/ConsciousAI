@@ -36,7 +36,7 @@
       const health = document.getElementById('enrollment-source-health'); health.replaceChildren();
       for (const source of discovery.sources) {
         const card = text('div', ''); card.className = 'model-field';
-        card.append(text('b', source.publisher), text('p', source.status.replaceAll('_', ' ') + ' · ' + source.items + ' relevant titles' + (source.error_type ? ' · ' + source.error_type : ''))); health.append(card);
+        card.append(text('b', source.publisher), text('p', source.status.replaceAll('_', ' ') + ' · ' + source.items + ' relevant titles' + (source.error_type ? ' · ' + source.error_type + (source.http_status ? ' HTTP ' + source.http_status : '') : '') + ' · last success ' + (source.last_success_at || 'none') + (source.consecutive_failures ? ' · consecutive failures ' + source.consecutive_failures : '') + (source.intervention ? ' · ' + source.intervention.replaceAll('_', ' ') : ''))); health.append(card);
       }
       const leads = document.getElementById('enrollment-discovery-records'); leads.replaceChildren();
       const candidates = query ? discovery.matches : discovery.records.slice(0, 30);
