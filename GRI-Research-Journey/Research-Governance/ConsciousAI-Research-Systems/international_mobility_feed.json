@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-29T18:28:16.108017+00:00",
+  "generated_at": "2026-10-30T00:58:50.100270+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "207b04f701a41e595990",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Press remarks by Commissioner J\u00f8rgensen following the Energy Council",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2302",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "39446a22e7a8eb0a7b09",
       "source_id": "EU-COMMISSION-NEWS",
@@ -133,18 +145,6 @@
       "category": "international_regulatory",
       "title": "Factsheet - EU Demography Toolbox",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2271",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "cb4f2bae6cf2cbba1bdb",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "New Eurobarometer survey shows young people's growing engagement and views on participatory democracy, youth issues, and EU's added value in their lives",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2274",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
