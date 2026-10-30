@@ -28,11 +28,11 @@ class AdapterTests(unittest.TestCase):
 
     def test_disabled_purpose_denied(self):
         with self.assertRaises(PermissionError):
-            self.commerce.read(self.token("commerce", "owner1"), "audit", 20)
+            self.commerce.read(self.token("commerce", "owner1"), "invoice", "audit", 20)
 
     def test_expired_identity_denied(self):
         with self.assertRaises(PermissionError):
-            self.commerce.read(self.token("commerce", "owner1"), "view", 100)
+            self.commerce.read(self.token("commerce", "owner1"), "invoice", "view", 100)
 
     def test_unauthenticated_denied(self):
         with self.assertRaises(PermissionError):
