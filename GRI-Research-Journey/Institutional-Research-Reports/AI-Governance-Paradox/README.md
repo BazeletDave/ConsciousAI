@@ -35,3 +35,12 @@ Published external evidence, GRI analytical propositions, and completed software
 The presentation revision removes the report number, aligns the cover and executive framing to GRI's mission, updates the description of the existing research platform, and links the implementation evidence. The 22 page structure and original exhibits are retained. [Original October edition](archive/October-2026-original.pdf) · [Revision notes](REVISION_NOTES.md).
 
 Independent GRI research. Academic and institutional references identify sources and context rather than sponsorship or endorsement.
+
+## Continuing research: custody, sustainability and resilience
+
+The original 22-page institutional report and its exhibits remain unchanged. David A. Grand's dated research extensions connect the AI Governance Paradox to blockchain custody, intertemporal justice, public and private technological investment, equitable software access, sustainability and institutional resilience. They are distinct living research notes, not retroactive amendments to the original report or claims of demonstrated causal results.
+
+* [Blockchain Custody and Institutional Assurance: Binance incident (29 October 2026)](BLOCKCHAIN-CUSTODY-BINANCE-INCIDENT-2026-10-29.md)
+* [Sustainability, Resilience and Intertemporal Justice (29 October 2026)](SUSTAINABILITY-RESILIENCE-INTERTEMPORAL-JUSTICE-EXTENSION.md)
+
+Both continuations use evidence-status distinctions and comparative institutional analysis; the sustainability note additionally outlines empirical measures and falsifiable propositions. Neither asserts that AI caused the reported Binance incident or that historical FTX valuation counterfactuals were realized assets.
