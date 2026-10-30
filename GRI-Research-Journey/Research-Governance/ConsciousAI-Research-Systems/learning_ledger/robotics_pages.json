@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T18:00:01.491652+00:00",
+  "generated_at": "2026-10-30T22:19:01.714030+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "5b928601768498b21e53f8eb668e0cb74ed0d46787da2b5e6bd6fcc27c705c9b",
+      "content_sha256": "8988ed62dfd6a7f241c9f1780e30c04b924e792b15d6c3c4564f4233ff1af26a",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "88573e2a795d6046a4bd2ffe630c3ff7eb7f250f54b98ac638352a40e46d40b9",
+      "content_sha256": "b338c30bb189930be8b9284049d7e92ff7c724840fdb7077787dc5630d506792",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -61,7 +61,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "10703e412da8e6f5ff0bb1613114dc5190a47865db36699829eaf1f8de724402",
+      "content_sha256": "0ff073bfeda831a0a156bd68b1acf27552277c4bef5beaa39e3e8dc3d15ec323",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -78,7 +78,7 @@
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "345178b5dd737c0890a339fb3982b6975a5fb91f83a5266ad2df727e9eea6df7",
+      "content_sha256": "4513ba235cb8cc93a1bbe4ee830c9c88e73ab3949c60eae0912e3bd06574c3ce",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -101,17 +101,17 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110782
+      "bytes": 110785
     },
     {
       "source_id": "NHTSA-SGO",
       "status": "fetched",
-      "bytes": 146999
+      "bytes": 147000
     },
     {
       "source_id": "BRA-ANAC-AAM",
       "status": "fetched",
-      "bytes": 155971
+      "bytes": 155965
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
