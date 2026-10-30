@@ -12,7 +12,16 @@
       "limitations": "Final payouts, fee rules, trip IDs and causal drivers unverified.",
       "claim_type": "reported_claim",
       "review_status": "pending_independent_review",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     },
     {
       "id": "UBER-MCP-2026",
@@ -31,7 +40,16 @@
       "document_locator": "Introduction; The Gateway; Security",
       "primary_evidence_kind": "corporate_primary_self_report",
       "primary_source_checked": true,
-      "independent_verification": false
+      "independent_verification": false,
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     },
     {
       "id": "UBER-SOFTWARE-FACTORY-2026",
@@ -50,7 +68,16 @@
       "document_locator": "Introduction",
       "primary_evidence_kind": "corporate_primary_self_report",
       "primary_source_checked": true,
-      "independent_verification": false
+      "independent_verification": false,
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     },
     {
       "id": "GRI-AI-PARADOX-H1",
@@ -62,7 +89,16 @@
       "limitations": "Requires longitudinal and comparative empirical testing.",
       "claim_type": "hypothesis",
       "review_status": "pending_independent_review",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     }
   ]
 }
