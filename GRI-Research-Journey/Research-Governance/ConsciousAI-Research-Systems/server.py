@@ -15,6 +15,7 @@ from evidence_quality import score, dataset_manifest
 from risk_triage import triage
 from governance_telemetry import public_snapshot
 from institutional_bridge import research_snapshot
+from analytical_integrity import audit_inventory, assess_record
 from institutional_cases import public_case_explorer
 from research_intake import load_snapshot
 from urllib.parse import urlparse, parse_qs, unquote
@@ -268,6 +269,8 @@ class Handler(BaseHTTPRequestHandler):
                 self.end_headers()
                 self.wfile.write(payload)
                 return
+            if path == "/intelligence/analytical-integrity":
+                return self.send_json(200, audit_inventory(records(), load("events.json")["records"], load("policies.json")["records"]))
             if path == "/intelligence/summary":
                 cases = records()
                 events = load("events.json")["records"]
@@ -385,10 +388,10 @@ class Handler(BaseHTTPRequestHandler):
                 items = records()
                 if "organization" in query:
                     items = [x for x in items if x["organization"].casefold() == query["organization"][0].casefold()]
-                return self.send_json(200, {"records": items, "count": len(items)})
+                return self.send_json(200, {"records": items, "count": len(items), "analytical_integrity": [assess_record(x, "cases") for x in items], "integrity_notice": "Legacy record fields are unmodified; analytical integrity fields are separately assessed."})
             if path.startswith("/cases/"):
                 case = case_by_id(unquote(path[len("/cases/"):]))
-                return self.send_json(200 if case else 404, case or {"error": "unknown_case"})
+                return self.send_json(200 if case else 404, ({**case, "analytical_integrity": assess_record(case, "cases")} if case else {"error": "unknown_case"}))
             if path == "/graph":
                 return self.send_json(200, graph())
             if path == "/policies":
