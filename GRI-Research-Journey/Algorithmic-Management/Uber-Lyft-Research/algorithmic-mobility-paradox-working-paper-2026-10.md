@@ -53,6 +53,14 @@ The governance questions concern meaningful transparency, contestability, worker
 ### 7. Research integrity and limitations
 These three narratives are a convenience sample with unverified provenance, possible selection bias, no representative sampling frame, and no access to proprietary dispatch code. They cannot establish general prevalence, platform-wide behavior, intentional manipulation, or legal wrongdoing. Preserve consent, redact personal data and exact sensitive locations, distinguish direct screenshots from testimony, retain evidence hashes and collection dates, and avoid violating platform terms or compromising driver safety. Public release of identifiable participant material requires explicit authorization.
 
+### October 30, 2026 field observation: UberX hybrid economics and destination routing
+
+This continuing longitudinal field session ran from noon to 4 p.m. Eastern (Uber reported 4 hours 2 minutes online). Eleven UberX trips yielded $102.72 in driver receipts: $91.16 platform-labeled net fare, $4.56 promotions, and $7.00 tips. Odometer readings 83,834 and 83,908 indicate 74 total vehicle miles. Driver-estimated hybrid fuel economy of 45 MPG and gasoline at $4.00 per gallon imply $6.58 estimated fuel cost and $96.14 after fuel, equivalent to $23.83 per Uber online hour. These are estimates, not full economic net profit; other operating expenses and taxes are excluded.
+
+The driver also reported setting a destination toward home near shift end, yet repeatedly circulating within the same area rather than progressing homeward. This is an unverified field account, not proof of platform intent or malfunction. The existing research framework should investigate the relationship among destination routing, driver autonomy, uncompensated mileage, end-of-shift fatigue, road exposure, and effective disengagement. Plausible alternative explanations include local demand, destination filter limitations, route geometry, and accepted trip selection. No actual safety incident is asserted.
+
+Future matched observations should record consented, anonymized routing progression, filter settings, timestamps, paid and unpaid mileage, and driver-reported fatigue, without publishing home addresses or passenger information. This material supplements the existing Uber and Lyft longitudinal research and AI Paradox institutional analysis; it does not establish a separate project or a causal conclusion.
+
 ### 8. Selected scholarly and institutional references
 - Rosenblat, A., and Stark, L. (2016). “Algorithmic Labor and Information Asymmetries: A Case Study of Uber's Drivers.” *International Journal of Communication*, 10, 3758–3784.
 - Calo, R., and Rosenblat, A. (2017). “The Taking Economy: Uber, Information, and Power.” *Columbia Law Review*, 117(6), 1623–1690.
