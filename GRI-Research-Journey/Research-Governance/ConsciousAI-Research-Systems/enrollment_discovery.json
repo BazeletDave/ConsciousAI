@@ -5,7 +5,7 @@
     "metadata_only": true,
     "retention_days": 365
   },
-  "generated_at": "2026-10-30T13:19:24.113261+00:00",
+  "generated_at": "2026-10-30T22:34:10.792286+00:00",
   "history": [
     {
       "at": "2026-10-28T17:56:33.427580+00:00",
@@ -136,9 +136,19 @@
       "new_records": 0,
       "retained_records": 6,
       "successful_sources": 6
+    },
+    {
+      "at": "2026-10-30T22:34:10.792286+00:00",
+      "changed_titles": 0,
+      "corpus_digest": "4d395d80abe2bb126c6c2c30cfde99ee64ac45a308e41fd00047fbe67f6fb948",
+      "failed_sources": 1,
+      "model_version": 2,
+      "new_records": 0,
+      "retained_records": 6,
+      "successful_sources": 6
     }
   ],
-  "last_success_at": "2026-10-30T13:19:24.113261+00:00",
+  "last_success_at": "2026-10-30T22:34:10.792286+00:00",
   "model": {
     "corpus_digest": "4d395d80abe2bb126c6c2c30cfde99ee64ac45a308e41fd00047fbe67f6fb948",
     "documents": 6,
@@ -274,7 +284,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "ea8ef486f978f11fa7a327e3",
-      "last_seen_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_seen_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "UK Government",
       "source_date": "2025-12-29T12:05:42Z",
       "source_id": "UK-GOV-SEARCH",
@@ -289,7 +299,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "d8dce035ab212dc5588023c2",
-      "last_seen_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_seen_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "UK Government",
       "source_date": "2026-09-01T08:28:09Z",
       "source_id": "UK-GOV-SEARCH",
@@ -304,7 +314,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "7b17282836c87e95299d23de",
-      "last_seen_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_seen_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "UK Government",
       "source_date": "2025-09-17T11:00:00Z",
       "source_id": "UK-GOV-SEARCH",
@@ -319,12 +329,27 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "7502b3c400a3e51a2c8b6dc8",
-      "last_seen_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_seen_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "UK Government franchising research",
       "source_date": "2025-12-09T01:00:03Z",
       "source_id": "UK-FRANCHISE-SEARCH",
       "source_url": "https://www.gov.uk/government/news/government-crackdown-on-rogue-university-franchises",
       "title": "Government crackdown on rogue university franchises",
+      "verification": "unreviewed_publisher_metadata"
+    },
+    {
+      "ai_role": "not_established",
+      "country": "GBR",
+      "first_seen_at": "2026-10-28T17:56:33.427580+00:00",
+      "fraud_training_eligible": false,
+      "human_review_required": true,
+      "id": "53dea05cbf58402fe1afd88d",
+      "last_seen_at": "2026-10-30T22:34:10.792286+00:00",
+      "publisher": "UK Government",
+      "source_date": "2019-03-06T00:00:00Z",
+      "source_id": "UK-GOV-SEARCH",
+      "source_url": "https://www.gov.uk/government/news/warning-as-fraudsters-target-students-final-loan-instalments",
+      "title": "Warning as fraudsters target students' final loan instalments",
       "verification": "unreviewed_publisher_metadata"
     },
     {
@@ -341,27 +366,12 @@
       "source_url": "https://home.treasury.gov/news/press-releases/sb0663",
       "title": "U.S. Treasury Identifies $270 Million in Suspicious Activity Linked to Federal Student Aid Fraud",
       "verification": "unreviewed_publisher_metadata"
-    },
-    {
-      "ai_role": "not_established",
-      "country": "GBR",
-      "first_seen_at": "2026-10-28T17:56:33.427580+00:00",
-      "fraud_training_eligible": false,
-      "human_review_required": true,
-      "id": "53dea05cbf58402fe1afd88d",
-      "last_seen_at": "2026-10-30T13:19:24.113261+00:00",
-      "publisher": "UK Government",
-      "source_date": "2019-03-06T00:00:00Z",
-      "source_id": "UK-GOV-SEARCH",
-      "source_url": "https://www.gov.uk/government/news/warning-as-fraudsters-target-students-final-loan-instalments",
-      "title": "Warning as fraudsters target students' final loan instalments",
-      "verification": "unreviewed_publisher_metadata"
     }
   ],
   "schema_version": "1.0",
   "sources": [
     {
-      "attempted_at": "2026-10-30T13:19:24.113261+00:00",
+      "attempted_at": "2026-10-30T22:34:10.792286+00:00",
       "consecutive_failures": 0,
       "country": "GBR",
       "error_type": null,
@@ -369,14 +379,14 @@
       "http_status": null,
       "intervention": null,
       "items": 4,
-      "last_success_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_success_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "UK Government",
       "source_id": "UK-GOV-SEARCH",
       "source_url": "https://www.gov.uk/api/search.json?q=student%20finance%20fraud&count=50&fields=title,link,public_timestamp",
       "status": "fetched"
     },
     {
-      "attempted_at": "2026-10-30T13:19:24.113261+00:00",
+      "attempted_at": "2026-10-30T22:34:10.792286+00:00",
       "consecutive_failures": 0,
       "country": "GBR",
       "error_type": null,
@@ -384,29 +394,29 @@
       "http_status": null,
       "intervention": null,
       "items": 1,
-      "last_success_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_success_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "UK Government franchising research",
       "source_id": "UK-FRANCHISE-SEARCH",
       "source_url": "https://www.gov.uk/api/search.json?q=franchised%20higher%20education%20fraud&count=50&fields=title,link,public_timestamp",
       "status": "fetched"
     },
     {
-      "attempted_at": "2026-10-30T13:19:24.113261+00:00",
+      "attempted_at": "2026-10-30T22:34:10.792286+00:00",
       "consecutive_failures": 0,
       "country": "USA",
       "error_type": null,
       "first_failure_at": null,
       "http_status": null,
       "intervention": null,
-      "items": 1,
-      "last_success_at": "2026-10-30T13:19:24.113261+00:00",
+      "items": 0,
+      "last_success_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "US Treasury",
       "source_id": "US-TREASURY",
       "source_url": "https://home.treasury.gov/news/press-releases",
-      "status": "fetched"
+      "status": "fetched_no_relevant_titles"
     },
     {
-      "attempted_at": "2026-10-30T13:19:24.113261+00:00",
+      "attempted_at": "2026-10-30T22:34:10.792286+00:00",
       "consecutive_failures": 0,
       "country": "AUS",
       "error_type": null,
@@ -414,14 +424,14 @@
       "http_status": null,
       "intervention": null,
       "items": 0,
-      "last_success_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_success_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "Commonwealth Fraud Prevention Centre",
       "source_id": "AU-COUNTERFRAUD",
       "source_url": "https://www.counterfraud.gov.au/news",
       "status": "fetched_no_relevant_titles"
     },
     {
-      "attempted_at": "2026-10-30T13:19:24.113261+00:00",
+      "attempted_at": "2026-10-30T22:34:10.792286+00:00",
       "consecutive_failures": 0,
       "country": "AUS",
       "error_type": null,
@@ -429,15 +439,15 @@
       "http_status": null,
       "intervention": null,
       "items": 0,
-      "last_success_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_success_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_id": "AU-ASQA",
       "source_url": "https://www.asqa.gov.au/news-events/news",
       "status": "fetched_no_relevant_titles"
     },
     {
-      "attempted_at": "2026-10-30T13:19:24.113261+00:00",
-      "consecutive_failures": 3,
+      "attempted_at": "2026-10-30T22:34:10.792286+00:00",
+      "consecutive_failures": 4,
       "country": "USA",
       "error_type": "HTTPError",
       "first_failure_at": "2026-10-30T13:03:39.652296+00:00",
@@ -451,7 +461,7 @@
       "status": "failed"
     },
     {
-      "attempted_at": "2026-10-30T13:19:24.113261+00:00",
+      "attempted_at": "2026-10-30T22:34:10.792286+00:00",
       "consecutive_failures": 0,
       "country": "USA",
       "error_type": null,
@@ -459,7 +469,7 @@
       "http_status": null,
       "intervention": null,
       "items": 0,
-      "last_success_at": "2026-10-30T13:19:24.113261+00:00",
+      "last_success_at": "2026-10-30T22:34:10.792286+00:00",
       "publisher": "US Department of Justice",
       "source_id": "US-DOJ-NDNY",
       "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
