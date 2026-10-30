@@ -1,8 +1,12 @@
-> **Methodological clarification | Nelson Model:** [Original financial crisis indicators versus GRI's proposed AI governance measures](nelson-model-methodological-boundaries.md). Preserve original academic context; AI-specific applications are GRI hypotheses requiring validation.
-
-> **22 October 2026 | Digital Bretton Woods:** [Verified institutional recovery, Nelson Model and autonomous systems](Digital-Bretton-Woods/README.md). Source register, technical case study, risk visualizations and restoration assurance.\n\n> **22 October 2026 | Longitudinal research continuity and academic standards:** [early practitioner foundations, global platform research and institutional governance](2026-10-22-longitudinal-cross-jurisdictional-platform-and-biotech-research.md) connects prior work to current AI assurance prototypes. Historical leads are marked for artifact-level verification; original dates and collaborator contributions must be preserved. New research must state its question, theoretical lens, primary evidence, methods, limitations, reproducible results where applicable, and institutional implications. This is GRI's independent research, not a claim of Thunderbird endorsement.
-
 # GRI Integrated Research Journey | Living Research Architecture
+
+This index preserves the chronological record of GRI's research. The [Master Research Portfolio](../Grand-Research-Institute-Research-Portfolio/README.md) is the primary navigation point. Individual studies retain their original dates, authorship, evidence limits and methods.
+
+**Research standards:** Separate primary evidence, reported claims, interpretation and hypotheses. Attribute Roy C. Nelson's original institutional model accurately; GRI's AI applications remain independent extensions requiring empirical validation. Academic references do not imply institutional endorsement.
+
+**Selected foundations:** [Nelson Model methodological boundaries](nelson-model-methodological-boundaries.md) · [Digital Bretton Woods](Digital-Bretton-Woods/README.md) · [Longitudinal research continuity](2026-10-22-longitudinal-cross-jurisdictional-platform-and-biotech-research.md)
+
+## Chronological research register
 
 > **21 October 2026 | Sensor classification and governance:** [Synthetic IMU Random Forest research prototype](../Research-Governance/Motion-Classification/README.md) implements six-axis feature extraction, a calibrated classifier, deterministic synthetic data, evaluation scaffolding and tests. It separates motion inference from authorized institutional intervention and explicitly limits performance claims to simulation.
 
