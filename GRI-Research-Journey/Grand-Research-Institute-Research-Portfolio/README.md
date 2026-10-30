@@ -5,7 +5,7 @@
 **Founder and research lead:** David Grand  
 **Independent research institution:** Grand Research Institute LLC, Florida  
 **Research program:** 2021 to Present | Ongoing  
-**Portfolio update:** October 16, 2026  
+**Portfolio index review:** October 30, 2026  
 **Research status:** Published work, exploratory field studies, conceptual frameworks, applied prototypes, and a continuing research journey
 
 > **Science makes technology possible. Markets enable its expansion. Institutions determine whether technological progress produces responsible, sustainable benefits for society.**
