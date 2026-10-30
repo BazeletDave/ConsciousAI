@@ -59,3 +59,7 @@ The following additional research artifacts have been committed on the **same de
 - [Research methods, hypotheses and limitations](RESEARCH-METHODS-AND-RESULTS.md)
 
 **Verification scope:** These newly added artifacts must pass their own latest-commit CI before their test results can be marked verified. External independent reproduction requires an actual reviewer outside the implementation team and remains uncompleted until documented. Do not equate GitHub-hosted CI with independent peer review.
+
+## Approved AI Paradox comparative research extension
+
+The [controlled comparative evaluation protocol](AI-PARADOX-COMPARATIVE-EVALUATION-PROTOCOL.md) defines a prospective paired synthetic comparison of delegated authority, revocation, independent observation, human review and legitimate task outcomes. This is an extension of the existing research program, not a new platform, a production deployment or completed experimental results. Frozen Training a Tiger findings and existing Tiger Legacy evidence remain unchanged.
