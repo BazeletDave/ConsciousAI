@@ -44,3 +44,27 @@ The complete text of the monograph is published in this repository. The original
 ## Applied enterprise case: Uber engineering and the AI paradox
 
 [Read the integrated Uber engineering, operational management, and institutional accountability study](./Uber-Engineering-AI-Paradox-Operational-Management-2026.md). The research combines Uber's MCP Gateway, translation cache engineering and Software Factory accounts with [GRI's Uber and Lyft field research](../Algorithmic-Management/Uber-Lyft-Research/README.md), including the Chicago paired transaction case. It distinguishes company reported engineering outcomes, GRI observations and hypotheses, and proposes measurable managerial oversight and governance tests.
+
+## Integrated institutional intelligence: academic models, machine learning and executive leadership
+
+GRI connects academic frameworks, empirical case research and a periodically refreshed public intelligence dashboard. The academic foundations include Roy C. Nelson's institutional political economy approach, with liberalism, economic nationalism and structuralism treated as competing analytical lenses; leadership and intercultural frameworks are applied only where appropriate. Thunderbird School of Global Management informs this independent research; it does not sponsor, certify or endorse the work.
+
+The [GRI Global Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard) supports monitoring and comparison of developments in AI, public institutions, political economy and governance. Scheduled collection is configured at approximately three-hour intervals, but scheduling does not establish source freshness, model learning, accuracy, independent validation or operational availability. The [research dataset protocol](../Research-Governance/ConsciousAI-Research-Systems/THUNDERBIRD_RESEARCH_DATASET_PROTOCOL.md) sets out provenance, rights, labeling, independent review, holdout evaluation and release controls for prospective machine learning applications.
+
+### Comparative hiring and executive decision authority
+
+Singapore's 2026 National Employers Federation employer survey, as reported by *The Straits Times*, offers reported evidence of AI adoption in human resources and recruitment. The United States Office of Personnel Management's August 2026 federal hiring AI guidance provides a distinct public sector policy case. Do not conflate reported adoption, mandated oversight, observed human interventions and independently validated outcomes. Likewise, recruitment of AI specialists and use of AI to screen candidates are separate practices.
+
+The central testable proposition is that executive competence increasingly requires algorithmic literacy in addition to interpersonal leadership, strategy and management. Executives need to understand model limitations, data lineage, automated decision pathways, access controls, meaningful human intervention, appeals and independent audit. This is a proposed research framework, not a validated leadership assessment or evidence of causal effects.
+
+### Research integration and evidence discipline
+
+1. **Observe:** collect dated, attributable primary institutional documents, employer reports and authorized qualitative observations.
+2. **Interpret:** identify the scholar and framework applied; record competing institutional explanations rather than forcing a single model.
+3. **Compare:** contrast Singapore hiring, U.S. federal hiring policy and Uber/Lyft platform management without treating different samples as equivalent.
+4. **Validate:** separate policy, self-report, observed behavior, synthetic test results and independently verified outcomes; retain provenance and correction pathways.
+5. **Integrate:** connect findings to the existing AI Paradox, algorithmic management, executive leadership and Tiger Assurance research, without proliferating new dashboard sections.
+
+**Research question:** When AI systems shape organizational decisions, can executives demonstrate informed authority and effective intervention rather than merely retaining nominal accountability?
+
+**Sources for verification:** [The Straits Times, Singapore employer AI recruitment survey (2026)](https://www.straitstimes.com/business/nearly-half-of-singapore-employers-use-ai-for-recruitment-and-hiring-snef-survey); [U.S. OPM, Use of Artificial Intelligence in the Federal Hiring Process (August 2026)](https://www.opm.gov/chcoc/latest-memos/use-of-artificial-intelligence-in-the-federal-hiring-process.pdf); [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework). Survey denominators and individual quantitative findings require checking against the original SNEF report before reuse as verified dataset labels.
