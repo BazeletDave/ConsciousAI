@@ -7,6 +7,16 @@ Grand Research Institute (GRI) investigates how artificial intelligence, algorit
 
 GRI draws on graduate-level study and interdisciplinary scholarship, including learning undertaken at Thunderbird School of Global Management, Arizona State University. **GRI is independent: its research is not sponsored, reviewed or endorsed by Thunderbird, ASU, government agencies or other institutions unless explicitly documented.** Academic integrity, source attribution, licensing and independent verification govern the publication of this work.
 
+## Research verification and responsible access
+
+GRI welcomes academic researchers, institutional reviewers, and members of the AI research community to request **private verification** of published research claims and methods. Requests are considered through an authorized, confidential review process, subject to research ethics, intellectual property protections, participant privacy, security requirements, and applicable permissions. A request does not guarantee access to restricted materials or an independent certification.
+
+All publicly released open source code, documentation, references, and evidence may be inspected and independently checked under their applicable licenses and access conditions. Public source claims should be assessed against their original sources and stated limitations. Confidential internal review records and proprietary intellectual property are not published as a condition of research credibility.
+
+**To request private verification:** submit a clearly scoped inquiry through an existing authorized GRI contact channel, identifying the public research record, verification purpose, affiliation if relevant, and requested scope. Do not include sensitive information in a public GitHub issue. GRI will determine the appropriate private process and any necessary confidentiality or access agreements.
+
+[Confidential review and public disclosure policy](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONFIDENTIAL-REVIEW-RECONCILIATION.md)
+
 ## Research infrastructure
 
 > **[GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard)**  
