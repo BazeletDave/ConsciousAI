@@ -28,6 +28,23 @@
 
 The portfolio is the canonical research index. Earlier and parallel directory structures remain available to preserve historical links and citation continuity.
 
+## Research navigation | Existing work, one institutional thesis
+
+**The AI Paradox:** Increasingly capable systems can operate within delegated instructions while their combined consequences exceed the understanding, oversight, or legitimate authority of the institutions deploying them. GRI investigates both deliberate misuse and unintended system behavior. This is the organizing research proposition, not a claim that all outcomes have been empirically demonstrated.
+
+| Research function | Existing authoritative material |
+| --- | --- |
+| Foundational synthesis and academic argument | [Algorithmic Management, Institutional Leadership and the AI Paradox](../Algorithmic-Management-Institutional-Leadership/Research-Monograph-Full-Text.md) |
+| Institutional governance and public purpose | [AI Governance Paradox institutional report](../Institutional-Research-Reports/AI-Governance-Paradox/REPORT.md) |
+| Political economy and methodological boundaries | [Nelson Model methodological boundaries](../Integrated-Research-Journey/nelson-model-methodological-boundaries.md) |
+| Longitudinal field observations and empirical questions | [Uber and Lyft research](../Algorithmic-Management/Uber-Lyft-Research/README.md) |
+| Applied learning and optimization research | [Training a Tiger case](../Algorithmic-Management/Training-a-Tiger-AI-Paradox/README.md) |
+| Experimental cybersecurity and institutional assurance | [Tiger Legacy Version One](../Research-Governance/Tiger-Legacy/README.md) |
+| Operational public source intelligence | [GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard) |
+| Research integrity and confidential access | [Confidential verification policy](../Research-Governance/ConsciousAI-Research-Systems/CONFIDENTIAL-REVIEW-RECONCILIATION.md) |
+
+This navigation consolidates **access**, not research substance. Original papers, experiments, code, evidence records, intellectual property boundaries and historical links remain unchanged. Company reported claims, GRI hypotheses, field observations and synthetic demonstrations retain their separate evidence classifications. No operational authorization or production safety certification is implied by this index.
+
 ## Historical leadership foundations and research chronology
 
 **1990s | Grand Advertising and human leadership practice.** Founder David Grand's practitioner history includes Grand Advertising's sales operations, team development, mentoring, standardized field training, performance feedback, and advancement practices. These experiences are historical context for the research questions, not retrospective empirical trials or formally published GRI studies.
