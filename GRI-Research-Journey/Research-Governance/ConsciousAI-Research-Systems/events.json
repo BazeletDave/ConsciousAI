@@ -26,7 +26,16 @@
       "document_locator": "Event details; About",
       "primary_evidence_kind": "official_event_listing",
       "primary_source_checked": true,
-      "independent_verification": false
+      "independent_verification": false,
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     },
     {
       "id": "IMF-WARSH-2026",
@@ -51,7 +60,16 @@
       "document_locator": "Event details; About",
       "primary_evidence_kind": "official_event_listing",
       "primary_source_checked": true,
-      "independent_verification": false
+      "independent_verification": false,
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     },
     {
       "id": "INDIA-CERTIN-AGENTS-2026",
@@ -77,7 +95,16 @@
       "document_locator": "CERT-In Advisory CIAD-2026-0049; Description; Categories of Incidents Observed",
       "primary_evidence_kind": "official_advisory_self_report",
       "primary_source_checked": true,
-      "independent_verification": false
+      "independent_verification": false,
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     },
     {
       "id": "FRANCE-REFRIGERATION-2026",
@@ -95,7 +122,16 @@
       "claim_type": "reported_claim",
       "review_status": "pending_independent_review",
       "limitations": "Secondary reporting; primary incident evidence and AI involvement are unverified.",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     },
     {
       "id": "GRI-SFL-EARNINGS-2026",
@@ -114,7 +150,16 @@
       "claim_type": "reported_claim",
       "review_status": "pending_independent_review",
       "limitations": "Preliminary research observations; no representative sampling or programmed platform target established.",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "public_attestation": {
+        "disclosure_level": "metadata_only",
+        "portfolio_review_context": "mixed_internal_decisions",
+        "record_decision": "not_yet_reconciled",
+        "approval_asserted": false,
+        "confidential_evidence_retained_by_institution": true,
+        "authorized_approval_function_exists": true,
+        "external_certification_asserted": false
+      }
     }
   ]
 }
