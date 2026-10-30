@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T00:58:50.100270+00:00",
+  "generated_at": "2026-10-30T09:59:33.170555+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "113f1de59f0444f50c66",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Keynote speech by Commissioner Dombrovskis at NATO FUSE event",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2291",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "207b04f701a41e595990",
       "source_id": "EU-COMMISSION-NEWS",
@@ -138,13 +150,73 @@
       "publication_authorized": false
     },
     {
-      "id": "fdaa12538013348998f2",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "34e160b5c0f88a6fd52f",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Factsheet - EU Demography Toolbox",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2271",
+      "title": "Corporate report: Rail Vehicle Accessibility Regulations exemption orders: annual report 2021",
+      "source_url": "https://www.gov.uk/government/publications/rail-vehicle-accessibility-regulations-exemption-orders-annual-report-2021",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "a3ee6fb3feb7cacd5a0c",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Corporate report: Rail Vehicle Accessibility Regulations exemption orders: annual report 2022",
+      "source_url": "https://www.gov.uk/government/publications/rail-vehicle-accessibility-regulations-exemption-orders-annual-report-2022",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "416ddf97528062f5b4a0",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Corporate report: Rail Vehicle Accessibility Regulations exemption orders: annual report 2023",
+      "source_url": "https://www.gov.uk/government/publications/rail-vehicle-accessibility-regulations-exemption-orders-annual-report-2023",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "80c23bef6ef981c04b4b",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Corporate report: Rail Vehicle Accessibility Regulations exemption orders: annual report 2024",
+      "source_url": "https://www.gov.uk/government/publications/rail-vehicle-accessibility-regulations-exemption-orders-annual-report-2024",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "ef0e62a7b7a1272ffa41",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Corporate report: Rail Vehicle Accessibility Regulations exemption orders: annual report 2025",
+      "source_url": "https://www.gov.uk/government/publications/rail-vehicle-accessibility-regulations-exemption-orders-annual-report-2025",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "0503d7a1ddc0454f2245",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Guidance: Transport and Works Act orders: a brief guide",
+      "source_url": "https://www.gov.uk/government/publications/transport-and-works-act-orders-a-brief-guide-2006",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -313,78 +385,6 @@
       "category": "international_regulatory",
       "title": "Guidance: Rail infrastructure costs review: terms of reference",
       "source_url": "https://www.gov.uk/government/publications/rail-infrastructure-costs-review-terms-of-reference",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "737e37983c6105f28abb",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Independent report: Cost of public electric vehicle charging review",
-      "source_url": "https://www.gov.uk/government/publications/cost-of-public-electric-vehicle-charging-review",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "642964bd69b5d8b8a80d",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Policy paper: Northern Growth Strategy: Case for change",
-      "source_url": "https://www.gov.uk/government/publications/northern-growth-strategy-case-for-change",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "5cdaa3d45fe4be9391d2",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Guidance: Using a Blue Badge in Europe",
-      "source_url": "https://www.gov.uk/government/publications/blue-badge-using-it-in-the-eu",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "56b4a5b858b595bacbd7",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Accredited official statistics: Domestic Road Freight Statistics: July 2025 to June 2026",
-      "source_url": "https://www.gov.uk/government/statistics/announcements/domestic-road-freight-statistics-july-2025-to-june-2026",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "50d11669bc255c462877",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Official Statistics: Forthcoming publications",
-      "source_url": "https://www.gov.uk/government/statistics/forthcoming-publications",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "7c9d495d7a1e5a57149d",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Guidance: Vehicle speed compliance statistics information",
-      "source_url": "https://www.gov.uk/government/publications/free-flow-vehicle-speed-statistics-guidance",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -684,6 +684,20 @@
       "publication_authorized": false
     },
     {
+      "id": "fef5d24a4a6f8b3c8634",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Designing a Generalized Ads Marketplace Platform",
+      "source_url": "https://www.uber.com/us/en/blog/designing-ads-marketplace/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "98ebcf39d3c944755fa4",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -745,7 +759,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Scaling AI in Legal: Building Uber\u2019s Redlining Agent",
+      "title": "Scaling AI in Legal: Building Uber\u0000\u2019s Redlining Agent",
       "source_url": "https://www.uber.com/us/en/blog/building-ubers-redlining-agent/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -831,20 +845,6 @@
       "category": "mobility_industry",
       "title": "From One Horizontal Scaling Controller to Many: Evolving Uber's Compute Platform",
       "source_url": "https://www.uber.com/us/en/blog/evolving-ubers-compute-platform/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "3dd38f3b116cd4e87dce",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "From Chaos to Control: Addressing Shard Distribution Challenges in M3DB with Subclusters",
-      "source_url": "https://www.uber.com/us/en/blog/from-chaos-to-control/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
