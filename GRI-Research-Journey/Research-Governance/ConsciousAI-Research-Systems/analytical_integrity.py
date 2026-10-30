@@ -35,6 +35,7 @@ def assess_record(record, family):
         attribution = None
     claim_type = record.get("claim_type")
     limitations = record.get("limitations")
+    attestation = record.get("public_attestation") or {}
     review = record.get("review_status")
     reviewer = record.get("reviewer_id")
     checks = {
@@ -46,7 +47,7 @@ def assess_record(record, family):
     }
     independent = evidence["independent_verification"]
     declared_verified = raw_status in VERIFIED_STATUSES or str(raw_status).endswith("_verified")
-    eligible = all(checks.values()) and independent and review == "approved" and declared_verified
+    eligible = all(checks.values()) and independent and review == "approved" and declared_verified and attestation.get("record_decision") == "approved" and attestation.get("approval_asserted") is True
     # An official event listing may verify the existence of a listing, not the claims within it.
     if family == "events" and raw_status == "official_event_listing_verified":
         eligible = False
@@ -66,6 +67,7 @@ def assess_record(record, family):
         "claim_type": claim_type or "unclassified",
         "limitations": limitations or "Not documented in this record.",
         "review": {"status": review or "not_documented", "reviewer_id": reviewer, "reviewed_at": record.get("reviewed_at")},
+        "public_attestation": {key: attestation.get(key) for key in ("disclosure_level", "portfolio_review_context", "record_decision", "approval_asserted", "external_certification_asserted")},
         "criteria": checks, "missing_requirements": missing,
         "classification": classification,
         "certified": False,
