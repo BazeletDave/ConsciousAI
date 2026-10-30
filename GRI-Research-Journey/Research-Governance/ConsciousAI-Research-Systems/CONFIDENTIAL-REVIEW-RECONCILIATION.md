@@ -1,23 +1,21 @@
-# GRI Nine Record Confidential Evaluation Reconciliation
+# GRI Confidential Research Verification and Public Disclosure
 
-Institutional authorization: GRI confirmed mixed internal evaluation decisions, retained confidential evidence, an authorized approval function, and public metadata only. These are portfolio-level representations and **not** nine individual approvals.
+GRI retains confidential research evidence, internal evaluation findings, reviewer identities, proprietary methods and intellectual property under institutional control. Their absence from a public repository does **not** establish that internal review has not occurred.
 
-## Record reconciliation register
+## Invitation to researchers
 
-| Record | Family | Public decision | Release |
-| --- | --- | --- | --- |
-| GRI-LYFT-CHI-002 | Case | Not yet reconciled | Metadata only |
-| UBER-MCP-2026 | Case | Not yet reconciled | Metadata only |
-| UBER-SOFTWARE-FACTORY-2026 | Case | Not yet reconciled | Metadata only |
-| GRI-AI-PARADOX-H1 | Case | Not yet reconciled | Metadata only |
-| IMF-AI-GLOBAL-2026 | Event | Not yet reconciled | Metadata only |
-| IMF-WARSH-2026 | Event | Not yet reconciled | Metadata only |
-| INDIA-CERTIN-AGENTS-2026 | Event | Not yet reconciled | Metadata only |
-| FRANCE-REFRIGERATION-2026 | Event | Not yet reconciled | Metadata only |
-| GRI-SFL-EARNINGS-2026 | Event | Not yet reconciled | Metadata only |
+Academic researchers, institutional reviewers and members of the AI research community are welcome to submit requests for **private verification** of specific published claims. Requests are considered individually under applicable confidentiality, consent, security, research ethics and intellectual property requirements. GRI may provide a controlled review, an approved attestation, a nonconfidential summary, or decline access where necessary. Requests do not imply automatic disclosure or independent certification.
 
-## Completion requirements
+Publicly available open source information, code, citations and research documentation may be independently inspected and verified under applicable licenses and stated limitations. Public records should not imply that proprietary source material is open source.
 
-For each record, authorized personnel privately reconcile the evidence, academic attribution where applicable, separation of facts and inferences, limitations, and accountable review. Record an actual decision: approved, approved with qualifications, held, or pending. Keep internal evidence, reviewer identities and proprietary methods private. Release only authorized metadata, decision scope and limitations. Do not equate an official listing, a company statement, an approved hypothesis, or GRI internal review with independent empirical replication or academic certification.
+## Public verification status
 
-**Target:** nine records approved within their accurately defined scopes. **Current documented result:** nine public decisions not yet individually reconciled. Do not mark complete until individual internal outcomes are confirmed.
+GRI has confirmed that internal evaluations are retained, decisions across the portfolio are mixed, and authorized institutional approval is in place. No record specific decisions are disclosed in this repository. **Public decision withheld under GRI confidentiality policy** is a disclosure designation, not a negative internal evaluation finding. Public claims remain bounded by the published evidence and limitations.
+
+## Scope
+
+Four case records and five event records are tracked in the analytical registry. Publication of this policy does not assert nine approvals, independent replication, faculty endorsement or external certification.
+
+## Requests
+
+Submit a scoped request through an authorized GRI contact channel, specifying the public record identifier, purpose, and requested verification scope. Do not post confidential materials or sensitive participant data in public issues. Access and any disclosure are determined by GRI.
