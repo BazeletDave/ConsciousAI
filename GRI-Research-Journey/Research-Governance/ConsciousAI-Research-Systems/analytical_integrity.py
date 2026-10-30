@@ -18,14 +18,15 @@ def _external(url):
 def assess_record(record, family):
     """Preserve source classification; never infer independent verification from a label or URL."""
     raw_status = record.get("verification_status") or "unspecified"
-    source = record.get("primary_source_url") or record.get("source")
+    source = record.get("primary_evidence_url") or record.get("primary_source_url") or record.get("source")
     evidence = {
         "source_reference": source if isinstance(source, str) and source.strip() else None,
-        "source_kind": "external_url" if _external(source) else ("repository_path" if source else "missing"),
+        "source_kind": record.get("primary_evidence_kind") or ("external_url" if _external(source) else ("repository_path" if source else "missing")),
         "publication_date": record.get("publication_date") or record.get("event_date"),
         "retrieved_at": record.get("retrieved_at"),
         "document_locator": record.get("document_locator"),
         "independent_verification": record.get("independent_verification", False) is True,
+        "primary_source_checked": record.get("primary_source_checked", False) is True,
         "verification_status_reported": raw_status,
     }
     # Model attribution must be explicit per record. Global research context is not attribution.
