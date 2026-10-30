@@ -19,11 +19,24 @@ All publicly released open source code, documentation, references, and evidence 
 
 ## Research infrastructure
 
-> **[GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard)**  
-> Public source intelligence, institutional evidence and governance research.
->
-> **[AI Paradox Lab](https://the-back-door.onrender.com)**  
-> Explore the research environment connecting AI governance, continuous leadership learning and institutional accountability.
+### Explore GRI's two principal research environments
+
+<table>
+<tr>
+<td width="50%" align="center">
+<a href="https://gri-global-intelligence.onrender.com/dashboard"><img src="assets/gri-governance-dashboard-visual.svg" alt="GRI Global Governance Intelligence Dashboard: institutional data and research infrastructure" width="100%"></a>
+<h3><a href="https://gri-global-intelligence.onrender.com/dashboard">GRI Global Governance Intelligence Dashboard</a></h3>
+<p>Public source intelligence, institutional evidence, governance research and analytical monitoring.</p>
+<p><strong><a href="https://gri-global-intelligence.onrender.com/dashboard">Explore the governance dashboard</a></strong></p>
+</td>
+<td width="50%" align="center">
+<a href="https://the-back-door.onrender.com"><img src="assets/gri-ai-paradox-lab-visual.svg" alt="AI Paradox Lab: human judgment, AI decision systems and institutional accountability" width="100%"></a>
+<h3><a href="https://the-back-door.onrender.com">AI Paradox Lab</a></h3>
+<p>Explore AI governance, continuous leadership learning, human oversight and institutional accountability.</p>
+<p><strong><a href="https://the-back-door.onrender.com">Enter the AI Paradox Lab</a></strong></p>
+</td>
+</tr>
+</table>
 
 [Service health](https://gri-global-intelligence.onrender.com/health) · [Institutional source registry](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md) · [Research intake and methodology](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/CONTINUOUS_RESEARCH_INTAKE.md)
 
