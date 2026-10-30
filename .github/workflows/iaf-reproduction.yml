@@ -1,0 +1,49 @@
+name: IAF Reproduction Gate
+on:
+  pull_request:
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/Tiger-Legacy/iaf_experiments/**'
+      - '.github/workflows/iaf-reproduction.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Execute tests and consolidate evidence
+        working-directory: GRI-Research-Journey/Research-Governance/Tiger-Legacy/iaf_experiments
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -s . -p 'test_*.py' -v
+          python3 validation_bundle.py > validation-bundle.json
+          python3 -m json.tool validation-bundle.json >/dev/null
+          python3 qlearning_governance.py > qlearning-report.json
+          python3 ood_governance.py > ood-report.json
+          sha256sum validation-bundle.json qlearning-report.json ood-report.json > SHA256SUMS.txt
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          x=json.loads(Path('validation-bundle.json').read_text())
+          assert x['tests_run']>=30, x['tests_run']
+          assert x['ledger_results']['ledger_verified']
+          assert x['qlearning_results']['governed_false_approvals']==0
+          assert x['ood_results']['governed_false_approvals']==0
+          assert x['review']['independent_reproduction']=='pending'
+          print('Reproduction checks passed:',x['tests_run'])
+          PY
+      - name: Archive research evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: iaf-reproduction
+          path: |
+            GRI-Research-Journey/Research-Governance/Tiger-Legacy/iaf_experiments/validation-bundle.json
+            GRI-Research-Journey/Research-Governance/Tiger-Legacy/iaf_experiments/qlearning-report.json
+            GRI-Research-Journey/Research-Governance/Tiger-Legacy/iaf_experiments/ood-report.json
+            GRI-Research-Journey/Research-Governance/Tiger-Legacy/iaf_experiments/SHA256SUMS.txt
+          retention-days: 90
