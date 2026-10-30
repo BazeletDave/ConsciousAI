@@ -86,3 +86,12 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 ## October 30 evidence integration
 
 [Three UberX offers](2026-10-30-three-driver-submitted-offer-screenshots-cost-analysis.md), [Comfort and XL offer analysis](2026-10-30-comfort-xl-driver-offers-institutional-assurance.md), [TPA driver narrative](tpa-driver-waiting-lot-qualitative-observation-2026-10.md), and [earnings claim verification queue](2026-10-30-earnings-benchmark-source-verification-queue.md) are distinct evidence types. Screenshots show proposed offers, not final payments. The airport account is uncorroborated firsthand testimony. The earnings claims require original source checks. All calculations must separate pickup and trip time, unpaid waiting and return travel, fuel only residuals, fully allocated operating costs, and taxes. The five dimension governance codebook and Tiger Assurance provenance principles apply; no independent audit or operational platform access is claimed.
+
+
+## 🔵 Research milestone | Governing Autonomous Mobility | October 30, 2026
+
+**Grand Research Institute | David A. Grand | Ongoing longitudinal research**
+
+This research milestone extends GRI's existing algorithmic management and autonomous mobility program through comparative institutional analysis of Uber and Lyft field observations, Uber Engineering, Waymo, piloted advanced air mobility research involving Archer and Joby, Florida transportation institutions, and reported AGH University and NASA JPL research discussions. The analytical approach draws on Roy C. Nelson's published institutional scholarship, with all original GRI interpretations identified separately. Cross sector analogies do not imply identical operating systems, regulatory conditions, or independently established causal effects.
+
+**Continuing evidence collection:** Additional field observations over the coming weeks will support reproducible analyses of trip counts, service tiers, online time, miles driven, gross earnings, fuel estimates, and other operating costs when documented. Evidence provenance, uncertainty, consent, and limitations remain explicit. Subsequent editions will extend case comparisons, primary source citations, quantitative figures, and institutional assurance propositions within the existing research architecture.
