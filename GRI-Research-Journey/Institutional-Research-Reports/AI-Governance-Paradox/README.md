@@ -44,3 +44,5 @@ The original 22-page institutional report and its exhibits remain unchanged. Dav
 * [Sustainability, Resilience and Intertemporal Justice (29 October 2026)](SUSTAINABILITY-RESILIENCE-INTERTEMPORAL-JUSTICE-EXTENSION.md)
 
 Both continuations use evidence-status distinctions and comparative institutional analysis; the sustainability note additionally outlines empirical measures and falsifiable propositions. Neither asserts that AI caused the reported Binance incident or that historical FTX valuation counterfactuals were realized assets.
+
+* [Empirical Validation Protocol: Custody, Intertemporal Justice and Resilience (30 October 2026)](EMPIRICAL-VALIDATION-PROTOCOL-2026-10-30.md) — evidence register, operational measures, source hierarchy and independent validation gates.
