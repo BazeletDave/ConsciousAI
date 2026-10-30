@@ -19,7 +19,7 @@ All publicly released open source code, documentation, references, and evidence 
 
 ## Research infrastructure
 
-[![GRI Global Governance Intelligence Dashboard](assets/gri-governance-dashboard-visual.svg)](https://gri-global-intelligence.onrender.com/dashboard)
+[![Grand Research Institute institutional identity, linking to the Governance Intelligence Dashboard](assets/gri-institutional-identity.svg)](https://gri-global-intelligence.onrender.com/dashboard)
 
 **[GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard)**
 
