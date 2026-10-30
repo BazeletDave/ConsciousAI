@@ -31,6 +31,8 @@ All publicly released open source code, documentation, references, and evidence 
 
 The governance dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
 
+**Research portfolio navigation:** [Explore the consolidated GRI research index](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md). This index connects the existing AI Paradox monograph, institutional governance, field research, Training a Tiger and Tiger Legacy without moving or rewriting the underlying studies.
+
 ## Research program | Core themes
 
 | Research area | Selected work |
