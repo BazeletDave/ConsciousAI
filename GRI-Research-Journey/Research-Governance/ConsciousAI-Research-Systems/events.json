@@ -15,7 +15,11 @@
       "research_links": [
         "GRI-AI-PARADOX-H1",
         "GRI-LYFT-CHI-002"
-      ]
+      ],
+      "claim_type": "reported_claim",
+      "review_status": "pending_independent_review",
+      "limitations": "Event listing does not independently verify session statements, policy outcomes or effects.",
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
     },
     {
       "id": "IMF-WARSH-2026",
@@ -29,7 +33,11 @@
       "primary_source_url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/16/managing-director-fireside-chat-with-federal-reserve-chairman-kevin-warsh",
       "research_links": [
         "GRI-AI-PARADOX-H1"
-      ]
+      ],
+      "claim_type": "reported_claim",
+      "review_status": "pending_independent_review",
+      "limitations": "Listing does not substantiate particular speaker statements or AI policy positions.",
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
     },
     {
       "id": "INDIA-CERTIN-AGENTS-2026",
@@ -44,7 +52,11 @@
       "research_links": [
         "UBER-MCP-2026",
         "GRI-AI-PARADOX-H1"
-      ]
+      ],
+      "claim_type": "reported_claim",
+      "review_status": "pending_independent_review",
+      "limitations": "Advisory claims require passage-level verification and independent incident corroboration.",
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
     },
     {
       "id": "FRANCE-REFRIGERATION-2026",
@@ -58,7 +70,11 @@
       "primary_source_url": "https://www.lemonde.fr/en/economy/article/2026/10/13/a-disastrous-day-for-french-supermarkets-after-massive-cyberattack-targets-refrigeration-systems_6758535_19.html",
       "research_links": [
         "GRI-AI-PARADOX-H1"
-      ]
+      ],
+      "claim_type": "reported_claim",
+      "review_status": "pending_independent_review",
+      "limitations": "Secondary reporting; primary incident evidence and AI involvement are unverified.",
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
     },
     {
       "id": "GRI-SFL-EARNINGS-2026",
@@ -73,7 +89,11 @@
       "research_links": [
         "GRI-LYFT-CHI-002",
         "GRI-AI-PARADOX-H1"
-      ]
+      ],
+      "claim_type": "reported_claim",
+      "review_status": "pending_independent_review",
+      "limitations": "Preliminary research observations; no representative sampling or programmed platform target established.",
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
     }
   ]
 }
