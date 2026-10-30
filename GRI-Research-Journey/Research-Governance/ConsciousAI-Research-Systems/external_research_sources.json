@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T12:46:08.114127+00:00",
+  "generated_at": "2026-10-30T22:14:30.756832+00:00",
   "sources": [
     {
       "repository": "BazeletDave/ZERO",
@@ -8,8 +8,8 @@
       "documents": 14,
       "failed": 0,
       "source_tree": "e53d06d77aa3a6c7e6f03ac6e3aa86800614169a",
-      "last_attempt_at": "2026-10-30T12:46:08.114127+00:00",
-      "last_success_at": "2026-10-30T12:46:08.114127+00:00"
+      "last_attempt_at": "2026-10-30T22:14:30.756832+00:00",
+      "last_success_at": "2026-10-30T22:14:30.756832+00:00"
     },
     {
       "repository": "BazeletDave/from-code-to-consciousness",
@@ -17,8 +17,8 @@
       "documents": 1,
       "failed": 0,
       "source_tree": "05cfecef519456007d3260d7d06c90fe3c51e866",
-      "last_attempt_at": "2026-10-30T12:46:08.114127+00:00",
-      "last_success_at": "2026-10-30T12:46:08.114127+00:00"
+      "last_attempt_at": "2026-10-30T22:14:30.756832+00:00",
+      "last_success_at": "2026-10-30T22:14:30.756832+00:00"
     },
     {
       "repository": "BazeletDave/GRI-Institutional-AI-Governance",
@@ -26,8 +26,8 @@
       "documents": 9,
       "failed": 0,
       "source_tree": "49d31008d648859213c7ef567ddfd28b80934311",
-      "last_attempt_at": "2026-10-30T12:46:08.114127+00:00",
-      "last_success_at": "2026-10-30T12:46:08.114127+00:00"
+      "last_attempt_at": "2026-10-30T22:14:30.756832+00:00",
+      "last_success_at": "2026-10-30T22:14:30.756832+00:00"
     },
     {
       "repository": "BazeletDave/Treasury-TTB-Label-Verification",
@@ -35,8 +35,8 @@
       "documents": 3,
       "failed": 0,
       "source_tree": "cb2dca12474f5b6d5782581824fbce18a8ff7153",
-      "last_attempt_at": "2026-10-30T12:46:08.114127+00:00",
-      "last_success_at": "2026-10-30T12:46:08.114127+00:00"
+      "last_attempt_at": "2026-10-30T22:14:30.756832+00:00",
+      "last_success_at": "2026-10-30T22:14:30.756832+00:00"
     }
   ],
   "documents": [
