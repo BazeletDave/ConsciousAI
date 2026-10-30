@@ -24,7 +24,14 @@
       "limitations": "Does not establish Lyft pricing architecture.",
       "claim_type": "reported_claim",
       "review_status": "pending_independent_review",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "primary_evidence_url": "https://www.uber.com/us/en/blog/designing-mcp-gateway/",
+      "publication_date": "2026-10-01",
+      "retrieved_at": "2026-10-30",
+      "document_locator": "Introduction; The Gateway; Security",
+      "primary_evidence_kind": "corporate_primary_self_report",
+      "primary_source_checked": true,
+      "independent_verification": false
     },
     {
       "id": "UBER-SOFTWARE-FACTORY-2026",
@@ -36,7 +43,14 @@
       "limitations": "Agent attribution does not imply autonomous end-to-end completion.",
       "claim_type": "reported_claim",
       "review_status": "pending_independent_review",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "primary_evidence_url": "https://www.uber.com/us/en/blog/efficient-software-factory/",
+      "publication_date": "2026-08-27",
+      "retrieved_at": "2026-10-30",
+      "document_locator": "Introduction",
+      "primary_evidence_kind": "corporate_primary_self_report",
+      "primary_source_checked": true,
+      "independent_verification": false
     },
     {
       "id": "GRI-AI-PARADOX-H1",
