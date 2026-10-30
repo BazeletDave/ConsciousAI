@@ -35,3 +35,12 @@ ACC: Preserve offer evidence and pursue receipts, adjustments, and available dis
 This is a quantitative observational input for [the five dimension Uber Lyft study](five-dimension-existing-evidence-synthesis-2026-10-30.md), [the cross modal mobility comparison](cross-modal-public-evidence-triangulation-2026-10-30.md), [GRI autonomous mobility research](../../../autonomous-mobility-research/README.md) and [Tiger Legacy assurance framework](../../Research-Governance/Tiger-Legacy/INSTITUTIONAL-ASSURANCE-FRAMEWORK-v1.md). The last two are governance comparisons, not claims of integrated operational systems. Roy C. Nelson's institutional model supplies the interpretive framework, with provenance, authorization, economic consequences, contestability and independent validation as assurance questions.
 
 Status: screenshot transcription and scenario analysis, not independent platform audit or causal finding. The screenshot contributors are not assumed to be independent or consenting to prospective research.
+
+
+## Receipt reconciliation and vehicle cost verification
+
+The offer screenshots do not establish completed trips or final earnings. To calculate realized income, obtain authorized receipts, actual pickup and passenger miles, waiting and repositioning time, return travel, vehicle model, actual fuel consumption, insurance, maintenance, depreciation, financing and tax assumptions. Keep actual observations separate from hypothetical scenarios.
+
+For C01, a hypothetical 119.5 mile empty return raises combined distance to 241.4 miles. For X01, a hypothetical 55.3 mile empty return raises combined distance to 116.1 miles. Neither return is documented. At 25 MPG and an illustrative $3.9948 per gallon, the resulting fuel estimates are $38.57 and $18.55, respectively. These are not net income calculations, and no return time is assumed.
+
+For independent verification, retain an authorized original evidence reference, anonymized record ID, source date if known, transcription check, calculation version, and reviewer signoff. Tiger Assurance supplies a conceptual evidence integrity and contestability model, not proof of integration with Uber systems. Avoid adding fuel, insurance, or depreciation again when using the IRS mileage benchmark as a separate cost proxy.
