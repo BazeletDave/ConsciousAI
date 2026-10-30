@@ -19,7 +19,14 @@
       "claim_type": "reported_claim",
       "review_status": "pending_independent_review",
       "limitations": "Event listing does not independently verify session statements, policy outcomes or effects.",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "primary_evidence_url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/16/ai-global-economy-212373",
+      "publication_date": "2026-10-16",
+      "retrieved_at": "2026-10-30",
+      "document_locator": "Event details; About",
+      "primary_evidence_kind": "official_event_listing",
+      "primary_source_checked": true,
+      "independent_verification": false
     },
     {
       "id": "IMF-WARSH-2026",
@@ -37,7 +44,14 @@
       "claim_type": "reported_claim",
       "review_status": "pending_independent_review",
       "limitations": "Listing does not substantiate particular speaker statements or AI policy positions.",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "primary_evidence_url": "https://www.imf.org/en/meetings/2026/annual/schedule/2026/10/16/managing-director-fireside-chat-with-federal-reserve-chairman-kevin-warsh",
+      "publication_date": "2026-10-16",
+      "retrieved_at": "2026-10-30",
+      "document_locator": "Event details; About",
+      "primary_evidence_kind": "official_event_listing",
+      "primary_source_checked": true,
+      "independent_verification": false
     },
     {
       "id": "INDIA-CERTIN-AGENTS-2026",
@@ -56,7 +70,14 @@
       "claim_type": "reported_claim",
       "review_status": "pending_independent_review",
       "limitations": "Advisory claims require passage-level verification and independent incident corroboration.",
-      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md"
+      "evidence_crosswalk": "EVIDENCE-GAP-CLOSURE-REGISTER.md",
+      "primary_evidence_url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02",
+      "publication_date": "2026-10-15",
+      "retrieved_at": "2026-10-30",
+      "document_locator": "CERT-In Advisory CIAD-2026-0049; Description; Categories of Incidents Observed",
+      "primary_evidence_kind": "official_advisory_self_report",
+      "primary_source_checked": true,
+      "independent_verification": false
     },
     {
       "id": "FRANCE-REFRIGERATION-2026",
