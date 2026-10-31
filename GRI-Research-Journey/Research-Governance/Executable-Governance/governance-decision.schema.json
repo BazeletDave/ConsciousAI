@@ -127,8 +127,10 @@
           "enum": [
             "NO_ACTION",
             "REVIEW_EVIDENCE",
-            "NONPUNITIVE_WARNING_PERMITTED"
-          ]
+            "NONPUNITIVE_WARNING_PERMITTED",
+            "WARNING_PERMITTED"
+          ],
+          "description": "WARNING_PERMITTED is the existing policy engine's synthetic nonpunitive outcome. NONPUNITIVE_WARNING_PERMITTED is a contract-level synonym; consumers must normalize explicitly. Neither triggers an actual intervention."
         },
         "reason": {
           "type": "string",
