@@ -28,6 +28,17 @@ Do not publish confidential assignments, student contributions, instructor feedb
 
 Describe Training a Tiger, Tiger Assurance, Kiongozi and Tiger Legacy at an approved conceptual level. Preserve confidential engineering, strategic linkages, competitive differentiation and client-specific implementation. Avoid claims of market-leading or unmatched cybersecurity capability without independently substantiated comparative evidence.
 
+## Transparency, original scholarship and responsible publication
+GRI favors the greatest practicable transparency consistent with lawful use, scholarly integrity, individual privacy, security and legitimate institutional confidentiality. Approved public research should identify its purpose, appropriately disclosable methods, source citations, evidence boundaries, limitations and independent institutional status. Confidentiality is not a substitute for substantiating public claims.
+
+Licensed academic cases, including purchased Harvard Business Review materials, may inform original independent analysis, coursework, research questions, frameworks and subsequent GRI research, subject to applicable license terms, contracts and law. Independently authored conclusions and original expression are distinguishable from the source publisher's protected expression; ownership of new work remains subject to applicable educational, employment, collaboration and other agreements. Do not assume a grade or purchase transfers publication rights to embedded third-party material.
+
+Publicly accessible research can be cited accurately and analyzed independently. Public access, absence of a paywall or lack of an access code does not automatically mean open-source licensing or permission to reproduce figures, text, tables or datasets. Check the specific license and rights before republication, adaptation or commercial reuse.
+
+Before publishing original assignments, capstones or derivative research programs, verify authorship, collaborators' rights, course conditions, confidential information, embedded third-party content and citation accuracy. Where appropriate, release an independently written GRI research synthesis with source references rather than reproducing restricted case materials.
+
+**Transparency standard:** Publish what GRI can substantiate and is authorized to share; protect what it is obligated or entitled to keep confidential. These are complementary obligations, not competing institutional missions.
+
 ## Mandatory controls
 1. **Information classification:** Label materials public-approved, internal, confidential or restricted. Restrict confidential and restricted data to approved recipients and purposes; minimize collection and retention.
 2. **Intellectual property:** Protect source code, architecture, models, datasets, inventions, research methods, unpublished hypotheses, trade secrets, licensing strategies and provenance. Record ownership and third-party license obligations; avoid posting confidential material in public repositories, CI logs, issues or artifacts.
