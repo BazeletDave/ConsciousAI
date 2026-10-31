@@ -123,3 +123,7 @@ An institution must distinguish **teaching with AI**, **assessing AI literacy**,
 This case extends GRI's algorithmic management research from Uber driving telemetry to educational authority: **observation → inference → institutional policy → review → accountability → adaptation**. The Nelson Model supports analysis of institutional rules and legitimacy. GLOBE offers comparative questions about leadership expectations and authority without stereotyping students. NIST AI RMF supports structured risk management. The prototype is not a university product or an endorsement by any academic institution.
 
 **Status:** Code committed. Execution of the tests, institutional policy approval, actual deployment, real-world effectiveness and compliance review are **not** claimed.
+
+## Kiongozi | Academic learning to institutional research
+
+The [Kiongozi Framework](../../../README.md#the-kiongozi-framework) provides a research synthesis pathway from properly attributed academic scholarship to original, testable GRI questions about authority, accountability, access and cybersecurity resilience. The [Integrated Research Journey](../../Integrated-Research-Journey/README.md#kiongozi--institutional-learning-and-assurance) retains evidence maturity distinctions; [Training a Tiger](../../Algorithmic-Management/Training-a-Tiger-AI-Paradox/README.md) provides a separate synthetic assurance context. Course and instructor rules govern any academic use. No student monitoring, automatic policy modification, external code import or institutional endorsement is implied.
