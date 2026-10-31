@@ -36,3 +36,7 @@ NIST AI RMF functions: **Govern** (policy version, authorization), **Map** (driv
 ## Evidence and NSA advisory
 
 See [source and evidence register](EVIDENCE_REGISTER.md). The earlier NSA/PHP advisory discussion is treated as an **unverified advisory reference** pending original source identifiers. No service has been declared secure based on this package.
+
+## Published governance decision contract | 31 October 2026
+
+The existing [synthetic event schema](event.schema.json) is complemented by the [versioned governance decision JSON Schema](governance-decision.schema.json) and [provenance and decision record specification](GOVERNANCE-DECISION-CONTRACT.md). These are published interface contracts only; executable validation, authenticated signatures, immutable storage and independent replay remain separate engineering and verification milestones.
