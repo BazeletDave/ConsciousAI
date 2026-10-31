@@ -53,3 +53,12 @@ Select 30 dated Florida records across original licensing, farm or property owne
 Use only public records or information expressly authorized for the research. Do not disclose confidential former employer details, private contact information, personal addresses or nonpublic security methods. Use public corporate parcel references only when materially relevant. Avoid claims about motives, impropriety or misconduct without adjudicated or independently corroborated evidence. Preserve the distinction between an investigative lead, a source supported claim, a legal finding and an independently assured conclusion.
 
 **Related:** [Dated relationship graph](BZLT-Dated-Relationship-Graph.md), [evidence edge register](BZLT-Dated-Relationships.csv), [financial and governance exhibits](BZLT-Americas-FLA-Institutional-Exhibits.md), [institutional assurance framework](../Research-Governance/Tiger-Legacy/INSTITUTIONAL-ASSURANCE-FRAMEWORK-v1.md).
+
+
+## Implemented reusable evidence metadata capability
+
+The [offline validator](bzlt_assurance.py) now checks the [dated edge register](BZLT-Dated-Relationships.csv) for required fields, unique IDs, ISO dates, typed relations, HTTPS source URLs and self relations. The [regression tests](test_bzlt_assurance.py) include valid baseline and adverse cases. Both are Python standard library only; neither accesses the network or processes private records.
+
+**Run locally:** `python bzlt_assurance.py --output bzlt_assurance_report.json` then `python -m unittest test_bzlt_assurance.py` from this collection directory. Do not commit generated reports containing sensitive information. The report is metadata validation, **not source document verification, ML model validation, independent human review, regulatory certification or a completed deployment**. As of this commit the scripts have been added, but a clean environment test run has not been independently verified.
+
+**Integration boundary:** Keep the source linked graph as research data, deterministic validation as the evidence control, and the existing GRI governance dashboard as a future read only display after review. Do not activate scraping, new agents, external services or model training without separate authorization and privacy testing.
