@@ -58,14 +58,14 @@ The diagram represents **jurisdictional responsibilities and assurance questions
 | Period | Event | Primary source to verify | Current verification status |
 | --- | --- | --- | --- |
 | 2014 | Limited low THC dispensing organization framework | Florida Laws 2014 chapter 157, historical statute | Statutory framework identified; exact enacted text and eligibility provisions require dated reconciliation |
-| 2015 | Original dispensing organization awards | Florida DOH award notices and license orders | Original licensee names and subsequent transfers **not yet verified at entity level** |
+| 2015 | Five original dispensing organization approvals dated November 23: Hackney Nursery Company (Trulieve), Chestnut Hill Tree Farm (CHT Medical), Knox Nursery (Knox Medical), Alpha Foliage (Surterra), Costa Nursery Farms (Modern Health Concepts) | [Florida DOH 2015 application and award register](https://knowthefactsmmj.com/mmtc/application-process/); [Florida legislative implementation timeline](https://www.leg.state.fl.us/data/committees/Senate/meeting_packets/JAPC20171207.pdf) | **Original license entities and award date verified in government records**; subsequent transfers and present ownership not yet reconciled |
 | 2016 | Amendment 2 expands constitutional medical access | Florida certified 2016 election results, amendment text | Constitutional event established; certified vote figures not entered |
 | 2017 | MMTC implementing framework and vertical integration | Florida Laws 2017 special session chapter and historical §381.986 | Legal framework established; historical text to reconcile |
 | 2021 | *Florigrown* litigation | Florida Supreme Court published opinion | Judicial event identified; operative holdings require citation to opinion text |
 | 2024 | Adult use Amendment 3 fails | Florida Division of Elections | Certified vote totals verified |
 | 2026 | Federal registration announcement | DOJ original release and DEA registration records | Individual Florida registrants and financial effects **unverified** |
 
-**Historical limitation:** A legislative event is not an individual corporate license record. Do not infer the original 2015 license holder from the contemporary brand or parent company.
+**Historical limitation:** The 2015 legal entities and award date are verified from Florida government records. Later changes of ownership and any link to 2026 federal registrants require separate dated documents; do not infer them from the contemporary brand.
 
 ## Reproduction instructions
 
