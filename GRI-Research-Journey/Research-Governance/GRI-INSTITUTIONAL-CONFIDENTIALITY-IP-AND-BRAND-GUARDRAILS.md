@@ -19,6 +19,15 @@ Before migrating historical work into public repositories, apply an explicit rev
 
 **Institutional principle:** GRI can increase transparency about what its research establishes while retaining discretion over how the work was developed, who contributed confidentially, and which strategic directions remain private.
 
+## Academic independence, attribution and protected research synthesis
+GRI is an independently directed research institution. Its founder's personal graduate study, academic performance, graded assignments and scholarly engagement may inform GRI research, but do not establish university, faculty, student, colleague, RAND, Brookings or other think tank sponsorship, participation, endorsement or validation of GRI research or products. Academic grades assess coursework under course criteria; they are not independent security certifications or endorsements of GRI platforms. Personal academic records and private educational communications are confidential unless the individual expressly approves disclosure.
+
+Public scholarship that informs a published claim must be attributed accurately with appropriate citations and respect for copyrights and licenses. GRI need not publicly reveal its internal synthesis of scholarly frameworks, unpublished research mappings, proprietary implementation methods, research dependencies, commercial objectives or confidential correspondence merely to establish rigor. When a claim cannot be substantiated publicly without disclosing protected information, narrow the claim, publish an authorized high-level description or arrange appropriately controlled documentary verification.
+
+Do not publish confidential assignments, student contributions, instructor feedback, private research discussions or third-party unpublished materials without necessary rights and permissions. Do not imply affiliation or endorsement based solely on reading an author's publications, attending classes, receiving academic grades or maintaining professional connections.
+
+Describe Training a Tiger, Tiger Assurance, Kiongozi and Tiger Legacy at an approved conceptual level. Preserve confidential engineering, strategic linkages, competitive differentiation and client-specific implementation. Avoid claims of market-leading or unmatched cybersecurity capability without independently substantiated comparative evidence.
+
 ## Mandatory controls
 1. **Information classification:** Label materials public-approved, internal, confidential or restricted. Restrict confidential and restricted data to approved recipients and purposes; minimize collection and retention.
 2. **Intellectual property:** Protect source code, architecture, models, datasets, inventions, research methods, unpublished hypotheses, trade secrets, licensing strategies and provenance. Record ownership and third-party license obligations; avoid posting confidential material in public repositories, CI logs, issues or artifacts.
