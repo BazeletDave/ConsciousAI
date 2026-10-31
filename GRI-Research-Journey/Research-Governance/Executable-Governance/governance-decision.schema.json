@@ -1,0 +1,158 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GRI governance decision record Version One",
+  "description": "Public synthetic-only reference contract; no production integration or private details.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "decision_id",
+    "event_id",
+    "recorded_at",
+    "source",
+    "provenance",
+    "policy",
+    "decision",
+    "evidence_classification"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "decision_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "event_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "recorded_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_type",
+        "system_id"
+      ],
+      "properties": {
+        "source_type": {
+          "const": "synthetic"
+        },
+        "system_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source_reference": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "generator",
+        "artifact_sha256",
+        "canonicalization",
+        "verification_status"
+      ],
+      "properties": {
+        "generator": {
+          "type": "string",
+          "minLength": 1
+        },
+        "artifact_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "canonicalization": {
+          "enum": [
+            "RFC8785",
+            "none"
+          ]
+        },
+        "verification_status": {
+          "enum": [
+            "unverified",
+            "locally_verified",
+            "independently_reproduced"
+          ]
+        },
+        "parent_record_sha256": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "policy_id",
+        "policy_version",
+        "authorization_basis"
+      ],
+      "properties": {
+        "policy_id": {
+          "type": "string"
+        },
+        "policy_version": {
+          "type": "string"
+        },
+        "authorization_basis": {
+          "const": "synthetic_research_only"
+        }
+      }
+    },
+    "decision": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "outcome",
+        "reason",
+        "human_review_required"
+      ],
+      "properties": {
+        "outcome": {
+          "enum": [
+            "NO_ACTION",
+            "REVIEW_EVIDENCE",
+            "NONPUNITIVE_WARNING_PERMITTED"
+          ]
+        },
+        "reason": {
+          "type": "string",
+          "minLength": 1
+        },
+        "human_review_required": {
+          "type": "boolean"
+        }
+      }
+    },
+    "evidence_classification": {
+      "enum": [
+        "simulation",
+        "primary_record",
+        "peer_reviewed",
+        "reported_claim",
+        "research_hypothesis"
+      ]
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
