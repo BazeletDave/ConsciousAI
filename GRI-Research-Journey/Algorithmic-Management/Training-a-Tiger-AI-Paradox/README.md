@@ -47,3 +47,7 @@ The 28 October 2026 implementation edition connects existing GRI systems, deposi
 ## Independent assurance engineering extension
 
 The [new assurance experiment](Implementation/Assurance-Experiment/README.md) implements independent observation, intervention, and counterfactual recovery candidates, alongside a fixed exposure curriculum ablation. Its retained negative controls and recovery failures distinguish component checks from task level success. The dashboard exposes a read only summary; no model is authorized for operational control.
+
+## Kiongozi | Institutional learning connection
+
+The [Kiongozi Framework](../../../README.md#the-kiongozi-framework) interprets the Training a Tiger and Tiger Assurance research through institutional capacity, human authority, cybersecurity resilience and independently reviewable evidence. Its [Integrated Research Journey connection](../../Integrated-Research-Journey/README.md#kiongozi--institutional-learning-and-assurance) links attributed academic scholarship to proposed synthetic tests and subsequent human-reviewed findings. This is conceptual research integration only: no new operational autonomy, external cybersecurity code, confidential system details or claims of empirical validation are introduced.
