@@ -88,3 +88,43 @@ The [offline validator](bzlt_assurance.py) now checks the [dated edge register](
 **Disclosure:** GRI founder David Grand reports no current interests or involvement in the MMTC industry or entities studied, and declares no conflict of interest regarding them. This declaration is self reported; historical professional experience remains analytically separate. GRI does not represent any prior employer or researched business.
 
 **Dashboard design boundary:** Prioritize governance indicators: authority traceability, source coverage, unresolved contradictions, review/appeal paths, disclosure completeness and independent review status. Sales, licenses and transactions should appear only as supporting context. Keep read only release on hold until source exceptions and CI acceptance are resolved.
+
+
+## Continuous governance research and optional dashboard engineering roadmap
+
+**Directive:** Continue this work as an extension of existing GRI institutional governance, AI Paradox and Tiger Assurance research. Do not create a new research program, dashboard, deployment or client integration.
+
+### Research expansion questions
+
+1. **Authority mapping:** Which statutes, administrative rules, licensing orders, appeals and judicial decisions allocate decision rights, and how do those rights change over time?
+2. **Institutional adaptation:** Which procedural reforms follow contested awards, ownership transfers, financing changes or shifts in federal and state authority? Distinguish chronology from causation.
+3. **Transparency:** Are contemporaneous records, evaluation criteria, disclosure requirements, public hearings and appeal outcomes accessible and sufficient to reproduce the decision path?
+4. **Accountability and remedy:** Who can challenge a decision, before which institution, under what standard, and with what available remedy?
+5. **Assurance:** Can independent reviewers reconstruct the same institutional conclusion from dated source documents without relying on GRI's interpretations?
+
+### Proposed governance indicator specification
+
+| Indicator | Measurement unit | Required evidence | Failure mode |
+| --- | --- | --- | --- |
+| Authority traceability | Reviewed decisions with identified legal authority / all reviewed decisions | Dated statute, rule, order and named decision authority | Mistaking company action for regulator authority |
+| Decision provenance coverage | Reviewed claims with source locator and document date / reviewed claims | Source custodian, passage, event date, archive checksum where permitted | Source URL without substantive verification |
+| Contestability coverage | Decisions with identified challenge or appeal route / eligible reviewed decisions | Applicable procedural rule and appeal records | Assuming no appeal because none was found |
+| Disclosure completeness | Required public disclosures located / required disclosures identified | Statutory disclosure obligations and filing records | Treating unavailable documents as proof of noncompliance |
+| Contradiction resolution | Material contradictions adjudicated / material contradictions identified | Conflicting sources and signed disposition | Hiding conflicting records behind a confidence score |
+| Independent review coverage | Edges independently signed / edges submitted for review | Reviewer decision and conflict declaration | Founder acceptance misrepresented as external review |
+
+**Denominator control:** Publish a metric only when its population, time period, inclusion criteria, data coverage and source completeness are documented. A missing source yields `unresolved`, not a zero or a fabricated confidence value.
+
+### Research operating cadence
+
+Add dated source backed governance questions to the existing evidence register, group by institution and decision rather than only company, document competing explanations, and periodically review unresolved claims. Preserve earlier versions and corrections. New corporate and agricultural evidence must be tied to a governance hypothesis before inclusion.
+
+### Optional engineering release sequence
+
+**Stage A: Research only.** Maintain governance questions, source records, uncertainty and reviewer dispositions in the existing repository.
+
+**Stage B: Reproducible assurance.** Confirm GitHub CI and retained artifacts against exact commits, resolve or quarantine blocked source edges, independently review material documentary claims, and test indicators on a bounded cohort.
+
+**Stage C: Dashboard proposal.** Prepare a read only aggregate governance panel inside the existing GRI dashboard with institutional authority, source coverage, contestability, unresolved exceptions and review status. No company ranking, misconduct inference, proprietary disclosure or unreviewed AI conclusion.
+
+**Stage D: Production release only after separate approval.** Perform privacy/security review, regression testing, access control and documented release authorization. This roadmap does not itself authorize deployment.
