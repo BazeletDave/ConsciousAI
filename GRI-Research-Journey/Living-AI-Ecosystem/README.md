@@ -20,6 +20,9 @@ GRI does not propose a final institutional model. The work applies established s
 
 [GRI BZLT Americas FLA Institutional](02-Institutional-Frameworks-and-Adaptation.md#gri-bzlt-americas-fla-institutional--florida-medical-governance-and-federal-recognition-31-october-2026) is incorporated into the existing institutional frameworks research. It examines Florida medical cannabis constitutional and MMTC history, federal registration, institutional compliance and financial assurance questions, with a cross reference to [existing driver impairment research](../../DriverREADME.md). This is a bounded research extension, not a new project or an assurance certification. Company specific DEA registrations and financial consequences remain unverified.
 
+
+**Empirical exhibits:** [BZLT Americas FLA Institutional financial and governance exhibits](BZLT-Americas-FLA-Institutional-Exhibits.md), [sourced data](BZLT-Americas-FLA-Institutional-Evidence.csv), and [reproduction script](bzlt_exhibits.py). The corporate revenue data are consolidated issuer figures; historical 2015 license entity lineage and Florida DEA recipient identities remain open evidence gaps.
+
 ## Related published GRI research
 - [Consolidated GRI research portfolio](../Grand-Research-Institute-Research-Portfolio/README.md)
 - [Algorithmic management and institutional leadership monograph](../Algorithmic-Management-Institutional-Leadership/README.md)
