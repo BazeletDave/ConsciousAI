@@ -41,3 +41,14 @@ A reviewer may select **verified**, **rejected**, **qualified** or **unresolved*
 **Priority exceptions:** (1) The Florida DOH 2015 announced panel and later reported scoring panel differ, requiring original DOAH order and contemporaneous scoring sheets; (2) Cresco subsidiary schedules establish consolidated relationships, not all immediate legal parents; (3) SNDL July and September indirect exposure percentages must be kept at their separate as of dates; (4) issuer location counts do not independently verify regulatory licenses; (5) lender spelling and individual creditor allocation require original agreement reconciliation.
 
 **Release status:** HOLD. An AI source inspection is not a qualified human attestation. A reviewer must supply actual name or controlled reviewer identifier, role, review date, exact passage or page, source snapshot checksum where permissible, conflicts disclosure and signed decision for each edge. Until then do not label the research independently certified or integrate an approved summary into the governance dashboard.
+
+
+## Founder review and authorization record: 31 October 2026
+
+**Recorded from direct user instruction:** The user, identifying the reviewer as **David Grant**, states that they personally reviewed the material, accept the ledger, confirm that documentary source inspection was completed, and authorize GRI to proceed. This is a **founder-reported human review and management authorization**, not a cryptographically authenticated signature or independent external attestation. Reviewer identity spelling must be reconciled in the controlled reviewer register before a formal signed certification is issued.
+
+**Review disposition:** Founder acceptance recorded for the inspected ledger, subject to the explicitly preserved source exceptions and release gates below. This authorization does not resolve inaccessible source E01–E03 or E13, establish document SHA256 snapshots, attest to absence of material conflicts, or prove CI success.
+
+**Conflict disclosure:** Not supplied in the authorization. A formal statement of no material conflict or a specific disclosure is required before this review is represented as independently conflict assessed. Given the founder's disclosed historical professional involvement, the review must be labeled **founder review**, not independent review.
+
+**Operational authority:** Proceed with controlled research, source remediation, exact commit CI verification, and preparation of a read only dashboard summary. Do not publish the unresolved edges as independently verified, claim external assurance, or activate the dashboard release until the acceptance gates are satisfied. No previous employer affiliation is implied.
