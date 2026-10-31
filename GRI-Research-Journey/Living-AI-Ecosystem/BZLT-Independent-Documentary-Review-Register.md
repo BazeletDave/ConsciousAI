@@ -45,7 +45,7 @@ A reviewer may select **verified**, **rejected**, **qualified** or **unresolved*
 
 ## Founder review and authorization record: 31 October 2026
 
-**Recorded from direct user instruction:** The user, identifying the reviewer as **David Grant**, states that they personally reviewed the material, accept the ledger, confirm that documentary source inspection was completed, and authorize GRI to proceed. This is a **founder-reported human review and management authorization**, not a cryptographically authenticated signature or independent external attestation. Reviewer identity spelling must be reconciled in the controlled reviewer register before a formal signed certification is issued.
+**Recorded from direct user instruction:** The user, identifying the reviewer as **David Grand**, states that they personally reviewed the material, accept the ledger, confirm that documentary source inspection was completed, and authorize GRI to proceed. This is a **founder-reported human review and management authorization**, not a cryptographically authenticated signature or independent external attestation. Reviewer name spelling corrected to David Grand; formal signed certification and conflict disclosure remain separate requirements.
 
 **Review disposition:** Founder acceptance recorded for the inspected ledger, subject to the explicitly preserved source exceptions and release gates below. This authorization does not resolve inaccessible source E01–E03 or E13, establish document SHA256 snapshots, attest to absence of material conflicts, or prove CI success.
 
