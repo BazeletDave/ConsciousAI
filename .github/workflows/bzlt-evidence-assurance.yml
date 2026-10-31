@@ -1,0 +1,52 @@
+name: GRI BZLT Evidence Assurance
+on:
+  push:
+    paths:
+      - 'GRI-Research-Journey/Living-AI-Ecosystem/BZLT-Dated-Relationships.csv'
+      - 'GRI-Research-Journey/Living-AI-Ecosystem/bzlt_assurance.py'
+      - 'GRI-Research-Journey/Living-AI-Ecosystem/test_bzlt_assurance.py'
+      - '.github/workflows/bzlt-evidence-assurance.yml'
+  pull_request:
+    paths:
+      - 'GRI-Research-Journey/Living-AI-Ecosystem/BZLT-Dated-Relationships.csv'
+      - 'GRI-Research-Journey/Living-AI-Ecosystem/bzlt_assurance.py'
+      - 'GRI-Research-Journey/Living-AI-Ecosystem/test_bzlt_assurance.py'
+      - '.github/workflows/bzlt-evidence-assurance.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  metadata-assurance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run committed validator and tests on exact checked out data
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd GRI-Research-Journey/Living-AI-Ecosystem
+          python --version | tee bzlt-python-version.txt
+          sha256sum BZLT-Dated-Relationships.csv bzlt_assurance.py test_bzlt_assurance.py | tee bzlt-input-sha256.txt
+          python bzlt_assurance.py --output bzlt-assurance-report.json | tee bzlt-validator-stdout.json
+          python -m unittest -v test_bzlt_assurance.py 2>&1 | tee bzlt-test-results.txt
+          printf '%s\n' "${GITHUB_SHA}" > bzlt-commit-sha.txt
+      - name: Retain test evidence even on failure
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bzlt-evidence-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            GRI-Research-Journey/Living-AI-Ecosystem/bzlt-assurance-report.json
+            GRI-Research-Journey/Living-AI-Ecosystem/bzlt-validator-stdout.json
+            GRI-Research-Journey/Living-AI-Ecosystem/bzlt-test-results.txt
+            GRI-Research-Journey/Living-AI-Ecosystem/bzlt-python-version.txt
+            GRI-Research-Journey/Living-AI-Ecosystem/bzlt-input-sha256.txt
+            GRI-Research-Journey/Living-AI-Ecosystem/bzlt-commit-sha.txt
+          retention-days: 90
+          if-no-files-found: warn
