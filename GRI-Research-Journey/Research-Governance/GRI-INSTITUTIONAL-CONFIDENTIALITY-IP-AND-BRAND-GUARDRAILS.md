@@ -39,6 +39,24 @@ Before publishing original assignments, capstones or derivative research program
 
 **Transparency standard:** Publish what GRI can substantiate and is authorized to share; protect what it is obligated or entitled to keep confidential. These are complementary obligations, not competing institutional missions.
 
+## Standing institutional research ethics and disclosure standard
+**Status:** Standing GRI policy for present and future research, engineering, publication, collaborations and commercialization.
+
+Respect for other people and their work is a primary institutional obligation. GRI shall protect the privacy, dignity, authorship, intellectual property, unpublished contributions, confidential communications and legitimate interests of professors, students, researchers, colleagues, authors, participants, clients, partners and other affected individuals and organizations. GRI shall apply equivalent care to its own intellectual property and to material entrusted to it by others.
+
+**Required decision standard:** Before accessing, collecting, incorporating, adapting, distributing, publishing, automating, sharing with an AI service or commercializing information, determine (a) who owns or controls it, (b) what permission or lawful basis authorizes the specific activity, (c) whether personal or confidential information is involved, (d) what attribution, license, academic and contractual obligations apply, and (e) whether the intended public claims are supported by appropriate evidence. When uncertain, withhold the affected material until review and authorization.
+
+**Default operating rules:**
+1. Respect individual consent, confidentiality, privacy, safety and withdrawal or revocation rights where applicable.
+2. Do not reproduce, distribute or commercially exploit third-party protected material without authorization or an appropriately reviewed legal exception.
+3. Attribute published scholarship and distinguish GRI's original synthesis from source authors' contributions.
+4. Do not imply affiliation, endorsement, sponsorship, authorship or participation without verification and permission.
+5. Publish approved, substantiated information as transparently as practicable, while withholding restricted materials and strategic or proprietary implementation details.
+6. Apply the same review to public GitHub commits, dashboards, research papers, client demonstrations, presentations, AI agents, datasets and external service integrations.
+7. Maintain appropriately restricted records of approvals, licenses, sources, disclosure decisions and exceptions; investigate and remediate suspected violations.
+
+This standard applies prospectively to Tiger Legacy, Training a Tiger, Tiger Assurance, Kiongozi, the AI Paradox and every GRI initiative. It guides decisions but is not a substitute for contractual review, legal advice, human oversight or implemented technical access controls.
+
 ## Mandatory controls
 1. **Information classification:** Label materials public-approved, internal, confidential or restricted. Restrict confidential and restricted data to approved recipients and purposes; minimize collection and retention.
 2. **Intellectual property:** Protect source code, architecture, models, datasets, inventions, research methods, unpublished hypotheses, trade secrets, licensing strategies and provenance. Record ownership and third-party license obligations; avoid posting confidential material in public repositories, CI logs, issues or artifacts.
