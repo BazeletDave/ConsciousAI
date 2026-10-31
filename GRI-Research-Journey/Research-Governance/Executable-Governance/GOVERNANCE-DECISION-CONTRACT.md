@@ -47,3 +47,7 @@
 **Next engineering work, not claimed complete:** executable validation tests for the new schema, real canonicalization checks, signature and trust anchor design, immutable storage and independent replay verification.
 
 **Research basis:** NIST AI RMF 1.0 (https://doi.org/10.6028/NIST.AI.100-1); JSON Schema Draft 2020-12 (https://json-schema.org/draft/2020-12/schema); RFC 8785 (https://www.rfc-editor.org/rfc/rfc8785).
+
+## Compatibility clarification | 31 October 2026
+
+The pre-existing offline policy engine emits `WARNING_PERMITTED`, and its unit tests assert that exact value. The initial published decision schema omitted this value and instead listed `NONPUNITIVE_WARNING_PERMITTED`. This is a **backward-compatible schema correction**, not a change to the policy engine or authorization behavior. The decision schema now permits both spellings; they mean only that a **synthetic, nonpunitive warning is permitted by the illustrative policy**. Consumers must normalize the two representations explicitly and must not treat either as evidence that an intervention occurred. Existing source event and policy versions remain unchanged. Schema version `1.0.0` is retained for compatibility; this erratum is documented here and in Git history. Future semantic changes require a new version. The schema remains a specification; no executable schema validation or independent review is claimed by this edit.
