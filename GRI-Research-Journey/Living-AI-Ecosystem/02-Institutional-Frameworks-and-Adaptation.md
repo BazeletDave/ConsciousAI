@@ -31,6 +31,33 @@ This collection applies established institutional theories to contemporary AI qu
 
 ## GRI BZLT Americas FLA Institutional | Florida medical governance and federal recognition (31 October 2026)
 
+### Analytical center: compliance and independent assurance
+
+**Primary question:** Across Florida's evolving medical licensing regime and the contrasting adult use regulatory model, which institutions have enforceable authority, what evidence demonstrates compliance, who independently verifies that evidence, and what happens when a control fails? This reframes the case from cannabis market commentary into an institutional assurance test.
+
+**Historical case: Florida medical licensing.** Trace the 2014 limited program, 2015 license selection, 2016 constitutional medical authorization, 2017 MMTC implementation, subsequent litigation, and the separately scoped 2026 federal action. For each decision record the governing legal version, issuing authority, licensed legal entity, operating authorization, duty, control evidence, review mechanism and available remedy.
+
+**Comparison: recreational regulation.** Florida's 2024 adult use constitutional proposal failed the required 60 percent threshold; therefore Florida does not provide a legal recreational retail market against which to compare realized state sales. Compare Florida's *nonauthorization and attempted constitutional change* with documented adult use frameworks in other jurisdictions only after selecting jurisdictions with verifiable statutory and regulator data. Separate ballot votes, lawful operators, revenue, enforcement, safety and tax receipts; never treat them as interchangeable denominators.
+
+| Assurance layer | Florida medical historical case | Adult use comparison | Independent test |
+| --- | --- | --- | --- |
+| Legitimacy and authority | Constitutional medical access, legislature, DOH/OMMU, courts | Florida failed 2024 proposal; selected authorized states for later comparison | Certified elections, enacted statutes, final orders |
+| Entry and ownership | MMTC awards, legal entities, vertical integration, acquisitions | Different licensing caps, ownership and retail separation rules | Date stamped license registry and corporate filings |
+| Operations | Cultivation, processing, dispensing, inventory, patient verification | Age verification, retail controls, track and trace, diversion safeguards | Inspect regulator controls and audited exceptions |
+| Federal interface | Precisely defined DOJ/DEA medical registrations | Federal status must be analyzed separately from state adult use legality | Registration records and agency rules; no inferred approvals |
+| Financial compliance | Taxes, 280E applicability, financial institution controls | State adult use tax and fee regimes where authorized | Audited filings, revenue reports, tax guidance |
+| Public safety | Patient authorization distinct from impairment | Adult use authorization likewise distinct from impairment | NHTSA science, validated functional outcomes |
+| Assurance governance | Consent, provenance, segregation of duties, exception handling | Same control families, jurisdiction specific duties | Independent reproduction, evidence ledger and human appeals |
+
+**Minimum evidence schema:** `jurisdiction | effective_date | institution | legal_authority | entity_id | permission | control_objective | evidence_record | reviewer | exception | remediation | evidence_status | source_url`. Classify each entry as verified primary record, attributed secondary report, company claim, hypothesis or unknown. A license, registration, policy statement or algorithmic test flag alone is **not** an independent certification.
+
+**Corporate and economic testing:** Build a dated legal entity ownership crosswalk for Trulieve, Curaleaf, Verano/MÜV and comparators. Only compare like denominators, and separately label MMTC license counts, retail locations, patients, product quantities, consolidated company revenue, Florida attributable revenue, government fees and tax effects. Test whether incumbency predicts footprint or financing advantages, controlling where feasible for timing, acquisition and regulatory change. No causal claim without evidence and alternative explanations.
+
+**Assurance network implication:** Reuse existing GRI governance and Tiger Assurance concepts of explicit authorization, provenance, revocation, independently reproducible controls, incident escalation and correction. This section defines a *research control matrix*, not a deployed compliance platform, external audit opinion or regulator endorsement. No new repository, monitoring pipeline or confidential disclosure.
+
+### Historical and comparative evidence
+
+
 **Scope:** A bounded comparative extension of the existing institutional adaptation and driver impairment scholarship, not a separate cannabis project, an automated monitoring stream, or an assertion of clinical or financial outcomes.
 
 ### Institutional sequence and legal distinctions
