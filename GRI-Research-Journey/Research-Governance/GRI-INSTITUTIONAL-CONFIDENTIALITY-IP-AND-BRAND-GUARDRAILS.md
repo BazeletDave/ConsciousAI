@@ -8,6 +8,17 @@ GRI is transparent about its approved mission, research methods, governance prin
 
 All nonpublic institutional materials are confidential by default. Publication, external sharing, deployment and client disclosure require explicit, appropriately scoped authorization from GRI and any relevant rights holders. Previously approved public material does not automatically authorize disclosure of related private material.
 
+## Institutional history and transition to governed openness
+GRI's research, intellectual contributions and professional relationships substantially predate the current GitHub publication program. Historically, the Institute has exercised selective confidentiality over unpublished scholarship, research methods, strategic work, correspondence and professional connections. A substantial body of research was not uploaded to GitHub. The absence of material from a public repository does not imply that it did not exist, that it was unimportant, or that GRI relinquished its rights or confidentiality.
+
+GRI is now selectively making appropriate work more visible to enable reproducibility, scholarly critique, accountable governance, responsible collaboration and potential commercialization. This is **governed research openness**, not blanket disclosure or retroactive publication authorization. GitHub is a curated public research and engineering interface, not a comprehensive archive of GRI's history or private records.
+
+References to scholarship, academic instruction or professional interactions involving professors, RAND, Brookings or other institutions must distinguish independently verifiable public sources from confidential interactions. Do not imply formal affiliation, employment, sponsorship, endorsement, partnership, access to nonpublic institutional materials or institutional approval without supporting evidence and permission. Academic rigor is demonstrated through accurate citations, transparent methods and evidence boundaries, not disclosure of private correspondence or relationships.
+
+Before migrating historical work into public repositories, apply an explicit review for intellectual property ownership, third-party rights, contractual restrictions, personal information, client confidentiality, strategic sensitivity, academic integrity, provenance and disclosure approval. Where a public summary serves the research purpose, publish the summary rather than underlying confidential source material. Retain nonpublic originals in controlled storage with appropriate access and provenance.
+
+**Institutional principle:** GRI can increase transparency about what its research establishes while retaining discretion over how the work was developed, who contributed confidentially, and which strategic directions remain private.
+
 ## Mandatory controls
 1. **Information classification:** Label materials public-approved, internal, confidential or restricted. Restrict confidential and restricted data to approved recipients and purposes; minimize collection and retention.
 2. **Intellectual property:** Protect source code, architecture, models, datasets, inventions, research methods, unpublished hypotheses, trade secrets, licensing strategies and provenance. Record ownership and third-party license obligations; avoid posting confidential material in public repositories, CI logs, issues or artifacts.
