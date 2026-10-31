@@ -30,3 +30,14 @@ A reviewer may select **verified**, **rejected**, **qualified** or **unresolved*
 4. The governance dashboard receives only an aggregate, read only, approved summary; **no connection or production integration before all gates pass**.
 
 **Current disposition:** Gate 1 configured, execution not independently confirmed; Gates 2–4 pending. This document does not confer compliance certification, legal opinion or an external endorsement.
+
+
+## Source inspection update: 31 October 2026
+
+[Document inspection ledger](BZLT-Source-Inspection-Ledger.csv) records each of E01–E19 in grouped rows, original document titles, issuer/custodian, document section or passage locator, event date, parties/relationship, financial units, evidence limitations and pending reviewer fields. Grouped rows cover all 19 IDs but **do not substitute for individual signed reviews**.
+
+**Source review classifications:** E04–E12 and E14–E19 source content inspected; E01–E03 and E13 blocked or unresolved. Even source confirmed items require human independent verification. No human reviewer has signed. No conflict of interest declaration has been supplied. No original document snapshot SHA256 has been retained; these fields are blank by design and must not be fabricated.
+
+**Priority exceptions:** (1) The Florida DOH 2015 announced panel and later reported scoring panel differ, requiring original DOAH order and contemporaneous scoring sheets; (2) Cresco subsidiary schedules establish consolidated relationships, not all immediate legal parents; (3) SNDL July and September indirect exposure percentages must be kept at their separate as of dates; (4) issuer location counts do not independently verify regulatory licenses; (5) lender spelling and individual creditor allocation require original agreement reconciliation.
+
+**Release status:** HOLD. An AI source inspection is not a qualified human attestation. A reviewer must supply actual name or controlled reviewer identifier, role, review date, exact passage or page, source snapshot checksum where permissible, conflicts disclosure and signed decision for each edge. Until then do not label the research independently certified or integrate an approved summary into the governance dashboard.
