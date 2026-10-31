@@ -25,6 +25,8 @@ GRI does not propose a final institutional model. The work applies established s
 
 **Dated institutional relationship graph:** [View sourced ownership, financing and regulatory network](BZLT-Dated-Relationship-Graph.md) and [edge level evidence register](BZLT-Dated-Relationships.csv). Each depicted connection has a date, relationship type and documentary URL; unresolved ownership and lobbying links are explicitly excluded.
 
+**Research intelligence protocol:** [Independent agent research and institutional assurance specification](BZLT-Institutional-Intelligence-Research-Protocol.md) defines evidence boundaries, historical farm research leads, cross project experiments and human validation gates. It does not activate agents or publish prior employer information.
+
 ## Related published GRI research
 - [Consolidated GRI research portfolio](../Grand-Research-Institute-Research-Portfolio/README.md)
 - [Algorithmic management and institutional leadership monograph](../Algorithmic-Management-Institutional-Leadership/README.md)
