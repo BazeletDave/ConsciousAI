@@ -1,0 +1,11 @@
+exhibit,entity,period,metric,value,unit,scope,source_url,verification_note
+corporate,Trulieve,2025,net_revenue,1181180000,USD,consolidated,https://www.sec.gov/Archives/edgar/data/1754195/000175419526000019/tcnnf-20251231.htm,Form 10-K consolidated operations
+corporate,Trulieve,2024,net_revenue,1186490000,USD,consolidated,https://www.sec.gov/Archives/edgar/data/1754195/000175419526000019/tcnnf-20251231.htm,Form 10-K consolidated operations
+corporate,Curaleaf,2025,net_revenue,1268135000,USD,consolidated,https://www.sec.gov/Archives/edgar/data/1756770/000175677026000079/curlf-20260805_d2.htm,Form 10-K consolidated operations
+corporate,Curaleaf,2024,net_revenue,1334299000,USD,consolidated,https://www.sec.gov/Archives/edgar/data/1756770/000175677026000079/curlf-20260805_d2.htm,Form 10-K consolidated operations
+corporate,Verano,2025,net_revenue,821504000,USD,consolidated,https://investors.verano.com/news-releases/news-release-details/verano-announces-fourth-quarter-and-full-year-2025-financial,Audited full year figures in issuer release
+corporate,Verano,2024,net_revenue,878585000,USD,consolidated,https://investors.verano.com/news-releases/news-release-details/verano-announces-fourth-quarter-and-full-year-2025-financial,Audited full year figures in issuer release
+regulation,Florida,2024,amendment_3_yes,5950589,votes,statewide,https://results.elections.myflorida.com/DetailRpt.Asp?DATAMODE=&DIST=&ELECTIONDATE=11%2F5%2F2024&GRP=&PARTY=&RACE=A03,Official certified votes
+regulation,Florida,2024,amendment_3_no,4693524,votes,statewide,https://results.elections.myflorida.com/DetailRpt.Asp?DATAMODE=&DIST=&ELECTIONDATE=11%2F5%2F2024&GRP=&PARTY=&RACE=A03,Official certified votes
+comparison,Colorado,2025,marijuana_sales,1206869062,USD,medical_plus_adult_use,https://tax.colorado.gov/press-release/marijuana-sales-generate-over-236m-in-tax-fee-revenue-figures-for-2025,Calendar year 2025
+comparison,Colorado,2025,marijuana_tax_fee_revenue,236449405,USD,state_receipts,https://tax.colorado.gov/press-release/marijuana-sales-generate-over-236m-in-tax-fee-revenue-figures-for-2025,Calendar year 2025
