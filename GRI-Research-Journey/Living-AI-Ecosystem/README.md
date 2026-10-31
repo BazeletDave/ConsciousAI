@@ -27,6 +27,14 @@ GRI does not propose a final institutional model. The work applies established s
 
 **Research intelligence protocol:** [Independent agent research and institutional assurance specification](BZLT-Institutional-Intelligence-Research-Protocol.md) defines evidence boundaries, historical farm research leads, cross project experiments and human validation gates. It does not activate agents or publish prior employer information.
 
+### Research milestone | BZLT institutional governance, October 2026
+
+**GRI BZLT Americas FLA Institutional** advances the institutional research already documented in this collection. Its eight governance questions connect established academic theory to measurable constructs, competing explanations, dated primary sources and explicit assurance gates.
+
+[Academic governance traceability matrix](BZLT-Governance-Academic-Traceability.md) · [Dated relationship evidence](BZLT-Dated-Relationships.csv) · [Documentary inspection ledger](BZLT-Source-Inspection-Ledger.csv) · [Independent documentary review register](BZLT-Independent-Documentary-Review-Register.md) · [Research protocol](BZLT-Institutional-Intelligence-Research-Protocol.md)
+
+The work connects to the earlier [GRI ZERO research archive](https://github.com/BazeletDave/ZERO) as an intellectual lineage, without merging projects or treating prior research as proof of current institutional claims. Florida panel and SNDL evidence carry documented temporal qualifications. Source corroboration is not independent certification. Exact commit CI evidence, retained source snapshots and external assurance remain separate release gates. The existing GitHub to Render architecture is unchanged; no new dashboard is introduced.
+
 ## Related published GRI research
 - [Consolidated GRI research portfolio](../Grand-Research-Institute-Research-Portfolio/README.md)
 - [Algorithmic management and institutional leadership monograph](../Algorithmic-Management-Institutional-Leadership/README.md)
