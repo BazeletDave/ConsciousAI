@@ -72,3 +72,64 @@ The diagram represents **jurisdictional responsibilities and assurance questions
 The accompanying [CSV](BZLT-Americas-FLA-Institutional-Evidence.csv) stores metric, period, reporting scope, units, primary URL and verification note. Run the dependency free [exhibit generator](bzlt_exhibits.py) from this folder to print the two year issuer revenue comparison, ballot share, and Colorado receipts to sales ratio. No network, credentials, personal data, background monitoring or production assurance connection is required.
 
 **Assurance gates:** A01 legal authority, A02 exact entity and license, A03 ownership and reporting perimeter, A04 arithmetic and source reconciliation, A05 public health and impairment distinction, A06 contestability and remedy, A07 independent reproduction. Passing arithmetic checks is not a compliance audit or external certification.
+
+
+## Exhibit 5. Reconstructed corporate lineage and transaction controls
+
+**3 Boys Farm is not an acquired Verano license.** This distinction is essential to prevent a false ownership graph.
+
+| Date | Documented event | Financial terms or scope | Evidence classification |
+| --- | --- | --- | --- |
+| July 2018 | Scythian proposed acquiring CannCure, then acquiring 3 Boys Farms | Letter of intent; not evidence of completed closing | [Issuer filing](https://www.sec.gov/Archives/edgar/data/1710138/000149315218010645/ex99-1.htm) |
+| October 2018 | Verano announced planned consolidation including 3 Boys Farms | Proposed financing of $120m and contribution structure | [Verano announcement](https://www.globenewswire.com/news-release/2018/10/23/1625281/0/en/Verano-Holdings-Launched-to-Consolidate-National-Cannabis-Assets-with-120-Million-Financing-and-Acquisition-of-Florida-Licenses.html) |
+| March 2019 | SOL Global reported Florida DOH approval for transfer involving CannCure / 3 Boys | Approval announcement; completion of share acquisition not established by this announcement alone | [SOL Global release](https://www.prnewswire.com/news-releases/sol-global-announces-receipt-of-approval-for-sale-and-transfer-of-florida-3-boys-farms-operations-and-assets-300809876.html) |
+| April 2019 | SOL Global terminated planned sale of 3 Boys Farms to Verano | Proposed $100m in Verano Class B units **not realized as that sale** | [SOL Global termination release](https://www.prnewswire.com/news-releases/sol-global-signs-termination-agreement-with-verano-holdings-over-sale-of-3-boys-farms-300821758.html) |
+| April 2021 | Cresco Labs acquired Bluma Wellness, parent of 3 Boys Farm / One Plant | **$238.1m total accounting consideration**; $213m was the January announced equity value; 8 dispensaries at acquisition | [Cresco SEC disclosure](https://www.sec.gov/Archives/edgar/data/1832928/000119312523154406/d505188dex992.htm) |
+| 2021 onward | One Plant retail locations rebranded Sunnyside | Brand change; not a new original license | [Cresco SEC annual filing](https://www.sec.gov/Archives/edgar/data/1832928/000183292823000003/cresco-aifx2022.htm) |
+
+**Current entity crosswalk:** 3 Boys Farm, LLC → Bluma Wellness Inc. → Cresco Labs Inc. (2021 acquisition). The Florida [Sunbiz record for 3 Boys Farm LLC](https://search.sunbiz.org/Inquiry/CorporationSearch/SearchResultDetail?aggregateId=flal-l18000037389-eccd45a0-3ddc-43fe-9f4d-fb75f740d326&directionType=ForwardList&inquirytype=EntityName&listNameOrder=3BOYSAGIRLGOURMETINFUSEAPPLESA+L200001657930&searchNameOrder=3BOYSFARM+L180000373890&searchTerm=3B+MANAGEMENT%2C+LLC) identifies Cannabis Cures Investments LLC as manager and Charles Bachtell as CEO in its public filing display. This corroborates a contemporary governance relationship but is not a complete beneficial ownership register.
+
+### Trulieve: Florida nursery origins, Quincy and public capital
+
+* **2015 license lineage:** Hackney Nursery Company was among the original Florida dispensing organization awardees. Trulieve's [2021 SEC prospectus](https://www.sec.gov/Archives/edgar/data/1754195/000119312521032509/d32577d424b3.htm) identifies George Hackney and Thad Beshears as founding participants; distinguish nursery founders, executive officers and external associates. Kim Rivers is the company's chief executive and a central leader, but do not label every named associate a shareholder without an equity record.
+* **Quincy facility governance:** A [2020 SEC filing](https://www.sec.gov/Archives/edgar/data/1754195/000095012320012585/filename1.htm) discloses a Quincy cultivation lease with One More Wish LLC, directly or indirectly owned by Kim Rivers, George Hackney and Richard May, with aggregate rents disclosed. This is a **related party disclosure and control testing subject**, not evidence of wrongdoing. Review approval procedures, lease terms, beneficial ownership and independent board review.
+* **2018 public listing:** A [2025 SEC registration statement](https://www.sec.gov/Archives/edgar/data/1754195/000162828025033530/trulieve-sx3asr.htm) recounts the September 21, 2018 merger and share exchange through which Trulieve US became a wholly owned subsidiary of the Canadian issuer. Trulieve began CSE trading September 25, 2018. The same filing identifies Quincy as the corporate head office and names material subsidiaries.
+* **Harvest Health acquisition:** [May 2021 announced implied equity value](https://www.sec.gov/Archives/edgar/data/1760439/000119312521155596/d61305dex992.htm) was approximately **$2.1bn**; [October 1, 2021 completed consideration](https://www.sec.gov/Archives/edgar/data/1754195/000095017022004989/tcnnf-20211231.htm) was approximately **$1.4bn**, principally equity issued. These are different valuation dates, not conflicting cash purchase prices. The 2021 filing reports 50,921,236 Trulieve shares issued and $13m transaction costs.
+* **Tikun Olam:** [Trulieve September 23, 2026 announcement](https://www.trulieve.com/discover/blog/trulieve-welcomes-tikun-olam) describes an **exclusive partnership**, not a purchase of the Tikun Olam company. Licensing terms, royalties and ownership transfer should remain **undisclosed / unverified** unless a definitive agreement or filing establishes them.
+
+### Verano / MÜV: a separate Florida chain
+
+Verano's [2020 merger announcement](https://www.globenewswire.com/news-release/2020/11/11/2124578/0/en/Verano-Holdings-Announces-Agreement-to-Acquire-and-Combine-Operations-with-AltMed-in-Florida-and-Arizona-Creating-One-of-the-Largest-U-S-Private-Cannabis-Companies.html) identifies Alternative Medical Enterprises, Plants of Ruskin and affiliated businesses as the Florida and Arizona combination. Its [2023 annual report](https://www.sec.gov/Archives/edgar/data/1848416/000149315224016980/ars.pdf) describes the February 2021 reverse takeover and subsidiary structure. **Do not join the terminated 3 Boys Farm transaction to the completed AltMed chain.**
+
+### Financial flow assurance
+
+```mermaid
+flowchart LR
+    A[Florida MMTC authorization] --> B[Operating entity and facilities]
+    C[Private founders and investors] --> D[Public parent / equity]
+    D --> B
+    E[Lenders] --> B
+    B --> F[Patient transactions and operating receipts]
+    F --> G[Payroll, suppliers and facilities]
+    F --> H[Taxes and compliance]
+    D --> I[Acquisition consideration and share issuance]
+    J[Independent reviewers] -. Test filings and related party disclosures .-> D
+    J -. Verify authorization and control records .-> B
+```
+
+**Transaction arithmetic:** 2021 Cresco / Bluma **$238.1m** and Trulieve / Harvest **~$1.4bn** are completed consideration disclosed in company filings; **$213m** and **~$2.1bn** are earlier announced valuations. They should not be summed as equivalent cash flows. The $100m 3 Boys / Verano proposed units were terminated. For Quincy related party leases, preserve each filing's period and payment units rather than converting or aggregating without reconciliation.
+
+### Federal registration status as of 31 October 2026
+
+The [DOJ October 30 release](https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries) confirms more than 900 registrations across seven states, but **does not identify individual Florida recipients**. DEA's public timely applicant list describes state, activity and control number rather than corporate names, and timely application **does not prove registration**. Secondary counts report 748 Florida dispensary applications, 45 manufacturers and 19 distributors, totaling 812 timely applications; **none of these is a verified Florida approval count**. Until a named DEA registration record or company specific certificate is available, mark Trulieve, Cresco/3 Boys and Verano federal registration status **unknown**.
+
+### Federal change: conditional scenario, not booked financial impact
+
+* **Medical only eligible activity:** For qualifying federally registered operations under the April 2026 order, analyze possible changes to §280E treatment, financing, recordkeeping, inventories and security, subject to actual effective legal and tax guidance.
+* **Adult use:** Recreational sales are not authorized by this federal action; a multi-state issuer may need legal entity, activity, inventory and accounting segregation across medical and adult use business lines.
+* **Manufacturing and distribution:** DOJ describes additional inspections, production controls and quotas. A registered dispensary does not automatically establish a registered cultivation or manufacturing facility.
+* **Sensitivity model:** For a verified eligible segment, a hypothetical deduction benefit is `eligible deductible operating expense × applicable marginal tax rate`, subject to actual tax law, timing, apportionment and taxable income. Do not present this as a realized tax saving, assume a specific rate, or apply it to total company revenue.
+
+### Reproduction status
+
+The public dataset and standard library reproduction logic were executed in a fresh local container on October 31, 2026. Results: Trulieve -0.45%, Curaleaf -4.96%, Verano -6.50% year over year consolidated revenue; Florida 2024 Amendment 3 yes share 55.90%; Colorado receipts to sales descriptive ratio 19.59%. The script's unique metric assertions and ballot threshold assertion passed. **This is a separate execution environment, not independent human attestation or an external audit.** Source row accuracy remains a distinct verification task.
