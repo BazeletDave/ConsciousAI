@@ -59,3 +59,13 @@ The verified results demonstrate that specified synthetic scenarios and reposito
 - [Integration engineering history](INTEGRATION-STATUS-2026-10-29.md)
 
 **No merge to `main` or Render deployment has been performed by this milestone.**
+
+## October 31 evidence reconciliation (historical checkpoint, not a new release)
+
+The documented October 29 baseline is confirmed against GitHub Actions **run 40972028096**, associated with commit `8f1e4fe3a2dffeb3e181ba557345721b72ac232b`. GitHub reports success for three workflows at that commit: GRI Research Quality Gate, GRI Research Systems Tests, and Research Rights and Security Checks. The original checkpoint documents **16 Tiger Legacy security/reporting tests and 217 dashboard/research-system tests**. These counts apply to that tested revision only.
+
+The repository also contains the later `version_one/evidence_ledger.py` implementation and `version_one/tests/test_evidence_ledger.py` with **12 defined adversarial tests**, including durability/reopen, replay rejection, mutation detection, concurrency, backup/restore, and external-checkpoint mismatch. The presence of these tests is not proof that they passed at the historical `8f1e4fe` revision. Any later claim of 28 tests or independent reproduction must be linked to its exact commit, CI logs and verification evidence before replacing the historical 16-test baseline.
+
+**Status reconciliation:** The earlier table's “durable ledger not implemented” describes the tested historical release. It does not describe the current repository contents: a **synthetic SQLite ledger implementation exists**, but its latest revision, external trust anchor, independent reviewer result and production readiness remain unverified in this reconciliation. The threat model and reviewer protocol also exist as research artifacts. No client integration, real identity authentication, production assurance or independently completed external review is established by these records.
+
+**Release discipline:** Preserve historical counts and artifacts; do not add 12 tests to 16 as a verified total without a single successful test run over the same exact commit. No new recovery or adversarial experiments are authorized by this reconciliation itself.
