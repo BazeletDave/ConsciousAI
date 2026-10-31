@@ -74,6 +74,45 @@ GRI's independent **Training a Tiger → Tiger Assurance → Tiger Legacy** rese
 
 **Evidence limits:** Research prototype only; real authentication, independent external academic review, operational cybersecurity effectiveness and client-specific integration are not established. The work is led by **David A. Grand, Grand Research Institute**. Thunderbird School of Global Management is an academic affiliation, not a sponsor or certifying body. The Tiger Legacy changes remain in a separate development pull request pending source-branch reconciliation and release approval.
 
+## The Kiongozi Framework
+**Institutional Leadership, AI Governance, and Cybersecurity Assurance**
+
+*An original research framework developed by the Grand Research Institute (GRI) within the AI Paradox and Academic Research Journey.*
+
+Kiongozi, a Swahili term meaning *leader*, represents GRI's investigation into the institutional conditions necessary for trustworthy artificial intelligence, cybersecurity resilience, and accountable technological development.
+
+The framework connects institutional political economy, global technological inequality, cybersecurity engineering, and human decision authority. Its central proposition is that technical sophistication and regulatory compliance alone do not establish institutional legitimacy.
+
+### Academic Foundations: Dr. Landry Signé
+
+The Kiongozi Framework draws important intellectual foundations from the published scholarship of **Dr. Landry Signé**, particularly his research on African development, the Fourth Industrial Revolution, technological inclusion, and the global AI divide.
+
+Signé's work examines how infrastructure, capital, human capabilities, institutional arrangements, and global economic relationships influence the distribution of technological opportunity.
+
+These contributions inform GRI's investigation of whether technological accessibility necessarily produces institutional capacity, equitable participation, or meaningful decision authority.
+
+Selected scholarship includes:
+
+- Signé, L. (2023). *Africa's Fourth Industrial Revolution*. Cambridge University Press.
+- Signé, L. (2026). *How to Bridge the Global AI Divide*. Brookings Institution.
+- Fox, L., and Signé, L. (2022). *Inclusion, Inequality, and the Fourth Industrial Revolution (4IR) in Africa*. Brookings Institution.
+
+### Institutional and Technical Integration
+
+GRI extends these research questions through comparative institutional analysis informed by Thunderbird School of Global Management scholarship, including Professor Roy C. Nelson's work in global political economy.
+
+The framework examines the relationship between technological capability, institutional capacity, human authority, and cybersecurity assurance.
+
+Proposed research applications include controlled cybersecurity sandboxes, autonomous agent authorization experiments, cryptographic evidence verification, institutional resilience testing, and comparative governance analysis.
+
+### Original GRI Research Contribution
+
+Kiongozi seeks to develop and empirically evaluate original hypotheses concerning the conditions under which technological advancement strengthens or undermines institutional legitimacy.
+
+The framework forms part of GRI's continuing AI Paradox research and its Training a Tiger and Tiger Assurance architecture.
+
+**Research integrity:** Referenced scholarship is attributed to its original authors. Kiongozi's research questions, experimental designs, analytical synthesis, and independently developed findings are GRI contributions. Academic references do not imply institutional endorsement, research partnership, or validation of experimental results.
+
 ## Research standards and maturity
 
 GRI distinguishes published empirical findings, primary institutional records, practitioner observations, working hypotheses and illustrative prototypes. The presence of code or an institutional reference does not establish independent validation, production deployment or affiliation. Research findings require provenance, competing explanations, documented limitations and opportunities for correction.
