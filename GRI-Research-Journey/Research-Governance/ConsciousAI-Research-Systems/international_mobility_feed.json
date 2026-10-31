@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-31T05:38:57.702047+00:00",
+  "generated_at": "2026-10-31T12:26:57.788943+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "3bf9835549e728aed730",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "EU-Canada Summit 2026: Leaders mark a historic moment in bilateral relations",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2318",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "0ad8c304ad5cdd8c63ed",
       "source_id": "EU-COMMISSION-NEWS",
@@ -133,18 +145,6 @@
       "category": "international_regulatory",
       "title": "Commission takes a key step forward on 2027 financial support for Ukraine",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2301",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "113f1de59f0444f50c66",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Keynote speech by Commissioner Dombrovskis at NATO FUSE event",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2291",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
