@@ -95,3 +95,41 @@ This collection applies established institutional theories to contemporary AI qu
 5. [NHTSA drug impaired driving research](https://www.nhtsa.gov/risky-driving/drug-impaired-driving). Separate substance presence from impairment evidence.
 
 **Status at addition:** Historical mechanism and comparison design documented; company-level federal recipient identities, Florida-specific approval totals, ownership lineage and causal financial impacts **not independently established**. Do not publish invented charts or outcomes.
+
+
+### Integrated institutional outcomes: money, health, safety and legitimacy
+
+This extension applies the same **authority → compliance duty → evidence → independent review → exception → remedy** sequence to four outcome domains. It is a research protocol, not a finding that any institution or company failed a duty.
+
+| Domain | Unit of analysis | Candidate measures | Principal evidence | Assurance failure to test |
+| --- | --- | --- | --- | --- |
+| Money and market power | Legal license holder, parent and reporting period | Entry/exit, store concentration, acquisition price, debt cost, tax burden, audited Florida revenue where separately available | OMMU license orders, company annual reports, securities filings, tax guidance | Consolidated revenue misrepresented as Florida revenue; corporate brand mistaken for licensed entity |
+| Patient access and health | Qualified patient, county and reporting period, aggregated only | Patient count, dispensing geography, product availability, reported affordability, clinical outcomes where independently studied | OMMU dated reports, Florida DOH, FDA and peer reviewed studies | Authorization mistaken for efficacy or equitable access |
+| Transportation safety | Validated study cohort or jurisdiction/year | Crash and injury rates, exposure adjusted risk, impairment assessment accuracy, false alarms | NHTSA, state crash records, independently labeled research | THC detection or medical card mistaken for contemporaneous impairment |
+| Institutional legitimacy | Statute, regulator decision, registration or enforcement order | Auditability, appeal rights, resolution time, correction record, regulatory overlap | Enacted laws, judicial opinions, agency orders and published enforcement records | License existence mistaken for independent assurance or successful enforcement |
+
+#### Financial tracing and comparative design
+
+* Create a time indexed corporate entity map for Trulieve, Curaleaf and Verano/MÜV: **parent → subsidiary → Florida MMTC license → locations → dated filings**. Preserve original license names and documented ownership changes.
+* Distinguish stock market capitalization, capital raised, acquisition consideration, operating revenue, gross margin, taxes, compliance expenditure and patient spending. These measure different financial flows.
+* For each company/year, record source document, currency, reporting perimeter, accounting standard and whether Florida specific figures are disclosed. Unknown figures remain unknown, never inferred from store counts without a labeled model and sensitivity analysis.
+* Use concentration ratios or Herfindahl Hirschman Index only with a consistent dated numerator and denominator. A concentration index based on dispensary locations is **location concentration**, not revenue market concentration.
+* For adult use comparators, predefine selection criteria (authorized retail system, available primary financial/regulatory reports, comparable years). Compare regulatory architectures first; avoid direct per capita revenue comparisons without adjusting for population, taxes, tourism, medical overlap and reporting definitions.
+
+#### Compliance assurance tests
+
+| Test ID | Institutional control objective | Evidence needed | Failure/exception handling |
+| --- | --- | --- | --- |
+| BZLT-A01 | Confirm legal authority and effective date | Enacted text, court order, certified election or agency rule | Flag conflicting or superseded authority |
+| BZLT-A02 | Establish exact licensed entity and permission scope | Dated OMMU order, state license, DEA record where available | No federal registration claim from a state license |
+| BZLT-A03 | Reconcile ownership and economic reporting perimeter | Corporate registry, acquisition documents, audited issuer report | Escalate mismatched entities or undocumented attribution |
+| BZLT-A04 | Reconcile reported operational and financial metrics | Dated regulator totals and financial filing definitions | Label missing denominator, revision and estimate |
+| BZLT-A05 | Distinguish clinical authorization from driving fitness | Medical authorization rules, validated impairment study | No impairment conclusion from presence or eligibility |
+| BZLT-A06 | Test independent review and contestability | Published enforcement, appeals, correction and audit records | Record absent evidence as unknown, not compliant |
+| BZLT-A07 | Reproduce analytical exhibit | Source snapshot, extraction method, formula, reviewer and version | Withhold graph or conclusion until reproducible |
+
+#### Interpretation
+
+The central GRI proposition is that **regulatory authorization, organizational compliance, independently verifiable assurance and beneficial societal outcomes are four different states**. The Florida history provides a longitudinal case of legal authority and market formation; other jurisdictions' authorized adult use markets provide a comparison of regulatory architecture. Evidence of compliance should be assessed without assuming causation, safety, equitable access or legitimacy.
+
+This connects to the existing [GRI Institutional Assurance Framework](../Research-Governance/Tiger-Legacy/INSTITUTIONAL-ASSURANCE-FRAMEWORK-v1.md) **as a conceptual control mapping only**. It does not extend that prototype into cannabis operations, ingest sensitive health records, initiate machine learning, or certify regulated businesses. Historical claims and the October 2026 federal development remain subject to primary source verification and correction.
