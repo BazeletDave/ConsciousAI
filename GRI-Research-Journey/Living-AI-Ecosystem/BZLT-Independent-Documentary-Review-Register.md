@@ -52,3 +52,14 @@ A reviewer may select **verified**, **rejected**, **qualified** or **unresolved*
 **Conflict disclosure:** Not supplied in the authorization. A formal statement of no material conflict or a specific disclosure is required before this review is represented as independently conflict assessed. Given the founder's disclosed historical professional involvement, the review must be labeled **founder review**, not independent review.
 
 **Operational authority:** Proceed with controlled research, source remediation, exact commit CI verification, and preparation of a read only dashboard summary. Do not publish the unresolved edges as independently verified, claim external assurance, or activate the dashboard release until the acceptance gates are satisfied. No previous employer affiliation is implied.
+
+
+## Founder conflict of interest declaration: 31 October 2026
+
+**Declarant:** David Grand, GRI founder and documentary reviewer.
+
+**Founder statement, recorded as supplied:** David Grand states that he is not involved in the medical marijuana industry, Florida Medical Marijuana Treatment Centers (MMTCs), or any of the businesses examined in this research; he has no interest in these companies and declares no conflict of interest in relation to them.
+
+**Scope and evidentiary classification:** This is a self-reported declaration of no current involvement or interests in the examined companies, not independently verified beneficial ownership or a third-party conflict audit. Historical professional experience disclosed in the research independence statement remains distinct from present involvement or interests. No conflict is presumed from historical experience alone. Reassess only if new material relationships emerge.
+
+**Reviewer status:** Founder review accepted and no-conflict declaration recorded. This does not create a separate external reviewer, resolve blocked documentary sources, or establish CI acceptance. The dashboard's independently assured release status remains gated.
