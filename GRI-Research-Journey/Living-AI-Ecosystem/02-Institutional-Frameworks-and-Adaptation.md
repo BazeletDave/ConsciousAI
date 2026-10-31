@@ -29,7 +29,7 @@ This collection applies established institutional theories to contemporary AI qu
 [Collection index](README.md)
 
 
-## Florida medical cannabis: institutional path dependence and federal recognition (31 October 2026)
+## GRI BZLT Americas FLA Institutional | Florida medical governance and federal recognition (31 October 2026)
 
 **Scope:** A bounded comparative extension of the existing institutional adaptation and driver impairment scholarship, not a separate cannabis project, an automated monitoring stream, or an assertion of clinical or financial outcomes.
 
