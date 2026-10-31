@@ -23,6 +23,8 @@ GRI does not propose a final institutional model. The work applies established s
 
 **Empirical exhibits:** [BZLT Americas FLA Institutional financial and governance exhibits](BZLT-Americas-FLA-Institutional-Exhibits.md), [sourced data](BZLT-Americas-FLA-Institutional-Evidence.csv), and [reproduction script](bzlt_exhibits.py). The corporate revenue data are consolidated issuer figures; historical 2015 license entity lineage and Florida DEA recipient identities remain open evidence gaps.
 
+**Dated institutional relationship graph:** [View sourced ownership, financing and regulatory network](BZLT-Dated-Relationship-Graph.md) and [edge level evidence register](BZLT-Dated-Relationships.csv). Each depicted connection has a date, relationship type and documentary URL; unresolved ownership and lobbying links are explicitly excluded.
+
 ## Related published GRI research
 - [Consolidated GRI research portfolio](../Grand-Research-Institute-Research-Portfolio/README.md)
 - [Algorithmic management and institutional leadership monograph](../Algorithmic-Management-Institutional-Leadership/README.md)
