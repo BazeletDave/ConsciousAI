@@ -62,3 +62,16 @@ The [offline validator](bzlt_assurance.py) now checks the [dated edge register](
 **Run locally:** `python bzlt_assurance.py --output bzlt_assurance_report.json` then `python -m unittest test_bzlt_assurance.py` from this collection directory. Do not commit generated reports containing sensitive information. The report is metadata validation, **not source document verification, ML model validation, independent human review, regulatory certification or a completed deployment**. As of this commit the scripts have been added, but a clean environment test run has not been independently verified.
 
 **Integration boundary:** Keep the source linked graph as research data, deterministic validation as the evidence control, and the existing GRI governance dashboard as a future read only display after review. Do not activate scraping, new agents, external services or model training without separate authorization and privacy testing.
+
+
+## Acceptance execution record: 31 October 2026
+
+**Source:** `BZLT-Dated-Relationships.csv`, blob SHA `9357ee1f9d84a3d0528bf44101df2c855e0e6b10`.
+
+* Actual GitHub CSV: 19 edges, 0 required-field/type/date/URL/duplicate errors, 0 warnings under equivalent independently implemented checks executed against the fetched content.
+* Negative checks against fetched rows: missing source and duplicate ID flagged; invalid date and HTTP URL flagged; unreviewed relation warned.
+* Python `unittest`: four tests passed in an isolated local execution using a **representative 19-row fixture**, not the exact GitHub CSV. This is functional testing, not yet an exact-commit Python reproduction.
+* No source PDF/SEC filing content was reverified by this test; HTTP URL syntax does not prove source accessibility or claim accuracy.
+* **Release gate:** Metadata control accepted for continued research use. Independent document review, real-CSV Python replay, reviewer signoff and dashboard integration remain pending. Do not present the dashboard as updated or a certification as issued.
+
+**Recommended next verification:** Execute the committed `bzlt_assurance.py` and `test_bzlt_assurance.py` on the exact committed CSV in CI; retain commit SHA, interpreter version, stdout, exit code and reviewer signoff. Only then expose a read-only aggregate to the existing governance dashboard.
