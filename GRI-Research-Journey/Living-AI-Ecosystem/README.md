@@ -16,6 +16,10 @@ GRI does not propose a final institutional model. The work applies established s
 2. [Institutional frameworks and adaptation](02-Institutional-Frameworks-and-Adaptation.md) — institutional theory, organizational decision cycles and conceptual adaptability gap.
 3. [Academic dialogue and visual evidence register](03-Academic-Dialogue-and-Visual-Evidence.md) — October 15 context, graphics provenance, publication limits and validation tasks.
 
+### Florida institutional evidence extension
+
+[GRI BZLT Americas FLA Institutional](02-Institutional-Frameworks-and-Adaptation.md#gri-bzlt-americas-fla-institutional--florida-medical-governance-and-federal-recognition-31-october-2026) is incorporated into the existing institutional frameworks research. It examines Florida medical cannabis constitutional and MMTC history, federal registration, institutional compliance and financial assurance questions, with a cross reference to [existing driver impairment research](../../DriverREADME.md). This is a bounded research extension, not a new project or an assurance certification. Company specific DEA registrations and financial consequences remain unverified.
+
 ## Related published GRI research
 - [Consolidated GRI research portfolio](../Grand-Research-Institute-Research-Portfolio/README.md)
 - [Algorithmic management and institutional leadership monograph](../Algorithmic-Management-Institutional-Leadership/README.md)
