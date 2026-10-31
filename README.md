@@ -39,6 +39,12 @@ The governance dashboard supports public-source intelligence and evidence review
 
 **Research portfolio navigation:** [Explore the consolidated GRI research index](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md). This index connects the existing AI Paradox monograph, institutional governance, field research, Training a Tiger and Tiger Legacy without moving or rewriting the underlying studies.
 
+## Research lineage | ZERO and BZLT institutional governance
+
+GRI's [ZERO foundational research archive](https://github.com/BazeletDave/ZERO) examines human performance, impairment, regulatory assumptions and algorithmic bias. The [BZLT Americas FLA Institutional academic governance matrix](GRI-Research-Journey/Living-AI-Ecosystem/BZLT-Governance-Academic-Traceability.md) extends that intellectual trajectory through dated regulatory and corporate evidence, institutional authority, accountability, contestability and reproducible assurance. [View the Living AI Ecosystem research index](GRI-Research-Journey/Living-AI-Ecosystem/README.md).
+
+The repositories remain separate and retain their original research scopes. This connection does not imply that ZERO findings empirically establish BZLT conclusions. The BZLT documentary register records source qualifications; exact commit CI evidence and independent external assurance must be verified separately before certification claims.
+
 ## Research program | Core themes
 
 | Research area | Selected work |
