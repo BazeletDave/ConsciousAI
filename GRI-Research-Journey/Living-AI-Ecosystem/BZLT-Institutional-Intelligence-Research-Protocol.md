@@ -75,3 +75,16 @@ The [offline validator](bzlt_assurance.py) now checks the [dated edge register](
 * **Release gate:** Metadata control accepted for continued research use. Independent document review, real-CSV Python replay, reviewer signoff and dashboard integration remain pending. Do not present the dashboard as updated or a certification as issued.
 
 **Recommended next verification:** Execute the committed `bzlt_assurance.py` and `test_bzlt_assurance.py` on the exact committed CSV in CI; retain commit SHA, interpreter version, stdout, exit code and reviewer signoff. Only then expose a read-only aggregate to the existing governance dashboard.
+
+
+## Governance first research directive: 31 October 2026
+
+**Research priority:** Institutional governance is the primary dependent question. Revenue, sales, license counts, agricultural assets, transactions and ownership structures are documentary inputs or contextual variables, not substitutes for governance findings.
+
+**Required governance lenses:** (1) allocation and lawful limits of decision authority; (2) accountability and contestability; (3) transparency, disclosure and provenance; (4) institutional change, path dependence and adaptation; (5) independent assurance and reproducible evidence.
+
+**Analytical discipline:** Each quantitative or corporate finding must answer a governance question, identify a dated primary source, distinguish legal compliance from governance quality, state plausible competing explanations, and assign an evidence status. Avoid inference of misconduct, influence or beneficial ownership from association, sales growth, lobbying or transaction timing alone.
+
+**Disclosure:** GRI founder David Grand reports no current interests or involvement in the MMTC industry or entities studied, and declares no conflict of interest regarding them. This declaration is self reported; historical professional experience remains analytically separate. GRI does not represent any prior employer or researched business.
+
+**Dashboard design boundary:** Prioritize governance indicators: authority traceability, source coverage, unresolved contradictions, review/appeal paths, disclosure completeness and independent review status. Sales, licenses and transactions should appear only as supporting context. Keep read only release on hold until source exceptions and CI acceptance are resolved.
