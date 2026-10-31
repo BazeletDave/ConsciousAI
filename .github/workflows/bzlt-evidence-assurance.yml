@@ -6,12 +6,14 @@ on:
       - 'GRI-Research-Journey/Living-AI-Ecosystem/bzlt_assurance.py'
       - 'GRI-Research-Journey/Living-AI-Ecosystem/test_bzlt_assurance.py'
       - '.github/workflows/bzlt-evidence-assurance.yml'
+      - 'GRI-Research-Journey/Living-AI-Ecosystem/BZLT-Governance-Academic-Traceability.md'
   pull_request:
     paths:
       - 'GRI-Research-Journey/Living-AI-Ecosystem/BZLT-Dated-Relationships.csv'
       - 'GRI-Research-Journey/Living-AI-Ecosystem/bzlt_assurance.py'
       - 'GRI-Research-Journey/Living-AI-Ecosystem/test_bzlt_assurance.py'
       - '.github/workflows/bzlt-evidence-assurance.yml'
+      - 'GRI-Research-Journey/Living-AI-Ecosystem/BZLT-Governance-Academic-Traceability.md'
   workflow_dispatch:
 permissions:
   contents: read
