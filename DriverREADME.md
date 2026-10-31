@@ -150,3 +150,22 @@ The fusion of Grand Research Institute’s scientific research and the rapid evo
 ---
 
 ## Appendix: Suggested GitHub Repository Structure
+
+
+---
+
+## Institutional evidence extension: Florida medical access, federal authority and driver impairment (31 October 2026)
+
+This section cross references the existing [GRI institutional adaptation research](GRI-Research-Journey/Living-AI-Ecosystem/02-Institutional-Frameworks-and-Adaptation.md). It is a bounded legal and public safety comparison, **not** a new research program or an assertion that GRI has validated a cannabis impairment detector.
+
+Florida's 2014 limited medical program, 2016 voter approved Amendment 2, and the subsequently implemented MMTC system under Fla. Stat. §381.986 provide the state context. The DOJ's October 30, 2026 announcement of DEA registration for qualifying medical dispensaries across seven states, including Florida, adds a distinct federal authorization layer; it does not establish recreational authorization or identify which Florida companies obtained registrations.
+
+**Four non-equivalent questions:** (1) Is a patient legally eligible for medical access? (2) Is a substance detectable? (3) Is there valid evidence of functional driving impairment at the relevant time? (4) Has an AI monitoring system demonstrated reliable, fair, independently reproducible performance? A positive answer to one is not proof of the others.
+
+**Assurance requirements:** For any future use of driver monitoring evidence, specify measurement timing, independently labeled ground truth, calibration, false positive and false negative rates, relevant confounders, population limits, consent, privacy, appeals and human review. Do not use this policy development to infer a change in crash rates, clinical efficacy, or the effectiveness of existing GRI prototypes.
+
+**Source integrity notice:** Some earlier sections of this living document describe GRI laboratory results, deployed biometric capabilities and academic references that have not been substantiated in this update by independently reviewable primary records. They remain prior author statements, not independently validated findings. Placeholder domains or unverifiable citations must not be relied upon as scholarly evidence. No historical text is silently deleted or relabeled.
+
+**Research anchors:** [Florida Statutes §381.986](https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0381/Sections/0381.986.html); [Florida OMMU](https://knowthefactsmmj.com/); [DOJ October 30, 2026 announcement](https://www.justice.gov/opa/pr/justice-department-announces-issuance-federal-registrations-medical-marijuana-dispensaries); [NHTSA drug impaired driving](https://www.nhtsa.gov/risky-driving/drug-impaired-driving).
+
+**Scope control:** Existing research only; no automated surveillance, ingestion pipeline, new model, public dashboard, or disclosure of confidential datasets.
