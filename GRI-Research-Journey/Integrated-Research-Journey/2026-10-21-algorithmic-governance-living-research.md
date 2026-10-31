@@ -149,3 +149,69 @@ These are **GRI working hypotheses**, not established causal findings. Prespecif
 The previously proposed offline governance engineering milestones now have [committed reference code, a synthetic experiment generator, automated tests, an event schema and evidence register](../Research-Governance/Executable-Governance/README.md). The package also generates a labeled SVG confusion matrix chart and machine-readable synthetic metrics when run. These are implemented **source artifacts**, not claims that tests have been executed in CI, that real driving data were evaluated, or that production governance has been deployed.
 
 The NSA/PHP advisory remains **unverified pending the original notice and asset evidence**. Real-world deployment, longitudinal validation, external ethics review and comparative human-subject research are not represented as complete.
+
+## 31 October 2026 | Global AI political economy, historical trajectory and system-level consequences
+
+**Scope:** Extension of the existing AI Paradox and living governance research, not a new program or assurance product. Research question: how do technology and institutional arrangements make AI capability possible, who controls them, and what consequences emerge? Distinguish local technical success from systemic benefit.
+
+### Historical progression and institutional ownership
+
+| Period | Evidence anchor | Investigative interpretation |
+| --- | --- | --- |
+| 1950s onward | Turing's machine intelligence questions; early game-playing programs | Games offered bounded goals and measurable performance; they do not represent the full complexity of institutional settings. |
+| 1997 | IBM Deep Blue defeated Garry Kasparov | Search and specialized computation were significant; do not conflate this architecture with contemporary deep learning. |
+| 2012–2016 | Neural network advances associated with Hinton and collaborators; DeepMind's AlphaGo defeated Lee Sedol | Investigate talent, compute, reinforcement learning, commercial research organization, and the move from games to broader problems. |
+| 2020–2024 | AlphaFold protein-structure prediction and 2024 Nobel recognition | Examine how scientific usefulness, open access, validation and deployment differ from clinical efficacy claims. |
+| 2022–2026 | Foundation models, coding agents, enterprise gateways and AI infrastructure investment | Examine platform ownership, permissions, supply chains, energy, access, cybersecurity and distributional outcomes. |
+
+Sebastian Mallaby's *The Infinity Machine* is a contextual secondary source on Demis Hassabis and DeepMind; verify edition, pages and individual claims before quotation or detailed attribution. Games were one important experimental pathway, not the sole origin of AI or of medical AI.
+
+### Comparative global investment and participation
+
+Stanford HAI's 2026 AI Index reports **2025 private AI investment** of approximately **US $285.9 billion in the United States, $20.9 billion in Europe, and $12.4 billion in China**. These figures are *private investment as defined by the source*, not total public and private national AI expenditures. Europe is a regional grouping, not a single economy. Do not infer excessive investment from totals alone, or infer low total Chinese investment without accounting for public and state-directed financing. Verify table definitions and revisions against the primary report before external reuse.
+
+**Source:** Stanford HAI, *AI Index Report 2026*, https://hai.stanford.edu/ai-index/2026-ai-index-report
+
+The IMF AI Preparedness Index provides a separate composite measure of preparedness, not investment or actual adoption. Cross-economy research should disaggregate digital infrastructure, human capital, innovation, regulation, energy, language coverage, financing, and access. Do not compare index scores as if they were dollars or treat national averages as individual-level outcomes.
+
+**Source:** IMF, *AI Preparedness Index*, https://www.imf.org/external/datamapper/AI_PI@AIPI
+
+**Proposed longitudinal window:** 2015–2026, with a distinct 2022–2026 generative AI acceleration segment. Collect consistent country-year series before constructing comparative graphs. Record source vintage, currency, PPP versus market exchange conversion, denominator, missingness and uncertainty. Include Africa, Latin America, South Asia and Southeast Asia as substantive comparisons, not merely a residual 'rest of world' category.
+
+### Cross-layer mechanism under investigation
+
+```mermaid
+flowchart TD
+ A[Capital, talent, energy and institutions] --> B[Hardware, compute and connectivity]
+ B --> C[Software, data, models and agents]
+ C --> D[Marketplaces, cloud and enterprise platforms]
+ D --> E[Authorized actions and operational decisions]
+ E --> F[Productivity, scientific benefits, security and distributional effects]
+ F --> G[Institutional response, accountability and revised incentives]
+ G --> A
+```
+
+**Core AI Paradox proposition:** An agent or platform can complete its specified objective correctly while its permissions, supply chain, incentives, or institutional environment produce harmful externalities. Separate intent, authorization, execution, technical success, second-order outcomes and accountability. This is a hypothesis to test, not a presumption that every success is harmful.
+
+**Comparative contemporary observations (31 October):** Reported malicious Claude Code extension distribution through Cursor's marketplace illustrates software provenance and startup execution risks; it does *not* establish that an AI agent wrote the malicious code. A circulated Uber MCP gateway architecture illustrates a proposed or depicted distinction between tool registration/control and runtime invocation; a diagram alone does not establish production control effectiveness or application to driver management. These examples should remain media-reported or diagram-derived observations pending original technical sources and independent confirmation.
+
+### Existing research alignment and evidence discipline
+
+- **AI Paradox / institutional power:** Test whether concentration of compute, investment and platform ownership changes access, authority and externalities.
+- **Algorithmic management / Uber longitudinal research:** Compare technical governance of agents with observable human worker incentives, contestability and economic outcomes without equating the two or inferring proprietary algorithms.
+- **Tiger Assurance / Tiger Legacy:** Use only synthetic, authorized assurance experiments to study artifact integrity, provenance, least privilege, persistence detection and evidence integrity. Do not expose prototype internals or client information.
+- **Nelson institutional lens:** Trace formal rules, informal practices, interests, power, adaptation and enforcement; maintain clear attribution and no claim of academic endorsement.
+- **Global inclusion:** Evaluate whether wider access actually reduces exclusion and bias; access alone does not guarantee representative data, fair outcomes or equitable ownership.
+
+**Testable questions:** (1) Does infrastructure and capital concentration predict dependence after accounting for national income and policy? (2) Do independently verified software and tool permissions reduce unauthorized execution under controlled tests? (3) When does local objective completion diverge from institutional welfare? (4) Which governance mechanisms improve correction speed and distributional outcomes?
+
+**Foundational scholarship and primary research:**
+- Silver et al., *Mastering the game of Go with deep neural networks and tree search*, *Nature* (2016), https://doi.org/10.1038/nature16961
+- Jumper et al., *Highly accurate protein structure prediction with AlphaFold*, *Nature* (2021), https://doi.org/10.1038/s41586-021-03819-2
+- Krizhevsky, Sutskever and Hinton, *ImageNet Classification with Deep Convolutional Neural Networks*, NeurIPS (2012), https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks
+- Raisch and Krakowski, *Artificial Intelligence and Management: The Automation–Augmentation Paradox*, *Academy of Management Review* (2021), https://doi.org/10.5465/amr.2018.0072
+- NIST, *AI Risk Management Framework 1.0* (2023), https://doi.org/10.6028/NIST.AI.100-1
+- Stanford HAI, *AI Index Report 2026*, https://hai.stanford.edu/ai-index/2026-ai-index-report
+- IMF, *AI Preparedness Index*, https://www.imf.org/external/datamapper/AI_PI@AIPI
+
+**Evidence status:** Historical milestones and cited publications are source anchors; economic figures require checking against exact tables for reuse; comparative platform incidents remain attributed observations. No new empirical GRI results, independent validation, deployment or client access is claimed.
