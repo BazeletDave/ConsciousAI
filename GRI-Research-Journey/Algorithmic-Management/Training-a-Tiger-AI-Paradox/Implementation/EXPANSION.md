@@ -93,3 +93,25 @@ Twelve new test methods cover repeated cycles, revision lineage, outages, stalen
 Institutional opportunities include an executive education lab built around actual review decisions, comparative public institution research, an industry robotics assurance pilot, and an independently reviewed benchmark of intervention and correction. Start with one bounded task and one matched jurisdiction comparison. Expand only as the evidence supports the interpretation.
 
 The AI Paradox remains the organizing question: can an institution improve task performance while losing the capacity to recognize error, preserve decision rights, or correct harm? The implementation makes those questions recordable and testable without treating collection volume as learning or technical efficiency as institutional assurance.
+
+
+## Digital legacy and intergenerational institutional stewardship: research extension (1 November 2026)
+
+**Classification:** Public, client-neutral conceptual research. This is an extension of existing AI Paradox and institutional assurance research, not a new project, client engagement announcement, clinical claim, or assurance certification.
+
+**Research proposition:** Digital memory preservation intersects continuing bonds, posthumous identity, delegated authority, cybersecurity, institutional incentives, and intergenerational resilience. Technical integrity alone does not establish psychological benefit, truthful representation, valid consent, or legitimate control.
+
+**Five research lenses:**
+1. Human continuity: examine J. William Worden's fourth task of mourning and continuing bonds as scholarly concepts, without claiming that digital memorialization produces clinical benefit.
+2. AI Paradox: study how synthetic voices, likenesses, and generated narratives can be technically functional yet misrepresent identity or compromise human autonomy.
+3. Assurance: define synthetic scenarios for unauthorized access, impersonation, alteration, disputed authority, evidence tampering, and backup failure.
+4. Institutional governance: investigate legal, social, organizational, and contractual rules for posthumous preservation, interpretation, modification, monetization, and erasure.
+5. Intergenerational justice: investigate portability, affordability, continuity, deletion, and long-term stewardship.
+
+**Research methods and evidence gates:** Conduct literature synthesis and jurisdiction-specific primary-law review; maintain a claim register distinguishing established scholarship, hypotheses, and independently verified test findings. Any future psychological outcome study requires suitable ethics review and validated methods. Any engineering test must use synthetic data and an isolated environment until separately authorized, scoped, and independently verified. No production access or changes to validated engineering baselines are implied.
+
+**Confidentiality and separation:** This public extension identifies no commercial client, prospective client, stakeholder discussion, endorsement, business relationship, or proposed testing arrangement. The independent assurance prototype is not represented as providing cybersecurity services to any organization. Client-specific permissions and potential future validation are governed outside this public research record.
+
+**Scholarly foundations for subsequent source verification:** J. William Worden, *Grief Counseling and Grief Therapy*, 5th ed. (2018); Dennis Klass, Phyllis R. Silverman, and Steven L. Nickman, eds., *Continuing Bonds* (1996); NIST AI RMF 1.0 (2023), doi:10.6028/NIST.AI.100-1; NIST CSF 2.0 (2024), doi:10.6028/NIST.CSWP.29; UNESCO *Recommendation on the Ethics of Artificial Intelligence* (2021). Specific institutional-theory attribution requires verified source review.
+
+**Release boundary:** No new repository, dashboard module, deployment, production integration, autonomous monitoring, or claims of independent validation arise from this research note.
