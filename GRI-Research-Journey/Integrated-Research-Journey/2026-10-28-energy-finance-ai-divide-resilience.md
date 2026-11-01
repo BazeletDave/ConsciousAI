@@ -93,3 +93,39 @@ Copyright in external publications remains with authors and publishers. GRI's in
 **Near-term research protocol:** Establish a dated public-source baseline from official planning, gaming, design, transit, accessibility, environmental and procurement records; classify every proposed technology as announced, approved, contracted, installed, tested or operational only when supported by primary evidence; identify community impacts and alternatives; conduct scenario and synthetic assurance tests before any claim of effectiveness. No scraping, biometric collection, live surveillance, or system access is authorized by this research note.
 
 **Status:** Public-source case extension and proposed evaluation framework only. No live deployment, access to developer systems, validation, endorsement or new project created.
+
+
+### Metropolitan Park | Comparative research integration and evidence maturation (1 November 2026)
+
+This is a continuation of the above case, not a separate publication or repository program. Its purpose is to convert cross-disciplinary visual prompts and conceptual analogies into questions that can be evaluated with traceable evidence.
+
+**Comparative cases and transferability conditions:**
+| Existing GRI research stream | Metropolitan Park application | Transferability limit |
+| --- | --- | --- |
+| Uber and Lyft longitudinal algorithmic management | Arrival management, curb allocation, queue optimization and effects on drivers, visitors and surrounding neighborhoods | Driver offer observations do not establish a Metropolitan Park vendor or operating algorithm |
+| Training a Tiger and Tiger Assurance | Synthetic tests of entry denial, degraded connectivity, cyber recovery, fallback and human override | Simulator success is not production validation or a security certification |
+| AI Paradox and Kiongozi | Analyze optimization spillovers, legitimacy, independent assurance and contestability across the district | Conceptual mechanisms remain hypotheses until independently tested |
+| Global AI divide and Landry Signé scholarship | Assess whether integrated infrastructure broadens access or reinforces a divide in devices, connectivity, skills and purchasing power | Global development research is not automatically causally transferable to Queens |
+| Urban resilience and institutional political economy | Flood, stormwater, energy reliability, public-private returns, accessibility and emergency continuity | Project plans, design review and actual performance are distinct evidence classes |
+| Digital legacy, voice AI and consumer agents | Visitor identity, consent, data retention, accessibility and service continuity | No assumption that voice cloning, biometric identification or agents are proposed by the developer |
+| Robotics and autonomous mobility | Compare service automation, accessible transport, safety and employment outcomes | Photographs of robots and vehicles are scenario illustrations, not project procurement records |
+
+**Evidence maturity gate:** For every future feature or claim record (a) precise claim and date, (b) primary source URL and document revision, (c) decision-making authority, (d) announced versus approved versus contracted versus installed versus operational status, (e) baseline and counterfactual, (f) affected populations, (g) privacy/security/accessibility risks, (h) independent validation and competing evidence, and (i) correction and review date. An absence of evidence is **unknown**, not proof of absence.
+
+**Three research horizons:**
+1. **Could:** Technical feasibility, architectural dependencies, failure modes, energy and data requirements. Evaluate using open specifications and synthetic scenarios.
+2. **Should:** Proportionality, public legitimacy, accessibility, privacy, cybersecurity, labor, inclusion, institutional capacity and environmental tradeoffs. Compare non-digital alternatives.
+3. **Does:** Evidence of actual procurement, deployment, operating performance, costs, adverse events and longitudinal outcomes. Require contemporaneous project records before describing any system as deployed.
+
+**Proposed comparative indicators:** assisted versus self-service admission success; queue distribution rather than only averages; false rejection and appeal resolution; wheelchair-accessible routes and device-free alternatives; local jobs and supplier participation; privacy complaints; breach and recovery metrics; public-space use; energy and water intensity; flood resilience; transit reliability; and community satisfaction. Report subgroup outcomes only where lawful, ethical and statistically supportable.
+
+**Falsifiable propositions for future testing:**
+- MP-H1: Mobile-only access can lower mean entry time but increase exclusion for visitors without compatible devices; a staffed alternative may mitigate the tradeoff.
+- MP-H2: Algorithmic queue optimization can improve venue throughput while increasing external curbside congestion; evaluate venue and neighborhood measures together.
+- MP-H3: Centralized identity and service integration can simplify operations but increase the consequences of a single cyber or vendor failure; evaluate modular fallback.
+- MP-H4: Robot-assisted services can change labor demand and accessibility in opposing directions; assess role redesign, human assistance and measurable outcomes.
+- MP-H5: A leapfrogging strategy is more likely to create broad local value when governance, digital access, resilient utilities and local capability develop alongside the technology; compare alternative institutional explanations.
+
+**Operating discipline:** Add evidence to existing GRI research and source registers, not a new paper. No live feeds, new dashboard tiles, continuous scraping, automated surveillance, repository secrets, image republication or expanded test infrastructure are authorized here. Keep source rights, human review, corrections and independent assurance explicit. The uploaded images remain private conversation references unless separate publication rights and intent are established.
+
+**Next evidence priorities:** Official project and city planning decisions; public design commission submissions; accessible transit and pedestrian plans; flood and stormwater assessments; published procurement or technology announcements; public economic benefit commitments; and dated community submissions. Until retrieved and reviewed, these are research targets, not findings.
