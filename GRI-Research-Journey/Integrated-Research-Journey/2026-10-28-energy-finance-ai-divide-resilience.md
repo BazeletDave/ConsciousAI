@@ -187,3 +187,52 @@ This is a continuation of the above case, not a separate publication or reposito
 **Research controls:** Compare like units and defined periods; separate public grants, procurement, tax incentives and private financing; distinguish basic science from downstream products; separate publication obligations from ownership and licensing rights; use primary funding and patent records, peer-reviewed economic history, World Bank/IMF indicators and documented counterexamples. Do not reproduce unsupported anecdotes about specific executives, salaries or company practices as fact. David Graeber's political economy writings can be examined as a perspective but must be cited by exact work and proposition, not treated as an empirical consensus.
 
 **Integration rule:** This comparative framework enriches the existing GRI institutional and AI Paradox research; it does not establish a new national development project, assert a Metropolitan Park client relationship, or disclose proprietary GRI methods.
+
+
+### Comparative research design | National innovation systems, leapfrogging and urban AI governance (1 November 2026)
+
+**Purpose:** Strengthen methodological rigor within the existing GRI Integrated Research Journey. This is a public conceptual and evidence protocol, not a new study, research grant, client engagement, deployed model or publication of confidential GRI intellectual property.
+
+#### Unit of analysis and causal identification
+
+Separate **country-year** comparisons (United States, China, India, Cuba), **policy or investment episodes** (research grants, public procurement, digital infrastructure, industrial policy), and **urban project-stage** observations (Metropolitan Park, Queens). These units must not be pooled into a single regression or used to claim that a national development mechanism automatically applies to one urban district.
+
+The proposed causal chain is: institutional rules and financing → scientific and infrastructural capability → technology diffusion and commercialization → productivity, access and value capture → distributional and systemic consequences → institutional feedback. Each arrow requires its own evidence and possible counterexamples. Do not infer causation from temporal sequence alone.
+
+#### Proposition and falsification register
+
+| Proposition | Observable mechanism | Candidate indicators | Rival explanation or falsifier |
+| --- | --- | --- | --- |
+| P1: Complementary public investment can increase private innovation | Public R&D, procurement and infrastructure reduce early-stage risk and build absorptive capacity | Public R&D by instrument, patents with government-supported citations, private follow-on investment, productivity | Private capital, education, immigration or market size explain outcomes better; effects vanish under credible controls |
+| P2: Leapfrogging can widen access without equalizing value capture | Adoption accelerates through shared infrastructure while ownership and data rents remain concentrated | Adoption by income and region, local supplier participation, domestic capabilities, digital service reliability | Benefits are broadly distributed or intermediate infrastructure remains indispensable |
+| P3: Institutional capacity moderates AI's social outcomes | Appeals, independent validation and operational resilience alter the costs of automation failure | Error and appeal rates, remediation latency, recovery time, service exclusion | Similar outcomes emerge without these controls or controls are ineffective |
+| P4: Venue optimization may displace externalities | Faster entry and optimized transport change crowd, curb and neighborhood demand | Entry-time distribution, pedestrian access, transit reliability, curb congestion, accessibility | Area-wide effects improve, or exogenous attendance patterns explain changes |
+| P5: Public-private innovation can produce an AI Paradox | Technical efficiency rises while accountability, privacy or systemic resilience deteriorates | Service efficiency jointly with breach, exclusion, concentration and override measures | Both efficiency and social outcomes improve; adverse outcomes cannot be attributed to the intervention |
+
+#### Evidence hierarchy and analytic discipline
+
+1. **Primary administrative evidence:** government budget and grant records, official planning and environmental records, procurement notices, statutory or regulatory decisions and audited disclosures. A filing establishes what was reported or approved, not necessarily delivered.
+2. **Peer-reviewed and scholarly evidence:** use research design, sample, causal identification, limitations and competing findings, not merely an abstract or citation count.
+3. **Industry and project claims:** retain publisher, date, financial incentives, project phase and independent corroboration status.
+4. **GRI field observations:** retain collection method, authorization, provenance and limitations; do not extrapolate anecdotes to population effects.
+5. **Scenarios and synthetic tests:** explicitly label as hypothetical; simulation metrics cannot be promoted to production performance.
+
+For every material claim preserve: claim ID; jurisdiction and unit; period; source title, publisher, URL and access date; document version; original excerpt or page reference; evidence classification; exact measured variable and denominator; counterevidence; confidence rationale; rights and confidentiality status; reviewer and revision history. Public notes may describe this standard without publishing proprietary GRI evaluation instruments.
+
+#### Methods and comparative validity
+
+For country comparisons, consider longitudinal descriptive analysis before causal designs. Where data permit, test fixed effects, lagged covariates, event studies or synthetic controls with documented assumptions and sensitivity analyses. Account for reverse causality (wealth enabling innovation investment), omitted institutional factors, cross-border spillovers, selection into funding and differences in data quality. For Metropolitan Park, begin with a dated document chronology and policy process tracing; before-after comparisons require a real operational baseline and appropriate comparison locations. Never represent an announced technology as a deployed treatment.
+
+#### Scholarly and source crosswalk
+
+- **Landry Signé:** Published research on African development, technological leapfrogging and the global AI divide informs hypotheses about access, infrastructure and domestic value capture. See the existing [public scholarship register](../Research-Governance/Institutional-Source-Registry/LANDRY_SIGNE_PUBLIC_RESEARCH.md).
+- **Roy C. Nelson:** GRI independently applies institutional political economy perspectives to finance, state strategy, ownership and legitimacy. Distinguish the professor's published scholarship from GRI's extensions.
+- **Benjamin W. Stanley:** Urban sustainability, land use, urban political economy and resilience provide scholarly comparators; consult the existing [Stanley and I-10 research note](2026-10-28-stanley-resilient-american-futures-i10-research.md).
+- **ASU College of Global Futures:** The founder's reported Resilient American Futures certificate is an educational credential, not evidence of institutional endorsement or research validation.
+- **Foundational data:** NSF NCSES national R&D statistics (https://ncses.nsf.gov/), OECD Main Science and Technology Indicators (https://www.oecd.org/en/data/datasets/main-science-and-technology-indicators.html), World Bank World Development Indicators (https://databank.worldbank.org/source/world-development-indicators), IMF AI Preparedness Index (https://www.imf.org/external/datamapper/datasets/AIPI) and official Metropolitan Park application, CEQR and PDC records already linked above. These are candidate source families, not a claim that datasets have been downloaded, harmonized or analyzed.
+
+#### Decision gates and publication boundaries
+
+**Gate A: conceptual clarity** requires precise definitions and falsifiable propositions. **Gate B: documentary baseline** requires dated, independently traceable public records and disconfirming sources. **Gate C: measurement** requires comparable variables, denominators and an explicit identification strategy. **Gate D: evaluation** requires transparent uncertainty, sensitivity checks and independent review. **Gate E: publication** requires human authorization, intellectual property review and accurate attribution. Current status: conceptual framework articulated; empirical gates B–E incomplete.
+
+No new automated collection, dashboard module, external access, biometric processing, stakeholder outreach or release of confidential methods is authorized by this methodological extension. Metropolitan Park remains an independent comparative case, not a client or beneficiary.
