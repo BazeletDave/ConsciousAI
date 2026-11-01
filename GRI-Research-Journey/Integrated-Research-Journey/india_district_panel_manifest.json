@@ -1,0 +1,36 @@
+{
+  "source": "PhonePe/pulse data/map/transaction/hover/country/india/state",
+  "years": [
+    2023,
+    2024
+  ],
+  "quarters": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "states": [
+    "karnataka",
+    "bihar"
+  ],
+  "files": 16,
+  "rows": 552,
+  "completeDistricts": 69,
+  "results": {
+    "karnataka": {
+      "districts": 31,
+      "volume2023": 8793134426,
+      "volume2024": 12532813141,
+      "medianDistrictGrowthPct": 56.951082229038064
+    },
+    "bihar": {
+      "districts": 38,
+      "volume2023": 2939147512,
+      "volume2024": 5322262271,
+      "medianDistrictGrowthPct": 84.16011654342608
+    }
+  },
+  "interpretation": "Descriptive PhonePe platform volume, not causal UPI interoperability effect",
+  "verifiedAt": "2026-11-01"
+}
