@@ -1,0 +1,13 @@
+{
+  "source": "NPCI UPI product statistics; six manually transcribed monthly aggregates",
+  "months": "2026-04 to 2026-09",
+  "n": 6,
+  "sum_billion": 140.50049,
+  "endpoint_growth_pct": 7.7039,
+  "monthly_compound_trend_pct": 1.6597,
+  "r_squared": 0.77349,
+  "leave_one_out_monthly_pct": [1.5041, 1.8576, 1.583, 1.6507, 1.3954, 2.0629],
+  "permutation_p_exchangeable_null": 0.033333,
+  "monthly_growth_pct": [3.8266, -2.094, 4.1481, 3.5954, -1.7976],
+  "warning": "Exchangeability is implausible for serial time series. No causal identification."
+}
