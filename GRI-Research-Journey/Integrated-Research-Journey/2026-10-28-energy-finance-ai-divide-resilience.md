@@ -302,3 +302,24 @@ print('Findex 2024 percentage point gaps:',54-36,56-43)
 **Next causal replication gate:** Secure a legally usable district-by-month outcome panel with the historical network integration date, pre-integration incumbent market shares, consistent denominator and cash usage measures. Publish pretrends, event study, clustered uncertainty, placebo integration dates, alternative treatment cutoffs, sample restrictions, and reproducible code. If the necessary underlying data remain inaccessible, record the result as **not independently replicable with currently available data**, not as validated.
 
 **Evidence verdict:** Descriptive growth reproduced and stress-tested; literature triangulated; causal interoperability effect **not independently replicated**; equitable distribution and AI Paradox causal effects **not established**. No private systems or proprietary GRI methods accessed.
+
+
+### GRI independent district-panel construction | India digital payments (1 November 2026)
+
+**Executed source retrieval:** Via the public [PhonePe Pulse](https://github.com/PhonePe/pulse) repository, retrieved and parsed 16 original quarterly district transaction JSON files (2023 Q1–2024 Q4 for Karnataka and Bihar). Dataset is openly released under CDLA Permissive 2.0. Extracted 552 district-quarter rows and found 69 complete eight-quarter district identifiers (31 Karnataka, 38 Bihar). District matching uses exact names within each state; changes in district boundaries, source revisions and platform coverage have not yet been independently reconciled.
+
+| Measure | Karnataka | Bihar |
+| --- | ---: | ---: |
+| Complete districts | 31 | 38 |
+| 2023 PhonePe transactions | 8,793,134,426 | 2,939,147,512 |
+| 2024 PhonePe transactions | 12,532,813,141 | 5,322,262,271 |
+| Aggregate transaction growth | 42.53% | 81.09% |
+| Median district growth | 56.95% | 84.16% |
+
+**Reproducibility:** The companion [district panel script](india_district_panel_replication.py) retrieves source files at the public GitHub URLs, builds a complete district panel, records source SHA256 checksums, calculates district-level annual sums and aggregates, and writes local CSV/JSON outputs. The exact source Git blob identifiers and derived results are recorded in [panel manifest](india_district_panel_manifest.json). Only anonymized aggregate district statistics are used.
+
+**Interpretation:** Higher percentage growth in Bihar is consistent with catch-up from a lower base, but this is **not a causal estimate** of interoperability, inclusion, public investment or digital leapfrogging. Platform share changes, merchant density, income, smartphone penetration, geography, pandemic recovery and district composition are competing explanations. The two states were a deliberately limited exploratory comparison, not a representative or randomly selected national sample. PhonePe activity is not the same as nationwide UPI activity, and transaction counts are not welfare or unique-user outcomes.
+
+**Causal identification status:** No defensible historical treatment assignment, untreated comparison group, pre-treatment trend assessment, merchant or population controls, or instrument was established. A two-state growth difference must not be labeled a difference-in-differences causal estimate. The public district panel enables future panel modeling, but does not independently replicate the IMF's transaction-level network integration effect.
+
+**Quality gate:** Preliminary descriptive replication completed; causal identification, independent source reconciliation, robustness across all states and external replication pending. Keep GRI methods and confidential information protected.
