@@ -236,3 +236,29 @@ For country comparisons, consider longitudinal descriptive analysis before causa
 **Gate A: conceptual clarity** requires precise definitions and falsifiable propositions. **Gate B: documentary baseline** requires dated, independently traceable public records and disconfirming sources. **Gate C: measurement** requires comparable variables, denominators and an explicit identification strategy. **Gate D: evaluation** requires transparent uncertainty, sensitivity checks and independent review. **Gate E: publication** requires human authorization, intellectual property review and accurate attribution. Current status: conceptual framework articulated; empirical gates B–E incomplete.
 
 No new automated collection, dashboard module, external access, biometric processing, stakeholder outreach or release of confidential methods is authorized by this methodological extension. Metropolitan Park remains an independent comparative case, not a client or beneficiary.
+
+
+### Preliminary empirical evidence assessment | 1 November 2026
+
+**Scope:** An initial review of published primary statistical sources and institutional research, not an independently replicated causal study. No confidential data were accessed, no new observations collected, and no econometric model run.
+
+| GRI proposition | Evidence observed | Alternative explanation or missing test | Finding |
+| --- | --- | --- | --- |
+| P1 Public research and private innovation | NSF NCSES reports U.S. R&D expenditure of $937 billion in 2023 and significant public and private financing. The 2024 business R&D survey reports $765 billion of business R&D performance, including $31 billion federally financed. | Spending alone does not identify the causal effect of public financing; education, market demand and private investment may explain outcomes. | Plausible mechanism, causal effect unverified |
+| P2 Leapfrogging, inclusion and value capture | IMF 2025 research on India's UPI finds transaction evidence consistent with interoperability increasing adoption and choice. NITI Aayog reports 17.89 billion UPI transactions in April 2025. A 2026 four-state academic study reports inclusion gains. | Adoption is not equivalent to welfare or equitable ownership; policy shocks, sample selection and distributional outcomes require more analysis. | Adoption mechanism supported, distribution unverified |
+| P3 Assurance reduces adverse AI outcomes | Indian public digital infrastructure analysis highlights risks from inaccurate records and exclusion. | No measured treatment/control evaluation of assurance interventions was reviewed. | Not validated |
+| P4 Urban optimization may displace externalities | Environmental review documents can establish forecast methods and planning assumptions, but not operational outcomes. | Metropolitan Park specific operational baseline, technology deployment and comparable counterfactual remain unavailable in this review. | Not validated |
+| P5 AI Paradox efficiency versus societal harms | Payment adoption benefits and public warnings about data accuracy coexist across sources. | No jointly estimated efficiency and harm outcomes for the same intervention and population. | Hypothesis not causally tested |
+
+**Primary sources and methodological qualifications**
+
+- NSF NCSES, *U.S. R&D Totaled $937 Billion in 2023* (https://ncses.nsf.gov/pubs/nsf26314). The reported $993 billion 2024 total is an estimate. Do not mix inflation adjusted and current dollar figures.
+- NSF NCSES, *Business R&D Performance in the United States Increases to $765 Billion in 2024* (https://ncses.nsf.gov/pubs/nsf27301). Distinguish the organization performing R&D from the institution financing it.
+- OECD, *Overall R&D Growth Stable* (March 2026; https://www.oecd.org/en/data/insights/statistical-releases/2026/03/oecd-overall-rd-growth-stable-government-rd-budgets-decline-and-reorient-towards-defence.html). China reached approximately the U.S. R&D level using one PPP convention for 2024, but about half the U.S. level at market exchange rates. This is a measurement sensitivity, not a verdict about national technological leadership.
+- IMF, *Growing Retail Digital Payments: The Value of Interoperability* (2025; https://www.elibrary.imf.org/view/journals/063/2025/004/article-A001-en.xml). Transaction-level natural experiment evidence supports an interoperability mechanism, subject to identification assumptions and external validity.
+- NITI Aayog, digital public infrastructure analysis (https://www.niti.gov.in/node/1699). Transaction scale and warnings about inaccurate records do not themselves measure a causal social benefit or harm.
+- Balasundaram et al., *The impact of digital public infrastructure on financial inclusion and economic growth in rural India*, *Indian Growth and Development Review* 19(1), 2026, DOI 10.1108/IGDR-12-2024-0213. Authors' difference-in-differences study covers 200 villages in four states; full methods and robustness checks require separate examination.
+
+**Next falsification tests:** Compare U.S. funding sources and downstream outcomes across consistent years with lagged controls; rerun U.S./China R&D comparisons using PPP, exchange rates and intensity; examine India's UPI pretrends and geographic heterogeneity; obtain correctly scoped public Metropolitan Park planning records and actual operational measures if ever available; and test efficiency and adverse outcomes jointly for the same intervention.
+
+**Research maturity:** Conceptual framework complete. Documentary support partial. Harmonized data, independent causal estimation, robustness analysis and external reproduction not complete. No causal validation, deployed technology or GRI institutional affiliation is asserted. Maintain confidentiality and research independence.
