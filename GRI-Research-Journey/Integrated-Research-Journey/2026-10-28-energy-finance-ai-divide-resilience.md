@@ -262,3 +262,28 @@ No new automated collection, dashboard module, external access, biometric proces
 **Next falsification tests:** Compare U.S. funding sources and downstream outcomes across consistent years with lagged controls; rerun U.S./China R&D comparisons using PPP, exchange rates and intensity; examine India's UPI pretrends and geographic heterogeneity; obtain correctly scoped public Metropolitan Park planning records and actual operational measures if ever available; and test efficiency and adverse outcomes jointly for the same intervention.
 
 **Research maturity:** Conceptual framework complete. Documentary support partial. Harmonized data, independent causal estimation, robustness analysis and external reproduction not complete. No causal validation, deployed technology or GRI institutional affiliation is asserted. Maintain confidentiality and research independence.
+
+
+### GRI independent quantitative replication | India UPI and Findex (1 November 2026)
+
+**Executed calculation, not merely a proposed study.** Using six official NPCI monthly UPI transaction volume observations (millions): April 2026 22,346.80; May 23,201.93; June 22,716.07; July 23,658.35; August 24,508.96; September 24,068.38. Source: [NPCI UPI product statistics](https://www.npci.org.in/product/upi/product-statistics), accessed 1 November 2026. This is an independently computed descriptive replication of aggregate figures, not replication of the IMF's confidential or granular transaction-level causal analysis.
+
+**Exact reproducible calculations:** six-month sum 140,500.49 million (140.50049 billion); September versus April +7.7039%. Ordinary least squares of natural log monthly volume on a sequential month index 0–5 yields slope 0.01646093 log points per month, equivalent to 1.6597% compound monthly trend, R-squared 0.77349 and conventional two-sided slope p=0.02091 (n=6). Conventional 95% Student-t slope confidence interval transformed to compound percent units: approximately +0.4103% to +2.9246% monthly. The small, serially ordered sample makes conventional OLS significance fragile; no seasonality, serial correlation or structural breaks were modeled. Do not extrapolate this six-month trend as an annual growth forecast.
+
+**Cross-sectional distribution check:** [World Bank India digital finance country snapshot](https://digitalfinance.worldbank.org/country/india) reports Global Findex 2024 digital-payment participation rates: women 36%, men 54%, a gap of 18 percentage points; poorest 40% 43%, wealthiest 60% 56%, a gap of 13 percentage points. These are independently calculated differences from reported rounded survey rates, not newly estimated population parameters. No survey standard errors, microdata weighting or statistical significance tests were reproduced. Different years and populations mean these disparities must not be attributed to 2026 UPI transaction growth or to UPI specifically.
+
+**Long-horizon descriptive check:** [India Ministry of Finance 24 August 2026 release](https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2302657&lang=1&reg=3) reports 1.78 crore UPI transactions in FY2016–17 and 24,162 crore in FY2025–26. Endpoint ratio is approximately 13,574 times and nine-interval compound annual growth approximately 187.87%, with extreme sensitivity to the tiny initial base and to fiscal-year definitions. This is not a causal estimate.
+
+**Reproduction specification (Python, numpy/scipy):**
+```python
+import numpy as np
+from scipy.stats import linregress, t
+v=np.array([22346.80,23201.93,22716.07,23658.35,24508.96,24068.38])
+fit=linregress(np.arange(6),np.log(v))
+print(v.sum()/1000,100*(v[-1]/v[0]-1),100*np.expm1(fit.slope),fit.rvalue**2)
+ci=t.ppf(.975,4)*fit.stderr
+print(100*np.expm1(fit.slope-ci),100*np.expm1(fit.slope+ci))
+print('Findex 2024 percentage point gaps:',54-36,56-43)
+```
+
+**Inference:** P2 is supported descriptively as rapid payment-system scaling with continuing inclusion gaps; these outcomes coexist but cannot be causally linked from aggregate data. P1, P3, P4 and P5 remain untested by this regression. The IMF's [2025 interoperability study](https://www.imf.org/en/publications/fintech-notes/issues/2025/06/25/growing-retail-digital-payments-the-value-of-interoperability-567814) supplies an independently published causal argument, but GRI has not replicated its underlying transaction-level identification or data. A credible next causal step requires accessible microdata or a justified comparison group, pretrends, controls, sensitivity analysis and independent reproduction. Preserve confidentiality and do not characterize these calculations as proof that UPI or AI caused inclusion disparities.
