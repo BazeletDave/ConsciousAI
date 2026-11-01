@@ -39,12 +39,6 @@ The governance dashboard supports public-source intelligence and evidence review
 
 **Research portfolio navigation:** [Explore the consolidated GRI research index](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md). This index connects the existing AI Paradox monograph, institutional governance, field research, Training a Tiger and Tiger Legacy without moving or rewriting the underlying studies.
 
-## Research lineage | ZERO and BZLT institutional governance
-
-GRI's [ZERO foundational research archive](https://github.com/BazeletDave/ZERO) examines human performance, impairment, regulatory assumptions and algorithmic bias. The [BZLT Americas FLA Institutional academic governance matrix](GRI-Research-Journey/Living-AI-Ecosystem/BZLT-Governance-Academic-Traceability.md) extends that intellectual trajectory through dated regulatory and corporate evidence, institutional authority, accountability, contestability and reproducible assurance. [View the Living AI Ecosystem research index](GRI-Research-Journey/Living-AI-Ecosystem/README.md).
-
-The repositories remain separate and retain their original research scopes. This connection does not imply that ZERO findings empirically establish BZLT conclusions. The BZLT documentary register records source qualifications; exact commit CI evidence and independent external assurance must be verified separately before certification claims.
-
 ## Research program | Core themes
 
 | Research area | Selected work |
@@ -55,6 +49,10 @@ The repositories remain separate and retain their original research scopes. This
 | **Institutional AI adoption and decision authority** | [Treasury, enterprise sport, education and mobility research atlas](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-cross-sector-algorithmic-authority-institutions.md) |
 | **Academic integrity and responsible AI assistance** | [Syllabus-governed research and executable prototype](GRI-Research-Journey/Research-Governance/Academic-Integrity/README.md) |
 | **Evidence and reproducibility** | [Research register and reproducible baseline](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-evidence-maturity-baseline.md) |
+| **Research lineage: ZERO and BZLT institutional governance** | [ZERO foundational research archive](https://github.com/BazeletDave/ZERO) · [BZLT academic governance matrix](GRI-Research-Journey/Living-AI-Ecosystem/BZLT-Governance-Academic-Traceability.md) · [Living AI Ecosystem index](GRI-Research-Journey/Living-AI-Ecosystem/README.md) |
+| **Comparative development, AI divide and urban resilience** | [Integrated research on public investment, India and Africa leapfrogging, IMF AI capital, Shenzhen, Cuba, Dubai, Miami Beach and Metropolitan Park](GRI-Research-Journey/Integrated-Research-Journey/2026-10-28-energy-finance-ai-divide-resilience.md) · [Integrated Research Journey index](GRI-Research-Journey/Integrated-Research-Journey/README.md) |
+
+**Research lineage scope:** ZERO and BZLT remain separate research records with their original scopes. Their linkage does not imply that ZERO findings establish BZLT conclusions; exact CI evidence and external assurance require separate verification. The comparative development research is independent GRI analysis, not a Metropolitan Park engagement or an endorsement by academic institutions.
 
 **Brazil electoral and financial governance:** [Electoral information, financial repricing and institutional governance](GRI-Research-Journey/Integrated-Research-Journey/2026-10-26-brazil-election-financial-market-governance.md) extends the existing platform governance case with documented market reactions, exchange safeguards and a proposed event-study protocol. The financial evidence does not establish AI causation.
 
