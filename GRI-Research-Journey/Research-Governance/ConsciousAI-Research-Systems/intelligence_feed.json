@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "mode": "automated_official_metadata_triage",
-  "generated_at": "2026-11-01T13:22:27.155287+00:00",
-  "source_last_collection_at": "2026-11-01T13:22:27.098308+00:00",
-  "source_registry_sha256": "e65c791cd2bf245b32b8a965a3ab10285d9af750ce04ad4ac96e5d342ffa90ce",
+  "generated_at": "2026-11-01T19:39:35.091756+00:00",
+  "source_last_collection_at": "2026-11-01T19:39:35.035187+00:00",
+  "source_registry_sha256": "dabb975392ab4118edfeab49224134163efe378da119e7831da59c629ef66f04",
   "source_records": 108,
   "matched_records": 12,
   "human_review_required": 12,
