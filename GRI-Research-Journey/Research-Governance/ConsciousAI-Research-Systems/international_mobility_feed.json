@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-31T19:16:36.234511+00:00",
+  "generated_at": "2026-11-01T00:07:21.641631+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -145,6 +145,18 @@
       "category": "international_regulatory",
       "title": "Commission takes a key step forward on 2027 financial support for Ukraine",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2301",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "5a087c28fca30c10ff8d",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "'See it. Say it. Sorted.' marks a decade of keeping Britain's railways safe",
+      "source_url": "https://www.gov.uk/government/news/see-it-say-it-sorted-marks-a-decade-of-keeping-britains-railways-safe",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -378,18 +390,6 @@
       "publication_authorized": false
     },
     {
-      "id": "3c9b4d77a54c305dcd31",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Guidance: Rail infrastructure costs review: terms of reference",
-      "source_url": "https://www.gov.uk/government/publications/rail-infrastructure-costs-review-terms-of-reference",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "0c860ca36c35cdca53f2",
       "source_id": "NHTSA",
       "publisher": "NHTSA",
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
