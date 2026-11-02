@@ -4,6 +4,10 @@
 
 This portfolio organizes applied research on AI governance, institutional accountability, cybersecurity assurance, compliance verification, and delegated agent authority. It is independent GRI research, not an official U.S. Treasury, university, or government program.
 
+## Frontier AI external assurance | Existing institutional research extension
+
+The [Integrated Research Journey's November 2026 comparison](../Integrated-Research-Journey/README.md#november-2026--frontier-ai-external-assurance-and-institutional-accountability) examines proposed SAFA industry standards and the separate voluntary White House audit accord through auditor independence, reproducible evidence, enforcement, market access and global participation. Reported plans are not operational certification or GRI endorsement. No new project or engineering capability is implied.
+
 ## Research integration | Living institutional intelligence
 
 The Treasury-origin exercise is **Case 001 in an expanding GRI institutional research program**, not a current job application. The [GRI Institutional AI Governance repository](https://github.com/BazeletDave/GRI-Institutional-AI-Governance) develops the case and its methods; the [original TTB label-verification repository](https://github.com/BazeletDave/Treasury-TTB-Label-Verification) preserves the historical exercise and illustrative scenarios. Both connect to the [Accelerating AI Governance Paradox](accelerating-ai-governance-paradox-living-research-framework.md), which studies how capability, deployment, and institutional assurance evolve at different rates.
