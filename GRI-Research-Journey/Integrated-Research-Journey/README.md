@@ -4,6 +4,8 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 **Research standards:** Separate primary evidence, reported claims, interpretation and hypotheses. Attribute Roy C. Nelson's original institutional model accurately; GRI's AI applications remain independent extensions requiring empirical validation. Academic references do not imply institutional endorsement.
 
+**Faculty public scholarship crosswalk:** [Published works mapped to the AI Paradox and existing GRI research streams](faculty-public-scholarship-ai-paradox-crosswalk.md). This is an independent GRI interpretation, not a faculty endorsement.
+
 **Thunderbird academic foundations:** [Faculty disciplines, academic provenance and the founder's transition from executive practice to scholarly inquiry](thunderbird-academic-foundations-and-research-provenance.md). This records intellectual influences without implying faculty or university endorsement. The separately submitted Tiger Legacy review commit remains frozen.
 
 **Selected foundations:** [Nelson Model methodological boundaries](nelson-model-methodological-boundaries.md) · [Digital Bretton Woods](Digital-Bretton-Woods/README.md) · [Longitudinal research continuity](2026-10-22-longitudinal-cross-jurisdictional-platform-and-biotech-research.md)
