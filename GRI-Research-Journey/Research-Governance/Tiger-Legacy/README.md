@@ -47,6 +47,10 @@ No client identifiers, confidential audit details, private media, secrets, scans
 
 October 2026 reporting on the [Cursor marketplace malicious extension](https://prod.cursor.com/blog/claude-code-extension-security-notice), corroborated by [Microsoft Security Research](https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/), motivates **proposed** synthetic negative tests for compromised dependency provenance, unauthorized persistence, revocation after exposure, and independently checkable evidence. The [Polymarket third-party script incident](https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/) motivates scenarios involving vendor trust, session authority, emergency containment and audit continuity. These are research stimuli, **not** claims of implemented controls or measured effectiveness. Any tests must remain offline, synthetic, client-isolated and subject to existing release gates.
 
+## Bounded formal evaluation linkage
+
+The [Integrated Research Journey's November 2026 formal research protocol](../../Integrated-Research-Journey/README.md#formal-extension--institutional-assurance-research-protocol-november-2026) specifies four prospective paired synthetic comparisons: delegated authority, independent evidence anchoring, dependency provenance and recovery escalation. These extend existing Tiger Assurance and Kiongozi questions without creating a new module or claiming completed experiments. Before any run, freeze the test baseline and thresholds, preserve benign controls and legitimate task outcomes, and report failure and inconclusive cases. Existing privacy, client isolation and independent verification gates remain mandatory.
+
 ## Next release gates
 
 Independent external reproduction; threat model and trusted identity boundary; durable and independently anchored synthetic evidence; expanded adversarial testing; formal methods and limitations for peer review; explicit human authorization before any production merge or deployment.
