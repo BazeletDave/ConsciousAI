@@ -371,3 +371,7 @@ print('Findex 2024 percentage point gaps:',54-36,56-43)
 **Potential AI Paradox:** greater optimization and investment may coexist with increased energy demand, uneven gains, financial concentration or resilience vulnerabilities. These are hypotheses requiring paired measurements and counterfactuals, not evidence that AI caused observed coastal flooding, national development patterns or any specific urban planning decision.
 
 **Research security:** Only lawful public scholarship and official data; preserve GRI's proprietary methods and confidential relationships. No outreach, monitoring system, client work or new project is implied.
+
+### Institutional leapfrogging and assurance connection
+
+The [integrated assurance synthesis](README.md#institutional-leapfrogging--from-academic-foundations-to-measurable-assurance) extends this development comparison to the institutional capacity to authorize, verify and correct digital decisions. Financial access evidence motivates the question; it does not itself validate AI assurance or national institutional strengthening. The synthesis connects Signé scholarship, the proposed SAFA comparison, documented standards development and the existing GRI country cases without changing this study’s datasets or quantitative results.

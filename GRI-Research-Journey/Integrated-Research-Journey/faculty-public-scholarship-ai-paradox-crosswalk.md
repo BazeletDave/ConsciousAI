@@ -37,3 +37,5 @@ The founder's executive practice informs research questions; Thunderbird academi
 - Treat this crosswalk as a **literature-informed research agenda**. It is not a systematic literature review, exhaustive bibliography or externally reviewed scholarly finding.
 
 **Navigation:** [Thunderbird academic foundations](thunderbird-academic-foundations-and-research-provenance.md) · [Integrated Research Journey](README.md).
+
+**Applied synthesis:** The [institutional leapfrogging crosswalk](README.md#institutional-leapfrogging--from-academic-foundations-to-measurable-assurance) connects these disciplines to standards institutions, the existing three country baselines and bounded assurance evidence. It preserves the distinction between published scholarship, GRI hypotheses, engineering findings and demonstrated institutional outcomes.

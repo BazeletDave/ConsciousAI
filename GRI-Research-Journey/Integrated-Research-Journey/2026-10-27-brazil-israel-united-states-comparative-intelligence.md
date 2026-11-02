@@ -78,3 +78,7 @@ Neither hypothesis is established by these three country cases. Seek counterexam
 Kellogg, Valentine and Christin's [Algorithms at Work](https://doi.org/10.5465/annals.2018.0174), *Academy of Management Annals*, 14(1), 366–410 (2020), supplies the organizational control and contestation lens. March's [Exploration and Exploitation in Organizational Learning](https://doi.org/10.1287/orsc.2.1.71), *Organization Science*, 2(1), 71–87 (1991), supplies a foundation for examining organizational adaptation. [NIST AI RMF 1.0](https://doi.org/10.6028/NIST.AI.100-1) (2023) provides an institutional reference for governing, mapping, measuring and managing AI risks.
 
 Their use here supports conceptual development, not validation of electoral allegations or endorsement of GRI's comparative extension. The Nelson institutional approach already documented in the country cases continues to organize rules, actors, interests, power and adaptation. This contribution is independent GRI research.
+
+### Institutional leapfrogging and matched comparisons
+
+Use the [academic foundations and measurable assurance crosswalk](README.md#institutional-leapfrogging--from-academic-foundations-to-measurable-assurance) to compare the same institutional function across these existing country cases. Record baseline rules, authorized intervention, bounded engineering evidence and observed institutional outcomes separately. This extension adds research questions and source connections; it does not add evaluated country labels, causal effects, new collection jobs or automatic model training.
