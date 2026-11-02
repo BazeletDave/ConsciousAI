@@ -58,3 +58,19 @@ Before execution, freeze the source revision, fixtures, expected outcomes, metri
 ## Status and next gate
 
 **Protocol drafted; experiment not yet executed under this protocol.** Next gate: inspect existing synthetic fixtures and identify the smallest reusable paired comparison without changing deployed interfaces. Obtain separate authorization before any operational integration, material architectural change, new spending or release of restricted material.
+
+## November 2026 extension | Agent financial authority and control claims
+
+**Status:** Prospective synthetic evaluation refinement. The circulated Terence Tao image asserting that AI is “officially beyond our ability to control it” is an unverified quotation and is not treated as primary evidence. A reported Alex Stamos warning about sharing financial credentials with AI agents is a security opinion, not an empirical demonstration of universal agent failure. Verify original interviews and publication details before quoting either as a primary source.
+
+**Research question:** When a synthetic financial agent possesses technically valid authentication, can an independently enforced authorization policy prevent an action outside the user's specific approved purpose, amount, beneficiary, time window or revocation state while allowing legitimate transactions?
+
+**Paired fixture design:** Reuse the existing baseline/governed comparison, with deterministic synthetic identities, accounts, credentials, grants and transaction requests. Include legitimate payments, over-limit transfers, altered beneficiaries, expired and revoked grants, cross-tenant access, replay, instruction injection and missing or misleading observation. No actual financial credentials, institutions, accounts or payments may be accessed. No live agent privileges are authorized.
+
+**Measures:** Report unauthorized execution rate with exact attempted-action denominator, false denial of legitimate transactions, revocation effectiveness, time-to-denial, approval-gate bypass attempts, signed event completeness, end-to-end legitimate task completion and governance overhead. Distinguish a simulated decision from a transaction executed in a controlled mock environment. Include negative controls and independent replay of frozen fixtures and evidence hashes.
+
+**Institutional interpretation:** Technical possession of a credential is not equivalent to institutionally legitimate authority. Analyze who delegates power, who may revoke it, who observes failures, who can contest an action and who bears liability. Interpret these questions using GRI's bounded application of Roy C. Nelson's institutional political economy lens; do not attribute this AI-specific framework to Nelson.
+
+**Research anchors:** [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and [OWASP AI Agent Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/AI_Agent_Security_Cheat_Sheet.html). These provide risk management and engineering guidance, not validation of GRI's implementation. Secondary press reports and viral images remain separately classified pending source-level verification.
+
+**Publication gate:** This section proposes no new project, production feature, continuous ingestion, deployed integration, completed experiment or certification. Preserve historical experiments, client separation, confidentiality, provenance and independent verification requirements.
