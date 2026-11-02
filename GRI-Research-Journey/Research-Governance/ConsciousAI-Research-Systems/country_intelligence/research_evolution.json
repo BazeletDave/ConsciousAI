@@ -1,14 +1,17 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-01T19:39:42.778286+00:00",
+  "generated_at": "2026-11-02T00:44:22.791949+00:00",
   "mode": "evolving_repository_retrieval_with_governed_learning_candidates",
-  "catalog_sha256": "06ea37ec96950a224f16f0a34630b67434634224c806af6c51b0b33438fc2d71",
+  "catalog_sha256": "0181791ab381fe3a39a1a8f60b88057ddfbbbf443d1357854c53675154633187",
   "document_count": 228,
   "truncated": false,
   "changes": {
     "added": [],
     "removed": [],
-    "revised": []
+    "revised": [
+      "GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/EXPANSION.md",
+      "GRI-Research-Journey/Integrated-Research-Journey/2026-10-28-energy-finance-ai-divide-resilience.md"
+    ]
   },
   "documents": [
     {
@@ -84,7 +87,7 @@
     {
       "path": "GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/EXPANSION.md",
       "title": "GRI Integrated Research and Implementation Dossier",
-      "content_sha256": "b6170f81641fc38e9226924ae7360faa73f5ecfebd7a4b2664dff3ba2d104530",
+      "content_sha256": "44360fd2cd89cd9bcd0d66ab4f4114f26b96670efb36b86e3aaa786b90930e47",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Algorithmic-Management/Training-a-Tiger-AI-Paradox/Implementation/EXPANSION.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -581,7 +584,7 @@
     {
       "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-28-energy-finance-ai-divide-resilience.md",
       "title": "Energy, Development Finance, and the Global AI Divide",
-      "content_sha256": "4e533cccaba38093907c26dee8ac3a8b8ac67e208bcfd0b01eb1cf3035afc1aa",
+      "content_sha256": "7281ec21ec886685f8f4036d1da08a478c85208059de90a3e3612a4a0989de3f",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-28-energy-finance-ai-divide-resilience.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -1611,7 +1614,7 @@
   "evidence_connections": [
     {
       "record_id": "fdbba33cc5d84ec987fcb052",
-      "content_sha256": "09ffe505856ef7b39f4e4db5d9f5f3a09d034249fa1bd5651e2adedcedd11688",
+      "content_sha256": "fbc3fbacd404bd0157d4f2da7377d229658c5abcaacceb856e1b9fd072c01ef3",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1782,7 +1785,7 @@
     },
     {
       "record_id": "de3d3a58405cef75e233e43e",
-      "content_sha256": "32acedaaefaa5f6581cb8a80092a3f6d3d07a3bfa67061e8cb1d854f43b028de",
+      "content_sha256": "ea57b1e32ca648f46c8008fd06d5ae43607e77b5e25700f6a84b76111a383b13",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1887,7 +1890,7 @@
     },
     {
       "record_id": "bff1a7e46550fb3eb2151285",
-      "content_sha256": "8a0cdbccd4ba7fab5620ce8459ced3c1647545b28506e482f52b8a5a391dcb2a",
+      "content_sha256": "b39496aec013b573199a9c3d5394eb915e8796688691c82fddbbb7db9d5fcf27",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1944,7 +1947,7 @@
     },
     {
       "record_id": "bd07bbe5d81439c7d312c64c",
-      "content_sha256": "e3bf7e5b00c66414af6b309c408ef05915b065b42c3bc97dec60e9dd4fe4e955",
+      "content_sha256": "33b2c343c095595d76f48f174fefee86ecfa2e69d08188061fc93dccd1a31d68",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2130,7 +2133,7 @@
     },
     {
       "record_id": "958e2bc1a020d8f707f85732",
-      "content_sha256": "ade549193a81f27c8fe3997d54424bf50c263eb37f7144e220b5e51d3506c13e",
+      "content_sha256": "dbc6b2d71d9db550381681f2338ede122122c3c3de08ec9c04c32e1bfe17e8bf",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2187,7 +2190,7 @@
     },
     {
       "record_id": "91efdcd514fb297ecd8601d8",
-      "content_sha256": "3c7a734f5b803ff5403c2747ff6b69595c20f4a74881d765a9f30b0b2244191a",
+      "content_sha256": "915acc3d325b60d10691336a55c57513d75caea002ad02248c2cebbd2db2877f",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2300,7 +2303,7 @@
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-28-energy-finance-ai-divide-resilience.md",
           "title": "Energy, Development Finance, and the Global AI Divide",
-          "content_sha256": "4e533cccaba38093907c26dee8ac3a8b8ac67e208bcfd0b01eb1cf3035afc1aa",
+          "content_sha256": "7281ec21ec886685f8f4036d1da08a478c85208059de90a3e3612a4a0989de3f",
           "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-28-energy-finance-ai-divide-resilience.md",
           "status": "public_repository_document_not_independently_validated",
           "similarity": 0.1718,
@@ -2343,7 +2346,7 @@
     },
     {
       "record_id": "4f7851f3ba77b536fb26b041",
-      "content_sha256": "ae17930bb307bbe697139940064bce6b74254706659de98aa4814ea13837efb1",
+      "content_sha256": "13306c77232c7ad53a1b9479295ec034d3c476fabf5e43e8bb808a0d9ea1e17c",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -2376,7 +2379,7 @@
     },
     {
       "record_id": "422244d2169f151459cfe81a",
-      "content_sha256": "812a1e5c354e19ac867306199eb8c802fc7c81b72c569dfff88d4cbb2a3ba307",
+      "content_sha256": "ac05643250aa6be88137d46c96950407985924ad62e30010660f9227ec52933f",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2499,7 +2502,7 @@
     },
     {
       "record_id": "39167e27616fc0205401a9b2",
-      "content_sha256": "7d40abef9fa59b0173ad3eb1b9f2be8908a8a9a3fb25e5aa8ba223d3b7db5aa6",
+      "content_sha256": "538dfbda6df9f8568d73d99543479616edc4c860e6201aaa9b8963e482935ca5",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2709,7 +2712,7 @@
     },
     {
       "record_id": "10b965dff3bc3da58f7d9f9d",
-      "content_sha256": "d452bce96e111e368cce3073eaf72a7d2c1ce59043da796781e6caeee479446d",
+      "content_sha256": "0aa257e87f95d50bcced6935d2ac371819ef7af65c28f3ba61c31d749cd79ff4",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
