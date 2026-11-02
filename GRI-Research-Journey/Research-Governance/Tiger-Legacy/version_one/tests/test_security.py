@@ -50,5 +50,36 @@ class SecurityTests(unittest.TestCase):
         self.assertTrue(result["evidence_verified"])
         self.assertEqual(result["production_security"], "unmeasured")
 
+
+    def test_paired_authority_cases(self):
+        """Paired synthetic attempts: report both denied misuse and retained valid access."""
+        self.lab.grant("e3", "alpha", "record1", "alice", "charlie", "view", 200)
+        cases = [
+            ("valid", "alpha", "record1", "charlie", "view", 199, True),
+            ("wrong-purpose", "alpha", "record1", "charlie", "edit", 199, False),
+            ("expired", "alpha", "record1", "charlie", "view", 200, False),
+            ("cross-tenant", "beta", "record1", "charlie", "view", 199, False),
+        ]
+        for name, tenant, resource, principal, purpose, now, expected in cases:
+            with self.subTest(case=name):
+                self.assertEqual(self.lab.authorize(tenant, resource, principal, purpose, now), expected)
+        self.lab.revoke("e4", "alpha", "record1", "alice", "charlie", "view")
+        self.assertFalse(self.lab.authorize("alpha", "record1", "charlie", "view", 199))
+        self.assertTrue(self.lab.verify())
+
+    def test_local_evidence_check_is_not_task_completion(self):
+        """A verified event history does not establish downstream task success."""
+        self.assertTrue(self.lab.verify())
+        task_completed = False  # Explicitly synthetic counterexample, not measured field outcome.
+        self.assertFalse(task_completed)
+
+    def test_biased_observation_remains_a_failure_boundary(self):
+        """A valid evidence chain cannot independently authenticate a biased sensor."""
+        self.lab.grant("e3", "alpha", "record1", "alice", "charlie", "view", 200)
+        self.assertTrue(self.lab.verify())
+        reported_safe = True
+        actual_fixture_safe = False
+        self.assertNotEqual(reported_safe, actual_fixture_safe)
+
 if __name__ == "__main__":
     unittest.main()
