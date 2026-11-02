@@ -43,6 +43,8 @@ The governance dashboard supports public-source intelligence and evidence review
 
 **Formal research advancement:** The [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md) now contains a bounded, prospective evaluation protocol connecting the existing AI Paradox, Kiongozi and Tiger Assurance programs. It defines hypotheses, paired synthetic comparisons, evidence maturity, rival explanations and independent replay requirements. No new project or experimental validation is claimed.
 
+**Agentic financial authority and control boundaries:** The [existing AI Paradox comparative evaluation protocol](GRI-Research-Journey/Research-Governance/Tiger-Legacy/AI-PARADOX-COMPARATIVE-EVALUATION-PROTOCOL.md#november-2026-extension--agent-financial-authority-and-control-claims) now specifies a prospective, synthetic test of credential possession versus legitimate delegated authority, revocation and independently verifiable action limits. Viral claims are not treated as verified primary evidence; no experiment or deployment is claimed.
+
 **Frontier AI assurance and institutional accountability:** [November 2026 source-qualified institutional comparison](GRI-Research-Journey/Integrated-Research-Journey/README.md#november-2026--frontier-ai-external-assurance-and-institutional-accountability) examines proposed industry auditor standards and a separate voluntary audit accord within existing AI Paradox, Kiongozi and Tiger Assurance research. No new program or validated audit capability is claimed.
 
 ## Research program | Core themes
