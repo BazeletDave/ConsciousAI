@@ -39,9 +39,9 @@ These are distinct comparative contexts, not claims of equivalent harm, deployed
 
 ## 3. Digital legacy as an institutional memory case
 
-The user supplied GRI working document *Ethical Voice & Memory Storage in the Age of AI* described potential voice avatars, memory organization, storytelling prompts, ethics review, consent, privacy and research partnerships in a Family Legacy application context. Its proposals are useful as a historical input to **GRI's independently authored governance research**. References in that earlier document to a partnership, certification, ethics panel, symposium, legal compliance or clinical benefits must not be read as verification that those arrangements or outcomes are operational.
+An earlier exploratory GRI working document on ethical voice and memory storage described potential voice avatars, memory organization, storytelling prompts, ethics review, consent and privacy in a hypothetical digital legacy context. These concepts are historical inputs to **GRI's independently authored governance research**, not evidence of an operational partnership, certification, ethics panel, clinical benefit or implemented product.
 
-GRI's research concepts and this new synthesis are distinct from any company's software, branding, product architecture, source code, customer data or proprietary methods. Family Legacy is an illustrative application context; a consulting role does not itself establish ownership of another party's intellectual property, and this paper does not assert contractual IP rights.
+GRI's research concepts and this synthesis are distinct from third-party software, branding, product architecture, source code, customer data and proprietary methods. Hypothetical applications do not establish a commercial relationship, contractual intellectual property rights or authorization to access third-party systems.
 
 **Memory integrity requirements for study:** preserve immutable source recordings where lawful and appropriate; attach origin, date, consent scope and transformation history; visibly distinguish authentic recordings, transcripts, summaries and synthetic representations; enable correction, revocation where feasible, and authorized access; assess effects on relatives and vulnerable users; and avoid presenting grief support features as clinically effective without supporting research.
 
