@@ -62,3 +62,37 @@ The following are **GRI operationalizations**, not claims that faculty designed 
 - [ ] All repository quality, rights/security and research-system workflows green.
 
 **Interpretation:** A green CI workflow demonstrates tests passed on a particular revision; it is not proof of overall ML/RL correctness, institutional legitimacy, or external certification.
+
+## November 2026 milestone | Assurance evidence and institutional validation crosswalk
+
+**Milestone classification:** Documentation and evaluation design only. This extends the existing Institutional Assurance Framework, Tiger Assurance and [Integrated Research Journey](../../Integrated-Research-Journey/README.md#november-2026--institutional-assurance-under-accelerating-ai-change). It is not a new research program, implemented control, independent certification, completed validation or production permission.
+
+### Research contribution and falsifiable claims
+
+**Question:** Under which conditions does technical evidence support institutionally legitimate and durable assurance as AI models and delegated authority change? Nelson's institutional political economy is the principal lens for incentives and decision power; Packenham's legal formal, economic, administrative, social system and political culture approaches classify institutional capacity. GLOBE provides carefully bounded cross-cultural leadership questions; Moore's Law is a historical analogy for technological acceleration, not a measured AI performance law. The NIST AI RMF and Generative AI Profile supply recognized risk management terminology. These sources inform GRI's independent operationalization and do not endorse it.
+
+| Institutional claim | Scholarly or governance lens | Required evidence and proposed assessment | Inconclusive or failure signal |
+| --- | --- | --- | --- |
+| Independent review can challenge a developer's safety claim | Nelson: bargaining power and institutional incentives; NIST Govern | Reviewer appointment and removal terms, conflict disclosures, audit access, publication rights, documented dissent | Sponsor may suppress adverse findings or review access is insufficient |
+| Technical validity does not establish legitimate delegated authority | Packenham: legal formal and administrative capacity; existing GRI AI Paradox | Synthetic authority chain, consent scope, revocation and contestable human override, plus named accountable decision owner | Valid technical record with no authorized remedy or appeal |
+| Assurance conclusions survive relevant system change only when re-evaluated | NIST Measure and Manage; bounded technological acceleration hypothesis | Version identifiers, configuration and change log, materiality trigger, dated retest and residual risk record | Prior result applied to materially changed system without reassessment |
+| Audit evidence can be independently reproduced within its stated scope | NIST Govern and Measure; Tiger Assurance evidence provenance | Reproducible synthetic inputs, method version, expected outputs, reviewer replay and discrepancy log | Independent reviewer cannot reproduce a claimed outcome |
+| International standards do not systematically exclude affected institutions | Signé: global AI divide; GLOBE: cross-cultural institutional differences | Participation rules, language and regional coverage, infrastructure assumptions, access costs and appeals | Material coverage gaps unacknowledged; no evidence of meaningful participation |
+| Industry and public funding can both create distinct independence risks | Comparative tobacco research governance and vehicle safety institutions | Funding and appointment disclosure, conflict controls, adverse-result publication and corrective authority | Funding source treated as proof of independence or misconduct without evidence |
+
+### Historical and repository traceability
+
+- **Institutional lineage:** [2015 SpaceX/DeepMind governance discussions through 2026 frontier AI standards proposals](../../Integrated-Research-Journey/README.md#november-2026--frontier-ai-external-assurance-and-institutional-accountability). Treat overlapping participants and chronology as contextual evidence, not proof of a continuous organization.
+- **Existing synthetic implementation:** [Tiger Legacy research record](README.md) describes authorization, revocation, integrity checks and CI evidence. Verify the current commit and test run before repeating any numeric pass counts; those tests do not establish frontier model safety.
+- **Existing institutional foundations:** [Nelson methodological boundaries](../../Integrated-Research-Journey/nelson-model-methodological-boundaries.md) and [institutional AI governance research](../../institutional-ai-governance-assurance/README.md) provide source and interpretive constraints.
+- **Established external references:** [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework), [NIST Generative AI Profile](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence), [WHO FCTC Article 5.3 guidelines](https://fctc.who.int/publications/m/item/guidelines-for-implementation-of-article-5.3), and [OpenAI's Governance of Superintelligence essay](https://openai.com/index/governance-of-superintelligence/). The tobacco comparison concerns institutional conflicts, not an assertion of equivalent industry conduct.
+
+### Validation gates and milestone sequence
+
+1. **Evidence register:** For each case, record source date, source type, exact claim, competing interpretation, provenance, model or policy version, and limitations. Status: evaluation design established; complete source-level verification remains to be done.
+2. **Case comparison:** Code at least the early DeepMind governance proposal, 2023 Frontier Model Forum and reported 2026 SAFA proposal using common independence, access, authority and participation criteria. Status: proposed analysis, not a completed comparative dataset.
+3. **Synthetic assurance protocol:** Map already implemented Tiger Assurance tests to the above criteria and identify missing institutional measurements. Any additional test or code change requires separate review and authorization. Status: proposed mapping, not new test execution.
+4. **Independent academic and technical scrutiny:** Seek confidential methodological review, reproduce an exact commit and CI run, document dissent and revisions. Status: future validation gate; no reviewer endorsement claimed.
+5. **Public research release:** Publish only source-verifiable findings, clear negative results and aggregate synthetic evidence after authorized review. Never disclose confidential clients, proprietary assurance methods, credentials or restricted audit materials.
+
+**Milestone acceptance:** A traceable crosswalk and validation protocol are documented here. Completion of evidence collection, case coding, additional tests and external review must be separately recorded with dates and verifiable artifacts. Do not promote planned activities to completed results.
