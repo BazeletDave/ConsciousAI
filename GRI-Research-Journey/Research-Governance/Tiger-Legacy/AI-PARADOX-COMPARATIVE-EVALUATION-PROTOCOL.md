@@ -45,6 +45,16 @@ Map each failure to (a) human intent and competing interests, (b) institutional 
 
 Stop the comparative run if fixtures unexpectedly contain real client data, secrets, personally identifying material or operational credentials; if execution would touch live services; or if a proposed change modifies frozen historical evidence. Never grant autonomous operational control. Before publication, confirm reproducibility, review limitations and approve only public metadata and nonconfidential results. GRI's internal decisions, reviewer identities and proprietary evidence remain confidential. External academic researchers may request controlled private verification under the [existing policy](../ConsciousAI-Research-Systems/CONFIDENTIAL-REVIEW-RECONCILIATION.md).
 
+## Next controlled evaluation: Training a Tiger and Tiger Legacy
+
+This authorized extension retains the frozen Training a Tiger findings unchanged. Its independent observation gate detected severe hidden friction under trustworthy measurements, but failed when probes were biased. Its local recovery validation passed approximately 99.7 percent of recovery attempts while counterfactual task success was approximately 21.4 percent of assigned hidden shift cases. These findings motivate new evaluation criteria; they are not cybersecurity performance estimates.
+
+The next comparison will use the same deterministic synthetic inputs for baseline and governed conditions. It will measure unauthorized action allowance, false denial of valid actions, detection of modified evidence, recovery completeness, legitimate task completion, and additional intervention costs. Negative controls must include valid authorization, absent or biased observations, and locally valid recovery that fails the full task objective.
+
+Before execution, freeze the source revision, fixtures, expected outcomes, metrics and decision thresholds. Retain exact denominators, environment, logs, deviations and a reproducible result digest. Distinguish developer-run checks from independent external reproduction. Do not modify original experiment archives, expose private information, access live systems or claim operational effectiveness.
+
+**Status:** Experimental design specified; execution and independent validation not yet demonstrated.
+
 ## Status and next gate
 
 **Protocol drafted; experiment not yet executed under this protocol.** Next gate: inspect existing synthetic fixtures and identify the smallest reusable paired comparison without changing deployed interfaces. Obtain separate authorization before any operational integration, material architectural change, new spending or release of restricted material.
