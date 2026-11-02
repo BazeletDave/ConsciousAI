@@ -85,55 +85,30 @@ Future matched observations should record consented, anonymized routing progress
 **Comparative design for existing Uber/Lyft work:** Pair timestamped offer screenshots with archived NWS warning polygons and issuance/expiration times, FL511 roadway incidents, local road closures and radar snapshots. Compare severe-weather and nonwarning offers matched by origin, destination band, product tier, day/time and distance; code warning visibility, payout per mile, cancellation language, return exposure and driver decision. Maintain an explicit negative-case register where warnings were shown, offers withheld, or route avoided hazards. Obtain independent reviewer replication before claiming platform behavior, causal effects or safety failures. This is a bounded case addition, not a new project, recruitment, executed experiment or verified company-specific defect.
 
 **Cross-program interpretation:** The AI Paradox here is a potential mismatch between the platform's monetized offer presentation and the human driver's responsibility to integrate external emergency information. The documented result is an offer and hazard context, not proof of unsafe dispatch optimization. Cross-reference the existing five-dimension synthesis and institutional leadership work; no change to Tiger Legacy, operational dashboards or production engineering is implied.
-Public Engineering Evidence and the Dispatch Black Box
 
-GRI Algorithmic Mobility Paradox | Research Extension | November 2, 2026
+### Public Engineering Evidence, Decision Opacity and Institutional Accountability
+**GRI Algorithmic Mobility Paradox | November 2, 2026 | Existing research extension**
 
-This analysis extends the Grand Research Institute’s existing longitudinal Uber and Lyft research and its institutional AI governance framework. It does not establish a new research program.
+#### Alignment with the Grand Research Institute mission
+GRI independently investigates how artificial intelligence, algorithmic management and digital infrastructure reshape organizational authority, economic opportunity and institutional accountability. This section applies that mission to observable rideshare decisions, using documented field observations, public engineering scholarship, comparative political economy and reproducible analysis. Human authority, accountability and contestability remain central. This is an extension of existing GRI research, not a separate project.
 
-Engineering Visibility and Decision Opacity
+#### Engineering visibility does not remove the dispatch black box
+GRI examines public Uber Engineering publications and documented driver facing offers. Engineering publications can substantiate company descriptions of specific tools and architectures, but do not disclose the proprietary logic, inputs or objectives responsible for a particular dispatch or compensation decision. GRI does not claim internal access, reverse engineering, privileged verification or endorsement by Uber or any academic institution. Professional exposure and published technical detail are not substitutes for decision level evidence.
 
-GRI draws upon longitudinal driver observations, documented platform offers, publicly available Uber Engineering publications, and institutional governance research.
+#### November 2 severe weather observation
+A contributor supplied UberX Priority offer displayed $265.81 for a 356.2 mile, 5 hour 9 minute journey to Jacksonville. Separately supplied television coverage and public warnings documented flooding affecting portions of Florida's eastern corridor. The offer screenshot did not visibly display a flood warning or the economics of an unpaid return. The precise temporal and geographic overlap between the offer and active warnings remains to be independently verified. Neither trip acceptance nor route safety at the offer time is established. No inference is made about whether Uber's internal systems considered weather or why the offer was generated.
 
-Although published engineering materials provide insight into particular technical architectures and operational capabilities, Uber’s proprietary dispatch and compensation decision mechanisms remain inaccessible to independent researchers.
+#### Institutional governance question
+**How are information, decision authority, economic exposure, operational responsibility and avenues for recourse distributed when workers receive consequential algorithmically mediated offers but cannot inspect the underlying decision mechanisms?**
 
-Consequently, GRI does not claim access to Uber’s internal algorithms, model parameters, optimization objectives, or the specific decision logic responsible for individual offers.
+The AI Paradox proposition is that greater engineering sophistication and publicly described technical capabilities may coexist with limited decision level explainability and unequal access to relevant risk information. This is a governance hypothesis to test against competing explanations, not a finding of misconduct or algorithmic intent.
 
-The AI Paradox: Institutional Governance
+#### Evidence classification, confidentiality and reproducibility
+1. **Observed:** Preserve exact driver facing offer fields, visible disclosures and original provenance without exposing passenger identifying information.
+2. **Publicly documented:** Cite dated engineering publications, National Weather Service warnings and transportation advisories; record their scope, limitations and publication times.
+3. **Calculated:** Label hypothetical empty return mileage, fuel costs and time exposure separately from actual trips or net earnings.
+4. **Inferred:** Identify hypotheses about information asymmetry, human discretion and institutional risk allocation as interpretations, not verified platform mechanisms.
+5. **Restricted:** Exclude confidential contacts, private correspondence, unpublished technical material and protected research records from the public repository.
+6. **Testable:** Compare matched offers with and without severe weather, independently validate warning timing and route exposure, document negative cases and seek independent reproduction before causal claims.
 
-The central research proposition is that increasing technological sophistication does not necessarily produce corresponding improvements in decision transparency, institutional accountability, or meaningful human discretion.
-
-Public architectural disclosure may coexist with limited explainability of consequential managerial decisions.
-
-Within algorithmically managed transportation systems, this raises questions concerning the distribution of decision authority, information, economic exposure, operational responsibility, and opportunities for recourse.
-
-November 2, 2026: Severe Weather Observation
-
-A documented UberX Priority offer of $265.81 for an estimated 356.2 mile journey to Jacksonville was presented during a period of significant flooding and public emergency communications affecting portions of Florida’s eastern corridor.
-
-The driver facing offer displayed compensation and travel estimates but did not visibly communicate flood exposure or return journey economics.
-
-This observation does not establish whether Uber’s internal systems incorporated weather information, why the offer was generated, or whether the entire proposed route was unsafe.
-
-It provides an empirical basis for investigating the relationship between algorithmically mediated commercial opportunities, external public safety information, and the operational risks borne by drivers.
-
-Research Integrity and Confidentiality
-
-GRI maintains the following evidentiary boundaries:
-
-1. Public engineering publications are distinguished from independent technical verification.
-2. Driver observations are distinguished from inferred algorithmic mechanisms.
-3. Economic scenarios are distinguished from observed earnings and expenses.
-4. Public emergency warnings are assessed against their documented geographic and temporal scope.
-5. Confidential relationships, private communications, unpublished materials, and identifying passenger information remain excluded from public research.
-6. Engineering proximity or published technical knowledge does not constitute privileged algorithmic access or institutional endorsement.
-
-Institutional Research Contribution
-
-The resulting research question is:
-
-How do algorithmically managed transportation platforms distribute information, decision authority, economic exposure, and operational responsibility when their underlying decision mechanisms remain inaccessible to the individuals affected?
-
-This question remains within GRI’s established AI Paradox, algorithmic management, Uber and Lyft longitudinal research, and institutional accountability frameworks.
-
-Research status: Exploratory, observational, and hypothesis generating. No causal finding concerning Uber’s proprietary dispatch mechanisms is asserted.
+**Research status:** Exploratory and observational. No new participant recruitment, engineering deployment, internal algorithm access, or causal finding is asserted. This section complements the existing five dimension evidence synthesis and GRI institutional leadership research.
