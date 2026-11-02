@@ -39,6 +39,8 @@ The governance dashboard supports public-source intelligence and evidence review
 
 **Research portfolio navigation:** [Explore the consolidated GRI research index](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md). This index connects the existing AI Paradox monograph, institutional governance, field research, Training a Tiger and Tiger Legacy without moving or rewriting the underlying studies.
 
+**November 2026 research integration:** The [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md) now connects independently reported developer-tool supply chain, third-party platform and digital financial infrastructure incidents to existing AI Paradox and [Tiger Legacy](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md) research. These are source-qualified comparative observations, not new programs or validated prototype capabilities.
+
 ## Research program | Core themes
 
 | Research area | Selected work |
