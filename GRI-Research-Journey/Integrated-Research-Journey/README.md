@@ -16,6 +16,29 @@ The 1 November Sunday Funday briefing is an **intake and synthesis observation**
 
 **Existing research placement:** These cases inform the AI Paradox's access → capability → authority → consequences → feedback sequence, institutional financial governance, and the existing [Tiger Legacy synthetic assurance research](../Research-Governance/Tiger-Legacy/README.md). They do not demonstrate that GRI prototypes prevent comparable incidents. The briefing's other observations, including robotic surgery, AI-generated code, education and AI access, remain **unverified leads** until original sources and relevant operational context are recorded. No client information, private prototype details or security-sensitive implementation is disclosed here.
 
+## Formal extension | Institutional assurance research protocol (November 2026)
+
+**Scope:** This is a bounded methodological extension of the existing AI Paradox, Kiongozi and Tiger Assurance research, not a new program, platform or completed empirical study.
+
+**Research question:** Under what conditions do independently verifiable authorization, evidence integrity and recovery controls improve accountability when decisions depend on autonomous software or third-party infrastructure?
+
+**Framework:** The GRI access → capability → authority → consequences → feedback sequence supplies the proposed causal structure. Roy C. Nelson's institutional political economy informs analysis of incentives and constraints, without attributing GRI hypotheses to Nelson. Kiongozi evaluates institutional legitimacy and oversight; Tiger Assurance supplies controlled synthetic testing.
+
+| Hypothesis | Primary measure | Paired synthetic comparison | Rival explanation |
+| --- | --- | --- | --- |
+| H1: Scoped delegation reduces unauthorized actions | Unauthorized action acceptance rate; legitimate task completion | Explicit scope, expiry and revocation versus permissive authorization | Restrictions block legitimate tasks without improving net outcomes |
+| H2: Independent evidence anchoring improves tamper detection | Tamper detection sensitivity and false alarm rate | Independently anchored record versus self-attested record | More comprehensive logging, rather than independence, explains gains |
+| H3: Dependency provenance controls improve containment | Compromised dependency detection rate and containment latency | Validated versus altered synthetic dependency manifest | Operator configuration is the main determinant |
+| H4: Escalation and recovery improve safe restoration | Recovery completeness, time to safe state, task completion | Human escalation and recovery controls versus baseline | Escalation increases delay without meaningful safety gain |
+
+**Pre-registered evaluation sequence:** Freeze exact commit, test fixtures, policy versions and expected legitimate outcomes; define thresholds before running tests; execute paired conditions on identical deterministic scenarios with benign and adversarial controls; capture denominators, false positives, false negatives, legitimate task completion, detection and recovery times; independently replay against a separate trusted reference; publish deviations and null findings. No effect size, statistical significance, external validation or operational efficacy is claimed before measurement.
+
+**Evidence maturity:** E0 briefing lead; E1 secondary reporting; E2 primary technical or institutional disclosure; E3 reproducible synthetic execution with exact commit and logs; E4 documented external independent reproduction; E5 authorized real-world validation. Higher evidence levels do not establish causality by themselves.
+
+**Controls:** No live exploitation, third-party scanning, production integration, client identifiers, confidential internals or publication of restricted material. Incidents motivate hypotheses but do not prove them. Preserve original Tiger experiment baselines and require separate human authorization for deployment.
+
+**Methodological references:** [NIST AI RMF 1.0](https://doi.org/10.6028/NIST.AI.100-1); [Nelson model attribution and methodological boundaries](nelson-model-methodological-boundaries.md); [Tiger Legacy research methods](../Research-Governance/Tiger-Legacy/RESEARCH-METHODS-AND-RESULTS.md). These references do not imply endorsement or certification.
+
 ## Chronological research register
 
 > **21 October 2026 | Sensor classification and governance:** [Synthetic IMU Random Forest research prototype](../Research-Governance/Motion-Classification/README.md) implements six-axis feature extraction, a calibrated classifier, deterministic synthetic data, evaluation scaffolding and tests. It separates motion inference from authorized institutional intervention and explicitly limits performance claims to simulation.
