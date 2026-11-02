@@ -149,3 +149,48 @@ The following are **GRI operationalizations**, not claims that faculty designed 
 5. **Publication boundary:** Treat the register as a dated, public-source desk evaluation. Do not claim external validation, accreditation, government endorsement, SAFA participation or any confidential client findings.
 
 **Milestone status:** Eight evidence entries and a four-case, seven-criterion comparative matrix **completed at the public-document desk-review level**. Independent source replication, primary-charter collection, technical crosswalk verification and external methodological review remain open.
+
+## 2 November 2026 | Independent-method source recoding and synthetic control traceability
+
+**Scope and independence declaration:** A separate second-pass desk recoding was performed using original public organizational disclosures, the author-published Mallaby historical excerpt and NIST AI RMF, without treating the preceding GRI matrix as dispositive. The reviewer was an AI-assisted research process acting within the same GRI workflow, **not an unaffiliated human reviewer**. GitHub test files and prior CI documentation were inspected; tests were **not executed anew**, no GitHub attestation was independently reverified in this pass, and no external review signoff is claimed.
+
+### Second-pass coding rubric
+
+For each case and criterion: **D = directly documented** by a cited primary institutional disclosure or exact repository test assertion; **H = supported by attributed historical reporting or author-published historical account**; **P = publicly proposed, without demonstrated implementation**; **N = not established in the reviewed evidence**. A source may support a structure or aspiration without supporting effective independent assurance. Record the narrower conclusion if a criterion combines several requirements.
+
+| Case | Existence / formal structure | Reviewer independence | Funding and conflicts | Audit evidence access | Binding remedy | Global representation | Version-change retesting |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2015 DeepMind ethics board | H: meeting and intended board | N | N | N | N | N | N |
+| Project Mario | H: governance negotiations; P: independent arrangement | P | N | N | P | N | N |
+| Frontier Model Forum | D: incorporated industry nonprofit and member board | P: evaluation ambitions; independence N | D: member fees; conflict controls N | P: support for evaluations; compulsory access N | N | P: collaboration ambitions; equitable influence N | N |
+| Reported 2026 SAFA | P: proposed organization, formation N | P: auditor qualification; independence N | N | P: third-party testing; access rights N | N | N | N |
+
+**Replicated conclusions:** The publicly documented Forum governance and member-fee funding classifications are confirmed by its [current organizational disclosure](https://www.frontiermodelforum.org/about-us/). Its [2023 founding announcement](https://www.frontiermodelforum.org/updates/announcing-the-frontier-model-forum/) supports an evaluation objective but does not itself prove an independent evaluator's authority. The [author-published Mallaby excerpt](https://colossus.com/article/project-mario-demis-hassabis-deepmind-mallaby/) supports a historical governance negotiation, not an implemented independent charter. The SAFA classification remains attributed to [September 2026 reporting](https://www.theinformation.com/articles/google-openai-anthropic-ai-safety-group-takes-shape/), without a verified operative charter. This is a reproducible *document classification*, not causal proof of industry capture, bias or safety outcomes.
+
+**Correction and source discipline:** The prior register E08 describes METR's comparative policy paper as P, but it is independent third-party research rather than a *primary organizational disclosure*. Under this rubric its correct provenance is **secondary research**, not P. E01 and E02 remain retrospective historical evidence; E06 remains press reporting. Coding should distinguish provenance class from whether a governance feature is documented. No underlying primary charters, signed auditor contracts or meeting minutes were newly obtained.
+
+### Exact repository control-to-requirement mapping
+
+Source paths below are relative to the [Tiger Legacy Version One implementation](version_one/). **Inspected assertions** means present in source, not newly executed or independently reproduced in this pass.
+
+| Assurance requirement | Exact inspected test and behavior | Evidentiary boundary | NIST AI RMF relationship |
+| --- | --- | --- | --- |
+| Tenant isolation and default denial | [test_security.py](version_one/tests/test_security.py): `test_isolation_and_default_deny` rejects cross-tenant principals, missing resources and unauthorized reads | Synthetic in-memory principals; no real identity authentication or enterprise tenancy certification | Govern 2.1; Map 4.2; Measure 2.7 |
+| Purpose-bounded authority and expiry | `test_grant_expiry_revocation`, `test_paired_authority_cases`: authorized view permitted before expiry; edit, expired and cross-tenant requests denied | No independent determination that a grantor is institutionally legitimate | Map 3.5; Measure 2.8 |
+| Revocation and forged grant rejection | `test_grant_expiry_revocation`, `test_forged_grant`, `test_cross_tenant_grant`: revoke denies later access; wrong owner and tenant rejected | Does not establish human appeal, contractual revocation enforcement or external decision rights | Govern 2.1; Map 3.5 |
+| In-memory event integrity and replay | `test_tampering`, `test_missing_event`, `test_replay`: mutation, missing event and duplicate identifier rejected/detected | HMAC chain is not independently anchored or an external audit | Measure 2.7; Measure 2.8 |
+| Durable ledger tamper and truncation detection | [test_evidence_ledger.py](version_one/tests/test_evidence_ledger.py): `test_update_delete_fail_closed`, `test_mutated_payload_detected`, `test_truncation_detected_by_external_checkpoint`, `test_wrong_key_fails` | Crucial negative control: locally truncated ledger can self-verify unless compared with separately retained checkpoint | Govern 1.4; Measure 2.7 |
+| Recovery, concurrency and reproducibility | `test_backup_restore`, `test_concurrent_unique_sequence`, `test_durable_reopen`: backup checkpoint match, concurrent append uniqueness and reopen verification | Tests of synthetic fixture behavior; not an independent disaster recovery audit | Measure 2.5; Measure 2.7 |
+| Read-only reporting and fail-closed integrity | [test_reporting.py](version_one/tests/test_reporting.py): `test_offline_snapshot_read_does_not_modify_file`, `test_tamper_fails_closed`, `test_rehashed_unsafe_claim_fails_closed`, `test_deterministic_report` | Report hash and policy checks do not prove truth of inputs or security of real deployments | Govern 1.4; Measure 2.8 |
+| Bridge integrity and retained original endpoint | [test_tiger_legacy_bridge.py](../ConsciousAI-Research-Systems/test_tiger_legacy_bridge.py): `test_swapped_report_and_rehashed_internal_digest_fails_pinned_manifest`, `test_original_tiger_assurance_route_retains_contract`, `test_http_success_and_fail_closed`; simulated integrity errors return HTTP 503 | Simulated local HTTP regression, not public service security or external accreditation | Govern 6.2; Measure 2.7 |
+| Institutional legitimacy beyond valid cryptography | `test_local_evidence_check_is_not_task_completion`, `test_biased_observation_remains_a_failure_boundary`: verified chain coexists with uncompleted task or biased observation | These are synthetic counterexamples, not measured population effects or external adjudication | Map 2.3; Measure 2.8 |
+| Reviewer appointment, funding conflicts, adverse publication, global representation and material model-update retesting | **No direct test assertion identified in the inspected suites** | Institutional governance gaps require charter, contractual and human-process evidence, not merely more cryptographic tests | Govern 1.5; Govern 5.1; Measure 1.3; Measure 3.1 |
+
+NIST subcategory references are **analytical alignments**, not claims of compliance or certification. [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) explicitly addresses independent assessors in Measure 1.3, ongoing review in Govern 1.5 and emergent risk tracking in Measure 3.1.
+
+### Reproduction record and next gate
+
+- **Completed in this pass:** Public-source second-pass coding; documented disagreement on E08 provenance classification; inspection of `test_security.py`, `test_reporting.py`, `test_evidence_ledger.py`, `test_tiger_legacy_bridge.py`, and existing [reproducible evidence documentation](REPRODUCIBLE-EVIDENCE-PACKAGE.md).
+- **Not completed:** Fresh exact-commit test execution, independently held checkpoint challenge, attestation verification, independent reviewer identity/conflict declaration, independent human recoding and signed adjudication. Earlier CI evidence remains historical and commit-scoped; do not extend it to this documentation update.
+- **Next independent gate:** Supply an unaffiliated reviewer the [independent reproduction protocol](INDEPENDENT-REPRODUCTION-PROTOCOL.md), a pinned source commit and E01–E08 source set. Require blind recoding, recorded disagreements, exact test output and signature/attestation verification before declaring independent reproduction.
+- **Confidentiality:** Synthetic only; no real clients, credentials, restricted model evidence or production integration. No tests or services were modified by this documentary crosswalk.
