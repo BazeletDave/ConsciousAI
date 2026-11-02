@@ -9,10 +9,10 @@ The reviewer must not be the implementation author or rely solely on the develop
 
 ## Steps
 
-1. Obtain an exact checkout of the review commit from `BazeletDave/ConsciousAI`; compare commit SHA and changed files with the draft PR.
+1. Obtain an exact checkout of the explicitly designated review commit from `BazeletDave/ConsciousAI` and record its full SHA. Do not substitute the moving default branch. Compare the checkout with the designated submission manifest; a draft PR may not exist.
 2. Inspect `FORMAL-THREAT-MODEL.md`, `version_one/evidence_ledger.py`, `version_one/tests/test_evidence_ledger.py`, and `REPRODUCIBLE-EVIDENCE-PACKAGE.md`.
 3. Run `python GRI-Research-Journey/Research-Governance/Tiger-Legacy/verify_release.py` from the repository root. Record exact exit status, all stdout/stderr and test counts.
-4. Run `gh attestation verify GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/tiger_legacy_synthetic_snapshot.json --repo BazeletDave/ConsciousAI`; capture verified identity, artifact digest, attestation subject and workflow.
+4. Run `gh attestation verify GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/tiger_legacy_synthetic_snapshot.json --repo BazeletDave/ConsciousAI`; capture verified identity, artifact digest, attestation subject and workflow. If the attestation subject differs from the checked-out artifact, record the mismatch rather than asserting exact-commit attestation.
 5. Independently run `cd GRI-Research-Journey/Research-Governance/Tiger-Legacy/version_one && python -m unittest discover -s tests -p 'test_*.py' -v`.
 6. Test separate original `/institutional/tiger-assurance` and new `/institutional/tiger-legacy` endpoints for expected 200 and simulated-integrity-failure 503 responses using the repository HTTP test suite.
 7. Create a fresh synthetic SQLite ledger, export checkpoint to an **independently held file or system**, delete/alter the local ledger using a test fixture, and verify mismatch against the independently retained checkpoint.
@@ -34,4 +34,4 @@ The reviewer must not be the implementation author or rely solely on the develop
 
 ## Interpretation rule
 
-An external review cannot be claimed until an actual independent reviewer completes the protocol and provides their evidence. CI is third-party-hosted execution but **not** an independent academic or security review. This document is a protocol and handoff package, not an invented endorsement.
+The review protocol must identify the exact submitted commit and must separately identify later documentary amendments. Historical CI pass results and signed attestations are scoped to their recorded subjects, not automatically to a later submission. An external review cannot be claimed until an actual independent reviewer completes the protocol and provides their evidence. CI is third-party-hosted execution but **not** an independent academic or security review. This document is a protocol and handoff package, not an invented endorsement.
