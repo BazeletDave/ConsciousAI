@@ -47,6 +47,12 @@ The governance dashboard supports public-source intelligence and evidence review
 
 ## Research program | Core themes
 
+### Frontier AI Governance and Independent Assurance
+
+**A historical and institutional evaluation of frontier AI safety governance, from the 2015 SpaceX and DeepMind discussions to the proposed 2026 Standards Authority for Frontier AI (SAFA).** This ongoing GRI research connects Roy C. Nelson's institutional political economy, Robert A. Packenham's political development approaches, technological change and independent assurance to examine auditor independence, research funding, evidence access, accountability and governance durability as AI systems evolve. It extends the existing AI Paradox, Kiongozi and Tiger Assurance research; it does not represent SAFA membership, operational certification or a new GRI program.
+
+[**Explore the historical analysis and institutional assurance evaluation →**](GRI-Research-Journey/Integrated-Research-Journey/README.md#november-2026--institutional-assurance-under-accelerating-ai-change)
+
 | Research area | Selected work |
 | --- | --- |
 | **AI Governance Paradox and institutional power** | [Institutional Power Amplification Framework](GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md) |
