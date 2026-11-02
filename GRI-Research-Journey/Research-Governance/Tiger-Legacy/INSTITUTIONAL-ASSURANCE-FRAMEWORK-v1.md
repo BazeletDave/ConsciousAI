@@ -96,3 +96,56 @@ The following are **GRI operationalizations**, not claims that faculty designed 
 5. **Public research release:** Publish only source-verifiable findings, clear negative results and aggregate synthetic evidence after authorized review. Never disclose confidential clients, proprietary assurance methods, credentials or restricted audit materials.
 
 **Milestone acceptance:** A traceable crosswalk and validation protocol are documented here. Completion of evidence collection, case coding, additional tests and external review must be separately recorded with dates and verifiable artifacts. Do not promote planned activities to completed results.
+
+## November 2026 | Populated historical evidence register and comparative evaluation
+
+**Assessment date:** 2 November 2026. **Method:** Desk review of publicly accessible original institutional statements, an author-published historical book excerpt, and contemporaneous reporting. **Unit of analysis:** Governance arrangement, not an individual founder or a model's technical safety. **Evidence states:** P = primary organizational disclosure; H = retrospective historical account; R = attributed news reporting; U = unavailable or not independently verified. No confidential charter, auditor contract, internal minutes or model evidence was examined.
+
+### Evidence register
+
+| ID | Arrangement and date | Verifiable evidence and source class | Material limitation | State |
+| --- | --- | --- | --- | --- |
+| E01 | DeepMind post-acquisition ethics board; first meeting 14 August 2015 at SpaceX | [New York Times historical reporting](https://www.nytimes.com/2023/12/03/technology/ai-elon-musk-larry-page.html); [Sebastian Mallaby, *Project Mario* (March 2026)](https://colossus.com/article/project-mario-demis-hassabis-deepmind-mallaby/) | Retrospective reporting and excerpt; original board charter, decision rights, funding and meeting records not examined | H |
+| E02 | DeepMind/Google Project Mario negotiations, approximately 2015–2017 | [Mallaby's author-published book excerpt](https://colossus.com/article/project-mario-demis-hassabis-deepmind-mallaby/) documents proposed independent governance and unsuccessful negotiations | No executed charter or effective independent veto verified; excerpt is not a complete archival record | H |
+| E03 | Frontier Model Forum launch, 26 July 2023 | [Joint founding announcement](https://openai.com/index/frontier-model-forum/) names Anthropic, Google, Microsoft and OpenAI, proposed advisory board, charter, governance and funding work | Founding aspirations do not establish independent auditor powers or enforcement | P |
+| E04 | Frontier Model Forum later institutional status | [Forum's own governance and funding disclosure](https://www.frontiermodelforum.org/about-us/) states 501(c)(6), member-company operating board and membership-fee funding | Organizational disclosure does not demonstrate access to confidential model evidence, enforcement or reviewer independence | P |
+| E05 | Forum's 2023 AI Safety Fund | [October 2023 joint update](https://openai.com/index/frontier-model-forum-updates/) announced a fund exceeding $10 million with philanthropic participation | A funding announcement does not establish independent governance of individual studies or audited disbursements | P |
+| E06 | Proposed Standards Authority for Frontier AI, September 2026 | [The Information, 24 September 2026](https://www.theinformation.com/articles/google-openai-anthropic-ai-safety-group-takes-shape/) reports Google, OpenAI and Anthropic discussing a body for voluntary commitments, auditor qualifications and third-party evaluations | Reporting based on unnamed sources; no verified operative charter, board, auditor accreditation or binding authority | R |
+| E07 | External assurance reference standard, January 2023 | [NIST AI RMF 1.0](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10) and [NIST AI RMF Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) identify Govern, Map, Measure and Manage, including independent review and ongoing risk management | Voluntary guidance, not evidence that any case organization implements all outcomes | P |
+| E08 | Comparative public frontier safety policy review, March 2025 | [METR, *Common Elements of Frontier AI Safety Policies*](https://metr.org/assets/common-elements-mar-2025.pdf) compares developer-published safety policies | Public commitments and document coding are not independently verified effectiveness or legal enforcement | P |
+
+### Consistent case evaluation
+
+**Interpretation convention:** *Documented* means the cited public record directly describes the institutional feature; *proposed* means an intention without verified implementation; *not established* means the reviewed evidence does not establish it, **not** that it never existed. This is an evidence sufficiency matrix, not a numerical safety ranking.
+
+| Criterion | 2015 DeepMind ethics board | Project Mario | Frontier Model Forum | Proposed SAFA |
+| --- | --- | --- | --- | --- |
+| Formal institutional structure | Historical accounts document a board meeting; operative charter **not established** (E01) | Alternative independent governance **proposed**, not adopted in reviewed account (E02) | Established 501(c)(6), member-company operating board **documented** (E03–E04) | Entity formation and charter **not established** (E06) |
+| Independent appointment and removal | Independence and removal rights **not established** | Independent directors and decision rights **proposed**; not operationally verified | Operating board is composed of member representatives; separate evaluator independence **not established** (E04) | Auditor qualification role **reported as proposed**; appointment safeguards **not established** (E06) |
+| Funding and conflicts | Funding and conflict policy **not established** | Corporate control was a subject of negotiation; executed safeguards **not established** | Member fees **documented**; separate AI Safety Fund announcement **documented** (E04–E05) | Funding model and conflicts safeguards **not established** (E06) |
+| Independent evidence access and reproducibility | Model access and reproducible testing **not established** | Proposed authority does not demonstrate audit access | Forum aims to support evaluations; compulsory evidence access **not established** (E03–E04) | Support for third-party testing **reported as proposed**; access rights **not established** (E06) |
+| Corrective authority and enforcement | Binding veto or remedies **not established** | Independent control **negotiated but not adopted** in cited history | No public regulatory enforcement mandate established by reviewed documents | No binding authority **established**; reported plan is voluntary (E06) |
+| Participation and global legitimacy | Affected-party representation **not established** | External participation **proposed**, scope unverified | Public consultation and participation goals **documented**; equitable influence not demonstrated (E03) | Membership and developing-economy representation **not established** (E06) |
+| Durability under system updates | Retesting and review cadence **not established** | No operational reassessment protocol established | General safety coordination documented; mandatory model-version reassessment **not established** | Reassessment requirements **not established** (E06) |
+
+### Preliminary findings and rival explanations
+
+**Finding F1 (supported, limited):** The reviewed arrangements differ substantially in institutional form: a historically reported ethics board, a negotiated but unadopted governance proposal, an established industry coordination nonprofit, and a reported prospective standards body. Their existence alone cannot demonstrate independent model assurance (E01–E06).
+
+**Finding F2 (supported):** The Frontier Model Forum discloses both member-company board oversight and member-fee funding. Those facts establish structural dependence for governance and finance, but **do not prove biased decisions, compromised research or wrongdoing** (E04–E05).
+
+**Finding F3 (evidence gap):** Across the reviewed public records, enforceable access rights, adverse-finding publication protections, independent auditor removal rules and model-version reassessment duties cannot be verified consistently. This is a finding about the **available documentation**, not proof that such mechanisms are absent.
+
+**Finding F4 (prospective):** SAFA could add evaluator qualification and incident reporting coordination if implemented, but its eventual independence and enforcement capacity cannot be assessed as operational in November 2026 (E06).
+
+**Rival hypotheses:** H-A, accelerating system changes outpace assurance review; H-B, weak access rights and conflicts constrain review even without rapid model change; H-C, fragmented jurisdiction and uneven public capacity limit oversight; H-D, voluntary industry coordination can nonetheless improve shared evaluation practice. None is causally resolved by this document comparison.
+
+### GRI assurance application and next validation gates
+
+1. **Evidence closure:** Obtain actual charters, conflict policies, evaluator contracts and version-triggered retesting rules where publicly available; preserve source dates and negative searches. No confidential access assumed.
+2. **Coding reliability:** Have an independent reviewer recode E01–E08 and every matrix cell against an explicit rubric; preserve disagreements and corrections. Not yet completed.
+3. **Technical bridge:** Map the existing Tiger Assurance synthetic authorization, revocation and provenance tests to decision rights, evidence access and change management; do not equate those tests with frontier-model evaluation. No new code or tests executed for this milestone.
+4. **Institutional comparison:** Apply Nelson's institutional political economy as principal explanatory framework, with Packenham's political development approaches, GLOBE leadership distinctions and Signé's global AI divide as complementary lenses; test against contrary evidence and jurisdictional differences.
+5. **Publication boundary:** Treat the register as a dated, public-source desk evaluation. Do not claim external validation, accreditation, government endorsement, SAFA participation or any confidential client findings.
+
+**Milestone status:** Eight evidence entries and a four-case, seven-criterion comparative matrix **completed at the public-document desk-review level**. Independent source replication, primary-charter collection, technical crosswalk verification and external methodological review remain open.
