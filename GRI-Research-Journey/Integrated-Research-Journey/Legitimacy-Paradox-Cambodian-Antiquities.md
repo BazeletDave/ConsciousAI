@@ -142,3 +142,30 @@ The following references are reproduced as **source leads from the author suppli
 ---
 
 *GRI Research Journey | David A. Grand | Working paper | August 2026 origin, October 2026 repository edition. Public research does not imply peer review, university endorsement, or empirical confirmation of the proposed theory.*
+
+
+---
+
+## November 2, 2026 comparative observation | Nepalese Manjushri provenance and institutional recognition
+
+**Classification:** Source verified auction outcome and published provenance, with unresolved earlier custody and export history. This is a bounded comparative observation within the existing Cambodian antiquities and Institutional Legitimacy Validation Framework, not a new research program or an allegation of illicit conduct.
+
+### Verified primary source record
+
+Christie's, *A Gilt-Copper Alloy Figure of Manjushri, Nepal, 12th Century*, lot catalogue, describes a 93 cm gilt copper alloy sculpture attributed to Nepal and Newar artistic production. Its 30 October 2026 Hong Kong results release records a sale of **HK$137,350,000 (US$17,507,976)** and a world auction record for a Himalayan gilt bronze sculpture. The published provenance lists **George Ortiz Collection, Geneva, by 2002; Important Private Collection, New York; Carlton Rochell Asian Art, New York, 2017; Private Asian Collection**. The catalogue records exhibitions at the **Art Institute of Chicago, 2003**, and **The Light of the Buddha**, Palace Museum and Zhiguan Museum of Fine Art, Beijing, **23 October to 23 December 2018**. The latter is an exhibition association, not proof of ownership by the Palace Museum.
+
+**Primary references:** [Christie's object catalogue and provenance](https://www.christies.com/en/lot/lot-6610482); [Christie's Hong Kong results, 30 October 2026](https://press.christies.com/christies-leads-hong-kong-asian-art-with-hk102b-us129m-in-2026-autumn-live-sales-the-highest-season-total-since-2018/); [Christie's auction overview](https://www.christies.com/en/auction/awakening-wisdom-masterpieves-of-buddhist-art-from-a-private-asian-collection-25383-hgk/overview). These establish what the auction house published; they do not independently validate every ownership transfer or historical claim.
+
+### Evidentiary distinctions and research gaps
+
+- **Artistic attribution versus original custody:** Nepalese or Newar manufacture does not by itself establish that the object was commissioned for, installed in, or removed from a Nepalese religious institution. A Tibetan or other historical patronage context remains a question for documentary and specialist evaluation.
+- **Published provenance versus continuous chain of title:** The public record begins no later than 2002 and names subsequent custodians, but does not identify the original commissioner, pre-2002 custody, dates and legal basis of earlier border movements, or all supporting transfer documents.
+- **Exhibition versus due diligence:** Public display in Chicago or Beijing confirms reported exhibition history, not an independent legal determination of export or title.
+- **Auction value versus legitimacy:** The verified sale amount measures a market transaction, not completeness of provenance, cultural consent, legal export, or an ethical assessment.
+- **No misconduct inference:** Missing publicly accessible documentation is an evidence gap; it is not proof of theft, unlawful export, bad faith or a restitution entitlement. The Cambodian Latchford record and this Nepalese sculpture must not be conflated.
+
+### Integration into the existing institutional framework
+
+Apply the six established dimensions: **source integrity** (auction records and dated catalogues), **provenance** (custody and transaction chronology), **validation independence** (third party documentary review), **contextual verification** (Newar manufacture versus historical location and patronage), **contestability** (access to evidence and response procedures), and **remediation** (possible corrections or provenance disclosures where justified). The comparison tests the narrower proposition that institutional recognition and commercial value can coexist with incomplete publicly documented provenance; it does **not** conclude that the sale was improper.
+
+**Next evidence gates, without initiating a new project:** obtain and compare the 2003 exhibition publication, 2018 exhibition catalogue and 2019 publication cited by Christie's; seek pre-2002 ownership, historical photographs, export records and original installation evidence where lawfully accessible; maintain dated source excerpts and an explicit verified/reported/unresolved classification. Any conclusions about title, restitution, or legality require jurisdiction specific specialist assessment. No autonomous ingestion, confidential disclosure, deployment, or main README addition is authorized by this observation.
