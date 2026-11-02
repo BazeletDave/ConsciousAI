@@ -55,6 +55,21 @@ Before execution, freeze the source revision, fixtures, expected outcomes, metri
 
 **Status:** Experimental design specified; execution and independent validation not yet demonstrated.
 
+## First executed paired synthetic fixture | 1 November 2026
+
+**Exact evaluated revision:** `9894cfc7e13aee290475e14f7907339460d07742`, draft PR #97. **Evidence:** GitHub Actions GRI Research Quality Gate run [41369930495](https://github.com/BazeletDave/ConsciousAI/actions/runs/41369930495), successful; Research Rights and Security Checks run [41369930578](https://github.com/BazeletDave/ConsciousAI/actions/runs/41369930578), successful. The quality gate log reports **75 Tiger Legacy tests passed**, including `test_paired_synthetic_authorization_outcomes`, and successful release evidence reproduction and signed provenance verification.
+
+**Paired fixture design:** Five fixed authorization attempts were evaluated in two conditions: (A) an intentionally permissive `allow all` synthetic baseline, and (B) the existing Tiger Legacy scoped authorization engine. Two attempts were authorized by fixture ground truth and three were unauthorized. The test asserts the following fixture outcomes:
+
+| Condition | Unauthorized allowed / unauthorized attempts | False denials / authorized attempts |
+| --- | --- | --- |
+| Permissive synthetic baseline | 3 / 3 | 0 / 2 |
+| Scoped Tiger Legacy policy | 0 / 3 | 0 / 2 |
+
+**Interpretation:** These are deterministic, developer-defined fixtures and test assertions, **not** estimated real-world rates, model training effects, or an independent scientific replication. The deliberately weak baseline demonstrates that scoped authorization distinguishes these enumerated cases; it is not a representative comparison with the historical Training a Tiger learner. Evidence integrity, biased sensor reliability, full-task recovery and statistical generalization are not established by this paired test. The original Training a Tiger data and results were not modified.
+
+**Remaining gate:** Independent reproduction by a separate reviewer, broader preregistered fixtures and complete outcome measurements before strengthening external efficacy claims. This documentation entry does not replace a fresh quality gate on subsequent commits.
+
 ## Status and next gate
 
 **Protocol drafted; experiment not yet executed under this protocol.** Next gate: inspect existing synthetic fixtures and identify the smallest reusable paired comparison without changing deployed interfaces. Obtain separate authorization before any operational integration, material architectural change, new spending or release of restricted material.
