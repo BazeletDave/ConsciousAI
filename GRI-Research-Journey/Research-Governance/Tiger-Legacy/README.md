@@ -43,6 +43,10 @@ Can institutional cybersecurity assurance distinguish nominal compliance from de
 
 No client identifiers, confidential audit details, private media, secrets, scans, real remediation or external system access are part of this project. Signed provenance authenticates artifact lineage under the GitHub trust model; it does not certify scientific correctness, operational effectiveness or independent security review. Production security remains **unmeasured**. A general-purpose assurance layer cannot replace fixes in a vulnerable underlying application.
 
+## External incident evidence informing existing synthetic tests
+
+October 2026 reporting on the [Cursor marketplace malicious extension](https://prod.cursor.com/blog/claude-code-extension-security-notice), corroborated by [Microsoft Security Research](https://www.microsoft.com/en-us/security/blog/2026/10/30/inside-malicious-claude-code-branded-cursor-extension-persistent-ssh-backdoor/), motivates **proposed** synthetic negative tests for compromised dependency provenance, unauthorized persistence, revocation after exposure, and independently checkable evidence. The [Polymarket third-party script incident](https://www.bleepingcomputer.com/news/security/polymarket-halts-trading-after-crypto-draining-script-breach-25m-traced/) motivates scenarios involving vendor trust, session authority, emergency containment and audit continuity. These are research stimuli, **not** claims of implemented controls or measured effectiveness. Any tests must remain offline, synthetic, client-isolated and subject to existing release gates.
+
 ## Next release gates
 
 Independent external reproduction; threat model and trusted identity boundary; durable and independently anchored synthetic evidence; expanded adversarial testing; formal methods and limitations for peer review; explicit human authorization before any production merge or deployment.
