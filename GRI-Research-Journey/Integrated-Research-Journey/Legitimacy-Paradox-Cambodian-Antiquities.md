@@ -100,7 +100,28 @@ The historical case concerns physical cultural objects, property and patrimony l
 
 A formal scholarly edition requires a systematic literature review, operational definitions, object level evidence, independent source verification, and testing against rival theories such as legitimacy laundering, information cascades, and automation bias.
 
-## 10. Research source base supplied in August 2026
+## 10. Contemporary continuity: Nepalese Manjushri at Christie's Hong Kong (October 2026)
+
+This bounded comparative observation extends the existing Cambodian antiquities inquiry; it is **not** a finding that the Nepalese sculpture was looted, unlawfully exported, or connected to Douglas Latchford's network.
+
+**Verified transaction and object.** Christie's reported that a 93 cm, 12th-century Nepalese gilt-copper-alloy figure of Manjushri sold in Hong Kong on 30 October 2026 for HK$137,350,000 (US$17,507,976), establishing a world auction record for a Himalayan gilt-bronze sculpture. Christie's catalog identifies the sculpture as lot 2007 and describes its Newar artistic tradition.
+
+**Published provenance and limits.** The Christie's lot record lists: George Ortiz Collection, Geneva, by 2002; an important private collection, New York; Carlton Rochell Asian Art, New York, 2017; and a private Asian collection. The catalog also records a 2003 Art Institute of Chicago exhibition and a 2018 Beijing exhibition, together with related publications. These are publicly asserted custody and exhibition references, not an independently audited continuous chain of title. The published lot record does not establish the object's original religious setting, first removal, or export authorization. That gap is a research question, **not evidence by itself of theft or unlawful export**. Nepalese manufacture also does not establish that the object remained in Nepal throughout its history: Newar sculpture circulated historically across Himalayan Buddhist institutions.
+
+**Institutional Legitimacy Validation Framework application.** Source integrity asks which acquisition and export records can be independently inspected. Provenance asks whether the pre-2002 chain can be reconstructed. Independent validation asks what review occurred beyond seller and auction-house assertions. Contextual verification seeks dated photographs, temple or monastery inventories, and relevant Nepalese and Tibetan historical records. Contestability asks whether source communities and competent heritage authorities have access to the evidence and a meaningful avenue to raise claims. Remediation concerns correction of the record or restitution only if justified by established evidence and applicable law.
+
+**Comparison boundary.** The Latchford record includes specific U.S. allegations, subsequent civil proceedings, and documented returns; those legal histories must not be projected onto this Manjushri. The common analytic mechanism is narrower: market and institutional recognition can amplify a provenance narrative whose earliest stages are not publicly demonstrated. An auction price, exhibition history, or prestigious collection can substantiate market recognition without independently establishing original ownership or lawful export. The hypothesis remains subject to object-level corroboration and alternative explanations.
+
+**Primary sources (checked 2 November 2026):**
+- Christie's, [lot 2007: A Gilt-Copper Alloy Figure of Manjushri, Nepal, 12th Century](https://www.christies.com/en/lot/lot-6610482), including catalog provenance, literature, and exhibitions.
+- Christie's, [Hong Kong Asian Art results, 30 October 2026](https://press.christies.com/christies-leads-hong-kong-asian-art-with-hk102b-us129m-in-2026-autumn-live-sales-the-highest-season-total-since-2018/), including the realized price and record claim.
+- Christie's, [Awakening Wisdom sale announcement, 8 October 2026](https://press.christies.com/christies-hong-kong-announces-awakening-wisdom-masterpieces-of-buddhist-art-from-a-private-asian-collection/), describing the object and sale context.
+
+**Evidence status:** Auction and catalog claims verified against Christie's primary publications; earlier title, export authorization, and any heritage claim not independently established. No allegation of wrongdoing is adopted.
+
+---
+
+## 11. Research source base supplied in August 2026
 
 **Foundational investigative book:** Campbell, Matthew. *The Man Who Stole the Gods: A True Story of War, Obsession, and a Global Art Conspiracy*. New York: Portfolio/Penguin, 2026. ISBN 9780593716007. [Publisher record](https://www.penguinrandomhouse.com/books/739182/the-man-who-stole-the-gods-by-matthew-campbell/). This book is an important historical and investigative source for the Latchford case, including the networks connecting Khmer antiquities trafficking, collectors, dealers, and museums. It is distinct from judicial findings and peer-reviewed scholarship.
 
