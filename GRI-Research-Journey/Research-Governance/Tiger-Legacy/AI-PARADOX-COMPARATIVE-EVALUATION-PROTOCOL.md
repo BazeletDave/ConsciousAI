@@ -55,6 +55,36 @@ Before execution, freeze the source revision, fixtures, expected outcomes, metri
 
 **Status:** Experimental design specified; execution and independent validation not yet demonstrated.
 
+## First executed paired synthetic fixture | 1 November 2026
+
+**Exact evaluated revision:** `9894cfc7e13aee290475e14f7907339460d07742`, draft PR #97. **Evidence:** GitHub Actions GRI Research Quality Gate run [41369930495](https://github.com/BazeletDave/ConsciousAI/actions/runs/41369930495), successful; Research Rights and Security Checks run [41369930578](https://github.com/BazeletDave/ConsciousAI/actions/runs/41369930578), successful. The quality gate log reports **75 Tiger Legacy tests passed**, including `test_paired_synthetic_authorization_outcomes`, and successful release evidence reproduction and signed provenance verification.
+
+**Paired fixture design:** Five fixed authorization attempts were evaluated in two conditions: (A) an intentionally permissive `allow all` synthetic baseline, and (B) the existing Tiger Legacy scoped authorization engine. Two attempts were authorized by fixture ground truth and three were unauthorized. The test asserts the following fixture outcomes:
+
+| Condition | Unauthorized allowed / unauthorized attempts | False denials / authorized attempts |
+| --- | --- | --- |
+| Permissive synthetic baseline | 3 / 3 | 0 / 2 |
+| Scoped Tiger Legacy policy | 0 / 3 | 0 / 2 |
+
+**Interpretation:** These are deterministic, developer-defined fixtures and test assertions, **not** estimated real-world rates, model training effects, or an independent scientific replication. The deliberately weak baseline demonstrates that scoped authorization distinguishes these enumerated cases; it is not a representative comparison with the historical Training a Tiger learner. Evidence integrity, biased sensor reliability, full-task recovery and statistical generalization are not established by this paired test. The original Training a Tiger data and results were not modified.
+
+**Remaining gate:** Independent reproduction by a separate reviewer, broader preregistered fixtures and complete outcome measurements before strengthening external efficacy claims. This documentation entry does not replace a fresh quality gate on subsequent commits.
+
 ## Status and next gate
 
 **Protocol drafted; experiment not yet executed under this protocol.** Next gate: inspect existing synthetic fixtures and identify the smallest reusable paired comparison without changing deployed interfaces. Obtain separate authorization before any operational integration, material architectural change, new spending or release of restricted material.
+
+
+## GRI Tiger Legacy | Reproducible Assurance Milestone | 1 November 2026
+
+**Milestone designation:** Reproducible Assurance Milestone. This dated entry supersedes earlier prospective status statements above only with respect to the completed synthetic fixture and automated verification gates. The research remains bounded to Tiger Legacy Version One.
+
+**Executed evidence:** The paired synthetic authorization fixture was verified in GitHub CI at the exact revision and run recorded above. A subsequent research branch revision, `57a8a0c6f81e573d1dde45b5aa1bbd0856b9d960`, introduced the reusable `.github/workflows/tiger-legacy-isolated-reproduction.yml` workflow. [Isolated reproduction run 41370731900](https://github.com/BazeletDave/ConsciousAI/actions/runs/41370731900) completed successfully in a Python 3.11 container, including the test execution, environment capture, SHA256 manifest generation and artifact upload. The [Research Rights and Security Checks run 41370731779](https://github.com/BazeletDave/ConsciousAI/actions/runs/41370731779) also succeeded. The GRI Research Quality Gate run 41370731718 was still in progress when last inspected; do not infer its final result from this entry.
+
+**Preserved evidence:** GitHub Actions artifact `tiger-legacy-reproduction-d4249cb5ccfc7843a57b82582fc0e4457fecd17e`, artifact ID `13108213946`, was reported uploaded with SHA256 digest `9496971c92392583e76844c60678c2e458f74524de5264917c4f39cd07f52de4`. The run metadata reports head SHA `57a8a0c6f81e573d1dde45b5aa1bbd0856b9d960`. The exact per-test count for this container run must be confirmed from its archived test log before making a count-specific claim.
+
+**Independent assessment:** An independent reviewer (iR) supplied a methodological assessment classifying the earlier `906554f1e7200e72ed17bd3b8d53fc8420227c57` evidence as **Provisionally Verified (CI-Level) | Pending Clean-Room Execution**. The review was based on CI and documentation, not a documented third-party execution. The new successful isolated CI run is a separate engineering achievement and must not be described as independently executed by iR or as a clean-room execution of the exact older commit. Confidential reviewer identity and records remain outside the public repository.
+
+**Assurance boundary:** Passing synthetic authorization and regression checks does not establish real-world cybersecurity efficacy, unbiased observations, end-to-end recovery, statistical generalizability, or production readiness. PR #97 remains subject to ordinary review and merge controls. Future sign-off requires independent reviewer reconciliation of the exact revision, container evidence and baseline CI logs, followed by separately designed outcome evaluations.
+
+**Institutional significance:** GRI now has a reusable isolated test and evidence capture mechanism supporting transparent, bounded verification without exposing confidential client data or proprietary assessment records. This milestone records reproducibility infrastructure, not independent scientific certification.

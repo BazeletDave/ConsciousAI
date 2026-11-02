@@ -81,5 +81,34 @@ class SecurityTests(unittest.TestCase):
         actual_fixture_safe = False
         self.assertNotEqual(reported_safe, actual_fixture_safe)
 
+
+    def test_paired_synthetic_authorization_outcomes(self):
+        """Compare a permissive baseline to scoped consent on identical fixed cases."""
+        self.lab.grant("e3", "alpha", "record1", "alice", "charlie", "view", 200)
+        cases = [
+            # tenant, resource, subject, purpose, time, authorized ground truth
+            ("alpha", "record1", "charlie", "view", 199, True),
+            ("alpha", "record1", "charlie", "edit", 199, False),
+            ("alpha", "record1", "charlie", "view", 200, False),
+            ("beta", "record1", "charlie", "view", 199, False),
+            ("alpha", "record1", "alice", "view", 199, True),
+        ]
+        def score(decisions):
+            unauthorized = sum(bool(decision) for decision, case in zip(decisions, cases) if not case[-1])
+            false_denials = sum(not decision for decision, case in zip(decisions, cases) if case[-1])
+            return {"unauthorized_allowed": unauthorized,
+                    "unauthorized_attempts": sum(not c[-1] for c in cases),
+                    "false_denials": false_denials,
+                    "valid_attempts": sum(c[-1] for c in cases)}
+        baseline = score([True for _ in cases])
+        governed = score([self.lab.authorize(*case[:5]) for case in cases])
+        self.assertEqual(baseline, {"unauthorized_allowed": 3, "unauthorized_attempts": 3,
+                                    "false_denials": 0, "valid_attempts": 2})
+        self.assertEqual(governed, {"unauthorized_allowed": 0, "unauthorized_attempts": 3,
+                                    "false_denials": 0, "valid_attempts": 2})
+        self.assertTrue(self.lab.verify())
+        # This is an intentionally permissive synthetic baseline, not a
+        # historical Training a Tiger model or a field effectiveness estimate.
+
 if __name__ == "__main__":
     unittest.main()
