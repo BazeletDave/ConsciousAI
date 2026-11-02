@@ -1,0 +1,54 @@
+name: Tiger Legacy isolated reproduction
+
+on:
+  pull_request:
+    paths:
+      - 'GRI-Research-Journey/Research-Governance/Tiger-Legacy/**'
+      - '.github/workflows/tiger-legacy-isolated-reproduction.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  isolated-reproduction:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    container:
+      image: python:3.11.17-slim-bookworm
+    steps:
+      - name: Checkout exact evaluated revision
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Record immutable execution environment
+        shell: sh
+        run: |
+          set -eu
+          mkdir -p reproduction-evidence
+          git rev-parse HEAD | tee reproduction-evidence/commit.txt
+          python --version 2>&1 | tee reproduction-evidence/python.txt
+          cat /etc/os-release > reproduction-evidence/os-release.txt
+          python -m pip freeze > reproduction-evidence/dependencies.txt
+      - name: Execute full Tiger Legacy synthetic regression suite
+        shell: sh
+        run: |
+          set -eu
+          cd GRI-Research-Journey/Research-Governance/Tiger-Legacy/version_one
+          python -m unittest discover -s tests -p 'test_*.py' -v 2>&1 | tee "$GITHUB_WORKSPACE/reproduction-evidence/tests.log"
+          grep -Eq 'Ran [0-9]+ tests? in' "$GITHUB_WORKSPACE/reproduction-evidence/tests.log"
+          grep -Eq '^OK$' "$GITHUB_WORKSPACE/reproduction-evidence/tests.log"
+      - name: Generate evidence hashes
+        if: always()
+        shell: sh
+        run: |
+          cd reproduction-evidence
+          sha256sum commit.txt python.txt os-release.txt dependencies.txt tests.log > SHA256SUMS.txt
+      - name: Preserve reproducibility evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiger-legacy-reproduction-${{ github.sha }}
+          path: reproduction-evidence/
+          retention-days: 90
+          if-no-files-found: warn
