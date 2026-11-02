@@ -41,6 +41,8 @@ The governance dashboard supports public-source intelligence and evidence review
 
 **November 2026 research integration:** The [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md) now connects independently reported developer-tool supply chain, third-party platform and digital financial infrastructure incidents to existing AI Paradox and [Tiger Legacy](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md) research. These are source-qualified comparative observations, not new programs or validated prototype capabilities.
 
+**Formal research advancement:** The [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md) now contains a bounded, prospective evaluation protocol connecting the existing AI Paradox, Kiongozi and Tiger Assurance programs. It defines hypotheses, paired synthetic comparisons, evidence maturity, rival explanations and independent replay requirements. No new project or experimental validation is claimed.
+
 ## Research program | Core themes
 
 | Research area | Selected work |
