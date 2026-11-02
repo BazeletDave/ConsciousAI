@@ -4,7 +4,7 @@
 
 ## Purpose
 
-Advance the existing Tiger Legacy project, reusing tested GRI Training a Tiger, Tiger Assurance, and governance dashboard components where verified. This is a reusable GRI research capability, not a Family Legacy project.
+Advance the existing Tiger Legacy project, reusing tested GRI Training a Tiger, Tiger Assurance, and governance dashboard components where verified. This is a reusable, independent GRI research capability, with no client-specific integration.
 
 ## First engineering gates
 
