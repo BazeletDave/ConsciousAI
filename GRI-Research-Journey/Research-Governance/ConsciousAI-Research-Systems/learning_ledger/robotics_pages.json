@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T00:44:22.876105+00:00",
+  "generated_at": "2026-11-02T11:03:32.577332+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "b7279a68dce8fc488e88c6efcc64b54da36d7e52b6089ae30b86294380297be9",
+      "content_sha256": "11e2a60499325b6c3e58d17ac7d05714da21d67d26900ab05beac3dbe49efa40",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,27 +44,10 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "9da1e4345e86f8161dff63e6ffbca4d6a7c11e23d57edfbf2adf8f5e25e3bdd0",
+      "content_sha256": "598d3bdf959fc1912dc8c4f1488ffce04e681454bbe4500f901064babcde49b2",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
-      "verification_status": "publisher_page_observation_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "NHTSA-SGO",
-      "source_id": "NHTSA-SGO",
-      "publisher": "NHTSA",
-      "title": "Standing General Order on Crash Reporting | NHTSA Lock",
-      "source_url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
-      "country_codes": [
-        "USA"
-      ],
-      "content_sha256": "14989df1e6c58732cd7be04fe3c8f62d32b0ea8df9d4ec6173149d265c3c733e",
-      "published_at": null,
-      "source_kind": "regulator_information",
-      "configured_track": "road_autonomy",
       "verification_status": "publisher_page_observation_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -101,12 +84,12 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110785
+      "bytes": 110421
     },
     {
       "source_id": "NHTSA-SGO",
-      "status": "fetched",
-      "bytes": 147000
+      "status": "failed",
+      "error_type": "HTTPError"
     },
     {
       "source_id": "BRA-ANAC-AAM",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "source": "gri_deterministic_assurance_engine",
-  "generated_at": "2026-11-02T00:44:20.056862+00:00",
+  "generated_at": "2026-11-02T11:03:30.946148+00:00",
   "watchlist_updated_at": "2026-10-22",
   "evaluation_count": 4,
   "human_review_count": 4,
@@ -32,5 +32,5 @@
     }
   ],
   "scope": "Actual deterministic watchlist assurance evaluations; NOT production ML inference, model accuracy, or independent source verification.",
-  "content_sha256": "2089a85c04d55d57ccb9a77427e20c2dd46f9c5f723a64b2d9f53ecaf3a20384"
+  "content_sha256": "02399fe5a081d4e032f345b10e63cfd818c629c4f0540a2e7e9464d47d2c26e2"
 }

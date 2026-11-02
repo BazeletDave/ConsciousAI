@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-02T00:44:20.009231+00:00",
+  "generated_at": "2026-11-02T11:03:30.899237+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -17,9 +17,8 @@
     },
     {
       "source_id": "NHTSA",
-      "status": "fetched",
-      "items": 10,
-      "method": "official_html"
+      "status": "failed",
+      "error_type": "HTTPError"
     },
     {
       "source_id": "UBER-ENGINEERING",
@@ -145,6 +144,30 @@
       "category": "international_regulatory",
       "title": "Europeans overwhelmingly support stronger EU civil protection cooperation based on solidarity, new Eurobarometer shows",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2285",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "17e14eaa6756e5fc736f",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Policy paper: Transport resilience strategy",
+      "source_url": "https://www.gov.uk/government/publications/transport-resilience-strategy",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "f96e4d16177a2b471cb3",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Transparency data: DfT and transport NDPB organisational charts",
+      "source_url": "https://www.gov.uk/government/publications/department-for-transport-and-ndpb-structure-charts-organisational-and-salary-disclosure-data",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -362,170 +385,6 @@
       "title": "Transparency data: DfT: spending over \u00a325,000, June 2026",
       "source_url": "https://www.gov.uk/government/publications/dft-spending-over-25000-june-2026",
       "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "f19a8900b7d0ca34483b",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Transparency data: DfT: spending over \u00a3500, August 2026",
-      "source_url": "https://www.gov.uk/government/publications/dft-spending-over-500-august-2026",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "a32d6507416984ae00c8",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Leeds station set for biggest transformation in a generation as government backs city\u2019s growth with a \u00a3303 million upgrade",
-      "source_url": "https://www.gov.uk/government/news/leeds-station-set-for-biggest-transformation-in-a-generation-as-government-backs-citys-growth-with-a-303-million-upgrade",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "0c860ca36c35cdca53f2",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: Does Your Vehicle Have an Open Recall?",
-      "source_url": "https://www.nhtsa.gov/press-releases/consumer-alert-does-your-vehicle-have-open-recall",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "2ecaf2bc49cf8f6bee35",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Moves to Modernize Tire Safety Standards, Deliver Safer American Roads",
-      "source_url": "https://www.nhtsa.gov/press-releases/move-to-modernize-tire-safety-standards",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "626788d4564c8798185b",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Makes Commonsense Updates to Vehicle Lighting Standards for AVs",
-      "source_url": "https://www.nhtsa.gov/press-releases/vehicle-lighting-updates-automated-vehicles",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "d7bc5a25d8de3c596c9f",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Releases Model Year 2027 Vehicle Testing List for 5-Star Safety Ratings",
-      "source_url": "https://www.nhtsa.gov/press-releases/model-year-2027-vehicle-testing-5-star-safety-ratings",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "404881f633bbdf3e6c7d",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Moves to Modernize Outdated Vehicle Lighting Standards, Make America\u2019s Roads Safer",
-      "source_url": "https://www.nhtsa.gov/press-releases/modernize-outdated-vehicle-lighting-standards",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "e26a9d2e38f7b7cf4e6a",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: NHTSA Reminds Parents the Right Car Seat Saves Lives",
-      "source_url": "https://www.nhtsa.gov/press-releases/child-passenger-safety-week-car-seat-guide",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "5c45de024ab721d7dbc4",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Releases First-Ever Pedestrian Safety Test Results for 2027 Vehicle Models",
-      "source_url": "https://www.nhtsa.gov/press-releases/first-ever-pedestrian-safety-test-results",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "80ea111f1bd7d7a34816",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "NHTSA Opens Investigation into Tesla Cybercab Self-Certification Following Austin Deployment",
-      "source_url": "https://www.nhtsa.gov/press-releases/investigation-tesla-cybercab-self-certification",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "ee1cec0542f47bf824d7",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: Banned Chinese Air Bag Inflator Kills 11th Person in the U.S.",
-      "source_url": "https://www.nhtsa.gov/press-releases/banned-chinese-air-bag-inflator-kills-11th-person-us",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "66ea496ff3e0c14e1dab",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Moves to Reverse Illegal Obama-Era Rule Unfairly Restricting American Engine Manufacturing",
-      "source_url": "https://www.nhtsa.gov/press-releases/truck-engine-fuel-efficiency-rule-reversed",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
       "human_review_required": true,
       "publication_authorized": false
     },
@@ -866,6 +725,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 64,
+  "review_required": 54,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
