@@ -42,3 +42,30 @@ Collect separately: job posting and hiring authority; number of applicants; invi
 The hypothesis is that the pace of technical capability may exceed the capacity of institutions to maintain effective, contestable oversight. This is not a finding that AI is above the law, that particular executives govern public institutions, or that any identified candidate was rejected by an automated system. The societal benefit criterion is accountable human authority over consequential AI mediated decisions.
 
 [Return to Living AI Ecosystem](README.md) · [AI Paradox research edition](../../Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md)
+
+
+## Institutional scope extension | compute, infrastructure and leapfrogging | 2 November 2026
+
+**Central GRI hypothesis:** AI capabilities and infrastructure may scale faster than institutions can verify data, govern delegation, contest consequential classifications, and correct errors. This is a falsifiable hypothesis, not an observed universal law. Compare rates of capability deployment and institutional response using matched jurisdictions and periods.
+
+### Connected capability stack and institutional questions
+| Layer | Observable indicators | Governance and assurance tests |
+| --- | --- | --- |
+| Chips and compute | accelerator availability, export restrictions, cloud concentration, procurement, power demand | supply dependency, audit access, continuity and sovereignty |
+| Infrastructure | data centers, grid capacity, connectivity, regional deployment | environmental costs, public procurement, resilient access |
+| Models and agents | capabilities, deployment cadence, tool permissions | provenance, delegated authority, reproducibility, human override |
+| Public and private decisions | hiring, licensing, mobility, public services | notice, contestability, appeals, correction latency, distributional impacts |
+| Development and leapfrogging | affordability, local skills, infrastructure access, productive adoption | inclusion, institutional capability, domestic value creation, dependence risks |
+
+**Cross sector comparison:** Treasury TTB engineering scenario is the entry point; NVIDIA illustrates compute supply, Tesla illustrates autonomy and safety, and model developers illustrate platform and delegation governance. These are different analytical populations; do not combine their rates without normalization.
+
+### Academic grounding and interpretation boundaries
+* [Roy C. Nelson methodological boundaries](../Integrated-Research-Journey/nelson-model-methodological-boundaries.md): use institutional political economy to examine rules, incentives, power, implementation and effective authority. Specific classroom models and wording require original source verification. No faculty endorsement implied.
+* [Robert A. Packenham source verification register](../Research-Governance/Tiger-Legacy/iaf_experiments/ACADEMIC-SOURCE-VERIFICATION-REGISTER.md): his political development scholarship offers a conceptual lens for state capacity and development. Mapping it to AI assurance controls is GRI's original operationalization, not Packenham's published model.
+* [Landry Signé public scholarship register](../Research-Governance/Institutional-Source-Registry/LANDRY_SIGNE_PUBLIC_RESEARCH.md): connects the global AI divide, African economic transformation and institutional leapfrogging. Compare enabling conditions such as compute, energy, connectivity, skills, governance and locally retained economic benefits. Do not imply that Signé authored GRI's assurance controls.
+* [Existing institutional adaptation framework](02-Institutional-Frameworks-and-Adaptation.md) and [Integrated Research Journey](../Integrated-Research-Journey/README.md) already contain the conceptual adaptation gap, Kiongozi, external AI standards questions and assurance boundaries. Cross reference; do not create a new program.
+
+### Test design
+For each country, sector and period, record (1) measured AI deployment and compute access, (2) applicable oversight and institutional capacity, (3) audit evidence availability, (4) rate of error detection and correction, (5) meaningful human appeal, and (6) distributional outcomes. Record denominators, source issuer, date, evidence type and uncertainty. Compare alternative explanations including policy choices, funding, energy constraints, skills and preexisting administrative capacity. Evaluate whether leapfrogging reduces or reproduces institutional dependence.
+
+**Assurance gate:** No inference of deployed government AI hiring filters from the public exercise; no inference of African development outcomes from vendor infrastructure announcements; no claims of independent certification without external reproduction. Preserve existing Tiger Assurance synthetic testing, provenance and reviewer separation. This extension authorizes no new monitoring, data ingestion or dashboard.
