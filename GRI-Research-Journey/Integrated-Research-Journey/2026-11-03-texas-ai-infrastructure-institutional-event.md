@@ -79,3 +79,9 @@ The $16.8 billion is a **lower-bound announcement**, not a measured expenditure.
 Preserve an election-day baseline separately from certified results. After certification, document which offices changed control and their statutory authority; then monitor actual legislative, administrative, incentive and permitting decisions. Record contrary evidence and unchanged policies. Any policy-to-investment association requires explicit competing explanations and human review. Maintain academic independence, protect confidential course materials and GRI intellectual property, and require reproducible evidence before elevating hypotheses to findings.
 
 **Integration:** This record extends existing GRI AI Paradox, institutional governance, Kiongozi/comparative development and independent assurance analysis. It is not a new program, a partisan assessment or a claim of validated causal impact.
+
+### Source-qualified visual exhibit
+
+![Terafab announced capital investment, projected employment and announced grant, with distinct units and evidence qualifications](texas-terafab-evidence-baseline.svg)
+
+This descriptive exhibit uses three separate metric cards rather than a common quantitative axis because the measures have different units and evidence status. It does not represent realized spending, employment or grant payments.
