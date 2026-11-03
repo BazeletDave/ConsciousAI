@@ -100,3 +100,8 @@ This research milestone extends GRI's existing algorithmic management and autono
 ## November 2, 2026 | Flood-exposed long-trip offer and algorithmic risk communication
 
 A contributor-supplied UberX Priority screenshot shows a $265.81, 356.2-mile, 5h09m offer to Jacksonville, presented alongside separately supplied severe-weather broadcast evidence from Florida's Treasure Coast and Space Coast. The research distinguishes the offer's visible lack of a weather warning or return-cost disclosure from unverified internal dispatch behavior. Quantitative sensitivity calculations, hazard timestamp matching requirements, and five-dimensional coding are documented in the [Algorithmic Mobility Paradox working paper](algorithmic-mobility-paradox-working-paper-2026-10.md). This is an extension of existing longitudinal research, not a new project or proof of an algorithmic safety violation.
+
+
+## November 3, 2026 | South Florida flooding, surge incentives and the AI Paradox
+
+[Read the source-qualified observational extension](2026-11-03-south-florida-flood-surge-incentives-observational-extension.md). Ten contributor-supplied screenshots document differentiated Uber surge displays, Lyft incentive-format comparisons, reported earnings and firsthand accounts of flood-related driver safety decisions. The study examines whether platform financial incentives and hazard communication are institutionally aligned, without alleging proven unsafe dispatch, causal effects or verified platform intent. It cross-references the existing Algorithmic Mobility Paradox, institutional governance and prospective synthetic Tiger Assurance methodology. Original participant images are not redistributed in the public note; engineering and independent verification remain pending.
