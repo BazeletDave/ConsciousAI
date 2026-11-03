@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-02T21:42:28.788703+00:00",
+  "generated_at": "2026-11-03T06:45:50.819076+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -144,6 +144,18 @@
       "category": "international_regulatory",
       "title": "Europeans overwhelmingly support stronger EU civil protection cooperation based on solidarity, new Eurobarometer shows",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2285",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "6f5db53c7691045bb812",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Guidance: Everitt Review terms of reference",
+      "source_url": "https://www.gov.uk/government/publications/everitt-review-terms-of-reference",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -372,18 +384,6 @@
       "category": "international_regulatory",
       "title": "Public electric vehicle charge points: cyber security",
       "source_url": "https://www.gov.uk/government/consultations/public-electric-vehicle-charge-points-cyber-security",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "dba63c6ab698186ebc64",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Transparency data: DfT: spending over \u00a325,000, July 2026",
-      "source_url": "https://www.gov.uk/government/publications/dft-spending-over-25000-july-2026",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
