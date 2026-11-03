@@ -76,3 +76,7 @@ Dashboard should distinguish **source indexed**, **claim reviewed**, **model eva
 
 ### Method and publication gates
 Keep hypotheses and published data separate. Validate indicator definitions and changes across editions; account for missingness, sampling, income and urbanization confounding; avoid ranking country leadership or claiming governance outcomes from correlations. For empirical studies preregister hypotheses, comparators and falsification tests, then independently reproduce. Human approval remains required for interpretive claims. This entry is **documentation only**: no World Bank API ingestion, model training, dashboard deployment, or independent validation is asserted.
+
+## World Bank empirical intake implementation | November 3, 2026
+
+The [Kiongozi World Bank empirical protocol](KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md) and [reproducible WDI collector](../ConsciousAI-Research-Systems/world_bank_africa_baseline.py) extend the existing public scholarship and institutional governance crosswalk. The collector is not yet executed against a successful live API response; no validated country-level numerical dataset or causal result is claimed. Preserve World Bank source revisions and human approval before any machine learning or dashboard publication.
