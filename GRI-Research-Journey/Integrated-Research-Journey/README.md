@@ -358,3 +358,7 @@ The [Texas AI infrastructure institutional observation](2026-11-03-texas-ai-infr
 ## November 3, 2026 | Global AI capital, infrastructure and institutional intelligence
 
 The [global AI capital and infrastructure institutional intelligence extension](2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md) connects the Texas observation to Florida data center development, nationwide public and regulatory responses, IMF financial stability research, global development and AI capability evolution. It specifies a source-provenanced machine-assisted evidence graph, confidence and review gates, and bounded integration with existing GRI assurance systems. This is an existing AI Paradox research extension, not a new program or a claim that continuous collection is operational.
+
+## November 3, 2026 | Kiongozi, Landry Signé and World Bank Africa AI governance
+
+The [existing Landry Signé public scholarship registry](../Research-Governance/Institutional-Source-Registry/LANDRY_SIGNE_PUBLIC_RESEARCH.md) now includes a World Bank institutional source crosswalk for Africa AI advancement, governance, digital foundations, global AI divide, leapfrogging and accountable agentic AI. It identifies World Development Indicators, Worldwide Governance Indicators, GovTech Maturity Index, Digital Economy for Africa, and World Bank digital development publications as prospective reproducible evidence sources. This extends Kiongozi, the AI Paradox and existing GRI assurance research; it does not establish new empirical findings or deploy a collector.
