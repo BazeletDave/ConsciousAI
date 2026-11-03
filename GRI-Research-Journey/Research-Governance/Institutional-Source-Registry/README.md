@@ -51,3 +51,9 @@ The GRI dashboard remains an independent research system. Listing an institution
 ## Featured integrated GRI research
 
 - [Energy, Development Finance, and the Global AI Divide — David A. Grand](../../Integrated-Research-Journey/2026-10-28-energy-finance-ai-divide-resilience.md): integrates Signé's public development scholarship, Nelson's institutional perspectives, World Bank/IMF finance, electricity infrastructure, and ASU resilience learning. This is original GRI analysis, with hypotheses pending empirical testing and no implied faculty endorsement.
+
+## November 3, 2026 | Authoritative Africa AI evidence record
+
+The **current authoritative source-level review** is [Kiongozi | World Bank Africa Economic Update primary-PDF audit](KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md), specifically its final **PRIMARY PDF AUDIT: supersedes provisional exhibit index** section. The uploaded 118-page original report confirms the October 2026 publication, September 2026 data cutoff, printed figure and table locations, scenario assumptions and limitations. Earlier preliminary report indexes in the chronological record are retained for provenance but **must not be cited as current page references**.
+
+Use [Landry Signé public scholarship](LANDRY_SIGNE_PUBLIC_RESEARCH.md) for distinct, attributable academic sources and [the Integrated Research Journey](../../Integrated-Research-Journey/README.md) for GRI's independent synthesis. The World Bank report, November 3 event participants' attributed remarks, Signé and Nelson scholarship, and GRI's hypotheses are distinct evidence types. The ministerial transcript, third-party statistical replication and engineering tests remain unverified. This registry is not a production data ingestion pipeline, university endorsement or assurance certification.
