@@ -136,3 +136,7 @@ The two series are **not interchangeable**: annual capital expenditure is a cash
 ![Tesla SEC reported 2024 and 2025 companywide capital expenditures and gross AI infrastructure PPE, in two distinct scales](tesla-sec-financial-baseline-2024-2025.svg)
 
 This reproducible descriptive graphic preserves the distinction between annual capital expenditures and gross AI infrastructure PPE balances. Neither series identifies Texas-only expenditure.
+
+## Frozen pre-election methodology and dataset
+
+The [November 3 preregistered institutional observation protocol](2026-11-03-texas-institutional-pre-election-protocol.md) freezes the hypotheses, office-specific institutional event definitions, comparison rules, confounders, evidentiary thresholds and planned exhibits before election returns. The [source-qualified machine-readable evidence baseline](texas-ai-infrastructure-pre-election-evidence.csv) contains dated SEC and Texas government observations and a deliberately blank election result. Later observations must be appended with provenance rather than retroactively altering the baseline.
