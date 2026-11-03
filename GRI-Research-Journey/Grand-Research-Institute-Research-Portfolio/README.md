@@ -22,6 +22,7 @@
 | Applied platform management and field research | [Uber and Lyft research](../Algorithmic-Management/Uber-Lyft-Research/README.md) |
 | AI decision architecture and October 2026 academic context | [The AI Paradox research edition](../../Research-Journey/AI-Leadership/Algorithmic-Management/2026-10-15-anatomy-of-ai-decision/OCTOBER_2026_RESEARCH_EDITION.md) |
 | **Cambodian antiquities, Douglas Latchford, and the Legitimacy Paradox** | [**Explore the historical research and AI Paradox connection**](../Integrated-Research-Journey/Legitimacy-Paradox-Cambodian-Antiquities.md) |
+| November 3 institutional AI Paradox milestone | [Academic synthesis: model learning, managerial cognition and institutional assurance (PDF)](../Integrated-Research-Journey/GRI%202026%2011%3A03%20Institutional_AI_Paradox_Milestone.pdf) |
 | Integrated AI Paradox research architecture | [**Living GRI Research Journey**](../Integrated-Research-Journey/README.md) |
 | Institutional learning and accountable AI leadership | [The AI Governance Paradox: Institutional Research Report](../Institutional-Research-Reports/AI-Governance-Paradox/README.md) |
 | Figures and visual interpretation | [Figures and visual materials](../Algorithmic-Management-Institutional-Leadership/Figures-and-Visual-Materials.md) |
