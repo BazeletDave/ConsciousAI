@@ -10,6 +10,8 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 **Selected foundations:** [Nelson Model methodological boundaries](nelson-model-methodological-boundaries.md) · [Digital Bretton Woods](Digital-Bretton-Woods/README.md) · [Longitudinal research continuity](2026-10-22-longitudinal-cross-jurisdictional-platform-and-biotech-research.md)
 
+**November 3, 2026 institutional milestone:** [Model learning, managerial cognition and AI Paradox governance synthesis (PDF)](GRI%202026%2011%3A03%20Institutional_AI_Paradox_Milestone.pdf). This archival research synthesis extends existing algorithmic management and institutional assurance work. Conceptual integration is distinct from empirical validation; November 4 engineering and independent reproduction remain pending.
+
 ## November 2026 | AI enabled influence operations, synthetic authority and institutional trust
 
 **Status:** Source grounded extension of the existing AI Paradox, institutional governance and Tiger Assurance research. No new program, claim of verified persuasion effects, or operational deployment.
