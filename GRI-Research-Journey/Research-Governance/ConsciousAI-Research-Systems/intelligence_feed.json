@@ -1,13 +1,27 @@
 {
   "schema_version": "1.0",
   "mode": "automated_official_metadata_triage",
-  "generated_at": "2026-11-03T06:45:46.760252+00:00",
-  "source_last_collection_at": "2026-11-03T06:45:46.699825+00:00",
-  "source_registry_sha256": "751c0cec07bad5ddd8f0f18ebdac4b1fea8d6d1df60bfb777dc8ec7d718c8d7c",
-  "source_records": 108,
-  "matched_records": 12,
-  "human_review_required": 12,
+  "generated_at": "2026-11-03T17:02:05.803452+00:00",
+  "source_last_collection_at": "2026-11-03T17:02:05.764430+00:00",
+  "source_registry_sha256": "ac3f38bb2ccc850445f66143ac605f1fe8630d7a11fece85cfc95819ceb5908d",
+  "source_records": 113,
+  "matched_records": 13,
+  "human_review_required": 13,
   "queue": [
+    {
+      "id": "US-FR-2026-22436",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22436/privacy-act-of-1974-system-of-records",
+      "title": "Privacy Act of 1974; System of Records",
+      "publication_date": "2026-11-03",
+      "topics": [
+        "automated",
+        "transportation"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "US-FR-2026-22306",
       "source_url": "https://www.federalregister.gov/documents/2026/11/02/2026-22306/improving-transparency-into-pharmacy-benefit-manager-fee-disclosure",

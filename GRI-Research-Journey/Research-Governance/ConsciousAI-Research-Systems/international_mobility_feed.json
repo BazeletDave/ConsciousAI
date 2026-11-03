@@ -1,13 +1,12 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-03T06:45:50.819076+00:00",
+  "generated_at": "2026-11-03T17:02:18.968482+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
       "source_id": "EU-COMMISSION-NEWS",
-      "status": "fetched",
-      "items": 10,
-      "method": "rss_atom"
+      "status": "failed",
+      "error_type": "TimeoutError"
     },
     {
       "source_id": "UK-DfT",
@@ -28,126 +27,6 @@
     }
   ],
   "queue": [
-    {
-      "id": "468c4bc030b8aead5820",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Joint statement by Executive Vice-President Virkkunen, High Representative Kallas and Commissioner McGrath ahead of the International Day to End Impunity for Crimes against Journalists",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2317",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "3bf9835549e728aed730",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "EU-Canada Summit 2026: Leaders mark a historic moment in bilateral relations",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2318",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "0ad8c304ad5cdd8c63ed",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Joint Statement: The European Union and Canada building together an Alliance for the future",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2313",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "dbdbc371348ed1702e99",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Statement by President von der Leyen following the EU-Canada summit",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2312",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "e986b72a18c21b5fa967",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Opening statement by President von der Leyen at the EU-Canada summit",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2310",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "c52cef874f562ef9aa21",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "EU and Canada intensify cooperation in the area of medical countermeasures for preparedness and response to combat health emergencies",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2309",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "3a3c2e0a1322a379791b",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Daily News 30 / 10 / 2026",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2307",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "2095df2e6f91dcbac1b8",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Factsheet - 2026 EU-Canada Summit",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_26_2305",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "b166305d9bd428486909",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission disburses almost \u20ac6.5 billion to France, Austria and Luxembourg under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2303",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "c9a5686e1d1532931378",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Europeans overwhelmingly support stronger EU civil protection cooperation based on solidarity, new Eurobarometer shows",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2285",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
     {
       "id": "6f5db53c7691045bb812",
       "source_id": "UK-DfT",
@@ -725,6 +604,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 54,
+  "review_required": 44,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
