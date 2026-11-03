@@ -1,0 +1,36 @@
+name: GRI Kiongozi World Bank WDI baseline
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collect-and-validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Offline collector regression tests
+        run: python3 -m unittest discover -s GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems -p 'test_world_bank_africa_baseline.py' -v
+      - name: Fetch World Bank WDI observations
+        run: python3 GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/world_bank_africa_baseline.py --output africa_wdi_baseline.csv
+      - name: Validate source-qualified CSV
+        run: |
+          python3 - <<'PY'
+          import csv
+          with open('africa_wdi_baseline.csv',newline='',encoding='utf-8') as f:
+              rows=list(csv.DictReader(f))
+          assert len(rows)==100, f"Expected 100 records, got {len(rows)}"
+          assert {r['iso3'] for r in rows}=={'GHA','KEN','NGA','RWA','ZAF'}
+          assert all(r['response_sha256'] and r['source_url'].startswith('https://api.worldbank.org/v2/') for r in rows)
+          assert all(r['value_status'] in {'reported','missing'} for r in rows)
+          print('Validated',len(rows),'records')
+          PY
+      - name: Preserve dated raw research artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: gri-kiongozi-world-bank-wdi
+          path: africa_wdi_baseline.csv
+          retention-days: 90
