@@ -353,3 +353,8 @@ The [Kiongozi Framework](../../README.md#the-kiongozi-framework) connects attrib
 ## November 3, 2026 | Texas AI infrastructure and institutional embeddedness
 
 The [Texas AI infrastructure institutional observation](2026-11-03-texas-ai-infrastructure-institutional-event.md) extends the existing AI Paradox with the TAM 505 Intel site selection lens, Tesla/SpaceX/xAI geographic exposure, prospective political and regulatory change, and a reproducible evidence and visualization protocol. This is a dated observation baseline, not a new research program, an election outcome claim, or evidence of causality.
+
+
+## November 3, 2026 | Global AI capital, infrastructure and institutional intelligence
+
+The [global AI capital and infrastructure institutional intelligence extension](2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md) connects the Texas observation to Florida data center development, nationwide public and regulatory responses, IMF financial stability research, global development and AI capability evolution. It specifies a source-provenanced machine-assisted evidence graph, confidence and review gates, and bounded integration with existing GRI assurance systems. This is an existing AI Paradox research extension, not a new program or a claim that continuous collection is operational.
