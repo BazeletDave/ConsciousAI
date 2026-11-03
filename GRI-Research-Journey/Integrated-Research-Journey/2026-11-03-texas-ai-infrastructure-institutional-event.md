@@ -130,3 +130,9 @@ The following descriptive chart uses a consistent metric, reporting entity and u
 
 The two series are **not interchangeable**: annual capital expenditure is a cash-flow-related investment metric, whereas gross AI infrastructure PPE is a stock of recorded assets. The 2025 gross balance is not proof of the amount invested in Texas. 
 
+
+### SEC financial comparison visualization
+
+![Tesla SEC reported 2024 and 2025 companywide capital expenditures and gross AI infrastructure PPE, in two distinct scales](tesla-sec-financial-baseline-2024-2025.svg)
+
+This reproducible descriptive graphic preserves the distinction between annual capital expenditures and gross AI infrastructure PPE balances. Neither series identifies Texas-only expenditure.
