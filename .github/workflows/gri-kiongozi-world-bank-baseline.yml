@@ -1,6 +1,11 @@
 name: GRI Kiongozi World Bank WDI baseline
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/gri-kiongozi-world-bank-baseline.yml'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/world_bank_africa_baseline.py'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_world_bank_africa_baseline.py'
 permissions:
   contents: read
 jobs:
