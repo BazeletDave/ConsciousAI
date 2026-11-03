@@ -51,7 +51,7 @@ GRI consolidates new evidence and comparative observations within its establishe
 
 | Established research theme | Research access |
 | --- | --- |
-| **AI Paradox and institutional governance** | [Institutional Research Brief](GRI-Research-Journey/Institutional-Research-Brief/README.md) · [Institutional Power Amplification Framework](GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md) |
+| **AI Paradox and institutional governance** | [Texas AI infrastructure institutional event (November 3, 2026)](GRI-Research-Journey/Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md) · [Institutional Research Brief](GRI-Research-Journey/Institutional-Research-Brief/README.md) · [Institutional Power Amplification Framework](GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md) |
 | **Algorithmic management and human decision authority** | [Uber and Lyft field research](GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md) · [Institutional leadership monograph](GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/README.md) |
 | **Kiongozi, comparative development and institutional capacity** | [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md) · [Global AI and SI governance](GRI-Research-Journey/Institutional-Governance/Global-AI-SI-Governance/README.md) |
 | **Independent AI assurance and cybersecurity** | [Institutional AI governance and assurance](GRI-Research-Journey/institutional-ai-governance-assurance/README.md) · [Tiger Legacy research record](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md) |
