@@ -85,3 +85,48 @@ Preserve an election-day baseline separately from certified results. After certi
 ![Terafab announced capital investment, projected employment and announced grant, with distinct units and evidence qualifications](texas-terafab-evidence-baseline.svg)
 
 This descriptive exhibit uses three separate metric cards rather than a common quantitative axis because the measures have different units and evidence status. It does not represent realized spending, employment or grant payments.
+
+
+## November 3 additional verified SEC and election evidence
+**Tesla, Inc., FY2025 Form 10-K (SEC, filed 2026):** https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm . SEC disclosure establishes:
+* Tesla FY2025 capital expenditure **$8.53 billion**, versus **$11.34 billion** in FY2024, **companywide**, not Texas-specific.
+* FY2025 gross property, plant and equipment **AI infrastructure $6.816 billion**, versus **$5.152 billion** at FY2024 year end. These are companywide gross carrying amounts; the difference is **$1.664 billion** in reported balances, not a measure of Texas expenditure or net cash spending.
+* Tesla's FY2025 filing forecast **2026 capital expenditure in excess of $20 billion**, companywide. This is management guidance as of filing, not realized FY2026 expenditure; check subsequent quarterly reports for updated guidance and actual spending.
+* Tesla identifies its **Cortex** training cluster at Gigafactory Texas and construction of **Cortex 2**. This directly documents Texas AI compute exposure, distinct from xAI's Memphis Colossus.
+* Tesla reports a **20-year Travis County agreement (2020)** with grants equivalent to **70–80% of eligible county property taxes paid**, and a **10-year Del Valle Independent School District agreement (2020)** limiting a portion of taxable value, both contingent on economic development requirements. Tesla describes the 2023–2025 property-tax grant funding as immaterial. Review original agreements before inferring future incentives or their treatment under political transition.
+* Tesla reports **$430 million revenue** and **$285 million cost of revenues** from 2025 xAI purchases of Megapack products. This is evidence of related-party commercial transactions, not a Texas-only revenue figure.
+* Tesla disclosed a **January 2026 agreement to invest approximately $2 billion in xAI preferred stock**. Do not conflate a financial investment with Texas construction expenditure, or infer completion without later filings.
+* Tesla identifies its Austin Gigafactory as an owned principal manufacturing facility, while also listing facilities in California, Nevada, New York, Germany and China. This is direct evidence against an all-Texas characterization.
+
+**Official election authority:** Texas Governor's August 10, 2026 general election proclamation, hosted by the Texas Secretary of State: https://www.sos.state.tx.us/elections/forms/proclamation-general-election-2026.pdf . The official election date is November 3, 2026. The Texas Tribune's election results explainer (https://apps.texastribune.org/features/2026/texas-general-election-live-results-2026/) distinguishes Associated Press projections from final certification. As of this morning, no election outcome is entered in the GRI baseline.
+
+### Additional reproducible financial observations
+| Period | Reporting entity | Metric | Value | Unit | Classification | Geographic scope | Source |
+| --- | --- | --- | ---: | --- | --- | --- | --- |
+| FY2024 | Tesla | Capital expenditure | 11.34 | USD billions | Realized | Companywide | SEC 2025 10-K |
+| FY2025 | Tesla | Capital expenditure | 8.53 | USD billions | Realized | Companywide | SEC 2025 10-K |
+| FY2024 end | Tesla | AI infrastructure, gross PPE | 5.152 | USD billions | Reported balance | Companywide | SEC 2025 10-K |
+| FY2025 end | Tesla | AI infrastructure, gross PPE | 6.816 | USD billions | Reported balance | Companywide | SEC 2025 10-K |
+| FY2025 | Tesla and xAI | Related-party sales revenue | 430 | USD millions | Realized reported revenue | Not Texas-specific | SEC 2025 10-K |
+| FY2025 | Tesla and xAI | Related-party cost of revenue | 285 | USD millions | Realized reported cost | Not Texas-specific | SEC 2025 10-K |
+| January 2026 | Tesla and xAI | Preferred equity investment agreement | 2.0 | USD billions approximately | Agreement disclosed | Financial investment, not Texas plant capex | SEC 2025 10-K |
+| FY2026 forecast in 2025 10-K | Tesla | Capital expenditure outlook | 20 | USD billions, lower bound | Forward guidance | Companywide | SEC 2025 10-K |
+
+**Interpretive guardrail:** Companywide financials cannot be used to calculate Texas-specific capital concentration without a location-level asset register. Announced Terafab commitments must not be added to Tesla's companywide capital expenditure or xAI equity transactions without accounting for overlap, ownership and realization. Related-party transactions do not demonstrate governance failure. Corporate political activity does not, without further evidence, establish the causes of site selection or investment changes.
+
+### Chart: verified companywide Tesla capital expenditure
+The following descriptive chart uses a consistent metric, reporting entity and unit, with SEC FY2025 comparative data. It is not a Texas capital expenditure chart.
+
+| Fiscal year | Capital expenditure, USD billions |
+| --- | ---: |
+| 2024 | 11.34 |
+| 2025 | 8.53 |
+
+### Chart: reported gross AI infrastructure property and equipment
+| Year-end | Gross AI infrastructure PPE, USD billions |
+| --- | ---: |
+| 2024 | 5.152 |
+| 2025 | 6.816 |
+
+The two series are **not interchangeable**: annual capital expenditure is a cash-flow-related investment metric, whereas gross AI infrastructure PPE is a stock of recorded assets. The 2025 gross balance is not proof of the amount invested in Texas. 
+
