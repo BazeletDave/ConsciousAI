@@ -112,3 +112,14 @@ Researchers may examine public records and submit corrections with source attrib
 ## Technical assurance, research status and academic independence
 
 The [deployment and research capability register](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md) documents which services are deployed, which research components are implemented, and which require further evaluation or independent assessment. Deployment is not equivalent to independent certification. GRI research is independent; academic references to Thunderbird School of Global Management at Arizona State University do not imply institutional sponsorship or endorsement. Evidence and publication limitations are addressed in the linked research protocols.
+
+## November 3, 2026 | Africa AI readiness: authoritative research navigation
+
+**Institutional source status:** The 118-page World Bank *Africa Economic Update: Building AI Readiness* (October 2026; DOI 10.1596/978-1-4648-2361-9; data cutoff September 2026) has been examined directly. **Use the latest primary-PDF audit below, not earlier provisional page indexes.** The World Bank's published estimates, November 3 panel observations, third-party scholarship and GRI hypotheses remain separate evidence classes.
+
+- **[Kiongozi | World Bank primary-PDF audit and speaker evidence ledger](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md)** — corrected printed pages, methods, figures, conditional economic scenarios, governance measures, eight-speaker event ledger and explicit validation limits.
+- **[Landry Signé | public scholarship and institutional crosswalk](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/LANDRY_SIGNE_PUBLIC_RESEARCH.md)** — bibliographic provenance and GRI's independent comparative analysis; no claim of faculty collaboration or endorsement.
+- **[Integrated Research Journey | Africa AI and institutional governance](GRI-Research-Journey/Integrated-Research-Journey/README.md)** — continuity with the AI Paradox, Nelson's institutional lens, existing Tiger Assurance and comparative development research.
+- **[Institutional Source Registry](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md)** — publisher, scholarly and source-quality governance.
+
+**Evidence maturity:** Publisher report and principal methodology examined; official panel participant roles identified; speaker quotations, national administrative figures, vendor metrics, underlying third-party data/model reproduction and GRI engineering tests **not independently verified**. Do not equate source review with replication or a live dashboard feed. No new research program or deployment is asserted.
