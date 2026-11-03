@@ -49,3 +49,30 @@ Dashboard should distinguish **source indexed**, **claim reviewed**, **model eva
 6. Release to dashboard only after verified pipeline tests, human authorization and deployment health checks.
 
 **Current result:** Bibliographic and research mapping registry created. No claim of automatic collection, ML retraining, dashboard deployment or independent validation is made by this file.
+
+## November 3, 2026 | World Bank and Africa AI governance crosswalk (existing Kiongozi and AI Paradox)
+
+**Scope:** Research extension to existing Kiongozi, comparative development, institutional governance and AI Paradox work; not a new project, new program, live pipeline or verified causal finding. World Bank publications and data are independently sourced institutional evidence, not GRI endorsements.
+
+### World Bank source intake and verification
+| Institution and publication | Source | Research use | Status |
+| --- | --- | --- | --- |
+| World Bank, *Digital Progress and Trends Report 2025: Strengthening AI Foundations* | https://www.worldbank.org/en/publication/digital-progress-and-trends-report | AI foundations: connectivity, compute, data and skills; compare infrastructure gaps with institutional capacity | Primary institutional publication candidate; confirm exact edition, tables and indicators before quoting figures |
+| World Bank, *World Development Report 2016: Digital Dividends* | https://www.worldbank.org/en/publication/wdr2016 | Digital adoption versus complementary analog institutions, accountability and public service capability | Foundational institutional comparison, not current Africa measurement |
+| World Bank, *Worldwide Governance Indicators* | https://www.worldbank.org/en/publication/worldwide-governance-indicators | Country governance dimensions, methodology and uncertainty intervals | Contextual indicators, not direct AI governance scores or causal proof |
+| World Bank, *World Development Indicators* | https://databank.worldbank.org/source/world-development-indicators | Electricity, connectivity, education and development denominators | Series and year verification required; missing observations remain missing |
+| World Bank, *GovTech Maturity Index* | https://www.worldbank.org/en/programs/govtech/gtmi | Digital public administration and service delivery readiness | Composite indicators; review measurement definitions, country coverage and editions |
+| World Bank, *Digital Economy for Africa* | https://www.worldbank.org/en/programs/all-africa-digital-transformation | Digital foundations, inclusion and continental development context | Program source; individual country claims need project documents |
+
+### Signé and World Bank comparative research questions
+1. **AI leapfrogging versus foundational constraints:** Does access to reliable electricity, affordable broadband, compute and skills condition AI adoption outcomes? Compare Signé LS-001/002/003 with dated World Bank country series, preserving uncertainty.
+2. **Institutional capacity and governance:** How do administrative effectiveness, legal accountability, data governance, procurement and contestability influence the distribution of AI benefits? WGI and GTMI are proxies, not AI assurance certification.
+3. **Local value capture:** Distinguish announcements, financing commitments, disbursements, operational infrastructure and independently measured local economic outcomes. Do not infer leapfrogging from funding alone.
+4. **Agentic AI authority:** Map Signé and Amezaga LS-004 to GRI's existing Kiongozi and Tiger assurance requirements for permission scope, logs, human override, remedy and independent reproduction.
+5. **Cross-regional comparisons:** Preserve country-specific institutional history and avoid assuming that policy transfer from the US, Brazil or Israel is appropriate for Africa. Compare jurisdictions only with explicit temporal and metric compatibility.
+
+### Proposed evidence join keys
+`iso3, country_name, indicator_code, observation_year, publication_edition, value, unit, coverage, methodology_url, retrieved_at, source_hash, source_status, reviewer`; join to `policy_event_id, legal_authority, effective_date, AI_use_case, outcome_metric, competing_explanations`. An indicator is not a finding of causality. Flag World Bank aggregate regional estimates separately from country measurements.
+
+### Method and publication gates
+Keep hypotheses and published data separate. Validate indicator definitions and changes across editions; account for missingness, sampling, income and urbanization confounding; avoid ranking country leadership or claiming governance outcomes from correlations. For empirical studies preregister hypotheses, comparators and falsification tests, then independently reproduce. Human approval remains required for interpretive claims. This entry is **documentation only**: no World Bank API ingestion, model training, dashboard deployment, or independent validation is asserted.
