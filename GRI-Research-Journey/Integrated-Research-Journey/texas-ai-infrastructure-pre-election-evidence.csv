@@ -1,0 +1,9 @@
+record_id,observation_date,entity,facility,jurisdiction,metric,value,unit,evidence_status,geographic_scope,source_url,notes
+TX-001,2026-08-06,SpaceX,Terafab,Grimes County Texas,announced_initial_investment_lower_bound,16.8,USD_billion,announced,Texas,https://gov.texas.gov/news/post/governor-abbott-announces-spacex-expansion-in-grimes-county,Not verified spent
+TX-002,2026-08-06,SpaceX,Terafab,Grimes County Texas,projected_jobs,3000,positions,projected,Texas,https://gov.texas.gov/news/post/governor-abbott-announces-spacex-expansion-in-grimes-county,Not verified hires
+TX-003,2026-08-06,SpaceX,Terafab,Grimes County Texas,announced_state_grant,30,USD_million,announced,Texas,https://gov.texas.gov/news/post/governor-abbott-announces-spacex-expansion-in-grimes-county,Not verified paid
+TSLA-001,2024-12-31,Tesla,companywide,Multiple,annual_capital_expenditure,11.34,USD_billion,reported_actual,companywide,https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf,Annual flow
+TSLA-002,2025-12-31,Tesla,companywide,Multiple,annual_capital_expenditure,8.53,USD_billion,reported_actual,companywide,https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf,Annual flow
+TSLA-003,2024-12-31,Tesla,companywide,Multiple,gross_ai_infrastructure_ppe,5.152,USD_billion,reported_balance,companywide,https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf,Stock not annual spending
+TSLA-004,2025-12-31,Tesla,companywide,Multiple,gross_ai_infrastructure_ppe,6.816,USD_billion,reported_balance,companywide,https://ir.tesla.com/_flysystem/s3/sec/000162828026003952/tsla-20251231-gen.pdf,Stock not annual spending
+ELECT-001,2026-11-03,Texas,General election,Texas,election_result,,not_applicable,unverified,statewide,https://www.sos.state.tx.us/elections/,Outcome deliberately blank before polls close
