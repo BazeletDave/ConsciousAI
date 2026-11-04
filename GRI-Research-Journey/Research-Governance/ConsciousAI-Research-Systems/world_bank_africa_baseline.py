@@ -28,7 +28,17 @@ def collect(start_year,end_year):
         data=json.loads(raw)
         if not isinstance(data,list) or len(data)<2 or not isinstance(data[1],list): raise ValueError(f"Unexpected API response for {code}: {data}")
         if int(data[0].get("pages",1))!=1: raise ValueError("Pagination exceeded: refuse partial dataset")
-        by_key={(item["countryiso3code"],str(item["date"])):item for item in data[1]}
+        by_key={}
+        for item in data[1]:
+            if not isinstance(item,dict): raise ValueError("Invalid API record")
+            key=(item.get("countryiso3code"),str(item.get("date")))
+            if key in by_key: raise ValueError(f"Duplicate API record for {code}: {key}")
+            record_indicator=item.get("indicator")
+            if not isinstance(record_indicator,dict) or record_indicator.get("id")!=code:
+                raise ValueError(f"Indicator identity mismatch for {code}: {key}")
+            if key[0] not in COUNTRIES or not str(key[1]).isdigit() or not start_year<=int(key[1])<=end_year:
+                raise ValueError(f"Unexpected country/year for {code}: {key}")
+            by_key[key]=item
         for iso,name in COUNTRIES.items():
             for year in range(start_year,end_year+1):
                 item=by_key.get((iso,str(year)))
