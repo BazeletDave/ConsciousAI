@@ -18,6 +18,12 @@ jobs:
       - name: Retrieve and reconcile official World Bank WDI observations
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python run_wdi_evidence.py "$RUNNER_TEMP/gri_wdi_evidence"
+      - name: Independently verify archived evidence structure and values
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: |
+          python -c 'import os,zipfile,pathlib; p=pathlib.Path(os.environ["RUNNER_TEMP"])/"gri_wdi_evidence"; z=pathlib.Path(os.environ["RUNNER_TEMP"])/"wdi_evidence_check.zip"; zipfile.ZipFile(z,"w",zipfile.ZIP_DEFLATED).write(p/"evidence_manifest.json","evidence_manifest.json"); print(z)'
+          python -c 'import os,zipfile,pathlib; p=pathlib.Path(os.environ["RUNNER_TEMP"])/"gri_wdi_evidence"; z=pathlib.Path(os.environ["RUNNER_TEMP"])/"wdi_evidence_check.zip"; f=zipfile.ZipFile(z,"a",zipfile.ZIP_DEFLATED); [f.write(x,x.relative_to(p)) for x in p.rglob("*") if x.is_file() and x.name!="evidence_manifest.json"]; f.close()'
+          python verify_wdi_archive.py "$RUNNER_TEMP/wdi_evidence_check.zip"
       - name: Archive immutable run evidence
         if: always()
         uses: actions/upload-artifact@v4
