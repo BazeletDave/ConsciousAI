@@ -1,14 +1,17 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-04T17:14:09.005758+00:00",
+  "generated_at": "2026-11-04T23:39:36.832161+00:00",
   "mode": "evolving_repository_retrieval_with_governed_learning_candidates",
-  "catalog_sha256": "be69d11931b61e306ef208f97c9727cd757166514027b93e48e18f276a94b827",
+  "catalog_sha256": "4ad954c1f30d8f9b8c0ee1248f6d1373c88fad473b9797678c157fceb809414e",
   "document_count": 237,
   "truncated": false,
   "changes": {
     "added": [],
     "removed": [],
-    "revised": []
+    "revised": [
+      "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md",
+      "GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md"
+    ]
   },
   "documents": [
     {
@@ -917,7 +920,7 @@
     {
       "path": "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md",
       "title": "GRI Platform Deployment and Research Status",
-      "content_sha256": "8023afb7de95be56b564cc6f48aaebcd18ec99e7b3617e39e5f030216d3dbc4c",
+      "content_sha256": "32fcacced0b9db4b14e58957d957896c5883f8e2a4350deae0c282181121fda9",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -1162,7 +1165,7 @@
     {
       "path": "GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md",
       "title": "Kiongozi | World Bank Africa AI foundations: empirical intake and validation",
-      "content_sha256": "6769230b0572fadff7279c70861fd2c194ebe283ede8110e8f886e9a987aadbd",
+      "content_sha256": "e0578d0e825e8cdc43cadac13bfbe6df6632851563403890c4815b68fd998c4a",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -1674,7 +1677,7 @@
   "evidence_connections": [
     {
       "record_id": "fdbba33cc5d84ec987fcb052",
-      "content_sha256": "fc750b28e46fa4a6e21d55dd83001af5f5aab04efee7918591fed3386d35d06c",
+      "content_sha256": "ca66840ecdc292fc6c55f2c22c9008beb2b49c86a0252def81ab0f31ce9b56c4",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1821,7 +1824,7 @@
     },
     {
       "record_id": "de3d3a58405cef75e233e43e",
-      "content_sha256": "12fbfa9b105f0f8f6825de326f1a05037b7364c51bcf22ac7cbd61a23a7ecaae",
+      "content_sha256": "418e2034fe0f1f4a16279341ca198800c6856ad31e68b41c7d4c0fa70a9d0d30",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1950,7 +1953,7 @@
     },
     {
       "record_id": "bff1a7e46550fb3eb2151285",
-      "content_sha256": "0bafbfb0c78ead376cc7b878b72ca66c654efbbc0a98252f578388eab52e79cc",
+      "content_sha256": "de0bc942cae443b5e3daa0c0cd8fc5103499d4e3e55a1eb0f2eaacba2dadf5b7",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2007,7 +2010,7 @@
     },
     {
       "record_id": "bd07bbe5d81439c7d312c64c",
-      "content_sha256": "29ece0b70a2a20de810f238dd266a0a9be159c6d2143a472452fc9a10043cfd4",
+      "content_sha256": "67e344378dbf543c0c03b4964f9dcefd4e72d8dbfe81d7aa36b5244c002ada8a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2160,7 +2163,7 @@
     },
     {
       "record_id": "958e2bc1a020d8f707f85732",
-      "content_sha256": "4a7500eb531c2c4b4c5d45d41c73f9373d38e22906e0d6fd636a16b14d3598da",
+      "content_sha256": "d3c5d744b60b7a481fef84d43337b469c0a40edfd0cef784b092b736e72364c5",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2217,7 +2220,7 @@
     },
     {
       "record_id": "91efdcd514fb297ecd8601d8",
-      "content_sha256": "44862e5e7d52f1dee79f5982539fd662b4907af20b2114a71e001b8aaa8b54ff",
+      "content_sha256": "5ad3164ac780be4f661fc89d45e90e09f6742aad0ca4630cf8fe2f1d98b248a7",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2283,7 +2286,7 @@
     },
     {
       "record_id": "5e535c4ee7e173dddcba0a6e",
-      "content_sha256": "ed5b2b43b0520dd51579d6280c5bbed8157bb537433bd86fd380d1ec1d91a461",
+      "content_sha256": "efdba7abdfda93d4dfde65952aee904ba60f0da3b1ffaa961297098ae4440ff1",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2364,7 +2367,7 @@
     },
     {
       "record_id": "4f7851f3ba77b536fb26b041",
-      "content_sha256": "97e531629ea739f770c7652fece80d4257c7508df237973f8ae81fdabc52ddb2",
+      "content_sha256": "830d9bebbcf0f973be1cda038a06f157c08d86764d6de6dcdfae1d1b39594d82",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -2397,7 +2400,7 @@
     },
     {
       "record_id": "422244d2169f151459cfe81a",
-      "content_sha256": "3e0bf0b8b6d68e745bc615f083a3df5d1e8cfdd623600682691cb32d669e04cf",
+      "content_sha256": "9bfab67a609795a2a27edd697969ead46947c3257a671dcc568e57bf094cb164",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2520,7 +2523,7 @@
     },
     {
       "record_id": "39167e27616fc0205401a9b2",
-      "content_sha256": "8d1bb67e7752cdc3646d0df1495c950d3190f4c1d91d6076ef22023eaf80f1c6",
+      "content_sha256": "c50ef278f6dbde070becaab6c8723b4ed2d7b20c8933db80269463a49cb7ca8f",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2715,7 +2718,7 @@
     },
     {
       "record_id": "10b965dff3bc3da58f7d9f9d",
-      "content_sha256": "ac4e6a028834a38619d5c21688e6efde3619bb4378bff52b8ba0ce03e466ff8f",
+      "content_sha256": "e4b0f22ee616d44525658b7270efa5ba7b291b1d008265fa402ebcc22fe9ee70",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
