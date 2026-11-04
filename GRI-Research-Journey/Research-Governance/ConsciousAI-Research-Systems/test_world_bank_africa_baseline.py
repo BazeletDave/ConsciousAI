@@ -13,13 +13,28 @@ class FakeResponse:
 class WorldBankBaselineTests(unittest.TestCase):
     def test_dimensions_and_missing_are_explicit(self):
         def fake_open(request,timeout):
-            return FakeResponse(json.dumps([{"pages":1},[{"countryiso3code":"GHA","date":"2024","value":62.5}]]).encode())
+            return FakeResponse(json.dumps([{"pages":1},[{"countryiso3code":"GHA","date":"2024","indicator":{"id":request.full_url.split("/indicator/")[1].split("?")[0]},"value":62.5}]]).encode())
         with patch.object(wb.urllib.request,"urlopen",side_effect=fake_open):
             rows=wb.collect(2024,2024)
         self.assertEqual(len(rows),20)
         self.assertEqual(len([r for r in rows if r["iso3"]=="GHA" and r["value_status"]=="reported"]),4)
         self.assertTrue(all(r["value"]=="" and r["value_status"]=="missing" for r in rows if r["iso3"]=="KEN"))
         self.assertTrue(all(len(r["response_sha256"])==64 for r in rows))
+    def test_refuses_duplicate_country_year(self):
+        def fake_open(request,timeout):
+            code=request.full_url.split("/indicator/")[1].split("?")[0]
+            item={"countryiso3code":"GHA","date":"2024","indicator":{"id":code},"value":62.5}
+            return FakeResponse(json.dumps([{"pages":1},[item,item]]).encode())
+        with patch.object(wb.urllib.request,"urlopen",side_effect=fake_open):
+            with self.assertRaisesRegex(ValueError,"Duplicate"):
+                wb.collect(2024,2024)
+    def test_refuses_mismatched_indicator(self):
+        def fake_open(request,timeout):
+            item={"countryiso3code":"GHA","date":"2024","indicator":{"id":"WRONG.CODE"},"value":62.5}
+            return FakeResponse(json.dumps([{"pages":1},[item]]).encode())
+        with patch.object(wb.urllib.request,"urlopen",side_effect=fake_open):
+            with self.assertRaisesRegex(ValueError,"Indicator identity mismatch"):
+                wb.collect(2024,2024)
     def test_refuses_partial_pagination(self):
         with patch.object(wb.urllib.request,"urlopen",return_value=FakeResponse(json.dumps([{"pages":2},[]]).encode())):
             with self.assertRaises(ValueError): wb.collect(2024,2024)
