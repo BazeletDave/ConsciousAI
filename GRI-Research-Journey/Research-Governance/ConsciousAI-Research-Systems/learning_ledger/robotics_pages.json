@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T06:19:48.042361+00:00",
+  "generated_at": "2026-11-04T17:14:09.095908+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "eb731b76316a9e337b9f59abc2d48123c47003a003198a7e08fbd39f469c359a",
+      "content_sha256": "7ef88fbd6f1c8be58a590a48e6d2fb64ee678a1925680ac8198ce83260fd66f8",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
