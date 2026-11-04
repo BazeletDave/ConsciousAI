@@ -1,0 +1,20 @@
+{
+  "repository": "BazeletDave/ConsciousAI",
+  "commit": "77b74493280a8574f419fc6b0004538c928f7eb2",
+  "method": "isolated reconstruction of two GitHub connector fetched committed files; not a full clone",
+  "test_command": "python -m unittest -v test_world_bank_africa_baseline.py",
+  "tests_passed": 5,
+  "tests_failed": 0,
+  "wdi_data_retrieved": false,
+  "reason": "github.com and api.worldbank.org DNS resolution unavailable in execution environment",
+  "wdi_expected_countries": ["GHA", "KEN", "NGA", "RWA", "ZAF"],
+  "wdi_expected_indicators": ["EG.ELC.ACCS.ZS", "IT.NET.USER.ZS", "NY.GDP.PCAP.CD", "SP.POP.TOTL"],
+  "wdi_years": [2020, 2024],
+  "wdi_expected_records": 100,
+  "wgi": {
+    "status": "version contract only, no data retrieved",
+    "series": ["GE.EST", "RQ.EST", "RL.EST", "VA.EST", "CC.EST", "PV.EST"],
+    "requirements": ["release identifier", "publisher URL", "retrieval timestamp UTC", "raw checksum SHA-256", "native scale", "uncertainty intervals", "revision policy"]
+  },
+  "empirical_analysis_performed": false
+}
