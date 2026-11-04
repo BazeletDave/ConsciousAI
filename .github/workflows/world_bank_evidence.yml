@@ -1,6 +1,14 @@
 name: GRI World Bank WDI evidence validation
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/world_bank_evidence.yml'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/run_wdi_evidence.py'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/verify_wdi_archive.py'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/world_bank_africa_baseline.py'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_world_bank_africa_baseline.py'
 permissions:
   contents: read
 jobs:
