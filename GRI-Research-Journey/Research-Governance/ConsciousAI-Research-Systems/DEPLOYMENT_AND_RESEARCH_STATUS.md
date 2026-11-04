@@ -32,3 +32,21 @@ Historical research documents retain their original point-in-time claims; reader
 ## Review evidence required for higher assurance
 
 Before asserting production-grade ML or independent certification, provide independently labeled evaluation data and reproducible metrics, evidence of durable database and recovery tests, trusted signing-key custody and external checkpoints, security review, documented reviewer identity and authorization, and accepted CI/deployment checks. The internal production assurance gate intentionally fails closed until those controls have evidence.
+
+
+## November 4, 2026 | Current engineering verification checkpoint
+
+**Scope:** Existing ConsciousAI research systems, Kiongozi, AI Paradox, institutional governance, Tiger Legacy and dashboard. This checkpoint is a status reconciliation, not a new research project or independent certification.
+
+| Component | Current verified evidence | Open validation gate |
+| --- | --- | --- |
+| World Bank WDI baseline | GitHub Actions [run 41903680844](https://github.com/BazeletDave/ConsciousAI/actions/runs/41903680844), commit `27ba9a22d834fce2b8446d94e1b5551bf2b781cb`, successful test and live retrieval steps; archived artifact `gri-wdi-evidence-41903680844`; 100 country-indicator-year observations, 24 raw API responses, no missing values and no same-source API discrepancies | Independent reconciliation with a separately versioned DataBank or publication extract; no causal or governance outcome estimate |
+| WDI archive validation hardening | Added offline fail-closed `verify_wdi_archive.py` at commit `2c893f75534dcf86129e513de4b188f084fade9f`; connected archive integrity gate to workflow at commit `0950e211b36e4ab24dec80016371adfb27704d37`; local verifier passed against downloaded run 41903680844 evidence | Execute updated workflow on exact new revision and retain logs/artifact; do not reuse previous run as evidence for new code |
+| WGI institutional measures | Separate version and uncertainty requirements specified in Kiongozi empirical protocol | Retrieve and verify specific WGI release, scale, uncertainty intervals and revision history before analysis |
+| Tiger Legacy | Historical synthetic CI and provenance records exist; later SQLite ledger and tests documented | Latest exact-commit clean checkout, security and recovery CI, external checkpoint and genuinely independent reviewer reproduction; no production security certification |
+| Dashboard and policy ingestion | Historical Render deployment and scheduled U.S. Federal Register collector documented | Current live health, freshness, backups and restore evidence, policy collector run history and source review |
+| Algorithmic management and institutional comparisons | Source-qualified research notes and analytical crosswalks | Controlled provenance of field observations, preregistered comparative tests and independently reproducible outcome analysis |
+
+**Evidence boundaries:** World Bank WDI source agreement is not an independent published-release check. Signed GitHub attestations are not independent scientific review. Synthetic authorization tests do not validate production identity controls. Existing Render deployment does not establish recovery or data accuracy. No private client, student, personal financial or restricted GRI information is authorized for ingestion or publication.
+
+**Execution order:** (1) run the strengthened WDI workflow and archive evidence, (2) validate latest Tiger Legacy tests and cryptographic recovery contracts on a frozen revision, (3) test dashboard health and collector freshness, (4) perform independently sourced WDI/WGI validation and analytical preregistration, (5) publish only evidence-qualified findings after human review. Production and client changes require their own approvals.
