@@ -1,0 +1,28 @@
+name: GRI World Bank WDI evidence validation
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  wdi_evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run committed synthetic regression tests
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python -m unittest -v test_world_bank_africa_baseline.py
+      - name: Retrieve and reconcile official World Bank WDI observations
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python run_wdi_evidence.py "$RUNNER_TEMP/gri_wdi_evidence"
+      - name: Archive immutable run evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gri-wdi-evidence-${{ github.run_id }}
+          path: ${{ runner.temp }}/gri_wdi_evidence/
+          retention-days: 90
+          if-no-files-found: warn
