@@ -100,3 +100,20 @@ As autonomous mobility systems grow more socially integrated, **participatory AI
 **Grand Research Institute**, dedicated to understanding the ethical, social, and operational impact of advanced technologies on human systems.
 
 ---
+
+
+## 5 November 2026 | Broward County coordinated instrumented vehicle field observation
+
+**Research status:** Bounded extension of the existing Grand Research Institute autonomous mobility and AI Paradox research journey; preliminary primary field evidence, not a new project or a certified deployment finding.
+
+**Observer-reported setting:** Florida's Turnpike near Commercial Boulevard, Broward County, Fort Lauderdale area, Florida; 5 November 2026, Eastern Standard Time (UTC−05:00). The exact capture time and GPS coordinates have not been independently extracted or verified.
+
+**Evidence supplied in the research conversation:** Three still photographs and a short video showing two similarly instrumented Tesla vehicles traveling in the same direction. Visible equipment includes substantial roof racks and elevated mast-like sensor assemblies. The observer reports that the vehicles traveled sequentially over an extended distance, maintaining a coordinated formation, and that personnel communicated using handheld devices. The video supports simultaneous roadway presence; the duration of the formation and nature of the communication are observer testimony rather than independently measured facts.
+
+**Interpretation, not confirmed identification:** The instrumentation and observed formation are consistent with coordinated roadway mapping, sensor reference collection, calibration, or automated-driving development and validation. The precise sensor types, operator, affiliation with Tesla, device functions, vehicle automation state, collected data, and any commercial rollout schedule remain unknown. A Tesla vehicle body does not establish a Tesla-operated test program. Neither the presence of sensor hardware nor convoy behavior establishes that either vehicle was driving autonomously.
+
+**Connection to the existing GRI AI Paradox:** The case distinguishes machine perception and data acquisition from demonstrable operational safety and institutional legitimacy. Technical questions concern ground-truth measurement, geospatial localization, route coverage, edge-case sampling, human supervisory protocols, and repeatability. Governance questions concern safety case ownership, traceable test evidence, validation under adverse conditions, data stewardship, public-road accountability, and independent assurance. No observed activity is presented as evidence of a safety certification or regulatory authorization.
+
+**Evidence and assurance next steps:** Preserve original photos and video privately with metadata and cryptographic hashes; record the observer account separately from image-derived facts; redact readable plates and identifiable persons before any public media release; obtain independent sensor/operator corroboration; compare the observed workflow against documented mobile mapping and AV validation methods; and, only after suitable authorization, evaluate reproducible assurance criteria. Original media have not been committed here and no external reproduction, sensor identification, automated tests, or independent safety audit has been performed.
+
+**Institutional boundary:** This is an additional field observation within existing GRI research, not a new study, new deployment claim, or institutional endorsement. The June 2025 archival working paper above remains unchanged for longitudinal context.
