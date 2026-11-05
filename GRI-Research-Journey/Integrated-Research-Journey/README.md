@@ -1,5 +1,8 @@
 # GRI Integrated Research Journey | Living Research Architecture
 
+
+**November 2026 | PHP2Shell institutional recovery and assurance:** [Source-qualified PHP2Shell remediation research and bounded engineering acceptance protocol](php2shell-institutional-remediation-assurance-2026.md). Integrates open patch availability, organizational remediation latency, evidence maturity, and independent reproduction into the existing AI Paradox and Tiger Assurance comparative framework. Matched PHP runtime CI is configured; actual vulnerability-specific reproduction and independent verification are **not yet established**.
+
 This index preserves the chronological record of GRI's research. The [Master Research Portfolio](../Grand-Research-Institute-Research-Portfolio/README.md) is the primary navigation point. Individual studies retain their original dates, authorship, evidence limits and methods.
 
 **Research standards:** Separate primary evidence, reported claims, interpretation and hypotheses. Attribute Roy C. Nelson's original institutional model accurately; GRI's AI applications remain independent extensions requiring empirical validation. Academic references do not imply institutional endorsement.
