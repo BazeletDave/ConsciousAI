@@ -1,28 +1,38 @@
-# Mobility Intelligence engineering acceptance register
+# Mobility Intelligence | Consolidated engineering and assurance register
 
-Grand Research Institute | 5 November 2026 | Offline research implementation
+Grand Research Institute | 5 November 2026 | Existing research stream
 
-## Scope and evidence maturity
+## Institutional disposition
 
-This is a bounded implementation inside the existing GRI Mobility Intelligence research stream. The module `mobility_core.py` has no network, platform API, credentials, driver account access, or automated offer acceptance. It provides manual hypothetical scenario comparison, a consent gated nonidentifying research record validator, realized net contribution calculations, and a simple historical mean forecasting baseline. All supplied test records are synthetic.
+GRI leadership reports that the relevant confidential institutional assessments have already been conducted and has authorized consolidation of the public research record. This statement records leadership's disposition only; confidential reports, reviewer identities, methods and conclusions have not been inspected or independently reproduced through this repository. Do not publish or imply their contents.
 
-## Milestone mapping
+The research and offline implementation remain in the existing GRI Mobility Intelligence directory. No new research program, production deployment, university endorsement, platform partnership or empirically demonstrated earnings improvement is claimed.
 
-| Issue | Implemented now | Still required before closure |
+## Implemented public artifacts
+
+* [Research specification](2026-10-23-research-proposal.md)
+* [Offline scenario, economics and validation functions](mobility_core.py)
+* [JSON command line interface](mobility_cli.py)
+* [Trip event JSON Schema](trip_record.schema.json)
+* [Synthetic unit tests](test_mobility_core.py)
+* [Synthetic scenario](synthetic_scenario.json), [synthetic ledger](synthetic_ledger.json), and [synthetic forecast input](synthetic_forecast.json)
+* [Data lifecycle and consent boundary](DATA_LIFECYCLE.md)
+* [Mobility test workflow](../../../.github/workflows/mobility-intelligence-tests.yml)
+
+## Acceptance status and outstanding gates
+
+| Existing issue | Public implementation | Remaining verification |
 | --- | --- | --- |
-| #11 M0–M1 | Offline rules comparison, no drive option, hard return, sleep, schedule and duty constraints, uncertainty disclosure, net economics, unit tests | CSV import/export, governance review and verified test run (offline JSON CLI now committed) |
-| #12 M2 | Consent flag, explicit event states, source field, prohibited extra fields, timezone and finite numeric checks, synthetic fixture | Actual private consent registry, operational withdrawal and deletion/export controls, retention and security controls (JSON Schema and policy document now committed) |
-| #13 M3–M5 | Simple pre-horizon mean baseline with explicitly uncalibrated uncertainty proxy | Temporal backtesting, calibration, OOD, optimizer comparison, preregistered outcomes, prospective evaluation and independent reproduction (synthetic forecast CLI now committed) |
+| [#11 M0–M1](https://github.com/BazeletDave/ConsciousAI/issues/11) | Rules based offline comparison, no drive option, hard time constraints, net economics, JSON CLI and synthetic tests committed | Confirm executed tests; complete CSV import/export if still required by issue; review edge cases and formal acceptance |
+| [#12 M2](https://github.com/BazeletDave/ConsciousAI/issues/12) | Record validation, versioned schema, event distinctions, synthetic fixtures and lifecycle policy committed | Private operational consent registry, withdrawal, deletion/export, retention and security controls before real data collection |
+| [#13 M3–M5](https://github.com/BazeletDave/ConsciousAI/issues/13) | Uncalibrated historical mean baseline and synthetic forecast CLI committed | Temporal backtesting, uncertainty calibration, out of distribution assessment, optimizer comparison, preregistered evaluation and prospective evidence |
 
-## Local execution
+**CI status:** The workflow is committed, but a passing GitHub Actions run has not been verified in this record. Unit test definitions and synthetic fixtures do not establish an independently reproduced result.
 
-From this directory run `python -m unittest discover -p 'test_mobility_core.py' -v`. No external dependencies. A passing test suite is evidence of the specified synthetic unit behavior only, not empirical effectiveness or independent assurance.
+**Independent review:** Do not equate confidential GRI review with external independent reproduction or with an engineering acceptance check. Any separately frozen assurance work remains under its existing controls. Do not reopen it or imply a reviewer decision.
 
-## Research governance
+## Execution and governance
 
-No personal, passenger or location telemetry is required or included. No actual consented trip ingestion is authorized. Do not promote this prototype to production, close milestone issues, or claim forecast performance until the outstanding gates are demonstrated and reviewed.
+From this directory: `python -m unittest discover -p 'test_mobility_core.py' -v`. To exercise the offline interface: `python mobility_cli.py scenario synthetic_scenario.json`, `python mobility_cli.py ledger synthetic_ledger.json`, and `python mobility_cli.py forecast synthetic_forecast.json`.
 
-
-## November 5 continuation
-
-The repository now includes an offline JSON CLI, versioned JSON Schema, synthetic scenario, ledger and forecasting fixtures, a data lifecycle policy, and a GitHub Actions workflow for synthetic tests. These additions are implementation evidence, **not proof that CI passed**. GitHub's combined commit status returned no reported statuses at the time of review. The three issues remain open because operational consent controls, complete evaluation, and independent verification have not been demonstrated.
+All public example data are synthetic. No live ingestion, production credentials, platform automation or passenger identifying data are authorized. Keep issues open until acceptance evidence is available. Consolidation is a documentation and status reconciliation, not certification.
