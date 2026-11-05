@@ -18,6 +18,12 @@ class EnrollmentDiscoveryTests(unittest.TestCase):
         cfpc=next(s for s in sources if s['id']=='AU-COUNTERFRAUD')
         self.assertEqual(len(parse(b'<a href="/node/123">VET qualification integrity action</a><a href="/newsroom/latest-news/vet-fraud">VET provider fraud action</a><a href="/unrelated/vet-fraud">VET provider fraud action</a>',asqa)),2)
         self.assertEqual(len(parse(b'<a href="/news/general-news/ghost-colleges">Ghost colleges and education fraud</a>',cfpc)),1)
+        self.assertEqual(len(parse(b'<a href="/node/123">Cancelling of qualifications for provider</a>',asqa)),1)
+
+    def test_navigation_shell_is_not_success_but_irrelevant_index_is(self):
+        source={**SOURCE,'mode':'html','require_article_links':True}
+        with self.assertRaises(ValueError):parse(b'<a href="/contact">Contact the publisher</a>',source)
+        self.assertEqual(parse(b'<a href="/government/news/roads">Road maintenance and transport update</a>',source),[])
 
     def test_main_persists_health_before_signalling_partial_failure(self):
         from enrollment_discovery import main

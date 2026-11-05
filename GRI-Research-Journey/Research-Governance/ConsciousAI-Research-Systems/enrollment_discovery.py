@@ -28,7 +28,7 @@ MAX_RECORDS = 300
 STATE = ROOT / 'enrollment_discovery.json'
 # This is a fixed institutional allowlist, not user supplied configuration.
 HOSTS = {'www.gov.uk', 'home.treasury.gov', 'www.counterfraud.gov.au', 'www.asqa.gov.au', 'oig.ed.gov', 'www.justice.gov'}
-EDUCATION = re.compile(r'student|enrol|college|universit|higher education|vocational|skills quality|vet\b|education', re.I)
+EDUCATION = re.compile(r'student|enrol|college|universit|higher education|vocational|skills quality|vet\b|education|qualification|fafsa', re.I)
 RISK = re.compile(r'fraud|identity|ghost|integrity|financial aid|student (?:loan|finance)|franchis|qualification', re.I)
 RETRYABLE_HTTP = {408, 500, 502, 503, 504}
 MAX_ATTEMPTS = 3
@@ -95,6 +95,23 @@ def parse(data, source):
         if not raw: raise ValueError('publisher index has no parseable links')
     else:
         raise ValueError('unsupported source mode')
+    if source.get('require_article_links'):
+        # A navigation shell is not a successfully fetched publisher index.
+        # Check structure before relevance filtering so a real index containing
+        # zero relevant titles still counts as a successful retrieval.
+        prefixes = tuple(source.get('path_prefixes', [source['path_prefix']]))
+        articles = []
+        for href, title, _ in raw:
+            if not isinstance(href, str) or not isinstance(title, str) or len(title.strip()) < 15:
+                continue
+            try:
+                url = canonical(urljoin(source['url'], href), source['allowed_host'])
+            except ValueError:
+                continue
+            if urlparse(url).path.startswith(prefixes) and url != canonical(source['url'], source['allowed_host']):
+                articles.append(url)
+        if not articles:
+            raise ValueError('publisher index has no article links')
     rows = {}
     for href, title, published in raw:
         if not isinstance(href,str) or not isinstance(title,str): continue

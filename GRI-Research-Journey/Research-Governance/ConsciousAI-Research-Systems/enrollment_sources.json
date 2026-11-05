@@ -26,7 +26,8 @@
       "mode": "html",
       "url": "https://home.treasury.gov/news/press-releases",
       "allowed_host": "home.treasury.gov",
-      "path_prefix": "/news/press-releases/"
+      "path_prefix": "/news/press-releases/",
+      "require_article_links": true
     },
     {
       "id": "AU-COUNTERFRAUD",
@@ -38,7 +39,8 @@
       "path_prefix": "/news/",
       "previous_url": "https://www.counterfraud.gov.au/news",
       "endpoint_verified_at": "2026-11-05",
-      "endpoint_reference": "https://www.counterfraud.gov.au/news"
+      "endpoint_reference": "https://www.counterfraud.gov.au/news",
+      "require_article_links": true
     },
     {
       "id": "AU-ASQA",
@@ -55,7 +57,8 @@
         "/newsroom/",
         "/node/"
       ],
-      "coverage_note": "Current ASQA newsroom; publisher node links and newsroom article paths are accepted. Retained metadata does not establish current coverage."
+      "coverage_note": "Current ASQA newsroom; publisher node links and newsroom article paths are accepted. Retained metadata does not establish current coverage.",
+      "require_article_links": true
     },
     {
       "id": "US-ED-OIG",
