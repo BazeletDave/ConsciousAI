@@ -95,3 +95,22 @@ The following original image files were committed to the existing ConsciousAI re
 * **M4 and M5:** Independent safety reproduction and institutional hypothesis testing remain pending.
 
 **Inference control:** A survey contractor, Tesla validation operation, third-party mapping platform, or other private activity are alternative explanations. Neither sensor appearance nor historical Tesla/Luminar reporting identifies the operator or equipment in these images.
+
+
+## November 5, 2026 | Research continuation and confidentiality boundary
+
+**Institutional decision:** The research will advance without seeking personal registration information, pursuing operator identification as a prerequisite, or disclosing restricted GRI material. The prepared Turnpike public-records inquiry above remains an archival draft, **not sent and not required for the next methodological stage**. It may be reconsidered only if a specific research claim later requires independent operator or authorization confirmation.
+
+**Public hypothesis and evidence distinction:** Tesla Cybercab development is a relevant public comparative context, but the particular vehicles photographed in Broward County have not been independently attributed to that program. No confidential GRI knowledge is represented in this public record.
+
+### Next executable analysis within existing research
+
+| Workstream | Public evidence and method | Completion criterion | Current state |
+| --- | --- | --- | --- |
+| Media provenance | Inventory four committed image files and their Git commit; retain source metadata and original hashes separately | File-level source register with dates, capture provenance, derivative status and reproducible digests | Repository files and commit referenced; original capture authentication pending |
+| Sensor classification | Compare visible physical features with manufacturer manuals, public patents and published mobile mapping equipment specifications | At least two independent, attributable features per candidate, with exclusions and uncertainty | Candidate technologies only |
+| Operating mode | Compare public Cybercab development descriptions with what can actually be observed | Explicit separation of platform capability, test procedure and observed activation | No evidence of automation engaged |
+| Institutional accountability | Map Florida statutes, applicable FDOT requirements and NIST AI RMF controls to verifiable documentary claims | Evidence matrix showing authority, obligation, proof and unresolved status | Framework identified; activity-specific evidence pending |
+| Falsification | Specify observations that would contradict the AI Paradox institutional lag proposition | Predefined disconfirmation criteria and explicit missing-data limits | Criteria documented; independent test pending |
+
+**Publication and assurance rule:** Public-facing updates must cite open sources, preserve an observation/inference/verification ledger, and avoid disclosure of confidential research or personal information. Absence of publicly available operator data is not proof of governance failure. The present milestone is a documented analytical extension, not independent safety validation, a Cybercab fleet identification, or an institutional endorsement.
