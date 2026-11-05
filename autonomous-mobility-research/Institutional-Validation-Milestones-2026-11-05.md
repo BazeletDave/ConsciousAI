@@ -155,3 +155,27 @@ The following original image files were committed to the existing ConsciousAI re
 **Research consequence:** The next useful milestone is a reproducible per-image sensor feature register and original-file provenance record, followed by source-to-feature matching. Do not treat lack of publicly disclosed fleet telemetry as proof of inadequate safety governance.
 
 **Research integrity:** No confidential material was used or published. No engineering bench test, source-image pixel-level sensor identification, original EXIF authentication, regulatory records response, or independent reproduction was conducted as part of this public-document analysis.
+
+
+## November 5, 2026 | Public equipment manufacturer reference register
+
+**Purpose and constraint:** This section records equipment manufacturer leads supported by publicly accessible, attributable documents. It is **not** a visual identification of the rooftop equipment in the November 5 Broward images. No confidential GRI data is used. No claim of fleet operator identity or Cybercab affiliation follows from the equipment references.
+
+| Equipment / manufacturer | Public documentary basis | Engineering features relevant to future image comparison | Case-specific conclusion |
+| --- | --- | --- | --- |
+| **RIEGL VMX-2HA**, RIEGL Laser Measurement Systems | DRMP's project case study explicitly reports deploying this unit with a 360-degree Ladybug camera for Florida's Turnpike Enterprise's SR 570 Polk Parkway resurfacing and safety project. https://drmp.com/expertise/surveying-mapping-geospatial/terrestrial-mobile-lidar/sr-570-polk-parkway-resurface-and-safety-improvement-project/ | Manufacturer describes an aerodynamic housing, dual scanners, optional cameras, GNSS/inertial positioning and highway-speed mobile mapping. https://www.riegl.com/en-usa/products/detail/riegl-vmx-2ha ; manufacturer brochure https://products.rieglusa.com/Asset/Brochure-RIEGL-VMX-2HA---3.pdf | Demonstrates documented use of named equipment on a **different** Turnpike project; **no match** to observed Broward vehicles established. |
+| **Luminar automotive LiDAR**, Luminar Technologies | Luminar's 2024 earnings disclosure, reported by Reuters and TechCrunch, identified Tesla as its largest LiDAR customer in Q1 2024. https://www.reuters.com/technology/luminar-says-tesla-is-biggest-customer-its-lidar-sensors-2024-05-07/ ; https://techcrunch.com/2024/05/07/tesla-is-luminars-largest-lidar-customer/ | Publicly documented commercial supplier relationship and possible calibration/testing context, but **no specific sensor model** is established by this evidence. | Historical relationship only; **no evidence** that a Luminar device was mounted on either vehicle in November 2026. |
+| **ICRLH millimeter-wave radar**, Tesla, Inc. (FCC grantee) | FCC equipment authorization **2AEIM-ICRLH**, issued February 12, 2026, identifies a vehicle millimeter-wave radar module, 60–64 GHz. Public authorization and supporting test report mirrored at https://fccid.io/2AEIM-ICRLH and https://fccid.io/2AEIM-ICRLH/Test-Report/2AEIM-ICRLH-FCC-RF-Test-Report-9084435 | FCC certification identifies the radio equipment class and operating band; it does **not** establish a conspicuous rooftop mast, specific host vehicle or development test deployment. | **No visual or operational match** to the Broward roof assemblies established. |
+
+### Source hierarchy and quality
+
+1. **Direct manufacturer specification:** RIEGL VMX-2HA product page and brochure. Manufacturer specifications establish product characteristics, not the observed vehicle's equipment.
+2. **Attributed project disclosure:** DRMP's published Florida's Turnpike Enterprise Polk Parkway project case. A contractor account is primary evidence of its own reported work but not an FDOT-certified equipment inventory for Broward County.
+3. **Regulatory filing:** Tesla's FCC equipment authorization and test report, accessible via a public mirror. The grant is equipment-specific; it is not a vehicle-specific installation record.
+4. **Contemporaneous corporate disclosure reported by established outlets:** Luminar's 2024 statement about Tesla sales, as covered by Reuters and TechCrunch. A 2024 commercial relationship cannot be projected forward to a 2026 deployment without independent support.
+
+### Reproducible visual matching protocol, not yet executed
+
+For each of the four existing repository photographs: (a) record camera angle and image resolution; (b) identify visible separate housings, optical apertures, rotation or scan windows, antenna geometry, mounting rails and cable routing; (c) note any legible branding; (d) compare these features with manufacturer technical diagrams; (e) mark positive matches, exclusions and image quality limitations; (f) require distinctive corroborating features or an attributable documentary link before identifying manufacturer/model. **No original-image forensic review or pixel-level manufacturer match was completed in this source register.**
+
+**Finding:** Public records establish named technologies and manufacturers relevant to Tesla and Florida mobile roadway mapping. **They do not identify the manufacturer of the roof equipment on the photographed vehicles.** The FCC radar should not be treated as equivalent to a rooftop LiDAR unit. Neither Tesla's relationship with Luminar nor the Turnpike contractor's use of RIEGL resolves the photographed equipment.
