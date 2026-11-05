@@ -1,0 +1,16 @@
+{
+  "scenario": {
+    "start":"2026-11-05T18:00:00-05:00",
+    "end":"2026-11-05T20:00:00-05:00",
+    "return_by":"2026-11-05T21:00:00-05:00",
+    "next_commitment":"2026-11-06T08:00:00-05:00",
+    "minimum_sleep_hours":8,
+    "max_duty_hours":4,
+    "gross":50,
+    "miles":30,
+    "cost_per_mile":0.4,
+    "tolls":3,
+    "uncertainty":10
+  },
+  "constraints":{"blocked_intervals":[]}
+}
