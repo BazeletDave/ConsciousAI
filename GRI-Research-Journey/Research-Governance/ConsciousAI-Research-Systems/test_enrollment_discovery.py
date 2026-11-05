@@ -12,6 +12,69 @@ def payload(title='Student loan identity fraud controls',link='/government/news/
     return json.dumps({'results':[{'title':title,'link':link,'public_timestamp':'2026-10-28'}]}).encode()
 
 class EnrollmentDiscoveryTests(unittest.TestCase):
+    def test_australian_migrated_indexes_preserve_article_boundaries(self):
+        sources=json.loads((Path(__file__).parent/'enrollment_sources.json').read_text())['sources']
+        asqa=next(s for s in sources if s['id']=='AU-ASQA')
+        cfpc=next(s for s in sources if s['id']=='AU-COUNTERFRAUD')
+        self.assertEqual(len(parse(b'<a href="/node/123">VET qualification integrity action</a><a href="/newsroom/latest-news/vet-fraud">VET provider fraud action</a><a href="/unrelated/vet-fraud">VET provider fraud action</a>',asqa)),2)
+        self.assertEqual(len(parse(b'<a href="/news/general-news/ghost-colleges">Ghost colleges and education fraud</a>',cfpc)),1)
+
+    def test_main_persists_health_before_signalling_partial_failure(self):
+        from enrollment_discovery import main
+        from urllib.error import HTTPError
+        def denied(url):raise HTTPError(url,406,'Denied',{},None)
+        result=collect(fetcher=denied,sources=[SOURCE],now=NOW)
+        with tempfile.TemporaryDirectory() as directory:
+            root=Path(directory);path=root/'state.json'
+            with patch('enrollment_discovery.STATE',path),patch('enrollment_discovery.ROOT',root),patch('enrollment_discovery.collect',return_value=result),patch('builtins.print'):
+                with self.assertRaises(SystemExit):main()
+            self.assertEqual(json.loads(path.read_text())['sources'][0]['http_status'],406)
+
+    def test_transient_failure_retries_and_retains_attempt_evidence(self):
+        from urllib.error import HTTPError
+        calls = []
+        waits = []
+        def flaky(url):
+            calls.append(url)
+            if len(calls) < 3: raise HTTPError(url,503,'Unavailable',{},None)
+            return payload()
+        a = collect(fetcher=flaky, sources=[SOURCE], now=NOW, sleeper=waits.append)
+        h = a['sources'][0]
+        self.assertEqual(h['status'], 'fetched')
+        self.assertEqual([x['http_status'] for x in h['attempts']], [503,503,None])
+        self.assertEqual(waits, [1,2])
+        self.assertEqual(len(h['history']), 1)
+
+    def test_access_denials_never_retry(self):
+        from urllib.error import HTTPError
+        for code in [401,403,406,429]:
+            calls = []
+            def denied(url):
+                calls.append(url)
+                raise HTTPError(url,code,'Denied',{},None)
+            a = collect(fetcher=denied,sources=[SOURCE],now=NOW,sleeper=lambda _:self.fail('access denial retried'))
+            self.assertEqual(len(calls),1)
+            self.assertEqual(a['sources'][0]['http_status'],code)
+
+    def test_endpoint_migration_keeps_previous_failure_and_history(self):
+        from urllib.error import HTTPError
+        def denied(url): raise HTTPError(url,406,'Denied',{},None)
+        a = collect(fetcher=denied,sources=[SOURCE],now=NOW)
+        newer = {**SOURCE, 'url':SOURCE['url']+'&count=10'}
+        b = collect(a,fetcher=lambda _:payload(),sources=[newer],now='2026-10-29T18:00:00+00:00')
+        h=b['sources'][0]
+        self.assertEqual(h['consecutive_failures'],0)
+        self.assertEqual(h['history'][0]['status'],'failed')
+        self.assertEqual(h['history'][0]['source_url'],SOURCE['url'])
+        self.assertEqual(h['history'][1]['source_url'],newer['url'])
+
+    def test_retries_are_bounded_and_failed_runs_count_once(self):
+        def timeout(url):raise TimeoutError('publisher unavailable')
+        a=collect(fetcher=timeout,sources=[SOURCE],now=NOW,sleeper=lambda _:None)
+        h=a['sources'][0]
+        self.assertEqual(len(h['attempts']),3)
+        self.assertEqual(h['consecutive_failures'],1)
+
     def collect(self,previous=None,data=None,now=NOW):
         return collect(previous,fetcher=lambda url:data or payload(),sources=[SOURCE],now=now)
 

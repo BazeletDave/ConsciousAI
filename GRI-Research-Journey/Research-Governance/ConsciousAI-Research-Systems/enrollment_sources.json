@@ -33,18 +33,29 @@
       "country": "AUS",
       "publisher": "Commonwealth Fraud Prevention Centre",
       "mode": "html",
-      "url": "https://www.counterfraud.gov.au/news",
+      "url": "https://www.counterfraud.gov.au/about-us/news",
       "allowed_host": "www.counterfraud.gov.au",
-      "path_prefix": "/news/"
+      "path_prefix": "/news/",
+      "previous_url": "https://www.counterfraud.gov.au/news",
+      "endpoint_verified_at": "2026-11-05",
+      "endpoint_reference": "https://www.counterfraud.gov.au/news"
     },
     {
       "id": "AU-ASQA",
       "country": "AUS",
       "publisher": "Australian Skills Quality Authority",
       "mode": "html",
-      "url": "https://www.asqa.gov.au/news-events/news",
+      "url": "https://www.asqa.gov.au/newsroom/latest-news",
       "allowed_host": "www.asqa.gov.au",
-      "path_prefix": "/news-events/"
+      "path_prefix": "/newsroom/",
+      "previous_url": "https://www.asqa.gov.au/news-events/news",
+      "endpoint_verified_at": "2026-11-05",
+      "endpoint_reference": "https://www.asqa.gov.au/",
+      "path_prefixes": [
+        "/newsroom/",
+        "/node/"
+      ],
+      "coverage_note": "Current ASQA newsroom; publisher node links and newsroom article paths are accepted. Retained metadata does not establish current coverage."
     },
     {
       "id": "US-ED-OIG",
@@ -53,7 +64,8 @@
       "mode": "html",
       "url": "https://oig.ed.gov/resources/news-and-updates",
       "allowed_host": "oig.ed.gov",
-      "path_prefix": "/"
+      "path_prefix": "/",
+      "coverage_note": "Publisher may reject automated requests. Manual institutional review remains required while unavailable."
     },
     {
       "id": "US-DOJ-NDNY",
@@ -62,7 +74,8 @@
       "mode": "rss",
       "url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
       "allowed_host": "www.justice.gov",
-      "path_prefix": "/usao-ndny/pr/"
+      "path_prefix": "/usao-ndny/pr/",
+      "coverage_note": "Northern District of New York only; not nationwide DOJ coverage."
     }
   ]
 }

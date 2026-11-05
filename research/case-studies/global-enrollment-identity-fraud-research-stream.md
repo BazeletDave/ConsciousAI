@@ -66,3 +66,17 @@ October 28, 2026: The research service now implements GET /intelligence/enrollme
 
 ## Scheduled discovery and adaptive research implementation
 October 28, 2026: Added an official publisher metadata collector, a six hour GitHub schedule, persistent source health and discovery history, and a versioned TF IDF title model that updates when its corpus changes. The dashboard now displays discovery status, candidate leads, reviewed comparisons across USA, GBR and AUS, and four proposed study protocols with live related source links. Statistical metadata adaptation does not establish fraud, AI attribution, causal findings or manuscript readiness. A daily GRI Enrollment Research Watch supplements the bounded collectors with primary and scholarly source research and meaningful development alerts. See the implementation instructions linked above for coverage, failure handling, evaluation limits and operational checks.
+
+## Collection reliability and evidence integrity
+
+The November 5, 2026 operational review identified persistent Australian retrieval failures and Education OIG HTTP 406 responses. A workflow could finish successfully while its saved source health showed incomplete coverage. These observations concern research infrastructure, not an increase or decrease in enrollment fraud.
+
+The repair updates the Australian publisher index locations using their public navigation: [Commonwealth Fraud Prevention Centre news](https://www.counterfraud.gov.au/about-us/news) and [ASQA latest news](https://www.asqa.gov.au/newsroom/latest-news). Article paths remain separately bounded because index and article locations differ. A corrected configuration does not establish successful live retrieval; verify the resulting source history.
+
+Temporary network and server failures receive at most three requests with bounded backoff. Access denials and rate limits receive no automatic retry. Each run saves request outcomes and retains a bounded source history, including the previous failure summary when migrating older snapshots. Endpoint corrections do not erase earlier failures or promote retained records into fresh coverage. Git history preserves older snapshots beyond the in-memory history window.
+
+Any incomplete source collection now produces a failed collection workflow after persisting its diagnostic state. The workflow summary, dashboard source cards, and collection health endpoint distinguish source availability from successful software tests. The DOJ district feed covers Northern New York only; its successful fetch cannot replace unavailable OIG coverage or establish nationwide completeness.
+
+Operational acceptance requires passing regression tests, a completed real collection attempt, saved source outcomes, and confirmation that the deployed dashboard exposes those same outcomes. A publisher rejection or outage remains an unresolved external dependency. Human review of permitted institutional sources can supplement collection but must not be represented as automated recovery.
+
+Within the existing AI Paradox research, this supplies an observed example of the dependency between analytical capability, institutional evidence access, and verification. It does not prove causal institutional improvement, predictive model accuracy, or fraud prevalence. Those require independently evaluated outcomes.

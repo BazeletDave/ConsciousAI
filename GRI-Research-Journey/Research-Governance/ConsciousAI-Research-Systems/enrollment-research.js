@@ -36,7 +36,12 @@
       const health = document.getElementById('enrollment-source-health'); health.replaceChildren();
       for (const source of discovery.sources) {
         const card = text('div', ''); card.className = 'model-field';
-        card.append(text('b', source.publisher), text('p', source.status.replaceAll('_', ' ') + ' · ' + source.items + ' relevant titles' + (source.error_type ? ' · ' + source.error_type + (source.http_status ? ' HTTP ' + source.http_status : '') : '') + ' · last success ' + (source.last_success_at || 'none') + (source.consecutive_failures ? ' · consecutive failures ' + source.consecutive_failures : '') + (source.intervention ? ' · ' + source.intervention.replaceAll('_', ' ') : ''))); health.append(card);
+        card.append(text('b', source.publisher), text('p', source.status.replaceAll('_', ' ') + ' · ' + source.items + ' relevant titles' + (source.error_type ? ' · ' + source.error_type + (source.http_status ? ' HTTP ' + source.http_status : '') : '') + ' · last success ' + (source.last_success_at || 'none') + (source.consecutive_failures ? ' · consecutive failures ' + source.consecutive_failures : '') + (source.intervention ? ' · ' + source.intervention.replaceAll('_', ' ') : '')));
+        card.append(link('Publisher index', source.source_url));
+        if (source.coverage_note) card.append(text('p', source.coverage_note));
+        if (source.attempts) card.append(text('p', 'Requests this run: ' + source.attempts.length + ' · previous failures remain in collection history.'));
+        if (source.previous_url) card.append(text('p', 'Updated publisher index; previous endpoint: ' + source.previous_url));
+        health.append(card);
       }
       const leads = document.getElementById('enrollment-discovery-records'); leads.replaceChildren();
       const candidates = query ? discovery.matches : discovery.records.slice(0, 30);

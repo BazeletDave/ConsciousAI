@@ -80,7 +80,8 @@ def collection_status(root, now=None):
                     "incomplete" if any(s["status"] == "failed" for s in sources) else "all_fetched")
                 item["sources"] = [{key: s.get(key) for key in (
                     "source_id", "status", "error_type", "http_status", "attempted_at",
-                    "last_success_at", "consecutive_failures", "first_failure_at", "intervention")}
+                    "last_success_at", "consecutive_failures", "first_failure_at", "intervention",
+                    "source_url", "attempts", "history", "coverage_note", "previous_url")}
                     for s in sources] if valid else []
                 if not valid or any(s["status"] == "failed" for s in sources):
                     if item["status"] == "current": item["status"] = "collection_incomplete"

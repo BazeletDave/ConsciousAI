@@ -11,6 +11,7 @@ import math
 import os
 import re
 import tempfile
+import time
 import xml.etree.ElementTree as ET
 from urllib.error import HTTPError
 from datetime import datetime, timezone, timedelta
@@ -29,6 +30,8 @@ STATE = ROOT / 'enrollment_discovery.json'
 HOSTS = {'www.gov.uk', 'home.treasury.gov', 'www.counterfraud.gov.au', 'www.asqa.gov.au', 'oig.ed.gov', 'www.justice.gov'}
 EDUCATION = re.compile(r'student|enrol|college|universit|higher education|vocational|skills quality|vet\b|education', re.I)
 RISK = re.compile(r'fraud|identity|ghost|integrity|financial aid|student (?:loan|finance)|franchis|qualification', re.I)
+RETRYABLE_HTTP = {408, 500, 502, 503, 504}
+MAX_ATTEMPTS = 3
 
 def utcnow():
     return datetime.now(timezone.utc).isoformat()
@@ -99,7 +102,8 @@ def parse(data, source):
         if len(title) < 15 or not EDUCATION.search(title) or not RISK.search(title): continue
         try: url = canonical(urljoin(source['url'], href), source['allowed_host'])
         except ValueError: continue
-        if not urlparse(url).path.startswith(source['path_prefix']): continue
+        prefixes = tuple(source.get('path_prefixes', [source['path_prefix']]))
+        if not urlparse(url).path.startswith(prefixes): continue
         if url == canonical(source['url'], source['allowed_host']): continue
         if any(x in urlparse(url).path for x in ('/search', '/page/', '/tags/', '/topics/', '/organisations/')): continue
         identifier = hashlib.sha256(url.encode()).hexdigest()[:24]
@@ -154,7 +158,7 @@ def validate_state(state):
         raise ValueError('model vectors do not match corpus')
     return state
 
-def collect(previous=None, fetcher=fetch, sources=None, now=None):
+def collect(previous=None, fetcher=fetch, sources=None, now=None, sleeper=time.sleep):
     previous = validate_state(previous) if previous else {}
     now = now or utcnow()
     when = datetime.fromisoformat(now.replace('Z','+00:00'))
@@ -163,24 +167,47 @@ def collect(previous=None, fetcher=fetch, sources=None, now=None):
     rows = {k:dict(v) for k,v in old_rows.items() if '/organisations/' not in urlparse(v['source_url']).path and datetime.fromisoformat(v['last_seen_at'].replace('Z','+00:00')) >= when-timedelta(days=365)}
     old_health = {r['source_id']:r for r in previous.get('sources',[])}
     def request(source):
-        try:
-            canonical(source['url'],source['allowed_host'])
-            parsed=parse(fetcher(source['url']),source)
-            return source, parsed, None, None
-        except (OSError, ValueError, KeyError, TypeError) as e:
-            return source, [], type(e).__name__, e.code if isinstance(e, HTTPError) else None
+        attempts = []
+        for attempt in range(1, MAX_ATTEMPTS + 1):
+            try:
+                canonical(source['url'],source['allowed_host'])
+                parsed=parse(fetcher(source['url']),source)
+                attempts.append({'attempt':attempt, 'status':'fetched', 'error_type':None, 'http_status':None})
+                return source, parsed, None, None, attempts
+            except (OSError, ValueError, KeyError, TypeError) as e:
+                code = e.code if isinstance(e, HTTPError) else None
+                error = type(e).__name__
+                attempts.append({'attempt':attempt, 'status':'failed', 'error_type':error, 'http_status':code})
+                # Access denials, rate limits and malformed documents need review,
+                # not repeated requests or alternate identities.
+                retryable = code in RETRYABLE_HTTP if code is not None else isinstance(e, OSError)
+                if not retryable or attempt == MAX_ATTEMPTS:
+                    return source, [], error, code, attempts
+                sleeper(2 ** (attempt - 1))
     health=[];new_ids=set();changed_ids=set()
     with ThreadPoolExecutor(max_workers=3) as pool:
         fetched = list(pool.map(request,sources))
-    for source, incoming, error, http_status in fetched:
+    for source, incoming, error, http_status, attempts in fetched:
         prior=old_health.get(source['id'],{})
+        event = {'at':now, 'source_url':source['url'], 'status':'failed' if error else 'fetched',
+                 'attempts':attempts, 'items':len(incoming)}
+        # Preserve the latest prior failure when migrating old snapshots that
+        # predate detailed history. Endpoint changes do not erase failures.
+        prior_history = list(prior.get('history', []))
+        if not prior_history and prior.get('status') == 'failed':
+            prior_history.append({'at':prior.get('attempted_at'), 'source_url':prior.get('source_url'),
+                'status':'failed', 'error_type':prior.get('error_type'), 'http_status':prior.get('http_status'),
+                'consecutive_failures':prior.get('consecutive_failures',0), 'legacy_summary':True})
         health.append({'source_id':source['id'],'publisher':source['publisher'],'country':source['country'],
             'source_url':source['url'],'status':'failed' if error else ('fetched' if incoming else 'fetched_no_relevant_titles'),
             'error_type':error,'http_status':http_status,'items':len(incoming),'attempted_at':now,
             'consecutive_failures':prior.get('consecutive_failures',0)+1 if error else 0,
             'first_failure_at':(prior.get('first_failure_at') or now) if error else None,
             'intervention':('publisher_access_requires_approved_endpoint_or_manual_review' if http_status in (401,403,406,429) else 'inspect_source_format_or_connectivity') if error else None,
-            'last_success_at':prior.get('last_success_at') if error else now})
+            'last_success_at':prior.get('last_success_at') if error else now,
+            'attempts':attempts, 'history':(prior_history+[event])[-20:],
+            'coverage_note':source.get('coverage_note'),
+            'previous_url':source.get('previous_url')})
         for row in incoming:
             old=old_rows.get(row['id'])
             row['first_seen_at']=old['first_seen_at'] if old else now
@@ -235,5 +262,7 @@ def main():
         json.dump(result,f,indent=2,sort_keys=True);f.write('\n');name=f.name
     os.replace(name,STATE)
     print(json.dumps({'records':len(result['records']),'model_version':result['model']['version'],'sources':result['sources']}))
-    if all(s['status']=='failed' for s in result['sources']):raise SystemExit('All source requests failed; last known records retained')
+    failures = [s for s in result['sources'] if s['status']=='failed']
+    if failures:
+        raise SystemExit('Collection incomplete: ' + ', '.join(s['source_id'] for s in failures) + '; health and retained records saved')
 if __name__=='__main__':main()

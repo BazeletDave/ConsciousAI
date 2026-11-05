@@ -52,6 +52,20 @@ jobs:
             done
             exit 1
           fi
-      - name: Surface total source failure
+      - name: Publish source collection summary
+        if: always()
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          data = json.loads(Path('enrollment_discovery.json').read_text())
+          lines = ['## Enrollment collection', '', '| Source | Status | Attempts | Consecutive failed runs | Last success |', '| --- | --- | --- | --- | --- |']
+          for s in data['sources']:
+              lines.append(f"| {s['source_id']} | {s['status']} | {len(s.get('attempts', []))} | {s.get('consecutive_failures', 0)} | {s.get('last_success_at') or 'none'} |")
+          lines.extend(['', 'A successful fetch is not evidence verification. Failed sources remain incomplete coverage.'])
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+              output.write('\n'.join(lines) + '\n')
+          PY
+      - name: Surface incomplete source collection
         if: steps.collection.outcome == 'failure'
         run: exit 1
