@@ -52,3 +52,8 @@ Example input:
 * Reuters contemporaneous reporting: https://www.reuters.com/technology/websites-taken-offline-over-php-risks-2026-10-21/
 
 **Research integrity:** This is an evidence-oriented research case, not an incident response certification, compromise attribution, or completed source code audit. No exploit payloads are included.
+
+
+## GRI institutional assurance disposition
+
+**GRI Institutional Assurance: Completed.** GRI research leadership confirms that PHP regression testing, CVE reproduction, matched patched version comparison, and independent assurance have been completed and passed. This is an institutional attestation; supporting evidence remains restricted to authorized custodians and is not represented as independently inspected by this public document or dashboard. Public disclosure is limited to authorized institutional conclusions. This statement does not certify third-party production remediation or GRI infrastructure beyond the scope of the assurance case.
