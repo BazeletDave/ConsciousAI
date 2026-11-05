@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T06:44:44.761259+00:00",
+  "generated_at": "2026-11-05T17:24:04.411338+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "004ca3e42205041b413d5415cc99d45f424b953cb688e6c63c284fa30d9034b7",
+      "content_sha256": "135930810a4e7984781e3745fab39abe64c48f8946ede72792426cfbba3d2c2a",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "3ffb768271365a5e94cc7780904ca91723ec4611136d5e05a5c381dfa7062aa4",
+      "content_sha256": "4adfa005fd039bece79605710aa0fed36124dcca129428a871e6f9797f4d0cd9",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,10 +44,27 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "598d3bdf959fc1912dc8c4f1488ffce04e681454bbe4500f901064babcde49b2",
+      "content_sha256": "acb2ecd67810b76a61c479431457b9337ede3c5d7fe1c1198a06e39e6cd37275",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
+      "verification_status": "publisher_page_observation_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "NHTSA-SGO",
+      "source_id": "NHTSA-SGO",
+      "publisher": "NHTSA",
+      "title": "Standing General Order on Crash Reporting | NHTSA Lock",
+      "source_url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+      "country_codes": [
+        "USA"
+      ],
+      "content_sha256": "180e157e65091cee44b14f16c75ed41945b7ed5f7399639b97568ef21e8b68c2",
+      "published_at": null,
+      "source_kind": "regulator_information",
+      "configured_track": "road_autonomy",
       "verification_status": "publisher_page_observation_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -84,12 +101,12 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110421
+      "bytes": 110785
     },
     {
       "source_id": "NHTSA-SGO",
-      "status": "failed",
-      "error_type": "HTTPError"
+      "status": "fetched",
+      "bytes": 147000
     },
     {
       "source_id": "BRA-ANAC-AAM",
