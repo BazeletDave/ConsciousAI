@@ -77,6 +77,30 @@ For each, predefine outcomes, baselines, confounders, missing-data treatment, ne
 
 The **GRI Global Governance Intelligence Dashboard is publicly deployed** and may present curated evidence and research-status records. The existence of a dashboard or configured automated ingestion does not prove real-time comprehensive monitoring, validated ML, independent audit or causal results. Evidence and assurance status must remain visible at the individual claim level.
 
+### Open source systems, software updates, and institutional authority
+
+**Research extension reviewed November 5, 2026.** Open access can increase the opportunity to inspect, reproduce, adapt, and maintain a system. Whether an institution can exercise those opportunities depends on rights, skills, resources, infrastructure, and accountable decision authority. This is a GRI research proposition, not a demonstrated universal effect of openness.
+
+Distinguish public code, model weights, training code, data information, licenses, reproducible builds, and deployed service access. Public availability of one component does not establish openness of the entire system, permission to reuse every input, or institutional control over external services. The [Open Source Initiative Open Source AI Definition 1.0](https://opensource.org/ai/open-source-ai-definition) specifies freedoms and requirements involving data information, code, and parameters. It is a definition issued by OSI, not a GRI certification or a substitute for evaluating component licenses.
+
+[NIST SSDF 1.1, SP 800-218](https://csrc.nist.gov/pubs/sp/800/218/final) provides secure software development practices. [SP 800-218A](https://csrc.nist.gov/pubs/sp/800/218/a/final) augments them for generative AI and foundation model development. [SLSA 1.2](https://slsa.dev/spec/v1.2/) addresses supply chain security and provenance. These are distinct technical references. Their inclusion here does not establish GRI conformance, a SLSA level, or institutional effectiveness.
+
+| Governance question | Evidence to retain | Limit on inference |
+| --- | --- | --- |
+| What can the institution inspect and modify? | Component inventory, version, license, available code and parameters, data information, maintainer and dependency ownership | Availability does not establish legal permission, reproducibility, or operational capacity. |
+| What changed before release? | Commit and artifact identifiers, dependency changes, source endpoint changes, evaluation results, relevant data and policy versions | Passing regression tests covers the tested conditions; it does not establish complete evidence access or valid model predictions. |
+| Who accepted the change and residual uncertainty? | Authorized owner, review scope, dated acceptance decision, unresolved dependencies and correction responsibility | A deployment event does not itself establish governance approval or acceptance of all residual risks. |
+| What actually runs and remains recoverable? | Live version, service observations, provenance checks, recovery evidence and dated limitations | A source commit or published patch does not establish the deployed runtime state; a recovery plan is not a completed recovery test. |
+| Did institutional outcomes improve? | Defined baseline, independent outcome review, error correction time, access delays, costs and affected population | Technical progress and institutional improvement are different claims requiring different evidence. |
+
+The [enrollment collection review](../../research/case-studies/global-enrollment-identity-fraud-research-stream.md#institutional-review-summary-november-5-2026) supplies a bounded operational observation. The repair passed 244 local regression tests and was deployed; the checked live snapshot still showed four of seven sources fetching successfully. Two Australian sources timed out and Education OIG rejected requests with HTTP 406. The software and its diagnostic reporting improved, while complete collection remained unresolved. This illustrates dependence on external evidence access; it does not establish the cause of publisher failures, AI fraud prevalence, or a causal improvement in institutional performance.
+
+The existing [PHP remediation research](../Integrated-Research-Journey/php2shell-institutional-remediation-assurance-2026.md) examines the separate chain from patch availability to deployed remediation evidence. Its restricted attestations and public synthetic checks retain their own evidence boundaries. The existing [Kiongozi and World Bank Africa protocol](../Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md) provides the comparative development connection: examine whether rights, infrastructure, local maintenance capacity, and governance enable institutions to convert accessible technologies into durable benefits. Do not infer leapfrogging from model downloads or investment announcements alone. This is an independent GRI extension of the existing academic inquiry, not a claim attributed to Landry Signé, Roy C. Nelson, Thunderbird, or the World Bank.
+
+**Additional testable propositions:** Within comparable decision pipelines, examine whether independently exercised inspection and reproduction rights shorten verified correction time, and whether more frequent material updates increase assurance lag when review capacity is held constant. Define update materiality, comparison groups, observation windows, confounders and independent outcome labels before analysis. Include negative cases where open components cannot be reproduced or where restricted systems have strong documented assurance. No relationship has been established by this documentation update.
+
+The [evidence and methods protocol](evidence-and-methods-protocol.md#software-and-model-update-records) specifies the proposed records for subsequent evaluation. It is a research reporting requirement, not a newly implemented automated release gate.
+
 ### Connected GRI research
 
 - [Treasury, USAJOBS, NVIDIA, Tesla and institutional infrastructure](government-ai-semiconductor-systems-governance-2026.md)

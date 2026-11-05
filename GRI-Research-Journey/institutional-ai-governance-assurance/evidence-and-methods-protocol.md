@@ -47,3 +47,16 @@
 ## Publication safeguards
 
 Do not claim IRB approval, institutional sponsorship, government access, or measured causal effects without supporting documentation. De-identify participants and minimize personal information. Keep source citations and method details reproducible while withholding credentials, secrets, and exploit-enabling operational data.
+
+
+## Software and model update records
+
+For the existing [AI Paradox framework](accelerating-ai-governance-paradox-living-research-framework.md#open-source-systems-software-updates-and-institutional-authority), record each material change as a versioned decision episode. Material changes include model or dependency versions, data provenance, classification rules, permissions, source access, and consequential workflow behavior. Record which categories apply; a documentation correction need not be represented as a production model change.
+
+The proposed record contains: system and jurisdiction; change identifier and timestamps; previous and proposed versions; component rights and dependency inventory; responsible maintainer and authorized decision owner; evidence needed for the affected claims; tests and their precise scope; independent review status; deployment observations; unresolved dependencies; acceptance or deferral decision; correction responsibility; and recovery procedure with separate evidence of any completed recovery test. Preserve restricted evidence under appropriate custody rather than copying it into public records.
+
+Report software verification, deployment verification, source availability, model evaluation, governance authorization, and institutional outcomes as separate statuses. Unknown or unmeasured values remain explicit. Record availability of review and appeal routes separately from observed use or effectiveness. A signed build or digest supports provenance; it does not establish model validity or fair outcomes.
+
+For comparative studies, define the starting event and endpoint of each interval. Patch publication to independently verified runtime closure differs from deployment to completion of governance review, or a source failure to restoration of validated collection. Pending episodes are right censored, not zero duration and not automatically successful. Use incident grouped comparisons, account for severity and organizational capacity, and report missing evidence. Do not combine these intervals into an unvalidated institutional ranking.
+
+This section defines research documentation and future evaluation requirements. It introduces no automatic approval, release, enforcement, fraud labeling, or scholarly publication mechanism. Existing frozen review baselines remain outside this extension.
