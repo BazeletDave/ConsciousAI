@@ -13,7 +13,7 @@ An increase in roadway sensing and validation capacity does not itself establish
 | Gate | Question | Evidence required | Status |
 | --- | --- | --- | --- |
 | Observation | Were two instrumented vehicles operating together? | Original media, provenance and independent review | Photographs and short video; observer reports extended formation |
-| Equipment | What systems were installed? | Hardware identification and technical documentation | Mast and roof instrumentation visible; exact model unverified |
+| Equipment | What systems were installed? | Hardware identification and technical documentation | Field researcher identifies Luminar LiDAR; independent manufacturer confirmation and exact model unavailable |
 | Protocol | Were they performing coordinated mapping or validation? | Operator statements and route logs | Plausible interpretation; not verified |
 | Automation | Was automated driving engaged? | Vehicle logs and operator confirmation | Unknown |
 | Safety | Were any safety thresholds demonstrated? | Exposure denominators, scenarios, performance and incident data | Not available |
@@ -40,7 +40,7 @@ Evidence capable of weakening the institutional lag hypothesis would include tra
 
 Maintain separate evidence categories for visual observation, eyewitness testimony, historical reporting, primary legal sources, engineering inference, and independent replication. Record selection bias, alternative explanations, uncertainties and untested assumptions. For assurance method comparison, consult the [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and [NHTSA automated vehicle safety resources](https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety). These are methodological references, not evidence of certification.
 
-**Integrity boundary:** No external operator identity, particular approval, autonomous driving state, sensor model, performance outcome, or independent safety certification has been verified. Four contributor-uploaded image files are now committed and linked below; original capture provenance, metadata and independent authentication remain pending.
+**Integrity boundary (revised 5 November 2026):** The field researcher identifies the rooftop system as Luminar LiDAR. This is an attributed observation, not independent manufacturer confirmation. No external operator identity, particular approval, autonomous driving state, exact sensor model, performance outcome, or independent safety certification has been verified. Four contributor-uploaded image files are now committed and linked below; original capture provenance, metadata and independent authentication remain pending.
 
 
 ## November 5, 2026 | Supplemental visual evidence and comparison
@@ -179,3 +179,10 @@ The following original image files were committed to the existing ConsciousAI re
 For each of the four existing repository photographs: (a) record camera angle and image resolution; (b) identify visible separate housings, optical apertures, rotation or scan windows, antenna geometry, mounting rails and cable routing; (c) note any legible branding; (d) compare these features with manufacturer technical diagrams; (e) mark positive matches, exclusions and image quality limitations; (f) require distinctive corroborating features or an attributable documentary link before identifying manufacturer/model. **No original-image forensic review or pixel-level manufacturer match was completed in this source register.**
 
 **Finding:** Public records establish named technologies and manufacturers relevant to Tesla and Florida mobile roadway mapping. **They do not identify the manufacturer of the roof equipment on the photographed vehicles.** The FCC radar should not be treated as equivalent to a rooftop LiDAR unit. Neither Tesla's relationship with Luminar nor the Turnpike contractor's use of RIEGL resolves the photographed equipment.
+
+
+## November 5, 2026 | Scope closeout and correction notice
+
+The field researcher has identified the rooftop instrumentation as **LiDAR manufactured by Luminar**. This identification is recorded as **field-researcher attribution**, not a finding independently authenticated from legible product markings, manufacturer serial records or source-image forensic comparison. The specific Luminar model remains undetermined and **is not necessary to the approved research scope**. Earlier references to RIEGL, Tesla radar and alternative hardware remain historical public-source comparators, **not competing identifications of the photographed equipment**.
+
+**Scope decision:** No further manufacturer/model investigation, vehicle owner tracing or public-records outreach is authorized or required for this bounded research extension. The previously prepared records inquiry remains **unsent** and is not an outstanding action item. Existing original-file provenance and independent assurance limitations remain stated; they do not block completion of the current documentary analysis. No confidential GRI intelligence is disclosed. This notice supersedes earlier exploratory next-step recommendations where they imply further equipment identification is required.
