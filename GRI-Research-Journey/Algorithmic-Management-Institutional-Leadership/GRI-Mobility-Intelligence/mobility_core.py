@@ -89,3 +89,18 @@ def baseline_forecast(history, horizon_index):
     uncertainty = max(absolute_errors) if absolute_errors else 0.0
     return {"estimate": round(mean, 2), "uncertainty_proxy": round(uncertainty, 2),
             "status": "synthetic baseline; not calibrated; no performance claim"}
+
+def compare_strategies(strategies, constraints):
+    """Evaluate named offline alternatives; never relax hard constraints."""
+    if not isinstance(strategies, dict) or not strategies:
+        raise ValueError("named strategies required")
+    results = {}
+    for name, scenario in strategies.items():
+        if not isinstance(name, str) or not name:
+            raise ValueError("strategy name required")
+        results[name] = evaluate_scenario(scenario, constraints)["drive"]
+    feasible = [(name, result) for name, result in results.items()
+                if result["feasible"] and result["recommended"]]
+    best = max(feasible, key=lambda pair: pair[1]["estimated_net"] - pair[1]["uncertainty"])[0] if feasible else "no_drive"
+    return {"strategies": results, "no_drive": {"feasible": True, "estimated_net": 0.0},
+            "selected": best, "notice": "Offline scenario estimates; no dispatch access or guaranteed earnings"}
