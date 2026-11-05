@@ -50,3 +50,15 @@ Two contributor-supplied photographs show instrumented Tesla vehicles traveling 
 **Existing research application:** The AI Paradox and institutional governance comparison concerns operational decision authority, roadway interactions, responsibility for unexpected outcomes, and independent ability to inspect safety claims. A comparison of two manufacturers' systems requires verified operating modes, location and timestamps, incident records, and exposure-adjusted safety denominators; no such comparative performance conclusion is supported by these images.
 
 **Preservation gate:** Before adding public image links, retain original files, record provenance and capture dates, assess third-party publication rights and privacy, and compute file hashes. Publication copies may require redaction; keep unmodified originals separately where authorized. No independent reproduction or new autonomous mobility project is claimed.
+
+
+## Committed Florida Turnpike field mapping images | November 5, 2026
+
+The following original image files were committed to the existing ConsciousAI repository as contributor-described Florida Turnpike field mapping evidence. Filename and repository presence are verified; individual frame contents, EXIF capture times, exact location and operator identity have not been independently authenticated. Their inclusion does not establish autonomous operation or coordinated testing.
+
+- [IMG_7690.jpeg](../../IMG_7690.jpeg)
+- [IMG_7692.jpeg](../../IMG_7692.jpeg)
+- [IMG_7694.jpeg](../../IMG_7694.jpeg)
+- [IMG_7696.jpeg](../../IMG_7696.jpeg)
+
+**Provenance:** Contributor upload; [original GitHub commit](https://github.com/BazeletDave/ConsciousAI/commit/a9ee71d2babc3d584c25824ed210381efb25ef54). Preserve original bytes and commit provenance. Before drawing frame-specific findings, inspect each image and record a separate observation, location confidence, privacy review and verification status. This is an evidence addition to the existing research, not a new project.
