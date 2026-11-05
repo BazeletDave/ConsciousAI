@@ -140,3 +140,59 @@ This reproducible descriptive graphic preserves the distinction between annual c
 ## Frozen pre-election methodology and dataset
 
 The [November 3 preregistered institutional observation protocol](2026-11-03-texas-institutional-pre-election-protocol.md) freezes the hypotheses, office-specific institutional event definitions, comparison rules, confounders, evidentiary thresholds and planned exhibits before election returns. The [source-qualified machine-readable evidence baseline](texas-ai-infrastructure-pre-election-evidence.csv) contains dated SEC and Texas government observations and a deliberately blank election result. Later observations must be appended with provenance rather than retroactively altering the baseline.
+
+
+## November 5, 2026 | Ecosystem integration and democratic infrastructure governance
+
+**Status:** Subsequent descriptive extension of the November 3 research record. The frozen observation protocol and original CSV remain unchanged. The additional questions below are exploratory after the election, not retroactively preregistered findings.
+
+### Institutional proposition
+
+David A. Grand's observation concerns the breadth of a Musk associated industrial ecosystem: model development, training compute, inference chips, vehicles, software updates, energy systems, satellite connectivity, and tunneling. The research question is whether coordination across such activities changes institutional dependence and bargaining relationships when public priorities or governing coalitions change. This is a bounded extension of the existing AI Paradox and institutional embeddedness inquiry.
+
+Use the legal entity, reporting period, facility, function, and jurisdiction as the unit of evidence. A shared founder or executive does not establish common legal ownership, unrestricted data sharing, a single integrated technical architecture, or personal ownership of every asset. Document corporate reorganizations and actual contracts before linking obligations or aggregating expenditure. Distinguish chip design, semiconductor fabrication, training, inference, software deployment, and physical transport.
+
+### Source qualified ecosystem observations
+
+| Activity | Primary source and observation | Boundary and next evidence |
+| --- | --- | --- |
+| Training and vehicle inference | [Tesla FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1318605/000162828026003952/tsla-20251231.htm), Technology and Infrastructure sections, describes custom inference chips, vehicle software updates, Cortex at Gigafactory Texas, and Cortex 2 construction. | Issuer disclosure as of filing. It does not establish every vehicle's hardware version, autonomous capability, model training objectives, or present completion status. |
+| Semiconductor production dependencies | The same filing describes a Samsung collaboration for advanced semiconductors. The existing Texas baseline separately records the announced Terafab project. | Designing chips does not establish independent fabrication. A planned factory is not operating capacity; verify supplier contracts, production milestones, and each entity's obligations. |
+| Energy and software control | Tesla's filing describes storage products and remotely controlled energy software. | Product functionality and related party transactions do not demonstrate that every training facility uses the same energy system or that one organization controls the grid. |
+| Physical interface between businesses | [The Boring Company project page](https://www.boringcompany.com/tunnels) identifies the Austin Cybertunnel at Tesla's factory as operational, and separately lists research tunnels and projects outside Texas. | This is a company reported physical interface. Operating performance, public approvals, and independent safety evidence require separate review. It does not establish a nationwide integrated underground network. |
+| Satellite communications | The FCC's [January 9, 2026 announcement](https://docs.fcc.gov/public/attachments/DOC-417881A1.pdf) identifies a Starlink system authorization; [DA 26-36](https://docs.fcc.gov/public/attachments/DA-26-36A1.pdf) is the underlying regulatory record to examine. | Official publication was identified through the FCC index; full order retrieval was unavailable in this review. Authorization, launch, operation, coverage, and integration with other businesses are different claims. No fleet or integration count is entered here. |
+
+The company and regulatory sources establish discrete activities or identify evidence for further review. They do not establish that all layers form one data pipeline, that all infrastructure is in Texas, or that model behavior expresses an executive's political preferences. Training governance requires evidence about data selection, objectives, labeling, feedback, evaluation, and update authority beyond the location or ownership of compute.
+
+### Public opposition and governing authority
+
+[Hinojosa's campaign data center platform](https://ginafortexas.com/priority/data-centers/), reviewed November 5, calls for a moratorium until legislative protections and community participation are established. This is primary evidence of a campaign position. Its accusations, predictions, and claims about other actors remain campaign assertions, not independently established findings. A campaign promise is not an enacted restriction.
+
+[Abbott's August 3 directive announcement](https://gov.texas.gov/news/post/governor-abbott-directs-comprehensive-data-center-audit) states that PUCT and ERCOT should audit projects advancing through grid interconnection before projects move forward. It requests information on incentives, power, water, effects on neighboring communities, and controlling interests. This is evidence of a pre-election governmental response under Republican leadership, not proof of uniform implementation or a new consequence caused by the election. Review the signed directive and agency implementation before coding a binding project level effect.
+
+[Texas Tribune's November 4 reporting](https://www.texastribune.org/2026/11/04/data-center-texas-pause-gina-hinojosa-governor-policies/) supplies secondary context about proposed extensions of restrictions and opposition across political groups. [Business Insider's November 4 headline](https://www.businessinsider.com/elon-musk-midterms-spending-texas-losses-2026-11) is a journalistic interpretation of electoral spending and outcomes, not an institutional impact measure. The [Texas Secretary of State results page](https://electionresults.sos.state.tx.us/results.html), reviewed November 5, reports Hinojosa ahead of Abbott. No certified result artifact was obtained for this extension; retain the existing reported versus certified distinction.
+
+Do not generalize that every winning candidate opposed AI infrastructure, that all opposition targeted Musk, or that data center concerns caused the election outcome. Concerns about electricity costs, water, public subsidies, transparency, local authority, employment, and the distribution of benefits are distinct mechanisms. Requests for conditions or a temporary pause are not equivalent to rejection of AI. Preserve office specific proposals and contrary evidence, including pre-election regulatory activity.
+
+### What happens next: observations rather than predictions
+
+| Institutional step | Evidence needed before recording a consequence |
+| --- | --- |
+| Electoral transition | Dated office specific returns, certification, assumption of office, and applicable powers |
+| Public commitment | Original platform, speech, proposal, or documented consultation; policy status explicit |
+| Governing action | Enacted law, signed directive, agency order, budget, executed agreement, or judicial decision with scope and effective date |
+| Project exposure | Named entity and facility, permit or interconnection stage, exemptions, contract terms, and responsible authority |
+| Corporate response | Dated filing or decision to proceed, adapt, defer, relocate, challenge, or cancel; distinguish plans from execution |
+| Measured consequence | Comparable costs, timing, capacity, reliability, employment, environmental measures, and access to remedy, with independent checks |
+
+Potential responses include compliance investment, negotiated operating conditions, alternative siting, litigation, project redesign, or unchanged plans. These are scenarios for observation, not forecasts about any firm. Semiconductor factories, vehicle facilities, data centers, satellite systems, and tunnels have different jurisdictions and permissions; a restriction affecting one cannot automatically be applied to all others.
+
+### Exploratory research questions and counterevidence
+
+1. Does coordination across model, hardware, energy, connectivity, and deployment activities reduce supplier dependence while increasing exposure to shared infrastructure or public authority? Measure actual interfaces and correlated failure pathways before asserting concentration.
+2. Do political transitions change documented project conditions, or do similar concerns and controls persist across parties? Include unchanged policies and the pre-election audit as counterevidence to a simple partisan explanation.
+3. Do public participation, disclosure, and enforceable cost allocation change approval time, operating conditions, and perceived legitimacy? Measure each separately and avoid assuming that faster approval or stronger opposition is inherently better governance.
+4. Does geographical diversification preserve service continuity and capital options after a documented policy change? Control for demand, financing, technology, energy prices, and federal developments.
+5. Can institutions independently evaluate model training and deployment decisions where critical technical capacity is concentrated? Ownership maps alone cannot answer questions about training data, objectives, security, fairness, or accountability.
+
+The [AI Paradox ecosystem framework](../institutional-ai-governance-assurance/accelerating-ai-governance-paradox-living-research-framework.md#from-open-source-opportunity-to-national-and-enterprise-ecosystem-control) and [Kiongozi World Bank protocol](../Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md) supply the comparative connection. Countries and enterprises may gain capacity through open models or internal infrastructure while remaining dependent on energy, suppliers, skills, public institutions, and community acceptance. The Texas case permits examination of how those dependencies evolve; it does not yet demonstrate a causal electoral effect or a validated institutional outcome. GRI's analysis remains independent and nonpartisan.

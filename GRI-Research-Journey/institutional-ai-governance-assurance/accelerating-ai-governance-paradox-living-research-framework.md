@@ -130,6 +130,12 @@ At country level, examine public authority, regional cooperation, language and d
 
 Within GRI, the enrollment collector demonstrates an external evidence dependency despite control of its own code and deployment. The PHP research examines a different dependency between an available fix and verified runtime remediation. Kiongozi supplies the comparative development setting. These connections extend one AI Paradox inquiry: expanding technical access changes institutional choices and responsibilities; whether it improves accountability, resilience, or public benefit remains an empirical question.
 
+### Texas ecosystem integration and public authority
+
+The existing [Texas institutional event research](../Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md#november-5-2026--ecosystem-integration-and-democratic-infrastructure-governance) now examines coordination across training compute, inference chips, vehicles, energy, satellite communications, and tunneling as distinct activities with documented corporate and jurisdictional boundaries. Internal technical control can coexist with dependence on public infrastructure, permissions, suppliers, and community acceptance. That is an exploratory GRI proposition, not a finding that one executive controls an entire technological system.
+
+The extension distinguishes the Hinojosa campaign's proposed moratorium, Abbott's pre-election audit announcement, reported election outcomes, future governing actions, and measured project consequences. Opposition to particular conditions of development is not automatically opposition to AI. The November 3 protocol and baseline remain frozen; subsequent exploratory questions are labeled accordingly. Future evidence must follow the chain from a specified exercise of public authority to actual corporate responses and independently checked consequences, including unchanged projects and policies as counterevidence.
+
 ### Connected GRI research
 
 - [Treasury, USAJOBS, NVIDIA, Tesla and institutional infrastructure](government-ai-semiconductor-systems-governance-2026.md)
