@@ -22,7 +22,7 @@ jobs:
       - name: Run synthetic unit tests
         working-directory: GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/GRI-Mobility-Intelligence
         run: |
-          python -m unittest discover -p 'test_mobility_core.py' -v
+          python -m unittest discover -p 'test_*.py' -v
           python mobility_cli.py scenario synthetic_scenario.json
           python mobility_cli.py ledger synthetic_ledger.json
           python mobility_cli.py forecast synthetic_forecast.json
