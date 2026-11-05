@@ -17,7 +17,7 @@ def parse_time(value):
 
 def validate_record(record):
     """Validate a non-identifying, opt-in research record; never ingest passenger PII."""
-    allowed = {"record_id", "consent_id", "consent_active", "synthetic", "event_type", "start", "end", "gross", "tips", "incentives", "incentives_in_gross", "paid_miles", "unpaid_miles", "cost_per_mile", "tolls", "source"}
+    allowed = {"record_id", "consent_id", "consent_active", "synthetic", "event_type", "start", "end", "gross", "tips", "incentives", "incentives_in_gross", "paid_miles", "unpaid_miles", "cost_per_mile", "tolls", "source", "return_by"}
     if not isinstance(record, dict) or set(record) - allowed:
         raise ValueError("unknown fields or invalid record")
     required = {"record_id", "consent_id", "consent_active", "synthetic", "event_type", "start", "end", "gross", "tips", "incentives", "incentives_in_gross", "paid_miles", "unpaid_miles", "cost_per_mile", "tolls", "source"}
@@ -33,6 +33,8 @@ def validate_record(record):
         raise ValueError("invalid event type")
     if parse_time(record["end"]) < parse_time(record["start"]):
         raise ValueError("end precedes start")
+    if "return_by" in record and parse_time(record["return_by"]) < parse_time(record["end"]):
+        raise ValueError("return deadline precedes event end")
     for key in ("gross", "tips", "incentives", "paid_miles", "unpaid_miles", "cost_per_mile", "tolls"):
         _number(record[key], key)
     if record["event_type"] == "OFFER_DECLINED" and (record["gross"] or record["tips"] or record["tolls"]):
