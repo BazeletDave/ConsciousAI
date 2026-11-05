@@ -114,3 +114,6 @@ Two contributor-supplied dashboard screenshots show an external Syracuse ridesha
 **Existing research connection:** This observation extends the established GRI analysis of gross earnings versus economic income, unpaid pickup and repositioning time, information asymmetry, driver acceptance discretion, and algorithmic management. An apparent improvement in decision information is not itself evidence of increased realized driver income. A valid comparison requires consistent definitions of online, engaged, pickup, idle and return time, mileage, vehicle costs, selection effects, and actual completed transactions.
 
 **Evidence status:** Contributor-supplied screenshots, preliminary visual review; original JPEG provenance and permission for public redistribution pending. No new study, platform attribution, causal conclusion, or independently validated predictive capability is claimed. Image links may be added after originals are committed and checked.
+
+
+**Uploaded visual evidence (repository originals):** [Syracuse dashboard image IMG_7699.jpeg](../../../IMG_7699.jpeg) and [Syracuse dashboard image IMG_7698.jpeg](../../../IMG_7698.jpeg). These are source screenshots, not independently validated operating results. Preserve the originals and review any embedded personal information before redistribution.
