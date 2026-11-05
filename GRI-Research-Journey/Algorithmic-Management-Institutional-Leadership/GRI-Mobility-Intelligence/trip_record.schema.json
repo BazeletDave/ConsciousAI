@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/GRI-Mobility-Intelligence/trip_record.schema.json",
+  "title": "GRI consent gated synthetic or authorized mobility event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["record_id","consent_id","consent_active","synthetic","event_type","start","end","gross","tips","incentives","incentives_in_gross","paid_miles","unpaid_miles","cost_per_mile","tolls","source"],
+  "properties": {
+    "record_id": {"type":"string","minLength":1},
+    "consent_id": {"type":"string","minLength":1},
+    "consent_active": {"const":true},
+    "synthetic": {"type":"boolean"},
+    "event_type": {"enum":["OFFER","OFFER_ACCEPTED","TRIP_COMPLETED","PAYMENT_SETTLED","OFFER_DECLINED"]},
+    "start": {"type":"string","format":"date-time"},
+    "end": {"type":"string","format":"date-time"},
+    "gross": {"type":"number","minimum":0},
+    "tips": {"type":"number","minimum":0},
+    "incentives": {"type":"number","minimum":0},
+    "incentives_in_gross": {"type":"boolean"},
+    "paid_miles": {"type":"number","minimum":0},
+    "unpaid_miles": {"type":"number","minimum":0},
+    "cost_per_mile": {"type":"number","minimum":0},
+    "tolls": {"type":"number","minimum":0},
+    "source": {"type":"string","minLength":1}
+  }
+}
