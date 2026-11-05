@@ -1,0 +1,10 @@
+[
+  {
+    "record_id":"synthetic-1","consent_id":"synthetic-consent","consent_active":true,
+    "synthetic":true,"event_type":"PAYMENT_SETTLED",
+    "start":"2026-11-05T18:00:00-05:00","end":"2026-11-05T19:00:00-05:00",
+    "gross":30,"tips":5,"incentives":2,"incentives_in_gross":false,
+    "paid_miles":10,"unpaid_miles":5,"cost_per_mile":0.4,"tolls":2,
+    "source":"synthetic fixture"
+  }
+]
