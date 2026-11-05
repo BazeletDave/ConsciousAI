@@ -2,8 +2,6 @@
 ### Global Governance Intelligence · ConsciousAI Research Program
 
 
-**November 2026 PHP2Shell institutional assurance:** [Integrated Research Journey analysis](GRI-Research-Journey/Integrated-Research-Journey/php2shell-institutional-remediation-assurance-2026.md) connects public patch availability to institutional recovery and evidence-based verification. The [dashboard](https://gri-global-intelligence.onrender.com/dashboard) displays source-qualified research status, not a certified vulnerability reproduction or verified production remediation.
-
 **Independent research led by David Grand**
 
 Grand Research Institute (GRI) investigates how artificial intelligence, algorithmic management and global digital infrastructure reshape organizational authority, economic opportunity and institutional accountability. **ConsciousAI** is the institute's public research and engineering archive, developed through David Grand's continuing professional, academic and research journey.
@@ -111,6 +109,10 @@ The [GRI Global Governance Intelligence Dashboard](https://gri-global-intelligen
 
 Researchers may examine public records and submit corrections with source attribution through available repository channels. Restricted materials require separate authorization and confidential review.
 
+
+## Research case note | PHP2Shell institutional assurance
+
+**November 2026 PHP2Shell institutional assurance:** [Integrated Research Journey analysis](GRI-Research-Journey/Integrated-Research-Journey/php2shell-institutional-remediation-assurance-2026.md) connects public patch availability to institutional recovery and evidence-based verification. The [dashboard](https://gri-global-intelligence.onrender.com/dashboard) displays source-qualified research status, not a certified vulnerability reproduction or verified production remediation.
 
 ## Technical assurance, research status and academic independence
 
