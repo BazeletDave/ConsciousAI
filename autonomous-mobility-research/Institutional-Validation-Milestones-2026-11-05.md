@@ -62,3 +62,36 @@ The following original image files were committed to the existing ConsciousAI re
 - [IMG_7696.jpeg](../IMG_7696.jpeg)
 
 **Provenance:** Contributor upload; [original GitHub commit](https://github.com/BazeletDave/ConsciousAI/commit/a9ee71d2babc3d584c25824ed210381efb25ef54). Preserve original bytes and commit provenance. Before drawing frame-specific findings, inspect each image and record a separate observation, location confidence, privacy review and verification status. This is an evidence addition to the existing research, not a new project.
+
+
+## November 5, 2026 | Primary-source regulatory and mapping verification extension
+
+**Scope:** Public source review for the Broward County Florida Turnpike observation. The sources below describe the regulatory and engineering environment, not the identity or activity of the observed vehicles. This is an update to the existing research milestone, not a new research project.
+
+### Verified institutional sources and limits
+
+1. **Florida Statutes §316.85 (2026)** addresses operation and testing of autonomous vehicles and permits fully autonomous vehicles to operate without a human physically present under specified law. The presence of a roof sensor does not establish that an automated driving system was engaged. Primary text: https://www.leg.state.fl.us/Statutes/index.cfm/Ch0825/index.cfm?App_mode=Display_Statute&Search_String=&URL=0300-0399%2F0316%2FSections%2F0316.85.html
+2. **Florida Statutes §319.145 (2026)** sets requirements for autonomous vehicles registered in Florida, including relevant federal certification and minimal risk conditions. It is not evidence of the registration or compliance status of the observed vehicles. Primary text: https://www.flsenate.gov/Laws/Statutes/2026/319.145
+3. **Florida's Turnpike Enterprise permits guidance** says work on its system or in some circumstances adjacent to its right of way may require an FDOT permit or construction agreement depending on the activity. Ordinary vehicle travel is not necessarily such work; no permit requirement or approval for the observed vehicles is established. Source: https://floridasturnpike.com/business-opportunities/permits/
+4. **Turnpike Surveying and Mapping resources** document institutional survey practices and the existence of survey-specific deliverables and safety materials. Source: https://floridasturnpike.com/business-opportunities/design/survey-and-mapping/
+5. **FDOT Surveying and Mapping Handbook, terrestrial mobile LiDAR section**, requires a traceable data lineage, survey dates and limits, equipment and methods, control and QA/QC evidence for applicable FDOT survey deliverables. These are potential comparison criteria if the activity is confirmed as a commissioned FDOT survey, not proof that the vehicles carried LiDAR or worked for FDOT. Sources: https://www.fdot.gov/geospatial/doc-pubs.shtm and https://www.fdot.gov/docs/default-source/geospatial/documentsandpubs/SurveyandMappingHandbook.pdf
+6. **FDOT's June 2025 autonomous vehicle presentation** distinguishes private-sector AV development from agency support and identifies statutory authorities, including Turnpike Enterprise authority for agreements to advance connected and autonomous technologies. Agency support for the sector is not evidence of sponsorship of this specific observation. Source: https://fdotwww.blob.core.windows.net/sitefinity/docs/default-source/design/training/transportationsymposium/2025-june/19-14-dilmoreconnectedandautomatedvehicles.pdf
+
+### Focused public-records inquiry, prepared but not sent
+
+**Recipient:** Florida's Turnpike Enterprise Permits Office, Daniel.Ekback@dot.state.fl.us (official published contact, https://floridasturnpike.com/business-opportunities/permits/). For routing, the public information office is turnpike.pio@dot.state.fl.us (https://floridasturnpike.com/about/contact-us/).
+
+**Subject:** Public records and routing inquiry | November 5, 2026 instrumented vehicles near Commercial Boulevard
+
+> Grand Research Institute is documenting a public-road observation on November 5, 2026 of two Tesla vehicles carrying elevated rooftop sensing equipment on Florida's Turnpike near Commercial Boulevard, Broward County. We do not know their operator or whether their activity was surveying, mapping, vehicle validation or ordinary travel. Please advise whether Florida's Turnpike Enterprise has responsive publicly releasable records for any agency-sponsored or authorized mobile roadway survey, mapping, connected-vehicle or autonomous-vehicle activity in that corridor on that date. If so, we request the applicable project identifier, public contract or work order, public permit or agreement, scope of work, and agency point of contact, subject to lawful exemptions and reasonable redaction. If your office does not maintain these records, please identify the appropriate records custodian or office. We are not requesting private driver identities, personal registration records, nonpublic security details or confidential vehicle telemetry. Please advise if clarification or an estimate of any applicable records fees is needed.
+
+**Status:** Prepared for institutional inquiry; **not transmitted**, no agency response received. A public records request may return no responsive records if the vehicles were operating privately without an agency contract or permit. Do not interpret that as proof of unauthorized activity.
+
+### Research status after source verification
+
+* **M1:** Public-road observation documented; four referenced contributor image files are in GitHub, but capture metadata and original-file authentication remain unverified.
+* **M2:** Exact equipment, operator, automated driving state, video preservation and privacy-reviewed derivative provenance remain unverified.
+* **M3:** Applicable Florida legal and FDOT survey framework identified; no activity-specific authorization established.
+* **M4 and M5:** Independent safety reproduction and institutional hypothesis testing remain pending.
+
+**Inference control:** A survey contractor, Tesla validation operation, third-party mapping platform, or other private activity are alternative explanations. Neither sensor appearance nor historical Tesla/Luminar reporting identifies the operator or equipment in these images.
