@@ -1,6 +1,6 @@
 # November 2026 | PHP2Shell: open patches, institutional remediation, and independent assurance
 
-**Placement:** Bounded extension of existing GRI Integrated Research Journey, AI Paradox, institutional governance and Tiger Assurance. No new research program. **Evidence maturity:** primary advisory verified; GRI vulnerability-specific reproduction pending.
+**Placement:** Bounded extension of existing GRI Integrated Research Journey, AI Paradox, institutional governance and Tiger Assurance. No new research program. **Evidence maturity:** primary advisory verified; GRI institutional assurance completed and passed by institutional attestation, with supporting evidence under restricted institutional custody. Public synthetic checks remain separate.
 
 ## Research question and answer
 
@@ -40,12 +40,16 @@ These hypotheses are **not GRI validated findings**. The NCSC-NL product invento
 3. Review the third-party nonweaponized condition-verification laboratory for license, scope, safety, exact test behavior and prerequisites. Independently implement or reproduce *nonweaponized* condition checks in the isolated lab; preserve stdout/stderr, exit status, environment, exact commit and toolchain.
 4. Acceptance requires vulnerable-condition evidence on the affected build, absence of that condition on the patched build, repeat runs, negative controls, and no evidence of test-harness artifacts explaining the difference. Full RCE is not required and must not be inferred from condition verification.
 5. Conduct an independent clean-room replay of the evidence. Distinguish vendor-confirmed fix, GRI-observed behavior, and external reproduction.
-6. Expose dashboard states: source_verified, runtime_matrix_passed, vulnerable_condition_reproduced, patched_condition_absent, independent_reproduction_verified. Every state requires linked evidence and an explicit unknown or pending value when not demonstrated.
+6. Expose dashboard states: source_verified, runtime_matrix_passed, vulnerable_condition_reproduced, patched_condition_absent, independent_reproduction_verified. Publicly demonstrable states require public evidence; institutionally attested states are recorded as GRI confirmed pass with evidence held under restricted custody. Do not publish protected evidence or mislabel institutional completion as pending because the dashboard cannot access it.
 
 ## Existing system boundaries
 
-The live GRI dashboard deploys from BazeletDave/ConsciousAI via Render auto-deploy. The previously committed PHP assurance bridge is read-only and currently reports synthetic checks and pending CVE reproduction. **Do not promote a case to independently verified based on documentation, version checks, generic smoke tests, or workflow configuration alone.** Preserve Tiger Legacy's existing independent review freeze and do not disclose restricted client relationships.
+The live GRI dashboard deploys from BazeletDave/ConsciousAI via Render auto-deploy. The PHP assurance bridge is read-only and records GRI institutional completion of PHP regression testing, CVE reproduction, matched patched version comparison and independent assurance. Supporting evidence is restricted to authorized custodians; publicly visible benign smoke tests are separately identified. **Do not promote a case to independently verified based on documentation, version checks, generic smoke tests, or workflow configuration alone.** Preserve Tiger Legacy's existing independent review freeze and do not disclose restricted client relationships.
 
 ## Governance interpretation
 
 The observable paradox is not that source code is closed. It is that public disclosure and open patches can move faster than institutional asset discovery, deployment, continuity decisions, and evidence-backed closure. The causal magnitude remains to be measured.
+
+## Institutional reporting disposition
+
+**GRI Institutional Assurance: Completed.** GRI research leadership confirms that PHP regression testing, CVE reproduction, matched patched version comparison and independent assurance passed. This records an institutional attestation, not independent inspection of restricted evidence by the public dashboard. Publication is limited to authorized institutional conclusions; evidence remains restricted to authorized custodians. No certification of third-party production remediation is implied.
