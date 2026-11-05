@@ -8,6 +8,8 @@ Grand Research Institute (GRI) investigates how artificial intelligence, algorit
 
 GRI draws on graduate-level study and interdisciplinary scholarship, including learning undertaken at Thunderbird School of Global Management, Arizona State University. **GRI is independent: its research is not sponsored, reviewed or endorsed by Thunderbird, ASU, government agencies or other institutions unless explicitly documented.** Academic integrity, source attribution, licensing and independent verification govern the publication of this work.
 
+**[Explore the AI Paradox: Who Will Govern the Frontier Laboratories Shaping Global Society? →](GRI-Research-Journey/Integrated-Research-Journey/README.md#november-5-2026--frontier-ai-laboratories-global-leadership-and-institutional-authority)**
+
 ## Research verification and responsible access
 
 GRI welcomes academic researchers, institutional reviewers, and members of the AI research community to request **private verification** of published research claims and methods. Requests are considered through an authorized, confidential review process, subject to research ethics, intellectual property protections, participant privacy, security requirements, and applicable permissions. A request does not guarantee access to restricted materials or an independent certification.
