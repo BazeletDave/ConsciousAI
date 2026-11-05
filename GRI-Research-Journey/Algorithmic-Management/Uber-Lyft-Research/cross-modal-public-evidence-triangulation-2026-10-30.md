@@ -62,3 +62,14 @@ H4: When automated subsystems share data or assumptions, correlated error can li
 Roy C. Nelson's institutional political economy framework supplies the interpretive lens: actors, rules, interests, bargaining power, legitimacy and enforcement. The AI Paradox is a **research proposition** about the gap between locally compliant automation and collectively accountable outcomes, not an empirically proven universal law. The cross modal extension is an analytic comparison, not an assertion that ride hail, driverless vehicles and aviation share one algorithm.
 
 No live dashboard, original case studies, client systems, confidential data, autonomous operational controls or research architecture were changed.
+
+
+## November 5, 2026 | Chips, connected infrastructure, and mobility accountability
+
+The [semiconductor and Florida source review](../../institutional-ai-governance-assurance/government-ai-semiconductor-systems-governance-2026.md#november-5-2026--semiconductor-functions-international-dependence-and-physical-deployment) connects physical compute to this existing comparison without equating ride hailing, automated driving, and piloted aircraft. A vehicle inference processor, a dispatch service, a communications link, and a flight control system occupy different functional and legal positions. Supplier identity or compute capacity alone cannot establish safe operation or effective accountability.
+
+For each mode, identify the system boundary, decision owner, hardware and software versions where documented, operating conditions, communications and cloud dependencies, sensing permissions, fallback behavior, incident review, and available remedies. Record unavailable proprietary evidence rather than infer it from marketing material. The presence of sensors or chips is not itself evidence of unauthorized monitoring.
+
+Retain the November 5 source distinctions: Related Ross's BRiC acquisition is a property announcement; Archer's regional network is a planning relationship; FDOT's Joby and BETA demonstrations are a separate observed development activity. They do not establish a BRiC vertiport, shared chip supplier, one integrated corporate system, or autonomous commercial passenger service.
+
+Compare outcomes using appropriate denominators: driver economic observations, road safety exposure, and aviation operational evidence remain separate. Any future shared infrastructure analysis must document the actual interface and failure mechanism. Chip benchmarks and synthetic software checks cannot be reported as independent validation of an entire mobility system. See the [comparison boundaries](../../institutional-ai-governance-assurance/evidence-and-methods-protocol.md#semiconductor-and-physical-system-evaluation-boundaries).

@@ -38,3 +38,29 @@ Each proposition needs an operational definition, comparison group, data collect
 ## Boundaries
 
 This is independent GRI research, not a Treasury, Thunderbird, Uber, Lyft, or other institutional endorsement. Do not represent illustrative interviews, synthetic events, prototype scores, or hypothetical deployments as verified external facts. Do not publish private participant data or confidential implementation details.
+
+
+## November 5, 2026 | Semiconductor and ecosystem governance across existing streams
+
+This extension treats semiconductor and infrastructure dependence as a shared dimension of the four existing streams, rather than a fifth research program. The [semiconductor source review](government-ai-semiconductor-systems-governance-2026.md#november-5-2026--semiconductor-functions-international-dependence-and-physical-deployment) supplies the functional and evidentiary boundaries; the [global infrastructure comparison](../Integrated-Research-Journey/2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md) supplies the location, ownership, and investment questions.
+
+| Existing stream | Semiconductor and ecosystem connection | Outcome requiring its own evidence |
+| --- | --- | --- |
+| Institutional classification | Compute, model and data access, update authority, supplier constraints | Accuracy, lawful decision authority, accessible review and corrected outcomes |
+| Algorithmic management and mobility | Vehicle inference, cloud dispatch, sensing, communications, human roles, physical infrastructure | Safety, economic access, labor consequences, service continuity and effective recourse |
+| Agentic delegation | Hardware and software identity, permission boundaries, data custody, external service dependencies | Whether actions stay within authorized scope and whether revocation and correction work |
+| Cybersecurity and runtime assurance | Firmware and application provenance, patch availability, deployed versions, recovery | Verified protection and restoration under the defined threat model, with residual uncertainty |
+
+### Academic integration and comparison discipline
+
+Connect the [Apple–China leadership case](../Global-Leadership/Apple-China-Institutional-Leadership/README.md) and [Nelson methodological boundaries](../Integrated-Research-Journey/nelson-model-methodological-boundaries.md) through documented organizational learning and institutional dependence. Nelson's Intel case informs initial location choice; asset specificity and real options address subsequent constraints and future options. The modern semiconductor value chain is not attributable to one company, individual, country, or teaching case.
+
+Compare national institutions, enterprise governance, and individual decision rights at their own levels. Infrastructure announcements, corporate biographies, and regional investment relationships cannot substitute for observations of deployed technical behavior. A shared investor or location requires a sourced relationship before being represented as an integrated system. Keep company, facility, government, product, and individual as distinct units.
+
+### Current evidence maturity
+
+The [November 5 enrollment review](../../research/case-studies/global-enrollment-identity-fraud-research-stream.md#institutional-review-summary-november-5-2026) documents 244 local regression tests and a checked live deployment, alongside three unavailable source connections. Those results substantiate bounded software behavior and diagnostic reporting for that repair. They do not validate semiconductor performance, national governance rankings, aircraft safety, surveillance allegations, or the causal AI Paradox hypotheses.
+
+The semiconductor, property, and mobility extension adds reviewed primary disclosures and comparative questions. Independent chip benchmarking, aircraft and runtime assurance, supplier audits, causal identification, and institutional outcome evaluation remain separately scoped evidence tasks. Do not transfer a passing result from one system, version, or test population to another.
+
+The [evidence and methods protocol](evidence-and-methods-protocol.md#semiconductor-and-physical-system-evaluation-boundaries) defines the next comparison records. Frozen review baselines and the Texas observation protocol retain their existing boundaries. This update changes research documentation only.

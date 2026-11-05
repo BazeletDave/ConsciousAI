@@ -69,3 +69,18 @@ For the existing [national and enterprise ecosystem inquiry](accelerating-ai-gov
 Use the same task, data permissions, service requirements, observation window, and outcome definitions when comparing external platforms, cloud hosted open models, institution operated systems, and hybrid arrangements. Record actual contracts and deployed versions. Compare recurring operating expenses, transition costs, specialist staffing, infrastructure, security, and exit costs. Do not substitute published pricing for measured lifecycle cost.
 
 Distinguish design documents from executed tests. A data export is not proof of portability until integrity and usability at the destination are checked; a backup is not verified recovery until restoration is exercised; domestic data location is not proof of exclusive administrative control. Report recovery time and recoverable data loss against predefined requirements. Keep unresolved episodes and missing observations visible. Any future independent evaluation must define its own approved scope and access before execution.
+
+
+## Semiconductor and physical system evaluation boundaries
+
+Each proposed comparison must identify the claim, system boundary, version, observation period, source access, outcome measure, and conditions that would disconfirm it. Record the maturity of each evidence item: historical account, issuer disclosure, regulatory action, allegation, independently observed behavior, synthetic result, or independently reproduced result. An evaluation completed for one component does not automatically apply to a larger system.
+
+| Evaluation | Minimum comparison record | Claim it cannot establish alone |
+| --- | --- | --- |
+| Chip workload | Exact devices, availability, task, model, numerical precision, software stack, memory, power, thermal limits, latency, throughput, test repetitions and uncertainty | Universal brand superiority, autonomous safety, or lawful data use |
+| Supply chain dependence | Dated entity and facility map, functional roles, supplier contracts where available, substitutes, licenses and switching evidence | National self sufficiency or a precise concentration estimate from an incomplete inventory |
+| Firmware and runtime assurance | Threat model, artifact identity, update chain, measured execution state, test coverage, recovery procedure and executed recovery evidence | Model fairness, public legitimacy, or absence of every vulnerability |
+| Physical deployment | Operating conditions, permissions, human roles, exposure denominator, incident definitions, fallback and independent outcome data | Commercial readiness based only on a demonstration or development announcement |
+| Institutional adaptation | Specified authority, actual rule or decision, implementation evidence, affected population, review, correction, and comparison period | Causal effectiveness inferred from a political label, investment announcement, or software test count |
+
+Future evaluations should use equivalent tasks and justified comparison groups, include negative cases, preserve missing observations, and account for confounders. Keep proposed tests separate from executed tests and public reproducibility separate from restricted attestations. Use synthetic or explicitly authorized data for engineering evaluation; define production or participant access separately before execution. No new scoring system, automatic evidence promotion, or production test is implemented by this documentation.
