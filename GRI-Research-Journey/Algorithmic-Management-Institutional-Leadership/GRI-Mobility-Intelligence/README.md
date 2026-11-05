@@ -26,4 +26,4 @@ This folder integrates a driver-controlled ridehail decision-support research pr
 ## Methodological boundaries
 Faculty and university contributions are credited as educational context, not endorsements. Public statements are evidence of stated institutional goals, not proof of program outcomes. No nonpublic platform API access or dispatch capability is assumed. The driver remains the final decision-maker. Publish no identifying driver, student or passenger information.
 
-**Next step:** evidence collection and research review; implementation intentionally deferred pending user direction.
+**Engineering status (5 November 2026):** An offline synthetic-first prototype and unit tests have been committed following user authorization. Implementation is partial; test execution, independent reproduction, production deployment and empirical benefit are not established. See [engineering acceptance register](ENGINEERING_ACCEPTANCE.md), [offline core](mobility_core.py), and [unit tests](test_mobility_core.py). Issues #11–#13 remain open pending their full acceptance criteria.
