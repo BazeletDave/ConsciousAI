@@ -1,7 +1,7 @@
 # GRI Mobility Intelligence — Research Program Index
-**Grand Research Institute | Updated October 23, 2026 | Independent working research**
+**Grand Research Institute | Consolidated November 5, 2026 | Independent working research**
 
-This folder integrates a driver-controlled ridehail decision-support research program with the broader GRI institutional, economic and leadership research. **Research and prototype planning only**: no deployed driver app, active pilot, platform partnership, or validated earnings improvement is claimed.
+This folder integrates a driver-controlled ridehail decision-support research program with the broader GRI institutional, economic and leadership research. **Research and offline prototype implementation only**: no deployed driver app, active pilot, platform partnership, or validated earnings improvement is claimed.
 
 ## Research documents
 1. [Human-centered driver intelligence proposal](2026-10-23-research-proposal.md) — research questions, formal decision problem, safety and academic constraints, system architecture, evaluation and milestones.
@@ -26,4 +26,4 @@ This folder integrates a driver-controlled ridehail decision-support research pr
 ## Methodological boundaries
 Faculty and university contributions are credited as educational context, not endorsements. Public statements are evidence of stated institutional goals, not proof of program outcomes. No nonpublic platform API access or dispatch capability is assumed. The driver remains the final decision-maker. Publish no identifying driver, student or passenger information.
 
-**Engineering status (5 November 2026):** An offline synthetic-first prototype and unit tests have been committed following user authorization. Implementation is partial; test execution, independent reproduction, production deployment and empirical benefit are not established. See [engineering acceptance register](ENGINEERING_ACCEPTANCE.md), [offline core](mobility_core.py), and [unit tests](test_mobility_core.py). Issues #11–#13 remain open pending their full acceptance criteria.
+**Consolidated engineering status (5 November 2026):** GRI leadership reports that related confidential institutional assessments have been completed. Their underlying evidence is not published or independently verified here. Offline source code, a JSON CLI, schema, synthetic fixtures and a test workflow have been committed; passing CI, operational real-data consent controls, empirical benefit and external reproduction have not been established in this public record. The authoritative [engineering and assurance register](ENGINEERING_ACCEPTANCE.md) identifies the remaining gates for issues #11–#13, which remain open. Confidential reviews and separately frozen assurance work are not reopened by this consolidation.
