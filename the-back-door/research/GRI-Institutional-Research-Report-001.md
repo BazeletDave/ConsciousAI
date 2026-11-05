@@ -98,8 +98,6 @@ Graduate global management study and discussions of continuing education at Thun
 
 The founder's return to graduate education after an established international career is a **reflective case** of professional relearning, not independent evidence that a particular educational intervention improves organizational outcomes.
 
-Earlier references to *The Infodemic Machine* and “Mulberry” remain bibliographic leads requiring exact title, author and edition confirmation before citation.
-
 ## 6. Research design: from proposition to test
 
 **Unit of analysis:** consequential AI-assisted decision or delegated agent action, linked to an accountable organizational role and an identifiable governance process.
@@ -149,7 +147,7 @@ Alternative explanations include selection effects, quality of underlying system
 - Grand Research Institute (2026). *The AI Learning Paradox: Why Autonomous Systems Require Continuously Educated Leaders.* Working Paper 001, draft v0.1. **Companion conceptual working paper.**
 - McGee, P. (2025). *Apple in China: The Capture of the World's Greatest Company.* **Historical source; precise page-specific evidence pending verification.**
 - Additional organizational learning, dynamic capabilities, sociotechnical governance, executive education and sector-specific legal sources: **formal verified bibliography in development.**
-- Doug Guthrie, Marco Serrato, Apple University, Duke executive education, Jabil, *The Infodemic Machine*, “Mulberry,” Treasury-related external claims: **verify source identity, permission and specific attribution before treating as factual case evidence.**
+- Doug Guthrie, Marco Serrato, Apple University, Duke executive education, Jabil and Treasury-related external claims: **verify source identity, permission and specific attribution before treating as factual case evidence.**
 
 **Disclosure:** This research synthesis was prepared with AI drafting assistance under GRI direction. It is an independent working document and does not imply that any named organization or faculty member participated in or endorsed the publication.
 
