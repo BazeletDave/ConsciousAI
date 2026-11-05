@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T17:24:04.411338+00:00",
+  "generated_at": "2026-11-05T23:38:15.261593+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "135930810a4e7984781e3745fab39abe64c48f8946ede72792426cfbba3d2c2a",
+      "content_sha256": "aa03716bd8064a2d3f6e73a3499489beb65b08d40a2f7090b7a3b9ece788c090",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "4adfa005fd039bece79605710aa0fed36124dcca129428a871e6f9797f4d0cd9",
+      "content_sha256": "26585be66e4e10cd11359680e45d10a44340bc7b7ffd9d99f0efdd36af7b3855",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "acb2ecd67810b76a61c479431457b9337ede3c5d7fe1c1198a06e39e6cd37275",
+      "content_sha256": "34bb2daf2e6d19af69d59bb3d793aaeb62cedea7b2d0138a1384fd4ebb8ee7c8",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -61,7 +61,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "180e157e65091cee44b14f16c75ed41945b7ed5f7399639b97568ef21e8b68c2",
+      "content_sha256": "610695daf1c4e99d03b27de647f0ca0dd35fe37fda3d901793fe5cffecdde5be",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
