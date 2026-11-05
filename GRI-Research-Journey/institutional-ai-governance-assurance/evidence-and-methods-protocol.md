@@ -84,3 +84,8 @@ Each proposed comparison must identify the claim, system boundary, version, obse
 | Institutional adaptation | Specified authority, actual rule or decision, implementation evidence, affected population, review, correction, and comparison period | Causal effectiveness inferred from a political label, investment announcement, or software test count |
 
 Future evaluations should use equivalent tasks and justified comparison groups, include negative cases, preserve missing observations, and account for confounders. Keep proposed tests separate from executed tests and public reproducibility separate from restricted attestations. Use synthetic or explicitly authorized data for engineering evaluation; define production or participant access separately before execution. No new scoring system, automatic evidence promotion, or production test is implemented by this documentation.
+
+
+### Applied public evidence audit: Tesla update and remediation conditions
+
+The [focused Tesla evaluation](government-ai-semiconductor-systems-governance-2026.md#november-5-2026--focused-evaluation-tesla-vehicle-computers-and-software-remediation) applies these boundaries to four public primary documents and five explicit claim assessments. The claims were specified for this document review, not preregistered before the historical events. Results describe documentary support and gaps, not hardware or road test outcomes. Keep this audit's retrospective documentary conclusions separate from its prospective vehicle evaluation specification. The latter requires defined access, applicable remedy conditions, independent review, and outcome criteria before observation.

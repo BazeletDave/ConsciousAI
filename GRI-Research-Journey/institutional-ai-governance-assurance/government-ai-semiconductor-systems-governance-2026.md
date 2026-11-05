@@ -162,3 +162,55 @@ Political institutions may change approval pathways, information access, procure
 The supported conclusions are bounded: (1) compute depends on multiple functional and institutional layers; (2) chip capability alone does not establish deployment safety or surveillance; (3) design, fabrication, supply, operation, and governing authority can be geographically and organizationally distributed; and (4) verified local property and mobility relationships create a comparative research connection without proving one integrated technical system. Whether greater integration improves resilience or increases concentrated dependence remains a hypothesis.
 
 Extend the existing assurance record with chip and firmware versions, system roles, supplier and jurisdiction mapping, data flow evidence, update rights, independent test conditions, permit status, affected populations, and remedies. Compare measured system outcomes rather than brand reputations. No production integration, new trained model, live surveillance investigation, autonomous vehicle test, or scholarly submission results from this documentation extension.
+
+
+## November 5, 2026 | Focused evaluation: Tesla vehicle computers and software remediation
+
+**Evaluation stage completed:** Public document audit and prospective evaluation specification. **Not performed:** hardware benchmarking, vehicle inspection, firmware extraction, road testing, proprietary telemetry analysis, or independent safety outcome replication. This is a focused application within the existing semiconductor and mobility research, not a new research stream.
+
+### Selected system and primary question
+
+Select Tesla customer vehicle computers, their software update process, and documented remedy conditions. The primary question is whether a documented installed software version is sufficient evidence of successful remediation for the specific defect and vehicle state. Keep three features separate: the rearview camera recall, Autopilot driver controls, and FSD (Supervised). Their evidence cannot be pooled into one performance or safety result. Robotaxi deployments and other manufacturers are outside this focused evaluation.
+
+The unit for a future operational observation is a vehicle configuration by defect or feature by software version by date. Hardware generation, camera configuration, prior damage, installation status, required service, intended operating conditions, and geographic requirements must be recorded. No individual vehicle data were accessed in this audit.
+
+### Public evidence inspected
+
+| ID | Source reviewed November 5, 2026 | Scope and usable evidence |
+| --- | --- | --- |
+| T01 | [Tesla rearview camera recall support](https://www.tesla.com/support/recall-rearview-camera-display) | Describes an update addressing a computer power up failure condition and a replacement path where the condition affected hardware before installation. Manufacturer remedy description, not independently checked completion data. |
+| T02 | [Tesla computer installation support](https://www.tesla.com/support/ai-computer) | Describes computer configuration identification, upgrade eligibility, and supervised customer features. A support page is not an inventory of each vehicle or proof of safe operation. |
+| T03 | [NHTSA May 6, 2024 information request RQ24009](https://static.nhtsa.gov/odi/inv/2024/INIM-RQ24009-12199.pdf) | Pages 1–3 discuss evaluation of recall 23V838 remedy effectiveness, preliminary observations, driver controls, and later changes. Its defined subject system excludes FSD Supervised/Beta. Historical inquiry, not a current final disposition. |
+| T04 | [Tesla FSD (Supervised) safety report methodology](https://www.tesla.com/fsd/safety) | Explains collision classification, telemetry, exposure, and constructed comparison measures. These are issuer methods, not independently reproduced GRI safety effects. |
+
+These four documents form a purposive public audit sample selected for this question, not a representative sample of Tesla products or recalls. Source authenticity and documentary support are different from verification of underlying engineering or field outcomes. The audit retains URLs and review date; it does not claim archived byte hashes or complete version histories.
+
+### Claim assessment completed from the public record
+
+| Claim assessed | Documentary assessment | Limit |
+| --- | --- | --- |
+| C1: A software update can be part of a hardware related remedy. | Supported as a manufacturer described remedy by T01. | Does not establish completion or effectiveness for any inspected vehicle. |
+| C2: An updated software version alone proves closure for every affected vehicle. | Not supported: T01 includes a hardware replacement condition for vehicles affected before installation. | The finding concerns this remedy's documented conditions; it is not proof that every updated vehicle needs replacement. |
+| C3: Vehicle configuration and supervision belong in the evaluation record. | Supported as manufacturer documentation by T02. | Does not independently verify a particular configuration or driver behavior. |
+| C4: Remedy installation and remedy effectiveness are separate regulatory evidence questions. | Supported as a historical regulatory action by T03: NHTSA requested further evidence about remedy effectiveness and changes. | This historical inquiry does not establish its present status, a final defect finding, or a result for FSD (Supervised). |
+| C5: The reviewed documents establish a numerical chip superiority or causal crash reduction attributable to a chip. | Not established. T04 describes system level reporting; this audit supplies no matched chip comparison or independent field dataset. | No performance ranking, safety percentage, or causal estimate is reported. |
+
+**Bounded finding:** At least one reviewed manufacturer remedy explicitly requires hardware state and service conditions in addition to software version when assessing closure. The regulator example separately documents scrutiny of remedy effectiveness after installation. These observations support the need for a richer assurance record; they do not demonstrate an overall Tesla safety outcome or validate the AI Paradox as a universal law.
+
+### Prospective operational evaluation specification
+
+Before collecting vehicle observations, define the defect or feature, eligible population, observation interval, authorized access, comparator, and independent reviewer. Do not recruit owners, request VINs, inspect vehicles, or conduct road tests under this document alone.
+
+| Evaluation question | Evidence required | Proposed measure and decision rule |
+| --- | --- | --- |
+| Is the observation identifiable and comparable? | Authorized configuration and version evidence, remedy eligibility, date and prior hardware state | Report completeness for each required field over eligible observations; missing fields yield unresolved status rather than a pass. |
+| Was the required remedy completed? | Version evidence plus applicable replacement or service record and the recall specific requirements | Count independently verified completed remedies over applicable observations, with update only and service required categories separate. |
+| Did the intended function recover? | Approved controlled functional assessment with defined conditions and baseline | Report test outcome and uncertainty for those conditions only; no transfer to autonomy or general crash safety. |
+| Was the remedy durable? | Defined follow-up interval, configuration changes, recurrence and subsequent service | Report recurrence per observed time or usage with follow-up and missingness explicit; incomplete follow-up remains censored. |
+| Did governance support correction? | Dated notice, documented service access, escalation, resolution and review | Measure response and verified closure intervals with unresolved episodes retained; no inference of satisfaction from a closed ticket. |
+
+Set acceptance criteria from the specific authoritative requirements and approved protocol before observing outcomes. A numerical threshold is not invented here. A comparison of crash outcomes would require an additional appropriately designed study with exposure, matched conditions, feature and version attribution, independent outcome review, and confounder analysis. It is not an extension of this document audit by arithmetic alone.
+
+### Research connection and current limits
+
+This focused result operationalizes the existing distinction between component capability, deployed state, remediation, and institutional assurance. It connects to the [evidence methods](evidence-and-methods-protocol.md#semiconductor-and-physical-system-evaluation-boundaries), [cross modal mobility comparison](../Algorithmic-Management/Uber-Lyft-Research/cross-modal-public-evidence-triangulation-2026-10-30.md), and [research architecture](research-program-architecture.md). The 244 tests cited in the enrollment repair remain results for that separate software system; none are counted as Tesla tests. Independent document recoding, archived source versions, operational access, and any subsequent system evaluation remain open tasks.
