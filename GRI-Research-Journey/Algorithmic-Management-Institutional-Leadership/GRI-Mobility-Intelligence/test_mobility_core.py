@@ -1,6 +1,6 @@
 """Run: python -m unittest discover -p 'test_mobility_core.py' in this directory."""
 import unittest
-from mobility_core import evaluate_scenario, validate_record, net_contribution, baseline_forecast
+from mobility_core import evaluate_scenario, validate_record, net_contribution, baseline_forecast, compare_strategies
 
 RECORD = dict(record_id="synthetic-1", consent_id="synthetic-consent", consent_active=True,
     synthetic=True, event_type="PAYMENT_SETTLED", start="2026-11-05T18:00:00-05:00",
@@ -42,6 +42,14 @@ class MobilityTests(unittest.TestCase):
     def test_negative_net(self):
         r = evaluate_scenario(dict(SCENARIO, gross=0), {"blocked_intervals":[]})
         self.assertFalse(r["drive"]["recommended"])
+    def test_named_strategy_selection(self):
+        options = {"local": SCENARIO, "unpaid_reposition": dict(SCENARIO, miles=120)}
+        result = compare_strategies(options, {"blocked_intervals":[]})
+        self.assertEqual(result["selected"], "local")
+        self.assertTrue(result["no_drive"]["feasible"])
+    def test_all_infeasible_selects_no_drive(self):
+        options = {"late_return": dict(SCENARIO, return_by="2026-11-05T19:00:00-05:00")}
+        self.assertEqual(compare_strategies(options, {"blocked_intervals":[]})["selected"], "no_drive")
     def test_forecast(self):
         self.assertEqual(baseline_forecast([10, 20, 30], 2)["estimate"], 15)
     def test_forecast_insufficient(self):
