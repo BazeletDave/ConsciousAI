@@ -114,3 +114,44 @@ The following original image files were committed to the existing ConsciousAI re
 | Falsification | Specify observations that would contradict the AI Paradox institutional lag proposition | Predefined disconfirmation criteria and explicit missing-data limits | Criteria documented; independent test pending |
 
 **Publication and assurance rule:** Public-facing updates must cite open sources, preserve an observation/inference/verification ledger, and avoid disclosure of confidential research or personal information. Absence of publicly available operator data is not proof of governance failure. The present milestone is a documented analytical extension, not independent safety validation, a Cybercab fleet identification, or an institutional endorsement.
+
+
+## November 5, 2026 | Public primary-source technical evidence analysis
+
+**Source restriction:** Only official manufacturer investor and product disclosures, federal safety regulator publications, and existing primary legal sources. No confidential GRI information, anonymous social media identification, private registration lookup, or inference of individual driver identity is included. This is a bounded extension of the existing autonomous mobility milestone.
+
+### Corporate development evidence
+
+**Tesla Q2 2026 shareholder update, p. 9:** Tesla reported Cybercab production had started and engineering test drives of production Cybercabs on public roads had begun. It separately reported unsupervised Robotaxi operations in Miami, Orlando and Tampa. These are **company-reported program facts**, not evidence linking the observed Broward vehicles to a specific Tesla project. Primary source: https://assets-ir.tesla.com/tesla-contents/IR/TSLA-Q2-2026-Update.pdf
+
+**Tesla Cybercab FAQ:** Tesla describes Cybercab as a purpose-built two-seat vehicle without a steering wheel that uses camera vision and sensors. Tesla also distinguishes Cybercab from Model Y Robotaxi vehicles. This makes **platform identity and instrumentation identity separate questions**: a conventional Tesla vehicle fitted with rooftop equipment is not thereby a Cybercab, and an externally mounted sensor suite cannot be identified from Tesla's general Cybercab description. Primary source: https://www.tesla.com/support/robotaxi/cybercab
+
+**Tesla Robotaxi Safety Report:** Tesla publishes fleet-wide autonomous mileage and its own system and safety descriptions. These are manufacturer-reported aggregates; they do not provide vehicle-specific operating logs, an exposure-adjusted comparison for the Broward observation, or an independent verification of any safety outcome. Primary source: https://www.tesla.com/robotaxi/safety
+
+### Federal technical and safety assurance boundary
+
+**NHTSA Standing General Order (SGO) on crash reporting:** NHTSA distinguishes automated driving systems (ADS, SAE Levels 3–5) from Level 2 advanced driver assistance systems (ADAS). It requires specified reporting entities to report qualifying crashes according to engagement and incident criteria. A vehicle's visible hardware does not demonstrate ADS engagement. NHTSA explicitly cautions that publicly reported crash counts are not normalized by fleet exposure or operational design domain and should not be used alone to rank safety across operators. Primary source: https://www.nhtsa.gov/es/node/103486 ; legal order: https://www.nhtsa.gov/sites/nhtsa.gov/files/2025-04/third-amended-SGO-2021-01_2025.pdf
+
+### Technical feature interpretation and discriminating evidence
+
+| Visible or reported observation | Candidate technical interpretation | What would discriminate between alternatives | Evidentiary status |
+| --- | --- | --- | --- |
+| Elevated roof mast and external structural assembly | Mobile mapping, positioning reference, sensor calibration, or engineering data collection | Readable manufacturer/model marking, equipment specifications, mounting and wiring detail, independently attributable operator documentation | General architecture visible; function unverified |
+| Two instrumented Tesla passenger vehicles observed in proximity | Coordinated field data collection, separate vehicles on the same route, or a development exercise | Time-synchronized route traces, operator protocol, independently documented task assignment | Proximity in supplied images; coordination and extended duration observer-reported |
+| Reported handheld communication | Operational coordination or unrelated communication | Authenticated audio or attributable operator statement | Observer testimony only; communication contents unknown |
+| Public-road operation in Broward County | Roadway mapping, supervised engineering validation, ordinary travel, or other activity | Verified work order, published test protocol or attributable program disclosure | Activity type unverified |
+| Tesla public Cybercab testing program | Plausible industry and corporate comparison case | Vehicle-specific, attributable documentary link between observed cars and the program | Corporate program documented; case attribution unverified |
+
+### Claims ledger and testable conclusions
+
+**Established from primary public sources:** Tesla publicly reported Cybercab engineering tests on public roads in 2026; Tesla distinguishes Cybercab and Model Y Robotaxi; NHTSA distinguishes ADS from Level 2 ADAS and warns against interpreting unnormalized crash counts as comparative safety measures.
+
+**Established from repository evidence:** Four image files are committed and linked; the observation is described as two conventional Tesla vehicles with external roof instrumentation on Florida's Turnpike near Commercial Boulevard. Original capture metadata, physical sensor model and operator identity have not been independently authenticated.
+
+**Reasonable engineering interpretation, not verified finding:** The external apparatus is consistent with a data acquisition or validation configuration. Its presence does not prove LiDAR, camera-only operation, mapping purpose, active autonomy or Cybercab program membership.
+
+**Not established:** Specific operator, precise sensor make/model, vehicle automation state, test protocol, calibration, telemetry, activity-specific authorization, safety outcome or independently reproduced performance.
+
+**Research consequence:** The next useful milestone is a reproducible per-image sensor feature register and original-file provenance record, followed by source-to-feature matching. Do not treat lack of publicly disclosed fleet telemetry as proof of inadequate safety governance.
+
+**Research integrity:** No confidential material was used or published. No engineering bench test, source-image pixel-level sensor identification, original EXIF authentication, regulatory records response, or independent reproduction was conducted as part of this public-document analysis.
