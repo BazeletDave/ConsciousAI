@@ -1,13 +1,40 @@
 {
   "schema_version": "1.0",
   "mode": "automated_official_metadata_triage",
-  "generated_at": "2026-11-04T23:39:32.653908+00:00",
-  "source_last_collection_at": "2026-11-04T23:39:32.610196+00:00",
-  "source_registry_sha256": "3843de05d2673b1b83c58b4297dcca955b72eb87203966d9d37eeb809c4f3005",
-  "source_records": 116,
-  "matched_records": 13,
-  "human_review_required": 13,
+  "generated_at": "2026-11-05T06:44:40.267590+00:00",
+  "source_last_collection_at": "2026-11-05T06:44:40.214923+00:00",
+  "source_registry_sha256": "a9872671f57941c33349cf5f9d9f808a20a558588d9d11eac7d963568f0f0330",
+  "source_records": 119,
+  "matched_records": 15,
+  "human_review_required": 15,
   "queue": [
+    {
+      "id": "US-FR-2026-22615",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions",
+      "title": "Proposed Priorities and Definitions-Secretary's Supplemental Priorities and Definitions",
+      "publication_date": "2026-11-05",
+      "topics": [
+        "artificial intelligence"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-22593",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22593/medical-devices-hematology-and-pathology-devices-classification-of-the-digital-cervical-cytology",
+      "title": "Medical Devices; Hematology and Pathology Devices; Classification of the Digital Cervical Cytology Slide Imaging System With Artificial Intelligence Algorithm",
+      "publication_date": "2026-11-05",
+      "topics": [
+        "artificial intelligence",
+        "algorithm"
+      ],
+      "priority": "review",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "US-FR-2026-22436",
       "source_url": "https://www.federalregister.gov/documents/2026/11/03/2026-22436/privacy-act-of-1974-system-of-records",
