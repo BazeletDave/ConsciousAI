@@ -40,7 +40,7 @@ Evidence capable of weakening the institutional lag hypothesis would include tra
 
 Maintain separate evidence categories for visual observation, eyewitness testimony, historical reporting, primary legal sources, engineering inference, and independent replication. Record selection bias, alternative explanations, uncertainties and untested assumptions. For assurance method comparison, consult the [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and [NHTSA automated vehicle safety resources](https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety). These are methodological references, not evidence of certification.
 
-**Integrity boundary:** No external operator identity, particular approval, autonomous driving state, sensor model, performance outcome, or independent safety certification has been verified. Original media have not been committed to the repository.
+**Integrity boundary:** No external operator identity, particular approval, autonomous driving state, sensor model, performance outcome, or independent safety certification has been verified. Four contributor-uploaded image files are now committed and linked below; original capture provenance, metadata and independent authentication remain pending.
 
 
 ## November 5, 2026 | Supplemental visual evidence and comparison
@@ -56,9 +56,9 @@ Two contributor-supplied photographs show instrumented Tesla vehicles traveling 
 
 The following original image files were committed to the existing ConsciousAI repository as contributor-described Florida Turnpike field mapping evidence. Filename and repository presence are verified; individual frame contents, EXIF capture times, exact location and operator identity have not been independently authenticated. Their inclusion does not establish autonomous operation or coordinated testing.
 
-- [IMG_7690.jpeg](../../IMG_7690.jpeg)
-- [IMG_7692.jpeg](../../IMG_7692.jpeg)
-- [IMG_7694.jpeg](../../IMG_7694.jpeg)
-- [IMG_7696.jpeg](../../IMG_7696.jpeg)
+- [IMG_7690.jpeg](../IMG_7690.jpeg)
+- [IMG_7692.jpeg](../IMG_7692.jpeg)
+- [IMG_7694.jpeg](../IMG_7694.jpeg)
+- [IMG_7696.jpeg](../IMG_7696.jpeg)
 
 **Provenance:** Contributor upload; [original GitHub commit](https://github.com/BazeletDave/ConsciousAI/commit/a9ee71d2babc3d584c25824ed210381efb25ef54). Preserve original bytes and commit provenance. Before drawing frame-specific findings, inspect each image and record a separate observation, location confidence, privacy review and verification status. This is an evidence addition to the existing research, not a new project.
