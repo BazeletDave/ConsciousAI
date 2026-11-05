@@ -117,3 +117,35 @@ As autonomous mobility systems grow more socially integrated, **participatory AI
 **Evidence and assurance next steps:** Preserve original photos and video privately with metadata and cryptographic hashes; record the observer account separately from image-derived facts; redact readable plates and identifiable persons before any public media release; obtain independent sensor/operator corroboration; compare the observed workflow against documented mobile mapping and AV validation methods; and, only after suitable authorization, evaluate reproducible assurance criteria. Original media have not been committed here and no external reproduction, sensor identification, automated tests, or independent safety audit has been performed.
 
 **Institutional boundary:** This is an additional field observation within existing GRI research, not a new study, new deployment claim, or institutional endorsement. The June 2025 archival working paper above remains unchanged for longitudinal context.
+
+
+## 5 November 2026 | Florida regulatory and sensor validation follow-up
+
+This section extends the Broward Turnpike observation above. The cited sources establish regulatory context and historical technical precedent; they do not establish the observed vehicles' operator, permits, exact sensor models or automation state.
+
+### Florida operating framework (primary sources)
+
+- Florida Statutes §316.85 (2026) permits fully autonomous vehicle operation without a human operator physically present when statutory conditions apply; when the automated driving system is engaged it is deemed the operator for specified traffic law purposes. https://www.leg.state.fl.us/Statutes/index.cfm?App_mode=Display_Statute&URL=0300-0399/0316/Sections/0316.85.html
+- Florida Statutes §319.145 (2026) specifies compliance and minimal-risk-condition requirements for autonomous vehicles registered in Florida, with distinct provisions for fully and not fully autonomous systems. https://www.flsenate.gov/Laws/Statutes/2026/319.145
+- Florida Statutes §627.749 (2026) requires at least $1 million primary liability coverage for a fully autonomous vehicle engaged in specified on-demand network or prearranged ride operations; do not apply that specific threshold indiscriminately to instrumented survey vehicles. https://flsenate.gov/Laws/Statutes/2026/627.749
+- FDOT's CAV program supports pilot deployments, data collection and connected/automated vehicle technologies. This is program context, not proof that FDOT approved or participated in the photographed operation. https://fdot.gov/traffic/teo-divisions.shtm/cmt/cmtp-overview
+- Florida's Turnpike Enterprise describes permitting for projects involving work on or near Turnpike right of way. Whether ordinary vehicle-based data collection constitutes such work in this case is unresolved. https://floridasturnpike.com/business-opportunities/permits/
+- FDOT publishes Terrestrial Mobile Lidar General Scope Guidelines and surveying resources; these provide technical comparison standards, not operator identification. https://www.fdot.gov/geospatial/doc-pubs.shtm
+- Florida HB 1469 (2026), which proposed additional human-operator restrictions, died in committee on 13 March 2026 and must not be described as enacted law. https://flhouse.gov/Sections/Bills/billsdetail.aspx?BillId=84223
+
+### Historical equipment comparison and confidence boundaries
+
+- In May 2021 a similarly instrumented Tesla Model Y with California manufacturer plates was photographed in Palm Beach, Florida; contemporaneous reporting associated the roof sensor suite with Luminar development LiDAR. Bloomberg reporting, republished by Transport Topics, stated that Tesla obtained Luminar sensors for testing and development and that California DMV confirmed the manufacturer plate on the 2021 vehicle belonged to Tesla. These are historical facts about a DIFFERENT vehicle, not identification of the November 2026 vehicles. https://www.ttnews.com/articles/tesla-tests-lidar-which-musk-once-scorned
+- Reuters reported in May 2024 that Tesla purchased Luminar LiDAR sensors, while the intended use was not conclusively established. https://www.reuters.com/technology/luminar-says-tesla-is-biggest-customer-its-lidar-sensors-2024-05-07/
+- The current photographs support a tall mast-mounted sensor head, structural bracing, rooftop instrumentation, and possible auxiliary external sensing hardware. LiDAR, GNSS/INS integration, camera reference systems and mobile mapping are candidate technologies only. Exact make, model, calibration, synchronization, intervehicle communication and collected data cannot be determined from these images alone.
+- California manufacturer plates in the current photographs should not be used to identify a private driver or claim that a Florida permit exists. A public agency or company response would be needed to verify operator and authorizations.
+
+### GRI assurance questions
+
+1. Distinguish manual driving with mapping equipment, supervised automated driving, and fully autonomous operation; no observed vehicle has been confirmed in any particular automation mode.
+2. Establish the operational design domain, route and weather coverage, reference sensor calibration, synchronization, localization accuracy, and handling of uncertainty.
+3. Examine organizational decision authority, human communication, safety driver supervision, incident response, and independent verification.
+4. Seek official confirmation from FLHSMV, FDOT/Florida's Turnpike Enterprise and the manufacturer only as warranted; preserve original media privately and publish redacted derivatives with source provenance.
+5. Preserve a separate claim ledger for visual observations, observer testimony, corroborated historical reporting, statutory requirements, hypotheses and unresolved questions.
+
+**Status:** Documentary investigation only. No plate registration query, agency confirmation, sensor bench test, legal determination or independent reproduction has occurred. This is not evidence of an approved specific robotaxi deployment or an FDOT-sponsored operation.
