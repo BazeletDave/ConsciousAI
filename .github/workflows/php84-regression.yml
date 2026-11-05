@@ -1,0 +1,43 @@
+name: PHP 8.4 matched runtime regression evidence
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/php84-regression.yml'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/php_runtime_regression.php'
+permissions:
+  contents: read
+jobs:
+  matched-runtime:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        php: ['8.4.26', '8.4.27']
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify exact PHP runtime and run harmless regression
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p evidence
+          docker run --rm --network none -v "$PWD:/work:ro" -w /work "php:${{ matrix.php }}-cli" php -v | tee evidence/version.txt
+          docker run --rm --network none -v "$PWD:/work:ro" -w /work "php:${{ matrix.php }}-cli" php GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/php_runtime_regression.php | tee evidence/runtime.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          record=json.loads(Path("evidence/runtime.json").read_text())
+          expected="${{ matrix.php }}"
+          assert record["version"].startswith(expected), (record["version"],expected)
+          for key in ("array_lifecycle","json_roundtrip","exception_cleanup","memory_baseline"):
+              assert record[key] is True, (key,record[key])
+          result={"php_version":record["version"],"checks_passed":4,"checks_total":4,"test_class":"benign_runtime_regression","cve_reproduced":False,"patched_exploit_block_verified":False,"scope":"isolated_cli_not_web_sapi"}
+          Path("evidence/summary.json").write_text(json.dumps(result,indent=2)+"\n")
+          PY
+      - name: Retain immutable run artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: php-${{ matrix.php }}-evidence
+          path: evidence/
+          if-no-files-found: error
