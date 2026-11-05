@@ -183,3 +183,6 @@ The [GRI Uber and Lyft field research](../Algorithmic-Management/Uber-Lyft-Resea
 ## ConsciousAI research systems development
 
 [Ethical Intelligence API, Transparency Graph and AI Policy Tracker](../Research-Governance/ConsciousAI-Research-Systems/README.md) connect GRI's institutional research to an initial structured evidence registry and documented interface specification. The three systems are in research prototype/design status and are not represented as operational corporate auditing or live legislative monitoring services.
+
+
+**5 November 2026 autonomous mobility milestone:** The existing [autonomous mobility research](../../autonomous-mobility-research/README.md) now incorporates the Broward County paired instrumented vehicle field observation, Florida regulatory and sensor validation context, and a linked [institutional verification milestone framework](../../autonomous-mobility-research/Institutional-Validation-Milestones-2026-11-05.md). The evidence is preliminary; operator identity, automation state, applicable activity-specific approvals and safety performance remain unverified. This extends the existing AI Paradox and institutional assurance research, not a new program.
