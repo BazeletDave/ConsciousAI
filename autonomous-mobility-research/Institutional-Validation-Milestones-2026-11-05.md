@@ -41,3 +41,12 @@ Evidence capable of weakening the institutional lag hypothesis would include tra
 Maintain separate evidence categories for visual observation, eyewitness testimony, historical reporting, primary legal sources, engineering inference, and independent replication. Record selection bias, alternative explanations, uncertainties and untested assumptions. For assurance method comparison, consult the [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) and [NHTSA automated vehicle safety resources](https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety). These are methodological references, not evidence of certification.
 
 **Integrity boundary:** No external operator identity, particular approval, autonomous driving state, sensor model, performance outcome, or independent safety certification has been verified. Original media have not been committed to the repository.
+
+
+## November 5, 2026 | Supplemental visual evidence and comparison
+
+Two contributor-supplied photographs show instrumented Tesla vehicles traveling in proximity. These supplement the Broward observation already documented above and do not establish vehicle ownership, coordinated autonomy, operator identity, or testing authorization. A separate contributor-supplied screenshot of a third-party Tesla Insider post describes a Waymo and Cybercab traffic interaction; it is a reported media claim, not a directly observed or independently confirmed event. These evidence classes must not be merged.
+
+**Existing research application:** The AI Paradox and institutional governance comparison concerns operational decision authority, roadway interactions, responsibility for unexpected outcomes, and independent ability to inspect safety claims. A comparison of two manufacturers' systems requires verified operating modes, location and timestamps, incident records, and exposure-adjusted safety denominators; no such comparative performance conclusion is supported by these images.
+
+**Preservation gate:** Before adding public image links, retain original files, record provenance and capture dates, assess third-party publication rights and privacy, and compute file hashes. Publication copies may require redaction; keep unmodified originals separately where authorized. No independent reproduction or new autonomous mobility project is claimed.
