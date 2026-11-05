@@ -105,3 +105,12 @@ A contributor-supplied UberX Priority screenshot shows a $265.81, 356.2-mile, 5h
 ## November 3, 2026 | South Florida flooding, surge incentives and the AI Paradox
 
 [Read the source-qualified observational extension](2026-11-03-south-florida-flood-surge-incentives-observational-extension.md). Ten contributor-supplied screenshots document differentiated Uber surge displays, Lyft incentive-format comparisons, reported earnings and firsthand accounts of flood-related driver safety decisions. The study examines whether platform financial incentives and hazard communication are institutionally aligned, without alleging proven unsafe dispatch, causal effects or verified platform intent. It cross-references the existing Algorithmic Mobility Paradox, institutional governance and prospective synthetic Tiger Assurance methodology. Original participant images are not redistributed in the public note; engineering and independent verification remain pending.
+
+
+## November 5, 2026 | Syracuse rideshare decision support comparison
+
+Two contributor-supplied dashboard screenshots show an external Syracuse rideshare decision support interface combining reported trip history, airport arrivals, time-window forecasts, roadway restrictions, and driver-facing decision thresholds. Displayed figures include approximately $52 per rider hour versus approximately $26 per hour when pickup time is included, and a projected $49 per hour operating window. The screenshots do not provide a verified transaction ledger, sampling method, full cost accounting, or reproducible forecast backtest; displayed rates must not be described as independently verified earnings or net profit.
+
+**Existing research connection:** This observation extends the established GRI analysis of gross earnings versus economic income, unpaid pickup and repositioning time, information asymmetry, driver acceptance discretion, and algorithmic management. An apparent improvement in decision information is not itself evidence of increased realized driver income. A valid comparison requires consistent definitions of online, engaged, pickup, idle and return time, mileage, vehicle costs, selection effects, and actual completed transactions.
+
+**Evidence status:** Contributor-supplied screenshots, preliminary visual review; original JPEG provenance and permission for public redistribution pending. No new study, platform attribution, causal conclusion, or independently validated predictive capability is claimed. Image links may be added after originals are committed and checked.
