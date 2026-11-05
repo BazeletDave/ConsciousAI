@@ -142,6 +142,10 @@ The [existing global infrastructure comparison](../Integrated-Research-Journey/2
 
 The unit of analysis separates the brand, legal and operating entities, physical assets, data and model functions, customers, regulators, and contractual dependencies. Historical sunk expenditure is kept separate from future switching costs and remaining investment. Greater digital reach does not itself demonstrate institutional independence, secure data control, or feasible exit. The comparison introduces research questions rather than measured findings or an orbital investment recommendation.
 
+### Semiconductor foundations and physical deployment
+
+The [existing semiconductor agenda](government-ai-semiconductor-systems-governance-2026.md#november-5-2026--semiconductor-functions-international-dependence-and-physical-deployment) connects historical integrated circuits and IBM's Boca Raton work with international fabrication, modern training and inference, firmware assurance, export enforcement, property development, and Florida advanced air mobility. It distinguishes verified relationships from proposed technical integration and treats chip level controls as one part of institutional assurance. Model or processor capability does not itself demonstrate lawful sensing, safe autonomous action, or effective public oversight.
+
 ### Connected GRI research
 
 - [Treasury, USAJOBS, NVIDIA, Tesla and institutional infrastructure](government-ai-semiconductor-systems-governance-2026.md)
