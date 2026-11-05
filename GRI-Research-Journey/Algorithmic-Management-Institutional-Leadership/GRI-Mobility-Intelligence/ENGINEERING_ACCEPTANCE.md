@@ -23,7 +23,7 @@ The research and offline implementation remain in the existing GRI Mobility Inte
 
 | Existing issue | Public implementation | Remaining verification |
 | --- | --- | --- |
-| [#11 M0–M1](https://github.com/BazeletDave/ConsciousAI/issues/11) | Rules based offline comparison, no drive option, hard time constraints, net economics, JSON CLI and synthetic tests committed | Confirm executed tests; complete CSV import/export if still required by issue; review edge cases and formal acceptance |
+| [#11 M0–M1](https://github.com/BazeletDave/ConsciousAI/issues/11) | Accepted for offline research prototype: governance boundaries, scenario comparator, no drive, protected schedule, return deadline, sleep and duty constraints, uncertainty, JSON CLI and synthetic tests | Twelve representative M0/M1 checks executed successfully in isolated local verification on 5 November 2026 using reconstructed functions from reviewed repository source. This is not an execution of the repository CI workflow; CI remains unverified. CSV import/export belongs to issue #12 rather than the original #11 acceptance requirements. |
 | [#12 M2](https://github.com/BazeletDave/ConsciousAI/issues/12) | Record validation, versioned schema, event distinctions, synthetic fixtures and lifecycle policy committed | Private operational consent registry, withdrawal, deletion/export, retention and security controls before real data collection |
 | [#13 M3–M5](https://github.com/BazeletDave/ConsciousAI/issues/13) | Uncalibrated historical mean baseline and synthetic forecast CLI committed | Temporal backtesting, uncertainty calibration, out of distribution assessment, optimizer comparison, preregistered evaluation and prospective evidence |
 
@@ -35,4 +35,4 @@ The research and offline implementation remain in the existing GRI Mobility Inte
 
 From this directory: `python -m unittest discover -p 'test_mobility_core.py' -v`. To exercise the offline interface: `python mobility_cli.py scenario synthetic_scenario.json`, `python mobility_cli.py ledger synthetic_ledger.json`, and `python mobility_cli.py forecast synthetic_forecast.json`.
 
-All public example data are synthetic. No live ingestion, production credentials, platform automation or passenger identifying data are authorized. Keep issues open until acceptance evidence is available. Consolidation is a documentation and status reconciliation, not certification.
+All public example data are synthetic. No live ingestion, production credentials, platform automation or passenger identifying data are authorized. Keep #12 and #13 open until their distinct acceptance evidence is available. Issue #11 is accepted for its bounded M0/M1 offline prototype scope; no production or prospective performance assertion. Consolidation is a documentation and status reconciliation, not certification.
