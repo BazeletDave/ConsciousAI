@@ -163,6 +163,9 @@ class Handler(BaseHTTPRequestHandler):
         path = urlparse(self.path).path
         query = parse_qs(urlparse(self.path).query)
         try:
+            if path == "/institutional/php-assurance":
+                from php_assurance_bridge import snapshot as php_snapshot
+                return self.send_json(200, php_snapshot())
             if path == "/institutional/tiger-legacy":
                 from tiger_legacy_bridge import snapshot as legacy_snapshot
                 try:
