@@ -149,3 +149,6 @@ This section extends the Broward Turnpike observation above. The cited sources e
 5. Preserve a separate claim ledger for visual observations, observer testimony, corroborated historical reporting, statutory requirements, hypotheses and unresolved questions.
 
 **Status:** Documentary investigation only. No plate registration query, agency confirmation, sensor bench test, legal determination or independent reproduction has occurred. This is not evidence of an approved specific robotaxi deployment or an FDOT-sponsored operation.
+
+
+**Institutional milestone continuation (5 November 2026):** See [Institutional Validation Milestones](Institutional-Validation-Milestones-2026-11-05.md) for the falsifiable GRI institutional hypothesis, evidence gates, and cumulative verification milestones associated with the Broward field observation. This is an extension of the existing research, not a separate project.
