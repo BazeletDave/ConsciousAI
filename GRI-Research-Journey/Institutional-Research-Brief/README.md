@@ -65,3 +65,6 @@ The portfolio is intended for longitudinal comparison. New evidence should ident
 ---
 
 *Independent GRI research | David A. Grand | 18 October 2026. Public availability does not by itself grant reuse rights to every item: check applicable licenses, original source rights, and third-party material restrictions.*
+
+
+**Autonomous mobility institutional evidence update (5 November 2026):** [Broward field observation and regulatory context](../../autonomous-mobility-research/README.md) · [Institutional validation milestones](../../autonomous-mobility-research/Institutional-Validation-Milestones-2026-11-05.md). The observation supports a bounded comparative research question about technical validation and institutional accountability; it does not prove autonomous operation, a deployment approval, or independently demonstrated safety.
