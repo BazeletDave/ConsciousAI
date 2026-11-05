@@ -9,7 +9,8 @@ def snapshot():
         "classification":"research_synthetic_not_independently_verified",
         "technical_reproduction":"not_performed",
         "local_runtime_observation":{"php_version":"8.4.24","sapi":"cli","array_lifecycle":True,"json_roundtrip":True,"exception_cleanup":True,"memory_baseline":True,"scope":"benign_cli_smoke_test_not_cve_reproduction","patched_comparison":"not_available"},
-        "independent_reproduction":"pending",
+        "independent_reproduction":"confidentially_reported_pass_not_publicly_authenticated",
+        "gri_confidential_attestation":{"reported_by":"GRI research leadership","vulnerability_reproduction":"reported_pass","matched_patch_comparison":"reported_pass","independent_review":"reported_pass","verification_by_dashboard":"not_performed","evidence_access":"prohibited","disclosure":"status_only_no_confidential_artifacts"},
         "production_remediation":"not_assessed",
         "assurance_controls":[
             {"name":"Source advisory verification","status":"vendor_fixed_version_matrix_confirmed"},
@@ -19,5 +20,5 @@ def snapshot():
             {"name":"Patched PHP regression","status":"not_performed_no_patched_runtime"},
             {"name":"Independent reviewer signoff","status":"pending"}
         ],
-        "notice":"Research status only. No exploit execution, production scanning, or independent security certification."
+        "notice":"GRI leadership reports confidential reproduction and independent review passed. The dashboard has not accessed or authenticated protected records. Public workflow execution remains separately unconfirmed. No confidential intellectual property or security certification disclosed."
     }
