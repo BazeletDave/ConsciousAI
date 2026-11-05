@@ -136,6 +136,12 @@ The existing [Texas institutional event research](../Integrated-Research-Journey
 
 The extension distinguishes the Hinojosa campaign's proposed moratorium, Abbott's pre-election audit announcement, reported election outcomes, future governing actions, and measured project consequences. Opposition to particular conditions of development is not automatically opposition to AI. The November 3 protocol and baseline remain frozen; subsequent exploratory questions are labeled accordingly. Future evidence must follow the chain from a specified exercise of public authority to actual corporate responses and independently checked consequences, including unchanged projects and policies as counterevidence.
 
+### International platforms, asset specificity, and location choices
+
+The [existing global infrastructure comparison](../Integrated-Research-Journey/2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md#november-5-2026--site-selection-cloud-ecosystems-and-international-platform-dependence) now connects the Texas inquiry to AWS's historical expansion, local operating arrangements in China, PDD/Temu's international structure, and proposed orbital compute. It combines Nelson's site selection research with institutional economics, asset specificity, and investment under uncertainty. These are complementary lenses, not interchangeable explanations.
+
+The unit of analysis separates the brand, legal and operating entities, physical assets, data and model functions, customers, regulators, and contractual dependencies. Historical sunk expenditure is kept separate from future switching costs and remaining investment. Greater digital reach does not itself demonstrate institutional independence, secure data control, or feasible exit. The comparison introduces research questions rather than measured findings or an orbital investment recommendation.
+
 ### Connected GRI research
 
 - [Treasury, USAJOBS, NVIDIA, Tesla and institutional infrastructure](government-ai-semiconductor-systems-governance-2026.md)
