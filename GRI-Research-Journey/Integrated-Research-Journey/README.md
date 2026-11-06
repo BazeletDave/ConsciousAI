@@ -166,6 +166,7 @@ The 1 November Sunday Funday briefing is an **intake and synthesis observation**
 
 > **Featured GRI research | Institutional Power Amplification:** [**Access, Capability, Authority, Consequences and Feedback →**](2026-10-19-institutional-power-amplification-framework.md)  
 > A comparative research program connecting historical institutional power with AI-driven economic, political and organizational change. It advances falsifiable propositions on access, governance latency, institutional authority and recursive feedback.
+> **Frontier laboratory comparison:** [Research access and institutional authority at Anthropic, OpenAI, Google DeepMind and Microsoft](2026-10-19-institutional-power-amplification-framework.md#frontier-laboratory-research-access-and-institutional-authority--november-2026). This bounded extension compares publicly documented participation pathways with decision rights and accountability, identifying evidence limitations and testable propositions without asserting undisclosed institutional arrangements.
 
 **Author and research lead:** David A. Grand, founder, Grand Research Institute  
 **Research origins:** 2021 onward; practitioner foundations in the 1990s  
