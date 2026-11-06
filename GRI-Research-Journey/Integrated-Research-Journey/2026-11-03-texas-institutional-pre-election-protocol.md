@@ -5,7 +5,7 @@
 **Status:** Prospective observational design, not a registered clinical trial, causal estimate or independent validation.
 
 ## Purpose and research independence
-Continue GRI's existing research into AI, institutional governance, algorithmic management, political economy, responsible technological development, human accountability and independent assurance. Thunderbird TAM 505 and Roy C. Nelson's Intel case provide academic framing. This is independently authored GRI work, not a Thunderbird or ASU publication or endorsement.
+Continue GRI's existing research into AI, institutional governance, algorithmic management, political economy, responsible technological development, human accountability and independent assurance. Roy C. Nelson's published Intel site selection analysis provides a scholarly comparative reference. This is independently authored GRI work; citation does not imply institutional endorsement.
 
 ## Literature and case anchors
 Nelson, R. (2000). Intel's site selection decision in Latin America. *Thunderbird International Business Review, 42*(2), 227–249. https://doi.org/10.1002/1520-6874(200003/04)42:2%3C227::AID-TIE6%3E3.0.CO;2-4
