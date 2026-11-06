@@ -183,7 +183,7 @@ This is a living, open research program rather than a completed or independently
 > **Featured historical research:** [**The Legitimacy Paradox | Cambodian Antiquities, Douglas Latchford, and the AI Paradox →**](Legitimacy-Paradox-Cambodian-Antiquities.md)  
 > Explore the full research companion on looted Khmer antiquities, provenance, institutional legitimacy, repatriation, and the structural implications for AI validation and governance.
 
-> **Marketing and segmentation foundation (TGM 204, 2024):** [Ontela PicDeck: From Customer Segmentation to Algorithmic Management](2026-10-19-ontela-picdeck-segmentation-ai-paradox.md) documents the cited Kellogg case, its Thunderbird educational context, and GRI's independent connection to the AI Paradox, multi-party incentives, targeting, personal data controls and research design.
+> **Marketing and segmentation research foundation:** [Ontela PicDeck: From Customer Segmentation to Algorithmic Management](2026-10-19-ontela-picdeck-segmentation-ai-paradox.md) documents the cited Kellogg case, its Thunderbird educational context, and GRI's independent connection to the AI Paradox, multi-party incentives, targeting, personal data controls and research design.
 
 > **Academic ethics integration (19 October 2026):** [Donaldson's *Values in Tension* and the AI Paradox](2026-10-19-donaldson-global-ethics-algorithmic-management.md) connects the 1996 HBR global business ethics framework with GRI's independent algorithmic management research, with explicit attribution, source limitations and copyright safeguards.
 
