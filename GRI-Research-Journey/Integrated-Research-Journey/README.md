@@ -3,7 +3,7 @@
 
 This index preserves the chronological record of GRI's research. The [Master Research Portfolio](../Grand-Research-Institute-Research-Portfolio/README.md) is the primary navigation point. Individual studies retain their original dates, authorship, evidence limits and methods.
 
-**Research standards:** Separate primary evidence, reported claims, interpretation and hypotheses. Attribute Roy C. Nelson's original institutional model accurately; GRI's AI applications remain independent extensions requiring empirical validation. Academic references do not imply institutional endorsement.
+**Research Standards and Academic Integrity:** Grand Research Institute maintains a commitment to methodological rigor, scholarly attribution, research transparency, and independent verification. Research distinguishes documented evidence from analytical interpretation and emerging hypotheses, with conclusions evaluated against established academic frameworks and available empirical findings. GRI acknowledges the intellectual contributions of foundational scholars, including Dr. Roy C. Nelson, while maintaining independent responsibility for its research applications, interpretations, and conclusions.
 
 **Faculty public scholarship crosswalk:** [Published works mapped to the AI Paradox and existing GRI research streams](faculty-public-scholarship-ai-paradox-crosswalk.md). This is an independent GRI interpretation, not a faculty endorsement.
 
