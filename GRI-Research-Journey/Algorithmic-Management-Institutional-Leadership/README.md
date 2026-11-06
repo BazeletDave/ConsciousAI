@@ -81,3 +81,36 @@ The existing institutional leadership research now links [the Texas AI infrastru
 **Case boundaries.** Texas evidence documents regulatory processes and institutional constraints, but not verified project financial losses or election-specific causal effects. Platform evidence documents limited field observations and displayed offers, but not a proven platform-wide wage target or undisclosed algorithmic intent. Differences in market structure, unit of observation, and legal authority preclude treating the cases as direct quantitative equivalents.
 
 **Research implication.** The comparative hypothesis is that algorithmic capability and managerial accountability can diverge when information access, decision rights, and effective remedies are not aligned. Testing requires case-specific observable decisions, alternative explanations and documented outcomes. This section advances the existing AI Paradox and leadership research without creating a new project or asserting completed empirical validation.
+
+
+## November 2026 | Effective managerial authority and contestability
+
+This bounded extension develops the existing AI Paradox leadership question: when algorithmic systems materially shape consequential choices, does the accountable human actor possess practical decision authority or only nominal responsibility? It is a public conceptual evaluation framework, not a disclosure of GRI's internal research procedures.
+
+### Five observable dimensions
+
+| Dimension | Evidence that would support effective authority | Evidence gap or rival interpretation |
+| --- | --- | --- |
+| Decision visibility | The responsible actor receives intelligible information about the proposed action, its material inputs and uncertainty before the consequential decision | A dashboard or notification alone does not demonstrate comprehension |
+| Discretion | The actor can lawfully and operationally approve, modify, defer or reject the recommendation | A nominal override may be impractical because of timing, incentives or system design |
+| Contestability | An affected person can challenge a consequential outcome through a defined process | An appeal channel does not establish timely or effective remedy |
+| Correction | The organization can identify an error, implement a change and document the resulting outcome | A policy promise is not evidence that an erroneous decision was corrected |
+| Accountability | Responsibility, escalation authority and the outcome of intervention are attributable | Formal ownership may exist without access to information or effective control |
+
+These dimensions are analytical criteria for interpreting public evidence, not a proprietary audit instrument or a validated measurement scale. They should not be assigned numeric scores without a disclosed empirical basis and reliability assessment.
+
+### Application to existing GRI cases
+
+**Platform algorithmic management.** The Uber and Lyft field record can document displayed offers, timing, location, incentives and driver choices within the limits of the available observations. It does not, without platform records or a credible identification design, establish the dispatch algorithm's intent, an intentional earnings ceiling, or a causal effect of any individual offer. The authority question is whether drivers can make informed economic choices and meaningfully challenge consequential platform decisions; those capabilities require evidence beyond the mere existence of an accept or decline button.
+
+**Texas AI infrastructure.** Public directives, ERCOT procedures and agency records can identify regulatory decision rights and formal avenues for project approvals. Whether a developer can meaningfully adapt a project, contest an agency determination or recover investment costs depends on project-specific records and applicable procedures. A change in regulatory requirements is not equivalent to a verified financial loss.
+
+**Autonomous mobility.** The existing Waymo and Uber comparison raises related but distinct questions about remote operations, passenger safety, public road rules and intervention authority. Reported service expansion is not evidence that intervention mechanisms are effective in all conditions. The controlled environment of a dedicated guideway is not directly comparable to mixed traffic without an explicit operational design domain comparison.
+
+### Research interpretation and disconfirmation
+
+The AI Paradox proposition is strengthened if independently documented cases show that analytical or operational automation expands while access to explanation, practical override, effective appeal or correction does not keep pace. It is weakened where evidence demonstrates timely, informed human intervention and effective remedies at comparable scale. Absence of publicly available evidence is not proof that safeguards do not exist.
+
+**Scholarly and normative reference points:** [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OECD AI Principles](https://oecd.ai/en/ai-principles), and the existing institutional scholarship cited in this research. These provide public governance concepts, not evidence that any GRI case complies with or violates a specific standard.
+
+**Publication boundary:** No internal GRI reviewers, confidential affiliations, proprietary validation processes, unpublished datasets or security architecture are identified. The current extension advances conceptual clarity and observable research questions; it does not claim new field measurements, independent certification or demonstrated causal findings.
