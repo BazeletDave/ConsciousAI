@@ -201,3 +201,34 @@ The [AI Paradox ecosystem framework](../institutional-ai-governance-assurance/ac
 ### Comparative continuation: irreversible investment and international platforms
 
 The [existing global infrastructure research](2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md#november-5-2026--site-selection-cloud-ecosystems-and-international-platform-dependence) extends this Texas inquiry through Nelson's Intel case, asset specificity, prospective switching costs, real options, AWS regional operating arrangements, and PDD/Temu's international corporate and marketplace structure. It also records an indexed FCC notice identifying a January 2026 orbital data center application. This predates the November election, preventing the later political remark from being treated as the origin of that proposal. Full application and subsequent authorization review remain open. The frozen protocol and original baseline are unchanged.
+
+
+## November 6, 2026 | Evidence maturity review of Texas data center institutional exposure
+
+**Scope:** Bounded continuation of this existing Texas institutional event and AI Paradox research. This section does not establish causal financial losses, realized construction impairment, or independent replication.
+
+### Supported observations
+
+1. **Documented regulatory action:** On September 21, 2026, the Texas Governor directed TCEQ to halt permits sought by data centers pending ERCOT and Texas Water Development Board audits. This is an official executive directive, not a quantified estimate of investment losses. Primary source: https://gov.texas.gov/news/post/governor-abbott-directs-tceq-to-halt-data-center-permits .
+2. **Institutional transition and prospective policy:** November 4 reporting documents governor-elect Gina Hinojosa's proposed continuation or expansion of approval restrictions. A campaign proposal is not an enacted future statute or proof of particular project cancellation. Sources: https://www.texastribune.org/2026/11/04/data-center-texas-pause-gina-hinojosa-governor-policies/ ; https://www.reuters.com/world/us/texas-data-centers-face-uncertain-future-after-hinojosa-wins-governors-race-2026-11-04/ .
+3. **Infrastructure dependency:** Electricity interconnection, water, permitting, and infrastructure cost allocation are explicit subjects of the Texas state review. The scale of interconnection requests is not equivalent to approved capacity, operational demand, or realized investment. See official governor directive above and ERCOT documentation: https://www.ercot.com/ .
+4. **Financial accounting boundary:** A stock market capitalization decline does not equal a corporate cash outflow, realized loss on an AI facility, or project impairment. Historical sunk expenditures are distinct from prospective incremental cash flows and switching costs. The existing Tesla SEC financial table above remains companywide, not a Texas allocation.
+
+### Theoretical propositions retained without promotion to findings
+
+* Institutional transition may change the option value of deferring, staging, or relocating prospective AI infrastructure investment (Dixit and Pindyck); project-level inputs are not yet measured.
+* Asset specificity and geographic concentration may increase exposure to regulatory change (Williamson); no verified firm-level concentration ratio or switching-cost estimate is available here.
+* Nelson's comparative institutional site-selection scholarship provides an analytical lens, not evidence that he studied the 2026 Texas election or these companies.
+* The AI Paradox proposition that compute expansion can outpace governance capacity remains a research hypothesis until institutional capacity and technological development are measured on comparable terms.
+
+### Independent verification still required
+
+| Claim or metric | Evidence needed | Publication rule |
+| --- | --- | --- |
+| Musk political spending in Texas | FEC filings, recipient committees, dates, beneficiaries, and clear geographic allocation | Do not present a national expenditure as Texas-only |
+| November 2026 market value change | Dated security prices, share counts, trading calendars, entity boundaries, and alternative market drivers | Do not attribute the change solely to election outcomes |
+| Texas project economic exposure | Permits, ERCOT queue and audit status, project agreements, company disclosures, realized capital spending, and grants actually disbursed | Separate announced, committed, spent, permitted, and operating |
+| Policy-caused delay or impairment | Project-level before/after evidence, comparable unaffected projects, contemporaneous company explanations, and rival causes | Do not infer causal effects from temporal sequence |
+| Reproducible quantitative exhibits | Versioned source snapshot, extraction log, calculation code, independent reviewer record | Do not label as independently reproduced before replay |
+
+**Interpretation:** The September permit directive is an observed institutional constraint. The November political transition changes the policy uncertainty set, but incremental costs, project delays, financial losses, and investment reallocations remain unmeasured. Distinguish primary observations, issuer statements, third-party reporting, and GRI interpretation. No new project, README promotion, live monitoring, dashboard deployment, or independently certified result is asserted.
