@@ -42,11 +42,7 @@ The governance dashboard supports public-source intelligence and evidence review
 
 **Research portfolio navigation:** [Explore the consolidated GRI research index](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md). This index connects the existing AI Paradox monograph, institutional governance, field research, Training a Tiger and Tiger Legacy without moving or rewriting the underlying studies.
 
-**November 2026 research integration:** The [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md) now connects independently reported developer-tool supply chain, third-party platform and digital financial infrastructure incidents to existing AI Paradox and [Tiger Legacy](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md) research. These are source-qualified comparative observations, not new programs or validated prototype capabilities.
-
-**Formal research advancement:** The [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md) now contains a bounded, prospective evaluation protocol connecting the existing AI Paradox, Kiongozi and Tiger Assurance programs. It defines hypotheses, paired synthetic comparisons, evidence maturity, rival explanations and independent replay requirements. No new project or experimental validation is claimed.
-
-**Frontier AI assurance and institutional accountability:** [November 2026 source-qualified institutional comparison](GRI-Research-Journey/Integrated-Research-Journey/README.md#november-2026--frontier-ai-external-assurance-and-institutional-accountability) examines proposed industry auditor standards and a separate voluntary audit accord within existing AI Paradox, Kiongozi and Tiger Assurance research. No new program or validated audit capability is claimed.
+**Research continuity and institutional assurance:** The [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md) maintains the dated evidence record, including frontier laboratory governance, global AI readiness, autonomous mobility, cybersecurity and comparative institutional development. The [research systems register](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md) distinguishes deployed interfaces, prototypes and capabilities awaiting validation. Research comparisons do not establish independent certification, institutional affiliation or causal effects without supporting evidence.
 
 ## Research program | Core themes
 
@@ -86,12 +82,6 @@ Explore conversations on artificial intelligence, leadership, management, and go
 
 **[Watch Sunday Funday on YouTube](https://www.youtube.com/@grandresearchinstitute)**
 
-## Mission and research scope
-
-GRI investigates the governance of artificial intelligence, algorithmic management and institutional power. Its research combines documented field observations, comparative political economy, reproducible prototypes and critical assessment of evidence. Human authority, accountability and contestability remain central.
-
-The institute's research draws on David Grand's professional experience, *From Code to Consciousness*, and graduate academic study. GRI is independent; academic references do not imply institutional endorsement.
-
 ## Research collections
 
 The [Master Research Portfolio](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md) is the canonical index. The following links lead directly to the underlying work, which remains preserved.
@@ -105,28 +95,6 @@ The [Master Research Portfolio](GRI-Research-Journey/Grand-Research-Institute-Re
 | Information integrity and platform visibility | [Observational Study 001](GRI-Research-Journey/Algorithmic-Management/Digital-Platform-Visibility/observational-study-001-organic-visibility.md) |
 | Assurance and cybersecurity | [Tiger Legacy](GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md) · [Research deployment status](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md) |
 
-## Research systems and participation
+## Research source navigation | Africa AI readiness
 
-The [GRI Global Governance Intelligence Dashboard](https://gri-global-intelligence.onrender.com/dashboard) provides a public research interface for institutional evidence and governance analysis. [Ethical Intelligence API](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/Ethical-Intelligence-API.md), [Transparency Graph](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/Transparency-Graph.md), [policy ingestion](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/POLICY-INGESTION.md) and [economic intelligence](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/ECONOMIC-INTELLIGENCE.md) retain their separate technical documentation. Deployed components do not establish exhaustive coverage or independent certification.
-
-Researchers may examine public records and submit corrections with source attribution through available repository channels. Restricted materials require separate authorization and confidential review.
-
-
-## Research case note | PHP2Shell institutional assurance
-
-**November 2026 PHP2Shell institutional assurance:** [Integrated Research Journey analysis](GRI-Research-Journey/Integrated-Research-Journey/php2shell-institutional-remediation-assurance-2026.md) connects public patch availability to institutional recovery and evidence-based verification. The [dashboard](https://gri-global-intelligence.onrender.com/dashboard) displays source-qualified research status, not a certified vulnerability reproduction or verified production remediation.
-
-## Technical assurance, research status and academic independence
-
-The [deployment and research capability register](GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md) documents which services are deployed, which research components are implemented, and which require further evaluation or independent assessment. Deployment is not equivalent to independent certification. GRI research is independent; academic references to Thunderbird School of Global Management at Arizona State University do not imply institutional sponsorship or endorsement. Evidence and publication limitations are addressed in the linked research protocols.
-
-## November 3, 2026 | Africa AI readiness: authoritative research navigation
-
-**Institutional source status:** The 118-page World Bank *Africa Economic Update: Building AI Readiness* (October 2026; DOI 10.1596/978-1-4648-2361-9; data cutoff September 2026) has been examined directly. **Use the latest primary-PDF audit below, not earlier provisional page indexes.** The World Bank's published estimates, November 3 panel observations, third-party scholarship and GRI hypotheses remain separate evidence classes.
-
-- **[Kiongozi | World Bank primary-PDF audit and speaker evidence ledger](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md)** — corrected printed pages, methods, figures, conditional economic scenarios, governance measures, eight-speaker event ledger and explicit validation limits.
-- **[Landry Signé | public scholarship and institutional crosswalk](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/LANDRY_SIGNE_PUBLIC_RESEARCH.md)** — bibliographic provenance and GRI's independent comparative analysis; no claim of faculty collaboration or endorsement.
-- **[Integrated Research Journey | Africa AI and institutional governance](GRI-Research-Journey/Integrated-Research-Journey/README.md)** — continuity with the AI Paradox, Nelson's institutional lens, existing Tiger Assurance and comparative development research.
-- **[Institutional Source Registry](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/README.md)** — publisher, scholarly and source-quality governance.
-
-**Evidence maturity:** Publisher report and principal methodology examined; official panel participant roles identified; speaker quotations, national administrative figures, vendor metrics, underlying third-party data/model reproduction and GRI engineering tests **not independently verified**. Do not equate source review with replication or a live dashboard feed. No new research program or deployment is asserted.
+The [Kiongozi World Bank primary source audit](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md) records the October 2026 *Africa Economic Update* methodology, source qualifications and November 3 panel evidence. The [Landry Signé scholarship crosswalk](GRI-Research-Journey/Research-Governance/Institutional-Source-Registry/LANDRY_SIGNE_PUBLIC_RESEARCH.md) distinguishes published scholarship from GRI's independent interpretation. These records are integrated into the [Integrated Research Journey](GRI-Research-Journey/Integrated-Research-Journey/README.md), not a separate research initiative. Source review does not imply independent replication or institutional endorsement.
