@@ -6,7 +6,7 @@
 
 Grand Research Institute (GRI) investigates how artificial intelligence, algorithmic management and global digital infrastructure reshape organizational authority, economic opportunity and institutional accountability. **ConsciousAI** is the institute's public research and engineering archive, developed through David Grand's continuing professional, academic and research journey.
 
-GRI draws on graduate-level study and interdisciplinary scholarship, including learning undertaken at Thunderbird School of Global Management, Arizona State University. **GRI is independent: its research is not sponsored, reviewed or endorsed by Thunderbird, ASU, government agencies or other institutions unless explicitly documented.** Academic integrity, source attribution, licensing and independent verification govern the publication of this work.
+GRI draws on graduate level study and interdisciplinary scholarship, including learning undertaken at Thunderbird School of Global Management, Arizona State University. **GRI is independent: its research is not sponsored, reviewed or endorsed by Thunderbird, ASU, government agencies or other institutions unless explicitly documented.** Academic integrity, source attribution, licensing and independent verification govern the publication of this work.
 
 **[Explore the AI Paradox: Who Will Govern the Frontier Laboratories Shaping Global Society? →](GRI-Research-Journey/Integrated-Research-Journey/README.md#november-5-2026--frontier-ai-laboratories-global-leadership-and-institutional-authority)**
 
