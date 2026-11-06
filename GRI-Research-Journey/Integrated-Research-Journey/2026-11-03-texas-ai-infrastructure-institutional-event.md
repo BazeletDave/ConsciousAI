@@ -268,3 +268,24 @@ ERCOT's state and community impact RFI covers developers of data centers of 25 M
 **AI Paradox linkage.** Machine analysis can rapidly aggregate grid queues, public directives, securities data, and permitting records. However, the classification of evidence, causal attribution, proportionality of restrictions, and final publication decisions remain institutional judgments. This is a research interpretation rather than an independently demonstrated causal finding. Public documentation reports the claim and its limitations, not GRI's confidential internal assurance arrangements.
 
 **Status as of November 6, 2026:** Primary source regulatory actions and ERCOT process descriptions documented; capital allocation responses, financial impairment, and election-specific causal effects not established. No README restructuring, new research project, or public disclosure of internal GRI operations.
+
+
+### November 6 decision evidence matrix | Investment and managerial authority
+
+This analytical matrix extends the existing institutional event assessment. It does not represent a new dataset, additional empirical finding, or disclosure of GRI's internal methods.
+
+| Decision stage | Publicly observable evidence | What may be concluded | What must not be inferred |
+| --- | --- | --- | --- |
+| Proposed infrastructure | Dated company announcements and ERCOT interconnection requests | A proposal or request entered a planning process | Funded, permitted, built, or operating capacity |
+| Regulatory constraint | Governor directives, PUCT or ERCOT process decisions, TCEQ docket entries | An applicable rule, directive, or project administrative action exists | Automatic cancellation or quantified impairment |
+| Management response | Issuer filings, investor disclosures, documented contract changes, dated construction decisions | A company disclosed a specific decision or commitment | That regulation caused the decision without rival-cause analysis |
+| Capital allocation | Actual expenditures, financing commitments, approved budgets, disbursements | A measurable capital movement within the disclosed reporting scope | A loss equal to an announced project value or market capitalization change |
+| Economic consequence | Audited impairments, verified cost changes, schedule changes, and comparison cases | A bounded outcome with traceable evidence | Election-specific or policy-specific causation without identification |
+
+**Comparative interpretation.** A queue request measures expressed demand under application rules, not realized electricity consumption. A permitting pause can increase the value of waiting for an irreversible investment, but it may also reallocate scarce grid capacity, transfer compliance costs, or induce alternative designs. Which outcome dominates is an empirical question. The institutional framework asks which actors control approvals, who bears adjustment costs, what information is available for contestation, and which decision can be revised.
+
+**Falsifiable propositions for the existing research.** (1) Where permit or interconnection constraints bind, affected projects should exhibit observable changes in milestones or documented capital commitments relative to suitable comparison projects, after accounting for financing and technology conditions. (2) Public disclosures may reveal management changes in project sequencing or power sourcing, but absent such disclosures these remain hypotheses. (3) The rate at which machine systems identify and synthesize infrastructure constraints may exceed the rate at which accountable institutions can establish project-specific causal effects; this is an AI Paradox proposition, not a measured conclusion in this case.
+
+**Evidence integrity rule.** Maintain the source date, agency or issuer, original document, project identity, geographic scope, metric definition, and observation date for any later empirical row. A reviewer must be able to reconstruct each published number from public evidence. Do not equate reviewer concurrence with source-level reproduction, and do not publish confidential GRI identities or operational arrangements.
+
+**Current outcome.** The existing record supports the presence of institutional constraints and an analytical framework for investment decisions. It does not yet support a numerical estimate of investment foregone, an identified election effect, or a verified policy-caused impairment. No new quantitative claim is introduced here.
