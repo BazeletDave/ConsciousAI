@@ -2,7 +2,7 @@
 
 **GRI analysis:** David A. Grand, Grand Research Institute  
 **Research note:** 19 October 2026  
-**Academic provenance:** Thunderbird School of Global Management, TGM 204 Principles of Marketing/Global Organizations, Dr. Auh, 2024  
+**Research context:** David Grand's academic studies informed this independent GRI analysis.  
 **Status:** Independent interpretive research; historical case analysis, not peer reviewed or a claim of institutional endorsement
 
 ## Executive relevance
@@ -61,11 +61,11 @@ The parallel is structural rather than technical. Ontela's case is evidence of m
 
 ## 6. Academic integrity, source rights and provenance
 
-**Source citation:** Sawhney, Mohanbir. *Ontela PicDeck (A): Customer Segmentation, Targeting, and Positioning*. Kellogg School of Management case KEL450. ©2009 Northwestern University. Prepared by Patrick Dupree, Christine Hsu, Ryan Metzger, Fuminari Obuchi, Arun Sundaram and Kari Wilson under the supervision of Professor Sawhney; revised by Professor Kent Grayson. Case pages 1–7. The course copy identifies use in David Grand's Thunderbird TGM 204 with Dr. Auh, January–July 2024.
+**Source citation:** Sawhney, Mohanbir. *Ontela PicDeck (A): Customer Segmentation, Targeting, and Positioning*. Kellogg School of Management case KEL450. ©2009 Northwestern University. Prepared by Patrick Dupree, Christine Hsu, Ryan Metzger, Fuminari Obuchi, Arun Sundaram and Kari Wilson under the supervision of Professor Sawhney; revised by Professor Kent Grayson. Case pages 1–7.
 
-This research note paraphrases and cites the licensed course case; **the case PDF, exhibits and reproduced text are not distributed through the public GRI repository**. The case itself states it is intended for classroom discussion rather than endorsement or primary data. Neither Kellogg, Northwestern, Thunderbird, ASU nor the instructors are presented as authors or endorsers of GRI's independent research.
+This research note paraphrases and cites the licensed published case; **the case PDF, exhibits and reproduced text are not distributed through the public GRI repository**. The case is a teaching case, not independent evidence of observed outcomes. No cited institution or scholar is represented as endorsing GRI's independent research.
 
-**Chronology:** GRI research originated in 2021; this 2024 coursework contributed to its continuing analytical development. Grand Advertising's earlier practitioner management experience is a separate historical foundation.
+**Chronology:** GRI research originated in 2021; subsequent academic study contributed to its continuing analytical development. Grand Advertising's earlier practitioner management experience is a separate historical foundation.
 
 ## 7. Related GRI research
 
