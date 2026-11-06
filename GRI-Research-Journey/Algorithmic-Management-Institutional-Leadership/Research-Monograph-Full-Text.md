@@ -284,7 +284,7 @@ GRAND RESEARCH INSTITUTE | INDEPENDENT RESEARCH                                 
  06 V. Institutional economics and rules of the game
  Institutions shape what management can implement.
 
- Roy C. Nelson’s TAM 505 course framework emphasizes actors, interests, bargaining, subnational
+ Roy C. Nelson’s academic study course framework emphasizes actors, interests, bargaining, subnational
  differences, policy durability and formal versus informal rules. Applied to AI, a nominally uniform
  technology meets distinct legal orders, professional norms, capacities to enforce contracts, and political
  incentives. An apparently identical automated decision can thus have different legitimacy and economic
@@ -348,7 +348,7 @@ GRAND RESEARCH INSTITUTE | INDEPENDENT RESEARCH                                 
 
  WTO agreements and dispute settlement mechanisms discipline national policy choices through
  negotiated rights and obligations, yet enforcement, interpretation and political bargaining remain crucial.
- The TAM 505 cases concerning Brazil and United States cotton disputes, US–China wind policy, Dell’s
+ The academic study cases concerning Brazil and United States cotton disputes, US–China wind policy, Dell’s
  Brazil location strategy and Intel’s Costa Rica selection are useful comparative teaching cases for
  identifying institutional credibility and investment risk. They should be cited to assigned primary cases
  when quoted or analyzed in granular detail. [GRI2]
@@ -381,7 +381,7 @@ GRAND RESEARCH INSTITUTE | INDEPENDENT RESEARCH                                 
  09 VIII. Financial value creation and managerial incentives
  Growth is not synonymous with net social value.
 
- TAM 521 supplies a distinct evaluative architecture through discounted cash flow, net present value,
+ academic study supplies a distinct evaluative architecture through discounted cash flow, net present value,
  internal rate of return, cost of capital, sensitivity analysis and country or currency risk. Professor Lena
  Booth’s finance lens asks whether investment returns compensate for the timing, magnitude and risk of
  expected cash flows, not simply whether adoption is technologically possible. [GRI2]
@@ -567,7 +567,7 @@ GRAND RESEARCH INSTITUTE | INDEPENDENT RESEARCH                                 
  15 XIV. Leadership, trust and organizational adaptation
  Leaders manage environments in which uncertainty can surface.
 
- TAM 542 provides a leadership lens distinct from legal control and financial optimization. Adaptive
+ academic study provides a leadership lens distinct from legal control and financial optimization. Adaptive
  leadership, the trust triangle, psychological safety, cultural agility, Cynefin and OODA emphasize
  sensemaking, experimentation, learning and communication under uncertain conditions. These concepts
  are especially relevant when operators observe anomalies that dashboards fail to register. [GRI2]
