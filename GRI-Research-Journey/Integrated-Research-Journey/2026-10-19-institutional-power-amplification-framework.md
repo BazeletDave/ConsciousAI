@@ -66,3 +66,20 @@ This bounded synthesis applies the existing five dimensions to two already docum
 **Evidence constraints.** ERCOT connection requests are not constructed capacity. Announced investment is not incurred expenditure. A displayed rideshare offer is not realized net income. Observed changes in platform offers do not reveal proprietary dispatch intent. Regulatory timing and market valuation movements do not establish causation. Each case requires its own unit of analysis, date, denominator, counterfactual and alternative explanations.
 
 **Public research boundary.** This crosswalk contains only public-facing conceptual synthesis and references to existing research. It does not describe confidential GRI review arrangements, institutional relationships, unpublished observations or proprietary operational methods.
+
+
+## Evidence consistency across existing AI Paradox cases | November 2026
+
+This cross reference aligns the existing [managerial authority analysis](../Algorithmic-Management-Institutional-Leadership/README.md), [Texas institutional infrastructure record](2026-11-03-texas-ai-infrastructure-institutional-event.md), and [Uber and Lyft field observations](../Algorithmic-Management/Uber-Lyft-Research/README.md). It does not pool their datasets or imply common measurement units.
+
+| Evidence class | Institutional infrastructure | Algorithmic management | Permissible conclusion |
+| --- | --- | --- | --- |
+| Primary public institutional record | Dated ERCOT, PUCT, TCEQ or executive documents | Public platform terms or regulator records where dated and attributable | A stated rule, process or institutional action, within its documented scope |
+| Direct field observation | Project observations only where original project records exist | Dated displayed offers, trip records and contextual observations | An observed event within the available sample |
+| Secondary reporting or estimates | Reported valuations, political spending or permit impacts | Reported platform strategy or autonomous mobility developments | Source-attributed claim pending underlying record reconciliation |
+| Analytical interpretation | Investment uncertainty and allocation of decision rights | Information asymmetry, discretion and recourse | A plausible mechanism or research proposition, not a causal result |
+| Independently reproduced outcome | Project cost, delay or impairment reconstructed from underlying records | Economic or intervention outcome reconstructed from complete comparable observations | Only the specific result and scope actually reproduced |
+
+**Cross-case consistency rules.** Preserve the unit, time window, population, denominator and provenance of every numerical claim. Never compare interconnection request megawatts with operating capacity, displayed gross earnings with realized net income, or stock capitalization with project cash losses. Do not treat absent access to a proprietary algorithm as evidence of its intent. Human authority is assessed through observable visibility, discretion, contestability, correction and accountability, not through titles alone.
+
+**Current synthesis:** The cases support a comparative institutional research question, but they do not yet establish a shared quantitative causal effect or independently verified general law. See the linked case documents for source-specific qualifications. No confidential institutional operations or proprietary research procedures are included.
