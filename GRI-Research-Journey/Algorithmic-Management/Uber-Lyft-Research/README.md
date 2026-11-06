@@ -85,7 +85,7 @@ Chicago Consecutive Lyft Trip Case (Case Study 002)
 
 ## October 30 evidence integration
 
-[Three UberX offers](2026-10-30-three-driver-submitted-offer-screenshots-cost-analysis.md), [Comfort and XL offer analysis](2026-10-30-comfort-xl-driver-offers-institutional-assurance.md), [TPA driver narrative](tpa-driver-waiting-lot-qualitative-observation-2026-10.md), and [earnings claim verification queue](2026-10-30-earnings-benchmark-source-verification-queue.md) are distinct evidence types. Screenshots show proposed offers, not final payments. The airport account is uncorroborated firsthand testimony. The earnings claims require original source checks. All calculations must separate pickup and trip time, unpaid waiting and return travel, fuel only residuals, fully allocated operating costs, and taxes. The five dimension governance codebook and Tiger Assurance provenance principles apply; no independent audit or operational platform access is claimed.
+Three UberX offers (supporting analysis file not located on the default branch; evidence remains unverified pending source restoration), [Comfort and XL offer analysis](2026-10-30-comfort-xl-driver-offers-institutional-assurance.md), [TPA driver narrative](tpa-driver-waiting-lot-qualitative-observation-2026-10.md), and [earnings claim verification queue](2026-10-30-earnings-benchmark-source-verification-queue.md) are distinct evidence types. Screenshots show proposed offers, not final payments. The airport account is uncorroborated firsthand testimony. The earnings claims require original source checks. All calculations must separate pickup and trip time, unpaid waiting and return travel, fuel only residuals, fully allocated operating costs, and taxes. The five dimension governance codebook and Tiger Assurance provenance principles apply; no independent audit or operational platform access is claimed.
 
 
 ## 🔵 Research milestone | Governing Autonomous Mobility | October 30, 2026
@@ -150,3 +150,14 @@ This longitudinal field research is interpreted alongside the existing [institut
 **Consistency with comparative cases:** Texas regulatory records can establish public institutional decisions, while platform field records establish observed offers and choices. Both may inform questions about authority and contestability, but their evidence is not interchangeable. Autonomous mobility safety claims require incident definitions, operational design domain and exposure denominators before comparison.
 
 **Status:** Evidence integration and terminology alignment only. No new field observation, numerical causal estimate, platform-wide finding or independent reproduction is claimed.
+
+
+## Internal reference integrity audit | November 6, 2026
+
+**Scope:** Relative file targets referenced by the existing Institutional Power Amplification Framework, Uber and Lyft field research, Institutional Leadership research, and Texas institutional event record. The audit identified 33 distinct relative targets after path normalization.
+
+**Confirmed defect (IR-001):** The former link to `2026-10-30-three-driver-submitted-offer-screenshots-cost-analysis.md` in this directory returned GitHub `404 Not Found` on the default branch. The broken hyperlink has been replaced above with a qualified textual reference. The absent analysis is **not** represented as independently available or verified; the original source must be restored and checked before reinstating a hyperlink or relying on its calculations.
+
+**Verification:** The other 30 text, SVG and CSV targets were confirmed accessible through repository file retrieval, including four core documents. Two root JPEG targets (`IMG_7698.jpeg` and `IMG_7699.jpeg`) returned a binary decoding error from the text retrieval interface, not a GitHub 404; their rendered availability remains unconfirmed by this interface. No absence finding is made for these images. Relative targets were checked for file existence, not every heading fragment, remote URL, or the factual accuracy of each cited source.
+
+**Disposition:** One confirmed broken internal document link corrected without creating replacement evidence. No new field measurements, causal findings, assurance certifications, or independent reproduction are claimed. No root README or confidential research material was changed.
