@@ -5,11 +5,11 @@
 As AI accelerates and increasingly executes consequential organizational decisions, institutions must expand the capacity of people to understand data, exercise judgment, allocate authority, and correct errors. Education is not merely access to an AI interface; it is sustained institutional capability for governance. This is a testable GRI proposition, not an established empirical finding.
 
 ## Source and provenance
-This note synthesizes the user's account of an October 2026 Thunderbird AI discussion associated with Marcos Serrato, the user's coursework and the separately archived screenshot of ASU President Michael Crow's statement on educational access and an official visit. The discussion is **not a verbatim transcript**; specific statements attributed to speakers require original recordings, notes, or published materials before quotation. The screenshot is a secondary capture; canonical source and date need verification. Photographs are contextual evidence of an event, not proof of GRI endorsement or participation. No claims about personal connections to officials are made.
+This note draws on David Grand's academic studies and a separately archived public statement concerning educational access and institutional leadership. The discussion is **not a verbatim transcript**; specific statements attributed to speakers require original recordings, notes, or published materials before quotation. The screenshot is a secondary capture; canonical source and date need verification. Photographs are contextual evidence of an event, not proof of GRI endorsement or participation. No claims about personal connections to officials are made.
 
 ## Institutional layers and actors
 1. **National and state education policy:** objectives, resources, access, accountability, oversight.
-2. **University administration and Thunderbird graduate programs:** curricular design, affordability, credentials, ethical learning, inclusion, faculty governance.
+2. **University administration and graduate programs:** curricular design, affordability, credentials, ethical learning, inclusion, faculty governance.
 3. **Enterprise leadership and public administrators:** decision rights, AI procurement, workforce education, model oversight, remedies.
 4. **Platform workers and working students:** time, earnings, travel, study, sleep, autonomy, unequal access to information.
 5. **Technical infrastructure:** algorithmic dispatch, AI agents, decision-support dashboards, data provenance, audit and feedback.
@@ -17,12 +17,12 @@ This note synthesizes the user's account of an October 2026 Thunderbird AI discu
 The institutional chain is **policy and educational opportunity → learned capabilities → decisions under organizational rules → economic and educational outcomes → correction and institutional adaptation**. Links are hypotheses requiring measurement, not established causation.
 
 ## Intellectual integration with clear attribution
-- **Roy C. Nelson / TAM 505:** institutional political economy; rules, interests, incentives, power, implementation and adaptation. GRI's application to AI is independent, not a native Nelson AI model.
-- **David Slocum / TAM 542:** leadership adaptation, ethical responsibility and practical authority to challenge or override AI decisions.
-- **Lena Booth / TAM 521:** financial value creation, opportunity cost, risk-adjusted returns and distribution of benefits.
-- **Mansour Javidan / TAM 582:** communication, negotiation, trust and intercultural dynamics where a specific question warrants them; coursework integration is ongoing.
+- **Institutional political economy:** institutional political economy; rules, interests, incentives, power, implementation and adaptation. GRI's application to AI is independent, not a native Nelson AI model.
+- **Leadership research:** leadership adaptation, ethical responsibility and practical authority to challenge or override AI decisions.
+- **Financial management:** financial value creation, opportunity cost, risk-adjusted returns and distribution of benefits.
+- **Intercultural management:** communication, negotiation, trust and intercultural dynamics where a specific question warrants them.
 - **Marcos Serrato AI discussion (October 2026):** working themes of continuous learning, data literacy, decision literacy, organizational preparedness and emerging work roles, as recalled by the user; verify primary notes before direct attribution.
-- **Future Thunderbird courses:** incorporate only after completed and documented. No implied endorsement by ASU, Thunderbird, faculty, Uber, or government agencies.
+- **Research independence:** integrate only verified, attributable scholarly sources. No institutional endorsement is implied.
 
 ## Decision-learning loop
 **Data → probabilistic prediction → human judgment → authorized action → measured outcome → institutional feedback.**
@@ -52,12 +52,12 @@ Use a staged mixed-methods protocol: public-document coding, consented interview
 - **ASU/Uber scholarship cohort concept:** possible voluntary recruitment only after ethics/IRB determination and any required institutional permissions. Never imply access to student records or privileged Uber dispatch.
 
 ## Evidence and ethics gates
-Before any external publication verify source URLs, publication dates, speaker attribution, academic bibliography and license rights. Do not upload classroom materials without permission. No student, driver or passenger personal data in public repositories. Require consent, data minimization, pseudonymization and documented deletion rights. Protect students from coercion or adverse effects on scholarships/grades. Respect platform API authorization and terms. GRI is independent and makes no endorsement claims.
+Before any external publication verify source URLs, publication dates, speaker attribution, academic bibliography and license rights. Do not upload restricted source materials without permission. No student, driver or passenger personal data in public repositories. Require consent, data minimization, pseudonymization and documented deletion rights. Protect students from coercion or adverse effects on scholarships/grades. Respect platform API authorization and terms. GRI is independent and makes no endorsement claims.
 
 ## Immediate research collection tasks (print companion)
 1. Obtain first-party transcript/notes for the Marcos discussion and verify themes.
 2. Archive ASU President Crow's original public statement and official educational access policies.
-3. Map course-specific theories to operational variables and distinguish quotations from independent GRI synthesis.
+3. Map relevant scholarly theories to operational variables and distinguish quotations from independent GRI synthesis.
 4. Gather authorized driver offers (including declines), unpaid miles, costs, scheduling constraints and outcomes.
 5. Define prospective pilot eligibility, consent, review requirements, data minimization and safeguards.
 6. Review GRI GitHub Issues #11–13 and existing proposal; defer development until evidence and scope are approved.
