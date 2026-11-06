@@ -161,3 +161,16 @@ This longitudinal field research is interpreted alongside the existing [institut
 **Verification:** The other 30 text, SVG and CSV targets were confirmed accessible through repository file retrieval, including four core documents. Two root JPEG targets (`IMG_7698.jpeg` and `IMG_7699.jpeg`) returned a binary decoding error from the text retrieval interface, not a GitHub 404; their rendered availability remains unconfirmed by this interface. No absence finding is made for these images. Relative targets were checked for file existence, not every heading fragment, remote URL, or the factual accuracy of each cited source.
 
 **Disposition:** One confirmed broken internal document link corrected without creating replacement evidence. No new field measurements, causal findings, assurance certifications, or independent reproduction are claimed. No root README or confidential research material was changed.
+
+
+## Evidence limitations disposition | November 6, 2026
+
+This disposition closes the **documentation and claim-control** portion of the reference audit without misrepresenting unresolved source verification as completed.
+
+| Record | Repository observation | Evidence status | Treatment |
+| --- | --- | --- | --- |
+| Three UberX offer screenshot analysis (`2026-10-30-three-driver-submitted-offer-screenshots-cost-analysis.md`) | Requested path returns 404 on the default branch; no original analysis was recovered in this audit | **Unresolved underlying evidence** | Keep the reference nonclickable and exclude the absent analysis from independently substantiated quantitative findings until its original record, calculations and provenance are restored |
+| `IMG_7698.jpeg` and `IMG_7699.jpeg` | Binary JPEG paths trigger Unicode decoding failures in the GitHub text-file retrieval interface rather than a missing-file response | **Binary content not visually verified** | Preserve existing links; do not infer corruption or authenticate image contents, dates, authorship, permissions or depicted outcomes from the retrieval response |
+| Texas financial and regulatory comparisons | Primary institutional records and secondary financial claims have different provenance and denominators | **Source-specific qualifications remain applicable** | Preserve existing distinctions among proposed load, operating capacity, market capitalization, realized cash flows and causal attribution |
+
+**Closure criteria:** The missing offer analysis can be marked verified only after the original source is available and its figures are checked against the underlying screenshots and assumptions. The two JPEGs require a binary-capable visual inspection and provenance check. Until then, the documented limitations are explicit and do not support additional empirical claims. This is maintenance of existing research, not a new project, audit certification or claim of independent reproduction.
