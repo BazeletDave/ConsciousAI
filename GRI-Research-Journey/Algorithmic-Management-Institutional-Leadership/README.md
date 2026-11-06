@@ -68,3 +68,16 @@ The central testable proposition is that executive competence increasingly requi
 **Research question:** When AI systems shape organizational decisions, can executives demonstrate informed authority and effective intervention rather than merely retaining nominal accountability?
 
 **Sources for verification:** [The Straits Times, Singapore employer AI recruitment survey (2026)](https://www.straitstimes.com/business/nearly-half-of-singapore-employers-use-ai-for-recruitment-and-hiring-snef-survey); [U.S. OPM, Use of Artificial Intelligence in the Federal Hiring Process (August 2026)](https://www.opm.gov/chcoc/latest-memos/use-of-artificial-intelligence-in-the-federal-hiring-process.pdf); [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework). Survey denominators and individual quantitative findings require checking against the original SNEF report before reuse as verified dataset labels.
+
+
+## November 2026 | Comparative managerial authority within the AI Paradox
+
+The existing institutional leadership research now links [the Texas AI infrastructure institutional case](../Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md), [the institutional power amplification framework](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md), and [Uber and Lyft longitudinal field observations](../Algorithmic-Management/Uber-Lyft-Research/README.md).
+
+**Shared analytical problem:** A technically sophisticated system may recommend, rank, allocate or execute actions while accountability remains distributed across managers, organizations, regulators and affected people. Formal responsibility is not equivalent to meaningful capacity to understand, challenge and correct a decision.
+
+**Leadership test.** For a consequential algorithmically influenced decision, ask: (1) who possessed the information necessary to understand the decision; (2) who had legitimate authority to authorize it; (3) what contestation or correction was possible; (4) what actual economic or social outcome was observed; and (5) whether feedback altered subsequent choices. These are public analytical questions, not a disclosure of GRI's internal assurance procedures.
+
+**Case boundaries.** Texas evidence documents regulatory processes and institutional constraints, but not verified project financial losses or election-specific causal effects. Platform evidence documents limited field observations and displayed offers, but not a proven platform-wide wage target or undisclosed algorithmic intent. Differences in market structure, unit of observation, and legal authority preclude treating the cases as direct quantitative equivalents.
+
+**Research implication.** The comparative hypothesis is that algorithmic capability and managerial accountability can diverge when information access, decision rights, and effective remedies are not aligned. Testing requires case-specific observable decisions, alternative explanations and documented outcomes. This section advances the existing AI Paradox and leadership research without creating a new project or asserting completed empirical validation.
