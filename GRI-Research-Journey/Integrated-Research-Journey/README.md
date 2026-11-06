@@ -1,8 +1,6 @@
 # GRI Integrated Research Journey | Living Research Architecture
 
 
-**November 2026 | PHP2Shell institutional recovery and assurance:** [Source-qualified PHP2Shell remediation research and bounded engineering acceptance protocol](php2shell-institutional-remediation-assurance-2026.md). Integrates open patch availability, organizational remediation latency, evidence maturity, and independent reproduction into the existing AI Paradox and Tiger Assurance comparative framework. Matched PHP runtime CI is configured; actual vulnerability-specific reproduction and independent verification are **not yet established**.
-
 This index preserves the chronological record of GRI's research. The [Master Research Portfolio](../Grand-Research-Institute-Research-Portfolio/README.md) is the primary navigation point. Individual studies retain their original dates, authorship, evidence limits and methods.
 
 **Research standards:** Separate primary evidence, reported claims, interpretation and hypotheses. Attribute Roy C. Nelson's original institutional model accurately; GRI's AI applications remain independent extensions requiring empirical validation. Academic references do not imply institutional endorsement.
@@ -424,3 +422,7 @@ This comparative desk review extends the existing AI Paradox question of whether
 **Analytical crosswalk to existing GRI assurance work.** For each institution, code (1) stated principle, (2) operational mechanism, (3) reported evaluation, (4) independently accessible evidence, (5) corrective authority and (6) demonstrated outcome. Compare interruption and rollback, delegated decision boundaries, incident reporting, external evaluator independence, funding and evidence access, and representation of affected populations. Do not score a missing public disclosure as proof a control does not exist; record it as *not established from reviewed public sources*. Do not infer comparable performance from differing document types or vendor-selected evaluations.
 
 **Interpretive implication, not a validated finding.** Microsoft foregrounds the intended human authority relationship; Anthropic foregrounds capability-linked safeguards and risk reporting; OpenAI foregrounds a preparedness and regulatory governance framework. Their emphases differ, but none of the reviewed public documents alone resolves the AI Paradox question of independent authority to inspect, contest and correct consequential AI decisions. That proposition remains a GRI research hypothesis requiring access to primary operational evidence and independent reproduction. No testing, certification, external audit, company affiliation or implementation change is claimed here.
+
+## November 2026 | PHP2Shell institutional recovery and assurance
+
+**November 2026 | PHP2Shell institutional recovery and assurance:** [Source-qualified PHP2Shell remediation research and bounded engineering acceptance protocol](php2shell-institutional-remediation-assurance-2026.md). Integrates open patch availability, organizational remediation latency, evidence maturity, and independent reproduction into the existing AI Paradox and Tiger Assurance comparative framework. Matched PHP runtime CI is configured; actual vulnerability-specific reproduction and independent verification are **not yet established**.
