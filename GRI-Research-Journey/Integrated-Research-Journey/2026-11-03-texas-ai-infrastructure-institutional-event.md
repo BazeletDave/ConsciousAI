@@ -289,3 +289,24 @@ This analytical matrix extends the existing institutional event assessment. It d
 **Evidence integrity rule.** Maintain the source date, agency or issuer, original document, project identity, geographic scope, metric definition, and observation date for any later empirical row. A reviewer must be able to reconstruct each published number from public evidence. Do not equate reviewer concurrence with source-level reproduction, and do not publish confidential GRI identities or operational arrangements.
 
 **Current outcome.** The existing record supports the presence of institutional constraints and an analytical framework for investment decisions. It does not yet support a numerical estimate of investment foregone, an identified election effect, or a verified policy-caused impairment. No new quantitative claim is introduced here.
+
+
+### Institutional framework synthesis | Consolidated findings
+
+**Purpose.** This section consolidates the preceding Texas regulatory chronology, source-qualified financial audit, and decision evidence matrix within the existing GRI institutional research journey. It introduces no new research project, dataset, causal estimate, internal review disclosure, or change to the repository README.
+
+**Institutional setting and allocation of authority.** ERCOT and PUCT determine electricity interconnection assessment and associated technical and planning requirements; TCEQ administers applicable environmental permitting; executive directives shape administrative priorities; developers and investors retain project design and capital commitment choices subject to those constraints. These authorities must not be conflated. A regulatory announcement, an agency's implementation, a company's management response, and an audited financial consequence each require distinct evidence.
+
+**Analytical integration.** The established Roy C. Nelson institutional approach directs attention to the relationship between corporate strategy and institutional context. North's institutional constraints, Williamson's governance and transaction costs, and Dixit and Pindyck's irreversible investment under uncertainty offer complementary explanations for why permit timing, grid access, information requirements, and anticipated policy shifts may influence managerial options. The theories identify mechanisms to investigate; they do not by themselves verify an investment outcome.
+
+**Evidence hierarchy and current findings.**
+1. **Documented:** Dated Texas executive directives, ERCOT/PUCT large-load assessment procedures, and publicly stated RFI thresholds and deadlines, as identified in the preceding primary-source citations.
+2. **Source-qualified:** Reported individual permit suspension, political spending totals, security-price reconstruction, and reported combined corporate valuation changes; their original records and definitions require reconciliation where noted.
+3. **Interpretive:** Regulatory uncertainty may alter the option value of waiting, project sequencing, power procurement, or cost allocation.
+4. **Not established:** A specific project's quantified impairment, foregone investment, election-attributable valuation effect, or causal magnitude of regulatory intervention.
+
+**Decision and accountability implications.** Machine systems can accelerate the extraction and comparison of queue data, financial disclosures, permitting records, and policy changes. They cannot convert a queue request into realized investment, temporal coincidence into causation, or a theoretical mechanism into an audited outcome. The AI Paradox in this case concerns the gap between expanding analytical throughput and the institutional capacity to validate claims, allocate decision rights, and accept responsibility for consequential judgments.
+
+**Boundaries for subsequent interpretation.** Preserve metric definitions and reporting dates; distinguish proposed, permitted, financed, constructed, and operating capacity; separate stock-market valuation from cash flows and accounting losses; document rival explanations for any observed management decision. A conclusion should advance only as far as its public evidence supports. Confidential GRI intellectual property, institutional relationships, review arrangements, and internal procedures are outside the publication scope.
+
+**Consolidated status (November 6, 2026):** Institutional decision mechanisms and their potential capital allocation implications are analytically established within the existing research framework. Project-specific financial consequences and election-related causation remain open empirical questions, not verified results.
