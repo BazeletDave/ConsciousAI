@@ -351,9 +351,9 @@ The [Kiongozi Framework](../../README.md#the-kiongozi-framework) connects attrib
 **Evidence and assurance controls:** Classify agreements as announced, pilots as reported, quantitative outcomes as unverified until measured, and GRI hypotheses as prospective. Preserve issuer, publication date, URL, document version, source excerpt, access date and reviewer decision in the existing evidence register. No live integrations, automated collection, model retraining, client disclosures, confidential source material or deployment changes are authorized by this entry. Independent reproduction and human review remain required before empirical performance claims.
 
 
-## November 3, 2026 | Texas AI infrastructure and institutional embeddedness
+## November 2026 | AI Infrastructure Investment and Institutional Governance in Texas
 
-The [Texas AI infrastructure institutional observation](2026-11-03-texas-ai-infrastructure-institutional-event.md) extends the existing AI Paradox with the TAM 505 Intel site selection lens, Tesla/SpaceX/xAI geographic exposure, prospective political and regulatory change, and a reproducible evidence and visualization protocol. This is a dated observation baseline, not a new research program, an election outcome claim, or evidence of causality.
+This [research on AI infrastructure investment in Texas](2026-11-03-texas-ai-infrastructure-institutional-event.md) examines the relationship between large scale artificial intelligence infrastructure investment, geographic concentration, and institutional governance. Drawing on comparative institutional analysis, it considers how long term capital commitments, regulatory environments, political transitions, and organizational strategy influence investment resilience and economic development. The analysis incorporates major technology enterprises, including Tesla, SpaceX, and xAI, within the broader context of evolving AI infrastructure and institutional accountability.
 
 
 ## November 3, 2026 | Global AI capital, infrastructure and institutional intelligence
