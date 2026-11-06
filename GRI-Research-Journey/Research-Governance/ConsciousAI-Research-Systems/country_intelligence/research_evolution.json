@@ -1,19 +1,24 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-06T16:45:42.707737+00:00",
+  "generated_at": "2026-11-06T23:07:15.240287+00:00",
   "mode": "evolving_repository_retrieval_with_governed_learning_candidates",
-  "catalog_sha256": "01c1cdbc6a9a5a7c158ae116c89c1d253cc65ac6f93427325d5a2fedcd48a0b3",
+  "catalog_sha256": "517b35e8c1c5cbc28c7ac83a668230ba71e957be48a85295e98ecfa3b534b03d",
   "document_count": 243,
   "truncated": false,
   "changes": {
     "added": [],
     "removed": [],
     "revised": [
-      "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/README.md",
-      "GRI-Research-Journey/Algorithmic-Management/Uber-Lyft-Research/README.md",
-      "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md",
+      "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/2026-10-23-uber-global-agentic-management-journal-manuscript.md",
+      "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/GRI-Mobility-Intelligence/2026-10-23-continuous-ai-leadership-learning-institutional-framework.md",
+      "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/Research-Monograph-Full-Text.md",
+      "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ai-paradox-institutional-memory-and-algorithmic-authority.md",
+      "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-donaldson-global-ethics-algorithmic-management.md",
+      "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ontela-picdeck-segmentation-ai-paradox.md",
       "GRI-Research-Journey/Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md",
-      "GRI-Research-Journey/Integrated-Research-Journey/README.md"
+      "GRI-Research-Journey/Integrated-Research-Journey/2026-11-03-texas-institutional-pre-election-protocol.md",
+      "GRI-Research-Journey/Integrated-Research-Journey/README.md",
+      "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/README.md"
     ]
   },
   "documents": [
@@ -244,7 +249,7 @@
     {
       "path": "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/2026-10-23-uber-global-agentic-management-journal-manuscript.md",
       "title": "From Algorithmic Management to Agentic Enterprise: Institutional Authority, Economic Value and Accountability in Global Mobility Platforms",
-      "content_sha256": "f382dc6f693dd3cf316ad39cfdd73fc94eab5c51643691aac59b5e2e103aceca",
+      "content_sha256": "4a1767e75aa6c5fe972af92742ca36b181d69c585d745db2a10d6c52877f9f9c",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/2026-10-23-uber-global-agentic-management-journal-manuscript.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -258,7 +263,7 @@
     {
       "path": "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/GRI-Mobility-Intelligence/2026-10-23-continuous-ai-leadership-learning-institutional-framework.md",
       "title": "Continuous AI Leadership Learning as Institutional Capacity",
-      "content_sha256": "d290f0edb91ad1dc952f38a090a36fc16877df3c584ef2a61fc95867c5f3778a",
+      "content_sha256": "328c49bdb355d36291b53ff8b084f9a19a3e5a462972752a2dc5ea987c1f54fc",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/GRI-Mobility-Intelligence/2026-10-23-continuous-ai-leadership-learning-institutional-framework.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -321,7 +326,7 @@
     {
       "path": "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/Research-Monograph-Full-Text.md",
       "title": "Algorithmic Management, Institutional Leadership and the AI Paradox",
-      "content_sha256": "2fbe9ab622de25fee6d8e6831e0182a84c592b3eeb4bc216fd3ce4781ebf9274",
+      "content_sha256": "91d42d73b13ed359dd69727b4ef3213ccf8a4dad472e1b416fcc9f003290f723",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/Research-Monograph-Full-Text.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -503,14 +508,14 @@
     {
       "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ai-paradox-institutional-memory-and-algorithmic-authority.md",
       "title": "The AI Paradox in the Fourth Industrial Revolution: Institutional Memory, Algorithmic Authority and Human Governance",
-      "content_sha256": "325212b50cd313693c17095cc8582af5d12b58725ba42393ecd3620fc53b1a81",
+      "content_sha256": "3bf1b008b46ad207d004da7e856db0e33acb5890768369051d7df7b5b5ac9b96",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ai-paradox-institutional-memory-and-algorithmic-authority.md",
       "status": "public_repository_document_not_independently_validated"
     },
     {
       "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-donaldson-global-ethics-algorithmic-management.md",
       "title": "Global Business Ethics and the AI Paradox: Donaldson's Values in Tension as an Analytical Lens",
-      "content_sha256": "9e811ea09278cfca29cf6fdf99c08dff98379227dc966f2c6afcfa308724ef58",
+      "content_sha256": "42378d59d92348bf88f614efc05fce2dcd60244ac36e4812f454738b74d168e3",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-donaldson-global-ethics-algorithmic-management.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -531,7 +536,7 @@
     {
       "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ontela-picdeck-segmentation-ai-paradox.md",
       "title": "From Customer Segmentation to Algorithmic Management: The Ontela PicDeck Case and the AI Paradox",
-      "content_sha256": "89d732029f8d1bff23ee958ef802cc14eb4a4df0ae9e79f13f38022dcde103e2",
+      "content_sha256": "2afa27cea31969b80dbdbdc8ba4b59a25e9b8a2e11cf70bd1cf3b2d12e92779b",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ontela-picdeck-segmentation-ai-paradox.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -650,14 +655,14 @@
     {
       "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md",
       "title": "AI Paradox | Texas AI infrastructure, institutional embeddedness and capital allocation",
-      "content_sha256": "e39d03004c09f8da6d86720e34effa5a61c490b9da653a43f4be5e0d5f4e18ca",
+      "content_sha256": "cf1a02e0aea937a56fbf6a552bc95f4e3668909f442e7676156fadb0afbf298d",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md",
       "status": "public_repository_document_not_independently_validated"
     },
     {
       "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-11-03-texas-institutional-pre-election-protocol.md",
       "title": "Texas AI infrastructure | Preregistered institutional observation protocol",
-      "content_sha256": "99ff88253e5d3e19e4ffe8874093a9196a25b39ec28bc53a07dede3b63888373",
+      "content_sha256": "673a1cecfafff32455fccb9d1a93f431286d8d31554da79beb8e719173fc6508",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-11-03-texas-institutional-pre-election-protocol.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -685,7 +690,7 @@
     {
       "path": "GRI-Research-Journey/Integrated-Research-Journey/README.md",
       "title": "GRI Integrated Research Journey | Living Research Architecture",
-      "content_sha256": "a3a39329be669ce0dbabab288d96815d1e85883849c68480008bb7dbb0ab204b",
+      "content_sha256": "71a8f1a81e9539f445d66e37b5eed021933c0598cfd53be3d7f1d7079879c8b6",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/README.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -1063,7 +1068,7 @@
     {
       "path": "GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/README.md",
       "title": "ConsciousAI | Research Systems Architecture",
-      "content_sha256": "cc6dc07468391e8824c932793faba3c603901428d6a4a4b76af9d4b8de1a8e6e",
+      "content_sha256": "4a8e9ef9ad59b8bf1ead01c841c3c7c9ec795de71821dba4244aa6450cfe406b",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/README.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -1722,7 +1727,7 @@
   "evidence_connections": [
     {
       "record_id": "fdbba33cc5d84ec987fcb052",
-      "content_sha256": "ffe6ad48dffb7e125c465275475d523fa7fa8a1532e58eac3685fd2738e3839a",
+      "content_sha256": "9534194769f904c53aec9ddcc1f0e558bbbf66ed21efec8f357ff24e13574048",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1869,7 +1874,7 @@
     },
     {
       "record_id": "de3d3a58405cef75e233e43e",
-      "content_sha256": "30ca6f91031cf8c3344e1a22411b6f49d86b6e5853733c6af11382fdd6ad0e76",
+      "content_sha256": "88019e4a03dc6c83500a8b79b477e14008f803ed6de850a2270c7dc13cf4d4e2",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1950,7 +1955,7 @@
     },
     {
       "record_id": "dae7ae854e9efe22071d442d",
-      "content_sha256": "444c0b4fc42e6f062f0f3c08f87f23df262deb53832020e06fb54dd5cacf0e3e",
+      "content_sha256": "db767fe9d32d8d0443eae01859b94489bde383a3492ff63c9456dd18892763d9",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1998,7 +2003,7 @@
     },
     {
       "record_id": "c5bd74e05aaae35ba9ec185e",
-      "content_sha256": "5d1d0a9ebddae8a067dbba5555e831931afa5476e1988d138f6b180d21018790",
+      "content_sha256": "cb7d404586c9c8ac9122601c3eb132a9a7bba1a100b445db1c8ebb204c8b797c",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2046,7 +2051,7 @@
     },
     {
       "record_id": "bff1a7e46550fb3eb2151285",
-      "content_sha256": "6468ec748887e961cda4aa5bf35d4e6d644ce91a5da021293001caaccb272106",
+      "content_sha256": "426c74f463fdc0c713825a3b5a6222eb51016093ea3f83d3f867e035adaedfbe",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2103,7 +2108,7 @@
     },
     {
       "record_id": "bd07bbe5d81439c7d312c64c",
-      "content_sha256": "16a25dacb1e674318ffa7bfbe53fb54e8d8642c85e1ffdfe91f4758caadf5e6e",
+      "content_sha256": "ed234ac7858a4784a8081030b607a2668f2d5655399ddb7d9f429fb5ce95fe1a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2165,7 +2170,7 @@
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ai-paradox-institutional-memory-and-algorithmic-authority.md",
           "title": "The AI Paradox in the Fourth Industrial Revolution: Institutional Memory, Algorithmic Authority and Human Governance",
-          "content_sha256": "325212b50cd313693c17095cc8582af5d12b58725ba42393ecd3620fc53b1a81",
+          "content_sha256": "3bf1b008b46ad207d004da7e856db0e33acb5890768369051d7df7b5b5ac9b96",
           "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ai-paradox-institutional-memory-and-algorithmic-authority.md",
           "status": "public_repository_document_not_independently_validated",
           "similarity": 0.438,
@@ -2313,7 +2318,7 @@
     },
     {
       "record_id": "958e2bc1a020d8f707f85732",
-      "content_sha256": "67f6614cbfc5a8488daf8bb4e42e3ea26c5fee4497e73c32bf21670068d42164",
+      "content_sha256": "5061a0a6792d8276f3258b9b7ea70f8788c98f464f049cb6d69cd386c08ed686",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2469,7 +2474,7 @@
     },
     {
       "record_id": "61cd45d72fb5c935b19cb0eb",
-      "content_sha256": "9aec183d44476664416b432ce4b8910b1b1aa4da39260e254a5a0141caf83db7",
+      "content_sha256": "9d151db420bddd3282372521a125b9a6ab8e1252cd91ea47b035cbb605560585",
       "research": [
         {
           "path": "GRI-Research-Journey/Research-Governance/Tiger-Legacy/ENGINEERING-RESEARCH-STANDARDS.md",
@@ -2502,7 +2507,7 @@
     },
     {
       "record_id": "6034022a3ee0e0c91beac6e9",
-      "content_sha256": "6e53d59d8c1816e698bee1ea713cd5e6ca7b8dfd9d529a9af97df3ef6dcf3c9d",
+      "content_sha256": "b2cdbeae40c2a476991394e673cf88049c21d2ea8ededc1cf144e3747d13156f",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2535,7 +2540,7 @@
     },
     {
       "record_id": "5e535c4ee7e173dddcba0a6e",
-      "content_sha256": "60fcc95315a6d72408b8edf726a7a1431cd0d29a25629c3f4d7fa86f095d8553",
+      "content_sha256": "4feef0daa838b58f76b60cdcf213b980d4a9f078156fe5d260654dec7ac937d9",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2640,7 +2645,7 @@
     },
     {
       "record_id": "4f7851f3ba77b536fb26b041",
-      "content_sha256": "c068858ccab323da8e0866d91f0eae7fd184ffc1d62e73c89b26d48cfd62634c",
+      "content_sha256": "aca6627cca762219bc2f2d6ead73bb655aa4b247a90c2d92349407fa34ea6e4c",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -2673,7 +2678,7 @@
     },
     {
       "record_id": "422244d2169f151459cfe81a",
-      "content_sha256": "90930c96088e0e9d091bef11f63e59c645f3782805e435f7e2d7d03ca2bd1eeb",
+      "content_sha256": "cabc9aeb7ac44b21583225ad841a22594d8650f6c4c5143ab8a6768af6ca8e47",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2796,7 +2801,7 @@
     },
     {
       "record_id": "39ae2b994dcf1e88f77d7ede",
-      "content_sha256": "82386ed4644330080cf4f6171788974ba357fb83b7f58297256d26906bfd12a2",
+      "content_sha256": "e6ba4d4b0ef0838c59de4eab7c8ac662a997f0b0d02f6999d51827db4e142000",
       "research": [
         {
           "path": "GRI-Research-Journey/Global-Leadership/Apple-China-Institutional-Leadership/README.md",
@@ -2810,7 +2815,7 @@
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ontela-picdeck-segmentation-ai-paradox.md",
           "title": "From Customer Segmentation to Algorithmic Management: The Ontela PicDeck Case and the AI Paradox",
-          "content_sha256": "89d732029f8d1bff23ee958ef802cc14eb4a4df0ae9e79f13f38022dcde103e2",
+          "content_sha256": "2afa27cea31969b80dbdbdc8ba4b59a25e9b8a2e11cf70bd1cf3b2d12e92779b",
           "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-19-ontela-picdeck-segmentation-ai-paradox.md",
           "status": "public_repository_document_not_independently_validated",
           "similarity": 0.3733,
@@ -3039,7 +3044,7 @@
     },
     {
       "record_id": "10b965dff3bc3da58f7d9f9d",
-      "content_sha256": "0d500acbbccc0b55b5c827cfae089cc4486220e8ca49b1b2c66150753a50a6c4",
+      "content_sha256": "fd762df236a6eb3a27e1e3c547f8cda8a26fc243d4e7e2a5d4398e6bccef567d",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -3254,7 +3259,7 @@
         {
           "path": "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/2026-10-23-uber-global-agentic-management-journal-manuscript.md",
           "title": "From Algorithmic Management to Agentic Enterprise: Institutional Authority, Economic Value and Accountability in Global Mobility Platforms",
-          "content_sha256": "f382dc6f693dd3cf316ad39cfdd73fc94eab5c51643691aac59b5e2e103aceca",
+          "content_sha256": "4a1767e75aa6c5fe972af92742ca36b181d69c585d745db2a10d6c52877f9f9c",
           "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/2026-10-23-uber-global-agentic-management-journal-manuscript.md",
           "status": "public_repository_document_not_independently_validated",
           "similarity": 0.2745,

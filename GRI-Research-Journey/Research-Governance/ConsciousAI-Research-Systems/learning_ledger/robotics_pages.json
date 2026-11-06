@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T16:45:42.782553+00:00",
+  "generated_at": "2026-11-06T23:07:15.311027+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "1bff84e68ae2da469370fc74bbee137402893ffd688fa07a2f3ae9d4b3a58113",
+      "content_sha256": "8e0fec46f3145a2aa8a3a96b301fc6b2314cb04ab617b0fb1a4287a1823af198",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,10 +44,27 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "9ea4ee65d5ca828ad1f9e876b579320ee5e01d2cbc5c4abf3c801c1a24f06a8d",
+      "content_sha256": "6a2fcd675127b1c9d6602f4cbd003464db060b3f4c0985503e78ee383ae3644c",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
+      "verification_status": "publisher_page_observation_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "NHTSA-SGO",
+      "source_id": "NHTSA-SGO",
+      "publisher": "NHTSA",
+      "title": "Standing General Order on Crash Reporting | NHTSA Lock",
+      "source_url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+      "country_codes": [
+        "USA"
+      ],
+      "content_sha256": "96476a097af2f5281ea1da9138fc4dd6f23a1d27505d188c3d1dcc5858863acd",
+      "published_at": null,
+      "source_kind": "regulator_information",
+      "configured_track": "road_autonomy",
       "verification_status": "publisher_page_observation_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -84,12 +101,12 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110421
+      "bytes": 110785
     },
     {
       "source_id": "NHTSA-SGO",
-      "status": "failed",
-      "error_type": "HTTPError"
+      "status": "fetched",
+      "bytes": 146999
     },
     {
       "source_id": "BRA-ANAC-AAM",
