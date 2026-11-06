@@ -47,3 +47,20 @@ The [Nelson model institutional economics framework](ECONOMIC-INTELLIGENCE.md) a
 ## Hosted deployment
 
 The dedicated [GRI Global Intelligence dashboard](https://gri-global-intelligence.onrender.com/dashboard) has been configured on Render as the `gri-global-intelligence` service, connected to this repository's `main` branch with automatic deployment enabled. [Render service status](https://dashboard.render.com/web/srv-dbb9i2jncjis7391jedg). Render reported a live deployment on October 25, 2026. Deployment status does not establish the accuracy of research claims, model performance, or external certification. This separate service does not replace existing ConsciousAI deployments. The current dashboard reads checked in research and event data; international and economic feeds are not yet continuously ingested.
+
+
+## Academic integrity and independent research publication controls
+
+**Institutional alignment reviewed November 6, 2026.** GRI is an independent research organization. David Grand's Thunderbird/ASU educational experience and cited faculty scholarship may inform GRI's analysis, but neither coursework nor academic affiliation establishes university sponsorship, faculty review, validation, coauthorship or endorsement.
+
+For public ConsciousAI research, apply these publication controls:
+
+1. **Source attribution and originality:** Cite original scholarly and primary sources with enough bibliographic detail to verify the proposition. Distinguish a scholar's actual argument from GRI's independent application to AI. Do not reproduce copyrighted or course-licensed readings, lecture slides, recordings, handouts, assignments or assessments without appropriate written authorization.
+2. **Evidence classification:** Label observations, illustrative anecdotes, secondary reports, conceptual interpretations, testable hypotheses, synthetic tests, verified results and independently reproduced findings separately. No conceptual analogy or successful deployment check is an empirical validation.
+3. **Academic work and AI assistance:** Keep private course submissions, student or classmate information and restricted course materials outside public research archives. For any academic submission, follow the applicable instructor's syllabus and ASU academic integrity rules, including authorization and disclosure requirements for AI tools; repository publication does not substitute for course permission.
+4. **Research traceability:** Record dates, original sources, methodology, version history, limitations, rival explanations, review status and correction paths. Verify time-sensitive legal, policy, economic and environmental claims against dated authoritative records before asserting them as facts.
+5. **Institutional and technical assurance:** Distinguish code checks, service deployment, independent reproduction, security assurance and scientific validation. Preserve frozen assurance baselines and restricted evidence; never describe a prototype or unreviewed candidate feed as a certified audit or verified live intelligence system.
+
+**Authoritative policy references:** [Thunderbird policies and resources](https://thunderbird.asu.edu/policies-and-resources), [ASU Student Academic Integrity Policy](https://provost.asu.edu/academic-integrity/policy), [ASU Graduate College academic integrity](https://graduate.asu.edu/current-students/policies-forms-and-deadlines/academic-integrity), and [Thunderbird academic catalog policies](https://catalog.asu.edu/policies/global-management). These are institutional policy references, not evidence of institutional endorsement. Individual course syllabi and applicable permissions govern course-specific requirements.
+
+**Review scope:** This is a standing publication control, not a representation that every historical repository file has been individually audited for licensing, factual accuracy, sensitive information, or methodological completeness.
