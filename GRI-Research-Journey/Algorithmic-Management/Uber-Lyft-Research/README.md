@@ -137,3 +137,16 @@ A separate Ithaca to Syracuse route graphic reports 177 trips and an average pas
 ## November 5, 2026 | Waymo, Uber and autonomous mobility governance
 
 [Read the bounded Waymo and Uber strategic comparison and safety assurance extension](waymo-uber-november-2026.md). The existing GRI AI Paradox research examines reported changes in robotaxi distribution, non-equivalent financial and fleet metrics, mixed traffic versus controlled environments, and institutional safety accountability. Commercial acceleration and competitive motives are hypotheses; independent causal and safety validation are not claimed. This is a continuation of existing longitudinal research, not a new program.
+
+
+## November 2026 | Evidence alignment with institutional authority research
+
+This longitudinal field research is interpreted alongside the existing [institutional power amplification framework](../../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md) and [managerial authority analysis](../../Algorithmic-Management-Institutional-Leadership/README.md). The linkage is conceptual; it does not merge platform observations with infrastructure financial datasets.
+
+**Measurement boundary:** Displayed offer amounts and displayed trip time support offer-level gross rate calculations under the stated assumptions. They do not by themselves measure realized net earnings, complete driver opportunity costs, platform-wide distributions, algorithmic intent or causal effects. Record date, location, offer conditions, included incentives, estimated versus realized distance and time, expenses, and sample selection whenever those values are available.
+
+**Governance interpretation:** Driver discretion to accept or decline an offer is analytically separate from access to sufficient information, practical ability to challenge decisions, correction of errors and organizational accountability. None of these capabilities should be presumed present or absent solely from the interface.
+
+**Consistency with comparative cases:** Texas regulatory records can establish public institutional decisions, while platform field records establish observed offers and choices. Both may inform questions about authority and contestability, but their evidence is not interchangeable. Autonomous mobility safety claims require incident definitions, operational design domain and exposure denominators before comparison.
+
+**Status:** Evidence integration and terminology alignment only. No new field observation, numerical causal estimate, platform-wide finding or independent reproduction is claimed.
