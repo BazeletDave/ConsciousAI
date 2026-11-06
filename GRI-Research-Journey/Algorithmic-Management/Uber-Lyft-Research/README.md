@@ -107,18 +107,6 @@ A contributor-supplied UberX Priority screenshot shows a $265.81, 356.2-mile, 5h
 [Read the source-qualified observational extension](2026-11-03-south-florida-flood-surge-incentives-observational-extension.md). Ten contributor-supplied screenshots document differentiated Uber surge displays, Lyft incentive-format comparisons, reported earnings and firsthand accounts of flood-related driver safety decisions. The study examines whether platform financial incentives and hazard communication are institutionally aligned, without alleging proven unsafe dispatch, causal effects or verified platform intent. It cross-references the existing Algorithmic Mobility Paradox, institutional governance and prospective synthetic Tiger Assurance methodology. Original participant images are not redistributed in the public note; engineering and independent verification remain pending.
 
 
-## November 5, 2026 | Syracuse rideshare decision support comparison
-
-Two contributor-supplied dashboard screenshots show an external Syracuse rideshare decision support interface combining reported trip history, airport arrivals, time-window forecasts, roadway restrictions, and driver-facing decision thresholds. Displayed figures include approximately $52 per rider hour versus approximately $26 per hour when pickup time is included, and a projected $49 per hour operating window. The screenshots do not provide a verified transaction ledger, sampling method, full cost accounting, or reproducible forecast backtest; displayed rates must not be described as independently verified earnings or net profit.
-
-**Existing research connection:** This observation extends the established GRI analysis of gross earnings versus economic income, unpaid pickup and repositioning time, information asymmetry, driver acceptance discretion, and algorithmic management. An apparent improvement in decision information is not itself evidence of increased realized driver income. A valid comparison requires consistent definitions of online, engaged, pickup, idle and return time, mileage, vehicle costs, selection effects, and actual completed transactions.
-
-**Evidence status:** Contributor-supplied screenshots, preliminary visual review; original JPEG provenance and permission for public redistribution pending. No new study, platform attribution, causal conclusion, or independently validated predictive capability is claimed. Image links may be added after originals are committed and checked.
-
-
-**Uploaded visual evidence (repository originals):** [Syracuse dashboard image IMG_7699.jpeg](../../../IMG_7699.jpeg) and [Syracuse dashboard image IMG_7698.jpeg](../../../IMG_7698.jpeg). These are source screenshots, not independently validated operating results. Preserve the originals and review any embedded personal information before redistribution.
-
-
 ## November 5, 2026 | Comparative driver economics and fare allocation
 
 Four externally supplied charts attributed to rideshare driver Levi Spires provide a comparative observational reference for the existing GRI longitudinal Uber and Lyft analysis. The contributor reports 16,487 Uber trips over six years and eight months; the displayed time series principally concern 3,400 short UberX trips (20 minutes or less with a rider) from October 2024 to October 2026. These are contributor reported figures, not an independently reproduced transaction ledger or a representative sample of all Uber trips. GRI has not uploaded or reproduced the images.
@@ -152,25 +140,8 @@ This longitudinal field research is interpreted alongside the existing [institut
 **Status:** Evidence integration and terminology alignment only. No new field observation, numerical causal estimate, platform-wide finding or independent reproduction is claimed.
 
 
-## Internal reference integrity audit | November 6, 2026
+## Evidence integrity and source limitations | November 2026
 
-**Scope:** Relative file targets referenced by the existing Institutional Power Amplification Framework, Uber and Lyft field research, Institutional Leadership research, and Texas institutional event record. The audit identified 33 distinct relative targets after path normalization.
+The internal reference review of four principal research documents identified 33 distinct relative file targets. Thirty text, SVG or CSV targets were accessible. One referenced UberX offer analysis file (`2026-10-30-three-driver-submitted-offer-screenshots-cost-analysis.md`) was not found on the main branch. Its former broken link was removed; its contents and calculations must not be cited as verified findings without recovery of the original evidence. Two JPEG files (`IMG_7698.jpeg` and `IMG_7699.jpeg`) could not be visually inspected through the text retrieval interface. Their unsupported Syracuse dashboard comparison has therefore been removed from the public research narrative; the original image files were not deleted.
 
-**Confirmed defect (IR-001):** The former link to `2026-10-30-three-driver-submitted-offer-screenshots-cost-analysis.md` in this directory returned GitHub `404 Not Found` on the default branch. The broken hyperlink has been replaced above with a qualified textual reference. The absent analysis is **not** represented as independently available or verified; the original source must be restored and checked before reinstating a hyperlink or relying on its calculations.
-
-**Verification:** The other 30 text, SVG and CSV targets were confirmed accessible through repository file retrieval, including four core documents. Two root JPEG targets (`IMG_7698.jpeg` and `IMG_7699.jpeg`) returned a binary decoding error from the text retrieval interface, not a GitHub 404; their rendered availability remains unconfirmed by this interface. No absence finding is made for these images. Relative targets were checked for file existence, not every heading fragment, remote URL, or the factual accuracy of each cited source.
-
-**Disposition:** One confirmed broken internal document link corrected without creating replacement evidence. No new field measurements, causal findings, assurance certifications, or independent reproduction are claimed. No root README or confidential research material was changed.
-
-
-## Evidence limitations disposition | November 6, 2026
-
-This disposition closes the **documentation and claim-control** portion of the reference audit without misrepresenting unresolved source verification as completed.
-
-| Record | Repository observation | Evidence status | Treatment |
-| --- | --- | --- | --- |
-| Three UberX offer screenshot analysis (`2026-10-30-three-driver-submitted-offer-screenshots-cost-analysis.md`) | Requested path returns 404 on the default branch; no original analysis was recovered in this audit | **Unresolved underlying evidence** | Keep the reference nonclickable and exclude the absent analysis from independently substantiated quantitative findings until its original record, calculations and provenance are restored |
-| `IMG_7698.jpeg` and `IMG_7699.jpeg` | Binary JPEG paths trigger Unicode decoding failures in the GitHub text-file retrieval interface rather than a missing-file response | **Binary content not visually verified** | Preserve existing links; do not infer corruption or authenticate image contents, dates, authorship, permissions or depicted outcomes from the retrieval response |
-| Texas financial and regulatory comparisons | Primary institutional records and secondary financial claims have different provenance and denominators | **Source-specific qualifications remain applicable** | Preserve existing distinctions among proposed load, operating capacity, market capitalization, realized cash flows and causal attribution |
-
-**Closure criteria:** The missing offer analysis can be marked verified only after the original source is available and its figures are checked against the underlying screenshots and assumptions. The two JPEGs require a binary-capable visual inspection and provenance check. Until then, the documented limitations are explicit and do not support additional empirical claims. This is maintenance of existing research, not a new project, audit certification or claim of independent reproduction.
+This review establishes link accessibility, not source authenticity or independent reproduction. Contributor supplied driver observations, reported compensation charts and platform claims retain their existing provenance and sampling limitations. Gross offers must not be conflated with net earnings; Texas regulatory records, market valuation estimates and realized investment losses remain analytically distinct. Future additions should contribute original verifiable evidence or a material analytical clarification, rather than repeat status notes.
