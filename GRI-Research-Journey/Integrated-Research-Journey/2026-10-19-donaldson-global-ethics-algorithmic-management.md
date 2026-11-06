@@ -64,6 +64,27 @@ These correspondences are *research hypotheses and governance recommendations*, 
 
 **Evidence status:** Source-grounded conceptual comparison. No new empirical dataset, systematic literature review, ethics certification or formal institutional review is claimed. The licensed PDF must remain outside the public repository unless redistribution rights are established.
 
+## November 6, 2026 | Cultural interpretation and legitimate algorithmic authority
+
+**Placement and scope:** Bounded refinement of this existing Donaldson / AI Paradox analysis, not a new project, empirical result, model capability claim, or change to the public research navigation. The motivating academic comparison is Erin Meyer's *The Culture Map* (2014), GLOBE's cultural and leadership dimensions (House et al., eds., 2004), and intercultural communication concepts discussed in graduate coursework. Private lecture slides, recordings, graded work and course handouts are not reproduced here. Neither the authors nor Thunderbird/ASU endorse GRI's extension.
+
+**Refined GRI research question:** Under what conditions can an AI-mediated management system interpret culturally contextual communication accurately enough to inform consequential organizational decisions, while preserving meaningful human authority, contestability, and core rights?
+
+**Analytical distinction:** Linguistic accuracy is not evidence of accurate inference of intention; accurate inference of intention is not authorization to decide. High- and low-context communication, directness of negative feedback, GLOBE in-group collectivism, humane orientation and power distance are distinct constructs, not interchangeable national labels. Context, workplace role, individual preferences, language proficiency and situational stakes can moderate their relevance. A model must not infer consent, willingness or disagreement from nationality, silence or nonverbal cues alone.
+
+**Proposed hypotheses, not findings:**
+1. Systems relying on explicit text alone may misclassify polite refusals, indirect disagreement or deference in some contexts relative to a context-aware, clarification-capable baseline.
+2. A culturally adaptive interface may improve user comprehension and perceived procedural legitimacy, but could also increase stereotyping, unwarranted inference or inconsistent treatment.
+3. Human clarification and appeal pathways may reduce consequential errors even when an AI system's inferred intention remains uncertain.
+
+**Possible bounded evaluation within existing assurance methods:** Construct rights-cleared, synthetic, culturally ambiguous workplace scenarios with multiple plausible interpretations and benign controls. Compare (A) literal-text interpretation, (B) contextual interpretation with uncertainty reporting, and (C) contextual interpretation with respectful clarification and human review. Pre-register scenario selection, outcome definitions and failure criteria; use culturally competent independent reviewers and retain disagreement rather than forcing consensus. Evaluate interpretation error, unjustified certainty, clarification effectiveness, wrongful consent inference, appeal accessibility, subgroup coverage and documented human override. Distinguish synthetic performance from operational effectiveness. Do not use private coursework as a public dataset or modify frozen Tiger Legacy baselines.
+
+**Institutional safeguards:** Respect locally meaningful communication practices within Donaldson's core-human-values constraints. Require clear notice of AI mediation, appropriate consent, privacy protections, non-discrimination, and a human decision-maker for consequential action. Cultural adaptation must never become a rationale for bypassing an explicit refusal or denying individual rights.
+
+**Rival explanations and limits:** Differences may reflect translation quality, organizational incentives, status, personal communication preferences, language proficiency, interface design or measurement artifacts rather than culture. Existing Uber/Lyft field evidence cannot establish cultural causal effects. No cultural competence benchmark, participant study, independently reproduced result or deployed feature is claimed here.
+
+**Bibliographic anchors:** Meyer, Erin. *The Culture Map: Breaking Through the Invisible Boundaries of Global Business*. PublicAffairs, 2014. House, Robert J., Paul J. Hanges, Mansour Javidan, Peter W. Dorfman, and Vipin Gupta, eds. *Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies*. SAGE, 2004. Donaldson (1996) as cited above. The cross-framework AI governance formulation is GRI's independent proposal.
+
 ## Connected GRI research
 
 - [Integrated Research Journey](README.md)
