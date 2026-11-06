@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-05T23:38:12.402214+00:00",
+  "generated_at": "2026-11-06T06:42:42.217418+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -17,9 +17,8 @@
     },
     {
       "source_id": "NHTSA",
-      "status": "fetched",
-      "items": 10,
-      "method": "official_html"
+      "status": "failed",
+      "error_type": "HTTPError"
     },
     {
       "source_id": "UBER-ENGINEERING",
@@ -390,146 +389,6 @@
       "publication_authorized": false
     },
     {
-      "id": "f86f2b4d94bf99f0b2a0",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department to Invest $1.5 Million to Help States Alert Drivers About Vehicle Recalls",
-      "source_url": "https://www.nhtsa.gov/press-releases/investing-improving-vehicle-recall-rates",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "0c860ca36c35cdca53f2",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: Does Your Vehicle Have an Open Recall?",
-      "source_url": "https://www.nhtsa.gov/press-releases/consumer-alert-does-your-vehicle-have-open-recall",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "2ecaf2bc49cf8f6bee35",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Moves to Modernize Tire Safety Standards, Deliver Safer American Roads",
-      "source_url": "https://www.nhtsa.gov/press-releases/move-to-modernize-tire-safety-standards",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "626788d4564c8798185b",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Makes Commonsense Updates to Vehicle Lighting Standards for AVs",
-      "source_url": "https://www.nhtsa.gov/press-releases/vehicle-lighting-updates-automated-vehicles",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "d7bc5a25d8de3c596c9f",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Releases Model Year 2027 Vehicle Testing List for 5-Star Safety Ratings",
-      "source_url": "https://www.nhtsa.gov/press-releases/model-year-2027-vehicle-testing-5-star-safety-ratings",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "404881f633bbdf3e6c7d",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Moves to Modernize Outdated Vehicle Lighting Standards, Make America\u2019s Roads Safer",
-      "source_url": "https://www.nhtsa.gov/press-releases/modernize-outdated-vehicle-lighting-standards",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "e26a9d2e38f7b7cf4e6a",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: NHTSA Reminds Parents the Right Car Seat Saves Lives",
-      "source_url": "https://www.nhtsa.gov/press-releases/child-passenger-safety-week-car-seat-guide",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "5c45de024ab721d7dbc4",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Releases First-Ever Pedestrian Safety Test Results for 2027 Vehicle Models",
-      "source_url": "https://www.nhtsa.gov/press-releases/first-ever-pedestrian-safety-test-results",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "80ea111f1bd7d7a34816",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "NHTSA Opens Investigation into Tesla Cybercab Self-Certification Following Austin Deployment",
-      "source_url": "https://www.nhtsa.gov/press-releases/investigation-tesla-cybercab-self-certification",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "ee1cec0542f47bf824d7",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: Banned Chinese Air Bag Inflator Kills 11th Person in the U.S.",
-      "source_url": "https://www.nhtsa.gov/press-releases/banned-chinese-air-bag-inflator-kills-11th-person-us",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "bf5d5a49a20e4dd1eb72",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -684,6 +543,20 @@
       "publication_authorized": false
     },
     {
+      "id": "b727c210e8632dd76ab5",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Making Every Core Count: In Pursuit Of Faster Apache Spark Jobs at Uber",
+      "source_url": "https://www.uber.com/us/en/blog/uber-benchmarking-quanton/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "fef5d24a4a6f8b3c8634",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -759,7 +632,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Scaling AI in Legal: Building Uber\u0000\u2019s Redlining Agent",
+      "title": "Scaling AI in Legal: Building Uber\u2019s Redlining Agent",
       "source_url": "https://www.uber.com/us/en/blog/building-ubers-redlining-agent/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -838,20 +711,6 @@
       "publication_authorized": false
     },
     {
-      "id": "82d7f7df99926576cbbf",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "From One Horizontal Scaling Controller to Many: Evolving Uber's Compute Platform",
-      "source_url": "https://www.uber.com/us/en/blog/evolving-ubers-compute-platform/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "8c953ae57b2a3bf46b1b",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -866,6 +725,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 64,
+  "review_required": 54,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
