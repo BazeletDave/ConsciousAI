@@ -64,3 +64,25 @@ For public ConsciousAI research, apply these publication controls:
 **Authoritative policy references:** [Thunderbird policies and resources](https://thunderbird.asu.edu/policies-and-resources), [ASU Student Academic Integrity Policy](https://provost.asu.edu/academic-integrity/policy), [ASU Graduate College academic integrity](https://graduate.asu.edu/current-students/policies-forms-and-deadlines/academic-integrity), and [Thunderbird academic catalog policies](https://catalog.asu.edu/policies/global-management). These are institutional policy references, not evidence of institutional endorsement. Individual course syllabi and applicable permissions govern course-specific requirements.
 
 **Review scope:** This is a standing publication control, not a representation that every historical repository file has been individually audited for licensing, factual accuracy, sensitive information, or methodological completeness.
+
+
+### Academic provenance and potential intellectual property overlap
+
+**Review flag added November 6, 2026.** The research author is also an enrolled Thunderbird/ASU student. Independent GRI work may draw on public scholarship and general learning, but academic provenance, coursework reuse, contractual restrictions, and ownership questions require distinct review. Do not presume that material is publishable or independently owned solely because it was rewritten, paraphrased, AI-assisted, or committed to GRI's repository.
+
+**Relevant primary institutional sources:**
+- [Thunderbird policies and resources](https://thunderbird.asu.edu/policies-and-resources): course materials and recordings are protected; restrictions on public distribution and commercialization apply.
+- [ASU Student Academic Integrity Policy](https://provost.asu.edu/academic-integrity/policy): covers attribution, unauthorized assistance and reuse of work produced for another purpose.
+- [ASU Teaching and Learning Center generative AI syllabus guidance](https://tlc.sols.asu.edu/teaching/toolkits/syllabus-and-policies-generative-ai): permitted uses and disclosure depend on instructor and assignment instructions.
+- [Thunderbird graduate student handbook, published 2023](https://thunderbird.asu.edu/sites/g/files/litvpz1331/files/2023-11/thunderbird-graduate-student-handbook.pdf): contains broad intellectual property and work product provisions. Applicability to particular work and current governing terms must be determined from the applicable enrollment documents and written institutional guidance; this note does not assert ownership by either party.
+
+**Required review labels for potentially overlapping public material:**
+- `PUBLIC_SCHOLARSHIP`: independently accessible published research, cited to original author and source.
+- `INDEPENDENT_GRI_ANALYSIS`: GRI-authored interpretation with documented independent provenance and no protected course material reproduced.
+- `COURSE_DERIVED_REVIEW`: conceptual material with a substantive course, assignment, faculty project, or restricted source connection requiring a permissions, attribution and ownership check before additional publication.
+- `RESTRICTED_DO_NOT_PUBLISH`: slides, recordings, licensed readings, assignment text, classmate information, or other protected materials lacking explicit permission.
+- `OWNERSHIP_CLARIFICATION_REQUIRED`: work product potentially governed by applicable Thunderbird/ASU student IP terms or a project agreement. Seek authoritative written clarification before public release or commercialization.
+
+**Procedure:** Review the specific source, date, course or project relationship, applicable syllabus, rights holder, license and publication permissions. Where provenance or rights are uncertain, withhold new public material; do not reproduce protected content merely to flag it. Preserve private evidence of the review in an appropriately access-controlled location. Existing public items with credible restriction concerns should be escalated for targeted review and appropriate removal or correction, not assumed cleared by a generic disclaimer. A repository-wide clean bill of health cannot be inferred from this policy entry.
+
+**Important distinction:** These labels are proposed internal GRI screening categories, not official Thunderbird or ASU classifications. This guidance is a conservative research governance procedure, not legal advice or a determination of intellectual property ownership.
