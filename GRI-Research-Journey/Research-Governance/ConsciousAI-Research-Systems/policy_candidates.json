@@ -1,7 +1,7 @@
 {
   "schema_version": "0.1",
   "status": "official_api_metadata_pending_human_review",
-  "last_collection_at": "2026-11-07T12:59:08.190012+00:00",
+  "last_collection_at": "2026-11-07T19:25:26.279160+00:00",
   "records": [
     {
       "id": "US-FR-2026-22739",
@@ -16,7 +16,7 @@
       "abstract": "This final rule with comment period revises the Medicare Hospital Outpatient Prospective Payment System (OPPS) and the Medicare Ambulatory Surgical Center (ASC) payment system for calendar year 2027 based on our continuing experience with these systems. We also describe the changes to the amounts and factors used to determine the payment rates for Medicare services paid under the OPPS and those paid under the ASC payment systems. In addition, this final rule with comment period updates and refines the requirements for the Hospital Outpatient Quality Reporting Program and the Ambulatory Surgical Center Quality Reporting Program. There are no changes to the Rural Emergency Hospital Quality Reporting Program. We finalized the expansion of the prior authorization requirement to include additional Botulinum Toxin Injection services. We also finalized implementation of certain provisions of the Consolidated Appropriations Act, 2026, for off-campus outpatient departments of a provider. In addition, this final rule with comment period announces notices of closure of teaching hospitals and opportunities to apply for available slots. Additionally, we finalized the policy that hospital accrediting organizations (AOs) with deeming authority may assess compliance with certain Emergency Medical Treatment and Labor Act (EMTALA) administrative requirements under 42 CFR 489.20 during accreditation and reaccreditation surveys.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-06T16:45:37.610040+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -33,7 +33,7 @@
       "abstract": "This document amends the U.S. Customs and Border Protection (CBP) regulations, consistent with Section 2 of Executive Order 14411, \"Strengthening Customs Enforcement,\" by establishing new requirements for foreign importers of record (IORs) when making entry, and corresponding responsibilities for licensed customs brokers with regard to their clients. The new regulations also set forth consequences for foreign IORs and customs brokers who fail to comply with the new requirements.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-06T16:45:37.610040+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -50,7 +50,7 @@
       "abstract": "The Emergency Communications Division (ECD) within Cybersecurity and Infrastructure Security Agency (CISA) submits the following Information Collection Request (ICR) to the Office of Management and Budget (OMB) for review and clearance.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-06T16:45:37.610040+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -67,7 +67,7 @@
       "abstract": "The Department of Labor (DOL or the Department) is issuing this final rule to remove the onerous and legally questionable affirmative action requirements that were previously imposed by the Department on Registered Apprenticeship program sponsors. This final rule also streamlines and simplifies nondiscrimination obligations for all program sponsors, while clarifying that sponsors are accountable for compliance with Federal and State nondiscrimination protections. It also makes conforming, technical changes to the Department's regulation that addresses Labor Standards for the Registration of Apprenticeship Programs.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-06T16:45:37.610040+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -84,7 +84,7 @@
       "abstract": "This final rule considers public comments submitted in response to the proposed rule to remove barriers to online ordering and internet-based transactions in the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC) published on February 23, 2023. USDA FNA is issuing this regulatory action to support State innovation and develop and implement modernized systems, while underscoring program integrity. It allows for the use of new technologies to improve the WIC shopping experience while increasing access to healthy foods for WIC participants. This final rule also complements the Program's complete transition to electronic benefit transfer (EBT) by streamlining and modernizing certain WIC food delivery regulations to support current technology and future innovation, and introduces measures to support a modern, data-driven program that uses new technologies for food delivery.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-06T16:45:37.610040+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -101,7 +101,7 @@
       "abstract": "The U.S. Department of Commerce (Commerce) determines that imports of steel wire garment hangers (hangers), completed in Cambodia using: (1) steel wire or (2) steel wire and paper accessories, produced in the People's Republic of China (China) or the Socialist Republic of Vietnam (Vietnam), are circumventing the antidumping duty (AD) order on hangers from China, or the AD and countervailing duty (CVD) orders on hangers from Vietnam.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-06T16:45:37.610040+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -118,7 +118,7 @@
       "abstract": "The Secretary proposes to amend the Notice of Final Priorities and Definitions--Secretary's Supplemental Priorities and Definitions on Evidence-Based Literacy, Education Choice, and Returning Education to the States published in the Federal Register on September 9, 2025, the Notice of Final Priority and Definitions--Secretary's Supplemental Priority and Definitions on Meaningful Learning Opportunities published in the Federal Register on February 12, 2026, the Notice of Final Priority and Definitions--Secretary's Supplemental Priority and Definitions on Career Pathways and Workforce Readiness published in the Federal Register on April 13, 2026, and the Notice of Final Priority and Definitions--Secretary's Supplemental Priority and Definitions on Advancing Artificial Intelligence in Education published in the Federal Register on April 13, 2026. The proposed amendments are needed to ensure that the U.S. Department of Education (ED, or the Department) has priorities that represent the full spectrum of learners, reflect the expertise of the Federal agencies that are active partners in our mission, and incorporate lessons learned from implementation in FY 2026 grant competitions.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-05T06:44:39.312686+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -135,7 +135,7 @@
       "abstract": "The Food and Drug Administration (FDA) is classifying the digital cervical cytology slide imaging system with artificial intelligence algorithm into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the digital cervical cytology slide imaging system with artificial intelligence algorithm. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of the device. We believe this action will also enhance patients' access to beneficial innovative devices, in part by reducing regulatory burdens.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-05T06:44:39.312686+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -152,7 +152,7 @@
       "abstract": "NSF proposes to establish Privacy Act systems of records to track and manage matters pertaining to the agency's awardee compliance program, reasonable accommodation program, and sexual assault and harassment prevention and response program. These systems support the agency's efforts to ensure that complaints and inquiries received or handled by these programs are timely and appropriately acknowledged, processed, and documented.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-05T06:44:39.312686+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -169,7 +169,7 @@
       "abstract": "",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-04T17:14:02.540636+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -186,7 +186,7 @@
       "abstract": "The FDIC is seeking comment on a proposal that would: remove the regulation regarding recordkeeping for timely deposit insurance determination; revise the regulation regarding large-bank deposit insurance determination modernization to modify the requirements that, following rescission of the preceding regulation, would generally apply to institutions currently subject to the preceding regulation, with certain modifications, and clarify its requirements to better align the burdens of the rule with the benefits; and revise the regulation regarding indexing of specified regulatory thresholds to index the thresholds to inflation in the regulation regarding large-bank deposit insurance determination modernization.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-04T17:14:02.540636+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -203,7 +203,7 @@
       "abstract": "In accordance with the Paperwork Reduction Act of 1995, we, the U.S. Fish and Wildlife Service (Service), are proposing to revise an existing information collection.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-04T17:14:02.540636+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -220,7 +220,7 @@
       "abstract": "The U.S. Nuclear Regulatory Commission (NRC, agency, or Commission) is revising the agency's rules of practice and procedure to streamline contested adjudications in NRC licensing proceedings in response to the Accelerating Deployment of Versatile, Advanced Nuclear for Clean Energy Act of 2024 (ADVANCE Act) and Executive Order 14300, Ordering the Reform of the Nuclear Regulatory Commission.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-03T17:02:04.989436+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -237,7 +237,7 @@
       "abstract": "In accordance with the Privacy Act of 1974, the United States Department of Transportation (DOT) proposes a new system of records titled, \"Department of Transportation, Federal Aviation Administration DOT/FAA 860, Unmanned Aircraft System Beyond Visual Line of Sight Operations--Parts 108/146.\" This system of records allows the FAA to collect, use, and maintain information from operators, manufacturers and Automated Data Service Providers (ADSPs), to the extent the operator, manufacturer or ADSP is an individual, when requesting authorizations to conduct or support certain beyond visual line of sight operations in the United States national airspace (NAS).",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-03T17:02:04.989436+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -254,7 +254,7 @@
       "abstract": "PHMSA proposes updating its regulations for liquefied natural gas (LNG) facilities to incorporate by reference the most recent industry safety standards and to make other changes to account for more than two decades of improvements and technological advancements. This rulemaking also responds to congressional mandates directing PHMSA to integrate risk-based regulatory approaches for certain LNG facilities.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-03T17:02:04.989436+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -271,7 +271,7 @@
       "abstract": "This final rule revises the Conditions for Coverage for Organ Procurement Organizations (OPOs) to clarify outstanding procedural questions and provide additional operational flexibility for OPOs to achieve high performance resulting in the successful procurement, distribution, and transplantation of more life-saving organs. This rule revises definitions, revises the designation requirements for OPOs, clarifies when an OPO's service area is open for competition, and updates the process for appeals. We are committed to holding all OPOs accountable for their performance and this final rule does not revise the focus on improving the volume of donors and transplants assessed in the outcome measures or the tier structure used for re-certification and de-certification of OPOs.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-03T17:02:04.989436+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -288,7 +288,7 @@
       "abstract": "In compliance with the Paperwork Reduction Act of 1995 the U.S. Coast Guard is forwarding an Information Collection Request (ICR), abstracted below, to the Office of Management and Budget (OMB), Office of Information and Regulatory Affairs (OIRA), requesting an extension of its approval for the following collection of information: 1625-0072, Waste Management Plans, Refuse Discharge Logs, Letters of Designation for Certain Persons-in-Charge (PIC) and Great Lakes Dry Cargo Residue Recordkeeping; without change. Our ICR describes the information we seek to collect from the public. Review and comments by OIRA ensure we only impose paperwork burdens commensurate with our performance of duties.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-11-03T17:02:04.989436+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -305,7 +305,7 @@
       "abstract": "The Federal Communications Commission (Commission or FCC) proposes to update its rules for Ultra-Wideband (UWB) devices to reflect significant technological developments since the rules were first adopted in 2002. UWB technology has matured into a widely used, low-power enabler that supports applications in tracking, automation, precision location, health monitoring, athletic performance, and public safety. As capabilities of UWB have expanded, the existing rules have not kept pace with the technological change, resulting in an increasing number of waiver requests received by the Commission to authorize modern devices. The Notice of Proposed Rulemaking seeks comment on revisions intended to modernize the UWB framework, provide greater flexibility for future applications, promote continued innovation, and ensure the protection of incumbent federal and non-federal spectrum users.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-31T12:26:52.105127+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -322,7 +322,7 @@
       "abstract": "The Department is issuing a final regulation that will require providers of pharmacy benefit management services and affiliated providers of brokerage and consulting services to disclose information about their compensation to fiduciaries of large, self-insured group health plans subject to the Employee Retirement Income Security Act (ERISA). Pharmacy spending is a major driver of overall healthcare costs for employers and is growing faster than medical and surgical spending. These disclosure requirements apply for purposes of ERISA's statutory prohibited transaction exemption for service arrangements under section 408(b)(2). These disclosures are needed so that fiduciaries can assess the reasonableness of contracts or arrangements with these service providers, including the reasonableness of the service providers' compensation. As directed in section 12 of President Trump's Executive Order 14273, Lowering Drug Prices by Once Again Putting Americans First, the Department is issuing this rule to improve employer health plan transparency into the direct and indirect compensation received by pharmacy benefit managers. This final rule will affect sponsors and other fiduciaries of large, self-insured group health plans and certain service providers to such plans.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-31T12:26:52.105127+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -339,7 +339,7 @@
       "abstract": "The Centers for Medicare & Medicaid Services (CMS) is requesting that an information collection request revision for the Review Choice Demonstration or Home Health Services (CMS-10599/0938- 1311) processed under the emergency clearance process associated with the implementing regulations of the Paperwork Reduction Act of 1995 (PRA). Public harm is reasonably likely to occur if normal, non- emergency clearance procedures are followed. The approval of this data collection process is essential to ensure that the Review Choice Demonstration (RCD) for Home Health (HH) Services is expanded to California within the specified timeframe. A delay in the expansion means an extended time the public will be harmed through the continuation of significant fraud found in the traditional Medicare home health benefit in California through the waste of taxpayer money, a loss of funds from the Medicare Trust Funds that could have been used for truly needed care, paying for care that is never delivered, and beneficiaries potentially receiving non-medically necessary care. Under the PRA, federal agencies are required to publish notice in the Federal Register concerning each proposed ICR. Interested persons are invited to send comments regarding our burden estimates or any other aspect of this ICR including the necessity and utility of the proposed ICR for the proper performance of the agency's functions, the accuracy of the estimated burden, ways to enhance the quality, utility, and clarity of the information to be collected and the use of automated collection techniques or other forms of information technology to minimize the information collection burden.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-31T12:26:52.105127+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -356,7 +356,7 @@
       "abstract": "",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-31T12:26:52.105127+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -373,7 +373,7 @@
       "abstract": "In compliance with the requirement for opportunity for public comment on proposed data collection projects of the Paperwork Reduction Act of 1995, HRSA announces plans to submit an Information Collection Request (ICR), described below, to the Office of Management and Budget (OMB). Prior to submitting the ICR to OMB, HRSA seeks comments from the public regarding the burden estimate, below, or any other aspect of the ICR.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-30T09:59:29.441569+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -390,7 +390,7 @@
       "abstract": "This final rule updates and revises the End-Stage Renal Disease (ESRD) Prospective Payment System for calendar year 2027. This rule also includes updates to the payment rate for renal dialysis services furnished by an ESRD facility to individuals with acute kidney injury. In addition, this rule updates the requirements for the ESRD Quality Incentive Program.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-30T09:59:29.441569+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -407,7 +407,7 @@
       "abstract": "The Food and Drug Administration (FDA) is classifying the over-the-counter device to assess risk of sleep apnea into class II (special controls). The special controls that apply to the device type are identified in this order and will be part of the codified language for classification of the over-the-counter device to assess risk of sleep apnea. We are taking this action because we have determined that classifying the device into class II will provide a reasonable assurance of the safety and effectiveness of the device. We believe this action will also enhance patients' access to beneficial innovative devices, in part by reducing regulatory burdens.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-30T09:59:29.441569+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -424,7 +424,7 @@
       "abstract": "The Department revises the existing accrediting agency recognition regulations to implement the directives set forth in Executive Order 14279, Reforming Accreditation to Strengthen Higher Education, and other Administration priorities, align the regulations more closely with statute, and reduce regulatory burden.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-30T09:59:29.441569+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -441,7 +441,7 @@
       "abstract": "The Department of Health and Human Services (\"HHS\" or \"Department\") is proposing to revise the Mandatory Guidelines for Federal Workplace Drug Testing Programs using Urine (UrMG), published in the Federal Register on October 12, 2023).",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-29T09:57:10.336293+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -458,7 +458,7 @@
       "abstract": "The Department of Health and Human Services (\"HHS\" or \"Department\") is proposing to revise the Mandatory Guidelines for Federal Workplace Drug Testing Programs using Oral Fluid (OFMG) published on October 12, 2023.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-29T09:57:10.336293+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -492,7 +492,7 @@
       "abstract": "",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-29T09:57:10.336293+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -594,7 +594,7 @@
       "abstract": "NCES seeks comment on the strategic redesign of its portfolio of studies, including administrative data collections and sample surveys, both cross-sectional and longitudinal.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-29T09:57:10.336293+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -662,7 +662,7 @@
       "abstract": "",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-28T12:52:58.977822+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -696,7 +696,7 @@
       "abstract": "The Internal Revenue Service Advisory Council will hold a public meeting.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-28T12:52:58.977822+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -713,7 +713,7 @@
       "abstract": "NCUA's draft \"detailed business-type budget\" is being made available for public review as required by federal statute. The proposed resources will finance the agency's annual operations and capital projects, both of which are necessary for the agency to accomplish its mission of enabling access to financial services by facilitating safe, sound, and resilient credit unions. Comment instructions are included in the SUPPLEMENTARY INFORMATION section.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-28T12:52:58.977822+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -730,7 +730,7 @@
       "abstract": "This final rule focuses on deregulatory actions identified in HHS regulations regarding health information technology standards, implementation specifications, and certification criteria and regarding certification programs for health information technology. This final rule reduces burden, offers flexibility to both developers and providers, and supports innovation through the removal and revision of certain certification criteria and regulatory provisions.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-28T12:52:58.977822+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -747,7 +747,7 @@
       "abstract": "The United States Copyright Office is conducting the tenth triennial rulemaking proceeding under the Digital Millennium Copyright Act (\"DMCA\"), concerning temporary exemptions to the DMCA's prohibition against circumvention of technological measures that control access to copyrighted works. Having carefully considered the petitions for new and renewal exemptions and comments received in response to the June 9, 2026 Notification of Inquiry, the Office announces the Register's intention to recommend all but one of the existing exemptions for renewal, and initiates three rounds of public comment on newly proposed exemptions. Comments submitted may not exceed twenty-five pages per class, excluding documentary evidence.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-28T12:52:58.977822+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -815,7 +815,7 @@
       "abstract": "The United States (U.S.) Department of Energy (DOE) is issuing this notice to advise the public that DOE added helium to the DOE Critical Material List. This notice also provides the link to the assessment that forms the justification for including helium on the Critical Material List. Helium is non-substitutable for multiple critical energy functions, including: semiconductor manufacturing, leak testing natural gas infrastructure, and quantum computing, along with being essential to key medical/scientific applications. Demand for helium is also growing as it enables advanced semiconductor manufacturing, which is essential for SI and data center supply chains.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-27T08:58:31.849942+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -917,7 +917,7 @@
       "abstract": "This proposed rule sets forth regulations that would implement Subtitle C of the Comprehensive Outbound Investment National Security Act, which is codified at Title VIII of the Defense Production Act. The proposed rule would require United States persons to provide notification to the U.S. Department of the Treasury regarding certain transactions involving foreign persons that are engaged in notifiable technologies; and prohibit United States persons from engaging in certain other transactions involving foreign persons that are engaged in prohibited technologies. Where consistent with Title VIII, the proposed rule incorporates certain definitions and concepts from the current regulations governing the Outbound Investment Security Program. The proposed rule also would add applicability dates to the regulations, such that those regulations would continue to apply to activities that occurred within the relevant timeframe.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-24T10:58:10.630594+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -968,7 +968,7 @@
       "abstract": "The Coast Guard announces its intent to enter a Cooperative Research and Development Agreement (CRADA) with LOOKOUT to assess Super Intelligence for automated target detection and establish a reliable coverage-factor value supporting data-driven Lateral Range Curve (LRC) results for Search and Rescue (SAR) operations. Proposed tools must be high technology-readiness-level, commercially available, self- contained, portable, capable of edge computing, and compatible with video-feed-agnostic sensors. While considering LOOKOUT, the Coast Guard seeks public comment on the proposed CRADA and potential participation by other parties. Interested Federal entities with relevant capabilities may submit proposals for similar CRADAs for agency consideration and future collaboration.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-24T10:58:10.630594+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -985,7 +985,7 @@
       "abstract": "Notice is hereby given, pursuant to the provisions of the rules and regulations of the U.S. Commission on Civil Rights (Commission) and the Federal Advisory Committee Act, that the Michigan Advisory Committee (Committee) to the U.S. Commission on Civil Rights will hold public meetings via Zoom. The purpose of the first meeting is to continue to hear from experts on the committee's study topic of Artificial Intelligence and Civil Rights in Michigan, and continue briefing discussion and planning at the second meeting.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-23T11:37:29.585765+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1002,7 +1002,7 @@
       "abstract": "The Office of the Comptroller of the Currency (OCC) is issuing regulations implementing the Guiding and Establishing National Innovation for U.S. Stablecoins Act regarding the issuance of payment stablecoins and certain related activities by entities subject to the OCC's jurisdiction.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-23T11:37:29.585765+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1070,7 +1070,7 @@
       "abstract": "In compliance with the Paperwork Reduction Act of 1995, HRSA submitted an Information Collection Request (ICR) to the Office of Management and Budget (OMB) for review and approval. Comments submitted during the first public review of this ICR will be provided to OMB. OMB will accept further comments from the public during the review and approval period. OMB may act on HRSA's ICR only after the 30-day comment period for this notice has closed.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-23T11:37:29.585765+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1087,7 +1087,7 @@
       "abstract": "The Food and Nutrition Administration (FNA or the Agency), an agency of the U.S. Department of Agriculture (USDA or the Department), is issuing a rule proposing changes to Supplemental Nutrition Assistance Program (SNAP, the Program) regulations to modernize Electronic Benefit Transfer (EBT) technology and align EBT with consumer payment processing industry standards, improving both Program integrity and convenience for SNAP clients. These proposed changes will protect SNAP benefits from thieves and ensure benefits are accessible by approved households.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-23T11:37:29.585765+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1478,7 +1478,7 @@
       "abstract": "On October 30, 2025, DHS published an interim final rule (IFR) that amended DHS regulations to end the practice of automatically extending the validity of employment authorization documents (Forms I- 766 or EADs) for aliens who have timely filed an application to renew their EAD in certain employment authorization categories. This final rule responds to comments received on the IFR and reaffirms and finalizes the provisions of the IFR. Ending the automatic extension of EADs enhances benefit integrity and prioritizes the proper vetting and screening of aliens before granting a new period of employment authorization and/or a new EAD.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1699,7 +1699,7 @@
       "abstract": "The Securities and Exchange Commission (the \"Commission\") is proposing to amend the rule under the Investment Advisers Act of 1940 that provides an exemption from the statutory prohibition on registered investment advisers receiving compensation on the basis of a share of capital gains in or capital appreciation of an advisory client's account. Specifically, the proposed amendments would expand the ability of investment advisers to receive this compensation from clients that are registered management investment companies and business development companies (collectively, \"regulated funds\"), subject to certain conditions. The proposal would relatedly amend certain regulated fund registration and reporting forms to require separate disclosure of all performance-based compensation paid by regulated funds to their investment adviser. The proposed rule amendments would also allow investment advisers to receive this compensation from additional clients by revising the rule's \"qualified client\" definition to include investors that meet the \"accredited investor\" definition in Regulation D under the Securities Act of 1933. The proposal would relatedly make conforming amendments to certain other rules under the Investment Advisers Act of 1940 whose provisions reference the \"qualified client\" definition.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1716,7 +1716,7 @@
       "abstract": "The Securities and Exchange Commission (the \"Commission\" or the \"SEC\") is proposing new custody rules under the Investment Company Act of 1940 (the \"Investment Company Act\") and amendments to related reporting and recordkeeping requirements to address how regulated investment companies may custody crypto securities and similar investments, and amendments to the custody rule and related reporting and recordkeeping rules under the Investment Advisers Act of 1940 (the \"Advisers Act\") to address how registered investment advisers may custody client crypto funds and securities. We are also proposing to amend the current custody rules to modernize their requirements, to better address current industry practices and feedback, and to implement certain conforming amendments. We are also proposing amendments to the recordkeeping rules under the Investment Company Act and Advisers Act related to these proposed modernization amendments to the custody rules. Additionally, we are proposing to redesignate the custody rule under the Advisers Act and to make corresponding amendments to Form ADV and Form ADV-E for registered investment advisers to reflect the Advisers Act custody rule redesignation. We are also proposing amendments to Form ADV for registered investment advisers and Form N-CEN for regulated investment companies and to improve the quality of public disclosures made on these forms. We are also proposing to add new questions to Form ADV and Form N-CEN related to tokenized private funds and regulated investment company shares, respectively.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1733,7 +1733,7 @@
       "abstract": "These final rules set forth requirements that amend the regulations under the Public Health Service Act, the Employee Retirement Income Security Act of 1974, and the Internal Revenue Code regarding price transparency reporting requirements for non- grandfathered group health plans and health insurance issuers offering non-grandfathered group and individual health insurance coverage. Specifically, these final rules are intended to improve the standardization, accuracy, and accessibility of public pricing disclosures in line with the goals of Executive Order 14221, \"Making America Healthy Again by Empowering Patients With Clear, Accurate, and Actionable Healthcare Pricing Information.\" With respect to the In- network Rate and out-of-network Allowed Amount machine-readable files, these final rules aim to achieve these goals by adding new contextual files and additional data elements like product type, provider network name, and provider network identifier; changing the reporting level for aggregation of data; removing in-network rates for unlikely provider- to-service mappings; increasing the reporting period and lowering the claims threshold for out-of-network historical data; and reducing the reporting cadence. These final rules also aim to improve the findability of all publicly disclosed machine-readable files required under the Transparency in Coverage rules, including the prescription drug file, by requiring a text file containing contact information for the files, and a footer with website URLs. These final rules also require pricing information that is made available through an online consumer tool and on paper (upon request), to also be made available by phone, and establish that the satisfaction of such requirement also satisfies the requirements of section 114 o",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1767,7 +1767,7 @@
       "abstract": "",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1801,7 +1801,7 @@
       "abstract": "This final rule implements the Global Benchmark for Efficient Drug Pricing Model (GLOBE Model), a new mandatory Medicare payment model under section 1115A of the Social Security Act. The GLOBE Model will test whether a payment model that uses an alternative method for calculating Medicare Part B drug inflation rebate amounts for certain separately payable Medicare Part B drugs and biological products reduces costs for Original Medicare (OM) beneficiaries and the Medicare program while preserving quality of care. The term OM has the same meaning as Medicare fee-for-service and the traditional Medicare program.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1869,7 +1869,7 @@
       "abstract": "NHTSA, on behalf of the U.S. Department of Transportation (DOT), is substantially recalibrating the Corporate Average Fuel Economy (CAFE) program to bring the program into compliance with the law and to remove previous regulatory distortions which have induced manufacturers to make design decisions that have neither aligned with market demand and the needs of American families nor have delivered the consistent improvements in the fuel economy performance of manufacturer fleets, as Congress intended. This recalibration finalizes amendments to fuel economy standards for light-duty vehicles for model years 2022- 2026 and MYs 2027-2031. This final rule also finalizes amendments to compliance aspects of the program, including to vehicle classification and other compliance pathways.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1920,7 +1920,7 @@
       "abstract": "Consistent with Executive Order 14300, \"Ordering the Reform of the Nuclear Regulatory Commission,\" the NRC is conducting a review and wholesale revision of its regulations. This proposed rule primarily aims to provide regulatory enhancements for reactor licensing, decommissioning, and operational oversight and is one effort in the NRC's activities to address the direction in section 5 of Executive Order 14300.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1937,7 +1937,7 @@
       "abstract": "This request for information (RFI) solicits input from interested parties for purposes of establishing standards for reasonable and relevant pharmacy contract terms and conditions under the Medicare prescription drug benefit. Section 6223(a) of the Consolidated Appropriations Act, 2026 (CAA, 2026) amends section 1860D- 4(b)(1)(A) of the Social Security Act (the Act) to require Part D plan sponsors to permit any pharmacy that meets standard contract terms and conditions under the plan to participate as a network pharmacy of the plan. Section 6223(a) of the CAA, 2026 further requires that, notwithstanding any other provision of law, for plan years beginning January 1, 2029, such standard contract terms and conditions offered by Part D plan sponsors must be reasonable and relevant according to standards established by the Secretary of the Department of Health and Human Services. Finally, section 6223(a) of the CAA, 2026 requires the Secretary to issue this RFI for purposes of establishing such standards.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1954,7 +1954,7 @@
       "abstract": "OFPP, DoD, GSA, and NASA (collectively referred to as the Federal Acquisition Regulatory Council or FAR Council) are proposing to amend the Federal Acquisition Regulation (FAR) to implement Executive Order (E.O.) 14275, Restoring Common Sense to Federal Procurement. The E.O. directs the elimination of excessive acquisition regulations to stop the inefficient use of American taxpayer dollars. The FAR Council is issuing twelve proposed rules that collectively, if finalized, would streamline the FAR in its entirety. This rule proposes revisions to FAR part 16, Types of Contracts, part 17, Special Contracting Methods, part 35, Research and Development Contracting, and part 52, Solicitation Provisions and Contract Clauses.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1971,7 +1971,7 @@
       "abstract": "OFPP, DoD, GSA, and NASA (collectively referred to as the Federal Acquisition Regulatory Council or FAR Council) are proposing to amend the Federal Acquisition Regulation (FAR) to implement Executive Order (E.O.) 14275, Restoring Common Sense to Federal Procurement. The E.O. directs the elimination of excessive acquisition regulations to stop the inefficient use of American taxpayer dollars. The FAR Council is issuing twelve proposed rules that collectively, if finalized, would streamline the FAR in its entirety. This rule proposes revisions to FAR parts 9, 27, 47, and 52.",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
@@ -1988,7 +1988,7 @@
       "abstract": "",
       "verification_status": "official_api_metadata_unreviewed",
       "first_seen_at": "2026-10-20T04:49:20.742284+00:00",
-      "last_seen_at": "2026-11-07T12:59:07.460393+00:00",
+      "last_seen_at": "2026-11-07T19:25:25.615539+00:00",
       "review_required": true,
       "source_api": "https://www.federalregister.gov/api/v1/documents.json"
     },
