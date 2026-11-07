@@ -1,0 +1,26 @@
+name: GRI Mobility Dashboard Acceptance
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/gri-mobility-dashboard-acceptance.yml'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/dashboard.html'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_mobility_dashboard.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run 30 mobility scenarios and structural acceptance
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: python -m unittest -v test_mobility_dashboard
