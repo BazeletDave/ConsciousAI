@@ -151,3 +151,54 @@ Define for comparable markets:
 
 ### 9.6 Verification and publication gate
 Before external release, independently reconcile corporate filing tables and definitions; verify dated AV launch and fleet counts against company and regulatory records; confirm every cross-reference; check source rights and confidentiality; have an independent reviewer challenge the strongest causal inferences; and preserve version-specific review results. Keep the institutional landing page unchanged.
+
+
+## 10. Endogenous labor supply and autonomous substitution: GRI's institutional feedback hypothesis
+**Analytical status:** A testable interpretation of the existing longitudinal evidence, not a finding of intentional driver elimination, algorithmic manipulation, or established displacement.
+
+### 10.1 Mechanism and rival explanations
+The central question is whether platform-managed labor conditions can influence the economic and political feasibility of autonomous supply. One possible feedback loop is: algorithmic offer allocation and earnings uncertainty → changes in perceived driver opportunity and willingness to supply labor → localized service reliability constraints → increased strategic value of supplemental AV capacity → changes in platform bargaining power and dispatch allocation → new human driver economics. Every arrow is a hypothesis to be tested, not an established causal pathway.
+
+At least four rival accounts must be considered: (A) AV development is principally driven by technical progress and capital availability regardless of driver sentiment; (B) growing rider demand outpaces driver recruitment despite improving driver conditions; (C) driver dissatisfaction and AV investment are parallel consequences of broader cost pressure rather than causally linked; (D) AV supply complements human drivers by expanding accessible demand, particularly where driver supply is scarce.
+
+### 10.2 Distinguish community evidence, corporate incentives and intent
+Driver complaints about fare allocation, declining perceived autonomy and inconsistent incentives are relevant qualitative evidence. The [Chicago paired Lyft transaction case](case-study-002-chicago-consecutive-lyft-rides.md), [November 2026 surge and flooding observations](2026-11-03-south-florida-flood-surge-incentives-observational-extension.md), [driver interview](appendix-a-interview-0107-2026-10-23.md) and [November 5 comparative driver economics note](README.md) offer concrete source-qualified examples. They do not demonstrate a platform-wide suppression policy or a coordinated attempt to force workers out.
+
+Corporate management has strategic reasons to value supply flexibility and autonomous capacity. That is not equivalent to a documented intent to create a driver shortage. Establishing intent would require attributable executive communications, policy decisions, consistent financial incentives, or other direct evidence, alongside contrary records.
+
+### 10.3 A stronger economic test
+The strategic value of autonomous capacity is not simply the gross wages it might avoid. It is the **marginal contribution of an AV in a specific market, hour and operating domain**, compared with the best available human driver alternative after accounting for rider wait time, conversion, deadheading, incentives, full fleet costs, weather restrictions, service failures and regulatory exposure.
+
+Define a market-hour comparison:
+- Human effective supply: available drivers × acceptance probability × feasible trips per driver-hour.
+- AV effective supply: active eligible vehicles × domain availability × completed trips per vehicle-hour.
+- Unserved demand: requests not completed within a specified service threshold, with cancellations and price sensitivity separated.
+- Displacement indicator: change in human completed trips or paid hours attributable to AV availability after adjustment for demand, seasonality, price, geography and platform policy.
+- Welfare and governance: rider generalized cost, driver net earnings, safety exposure, appeal rights and public oversight.
+
+**Interpretation:** A platform could deploy AVs to reduce unserved demand without reducing human trip volumes, or could selectively replace human trips even while total demand grows. Aggregate platform trip growth alone cannot distinguish these outcomes.
+
+### 10.4 What would confirm or weaken the feedback hypothesis?
+**Evidence consistent with it:** A documented sequence in which worsening driver offer economics precedes reduced local active supply, unmet rider demand rises, and AV allocation subsequently expands in overlapping operating domains, after adjustment for alternative drivers. Internal planning documents explicitly tying labor supply economics to AV deployment would materially strengthen an intent claim.
+
+**Evidence against it:** Stable or improving human net earnings and hours during AV expansion; AV operations concentrated where human drivers were already unavailable; no measurable change in human trip allocation after deployment; or corporate records showing independent deployment decisions driven by technological or regulatory readiness.
+
+### 10.5 Illustrative institutional feedback diagram
+```mermaid
+flowchart TD
+A[Algorithmic offer and incentive design] --> B[Driver net opportunity and perceived autonomy]
+B --> C[Driver participation and local supply]
+D[Rider demand and external conditions] --> C
+D --> E[Unserved demand and wait times]
+C --> E
+E --> F[Value of supplemental autonomous capacity]
+G[AV technology, regulation and capital] --> F
+F --> H[Mixed fleet deployment and assignment]
+H --> I[Human trip allocation and driver economics]
+I --> B
+H --> J[Safety, liability and institutional oversight]
+```
+*Arrows denote hypotheses and dependencies for empirical investigation, not established causation.*
+
+### 10.6 Priority conclusion
+GRI can legitimately state that algorithmic labor management and autonomous mobility strategy are economically and institutionally interdependent questions. The current corpus supports a credible mechanism, multiple concrete field observations and competing explanations. It does **not** yet establish deliberate driver displacement, a coordinated effort to worsen labor conditions, or a measured net reduction in human driver employment attributable to robotaxis. A rigorous account must preserve this distinction while continuing to test whether the feedback mechanism is occurring.
