@@ -88,3 +88,66 @@ These scenarios may coexist across cities and periods. None is yet established a
 10. [NHTSA automated vehicle safety](https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety).
 
 **Review gate:** This is an institutional strategic research assessment, not a commissioned audit of the companies or a validated econometric result. Source links, metric definitions and model assumptions should be independently rechecked before formal external publication.
+
+
+## 9. Cross-repository evidence reconciliation: moving beyond the foundation
+This section draws directly on previously documented GRI material rather than introducing new research streams.
+
+| Existing GRI evidence | What it establishes | Strategic implication | Limitation / disconfirming test |
+| --- | --- | --- | --- |
+| [Chicago paired Lyft transactions](case-study-002-chicago-consecutive-lyft-rides.md) | Source-reported similar consecutive rides with sharply different estimated Lyft fees | The platform can produce heterogeneous allocation outcomes even for superficially similar journeys | Receipt reconciliation, fee definitions, time and pricing context needed before inferring algorithmic discrimination |
+| [South Florida flood and surge evidence](2026-11-03-south-florida-flood-surge-incentives-observational-extension.md) | Screenshots of differentiated surge and driver-reported safety concerns | Supply scarcity, hazard communication and financial incentives may interact; AVs will require explicit weather and operating-domain boundaries | Source dates, NWS warning alignment and actual trip outcomes unverified |
+| [Driver interview 0107](appendix-a-interview-0107-2026-10-23.md) | Consented qualitative evidence on acceptance, unpaid time, fatigue/rest constraints and perceived opacity | Human supply is constrained by worker preferences and real economic opportunity, not just driver headcount | One interview does not estimate population effects |
+| [Uber agentic engineering synthesis](2026-10-24-uber-agentic-engineering-reference-synthesis.md) and [persona guardrail](uber-persona-guardrail-institutional-authority-2026-10-23.md) | Company-described technical governance and GRI's prior analysis | Control over agent permissions illustrates the broader problem of allocating decision authority | No evidence these components operate within dispatch, fare calculation or AV safety systems |
+| [Waymo and Uber comparative note](waymo-uber-november-2026.md) | Dated evidence of changing distribution relationships and unresolved valuation comparisons | Bargaining power may shift between ride aggregators and AV operators | Private valuation, public capitalization, fleet and trip denominators cannot be compared as if equivalent |
+| [Broward November 5 milestone](../../../autonomous-mobility-research/Institutional-Validation-Milestones-2026-11-05.md) | Photographic and testimonial record of instrumented vehicles, with explicit verification gates | Physical deployment evidence and institutional assurance must be assessed separately | No proof of Cybercab affiliation, active automation, sensor model or public contract |
+| [GRI mobility intelligence Dataset 12](../../Algorithmic-Management-Institutional-Leadership/GRI-Mobility-Intelligence/DATASET12-INTEGRATION.md) | Documented prototype specification for consented offer and trip economics | Existing measurement design can distinguish proposed offer, accepted trip, settlement, total commitment time and cost | Not live ingestion, validated driver earnings or deployed optimization |
+| [June 2025 autonomous mobility working paper](../../../autonomous-mobility-research/README.md) | Archival conceptual treatment of probabilistic autonomy | Documents intellectual continuity before 2026 commercial acceleration | Historical deployment, legal and safety assertions are explicitly flagged as requiring primary verification |
+
+### 9.1 A coherent causal map, with falsification points
+**Observed or disclosed conditions:** Rider demand and platform activity; localized driver supply constraints; heterogeneous offers and incentive displays; corporate AV deployments and forecasts; competing distribution agreements.
+
+**Possible mechanisms, not demonstrated:** (i) unmet demand raises the value of additional capacity; (ii) AV supply changes assignment and bargaining power; (iii) AV operating-domain limitations concentrate automation in selected routes and conditions; (iv) platform incentives redistribute risk and revenue among riders, drivers, AV developers and fleet operators; (v) safety and audit obligations become more complex as responsibility is divided.
+
+**Potential outcomes:** Pickup time, completed trips, driver net earnings, empty miles, rider price, AV utilization, incident risk, contestability, and independent assurance capacity.
+
+**Confounders:** Fuel prices, unemployment, local wages, tourism, weather, seasonal travel, product mix, regulatory access, marketing incentives, service-area boundaries and contract changes. None of the mechanisms is causally identified by the current corpus.
+
+### 9.2 Unit economics: the necessary bridge
+A conventional human trip requires analysis of rider payment, driver payout, pickup and occupied miles, unpaid waiting, platform fees, insurance and driver vehicle costs. An AV trip replaces driver compensation with a different cost stack: vehicle depreciation and financing, energy, cleaning, maintenance, insurance, depot costs, remote support, mapping/compute, regulatory compliance and empty repositioning. A lower marginal labor cost is **not** sufficient to prove a lower fully allocated cost per completed ride.
+
+Define for comparable markets:
+- Human driver residual per online hour = (settled fares + tips + earned incentives − driver operating costs) / online hours.
+- Human platform contribution per trip = company-recognized net revenue attributable to the trip − platform variable costs, with accounting scope disclosed.
+- AV fully allocated cost per completed paid trip = (vehicle capital charge + energy + service + insurance + remote operations + depot + software/compute + compliance + empty repositioning costs) / completed paid trips.
+- AV contribution per trip = attributable realized revenue − AV fully allocated cost per completed paid trip, with partner revenue sharing separately modeled.
+
+**Break-even illustration (not observed economics):** If an AV has $100/day fixed allocated cost, $3 variable cost per paid ride and receives $15 realized revenue per ride, the fixed-cost break-even is 100/(15−3) = 8.33, or **9 paid rides per day**. If fixed cost rises to $180/day, the same assumptions imply **15 rides/day**. If realized revenue falls to $10/ride with $100 fixed and $3 variable, break-even rises to **15 rides/day**. These examples expose sensitivity to utilization, cost allocation and net revenue definitions; they do not forecast any firm's profitability.
+
+### 9.3 Strategic options and indicators
+| Strategic option | What management would need to prove | Early warning or validation indicator |
+| --- | --- | --- |
+| Uber as multi-provider AV orchestrator | Sustainable rider access and partner economics without owning every vehicle stack | AV partner retention, ride availability, net revenue per completed trip, rider conversion and safety allocation |
+| Lyft as distribution and fleet service integrator | Fleet service margin and customer acquisition economics | Depot utilization, uptime, servicing cost, partner concentration and geographic expansion |
+| Waymo as operator with optional distribution | Cost-effective direct demand versus intermediary channel value | Direct versus partner sourced ride mix, utilization, CAC and market-level retention |
+| Tesla as vertically integrated AV developer/operator | Unsupervised safety case and fully allocated fleet economics at scale | Actual driverless service-area availability, vehicle uptime, intervention rate, claims experience and version-specific safety results |
+| Human driver complementary model | Persistent demand for human service under AV operating-domain limits | Weather, airport, accessibility and peripheral-zone trip shares; human net hourly earnings |
+
+### 9.4 Institutional governance: an explicit decision-rights matrix
+| Decision | Human-driver model | Hybrid AV model | Evidence required |
+| --- | --- | --- | --- |
+| Trip acceptance / dispatch | Driver accepts or declines offers subject to platform rules | Marketplace may route to driver or AV subject to operator domain | Allocation policy, offer logs, appeals |
+| Hazard response | Driver judgment, platform warnings and local authorities | AV fallback, remote assistance and operational-domain restrictions | Versioned safety case, warning feeds, escalation logs |
+| Pricing and allocation | Platform pricing and driver compensation terms | Multiple commercial parties may divide fare and costs | Contracts, settlement records and fee definitions |
+| Incident investigation | Driver, insurer, platform and public agencies | AV developer, operator, fleet service, platform, insurer and public agencies | Custody, telemetry access, reporting and liability framework |
+| Assurance and contestability | Driver complaint and regulator channels | Rider redress plus machine-decision reconstruction and independent reviewer access | Provenance, appeals, reproducibility, corrective-action ownership |
+
+### 9.5 What GRI can conclude now
+**Supported:** The repository contains dated longitudinal observations, economic case material, corporate strategy disclosures, engineering governance analysis and a separate Broward instrumented-vehicle field record. These can be triangulated into a rigorous comparative institutional framework. The coexistence of localized supply constraints and AV investment is documented. Platform partnerships are evolving.
+
+**Not supported:** A single national driver shortage; AV causation of human-driver earnings changes; proven net cost superiority of any AV fleet; proof that Broward vehicles belong to Cybercab; proof that Uber's agent controls govern ride dispatch; comparative Tesla/Waymo safety ranking; or proof that institutional oversight necessarily lags technology.
+
+**Research judgment:** The repository is already rich enough for a multi-layer strategic assessment and quantitative sensitivity analysis. It is not yet sufficient for defensible causal estimates or a company-specific valuation. That is an evidence boundary, not a reason to limit synthesis to a foundation.
+
+### 9.6 Verification and publication gate
+Before external release, independently reconcile corporate filing tables and definitions; verify dated AV launch and fleet counts against company and regulatory records; confirm every cross-reference; check source rights and confidentiality; have an independent reviewer challenge the strongest causal inferences; and preserve version-specific review results. Keep the institutional landing page unchanged.
