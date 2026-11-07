@@ -45,3 +45,11 @@ The falsifiable GRI hypothesis is that labor supply conditions, platform allocat
 5. Keep main repository README, dashboard branding, frozen assurance records and private institutional data unchanged.
 
 **Milestone determination:** A working dashboard research integration and a versioned acceptance protocol are documented. Scientific and independent assurance milestones remain open. No university or external institution endorsement is implied.
+
+
+## Subsequent validation update | 2026-11-07
+- A Chromium browser fixture was independently exercised at a 390 x 844 mobile viewport with 30 scenario inputs. **30/30 fixture assertions passed**. The fixture reproduced the embedded calculator HTML controls and JavaScript; this does **not** constitute a live-site browser or complete visual accessibility audit.
+- GitHub Actions acceptance workflow was committed as `.github/workflows/gri-mobility-dashboard-acceptance.yml`. GitHub connector lookup for pull-request-associated workflow runs returned no qualifying run; **CI execution outcome not independently confirmed**. Do not infer a passing workflow from the successful commit.
+- A separate synthetic baseline contract was added as `test_mobility_ml_baseline.py`. It tests sample floor, numeric errors, deterministic digests, classification, Brier calibration, drift alerts and fail-closed release rules. **Test execution in GitHub Actions remains pending verification**.
+- Existing `model_registry.py` and `evaluation_pipeline.py` explicitly report **zero trained mobility models and zero verified evaluations**. No independent predictive ML baseline, continuous learning loop, drift-calibrated threshold, or production model release is claimed.
+- The workflow was updated to run both dashboard acceptance and separate ML baseline contract suites. These synthetic arithmetic and governance tests cannot substitute for a consent-cleared dataset, externally labeled holdout, independent reviewer and audited model evaluation.
