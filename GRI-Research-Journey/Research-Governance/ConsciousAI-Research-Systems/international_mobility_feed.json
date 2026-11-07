@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-06T23:07:13.341752+00:00",
+  "generated_at": "2026-11-07T05:56:51.679415+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -684,6 +684,20 @@
       "publication_authorized": false
     },
     {
+      "id": "d3170d26a91f6839a919",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Securing AI Agents: Lessons From Real-World Deployment",
+      "source_url": "https://www.uber.com/us/en/blog/securing-ai-agents/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "b727c210e8632dd76ab5",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -831,20 +845,6 @@
       "category": "mobility_industry",
       "title": "Large-Scale Automated Dependency Analysis Across Uber's Service Mesh",
       "source_url": "https://www.uber.com/us/en/blog/automated-dependency-analysis/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "a203c3b4510927c6019c",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "Halving the Time: How Uber Eats Rebuilt Its Search Pipeline",
-      "source_url": "https://www.uber.com/us/en/blog/uber-eats-search-pipeline/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
