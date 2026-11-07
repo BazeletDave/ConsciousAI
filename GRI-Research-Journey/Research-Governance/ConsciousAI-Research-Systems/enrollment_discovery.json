@@ -5,7 +5,7 @@
     "metadata_only": true,
     "retention_days": 365
   },
-  "generated_at": "2026-11-06T19:37:41.567485+00:00",
+  "generated_at": "2026-11-07T06:22:11.097486+00:00",
   "history": [
     {
       "at": "2026-10-28T17:56:33.427580+00:00",
@@ -326,9 +326,19 @@
       "new_records": 1,
       "retained_records": 57,
       "successful_sources": 6
+    },
+    {
+      "at": "2026-11-07T06:22:11.097486+00:00",
+      "changed_titles": 0,
+      "corpus_digest": "58ca7c87d6f874430f9ba3ba500ae1aff12eb4960062000ee12a8d56e13eb1c9",
+      "failed_sources": 1,
+      "model_version": 4,
+      "new_records": 0,
+      "retained_records": 57,
+      "successful_sources": 6
     }
   ],
-  "last_success_at": "2026-11-06T19:37:41.567485+00:00",
+  "last_success_at": "2026-11-07T06:22:11.097486+00:00",
   "model": {
     "corpus_digest": "58ca7c87d6f874430f9ba3ba500ae1aff12eb4960062000ee12a8d56e13eb1c9",
     "documents": 57,
@@ -1610,7 +1620,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "ea8ef486f978f11fa7a327e3",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "UK Government",
       "source_date": "2025-12-29T12:05:42Z",
       "source_id": "UK-GOV-SEARCH",
@@ -1625,7 +1635,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "d8dce035ab212dc5588023c2",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "UK Government",
       "source_date": "2026-09-01T08:28:09Z",
       "source_id": "UK-GOV-SEARCH",
@@ -1640,7 +1650,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "aa87c7ccdcf2047b67bd6c90",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1655,7 +1665,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "a8d9e4867261e0a943d0989e",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1670,7 +1680,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "a85b4250043215ad6934223e",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1685,7 +1695,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "a482b5c0329483dd821ebec0",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1700,7 +1710,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "a3d4e0802799e8e39dba96d0",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1715,7 +1725,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "a270cce565d45277f05ff9d3",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1730,7 +1740,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "a0329cf1e5208fe60a767a90",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1745,7 +1755,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "9e8528617a0a0efad204c15f",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1760,7 +1770,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "9c24333ad28bee3636efad67",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1775,7 +1785,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "909cc58622cf5e520a8e1b10",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1790,7 +1800,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "9070ba2d003a08c9b0a8c8b8",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1805,7 +1815,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "8583c27a80507b183e317c8b",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1820,7 +1830,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "7b17282836c87e95299d23de",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "UK Government",
       "source_date": "2025-09-17T11:00:00Z",
       "source_id": "UK-GOV-SEARCH",
@@ -1835,7 +1845,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "7858e6c8292d6951b025a6d8",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1850,7 +1860,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "773468d0d3448bbd2ec260ae",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1865,7 +1875,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "7502b3c400a3e51a2c8b6dc8",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "UK Government franchising research",
       "source_date": "2025-12-09T01:00:03Z",
       "source_id": "UK-FRANCHISE-SEARCH",
@@ -1880,7 +1890,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "73fd72ab266b969af3dd4666",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1895,7 +1905,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "70643aa6bdaf4eb3a391e9d3",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1910,7 +1920,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "6c494493c53cbb93b56166a5",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1925,7 +1935,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "69fad40bb89afea684d2b916",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1940,7 +1950,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "66bbccb474f56afccf42aab0",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1955,7 +1965,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "65de80c2bff398ee9434a0f6",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1970,7 +1980,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "651d61bf4708df78f9eb0738",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -1985,7 +1995,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "60086f4b0672a886893ddc8b",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2000,7 +2010,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "5e76fa2dc01e35efe908fced",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2015,7 +2025,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "5e1b480507dbcac1e20c97b6",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2030,7 +2040,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "5baab15cf9847fcd01270b28",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2045,7 +2055,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "587d950f33587e41589c3eb1",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2060,7 +2070,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "53dea05cbf58402fe1afd88d",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "UK Government",
       "source_date": "2019-03-06T00:00:00Z",
       "source_id": "UK-GOV-SEARCH",
@@ -2075,7 +2085,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "522ba51a42ec37d7b17f430c",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2090,7 +2100,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "4f0fb3aba03abd93518b07ad",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2105,7 +2115,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "4ea199f178fefe5c1c882726",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2120,7 +2130,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "489072a36527e17062f237c5",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2135,7 +2145,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "481fbdc49097604c2848176d",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2150,7 +2160,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "428c7a8b3d187d3a5f43778f",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2165,7 +2175,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "420382c8fd2693ea82ee584d",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2180,7 +2190,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "36d1d039a844390e43bf4650",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2195,7 +2205,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "2f5ae4f9bc1bfd6957258332",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2210,7 +2220,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "2dc41598bf03beefdd2eaf75",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2225,7 +2235,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "2c9f7576c91729a44b6f7748",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2240,7 +2250,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "260989691cdbdba4480def3e",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2255,7 +2265,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "23ff23e9f4b838171c442a56",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2270,7 +2280,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "23984c34707d201a7c6c59a6",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2285,7 +2295,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "22d3ce7f285c03f490e10f9e",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2300,7 +2310,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "20b983c83a0ed2d5c7f2ac75",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2315,7 +2325,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "2038b7b74db5043341bbe50b",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2330,7 +2340,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "1cc124608670f5c8bf5950d2",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2345,7 +2355,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "1b9bc821d98d904208ba10af",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2360,7 +2370,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "17b150fd94c813bf67fe20cc",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2375,7 +2385,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "157f3d74a75b6679d9587c5e",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2390,7 +2400,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "0601ff32e6150fae530dd1b4",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2405,7 +2415,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "0232c2739367b36e3294d2f1",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2420,7 +2430,7 @@
       "fraud_training_eligible": false,
       "human_review_required": true,
       "id": "00ca1d431eec36c78581674a",
-      "last_seen_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_seen_at": "2026-11-07T06:22:11.097486+00:00",
       "publisher": "Australian Skills Quality Authority",
       "source_date": null,
       "source_id": "AU-ASQA",
@@ -2462,7 +2472,7 @@
   "schema_version": "1.0",
   "sources": [
     {
-      "attempted_at": "2026-11-06T19:37:41.567485+00:00",
+      "attempted_at": "2026-11-07T06:22:11.097486+00:00",
       "attempts": [
         {
           "attempt": 1,
@@ -2535,6 +2545,20 @@
         },
         {
           "at": "2026-11-06T19:37:41.567485+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 4,
+          "source_url": "https://www.gov.uk/api/search.json?q=student%20finance%20fraud&count=50&fields=title,link,public_timestamp",
+          "status": "fetched"
+        },
+        {
+          "at": "2026-11-07T06:22:11.097486+00:00",
           "attempts": [
             {
               "attempt": 1,
@@ -2551,7 +2575,7 @@
       "http_status": null,
       "intervention": null,
       "items": 4,
-      "last_success_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_success_at": "2026-11-07T06:22:11.097486+00:00",
       "previous_url": null,
       "publisher": "UK Government",
       "source_id": "UK-GOV-SEARCH",
@@ -2559,7 +2583,7 @@
       "status": "fetched"
     },
     {
-      "attempted_at": "2026-11-06T19:37:41.567485+00:00",
+      "attempted_at": "2026-11-07T06:22:11.097486+00:00",
       "attempts": [
         {
           "attempt": 1,
@@ -2643,12 +2667,26 @@
           "items": 1,
           "source_url": "https://www.gov.uk/api/search.json?q=franchised%20higher%20education%20fraud&count=50&fields=title,link,public_timestamp",
           "status": "fetched"
+        },
+        {
+          "at": "2026-11-07T06:22:11.097486+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 1,
+          "source_url": "https://www.gov.uk/api/search.json?q=franchised%20higher%20education%20fraud&count=50&fields=title,link,public_timestamp",
+          "status": "fetched"
         }
       ],
       "http_status": null,
       "intervention": null,
       "items": 1,
-      "last_success_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_success_at": "2026-11-07T06:22:11.097486+00:00",
       "previous_url": null,
       "publisher": "UK Government franchising research",
       "source_id": "UK-FRANCHISE-SEARCH",
@@ -2656,7 +2694,7 @@
       "status": "fetched"
     },
     {
-      "attempted_at": "2026-11-06T19:37:41.567485+00:00",
+      "attempted_at": "2026-11-07T06:22:11.097486+00:00",
       "attempts": [
         {
           "attempt": 1,
@@ -2740,12 +2778,26 @@
           "items": 0,
           "source_url": "https://home.treasury.gov/news/press-releases",
           "status": "fetched"
+        },
+        {
+          "at": "2026-11-07T06:22:11.097486+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://home.treasury.gov/news/press-releases",
+          "status": "fetched"
         }
       ],
       "http_status": null,
       "intervention": null,
       "items": 0,
-      "last_success_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_success_at": "2026-11-07T06:22:11.097486+00:00",
       "previous_url": null,
       "publisher": "US Treasury",
       "source_id": "US-TREASURY",
@@ -2753,7 +2805,7 @@
       "status": "fetched_no_relevant_titles"
     },
     {
-      "attempted_at": "2026-11-06T19:37:41.567485+00:00",
+      "attempted_at": "2026-11-07T06:22:11.097486+00:00",
       "attempts": [
         {
           "attempt": 1,
@@ -2882,12 +2934,26 @@
           "items": 0,
           "source_url": "https://www.counterfraud.gov.au/about-us/news",
           "status": "fetched"
+        },
+        {
+          "at": "2026-11-07T06:22:11.097486+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.counterfraud.gov.au/about-us/news",
+          "status": "fetched"
         }
       ],
       "http_status": null,
       "intervention": null,
       "items": 0,
-      "last_success_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_success_at": "2026-11-07T06:22:11.097486+00:00",
       "previous_url": "https://www.counterfraud.gov.au/news",
       "publisher": "Commonwealth Fraud Prevention Centre",
       "source_id": "AU-COUNTERFRAUD",
@@ -2895,7 +2961,7 @@
       "status": "fetched_no_relevant_titles"
     },
     {
-      "attempted_at": "2026-11-06T19:37:41.567485+00:00",
+      "attempted_at": "2026-11-07T06:22:11.097486+00:00",
       "attempts": [
         {
           "attempt": 1,
@@ -3024,12 +3090,26 @@
           "items": 50,
           "source_url": "https://www.asqa.gov.au/newsroom/latest-news",
           "status": "fetched"
+        },
+        {
+          "at": "2026-11-07T06:22:11.097486+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 50,
+          "source_url": "https://www.asqa.gov.au/newsroom/latest-news",
+          "status": "fetched"
         }
       ],
       "http_status": null,
       "intervention": null,
       "items": 50,
-      "last_success_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_success_at": "2026-11-07T06:22:11.097486+00:00",
       "previous_url": "https://www.asqa.gov.au/news-events/news",
       "publisher": "Australian Skills Quality Authority",
       "source_id": "AU-ASQA",
@@ -3037,7 +3117,7 @@
       "status": "fetched"
     },
     {
-      "attempted_at": "2026-11-06T19:37:41.567485+00:00",
+      "attempted_at": "2026-11-07T06:22:11.097486+00:00",
       "attempts": [
         {
           "attempt": 1,
@@ -3046,7 +3126,7 @@
           "status": "failed"
         }
       ],
-      "consecutive_failures": 22,
+      "consecutive_failures": 23,
       "country": "USA",
       "coverage_note": "Publisher may reject automated requests. Manual institutional review remains required while unavailable.",
       "error_type": "HTTPError",
@@ -3130,6 +3210,20 @@
           "items": 0,
           "source_url": "https://oig.ed.gov/resources/news-and-updates",
           "status": "failed"
+        },
+        {
+          "at": "2026-11-07T06:22:11.097486+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": "HTTPError",
+              "http_status": 406,
+              "status": "failed"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://oig.ed.gov/resources/news-and-updates",
+          "status": "failed"
         }
       ],
       "http_status": 406,
@@ -3143,7 +3237,7 @@
       "status": "failed"
     },
     {
-      "attempted_at": "2026-11-06T19:37:41.567485+00:00",
+      "attempted_at": "2026-11-07T06:22:11.097486+00:00",
       "attempts": [
         {
           "attempt": 1,
@@ -3227,12 +3321,26 @@
           "items": 0,
           "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
           "status": "fetched"
+        },
+        {
+          "at": "2026-11-07T06:22:11.097486+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+          "status": "fetched"
         }
       ],
       "http_status": null,
       "intervention": null,
       "items": 0,
-      "last_success_at": "2026-11-06T19:37:41.567485+00:00",
+      "last_success_at": "2026-11-07T06:22:11.097486+00:00",
       "previous_url": null,
       "publisher": "US Department of Justice",
       "source_id": "US-DOJ-NDNY",
