@@ -26,7 +26,7 @@ Research on algorithmic authority, human oversight and accountability.
 
 **Research and creative projects are distinct:** The AI Paradox Lab is GRI’s educational research environment. The separate [Back Door creative IP website](https://back-door-october-4-original.vercel.app/) presents the novel and its associated creative experience.
 
-The governance dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a **research-ready dataset**, not yet a deployed ingestion adapter.
+The governance dashboard supports public-source intelligence and evidence review. Its scheduled collection is configured for three-hour intervals; individual source freshness, validation status and production availability must be verified separately. The institutional source registry is a research ready dataset, not yet a deployed ingestion adapter.
 
 **Research portfolio navigation:** [Explore the consolidated GRI research index](GRI-Research-Journey/Grand-Research-Institute-Research-Portfolio/README.md). This index connects the existing AI Paradox monograph, institutional governance, field research, Training a Tiger and Tiger Legacy without moving or rewriting the underlying studies.
 
