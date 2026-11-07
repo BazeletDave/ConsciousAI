@@ -43,6 +43,11 @@
         if (source.previous_url) card.append(text('p', 'Updated publisher index; previous endpoint: ' + source.previous_url));
         health.append(card);
       }
+      for (const source of discovery.excluded_sources || []) {
+        const card = text('div', ''); card.className = 'model-field';
+        card.append(text('b', source.publisher + ' · excluded from automated collection'), text('p', source.coverage_note), link('Manual review', source.url));
+        health.append(card);
+      }
       const leads = document.getElementById('enrollment-discovery-records'); leads.replaceChildren();
       const candidates = query ? discovery.matches : discovery.records.slice(0, 30);
       for (const row of candidates) {

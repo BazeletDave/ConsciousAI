@@ -180,6 +180,11 @@ def collect(previous=None, fetcher=fetch, sources=None, now=None, sleeper=time.s
     now = now or utcnow()
     when = datetime.fromisoformat(now.replace('Z','+00:00'))
     sources = sources if sources is not None else json.loads((ROOT/'enrollment_sources.json').read_text())['sources']
+    excluded = json.loads((ROOT/'enrollment_sources.json').read_text()).get('excluded_sources', [])
+    archived = dict(previous.get('archived_source_health', {}))
+    for item in excluded:
+        prior = next((h for h in previous.get('sources', []) if h['source_id'] == item['id']), None)
+        if prior is not None: archived[item['id']] = prior
     old_rows = {r['id']:r for r in previous.get('records',[])}
     rows = {k:dict(v) for k,v in old_rows.items() if '/organisations/' not in urlparse(v['source_url']).path and datetime.fromisoformat(v['last_seen_at'].replace('Z','+00:00')) >= when-timedelta(days=365)}
     old_health = {r['source_id']:r for r in previous.get('sources',[])}
@@ -237,7 +242,7 @@ def collect(previous=None, fetcher=fetch, sources=None, now=None, sleeper=time.s
     entry={'at':now,'new_records':len(new_ids),'changed_titles':len(changed_ids),'retained_records':len(retained),
         'successful_sources':sum(h['status']!='failed' for h in health),'failed_sources':sum(h['status']=='failed' for h in health),
         'model_version':model['version'],'corpus_digest':model['corpus_digest']}
-    state={'schema_version':'1.0','generated_at':now,'sources':health,'records':retained,'model':model,
+    state={'schema_version':'1.0','generated_at':now,'excluded_sources':excluded,'archived_source_health':archived,'sources':health,'records':retained,'model':model,
         'history':(previous.get('history',[])+[entry])[-40:],
         'collection_policy':{'cadence_hours':6,'max_records':MAX_RECORDS,'retention_days':365,'metadata_only':True},
         'last_success_at':now if entry['successful_sources'] else previous.get('last_success_at')}
@@ -268,7 +273,7 @@ def snapshot(query='',country=None,path=None):
     return {'status':'collection_failed' if not successes else ('stale' if age>18 else ('partial_source_failures' if successes<len(state['sources']) else 'current')),
         'generated_at':state['generated_at'],'last_success_at':state['last_success_at'],'age_hours':round(max(age,0),2),
         'countries':sorted({r['country'] for r in state['records']}),'records':rows,
-        'matches':related(state,query,country) if query.strip() else [],'sources':state['sources'],
+        'excluded_sources':state.get('excluded_sources',[]),'matches':related(state,query,country) if query.strip() else [],'sources':state['sources'],
         'model':public_model,'history':state['history'][-10:],'collection_policy':state['collection_policy'],
         'notice':'Automated publisher title discovery. Records are research leads, not verified cases. Model adaptation is limited to metadata retrieval.'}
 

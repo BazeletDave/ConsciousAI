@@ -61,16 +61,6 @@
       "require_article_links": true
     },
     {
-      "id": "US-ED-OIG",
-      "country": "USA",
-      "publisher": "US Education OIG",
-      "mode": "html",
-      "url": "https://oig.ed.gov/resources/news-and-updates",
-      "allowed_host": "oig.ed.gov",
-      "path_prefix": "/",
-      "coverage_note": "Publisher may reject automated requests. Manual institutional review remains required while unavailable."
-    },
-    {
       "id": "US-DOJ-NDNY",
       "country": "USA",
       "publisher": "US Department of Justice",
@@ -79,6 +69,19 @@
       "allowed_host": "www.justice.gov",
       "path_prefix": "/usao-ndny/pr/",
       "coverage_note": "Northern District of New York only; not nationwide DOJ coverage."
+    }
+  ],
+  "excluded_sources": [
+    {
+      "id": "US-ED-OIG",
+      "country": "USA",
+      "publisher": "US Education OIG",
+      "mode": "html",
+      "url": "https://oig.ed.gov/resources/news-and-updates",
+      "allowed_host": "oig.ed.gov",
+      "path_prefix": "/",
+      "coverage_note": "Excluded from automated collection because publisher access returns HTTP 406. Manual review required; historical evidence and citations remain valid.",
+      "excluded_at": "2026-11-07"
     }
   ]
 }

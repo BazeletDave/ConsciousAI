@@ -3201,6 +3201,133 @@
       "attempts": [
         {
           "attempt": 1,
+          "error_type": null,
+          "http_status": null,
+          "status": "fetched"
+        }
+      ],
+      "consecutive_failures": 0,
+      "country": "USA",
+      "coverage_note": "Northern District of New York only; not nationwide DOJ coverage.",
+      "error_type": null,
+      "first_failure_at": null,
+      "history": [
+        {
+          "at": "2026-11-05T14:21:18.692203+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+          "status": "fetched"
+        },
+        {
+          "at": "2026-11-05T14:24:14.581273+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+          "status": "fetched"
+        },
+        {
+          "at": "2026-11-05T20:11:43.975624+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+          "status": "fetched"
+        },
+        {
+          "at": "2026-11-06T07:10:23.522829+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+          "status": "fetched"
+        },
+        {
+          "at": "2026-11-06T19:37:41.567485+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+          "status": "fetched"
+        },
+        {
+          "at": "2026-11-07T06:22:11.097486+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+          "status": "fetched"
+        },
+        {
+          "at": "2026-11-07T13:23:57.374765+00:00",
+          "attempts": [
+            {
+              "attempt": 1,
+              "error_type": null,
+              "http_status": null,
+              "status": "fetched"
+            }
+          ],
+          "items": 0,
+          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+          "status": "fetched"
+        }
+      ],
+      "http_status": null,
+      "intervention": null,
+      "items": 0,
+      "last_success_at": "2026-11-07T13:23:57.374765+00:00",
+      "previous_url": null,
+      "publisher": "US Department of Justice",
+      "source_id": "US-DOJ-NDNY",
+      "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
+      "status": "fetched_no_relevant_titles"
+    }
+  ],
+  "archived_source_health": {
+    "US-ED-OIG": {
+      "attempted_at": "2026-11-07T13:23:57.374765+00:00",
+      "attempts": [
+        {
+          "attempt": 1,
           "error_type": "HTTPError",
           "http_status": 406,
           "status": "failed"
@@ -3329,131 +3456,19 @@
       "source_id": "US-ED-OIG",
       "source_url": "https://oig.ed.gov/resources/news-and-updates",
       "status": "failed"
-    },
+    }
+  },
+  "excluded_sources": [
     {
-      "attempted_at": "2026-11-07T13:23:57.374765+00:00",
-      "attempts": [
-        {
-          "attempt": 1,
-          "error_type": null,
-          "http_status": null,
-          "status": "fetched"
-        }
-      ],
-      "consecutive_failures": 0,
+      "id": "US-ED-OIG",
       "country": "USA",
-      "coverage_note": "Northern District of New York only; not nationwide DOJ coverage.",
-      "error_type": null,
-      "first_failure_at": null,
-      "history": [
-        {
-          "at": "2026-11-05T14:21:18.692203+00:00",
-          "attempts": [
-            {
-              "attempt": 1,
-              "error_type": null,
-              "http_status": null,
-              "status": "fetched"
-            }
-          ],
-          "items": 0,
-          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
-          "status": "fetched"
-        },
-        {
-          "at": "2026-11-05T14:24:14.581273+00:00",
-          "attempts": [
-            {
-              "attempt": 1,
-              "error_type": null,
-              "http_status": null,
-              "status": "fetched"
-            }
-          ],
-          "items": 0,
-          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
-          "status": "fetched"
-        },
-        {
-          "at": "2026-11-05T20:11:43.975624+00:00",
-          "attempts": [
-            {
-              "attempt": 1,
-              "error_type": null,
-              "http_status": null,
-              "status": "fetched"
-            }
-          ],
-          "items": 0,
-          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
-          "status": "fetched"
-        },
-        {
-          "at": "2026-11-06T07:10:23.522829+00:00",
-          "attempts": [
-            {
-              "attempt": 1,
-              "error_type": null,
-              "http_status": null,
-              "status": "fetched"
-            }
-          ],
-          "items": 0,
-          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
-          "status": "fetched"
-        },
-        {
-          "at": "2026-11-06T19:37:41.567485+00:00",
-          "attempts": [
-            {
-              "attempt": 1,
-              "error_type": null,
-              "http_status": null,
-              "status": "fetched"
-            }
-          ],
-          "items": 0,
-          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
-          "status": "fetched"
-        },
-        {
-          "at": "2026-11-07T06:22:11.097486+00:00",
-          "attempts": [
-            {
-              "attempt": 1,
-              "error_type": null,
-              "http_status": null,
-              "status": "fetched"
-            }
-          ],
-          "items": 0,
-          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
-          "status": "fetched"
-        },
-        {
-          "at": "2026-11-07T13:23:57.374765+00:00",
-          "attempts": [
-            {
-              "attempt": 1,
-              "error_type": null,
-              "http_status": null,
-              "status": "fetched"
-            }
-          ],
-          "items": 0,
-          "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
-          "status": "fetched"
-        }
-      ],
-      "http_status": null,
-      "intervention": null,
-      "items": 0,
-      "last_success_at": "2026-11-07T13:23:57.374765+00:00",
-      "previous_url": null,
-      "publisher": "US Department of Justice",
-      "source_id": "US-DOJ-NDNY",
-      "source_url": "https://www.justice.gov/news/rss?type=press_release&groupname=436&field_component=1976&search_api_language=en&require_all=0",
-      "status": "fetched_no_relevant_titles"
+      "publisher": "US Education OIG",
+      "mode": "html",
+      "url": "https://oig.ed.gov/resources/news-and-updates",
+      "allowed_host": "oig.ed.gov",
+      "path_prefix": "/",
+      "coverage_note": "Excluded from automated collection because publisher access returns HTTP 406. Manual review required; historical evidence and citations remain valid.",
+      "excluded_at": "2026-11-07"
     }
   ]
 }
