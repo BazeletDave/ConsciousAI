@@ -6,6 +6,7 @@ on:
       - '.github/workflows/gri-mobility-dashboard-acceptance.yml'
       - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/dashboard.html'
       - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_mobility_dashboard.py'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/test_mobility_ml_baseline.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -23,4 +24,4 @@ jobs:
           node-version: '22'
       - name: Run 30 mobility scenarios and structural acceptance
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
-        run: python -m unittest -v test_mobility_dashboard
+        run: python -m unittest -v test_mobility_dashboard test_mobility_ml_baseline
