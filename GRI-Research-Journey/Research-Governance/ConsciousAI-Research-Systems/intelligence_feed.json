@@ -1,13 +1,26 @@
 {
   "schema_version": "1.0",
   "mode": "automated_official_metadata_triage",
-  "generated_at": "2026-11-08T10:20:34.025488+00:00",
-  "source_last_collection_at": "2026-11-08T10:20:33.965108+00:00",
-  "source_registry_sha256": "d80821a4936f008e5d56af36c3e83491e6c4acb42c1f01920080fc2520a04a81",
-  "source_records": 125,
-  "matched_records": 15,
-  "human_review_required": 15,
+  "generated_at": "2026-11-08T17:55:42.624103+00:00",
+  "source_last_collection_at": "2026-11-08T17:55:42.557296+00:00",
+  "source_registry_sha256": "ef28abf600d917edae2eabbe1f8d07e0d653b29effaafed5279fb3a6331b212c",
+  "source_records": 132,
+  "matched_records": 16,
+  "human_review_required": 16,
   "queue": [
+    {
+      "id": "US-FR-2026-22799",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22799/notice-of-public-meetings-of-the-maryland-advisory-committee-to-the-us-commission-on-civil-rights",
+      "title": "Notice of Public Meetings of the Maryland Advisory Committee to the U.S. Commission on Civil Rights",
+      "publication_date": "2026-11-09",
+      "topics": [
+        "artificial intelligence"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "US-FR-2026-22615",
       "source_url": "https://www.federalregister.gov/documents/2026/11/05/2026-22615/proposed-priorities-and-definitions-secretarys-supplemental-priorities-and-definitions",
