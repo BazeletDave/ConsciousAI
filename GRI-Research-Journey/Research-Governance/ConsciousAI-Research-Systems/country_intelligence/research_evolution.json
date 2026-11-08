@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-08T00:34:59.087962+00:00",
+  "generated_at": "2026-11-08T10:20:38.268786+00:00",
   "mode": "evolving_repository_retrieval_with_governed_learning_candidates",
   "catalog_sha256": "dc385a6a6a6c04c943959bd3d738e9e787efc9eb87039164c9cd3ed7ed156db3",
   "document_count": 245,
@@ -1730,7 +1730,7 @@
   "evidence_connections": [
     {
       "record_id": "fdbba33cc5d84ec987fcb052",
-      "content_sha256": "0af3e50bc9dc26e8f8099337d0a9a89eb543274a212f401f3c6f9a3aaf8e6096",
+      "content_sha256": "013a150e401ea12243f00208c01ae35d9eb12401f795a8cbde3f2fad5e8ec722",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1877,7 +1877,7 @@
     },
     {
       "record_id": "de3d3a58405cef75e233e43e",
-      "content_sha256": "bcb2e3bd11c224cb7cd44eae1bd112dd8e44e5cbf877b91375c217d31d8c7347",
+      "content_sha256": "cc2cc7057f7767d8dbab206d2d99769a9def4d9e1f017f5f71ba093d021aef06",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1958,7 +1958,7 @@
     },
     {
       "record_id": "dae7ae854e9efe22071d442d",
-      "content_sha256": "41a563d7419bdae181d6138ad6a1697f1fad0598c7693876af517d570d229a18",
+      "content_sha256": "3dac70d764513700ed29d8966125d71ccb94e15b23189db74c5d890957dd119f",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2006,7 +2006,7 @@
     },
     {
       "record_id": "c5bd74e05aaae35ba9ec185e",
-      "content_sha256": "cdfc481d1bda600aac169744ed5966a15cb11cb95e6f455d7eda2d275b0472b5",
+      "content_sha256": "55707e65271d7f8e72625743642f25769be8115f789cdc71aefe431894a8042f",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2054,7 +2054,7 @@
     },
     {
       "record_id": "bff1a7e46550fb3eb2151285",
-      "content_sha256": "c193ce76a9180b2c04fe27b750d275c7c8a5a980888ae9554d43688412bb589c",
+      "content_sha256": "7d239cf8fc8835569374f0117979788a025049c2ad1b502227c8be6a442d8818",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2111,7 +2111,7 @@
     },
     {
       "record_id": "bd07bbe5d81439c7d312c64c",
-      "content_sha256": "db3fee18c25ed1f82346001f090e6397848f2de9a67c222963e5c399167921f9",
+      "content_sha256": "c5c8237412a1d56e3e8da68a2298b581e30793c64f5fc54de4a884456636333b",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2321,7 +2321,7 @@
     },
     {
       "record_id": "958e2bc1a020d8f707f85732",
-      "content_sha256": "e00092f354b3e22425d638c4f26545421ed5c9e29fdca2d2d33d103153a6c7d8",
+      "content_sha256": "99663d5c59877b90e6100deee3577dd3c7a74ffb19b299f020acbb9131507bf5",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2477,7 +2477,7 @@
     },
     {
       "record_id": "61cd45d72fb5c935b19cb0eb",
-      "content_sha256": "0f6197c0eace382efdd5d86d8deb8c7b0c24acbc7a17290bc078ca74ac98d000",
+      "content_sha256": "8ce07adfe1b32a121fa7cada7479f9ff0d96d73477d6844ea7979c378c40c4cb",
       "research": [
         {
           "path": "GRI-Research-Journey/Research-Governance/Tiger-Legacy/ENGINEERING-RESEARCH-STANDARDS.md",
@@ -2510,7 +2510,7 @@
     },
     {
       "record_id": "6034022a3ee0e0c91beac6e9",
-      "content_sha256": "74ce92982b5f9a5a0802f158e5554bec9cd4bdb05faa53faa55db6ab4b4d4ed2",
+      "content_sha256": "5a923cf3962386bfa6c6662cb0f012db07a12bf78ea9e48f9792a9d8ff619c2d",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2543,7 +2543,7 @@
     },
     {
       "record_id": "5e535c4ee7e173dddcba0a6e",
-      "content_sha256": "65aeabae3e669e395d7c9ee359fad7b1ac8739eaef48975e6432d7a9c775a974",
+      "content_sha256": "b5bfe3b292630519fedd3d0fc998d0a4899be0dec723bc5ea400197b1db9dbe1",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2648,7 +2648,7 @@
     },
     {
       "record_id": "4f7851f3ba77b536fb26b041",
-      "content_sha256": "d36397847a950aec5bab28eb42d2e75557fc251c6ba78341a94da98086dd2dad",
+      "content_sha256": "54e612cff05212d7552e8741b6abe560f96843dfdf0a9e818d5e4508f9d4cd3a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -2681,7 +2681,7 @@
     },
     {
       "record_id": "422244d2169f151459cfe81a",
-      "content_sha256": "6403a72834cd1530e0ed60012b0bd53bdfe6d71cd20e10f33e4264576f5f3c5f",
+      "content_sha256": "98da4db3f5b1d0fd1347819f987ec4406e78221dc5bbae2820c17cb1b3e47d12",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2804,7 +2804,7 @@
     },
     {
       "record_id": "39ae2b994dcf1e88f77d7ede",
-      "content_sha256": "b96bbd3704f6408514e4056dbf21787d46ae854732f648354ab0b361d5a37bb3",
+      "content_sha256": "f2dad78216fd72fb8d277c0bd47b34d4682fe9e9c05bb587dd641a31bde9c062",
       "research": [
         {
           "path": "GRI-Research-Journey/Global-Leadership/Apple-China-Institutional-Leadership/README.md",
@@ -3047,7 +3047,7 @@
     },
     {
       "record_id": "10b965dff3bc3da58f7d9f9d",
-      "content_sha256": "01a9d5bdeaebfa642c70edf884fd0a01b7bcc38282ab75ed36c5dee65e09d93a",
+      "content_sha256": "0c184dd2936935c003921db2e7a8f7afb9f1f096d353219bb9f90dbbb273391a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -3065,6 +3065,30 @@
           "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
           "status": "public_repository_document_not_independently_validated",
           "similarity": 0.3792,
+          "relation": "suggested_research_connection_not_causation"
+        }
+      ]
+    },
+    {
+      "record_id": "00817aad97e3ba434c575dbd",
+      "content_sha256": "855f4d8f29fcb9859ff44dd4ebcb50a2109d193c63608d9eb5516b00106a9199",
+      "research": [
+        {
+          "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
+          "title": "Brazil, Israel and the United States: comparative institutional intelligence",
+          "content_sha256": "26cddb8637b9ef8b1fccc6e8b273238fa639335c5443187896f5ebb4d0084193",
+          "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
+          "status": "public_repository_document_not_independently_validated",
+          "similarity": 0.4724,
+          "relation": "suggested_research_connection_not_causation"
+        },
+        {
+          "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-comparative-institutional-intelligence.md",
+          "title": "Brazil and Israel: connecting institutional intelligence across the GRI Research Journey",
+          "content_sha256": "8483b02899bdbf552726afef3e2a4e268a14fdf8b63cc87680baa7a5deeb9ab4",
+          "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-comparative-institutional-intelligence.md",
+          "status": "public_repository_document_not_independently_validated",
+          "similarity": 0.453,
           "relation": "suggested_research_connection_not_causation"
         }
       ]
@@ -3098,30 +3122,6 @@
           "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/ECONOMIC-INTELLIGENCE.md",
           "status": "public_repository_document_not_independently_validated",
           "similarity": 0.2734,
-          "relation": "suggested_research_connection_not_causation"
-        }
-      ]
-    },
-    {
-      "record_id": "00817aad97e3ba434c575dbd",
-      "content_sha256": "855f4d8f29fcb9859ff44dd4ebcb50a2109d193c63608d9eb5516b00106a9199",
-      "research": [
-        {
-          "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
-          "title": "Brazil, Israel and the United States: comparative institutional intelligence",
-          "content_sha256": "26cddb8637b9ef8b1fccc6e8b273238fa639335c5443187896f5ebb4d0084193",
-          "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
-          "status": "public_repository_document_not_independently_validated",
-          "similarity": 0.4724,
-          "relation": "suggested_research_connection_not_causation"
-        },
-        {
-          "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-comparative-institutional-intelligence.md",
-          "title": "Brazil and Israel: connecting institutional intelligence across the GRI Research Journey",
-          "content_sha256": "8483b02899bdbf552726afef3e2a4e268a14fdf8b63cc87680baa7a5deeb9ab4",
-          "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-comparative-institutional-intelligence.md",
-          "status": "public_repository_document_not_independently_validated",
-          "similarity": 0.453,
           "relation": "suggested_research_connection_not_causation"
         }
       ]
