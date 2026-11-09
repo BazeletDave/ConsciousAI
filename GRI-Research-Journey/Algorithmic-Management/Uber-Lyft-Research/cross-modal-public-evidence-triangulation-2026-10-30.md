@@ -98,3 +98,27 @@ Compare outcomes using appropriate denominators: driver economic observations, r
 **Florida ecosystem connection:** The university identifies nearby FDOT SunTrax advanced air mobility testing and Florida participation in an FAA integration pilot program. This is regional context, not proof of joint operations, FAA approval for Astro, or involvement in GRI's separate Broward ground vehicle observations.
 
 **Evidence conclusion:** Verified institutional acquisition and announced evaluation purpose; manufacturer reported training; pending or unverified operational authorization; no established routine deployment, autonomous capability, surveillance system, independent safety validation or causal governance failure. Retain this as a source bounded extension of the existing mobility evidence register.
+
+
+## November 9, 2026 | Uber Parking launch and autonomous fleet staging implications
+
+**Scope:** Existing Uber/Lyft longitudinal algorithmic management and cross modal autonomous mobility research; bounded public evidence update only. No new research project or changes to dashboard, README, architecture or controls.
+
+**Evidence register:**
+
+| ID | Source | Established information | Limitation |
+| --- | --- | --- | --- |
+| U03 | [Uber Parking official service page](https://www.uber.com/us/en/parking/) and [Uber rider FAQ](https://help.uber.com/en/riders/article/faq?nodeId=994706ed-e71f-4943-9d48-caef49664491) | Users can search, compare and reserve parking in the Uber app; parking passes use QR or license plate recognition where supported; eligible Uber One members receive 10 percent credits | Availability varies by market and facility; official page refers to 7,000 facilities, not all SpotHero network locations |
+| U04 | [Uber February 23, 2026 SpotHero acquisition announcement](https://investor.uber.com/news-events/news/press-release-details/2026/Uber-to-Acquire-Parking-App-SpotHero/) | Announced acquisition and SpotHero's more than 13,000 garages, lots and valet locations across over 400 US and Canadian cities | Network footprint is not equivalent to Uber Parking launch inventory; February announcement was subject to closing conditions |
+| U05 | [TechCrunch November 9, 2026 launch report](https://techcrunch.com/2026/11/09/uber-launches-parking-service-following-spothero-acquisition-with-an-eye-on-robotaxis/) | Reports launch in 15 US cities and Uber's stated future intention to use parking facilities for autonomous fleet staging | Journalistic reporting of announced plans, not independently observed autonomous fleet staging |
+| U06 | [Uber Q3 2026 prepared remarks](https://s23.q4cdn.com/407969754/files/doc_earnings/2026/q3/transcript/Uber-Q3-26-Prepared-Remarks.pdf) | Uber projects approximately 700 fully driverless vehicles by end 2026, more than 2,000 by end 2027, and expansion from five driverless cities in 2026 to twenty in 2027 | Corporate forecasts, not verified deployed counts or realized outcomes |
+
+**Launch geography:** Atlanta, Austin, Boston, Chicago, Dallas, Denver, Los Angeles, Miami, Nashville, New York City, Philadelphia, San Diego, San Francisco, Seattle and Washington, DC. These are announced initial markets, not proof that every garage or reservation time is available.
+
+**Strategic mechanism:** Parking inventory can extend the platform from passenger and driver matching to reservation, curb and off street access, fleet positioning and potentially empty vehicle mileage reduction. Future robotaxi staging could involve vehicle dispatch, dwell time, charging, maintenance and operator handoffs, but none of those operational integrations is established by the consumer launch. Do not claim a single integrated fleet control system or quantify congestion reduction without operating data.
+
+**Nelson institutional governance and AI Paradox connection:** Platform bargaining power may extend to parking operators and fleet partners through access to demand and reservations. Separate platform rules, property access rights, operator accountability, municipal regulations and data stewardship. Assess whether service expansion is matched by verifiable allocation of operational authority and effective contestability. This is a research hypothesis, not a finding of abuse or governance failure.
+
+**Testable comparisons within existing five dimensions:** Authority: who sets allocation and staging rules? Information: what prices, restrictions, ranking and cancellation terms are visible? Economics: reservation fees, utilization, empty miles and operator margins, with comparable denominators. Adaptation: commuter mode choice and driver/fleet positioning. Accountability: disputes, plate recognition data, cancellations, incidents and remedies.
+
+**Evidence conclusion:** Consumer parking reservations launched in 15 announced markets; larger SpotHero network does not imply equivalent Uber availability; autonomous staging is a stated future intention; fleet performance and safety outcomes remain unverified. Preserve sources and date; no synthetic or independently replicated findings claimed.
