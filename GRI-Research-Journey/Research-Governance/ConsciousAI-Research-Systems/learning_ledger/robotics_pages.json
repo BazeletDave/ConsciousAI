@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T06:25:05.131017+00:00",
+  "generated_at": "2026-11-09T19:48:14.019805+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "5b0853fe5aa16afb8cae5426557f3a70ee2a25b36017bc2d69190e3e7ef69010",
+      "content_sha256": "335539a20f34bb8d428925ce026532454a0ef000449e367fc475326104112f58",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "d5d8100eb75a24f5b6253ec7fe0f715f8ef1b98519edb13a32c919e0bdba8dbe",
+      "content_sha256": "ca45e76c1cbdf754039cd4a8409e02b06505c94bee58df57b31fb370cce8d521",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "7af6b9c0080c295c4cd1f137565c58c87b33e3182cdad34d234ebe2e0cdf593c",
+      "content_sha256": "687b21b6b7a3be19643d38b7ea964c14c1d4ecd0a6e4ec94858051815bbc4caf",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -61,7 +61,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "cb0e8cc3123c2733ffad955753fdc2cf557bb241b9169803c1d35f0b05518378",
+      "content_sha256": "b5d31e371fe38e2d5db94be47b79456663733a9e3b84f0b516e6693993ab2118",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -73,12 +73,12 @@
       "id": "BRA-ANAC-AAM",
       "source_id": "BRA-ANAC-AAM",
       "publisher": "ANAC",
-      "title": "Anac abre consultas setoriais sobre critérios de aeronavegabilidade e ruído para o eVTOL EVE-100 — Agência Nacional de Aviação Civil (Anac)",
+      "title": "Anac abre consultas setoriais sobre critérios de aeronavegabilidade e ruído para o eVTOL EVE-100 Portal Gov.br",
       "source_url": "https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-consultas-setoriais-sobre-criterios-de-aeronavegabilidade-e-ruido-para-o-evtol-eve-100",
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "39805b300d2c32a9435f2e7046f1b748dac20d585b2df572f1cdeb2d98db60b1",
+      "content_sha256": "02e6f71f2a9162348b8cf4ad584c754036b41e9ef80d6717f4128c64d83c2e50",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -101,17 +101,17 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110785
+      "bytes": 110784
     },
     {
       "source_id": "NHTSA-SGO",
       "status": "fetched",
-      "bytes": 146999
+      "bytes": 147000
     },
     {
       "source_id": "BRA-ANAC-AAM",
       "status": "fetched",
-      "bytes": 155971
+      "bytes": 320695
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
