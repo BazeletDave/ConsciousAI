@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T14:52:10.132255+00:00",
+  "generated_at": "2026-11-10T21:17:39.844663+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,30 @@
     }
   ],
   "queue": [
+    {
+      "id": "f51278153a4088189251",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commissioner \u0160uica delivers a keynote speech at the European Parliament event \u201cBeyond promises: Building a Digital Future that Works for Children\u201d",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2406",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "5c071d8302986e57c7f7",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Opening remarks by Commissioner Kubilius at the second board meeting of the EU-Ukraine drone alliance",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2398",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "cc5cce73adbdd1413529",
       "source_id": "EU-COMMISSION-NEWS",
@@ -126,25 +150,13 @@
       "publication_authorized": false
     },
     {
-      "id": "93138c7c6d775b764674",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "f0519180f894800e8621",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Speech by Commissioner Kos at the Plenary Session of the Parliament of the Republic of Moldova",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2383",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "4e4b354599d9ee0d45b0",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Remarks by Commissioner Dombrovskis at the ECOFIN press conference",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2382",
+      "title": "Corporate report: HS2 vocational qualifications report, 2024 to 2025",
+      "source_url": "https://www.gov.uk/government/publications/hs2-vocational-qualifications-report-2024-to-2025",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -378,14 +390,16 @@
       "publication_authorized": false
     },
     {
-      "id": "6d8c9cd956007e65deb8",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Guidance: TAG unit A3 environmental impact appraisal",
-      "source_url": "https://www.gov.uk/government/publications/tag-unit-a3-environmental-impact-appraisal",
-      "verification_status": "publisher_feed_item_unreviewed",
+      "id": "45f07baf92191ec201a7",
+      "source_id": "NHTSA",
+      "publisher": "NHTSA",
+      "jurisdiction": "US",
+      "category": "mobility_industry",
+      "title": "Trump\u2019s Transportation Department Reports Decline in Traffic Fatalities in First Half of 2026",
+      "source_url": "https://www.nhtsa.gov/press-releases/decline-traffic-fatalities-first-half-2026",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.nhtsa.gov/press-releases",
       "human_review_required": true,
       "publication_authorized": false
     },
@@ -509,20 +523,6 @@
       "category": "mobility_industry",
       "title": "NHTSA Opens Investigation into Tesla Cybercab Self-Certification Following Austin Deployment",
       "source_url": "https://www.nhtsa.gov/press-releases/investigation-tesla-cybercab-self-certification",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "ee1cec0542f47bf824d7",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: Banned Chinese Air Bag Inflator Kills 11th Person in the U.S.",
-      "source_url": "https://www.nhtsa.gov/press-releases/banned-chinese-air-bag-inflator-kills-11th-person-us",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.nhtsa.gov/press-releases",
