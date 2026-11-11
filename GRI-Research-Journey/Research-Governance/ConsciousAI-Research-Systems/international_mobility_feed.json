@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T21:17:39.844663+00:00",
+  "generated_at": "2026-11-11T06:16:46.819470+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -684,6 +684,20 @@
       "publication_authorized": false
     },
     {
+      "id": "babfe3fc51c453d884aa",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Velox at Uber: Rebuilding Presto's\u00ae Execution Engine for Speed and Scale",
+      "source_url": "https://www.uber.com/us/en/blog/velox-at-uber/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "d3170d26a91f6839a919",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -831,20 +845,6 @@
       "category": "mobility_industry",
       "title": "How Uber Protects Against Retry Storms",
       "source_url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "3e15c8cf02e1c54a3593",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "Large-Scale Automated Dependency Analysis Across Uber's Service Mesh",
-      "source_url": "https://www.uber.com/us/en/blog/automated-dependency-analysis/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
