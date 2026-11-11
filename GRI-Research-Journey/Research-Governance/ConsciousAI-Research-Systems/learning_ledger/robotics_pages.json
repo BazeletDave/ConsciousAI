@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T14:30:23.923232+00:00",
+  "generated_at": "2026-11-11T21:57:03.288150+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "7ce1770c6ff065c0995eb7717563a266b703956862725da8ef0d0a2a433c309e",
+      "content_sha256": "41b6f52a6d5b2f269c19b26469d476b1fc77944b12ec4d49f7a653fc900cedaa",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "627dceacd831e571333bcacee11b8b7b796de6fc0c36c62648b1aeffefc723ba",
+      "content_sha256": "29b0b6a0c53a7e2527107fa1ce841f2be959c5257cae2178274cc48f02664fbc",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -61,7 +61,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "b1a47583cf594319107813fa5a3afda9361ccd9459a016a9bbb90b3a4624b889",
+      "content_sha256": "87614077e16ecda72b14480a4672ad0312cc455de82129ed6eb3c888e9ebcc3b",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -78,7 +78,7 @@
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "19cd9b815e5b47016385e7fb320c01c6d3222e72b7baa9733d78955e409eeef0",
+      "content_sha256": "cd98bf58efa0ef19e7d5f7fe396af9935d0c804a58e11f9cd499ffc6796b512f",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -101,7 +101,7 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110784
+      "bytes": 110785
     },
     {
       "source_id": "NHTSA-SGO",
@@ -111,7 +111,7 @@
     {
       "source_id": "BRA-ANAC-AAM",
       "status": "fetched",
-      "bytes": 320065
+      "bytes": 319965
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
