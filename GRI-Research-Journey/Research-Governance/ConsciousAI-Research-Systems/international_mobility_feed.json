@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-11T21:57:01.505762+00:00",
+  "generated_at": "2026-11-12T07:08:30.373524+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -535,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -677,6 +677,20 @@
       "category": "mobility_industry",
       "title": "Community support Doing the right thing for cities and communities globally",
       "source_url": "https://www.uber.com/us/en/blog/community-support/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "b376abd6ccf430da064d",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Introducing Shard Manager",
+      "source_url": "https://www.uber.com/us/en/blog/introducing-shard-manager/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
@@ -831,20 +845,6 @@
       "category": "mobility_industry",
       "title": "Taming the ML Firehose: Scaling Feature Consistency",
       "source_url": "https://www.uber.com/us/en/blog/taming-ml-firehose/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "74d22c2dc730d1d9b57b",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "How Uber Protects Against Retry Storms",
-      "source_url": "https://www.uber.com/us/en/blog/protecting-against-retry-storms/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T21:57:03.288150+00:00",
+  "generated_at": "2026-11-12T07:08:32.591038+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "41b6f52a6d5b2f269c19b26469d476b1fc77944b12ec4d49f7a653fc900cedaa",
+      "content_sha256": "97df5b6af380550d50294267ad107ae8ae689f08b0e5e2074896c3cac2b056ab",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "29b0b6a0c53a7e2527107fa1ce841f2be959c5257cae2178274cc48f02664fbc",
+      "content_sha256": "c2512c9630866c76ce6611a71c7a2d117605093e91ebdfa8dcebcbd4ab3c4a4b",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -61,7 +61,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "87614077e16ecda72b14480a4672ad0312cc455de82129ed6eb3c888e9ebcc3b",
+      "content_sha256": "5c00993f7574574156bee38ee5c013ac3911a8375af0d78071666dfddc45ea6f",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -78,7 +78,7 @@
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "cd98bf58efa0ef19e7d5f7fe396af9935d0c804a58e11f9cd499ffc6796b512f",
+      "content_sha256": "26f6dd0a88aa6219f0c54dca09efd8a6f1ed1e9a4b957f8b558d098bf3c9cb3b",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -111,7 +111,7 @@
     {
       "source_id": "BRA-ANAC-AAM",
       "status": "fetched",
-      "bytes": 319965
+      "bytes": 319894
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
