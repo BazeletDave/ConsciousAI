@@ -58,6 +58,27 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 **Existing cross references:** [Tiger Legacy assurance](../Research-Governance/Tiger-Legacy/README.md) · [Institutional AI Governance and Assurance](../institutional-ai-governance-assurance/README.md) · [GRI research systems status](../Research-Governance/ConsciousAI-Research-Systems/DEPLOYMENT_AND_RESEARCH_STATUS.md).
 
+### Measurement specification and falsification gate | Institutional resilience comparison
+
+**Status:** Prospective measurement specification only. This supplements the preceding November 2026 Microsoft/CrowdStrike comparison using existing [Tiger Legacy paired-evaluation principles](../Research-Governance/Tiger-Legacy/AI-PARADOX-COMPARATIVE-EVALUATION-PROTOCOL.md). No fixtures executed, no numerical performance claim, no new repository component, and no modification of frozen historical studies.
+
+**Unit of analysis:** A synthetic institution × essential workflow × assigned failure scenario. Keep the same workflow, demand trace, recovery threshold and observation budget across paired conditions. Count dependent workflows separately from affected servers or vendors; avoid treating repeated synthetic seeds as independent institutions.
+
+| Construct | Operational definition | Denominator or evidence | Falsification / failure criterion |
+| --- | --- | --- | --- |
+| Critical function continuity | Share of assigned essential workflows that meet a preregistered service-level threshold during the disruption | All assigned essential workflow scenarios | A proposed alternative fails to preserve more eligible workflows than baseline, or harms legitimate completion |
+| Dependency concentration | Proportion of essential workflows requiring a common provider, identity service, network or management plane | All mapped essential workflows, with shared subdependencies explicitly recorded | Apparent diversification still shares the same failure domain |
+| Time to sustained recovery | Elapsed synthetic time until a workflow meets its declared threshold continuously for a preregistered stability window | All recovery-assigned scenarios; report censored cases separately | Early availability is followed by relapse or a missed stability threshold |
+| Independent observability | Fraction of assigned outage and restoration states correctly classified from evidence not exclusively controlled by the simulated affected provider | All labeled synthetic state observations | Missing, delayed or biased observation produces incorrect or inconclusive classifications |
+| Human authority continuity | Fraction of eligible consequential decisions completed by an authorized human fallback without scope violation | All assigned decisions eligible for fallback; separately count unauthorized attempts | Fallback cannot operate, authorizes an invalid action or materially increases false denials |
+| Evidence completeness | Fraction of preregistered material transitions present with valid sequence, timestamp and digest | All expected synthetic evidence events | Omission, tampering, replay or truncation is undetected, or cannot be independently reproduced |
+
+**Paired conditions:** (A) baseline single shared dependency and vendor-only status; (B) governed condition with explicit dependency inventory, authorized alternate workflow and independent evidence checkpoint. Preserve equal task demand and task budgets; separately report extra observation or human-review costs. Use deterministic positive controls, benign no-outage controls, partial recovery and relapse, correlated identity-provider failure, unavailable fallback, delayed status, and biased monitoring. Do not presume that a multi-provider design is more resilient.
+
+**Pre-execution gates:** Identify a single exact source revision; freeze fixtures, seeds, expected outcomes, recovery stability window, thresholds, denominator definitions and exclusion rules; hash the package; document the environment. Record counts and confidence intervals only when the sampling design supports them. Distinguish author-run checks from independent external reproduction. Stop if any fixture touches live vendor services, confidential customer information or credentials. Any future execution or deployment requires its own authorization under the existing governance process.
+
+**Interpretation gate:** Improvement in one continuity measure does not establish cybersecurity effectiveness, regulatory compliance or lower total institutional risk. Report operational overhead, new common dependencies, false denials, failed recoveries, and null or adverse outcomes. An observed failure of the governed condition is a valid research result. Apply Nelson's institutional framework to allocation of technical authority and responsibility, without attributing this AI-specific hypothesis to Nelson.
+
 ## November 2026 | AI enabled influence operations, synthetic authority and institutional trust
 
 **Status:** Source grounded extension of the existing AI Paradox, institutional governance and Tiger Assurance research. No new program, claim of verified persuasion effects, or operational deployment.
