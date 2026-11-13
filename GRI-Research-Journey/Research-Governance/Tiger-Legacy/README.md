@@ -71,3 +71,7 @@ The following additional research artifacts have been committed on the **same de
 ## Approved AI Paradox comparative research extension
 
 The [controlled comparative evaluation protocol](AI-PARADOX-COMPARATIVE-EVALUATION-PROTOCOL.md) defines a prospective paired synthetic comparison of delegated authority, revocation, independent observation, human review and legitimate task outcomes. This is an extension of the existing research program, not a new platform, a production deployment or completed experimental results. Frozen Training a Tiger findings and existing Tiger Legacy evidence remain unchanged.
+
+## November 2026 cloud service disruption | Assurance research cross reference
+
+The [Integrated Research Journey's November 12 Microsoft 365 incident assessment](../../Integrated-Research-Journey/README.md#november-1213-2026--microsoft-365-disruption-and-institutional-dependency-resilience) documents the reported service disruption, preliminary infrastructure observations and explicit limits on root-cause attribution. It provides a bounded external example for the **existing** synthetic assurance questions on dependency provenance, fail-closed classification, service continuity, human escalation, evidence-chain integrity and recovery verification. This is a research cross reference only: no new tests, new monitoring, deployment, incident response capability or demonstrated mitigation are claimed. The July 2024 CrowdStrike incident remains a distinct software-update comparator; unrelated cybercrime reporting is not evidence of a common cause.
