@@ -1,14 +1,18 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-13T06:43:24.811866+00:00",
+  "generated_at": "2026-11-13T17:12:16.249942+00:00",
   "mode": "evolving_repository_retrieval_with_governed_learning_candidates",
-  "catalog_sha256": "b79c2938acc0c4b1f32fa07c00a7c4aa81c74dd52a36c1a51d6f7298e698ba82",
+  "catalog_sha256": "09d7b222172a9934726d27d66fb18bd9453d5e811c0a2e911a08b24f3b32b6db",
   "document_count": 245,
   "truncated": false,
   "changes": {
     "added": [],
     "removed": [],
-    "revised": []
+    "revised": [
+      "GRI-Research-Journey/Integrated-Research-Journey/README.md",
+      "GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md",
+      "GRI-Research-Journey/institutional-ai-governance-assurance/README.md"
+    ]
   },
   "documents": [
     {
@@ -693,7 +697,7 @@
     {
       "path": "GRI-Research-Journey/Integrated-Research-Journey/README.md",
       "title": "GRI Integrated Research Journey | Living Research Architecture",
-      "content_sha256": "71a8f1a81e9539f445d66e37b5eed021933c0598cfd53be3d7f1d7079879c8b6",
+      "content_sha256": "5faa234779747741efd180732dc1c634a2c4cb419f70c0ec5e5df60a8957c4db",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/README.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -1484,7 +1488,7 @@
     {
       "path": "GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md",
       "title": "GRI Tiger Legacy | Security Governance and Institutional Assurance",
-      "content_sha256": "58a464e1cd99eaac31696589e2a0fceada7a9536ee1ba401e0e2a90a232c4db0",
+      "content_sha256": "e406ee90e9753f4762857cf873e7d92e0c400a150d5b935f6ddf4210e303684f",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -1631,7 +1635,7 @@
     {
       "path": "GRI-Research-Journey/institutional-ai-governance-assurance/README.md",
       "title": "GRI Institutional AI Governance & Assurance",
-      "content_sha256": "e8f897df962b82c34889a730777dc76dc04679624c1aaaab994ee52565a1297c",
+      "content_sha256": "dce0f99cc3b3f6016f2afbbab77ce5f07624d6ec3559b5d9ef4db42c0b43d39f",
       "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/institutional-ai-governance-assurance/README.md",
       "status": "public_repository_document_not_independently_validated"
     },
@@ -1730,7 +1734,7 @@
   "evidence_connections": [
     {
       "record_id": "fdbba33cc5d84ec987fcb052",
-      "content_sha256": "158e6d7598d8ec5913f2313c6d91ce74fd841aad8304ab53e83f71a1f3d4d190",
+      "content_sha256": "32b0e1ea8056e4a3a4255b330e50ea149521f21e1828f2c0c99c8f879117197e",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1877,7 +1881,7 @@
     },
     {
       "record_id": "de3d3a58405cef75e233e43e",
-      "content_sha256": "05efb9faff5ceb7ac80698ce32cb5a99d63decb2dcfb4bf0f539ea50a9d31065",
+      "content_sha256": "c55cde85de22b3957af2fa8ddfe25591c58c55f91be0a1e9b2a68ca96c935dc2",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1934,7 +1938,7 @@
     },
     {
       "record_id": "dae7ae854e9efe22071d442d",
-      "content_sha256": "83e233b3f3ee484ccb29ac7059652766ec6a062cdea6ab0e2af75a7ab344191b",
+      "content_sha256": "82469d394201e47d819b96805ba3906edacf8fdad39fc452f913d28a3e96733d",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1982,7 +1986,7 @@
     },
     {
       "record_id": "c5bd74e05aaae35ba9ec185e",
-      "content_sha256": "21bde8203093ce6e9c33c600b6da3f1ee01ce935eaf34eb5f620c8cdd81bec7e",
+      "content_sha256": "bb698f9e9feb7fee8f07c3885ae9620316eb45eb8130c6683a7520d6956e910a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2030,7 +2034,7 @@
     },
     {
       "record_id": "bff1a7e46550fb3eb2151285",
-      "content_sha256": "974f5cd6f1368354fc868833fd29ecda39c15ee4ed8bf7c3a7cc8894bbd6b9a2",
+      "content_sha256": "af35c2c46c465eef1a222c31764417ec6f1fd6b31ee26b785665f6b2407ca3e5",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2273,7 +2277,7 @@
     },
     {
       "record_id": "958e2bc1a020d8f707f85732",
-      "content_sha256": "b68db5ec86912119e621c185e8b62fdaf7d80a440858915ffaad356980c51411",
+      "content_sha256": "8e57c9dea981316d3f48d9cfa839d34fecb0454833e3f9cce7013fd4aa3ebe82",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2453,7 +2457,7 @@
     },
     {
       "record_id": "61cd45d72fb5c935b19cb0eb",
-      "content_sha256": "1f8535a30c3c6391fd92550db2f3f56b3bfd73fe69259e60c7f46bf048ee051f",
+      "content_sha256": "fead6d6b80d4cd45553e0568d98db5c235d81b698b78953284cb7ff6b580aa7c",
       "research": [
         {
           "path": "GRI-Research-Journey/Research-Governance/Tiger-Legacy/ENGINEERING-RESEARCH-STANDARDS.md",
@@ -2486,7 +2490,7 @@
     },
     {
       "record_id": "6034022a3ee0e0c91beac6e9",
-      "content_sha256": "2f2bf81a345f580debc256f077400ac30270bbd48ac9bf42cfa6f79856e80c4f",
+      "content_sha256": "cfa646382583980904e9d4577b71b15a62fa28dbc98742610bd6b897878eba20",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2969,7 +2973,7 @@
     },
     {
       "record_id": "16571344e9f080f773c000e7",
-      "content_sha256": "270fb05027ce153ff733a4c042a3c8d7146c6b8285181cdd4d1b9aeb497dc045",
+      "content_sha256": "69d65a7d25ee76f81b0bc064a9a770d3f94524f82e9bd66fea0a7b4d7ac47678",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -3032,7 +3036,7 @@
     },
     {
       "record_id": "10b965dff3bc3da58f7d9f9d",
-      "content_sha256": "bfdb33ddeee2cbfc527431bd00fa66019393d435162f8834fd92b19c26bec6a0",
+      "content_sha256": "7ce491a98cc37c16d378c49cfdb919e28d35043c59ed0154285faffdbc6d4239",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -3094,7 +3098,7 @@
         {
           "path": "GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md",
           "title": "GRI Tiger Legacy | Security Governance and Institutional Assurance",
-          "content_sha256": "58a464e1cd99eaac31696589e2a0fceada7a9536ee1ba401e0e2a90a232c4db0",
+          "content_sha256": "e406ee90e9753f4762857cf873e7d92e0c400a150d5b935f6ddf4210e303684f",
           "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Research-Governance/Tiger-Legacy/README.md",
           "status": "public_repository_document_not_independently_validated",
           "similarity": 0.2754,
