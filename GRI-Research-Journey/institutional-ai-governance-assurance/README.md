@@ -61,3 +61,7 @@ Distinguish research prototypes, hypothetical examples, source-supported institu
 - [Institutional cybersecurity and AI governance](../../README.md#current-research--institutional-cybersecurity-and-ai-governance)
 
 **Status:** Research portfolio and index; individual studies retain their own validation and disclosure requirements.
+
+## November 2026 infrastructure dependency and operational accountability
+
+The [Integrated Research Journey's November 12 Microsoft 365 incident assessment](../Integrated-Research-Journey/README.md#november-1213-2026--microsoft-365-disruption-and-institutional-dependency-resilience) records the verified disruption and distinguishes preliminary technical observations from a final root cause. Within the existing institutional assurance program, it motivates evaluation of provider concentration, external dependency visibility, continuity of decision authority, evidence provenance, human escalation and restoration verification. The [Tiger Legacy research record](../Research-Governance/Tiger-Legacy/README.md) provides the existing synthetic assurance comparison. No production effectiveness, independent incident investigation, cyberattack attribution or new engineering result is claimed.
