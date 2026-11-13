@@ -493,3 +493,16 @@ This comparative desk review extends the existing AI Paradox question of whether
 ## November 2026 | PHP2Shell institutional recovery and assurance
 
 **November 2026 | PHP2Shell institutional recovery and assurance:** [Source-qualified PHP2Shell remediation research and bounded engineering acceptance protocol](php2shell-institutional-remediation-assurance-2026.md). Integrates open patch availability, organizational remediation latency, evidence maturity, and independent reproduction into the existing AI Paradox and Tiger Assurance comparative framework. Matched PHP runtime CI is configured; actual vulnerability-specific reproduction and independent verification are **not yet established**.
+
+
+## 13 November 2026 | Critical infrastructure cyber resilience and independent assurance
+
+**Source and classification.** Anne Neuberger, *Wall Street Journal Opinion*, “Cyberattacks Are Coming for Us All” (November 2026), as identified in the research intake. This is an attributed policy argument, not a verified incident report, peer reviewed empirical finding, or independent test of security controls. Original article details and any quantitative targets require direct primary source verification before being treated as established facts.
+
+**Bounded research connection.** The reported concern about cyberattacks affecting banking, hospitals and utilities motivates a comparison between documented cybersecurity compliance and demonstrated operational continuity. Within the existing AI Paradox, the institutional question is whether increasing automation and interdependence outpace accountable oversight, contestability, and recovery capacity. This is a research hypothesis, not a finding that all operators or sectors are insecure.
+
+**Existing assurance crosswalk.** Apply the established [Tiger Legacy institutional assurance framework](../Research-Governance/Tiger-Legacy/INSTITUTIONAL-ASSURANCE-FRAMEWORK-v1.md) and [AI Paradox comparative evaluation protocol](../Research-Governance/Tiger-Legacy/AI-PARADOX-COMPARATIVE-EVALUATION-PROTOCOL.md) to examine: (1) authorized control and revocation; (2) isolation and least privilege; (3) integrity and provenance of incident evidence; (4) tested containment and continuity; (5) recovery and rollback; and (6) independent reproducibility and decision accountability. Synthetic assurance fixtures do not demonstrate production infrastructure resilience.
+
+**Evidence protocol.** For each future verified incident or control claim, retain the original issuer, publication and event timestamps, affected sector, operational impact, primary technical advisory or regulator record, mitigation status, and independent corroboration where available. Distinguish reported allegations, official incident confirmations, vendor assertions, simulations, and independently reproduced results. Do not infer compromise from service interruption alone, or treat a policy recommendation as an implemented safeguard.
+
+**Scope and change control.** Interpretive extension only; no new research project, new governance file, live infrastructure testing, security certification, dashboard change, or operational deployment. The repository root README and all images remain unchanged. This entry does not imply endorsement by the article author, *The Wall Street Journal*, or any academic institution.
