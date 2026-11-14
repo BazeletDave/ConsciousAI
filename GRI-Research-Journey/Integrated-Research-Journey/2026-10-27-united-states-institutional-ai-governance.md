@@ -4,7 +4,7 @@ Grand Research Institute | Comparative country case USA 001 | October 27, 2026
 
 ## Research contribution
 
-The United States extends GRI's [Brazil](2026-10-23-brazil-election-ai-platform-governance-tam505.md) and [Israel](2026-10-27-israel-platform-governance-ai-paradox.md) cases with English language federal policy metadata. The [three country comparative framework](2026-10-27-brazil-israel-united-states-comparative-intelligence.md) applies the same research questions across institutions, organizational authority and AI. The [U.S. dashboard view](https://gri-global-intelligence.onrender.com/dashboard?country=USA#country-intelligence) makes source records and suggested links to existing GRI research inspectable.
+The United States extends GRI's [Brazil](2026-10-23-brazil-election-ai-platform-governance.md) and [Israel](2026-10-27-israel-platform-governance-ai-paradox.md) cases with English language federal policy metadata. The [three country comparative framework](2026-10-27-brazil-israel-united-states-comparative-intelligence.md) applies the same research questions across institutions, organizational authority and AI. The [U.S. dashboard view](https://gri-global-intelligence.onrender.com/dashboard?country=USA#country-intelligence) makes source records and suggested links to existing GRI research inspectable.
 
 This is a comparative institutional research case, not a partisan scorecard, a claim of electoral manipulation or a declaration that federal policy is uniform across the United States. National, state, local and sector institutions require separate evidence. The current connector covers a bounded federal metadata collection, not the entire U.S. policy environment.
 
