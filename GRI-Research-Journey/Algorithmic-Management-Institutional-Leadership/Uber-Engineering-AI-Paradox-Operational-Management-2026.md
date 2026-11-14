@@ -245,3 +245,59 @@ A traffic collision and a credential compromise can both be short events with lo
 - [NIST CSF 2.0](https://www.nist.gov/cyberframework); [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework)
 
 **Attribution safeguards:** Lena Booth and Roy Nelson are intellectual/disciplinary reference points, not GRI collaborators, incident investigators or endorsers. The finance equations and cross disciplinary propositions above are GRI original analytical constructs. No unpublished course material, personal financial records or private driver identifiers are disclosed.
+
+
+## November 13, 2026 | Michelangelo AI open source: engineering evidence and institutional assurance
+
+**Status:** Bounded, source anchored integration of the public Michelangelo AI codebase and documentation into existing GRI research. **Method:** Public repository tree and README inspected; subsystem structure cross checked against operator and contributor documentation. No local build, execution, security penetration test, independent code audit, or verification of Uber's private production configuration was performed.
+
+### Public source baseline and scope
+
+The [Michelangelo AI repository](https://github.com/michelangelo-ai/michelangelo) is published under Apache 2.0 and describes an incrementally released, beta machine learning lifecycle platform. The [public documentation](https://michelangelo-ai.org/docs/) describes data preparation, pipeline orchestration, model training, evaluation, registry, deployment and monitoring. **The presence of a feature in overview documentation is not evidence of complete implementation or deployment.** The [roadmap](https://michelangelo-ai.org/docs/getting-started/roadmap/) distinguishes released capabilities from planned features, including elements of agent management, monitoring, advanced rollout and feature lineage.
+
+### Repository grounded engineering inventory
+
+| Public artifact | Observed or documented function | GRI assurance question |
+| --- | --- | --- |
+| [Repository README](https://github.com/michelangelo-ai/michelangelo/blob/main/README.md) and [Uniflow Python package](https://github.com/michelangelo-ai/michelangelo/tree/main/python/michelangelo/uniflow) | Python task/workflow definitions, pipeline orchestration and local sandbox example | Are task inputs, output artifacts, revisions and execution approvals reproducible and attributable? |
+| [API server](https://github.com/michelangelo-ai/michelangelo/tree/main/go/cmd/apiserver) | Go gRPC resource API and control plane components | Which principals can create, modify, deploy and delete resources, and how are these actions recorded? |
+| [Controller manager](https://github.com/michelangelo-ai/michelangelo/tree/main/go/cmd/controllermgr) | Kubernetes reconciliation and deployment management | Can operators verify state convergence, exception handling, rollback and corrective action? |
+| [Workflow worker](https://github.com/michelangelo-ai/michelangelo/tree/main/go/cmd/worker) | Workflow and activity execution components | Are retry semantics, authorization, idempotency and provenance auditable? |
+| [Authentication implementation](https://github.com/michelangelo-ai/michelangelo/tree/main/go/auth) | Public code includes OIDC and Kubernetes RBAC related packages and tests | Do authentication and authorization policies enforce appropriate separation of duties in a given deployment? No effectiveness finding without execution and configuration review |
+| [Model registry operator guide](https://michelangelo-ai.org/docs/operator-guides/components/model-registry/) | Kubernetes Model custom resources, artifact URIs, object store IAM and namespace RBAC | Can model versions and artifacts be traced to approved origins, owners and consumers? Does an artifact URI demonstrate readiness or merely registration? |
+| [Build and test documentation](https://michelangelo-ai.org/docs/contributing/building-michelangelo-ai-from-source/) | Public subsystem map, developer build procedures | Which security, correctness and reliability claims survive independent reproducible testing? |
+
+**Specific operational limitation:** The public model registry guide states that the Model custom resource has no populated readiness status conditions; verification must examine artifact URIs and downstream serving conditions. This is a documented interface behavior, not evidence of a security vulnerability. The same guide distinguishes model resource registration from deployment through separate Deployment/Revision and InferenceServer mechanisms.
+
+### Separate Uber production architecture: do not conflate
+
+Uber's [Solving the Identity Crisis for AI Agents](https://www.uber.com/us/en/blog/solving-the-agent-identity-crisis/) describes a production design involving Michelangelo workload registration, an Agent Registry, Security Token Service issuing short lived scoped JWTs, AI Agent Mesh, AI Gateway and MCP Gateway. That is a **company published architecture account**, not proof that all those internal components, policies, deployment settings or controls are included in the public open source release. Do not infer a cryptographically verified identity or complete audit trail for every open source installation from the article alone.
+
+**Fireworks incident boundary:** There is no established evidence that Michelangelo, its open source implementation, the Agent Registry, MCP Gateway or autonomous vehicle systems caused, facilitated or were compromised in the driver identity incident. The incident instead provides a separate supplier trust boundary case against which to ask whether authorization, data minimization, secrets handling and effective remediation can be independently demonstrated. Shared subject matter does not establish a shared attack path.
+
+### Integrated GRI analytical crosswalk
+
+1. **Algorithmic management:** A machine learning platform can make automated outputs operationally scalable; the platform alone does not establish which algorithms determine driver dispatch, compensation or eligibility. Link a specific model to a specific labor decision only with deployment and decision lineage evidence.
+2. **Finance:** Evaluate cost per *validated decision*, not only cost per prediction or training run. A proposed full cost includes compute, data stewardship, human review, incident prevention, response, correction and verified externalized costs. Distinguish economic incidence from accounting recognition and legal damages.
+3. **Institutional political economy:** Apply the existing Nelson informed GRI analysis to actors, interests, decision rights, bargaining asymmetry, regulation and enforcement. Do not present original Nelson currency crisis indicators as native AI risk measures.
+4. **Institutional AI Paradox:** Technical capacity to register, authenticate and orchestrate models or agents does not by itself establish legitimate authority, meaningful human intervention or an effective avenue of redress. Conversely, demonstrated governance controls could disconfirm an institutional assurance lag hypothesis.
+5. **Mobility and AV:** The public ML platform is relevant as a general engineering comparison; do not attribute a particular AV model, fleet operation or safety outcome to Michelangelo without model and deployment evidence.
+
+### Testable propositions and falsification
+
+**P1, technical versus institutional traceability:** A model can be versioned and deployed while the affected individual's ability to obtain an explanation or correction remains unverified. Test with a complete decision lineage and actual appeal outcome; falsify if timely explanation and effective correction are demonstrated.
+
+**P2, economic risk incidence:** Corporate optimization of model lifecycle cost may omit consequential downstream costs borne by workers. Test with matched operating, remediation and documented worker loss records; falsify if full cost allocation and accessible remedies are demonstrated.
+
+**P3, delegated authority:** Permissioned agents can execute technically valid actions without establishing that the institution has assigned legitimate decision responsibility. Test role matrices, policy enforcement, approval logs, intervention records and accountable ownership. Falsify if documented controls show appropriate authorization and intervention in practice.
+
+### Publication evidence grading
+
+- **Direct public evidence:** repository existence, Apache 2.0 license, named source directories, documented API architecture, model registry and roadmap scope.
+- **Uber self report:** scale and production architecture claims; not independently audited in this review.
+- **GRI interpretation:** institutional and financial connections, conceptual models and falsifiable propositions.
+- **Not established:** production security efficacy, identity breach root cause within Michelangelo, AV linkage, individual driver damages, or a full source code security assessment.
+
+**Required next verification:** pin a source commit SHA; inspect authorization call paths and tests; build and run a controlled local sandbox; inspect model registry and deployment revision behavior; compare released versus planned capabilities; record reproducible results and exceptions; obtain primary Uber driver incident notifications and independently verified driver impact evidence. No unsupported certification or security finding is asserted.
+
+**Scope and attribution:** This extension is independent GRI research using public materials. It does not discuss the founder's educational grades, coursework or personal involvement, and makes no claim of academic sponsorship or endorsement. The existing README, dashboard, governance architecture and historical research files remain unchanged.
