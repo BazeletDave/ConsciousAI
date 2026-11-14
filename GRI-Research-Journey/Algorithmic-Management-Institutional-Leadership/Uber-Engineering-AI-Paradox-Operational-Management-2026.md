@@ -69,9 +69,6 @@ The names Deepanshu Mehndiratta, Alok Srivastava, Vibhor Dhingra and Ankit Sriva
 ## Integration with GRI monograph
 This extension operationalizes the existing monograph's chapters on algorithmic organizational control, visibility allocation, institutional economics, financial value, agentic management, adaptive governance, comparative research design and falsification. The central GRI AI Compliance Paradox concerns systems that follow codified instructions while potentially diverging from their institutional purpose. For Uber MCP, the test is whether compliant tool calls produce accountable outcomes. For platform pricing, the test is whether rules and resulting allocations are intelligible and contestable. For cache optimization, the test is whether measured efficiency translates into durable operational value after reliability and other costs are considered.
 
-## Next evidence collection
-Priority 1: establish full article author lists, individual engineering roles and publication provenance. Priority 2: build a longitudinal register of matched rideshare transactions with confirmed final payouts and confounders. Priority 3: identify documented agent permission, override and audit patterns. Priority 4: interview managers and engineers, where authorized, on operational meeting changes. Priority 5: compare before and after financial, performance and institutional outcomes without treating association as causation.
-
 ### Internal primary references
 - [GRI Uber and Lyft research dossier](../Algorithmic-Management/Uber-Lyft-Research/README.md)
 - [GRI Chicago paired transactions case](../Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md)
