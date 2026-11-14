@@ -336,7 +336,7 @@ def snapshot(code=None, topic=None):
                 selected_country=code, selected_topic=topic, channels=CHANNELS,
                 comparative_research=json.loads((DATA / "comparative_research.json").read_text(encoding="utf-8")),
                 coverage="South America pilot with Israel and United States comparative cases; limited publisher coverage, not comprehensive worldwide monitoring",
-                brazil_research_url="https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance-tam505.md")
+                brazil_research_url="https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-23-brazil-election-ai-platform-governance.md")
 
 
 def main():
