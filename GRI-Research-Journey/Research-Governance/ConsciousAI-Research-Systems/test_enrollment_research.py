@@ -35,7 +35,7 @@ class EnrollmentResearchTests(unittest.TestCase):
         self.assertEqual(result["coverage"]["countries"], ["AUS", "GBR", "USA"])
 
     def test_fail_closed_invalid_or_unreviewed_data(self):
-        for change in ({"contains_personal_data": True}, {"training_eligible": True}, {"retrieval_eligible": True}, {"source_url": "javascript:alert(1)"}):
+        for change in ({"contains_personal_data": True}, {"training_eligible": True}, {"verification": "unreviewed", "retrieval_eligible": True}, {"source_url": "javascript:alert(1)"}):
             d = copy.deepcopy(self.data); d["records"][0].update(change)
             with self.subTest(change=change), self.assertRaises(ValueError): validate(d)
         d=copy.deepcopy(self.data); d["records"].append(d["records"][0])
@@ -70,7 +70,7 @@ class EnrollmentHTTPTests(unittest.TestCase):
         from urllib.request import urlopen
         from urllib.error import HTTPError
         d = self.fetch('/intelligence/enrollment-research?q=identity&country=USA')
-        self.assertEqual(d['counts']['records'], 7)
+        self.assertEqual(d['counts']['records'], 6)
         self.assertEqual(d['retrieval']['fitted_documents'], 9)
         with self.assertRaises(HTTPError) as error:
             self.fetch('/intelligence/enrollment-research?country=invalid')
