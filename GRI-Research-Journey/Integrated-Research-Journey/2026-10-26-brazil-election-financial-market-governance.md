@@ -2,7 +2,7 @@
 
 **Grand Research Institute | Independent working research | October 26, 2026**  
 **Status:** Evidence-qualified observational case and preregistration candidate; not peer reviewed; no demonstrated AI causation.  
-**Related case:** [Brazil election AI and platform governance](2026-10-23-brazil-election-ai-platform-governance-tam505.md)
+**Related case:** [Brazil election AI and platform governance](2026-10-23-brazil-election-ai-platform-governance.md)
 
 ## Abstract
 Brazil's October 2026 election provides an opportunity to investigate two distinct but potentially related institutional interfaces: digitally mediated electoral information before voting and technologically mediated financial repricing afterward. Neither the observed election outcome nor financial selloff demonstrates that AI influenced votes or caused trading losses. The research distinguishes documented outcomes, alleged platform practices, and hypotheses about automated market transmission.
@@ -58,6 +58,6 @@ Apply the institutional political economy framework taught by Roy C. Nelson at T
 6. Preserve separate documentation for Meta allegations and responses, avoiding inference of electoral causation.
 
 ## Comparative GRI relevance
-This case complements the [Brazil platform-governance study](2026-10-23-brazil-election-ai-platform-governance-tam505.md), the [institutional power amplification framework](2026-10-19-institutional-power-amplification-framework.md), and GRI's Uber/Lyft algorithmic management research. These are comparisons of institutional authority, opacity and review mechanisms, not evidence of shared software or intent.
+This case complements the [Brazil platform-governance study](2026-10-23-brazil-election-ai-platform-governance.md), the [institutional power amplification framework](2026-10-19-institutional-power-amplification-framework.md), and GRI's Uber/Lyft algorithmic management research. These are comparisons of institutional authority, opacity and review mechanisms, not evidence of shared software or intent.
 
 **Institutional and academic integrity:** Independent GRI research; no affiliation, endorsement or peer review by Thunderbird, ASU, Meta, B3, Reuters or the Brazilian government is implied. Use publicly available evidence and respect data licensing.
