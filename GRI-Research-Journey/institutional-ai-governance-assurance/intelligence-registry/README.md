@@ -19,7 +19,7 @@ Future dashboard ingestion can consume validated JSON records containing `id`, `
 
 ## Source boundaries
 
-Uber's Persona Guardrail and ADR are external engineering references, not GRI-controlled services. Waymax is an externally maintained research simulator and is **not** a real-world autonomous-vehicle safety certification; its license is non-commercial and must be reviewed before any use or redistribution. The enrollment-fraud discussion is an unverified classroom lead, not an allegation against identified students.
+Uber's Persona Guardrail and ADR are external engineering references, not GRI-controlled services. Waymax is an externally maintained research simulator and is **not** a real-world autonomous-vehicle safety certification; its license is non-commercial and must be reviewed before any use or redistribution. Enrollment fraud research uses public institutional sources and does not identify individual students.
 
 Related research: [comparative architecture](../research-program-architecture.md) and [methods protocol](../evidence-and-methods-protocol.md).
 
@@ -33,4 +33,4 @@ The existing GRI research server now defines a read-only `GET /intelligence/gove
 
 ## Global enrollment and identity fraud research stream
 
-The [Synthetic Student Paradox](../../../research/case-studies/synthetic-student-paradox-2026.md) now links to a [global comparative research protocol](../../../research/case-studies/global-enrollment-identity-fraud-research-stream.md). It defines an incident and claim evidence model, mapping to this registry, proposed dashboard views, and evaluated document intelligence tasks. The classroom account remains attributed and independently unverified; no individual student data or fraud labels are introduced. This documentation link does not add a collector, dashboard display, or trained model.
+The [global comparative enrollment research protocol](../../../research/case-studies/global-enrollment-identity-fraud-research-stream.md) defines incident and claim evidence models, registry mappings, proposed dashboard views, and evaluated document intelligence tasks. No nonpublic classroom account is part of the public evidence base.
