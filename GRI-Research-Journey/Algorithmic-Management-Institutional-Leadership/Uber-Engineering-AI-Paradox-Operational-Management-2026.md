@@ -349,3 +349,36 @@ Under the GRI finance lens, the relevant unit is not merely cost per prediction 
 **Current institutional conclusion:** The public release makes Uber's engineering architecture more inspectable and exposes concrete, testable configuration choices. It does not make Uber's production economic decisions, security posture or institutional accountability fully observable. Whether open source adoption improves or outpaces governance remains an empirical question, and both confirming and disconfirming evidence must be recorded. This distinction is the expanded GRI AI Paradox.
 
 **Evidence status:** Public announcement and source implementation inspected; source revision pinned; code and tests statically reviewed; local test execution blocked by environment; Uber production settings, individual driver outcomes and incident causation not established. No new research program, README banner, governance file or institutional endorsement is implied.
+
+
+## November 14, 2026 | Formal comparative evidence synthesis: Michelangelo, Uber, Lyft and the AI Paradox
+
+**Scope and decision:** Consolidation of the existing November 13 Michelangelo source inspection and the existing Uber and Lyft longitudinal record. This is an analytical synthesis, not another code audit, new project, proof of production behavior or an endorsement of either company. The pinned Michelangelo revision and its authentication test inventory above remain the reproducibility baseline.
+
+### Evidence matrix and permissible conclusions
+
+| Evidence class | Observed or documented basis | Conclusion permitted | Conclusion not permitted |
+| --- | --- | --- | --- |
+| Public Michelangelo implementation | Apache 2.0 repository; workflow and model lifecycle components; pinned source inspection of dummy and Kubernetes RBAC modes, optional middleware and authorization caching | Specific implementation and configuration choices are publicly inspectable and support bounded independent testing | That the public source matches Uber production settings or that any control is effective in production |
+| Uber's public representations | Upstream README, product documentation and cited engineering announcements; internal scale figures are company reported | Uber represents Michelangelo as an incrementally released machine learning lifecycle platform | That published throughput or deployment claims were independently reproduced, or that the released code contains every internal component |
+| GRI Uber field observations | Dated driver facing offers, earnings and incentive records documented in the existing Uber and Lyft dossier | Particular interface displays, economic calculations and driver observations can be studied with their sampling limitations | That Michelangelo caused any observed dispatch, pay or pricing outcome, or that a platform wide earnings target exists |
+| GRI Lyft field observations | Chicago paired transaction case and South Florida Lyft observations | Specific displayed estimated fees, gross offer calculations and contestability questions can be compared institutionally | That Lyft uses Michelangelo, shares Uber's source code, or applies the same pricing or dispatch rules |
+| GRI institutional interpretation | The established AI Paradox, longitudinal evidence and public source inspection | Technical inspectability and effective accountability are distinct constructs that can be evaluated separately | That an accountability failure, labor harm or unlawful practice has already been causally established |
+
+### Formal research propositions and disconfirmation criteria
+
+**P1: Infrastructure visibility versus decision accountability.** Publication of model lifecycle code increases the opportunity to inspect technical controls but does not by itself reveal the feature values, decision objectives, human authorization or appeals governing a particular driver facing result. *Disconfirmation:* versioned operational decision traces and independent access to explanation, oversight and correction demonstrate that transparency extends to consequential outcomes.
+
+**P2: Configurable authority versus effective authority.** The documented distinction between permissive development authentication and explicit Kubernetes RBAC shows that deployer configuration matters. *Disconfirmation:* independently reproducible tests and deployment evidence establish enforced least privilege, timely revocation, attributable approvals and reliable exception handling at relevant operational scale. A development default alone is not evidence of a production defect.
+
+**P3: Efficiency versus distributed economic outcomes.** Engineering throughput, model reliability and infrastructure savings cannot substitute for measured driver welfare, customer outcomes or cost of human correction. *Disconfirmation:* matched, properly defined longitudinal evidence demonstrates gains in operational performance alongside measurable transparency, fair treatment and effective remedies.
+
+**P4: Cross platform institutional comparison.** Uber source code and Lyft field evidence can support comparison of governance questions, not inference of shared technical implementation. *Disconfirmation of a proposed common mechanism:* platform specific documentation or independently obtained evidence demonstrates materially different decision architectures and controls; preserve those differences rather than forcing equivalence.
+
+### Operational assurance questions within existing GRI research
+
+For each consequential decision class, record the system or human decision owner; published model or policy version if available; decision inputs and uncertainty actually observable; approval, override and revocation rights; evidence of a meaningful appeal; correction outcome; and economic incidence. Record **not publicly observable** instead of treating missing evidence as a failed control. Compare independent source inspection with platform statements and field observations without combining them into a single confidence score.
+
+**Formal GRI conclusion:** Michelangelo materially improves the *possibility* of independent inspection of some Uber related machine learning infrastructure. It does not establish transparency of Uber's production driver decisions, any Lyft implementation, or the effectiveness of institutional remedies. The AI Paradox is therefore framed as a testable divergence between technical capability and the verifiable authority to understand, contest and correct consequential decisions. The competing possibility, that open source measurably strengthens governance, remains equally eligible for empirical confirmation.
+
+**Publication and assurance boundary:** Only public repository material, publicly attributable company statements and authorized GRI field evidence are used here. No private educational content, course identifiers, confidential platform data or unpublished classroom accounts are included. No fork, runtime deployment, new benchmark or completed test execution is claimed.
