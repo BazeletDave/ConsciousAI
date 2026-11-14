@@ -127,3 +127,63 @@ Required evidence includes a time series of human and agent initiated sessions, 
 
 ### Source and attribution note
 Source: Uber Software Factory engineering article supplied in full by the research contributor on 19 October 2026. Original publication URL, title, author list, and publication date remain to be verified before external bibliographic citation. Reported metrics are company statements and have not been independently replicated.
+
+
+## November 13, 2026 | Uber driver identity credentials and Fireworks AI: bounded institutional incident extension
+
+**Status:** Public evidence review; incident confirmed through Uber's reported notification and Fireworks' disclosures. Root cause specific to Uber's data, complete national population, individual harms, and legal liability remain unresolved. This extension belongs to the existing Uber engineering, Uber/Lyft labor governance, AI Paradox, and Tiger Assurance research; it is not a new program or independent forensic finding.
+
+### Source anchored chronology and evidence classification
+
+| Date | Publicly documented event | Evidence classification |
+| --- | --- | --- |
+| October 6, 2026 | Fireworks identified unauthorized use of internal credentials and began containment. Its initial October 10 bulletin described exposure of secrets in certain evaluation jobs and did not then identify personal information access. | Fireworks primary vendor disclosure, initial and explicitly provisional |
+| October 9 | According to Uber's breach notification as reported by Reuters, its provider notified Uber of compromised credentials used to access its account; Uber disconnected its data connections and investigated. | Uber notice reported by Reuters; obtain and preserve the state filing for direct primary review |
+| October 13 | Uber determined that unauthorized access involved personal information. | Uber notice as reported by Reuters and TechCrunch |
+| October 23–24 | Fireworks reported a separate third party cloud provider incident affecting its R&D machines and additional customer data. **Do not attribute Uber's driver records to this later activity without evidence.** | Fireworks primary disclosure |
+| November 9 | Fireworks updated its incident bulletin: some customer account and billing information, secrets, datasets and incomplete models were impacted; it engaged Palo Alto Networks Unit 42. It reported no detected impact to its default zero data retention Inference, Training SDK and Nexus services as of that bulletin. | Fireworks primary disclosure; investigation ongoing |
+| November 10–13 | Uber notification letters dated November 10 were reported publicly November 13. TechCrunch reported driver license information involving 2,567 Massachusetts, 3,430 South Carolina and 1,873 Rhode Island residents, a subtotal of **7,870 across these three states**, not a national total. | Secondary reporting of state filings; state totals and data fields require direct filing reconciliation |
+
+### Engineering mechanism: demonstrated versus unverified
+
+**Reported:** Attackers used compromised vendor credentials to access Uber data held or accessible through Fireworks. Fireworks describes credential and secret exposure, and subsequently disclosed other affected data categories. This establishes a vendor trust boundary and a credential based access pathway; it does **not** establish the exact application, storage bucket, processing purpose, data lineage, or privilege configuration for Uber driver licenses.
+
+**Technical hypotheses requiring evidence:** unnecessary credential persistence; excessive service account permissions; sensitive identity records included in a vendor dataset; inadequate segmentation; insufficient data minimization; ineffective credential rotation or anomalous access detection. Do not label any of these as an observed Uber defect without relevant logs, data processing records, contractual controls or a forensic report. Review identity and access management, secret lifecycle, least privilege, data classification, encryption and key management, retention, egress monitoring, incident detection, notification and audit reconstruction.
+
+**Cross reference to existing Uber engineering:** MCP Gateway's described authorization, default disabled tools, redaction and observability are *design concepts* for comparing technical authorization and institutional accountability, not proof those controls governed Fireworks or failed here. Software Factory agent workflows and engineering scale raise analogous governance questions about delegation and auditability but have no established causal role in this incident. Translation cache optimization has no demonstrated security connection.
+
+**Autonomous vehicle research boundary:** Uber AV partnerships, field observations and mixed traffic assurance are a separate engineering domain. Compare how organizations assign safety and security assurance responsibility across supplier boundaries; do not infer AV system compromise, connected vehicle exposure, or a common root cause from this identity data incident.
+
+### Government issued credential and institutional accountability
+
+A driver license is a government issued credential whose identifying data may be reused in verification and fraud contexts. Its exposure is consequential even though a private vendor breach is not automatically a breach of a government system. The precise risk depends on whether numbers, images, dates of birth, addresses or other fields were exposed; these details require verification. Platform eligibility can require drivers to provide identification, while vendor selection and downstream data processing remain outside the driver's practical control. This asymmetry motivates a testable institutional responsibility question, not a presumption of legal negligence.
+
+**Applicable duties to examine, not presume violated:** state breach notification and consumer protection statutes, contractual data processing obligations, FTC authority where applicable, and driver specific remedies. Examine jurisdiction, injury, causation, standing, applicable arbitration terms, and the distinction between credit monitoring and compensation. No automatic universal payout is established.
+
+### Human impact and the temporal asymmetry hypothesis
+
+A short unauthorized access event may create prolonged exposure to identity misuse, account impersonation, financial costs, loss of earning capacity, administrative burden, and distress. The comparison to a vehicle collision is about **duration and asymmetry of potential harm**, not equivalence of incidence or severity. Research must distinguish (1) confirmed exposure, (2) documented individual misuse or loss, (3) plausible future risk, and (4) speculative or unverified outcomes. Do not claim that affected drivers experienced identity theft, lost income or lifelong consequences absent case evidence.
+
+### Assurance and research verification protocol
+
+1. Obtain the California attorney general notice and relevant Massachusetts, South Carolina, Rhode Island and Illinois filings; record original URLs, dates, affected populations, exact data fields and any inconsistencies.
+2. Preserve both Fireworks bulletins as separately dated primary statements; explicitly track changes in the known scope and the separate October 23–24 event.
+3. Request or locate Uber's incident notice, vendor data processing purpose, exposure window, credential scope, independent forensic conclusions and documented containment; mark unavailable records as evidence gaps.
+4. Map controls to NIST Cybersecurity Framework 2.0, NIST AI RMF where AI system governance is genuinely implicated, and NIST SP 800-53 controls for access, audit, supply chain and incident response. A framework mapping is not a compliance certification.
+5. Develop a driver impact matrix: eligibility and account access, fraud reports, remediation time, out of pocket costs, verified earnings loss, notice receipt, and available redress. Collect only consented, minimized, deidentified observations; never publish credential images or license numbers.
+6. Test alternative explanations and disconfirming evidence: narrow vendor access, effective containment, no misuse, and controls operating as designed may weaken a negligence hypothesis even where exposure is confirmed.
+7. Use existing GRI evidence integrity and Tiger Assurance practices for source provenance and independent review, without exposing confidential assurance architecture or creating new governance files.
+
+### Institutional research proposition
+
+**Authority over data processing, operational control of a supplier, and responsibility for harm can become misaligned.** Evaluate whether a platform that mandates identity verification can demonstrate proportionate protection, independently auditable supplier controls, timely notification, and accessible remedies. This is a normative and testable proposition, not a judicial finding against Uber or Fireworks.
+
+### External source register (retrieved November 13, 2026)
+
+- [Fireworks AI initial October incident bulletin, updated October 10](https://fireworks.ai/security/bulletins/october-2026-security-incident) — primary vendor statement.
+- [Fireworks AI incident update, November 9](https://fireworks.ai/security/bulletins/october-2026-security-incident-update) — primary vendor statement, revised scope and subsequent activity.
+- [Reuters, Uber says US drivers' license data stolen in data breach, November 13](https://www.reuters.com/business/uber-says-us-drivers-license-data-stolen-data-breach-2026-11-13/) — secondary reporting of Uber notification.
+- [TechCrunch, Uber confirms hackers stole thousands of drivers' license information, November 13](https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/) — Uber spokesperson confirmation and reported state counts.
+- [NIST Cybersecurity Framework 2.0](https://www.nist.gov/cyberframework) and [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — methodological standards, not incident evidence.
+
+**Research limits:** No GRI forensic access, Uber internal logs, verified AV breach connection, confirmed nationwide victim total, validated causal harm estimate or liability determination. Preserve these distinctions in all dashboard and institutional reporting.
