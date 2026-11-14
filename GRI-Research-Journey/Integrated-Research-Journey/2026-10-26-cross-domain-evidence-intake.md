@@ -6,14 +6,13 @@
 **Source class:** User supplied screenshots and illustrative photographs; original image files remain in the conversation and are not reproduced here.
 
 ## Purpose
-Assess six candidate inputs for GRI's AI Governance Paradox research through the sequence **Access → Capability → Authority → Consequences → Feedback**. This document records research leads, not substantiated empirical findings.
+Assess five candidate inputs for GRI's AI Governance Paradox research through the sequence **Access → Capability → Authority → Consequences → Feedback**. This document records research leads, not substantiated empirical findings.
 
 ## Intake register
 
 | ID | Material | Research classification | Evidence status | Required next step |
 | --- | --- | --- | --- | --- |
 | GRI-INT-20261026-01 | Screenshot dated 25 October 2026 alleging that Uber Eats couriers in France use multiple phones to decline low paying orders | Algorithmic management, worker adaptation, platform incentives | **UNVERIFIED CLAIM**. Screenshot is a secondary social media report. Multiple devices alone cannot establish coordinated behavior, platform effects, or migration status. | Identify original reporting; seek independent corroboration, Uber response, French labor context, and permitted aggregate platform evidence. |
-| GRI-INT-20261026-02 | Photograph of an online Thunderbird class with a speaker labeled Mansour Javidan | Cross cultural communication, leadership, trust, negotiation | **CONTEXTUAL EDUCATIONAL RECORD**. The screenshot does not prove research results or institutional endorsement. | Obtain permission before any public reproduction; use only appropriately attributed public teaching concepts and independently developed GRI hypotheses. |
 | GRI-INT-20261026-03 | Photograph of a queue outside an Apple retail store | Innovation diffusion, consumer demand, technology adoption | **ILLUSTRATIVE ONLY**. Location, date, product, and reason for the queue are unverified. | Obtain provenance and independently sourced adoption metrics before drawing conclusions. |
 | GRI-INT-20261026-04 | Photograph of the Beus Center for Law and Society | Institutional governance, legal accountability | **CONTEXTUAL ONLY**. Building photograph is not evidence of a legal or policy position. | Link specific legal instruments, institutional publications, and applicable jurisdictions. |
 | GRI-INT-20261026-05 | Stylized image depicting facial recognition overlays on pedestrians | Privacy, surveillance, biometrics, contestability | **CONCEPTUAL ILLUSTRATION**. Does not establish an actual surveillance deployment. | Analyze documented system deployments, applicable privacy laws, audit findings, and measurable error disparities. |
@@ -46,7 +45,7 @@ H2: Observed changes reflect ordinary market conditions or dispatch mechanisms r
 
 1. Preserve original source provenance, retrieval date, rights status, and any subsequent independent verification.
 2. Keep allegations, observations, illustrations, interpretations, and hypotheses in separate evidence classes.
-3. Attribute Thunderbird educational frameworks appropriately; do not imply faculty or university endorsement of GRI research.
+3. Use publicly licensed and independently verifiable research foundations; do not imply institutional endorsement.
 4. Do not publish identifiable classroom participants or private course content without appropriate authorization.
 5. Do not use photographs as empirical proof of technology performance or institutional policy.
 6. Require source validation, documented methods, uncertainty analysis, and review before promoting an intake item into a public research finding.
