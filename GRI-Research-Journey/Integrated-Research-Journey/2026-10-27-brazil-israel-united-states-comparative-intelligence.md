@@ -2,7 +2,7 @@
 
 Grand Research Institute | Three country research extension | October 27, 2026
 
-The [Brazil case](2026-10-23-brazil-election-ai-platform-governance-tam505.md), [Israel case](2026-10-27-israel-platform-governance-ai-paradox.md) and [United States case](2026-10-27-united-states-institutional-ai-governance.md) now share a country evidence interface and a common research architecture. This extends the [Brazil and Israel comparison](2026-10-27-brazil-israel-comparative-institutional-intelligence.md) without rewriting its historical scope.
+The [Brazil case](2026-10-23-brazil-election-ai-platform-governance.md), [Israel case](2026-10-27-israel-platform-governance-ai-paradox.md) and [United States case](2026-10-27-united-states-institutional-ai-governance.md) now share a country evidence interface and a common research architecture. This extends the [Brazil and Israel comparison](2026-10-27-brazil-israel-comparative-institutional-intelligence.md) without rewriting its historical scope.
 
 | Comparative dimension | Brazil | Israel | United States |
 | --- | --- | --- | --- |
