@@ -3,7 +3,7 @@
 **Author of GRI analysis:** David A. Grand | Grand Research Institute  
 **Date:** 19 October 2026  
 **Status:** Independent interpretive research note; not peer reviewed or a Thunderbird/ASU endorsed publication  
-**Academic source:** Thomas Donaldson, “Values in Tension: Ethics Away from Home,” *Harvard Business Review* 74, no. 5 (September–October 1996), 48–62 [verify original journal pagination against publisher record]; HBR reprint 96502. The founder supplied a 12-page course licensed reprint, authorized for his TGM 101 Principles of Global Management course with Professor Roy Nelson, Thunderbird School of Global Management, Dec. 2023–June 2024. **Do not republish the licensed reprint.** The analysis below is original commentary with source page locators referring to printed HBR reprint pages 4–12.
+**Academic source:** Thomas Donaldson, “Values in Tension: Ethics Away from Home,” *Harvard Business Review* 74, no. 5 (September–October 1996), 48–62 [verify original journal pagination against publisher record]; HBR reprint 96502. **Do not republish licensed source materials.** The analysis below is original commentary with source page locators referring to printed HBR reprint pages 4–12.
 
 ## Executive synthesis
 
@@ -60,13 +60,13 @@ These correspondences are *research hypotheses and governance recommendations*, 
 
 **Bibliographic reference:** Donaldson, Thomas. 1996. “Values in Tension: Ethics Away from Home.” *Harvard Business Review* (September–October), HBR reprint 96502. [Publisher bibliographic details and original pagination to be verified before formal publication.]
 
-**Intellectual boundary:** The article's ethical theory and examples are credited to Donaldson; the cross-domain AI Paradox interpretation, comparisons and test proposals are independent GRI work. Professor Roy Nelson's TGM 101 course is identified solely as the documented educational setting in which the licensed reading was supplied, not as coauthorship, supervision of this paper or institutional endorsement.
+**Intellectual boundary:** The article's ethical theory and examples are credited to Donaldson; the cross-domain AI Paradox interpretation, comparisons and test proposals are independent GRI work. No faculty coauthorship, supervision or institutional endorsement is asserted.
 
 **Evidence status:** Source-grounded conceptual comparison. No new empirical dataset, systematic literature review, ethics certification or formal institutional review is claimed. The licensed PDF must remain outside the public repository unless redistribution rights are established.
 
 ## November 6, 2026 | Cultural interpretation and legitimate algorithmic authority
 
-**Placement and scope:** Bounded refinement of this existing Donaldson / AI Paradox analysis, not a new project, empirical result, model capability claim, or change to the public research navigation. The motivating academic comparison is Erin Meyer's *The Culture Map* (2014), GLOBE's cultural and leadership dimensions (House et al., eds., 2004), and intercultural communication concepts discussed in graduate coursework. Private lecture slides, recordings, graded work and course handouts are not reproduced here. Neither the authors nor Thunderbird/ASU endorse GRI's extension.
+**Placement and scope:** Bounded refinement of this existing Donaldson / AI Paradox analysis, not a new project, empirical result, model capability claim, or change to the public research navigation. The motivating academic comparison is Erin Meyer's *The Culture Map* (2014), GLOBE's cultural and leadership dimensions (House et al., eds., 2004), and publicly documented intercultural communication research. Private lecture slides, recordings, graded work and course handouts are not reproduced here. Neither the authors nor Thunderbird/ASU endorse GRI's extension.
 
 **Refined GRI research question:** Under what conditions can an AI-mediated management system interpret culturally contextual communication accurately enough to inform consequential organizational decisions, while preserving meaningful human authority, contestability, and core rights?
 
