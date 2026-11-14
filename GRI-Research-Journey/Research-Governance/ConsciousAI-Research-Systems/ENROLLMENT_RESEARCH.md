@@ -1,6 +1,6 @@
 # Live enrollment research and adaptive discovery
 
-The dashboard at /dashboard#enrollment-research consumes GET /intelligence/enrollment-research?q=identity&country=USA. It displays an attributed classroom account and nine reviewed institutional references across the United States, United Kingdom, and Australia. The source comparisons include court reporting, parliamentary findings, a regulatory audit, policy guidance, and institutional descriptions. They do not all establish AI involvement or the same fraud mechanism. Counts are source records, not global prevalence estimates.
+The dashboard at /dashboard#enrollment-research consumes GET /intelligence/enrollment-research?q=identity&country=USA. It displays nine reviewed institutional references across the United States, United Kingdom, and Australia. The source comparisons include court reporting, parliamentary findings, a regulatory audit, policy guidance, and institutional descriptions. They do not all establish AI involvement or the same fraud mechanism. Counts are source records, not global prevalence estimates.
 
 ## What runs automatically
 
@@ -44,7 +44,7 @@ Apply Roy C. Nelson's institutional framework to incentives, formal rules, organ
 
 The [DOJ Operation Ghostbusters announcement, October 29, 2026](https://www.justice.gov/usao-edva/pr/justice-department-unveils-indictments-nationwide-ghost-student-fraud-scam-linked) reports charges concerning alleged identity misuse, enrollment and aid refund diversion. Charges remain allegations. It reports more than $32 million in FBI identified losses in similar schemes, 830,840 potentially fraudulent FSA IDs associated with nearly $130 million, and more than $750,000 in cryptocurrency seized. These measures must not be combined or described as adjudicated losses or restitution.
 
-The release describes simulated participation and coursework with the phrase “super intelligence,” without identifying models, providing technical logs or offering reproducible attribution. This supports a research question about AI involvement, not a demonstrated generative AI mechanism. It does not corroborate any separate classroom report.
+The release describes simulated participation and coursework with the phrase “super intelligence,” without identifying models, providing technical logs or offering reproducible attribution. This supports a research question about AI involvement, not a demonstrated generative AI mechanism. It does not establish AI involvement in other incidents.
 
 ### Proposed study within the existing stream
 
