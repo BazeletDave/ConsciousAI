@@ -2,7 +2,7 @@
 
 ## Scope and current state
 
-This module evaluates evidence publication gate predictions against steward attested human assessments. It does not measure universal AI accuracy, certify factual truth, train a model, or authorize publication. The current four watchlist entries are candidate references, not a reviewed benchmark. TAM 582 materials and private coursework are excluded.
+This module evaluates evidence publication gate predictions against steward attested human assessments. It does not measure universal AI accuracy, certify factual truth, train a model, or authorize publication. The current four watchlist entries are candidate references, not a reviewed benchmark. Nonpublic academic materials and private coursework are excluded.
 
 GET `/assurance/review-queue` exports a seed manifest of candidate claims, references, SHA256 evidence digests and next steps. It is not an authenticated annotation application and does not claim to track review activity. GET `/assurance/overview` now recomputes benchmark results if a private dataset is configured; otherwise it shows the unmet review requirement.
 
