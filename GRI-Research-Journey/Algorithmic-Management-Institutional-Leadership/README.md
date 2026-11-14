@@ -114,3 +114,7 @@ The AI Paradox proposition is strengthened if independently documented cases sho
 **Scholarly and normative reference points:** [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework), [OECD AI Principles](https://oecd.ai/en/ai-principles), and the existing institutional scholarship cited in this research. These provide public governance concepts, not evidence that any GRI case complies with or violates a specific standard.
 
 **Publication boundary:** No internal GRI reviewers, confidential affiliations, proprietary validation processes, unpublished datasets or security architecture are identified. The current extension advances conceptual clarity and observable research questions; it does not claim new field measurements, independent certification or demonstrated causal findings.
+
+### Cultural interpretation, trust and algorithmic management
+
+[Read the bounded AI Paradox extension on cultural interpretation and trust](./Cultural-Interpretation-Trust-and-Algorithmic-Management-2026.md). This synthesis connects cross cultural leadership scholarship, NIST AI risk guidance and independent GRI hypotheses concerning meaning, individual versus societal inference, procedural fairness and accountable machine authority. It specifies prospective assurance tests and does not claim validated empirical effects or Thunderbird endorsement.
