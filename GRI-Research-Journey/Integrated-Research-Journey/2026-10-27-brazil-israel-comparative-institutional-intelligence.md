@@ -4,7 +4,7 @@ Grand Research Institute | Comparative research architecture | October 27, 2026
 
 ## Central proposition
 
-The [Brazil case](2026-10-23-brazil-election-ai-platform-governance-tam505.md) and the [Israel case](2026-10-27-israel-platform-governance-ai-paradox.md) examine how increasingly capable digital systems interact with public authority, organizational strategy and human accountability. Their value lies in comparing a common set of questions under different institutional conditions. Shared platform names or concurrent political developments do not establish a shared causal process.
+The [Brazil case](2026-10-23-brazil-election-ai-platform-governance.md) and the [Israel case](2026-10-27-israel-platform-governance-ai-paradox.md) examine how increasingly capable digital systems interact with public authority, organizational strategy and human accountability. Their value lies in comparing a common set of questions under different institutional conditions. Shared platform names or concurrent political developments do not establish a shared causal process.
 
 The comparative architecture applies GRI's existing sequence: **Access → Capability → Authority → Consequences → Feedback**. Technical systems shape what can be observed and acted upon; institutions determine who may act and on what basis; outcomes create evidence for correction. Each arrow is an analytical relationship to test rather than a demonstrated causal link.
 
