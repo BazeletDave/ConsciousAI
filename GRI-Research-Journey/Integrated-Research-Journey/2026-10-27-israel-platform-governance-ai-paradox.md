@@ -4,7 +4,7 @@ Grand Research Institute | Comparative research case ISR 001 | Evidence review: 
 
 ## Research purpose
 
-Israel follows the [Brazil platform governance case](2026-10-23-brazil-election-ai-platform-governance-tam505.md) in GRI's comparative country intelligence program. Both cases ask how digital platforms, public institutions and increasingly capable AI systems distribute information and exercise consequential authority. The comparison concerns institutional mechanisms. It does not establish that the same incident, political manipulation or electoral outcome occurred in both countries.
+Israel follows the [Brazil platform governance case](2026-10-23-brazil-election-ai-platform-governance.md) in GRI's comparative country intelligence program. Both cases ask how digital platforms, public institutions and increasingly capable AI systems distribute information and exercise consequential authority. The comparison concerns institutional mechanisms. It does not establish that the same incident, political manipulation or electoral outcome occurred in both countries.
 
 The [Brazil and Israel comparative framework](2026-10-27-brazil-israel-comparative-institutional-intelligence.md) connects this case to *From Code to Consciousness*, the Fourth Industrial Revolution, algorithmic management, the AI Paradox and the [GRI Research Journey](../Grand-Research-Institute-Research-Portfolio/README.md). The [dashboard country view](https://gri-global-intelligence.onrender.com/dashboard?country=ISR#country-intelligence) supports source inspection and topic review.
 
