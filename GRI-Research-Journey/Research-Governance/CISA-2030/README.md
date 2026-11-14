@@ -18,7 +18,7 @@ Under what conditions can critical infrastructure organizations demonstrate that
 ## Thunderbird academic connections
 **Roy C. Nelson / global political economy:** compare liberalism, economic nationalism and structuralism to explain institutional authority, sovereignty, infrastructure dependencies and competing incentives. This is GRI's analytical application of coursework, not a claim of faculty participation.
 
-**Mansour Javidan / GLOBE:** use national culture and leadership dimensions only where a specific intercultural question warrants them; avoid treating national patterns as individual predictions. Do not reuse TAM 582 assignment questions or unpublished group contributions as public research without permission.
+**GLOBE public scholarship:** use national culture and leadership dimensions only where a specific intercultural question warrants them; avoid treating national patterns as individual predictions. Do not publish nonpublic academic materials or group contributions.
 
 **Global management:** examine strategic implementation, organizational incentives, multi-stakeholder accountability and cross-border operational dependencies.
 
