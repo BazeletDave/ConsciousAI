@@ -2,7 +2,7 @@
 
 **Grand Research Institute | Research Journey | October 23, 2026**  
 **Status:** Exploratory comparative institutional case; allegations not independently established  
-**Academic foundation:** Graduate study in Global and Regional Environments, taught by Professor Roy C. Nelson at Thunderbird School of Global Management at Arizona State University (course reference: TAM 505). GRI's application is independent research, not faculty or university endorsement.
+**Research foundation:** Independent GRI comparative institutional analysis; no faculty or university endorsement.
 
 ## Research question
 
