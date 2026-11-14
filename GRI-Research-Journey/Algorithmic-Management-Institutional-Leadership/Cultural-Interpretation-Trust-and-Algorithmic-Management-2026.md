@@ -2,7 +2,7 @@
 
 **Grand Research Institute | Research Journey | 14 November 2026**  
 **Status:** Research synthesis and prospective assurance protocol; not an empirically validated causal finding.  
-**Authorial responsibility:** GRI independent analysis. Thunderbird course discussion informs the inquiry but is not institutional endorsement or a published finding of Professor Mansour Javidan.
+**Authorial responsibility:** Independent GRI analysis based on public research and institutional guidance.
 
 ## Executive proposition
 
@@ -11,9 +11,9 @@ Algorithmic management can produce consistent, reproducible outputs while failin
 ## Foundations and evidence levels
 
 1. **Cross cultural leadership scholarship.** The GLOBE program studies societal and organizational cultural practices, values and leadership expectations at scale. Its aggregate patterns are not individual diagnoses. The 2026 GLOBE Integrative Model reports validation across 134 societies (Cotton et al., *Journal of World Business*, DOI 10.1016/j.jwb.2026.101731).
-2. **Practitioner teaching, 14 November 2026.** In a TAM 582 live discussion, Professor Javidan emphasized listening as understanding the other's intended message before communicating one's own; open mindedness, respect and patience; physical and mental distractions; culturally variable communication and antecedents of trust; and the methodological error of generalizing an individual's account to a whole culture (the “Joe Blow” problem). These are paraphrased classroom notes, not verbatim published claims, and are not independently reproduced course materials.
+2. **Public research on communication and trust.** Cross cultural leadership and organizational research documents variation in communication norms and the antecedents of trust. Such scholarship provides population level context, not a reliable basis for attributing intentions to a specific employee.
 3. **Institutional AI risk guidance.** NIST AI RMF 1.0, Appendix C, warns that mathematical representations of human phenomena may remove necessary context and calls for clearly differentiated human responsibilities and oversight. NIST also emphasizes contextual validity, fairness, transparency and intervention.
-4. **GRI inference.** The implications for algorithmic management below are original hypotheses and operational proposals, not findings attributed to GLOBE, NIST or Thunderbird.
+4. **GRI inference.** The implications for algorithmic management below are original hypotheses and operational proposals, not findings attributed to GLOBE or NIST.
 
 ## Mechanisms: five separable risks
 
@@ -60,6 +60,5 @@ The AI Paradox is sharpened here as an **authority and meaning gap**: an organiz
 - Cotton, R., Javidan, M., et al. (2026), [The New GLOBE Project Integrative Model of Outstanding Leadership](https://doi.org/10.1016/j.jwb.2026.101731), *Journal of World Business*.
 - Javidan, M. and Dastmalchian, A. (2009), [Managerial implications of the GLOBE project](https://doi.org/10.1177/1038411108099289), *Asia Pacific Journal of Human Resources*.
 - NIST (2023), [AI Risk Management Framework 1.0](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf), especially Appendix C.
-- GRI contemporaneous notes from TAM 582 live discussion, 14 November 2026 (unpublished educational context; no institutional endorsement).
 
-**Boundary:** This document is a bounded extension of existing GRI research, not a new research program. It does not publish confidential coursework, identify interview participants, or claim GLOBE validation of an AI system.
+**Boundary:** This document is a bounded extension of existing GRI research, not a new research program. It does not use nonpublic teaching materials or claim GLOBE validation of an AI system.
