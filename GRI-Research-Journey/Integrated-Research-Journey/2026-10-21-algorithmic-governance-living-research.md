@@ -215,3 +215,12 @@ flowchart TD
 - IMF, *AI Preparedness Index*, https://www.imf.org/external/datamapper/AI_PI@AIPI
 
 **Evidence status:** Historical milestones and cited publications are source anchors; economic figures require checking against exact tables for reuse; comparative platform incidents remain attributed observations. No new empirical GRI results, independent validation, deployment or client access is claimed.
+
+
+### 15 November 2026 | AI assisted admissions as an institutional governance illustration
+
+A CNN report describes a tension in university admissions: institutions express concern about applicant use of generative AI in personal essays while some admissions processes also employ AI assisted evaluation. This is a **reported illustrative case**, not evidence that all universities use automated scoring or that admissions decisions are fully delegated to models. The prevalence of AI authored essays is not established by the article alone.
+
+**Existing AI Paradox connection:** Distinguish assistance from substitution on both sides of the evaluation. Examine whether standards for authenticity, disclosure, review, explainability and appeal are applied consistently to applicants and institutional decision support. The governance concern is the possible mismatch between institutional accountability and the opacity or scale of delegated assessment, not a presumption that AI assistance is intrinsically illegitimate. Equity considerations include access to writing support and the risk of homogenized submissions.
+
+**Source and status:** CNN, November 2026, https://cnn.it/4t51sTZ (secondary reporting; specific university practices require primary institutional confirmation). This is contextual evidence within the existing AI Paradox and institutional governance synthesis. It adds no new project, empirical finding, causal claim, or research commitment.
