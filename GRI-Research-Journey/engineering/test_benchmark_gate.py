@@ -27,6 +27,22 @@ class BenchmarkGateTests(unittest.TestCase):
         self.assertFalse(report["model_promotion_eligible"])
         self.assertFalse(report["publication_authorized"])
 
+    def test_whitespace_padded_source_id_rejected(self):
+        rows = [row("a", "train", " shared"), row("b", "validation", "shared"), row("c", "test", "other")]
+        with self.assertRaisesRegex(ValueError, "invalid source_id"):
+            assess_benchmark(rows)
+
+    def test_whitespace_padded_reviewer_identity_not_counted(self):
+        rows = [row("a", "train", "a"), row("b", "validation", "b"), row("c", "test", "c")]
+        for item in rows:
+            item["reviews"] = [
+                {"reviewer_id": reviewer, "record_digest": _digest(item), "decision": "approve_label"}
+                for reviewer in ("reviewer1", " reviewer2 ")
+            ]
+        report = assess_benchmark(rows)
+        self.assertFalse(report["benchmark_eligible"])
+        self.assertIn("independent_label_review_pending", report["findings"])
+
     def test_duplicate_id_rejected(self):
         rows = [row("a", "train", "a"), row("a", "validation", "b"), row("c", "test", "c")]
         self.assertIn("duplicate_record_id", assess_benchmark(rows)["findings"])
