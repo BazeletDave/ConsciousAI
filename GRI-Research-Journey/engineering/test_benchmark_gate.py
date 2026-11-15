@@ -43,6 +43,28 @@ class BenchmarkGateTests(unittest.TestCase):
         self.assertFalse(report["benchmark_eligible"])
         self.assertIn("independent_label_review_pending", report["findings"])
 
+    def test_conflicting_reviewer_decisions_fail_closed(self):
+        rows = [row("a", "train", "a"), row("b", "validation", "b"), row("c", "test", "c")]
+        for item in rows:
+            item["reviews"] = [
+                {"reviewer_id": reviewer, "record_digest": _digest(item), "decision": "approve_label"}
+                for reviewer in ("reviewer1", "reviewer2")
+            ]
+        rows[0]["reviews"].append({"reviewer_id": "reviewer1", "record_digest": _digest(rows[0]), "decision": "reject_label"})
+        report = assess_benchmark(rows)
+        self.assertFalse(report["benchmark_eligible"])
+        self.assertIn("conflicting_reviewer_decisions", report["findings"])
+        self.assertIn("independent_label_review_pending", report["findings"])
+
+    def test_duplicate_approval_does_not_count_as_second_reviewer(self):
+        rows = [row("a", "train", "a"), row("b", "validation", "b"), row("c", "test", "c")]
+        for item in rows:
+            approval = {"reviewer_id": "reviewer1", "record_digest": _digest(item), "decision": "approve_label"}
+            item["reviews"] = [approval.copy(), approval.copy()]
+        report = assess_benchmark(rows)
+        self.assertFalse(report["benchmark_eligible"])
+        self.assertIn("independent_label_review_pending", report["findings"])
+
     def test_duplicate_id_rejected(self):
         rows = [row("a", "train", "a"), row("a", "validation", "b"), row("c", "test", "c")]
         self.assertIn("duplicate_record_id", assess_benchmark(rows)["findings"])
