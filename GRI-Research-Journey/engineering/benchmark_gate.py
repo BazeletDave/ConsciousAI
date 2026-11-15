@@ -36,12 +36,21 @@ def assess_benchmark(rows, *, synthetic=False):
         reviewers = row.get("reviews", [])
         if not isinstance(reviewers, list):
             raise ValueError("reviews must be an array")
+        digest = _digest(row)
+        reviewer_decisions = {}
+        for review in reviewers:
+            if not isinstance(review, dict) or review.get("record_digest") != digest:
+                continue
+            reviewer_id = review.get("reviewer_id")
+            if (not isinstance(reviewer_id, str) or not reviewer_id.strip()
+                    or reviewer_id != reviewer_id.strip()):
+                continue
+            reviewer_decisions.setdefault(reviewer_id, set()).add(review.get("decision"))
+        if any(len(decisions) > 1 for decisions in reviewer_decisions.values()):
+            findings.append("conflicting_reviewer_decisions")
         eligible_reviews = {
-            r.get("reviewer_id") for r in reviewers if isinstance(r, dict)
-            and r.get("record_digest") == _digest(row)
-            and r.get("decision") == "approve_label"
-            and isinstance(r.get("reviewer_id"), str) and r["reviewer_id"].strip()
-            and r["reviewer_id"] == r["reviewer_id"].strip()
+            reviewer_id for reviewer_id, decisions in reviewer_decisions.items()
+            if decisions == {"approve_label"}
         }
         if len(eligible_reviews) < 2:
             findings.append("independent_label_review_pending")
