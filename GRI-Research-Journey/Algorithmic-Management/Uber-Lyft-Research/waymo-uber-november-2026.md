@@ -21,3 +21,15 @@ No new research program, independent validation, or deployed engineering is clai
 **Institutional research question:** Can public safety verification, liability allocation, incident investigation, emergency response and passenger redress keep pace with deployment and changing commercial control? Compare regulatory oversight and decision rights with the technological capability of each operating model, applying GRI's existing institutional analysis rather than creating a new project.
 
 **Status:** This extension specifies hypotheses and evidence requirements. It is not a validated safety finding or evidence that competitive pressure caused unsafe deployment.
+
+## November 15 extension: Tesla's 168 hour robotaxi operating claim
+
+**Source status:** A contributor supplied a Benzinga article paraphrase attributing to Elon Musk the statement “Robotaxi works 168 hours a week.” The precise article URL, publication timestamp, full quotation context, geographic coverage and regulatory conditions remain unverified. Treat the statement as a reported vendor claim, not a validated operating result.
+
+**Model distinction:** 168 hours is the number of hours in seven days, a theoretical continuous service window. It does not demonstrate 168 hours of vehicle utilization, passenger carrying time, unattended autonomous operation, or profitable availability. Measure separately service window, vehicle availability, occupied utilization, empty repositioning, charging and maintenance downtime, remote assistance, safety interventions, and permitted operational design domains.
+
+**Existing comparative research:** Compare Tesla's vertically integrated fleet proposition with Waymo's driverless operations and Uber/Lyft marketplace and distribution models. Do not equate platform trip counts, autonomous paid rides, vehicle hours, and service hours. Evaluate labor substitution, fleet economics, passenger access, congestion and emissions as hypotheses requiring comparable observations.
+
+**AI Paradox and institutional model:** The central falsifiable question is whether fleet operating capacity and algorithmic dispatch scale faster than public safety verification, incident reporting, intervention authority, liability allocation and passenger redress. Use the existing Nelson institutional lens (rules, actors, interests, authority and adaptation), the repository's E0–E4 evidence maturity scale, and the established observe → verify → authorize → intervene → audit → revise cycle. This is a bounded cross reference, not a new project or a claim of independent validation.
+
+**Evidence needed:** Original Benzinga URL and underlying primary statement; dated city and jurisdiction authorizations; operator disclosures; comparable NHTSA and state reporting; measured vehicle hours and utilization; independent longitudinal evaluation. No numeric performance or safety conclusion is asserted here.
