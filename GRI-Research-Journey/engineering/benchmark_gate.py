@@ -17,7 +17,7 @@ def assess_benchmark(rows, *, synthetic=False):
         if not isinstance(row, dict):
             raise ValueError("row must be an object")
         for key in ("record_id", "source_id", "split", "observed_at"):
-            if not isinstance(row.get(key), str) or not row[key].strip():
+            if not isinstance(row.get(key), str) or not row[key].strip() or row[key] != row[key].strip():
                 raise ValueError("invalid " + key)
         if type(row.get("label")) is not int or row["label"] not in (0, 1):
             raise ValueError("label must be binary integer")
@@ -40,7 +40,7 @@ def assess_benchmark(rows, *, synthetic=False):
             r.get("reviewer_id") for r in reviewers if isinstance(r, dict)
             and r.get("record_digest") == _digest(row)
             and r.get("decision") == "approve_label"
-            and isinstance(r.get("reviewer_id"), str) and r["reviewer_id"].strip()
+            and isinstance(r.get("reviewer_id"), str) and r["reviewer_id"].strip()\n            and r["reviewer_id"] == r["reviewer_id"].strip()
         }
         if len(eligible_reviews) < 2:
             findings.append("independent_label_review_pending")
