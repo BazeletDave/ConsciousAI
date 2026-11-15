@@ -1,12 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-15T06:30:17.382102+00:00",
+  "generated_at": "2026-11-15T16:20:49.373989+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
       "source_id": "EU-COMMISSION-NEWS",
-      "status": "failed",
-      "error_type": "TimeoutError"
+      "status": "fetched",
+      "items": 10,
+      "method": "rss_atom"
     },
     {
       "source_id": "UK-DfT",
@@ -28,6 +29,126 @@
     }
   ],
   "queue": [
+    {
+      "id": "5df9782a0e6a71a88a8b",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by President von der Leyen at the joint press conference with President Costa following the informal meeting of the European Council of November 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2441",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "dae0418013c5c15043ec",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by Commissioner Kos at the opening of 30 Years of Transparency International Switzerland",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/de/speech_26_2439",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "a7b22d1e3addcd1afd45",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commissioner Roswall's address at the Circular Valley Forum",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2437",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "0fd760409994b3c12e10",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 13 / 11 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2434",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "399bcbb261c3a961ad4a",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Doorstep by President von der Leyen ahead of the informal meeting of the European Council of 13 November",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2431",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "bda8a1506948735e111e",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission sends Supplementary Statement of Objections to PPC over predatory pricing in the Greek wholesale electricity market",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2422",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "6eadd36d9ab5f83acd73",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission approves \u20ac286 million German State aid to port of Hamburg",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2360",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "7065f7be2aea65600673",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Opening and closing remarks of Executive Vice-President Virkkunen at the MSS Stakeholder Forum",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2428",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "c32a6bc22cee49b9e26b",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Keynote speech by Commissioner Serafin at the European Court of Auditors conference: Shaping the next Multiannual Financial Framework \u2013 Performance and accountability",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2426",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "498832b5e0824a1b6383",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Joint statement by President von der Leyen and President Costa following their meeting with President Zelenskyy in Dublin",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2425",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "50d11669bc255c462877",
       "source_id": "UK-DfT",
@@ -414,7 +535,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -745,6 +866,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 54,
+  "review_required": 64,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
