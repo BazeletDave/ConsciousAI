@@ -119,3 +119,19 @@ The [AI Paradox ecosystem framework](../institutional-ai-governance-assurance/ac
 ### Semiconductor and Florida deployment continuation
 
 The [semiconductor and physical deployment extension](../institutional-ai-governance-assurance/government-ai-semiconductor-systems-governance-2026.md#november-5-2026--semiconductor-functions-international-dependence-and-physical-deployment) adds functional chip comparisons, Taiwan/China/U.S. production distinctions, export enforcement evidence, and the verified BRiC/Related Ross/Florida mobility connections. Corporate relationships, infrastructure plans, data processing, and actual deployment remain separately evidenced. It introduces no unvalidated global investment total or inference that common location implies a shared system.
+
+## 15 November 2026 | Africa AI data centre electricity risk allocation
+
+**Evidence intake:** World Economic Forum, *Africa's AI infrastructure: Who pays and who carries the risk?*, published 2 October 2026; user-provided article text. Secondary commentary, not independently authenticated primary financial or regulatory evidence. Cross-reference the [existing Kiongozi Africa empirical protocol](../Research-Governance/Institutional-Source-Registry/KIONGOZI_WORLD_BANK_AFRICA_EMPIRICAL_PROTOCOL.md). This is a bounded addition to the existing six evidence dimensions, not a new program.
+
+**Capital and finance:** Separate initial financing responsibility, contractual ultimate payment responsibility and realized cost recovery. Compare developer connection charges, minimum-demand obligations, long-term offtake, collateral, utility borrowing, contingent sovereign guarantees and currency mismatch. Do not infer public subsidy from utility financing alone.
+
+**Physical infrastructure and demand:** Track requested capacity, contractually reserved capacity, commissioned supply, metered consumption, construction milestones and any alternative use of underutilized assets. A hypothetical 300 MW request with 100 MW initial utilization illustrates exposure; it is not an observed African project outcome.
+
+**Institutions and distribution:** Examine approved tariffs, regulatory cost allocation, contract enforcement, existing customer exposure and fiscal opportunity cost, alongside verified incremental electrification, shared grid capacity, employment, skills and domestic cloud access. A data centre's announced investment does not establish local value capture.
+
+**Comparative evidence candidates:** Microsoft–G42 Kenya geothermal cloud initiative; South African private renewable supply and wheeling arrangements; IFC/Raxio financing; AEP Ohio large-load tariffs; Ireland grid connection requirements. These are leads for primary-source verification, not confirmed contract terms or measured outcomes in this record.
+
+**Assurance application:** Use existing provenance and human review gates to separate announced, contracted, operational and realized-financial evidence. Record the source date, legal entity, jurisdiction, capacity units, contractual term, financing currency, counterparty, regulator decision and competing explanations. Avoid forecasts presented as outcomes, causal claims from a single case, or unverified cross-country generalization.
+
+**AI Paradox research proposition:** Technical demand and investment commitments may advance faster than institutions can verify demand, allocate long-lived infrastructure liabilities, and demonstrate broad public benefit. This is a testable GRI hypothesis, not a demonstrated finding. No changes to ingestion code, dashboard, README, images or test suites are authorized by this documentation update.
