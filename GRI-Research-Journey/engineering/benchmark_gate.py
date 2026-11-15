@@ -40,7 +40,8 @@ def assess_benchmark(rows, *, synthetic=False):
             r.get("reviewer_id") for r in reviewers if isinstance(r, dict)
             and r.get("record_digest") == _digest(row)
             and r.get("decision") == "approve_label"
-            and isinstance(r.get("reviewer_id"), str) and r["reviewer_id"].strip()\n            and r["reviewer_id"] == r["reviewer_id"].strip()
+            and isinstance(r.get("reviewer_id"), str) and r["reviewer_id"].strip()
+            and r["reviewer_id"] == r["reviewer_id"].strip()
         }
         if len(eligible_reviews) < 2:
             findings.append("independent_label_review_pending")
