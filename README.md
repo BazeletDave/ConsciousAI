@@ -2,7 +2,9 @@
 ### Global Governance Intelligence · ConsciousAI Research Program
 
 
-**Independent research led by David Grand**
+**David Grand | Founder, Grand Research Institute**
+
+David Grand is a graduate of Thunderbird School of Global Management at Arizona State University and a current Thunderbird graduate student specializing in artificial intelligence. He reports a current 4.0 graduate GPA and brings multiple decades of leadership and management experience across sectors, including highly regulated environments and work involving government agencies, institutions and universities. These credentials and professional experiences describe Grand personally; they do not establish institutional sponsorship, endorsement or participation in GRI research.
 
 Grand Research Institute (GRI) investigates how artificial intelligence, algorithmic management and global digital infrastructure reshape organizational authority, economic opportunity and institutional accountability. **ConsciousAI** is the institute's public research and engineering archive, developed through David Grand's continuing professional, academic and research journey.
 
