@@ -382,3 +382,24 @@ For each consequential decision class, record the system or human decision owner
 **Formal GRI conclusion:** Michelangelo materially improves the *possibility* of independent inspection of some Uber related machine learning infrastructure. It does not establish transparency of Uber's production driver decisions, any Lyft implementation, or the effectiveness of institutional remedies. The AI Paradox is therefore framed as a testable divergence between technical capability and the verifiable authority to understand, contest and correct consequential decisions. The competing possibility, that open source measurably strengthens governance, remains equally eligible for empirical confirmation.
 
 **Publication and assurance boundary:** Only public repository material, publicly attributable company statements and authorized GRI field evidence are used here. No private educational content, course identifiers, confidential platform data or unpublished classroom accounts are included. No fork, runtime deployment, new benchmark or completed test execution is claimed.
+
+
+## November 16, 2026 | Uber Courier and Meta Muse: agent mediated physical service execution
+
+**Evidence and scope:** A contributor supplied screenshot of a LinkedIn post attributed to Uber technology executive Praveen Neppalli states: “Starting today, you can ask Muse to get what you need, and Uber Courier gets it delivered in the real world.” The post describes integration of Uber's pricing, routing, pickup and delivery capabilities into a conversation with Meta's Muse agent and credits Uber and Meta teams. This is an attributed executive announcement visible in the screenshot, not an independently tested integration, contract, API specification, rollout assessment or operational performance result. The original LinkedIn URL and posting date have not been independently authenticated; do not treat the screenshot as proof of general availability in every market.
+
+**Continuity with existing research:** This is a bounded extension of the existing Uber engineering, agentic governance and AI Paradox analysis, not a new project or paradox. Unlike driver facing dispatch or pricing alone, the announced workflow crosses an external conversational agent and Uber's physical fulfillment infrastructure. The institutional question is where user intent becomes an authorized order and which actor controls the transaction terms, execution, exception handling and remedy. This announcement does not establish that Muse uses Michelangelo, Uber's MCP Gateway or any particular internal agent framework.
+
+**Comparative authority and assurance matrix:**
+
+| Decision boundary | Evidence needed to assess effective governance | Current status |
+| --- | --- | --- |
+| User request to agent interpretation | Explicit user consent, item and delivery intent, scope of delegation | Not established by announcement |
+| Agent to Uber transaction handoff | Authenticated invocation, authorization scope, confirmation and idempotency | Not established by announcement |
+| Price and fulfillment | Displayed quote, fees, substitutions, dispatch and routing rules, accountable operator | Uber capabilities asserted; actual implementation undisclosed |
+| Exceptions and reversals | Cancellation, refund, failed delivery, misdelivery, unauthorized purchase and human escalation | Not established by announcement |
+| Independent audit | Versioned event trace, attributable decisions, privacy safeguards and evidence access | Not established by announcement |
+
+**Research proposition:** Conversational convenience can reduce visible friction while increasing the number of institutional decision boundaries. The testable issue is whether delegated execution retains observable user authorization, verifiable transaction records, effective revocation and meaningful contestability. Evidence of well implemented controls would count against any hypothesis of diminished agency; absence of public detail alone does not prove failure.
+
+**GRI evidence handling:** Preserve the supplied screenshot as contributor provided source evidence outside the public repository unless provenance and redistribution authorization are established. Do not reproduce profile imagery or personal identifiers unnecessarily. Do not claim source code access, live integration tests, transaction completion, production configuration, regulatory noncompliance or endorsement by Uber or Meta. Cross reference the existing Uber and Lyft longitudinal research for the distinct worker allocation questions, while keeping courier fulfillment and passenger rideshare metrics separate.
