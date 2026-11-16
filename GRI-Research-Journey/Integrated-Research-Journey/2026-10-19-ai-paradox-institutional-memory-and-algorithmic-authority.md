@@ -278,3 +278,45 @@ The 1983 film *WarGames* is a conceptual analogy for the limits of optimizing wi
 - **Competing explanations:** examine market demand, geography, platform policy, product tier, changing regulations, driver selection, external costs and measurement changes before inferring a hidden mechanism.
 
 **Milestone determination:** Existing GRI sources now support a coherent, testable *research architecture* linking lived operational experience, externally observable outcomes, publicly inspectable engineering, and the distinct institutional authority required to verify and correct decisions. They do not yet support a universal causal conclusion, independently verified production access, or a claim that any named platform is intrinsically ungovernable. No confidential educational records, participant images, private source code, or external institutional endorsements are included.
+
+
+## November 16, 2026 | Milestone continuation: empirical verification and authority boundary protocol
+
+**Purpose:** Convert the consolidated research milestone into a bounded, falsifiable assessment using *existing* GRI records and published sources. No new research project, collection campaign, dashboard, or claim of platform access is authorized. The unit of analysis is a **dated consequential decision or documented engineering control**, not an entire company or an unspecified algorithm.
+
+### Protocol A: Experience and outcome observability
+
+For existing Uber and Lyft records, identify the original observation, timestamp and jurisdiction; offer versus completed trip; payout components; active versus waiting time; distance; disclosed fees; subsequent adjustments; and availability of independent rider-side comparison where lawful and documented. Record whether a finding is direct observation, arithmetic derivation, participant interpretation or causal hypothesis. A longer observation period increases opportunities for pattern detection but does not automatically reveal the internal rule generating an outcome. Missing inputs remain explicitly unknown.
+
+**Testable proposition A:** Repeated operational participation may improve outcome measurement while leaving material decision criteria inaccessible. **Counterevidence:** authenticated transaction-level explanations, versioned applicable criteria, or independently reproduced decisions that close the stated evidence gap.
+
+### Protocol B: Technical inspectability and production boundary
+
+For each relevant public Uber engineering component, record exact upstream source or article, version/commit if available, testable behavior, claimed performance metric, local reproduction status, production applicability and known limits. Michelangelo's published implementation, Shard Manager's reported load balancing, and the Uber Courier/Meta Muse announcement are **different technical and evidence classes**. Do not infer that any one controls a particular driver's dispatch, pay, account status or passenger fare. Report company benchmarks as attributed claims until independently reproduced.
+
+**Testable proposition B:** Source visibility may increase reproducibility of infrastructure mechanisms without exposing production business decision rules. **Counterevidence:** public, versioned decision-policy documentation and reproducible traces demonstrably connecting the relevant production outcome to the published component.
+
+### Protocol C: Institutional decision rights and remedy
+
+For any existing, consented case with a consequential adverse outcome, examine whether the affected party received notice, a usable reason, access to relevant records, a human review channel, a defined response window, correction authority, and a documented outcome. Do not invent cases, initiate appeals, collect personal information or assume that absent public documentation means absent controls. Distinguish formal policy rights from demonstrated implementation.
+
+**Testable proposition C:** Greater operational and technical knowledge does not necessarily confer an equivalent right to verify, reverse or remedy decisions. **Counterevidence:** independently documented, timely and effective appeal and correction pathways available to affected participants.
+
+### Cross-domain comparison without false equivalence
+
+| Domain | Consequential decision | Appropriate evidence | Non-equivalent measure to avoid |
+| --- | --- | --- | --- |
+| Uber and Lyft human-driver work | Offer, dispatch, compensation, restriction or deactivation | Driver-facing record, dated transaction, stated policy, adjustment and appeal outcome | Inferring platform-wide intent from a single offer |
+| Waymo and autonomous mobility | Dispatch, operating-domain restriction, intervention, incident response | Operator and regulator records, exposure-adjusted safety data, verified operating mode | Comparing crash counts without exposure and domain matching |
+| Agent mediated delivery | Authorization, quoted price, order execution, cancellation and remedy | Authenticated consent and transaction trace, allocation of operator responsibility | Treating a product announcement as a completed transaction |
+| Public infrastructure tooling | Placement, resource control, access and operator override | Versioned source, tests, configurations, reproduced benchmarks | Treating CPU efficiency as proof of driver-pay fairness |
+
+### Minimal claim ledger fields and decision rules
+
+Use the existing source and claim governance conventions: **claim ID; decision class; date and jurisdiction; evidence owner and permitted use; primary source and version; observation or reported claim; measurement definition and denominator; alternative explanation; independent reproduction status; institutional access status; correction history; confidence and publication boundary.** Preserve original records and separately append interpretations or corrections. Avoid assigning a numerical confidence score without a validated rubric.
+
+A claim is **documented** when its cited record can be located; **corroborated** when an independent source supports the same bounded assertion; **reproduced** when the stated method and inputs yield the claimed result; and **institutionally verified** only when decision authority, applicable rules and relevant remedy evidence have been authenticated. These labels are distinct, not an automatic progression. An inaccessible production rule is **not publicly observable**, not **proven absent**.
+
+### Immediate milestone deliverable and stop condition
+
+The deliverable at this stage is this reusable protocol and crosswalk, not new empirical results. Existing records may be evaluated against it in later authorized work. Stop before claiming causal platform mechanisms, production access, independent certification, legal wrongdoing, safety superiority or governance impossibility without the requisite evidence. The original AI Paradox remains open to confirmation, refinement or disconfirmation.
