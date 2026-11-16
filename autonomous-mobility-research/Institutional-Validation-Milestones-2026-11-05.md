@@ -186,3 +186,37 @@ For each of the four existing repository photographs: (a) record camera angle an
 The field researcher has identified the rooftop instrumentation as **LiDAR manufactured by Luminar**. This identification is recorded as **field-researcher attribution**, not a finding independently authenticated from legible product markings, manufacturer serial records or source-image forensic comparison. The specific Luminar model remains undetermined and **is not necessary to the approved research scope**. Earlier references to RIEGL, Tesla radar and alternative hardware remain historical public-source comparators, **not competing identifications of the photographed equipment**.
 
 **Scope decision:** No further manufacturer/model investigation, vehicle owner tracing or public-records outreach is authorized or required for this bounded research extension. The previously prepared records inquiry remains **unsent** and is not an outstanding action item. Existing original-file provenance and independent assurance limitations remain stated; they do not block completion of the current documentary analysis. No confidential GRI intelligence is disclosed. This notice supersedes earlier exploratory next-step recommendations where they imply further equipment identification is required.
+
+
+## November 15, 2026 | Cybercab, public exposure and verifiable authority
+
+**Scope and status:** Bounded conceptual and primary regulatory evidence extension of the existing autonomous mobility and AI Paradox work. This is not a new project, a safety certification, a causal finding, or an allegation of intentional manipulation.
+
+### Institutional connection
+
+A purpose-built autonomous vehicle without occupant steering or pedal controls concentrates real-time driving authority in the automated driving system and its operating organization. Unlike a voluntary passenger, a pedestrian, cyclist, child or adjacent motorist may encounter that system without selecting it. The research question is therefore not whether the absence of conventional controls alone establishes danger; it is how a manufacturer, regulator and independent reviewer establish adequate safety, responsibility, incident reconstruction and recourse for involuntarily exposed road users.
+
+**Cross-domain comparison:** Uber/Lyft algorithmic management concerns worker allocation and economic decision rights; sportsbook interfaces concern consumer intent, transaction execution and contestability; driverless mobility concerns safety-critical control affecting third parties. These domains share questions about evidence access and institutional authority but do not share an established mechanism or equivalent harms. A disputed sportsbook selection is an observation about recorded transaction versus user-reported intent, not evidence of platform manipulation.
+
+### Primary-source regulatory evidence (reviewed November 15, 2026)
+
+1. NHTSA, September 4, 2026, announced an Audit Query examining Tesla's self-certification of Cybercab compliance with applicable FMVSS following Austin commercial deployment. An investigation is not a determination of noncompliance: https://www.nhtsa.gov/press-releases/investigation-tesla-cybercab-self-certification
+2. NHTSA, June 25, 2026, commenced rulemaking concerning manual brake pedal requirements for vehicles designed exclusively for automated operation, while indicating that braking performance requirements would remain and driving-scenario performance requirements were under development. A proposal is not itself a final regulatory exemption: https://www.nhtsa.gov/press-releases/fmvss-updates-brake-pedal-requirements
+3. NHTSA's automated driving guidance describes operational design domain, object/event detection, fallback, validation, post-crash behavior and data recording as relevant safety elements. Voluntary guidance should not be misrepresented as an independent predeployment approval: https://www.nhtsa.gov/vehicle-manufacturers/automated-driving-systems
+4. NHTSA's Part 555 exemption guidance describes an exemption pathway subject to an equivalent safety showing and public-interest assessment; its existence does not establish that a specific manufacturer obtained an exemption: https://www.nhtsa.gov/press-releases/streamline-exemption-process-noncompliant
+
+### Falsifiable verification and assurance crosswalk
+
+| Claim or concern | Required evidence | Alternative explanation or limitation |
+| --- | --- | --- |
+| Public roadway exposure outpaces independent verification | Dated deployment authorization, safety case, independently reviewable validation and oversight chronology | Some relevant evidence may exist under restricted regulator custody |
+| No manual controls creates an unmanageable emergency | Defined ODD, fallback design, remote assistance limits, hazard scenarios, intervention logs and tests | Manual controls are not inherently necessary for a competent Level 4 design |
+| Safety performance exceeds an appropriate comparator | Exposure-adjusted incident severity, geography, weather, roadway mix, reporting definitions and confidence intervals | Raw crash counts and promotional mileage cannot establish comparative safety |
+| A decision cannot be reconstructed or contested | Timestamped vehicle/software versions, event records, retention rules, authorized disclosure and appeals | Public inaccessibility does not establish that records were never collected |
+| Institutional governance lags technical capability | Predefined governance indicators and deployment dates tested across operators and jurisdictions | Selection effects, regulatory differences and changes in exposure may explain observed differences |
+
+**Research proposition:** Where an automated system exercises consequential operational authority over nonconsenting third parties, credible institutional legitimacy depends on demonstrable safety evidence, auditable incident reconstruction and effective external challenge, not on commercial deployment or developer assurances alone.
+
+**Potential disconfirmation:** Independently reproducible safety evidence, effective intervention and incident review, meaningful recourse and regulator-verified controls established before or commensurate with deployment would weaken a claim of institutional lag.
+
+**Assurance boundary:** Preserve primary source URLs, capture dates, source status, ODD and exposure denominators. Distinguish proposed rules, operative rules, exemptions, audits, safety findings and public claims. Do not infer negligence, intent, comparative superiority, illegality or a specific vehicle's unsafe operation without adequate evidence. Cross-reference the existing AI Paradox institutional-memory synthesis and algorithmic-management work; no new dashboard, model, dataset or standalone project is authorized by this extension.
