@@ -112,3 +112,107 @@ The AI Paradox proposition is that greater engineering sophistication and public
 6. **Testable:** Compare matched offers with and without severe weather, independently validate warning timing and route exposure, document negative cases and seek independent reproduction before causal claims.
 
 **Research status:** Exploratory and observational. No new participant recruitment, engineering deployment, internal algorithm access, or causal finding is asserted. This section complements the existing five dimension evidence synthesis and GRI institutional leadership research.
+
+
+## November 15, 2026 | Integrated economic welfare, public finance and institutional incentive extension
+
+**Research status:** Substantial extension of the existing Algorithmic Mobility Paradox, not a new study. All propositions below are prospective and falsifiable. No inference of intentional wage suppression, eligibility manipulation, safety violation or university endorsement follows from the cases.
+
+### A. Expanded central question
+
+Under what conditions does platform-mediated work increase measured gross activity or institutional output while leaving the worker with lower incremental disposable resources, reduced access to means-tested support, or fewer long-term educational and employment opportunities? How are economic gains and costs distributed across workers, platforms, households, taxpayers, educational institutions, vehicle manufacturers and investors?
+
+This extends the existing INFO, ECON, ADAPT, AUTH and ACC constructs from transaction-level dispatch to the household and institutional budget constraint. It does not replace the original hypotheses H1–H5.
+
+### B. Accounting and welfare identities
+
+Let h denote total labor hours including waiting and repositioning; R(h) be reconciled gross driver receipts, including tips and bonuses but excluding amounts never paid to the driver; M(h) be total driven miles including unpaid pickup and return; V(M) be incremental fuel/energy, consumables and maintenance; F be attributable fixed costs; D(M,t) be economic depreciation; T be applicable tax liability; B be transfers and subsidies valued consistently; P be household healthcare premiums and out-of-pocket expenses; and O be the measured opportunity cost of forgone alternatives.
+
+Cash contribution: CC(h) = R(h) - V(M(h)).
+Fully allocated operating return: NR(h) = R(h) - V(M(h)) - F - D(M(h),t).
+Household resources: HR(h) = NR(h) - T(h) + B(h) - P(h), with careful accounting for what B already offsets and what P represents.
+Extended economic welfare: EW(h) = HR(h) - O(h), with nonmonetary outcomes separately reported rather than assigned arbitrary dollar values.
+
+**Key test:** Delta HR = HR(h+10) - HR(h), and Delta EW separately. Positive Delta R does not imply positive Delta HR, but neither does it imply a negative one. Avoid treating an allocated fixed cost as an additional cash expense, using the IRS standard mileage rate as an observed cost, double-counting tax deductions, or adding Pell/tuition transfers to cash resources when they are restricted to eligible tuition.
+
+For tax and benefits, create a distinct eligibility model using the correct annual household income concept, household composition, state, coverage year, immigration/insurance eligibility where relevant, and reconciliation rules. Self-employment net profit, adjusted gross income, modified adjusted gross income, FAFSA income measures and cash take-home are **not interchangeable**. The ACA premium tax credit, Medicaid, Pell Grant and corporate tuition benefit have separate eligibility tests, application periods and accounting definitions.
+
+### C. Illustrative sensitivity scenario, not a driver finding
+
+Assume gross driver receipts of $20 per total working hour and 18 miles per hour. Assume a 51 mpg hybrid at $4/gallon and other incremental/allocated vehicle costs of $0.22/mile, with no further fixed-cost adjustment. At 40 hours, receipts are $800; miles 720; fuel about $56.47; other vehicle costs $158.40; modeled remainder about $585.13. At 50 hours, receipts are $1,000; miles 900; fuel about $70.59; other vehicle costs $198; remainder about $731.41. Thus an additional ten hours adds about $146.27 before tax, benefits and opportunity cost. This **does not** show that extra work causes an absolute economic loss. A modeled healthcare subsidy reduction, added childcare or a change in earnings/mileage mix could alter the result; these require independently documented rules and inputs.
+
+Scenario variants: (1) constant earnings per hour; (2) diminishing earnings per marginal hour; (3) rising empty miles; (4) stepwise vehicle replacement/repair; (5) subsidy phaseout; (6) opportunity to study or take alternative work. Report break-even marginal receipt rate, sensitivity intervals, and the contribution of each mechanism. Show both annual and weekly accounting; annual eligibility cannot be inferred from a single high-gross week.
+
+### D. Educational financing and benefit incidence
+
+The ASU–Uber education partnership provides an important **benefit-incidence** case. For an eligible participant and program, distinguish published tuition and fees, eligible grants and scholarships, the corporate last-dollar contribution, remaining uncovered expenses, and the noncash educational benefit to the student. Where federal Pell or other gift aid is applied first, the corporation's incremental tuition payment may be less than the total tuition covered. This is an accounting and contract-design question, not evidence that the benefit lacks value or that public aid is improperly used.
+
+Define eligible tuition U, applicable grant/gift aid G and contractual covered balance K; a simplified last-dollar corporate payment is L = max(0, min(K,U-G)), subject to the **actual partnership terms, aid coordination, annual limits, program eligibility and exceptions**. A hypothetical U=$12,000, G=$7,395, L=$4,605 illustrates the arithmetic only; it is not an award record or an assertion that every participant receives the maximum Pell Grant. Distinguish a scholarship's stated maximum benefit, corporate expenditure, university net tuition receipts, federal grants and worker eligibility conditions. The value of learning, credential completion and subsequent earnings must be evaluated longitudinally.
+
+**Research safeguard:** Graduate enrollment, personal financial aid, borrowing, scholarship statements and course assignments are confidential and must not be published. Faculty classroom examples are founder-reported intellectual influences, not evidence of endorsement or a license to reproduce restricted instructional material.
+
+### E. Health insurance, labor supply and opportunity cost
+
+A worker may choose fewer or more hours in response to expected after-tax resources, premium tax credits, Medicaid eligibility, health risks, vehicle costs, scholarship conditions and educational schedules. Model the budget constraint as piecewise where eligibility rules require, but do not assume a universal benefit cliff. Premium tax credits are generally reconciled using annual household information and applicable law; plan premiums, age, benchmark plan, household size, geography and alternative coverage matter. Distinguish loss of an eligibility category from the actual change in net premium or expected healthcare spending.
+
+Compare alternative feasible choices: 20, 30, 40, 50 and 60 total hours; alternative work; education time; rest; vehicle replacement timing. Identify feasible eligibility and operational constraints before treating one choice as optimal. A worker may rationally maximize security, not gross app receipts.
+
+### F. Institutional political economy and distributional incidence
+
+Use Roy C. Nelson's attributed liberal, economic-nationalist and structuralist lenses as competing interpretations:
+* Market efficiency: flexible entry, matching and voluntary labor allocation may improve service and income opportunities.
+* State capacity and strategic incentives: public education grants, tax policy, transport regulation, infrastructure and corporate incentives influence who finances the system.
+* Structural distribution: workers supply capital assets and absorb depreciation and uncertainty while platforms govern access, pricing information and incentives.
+
+Maintain separate ledgers for (i) customer gross bookings, (ii) platform reported revenue and expenses, (iii) driver receipts, (iv) driver operating costs, (v) government transfers/tax receipts, (vi) educational institutions' tuition receipts and (vii) investor returns and stock-based compensation. A reported company gross booking is neither company profit nor driver wage. Do not infer that a particular government subsidy finances a particular shareholder distribution without traced financial evidence.
+
+**Development economics analogy:** A free land parcel or tax incentive may reduce acquisition cost while leaving infrastructure, financing, operating, environmental and opportunity costs. The analogous rideshare question is whether a nominally attractive payment obscures the worker's total cost of providing labor and vehicle capital. This is an analogy, not proof of an Uber subsidy arrangement.
+
+### G. Causal diagram and competing mechanisms
+
+Platform pricing/dispatch/incentives -> offers and work intensity -> gross receipts, paid and unpaid miles -> vehicle costs and taxable income -> household resources and program eligibility -> time for education/alternative employment -> future bargaining position and platform participation.
+
+Feedback may arise when drivers adapt acceptance behavior or change hours in response to net returns. Competing explanations include local demand, fuel prices, vehicle age, driver selection, promotions, geography, household composition, regulatory changes and program enrollment. The research must distinguish *platform effects*, *tax-and-benefit policy effects*, and *individual choices*. Their interaction is an empirical question.
+
+### H. Extended falsifiable propositions
+
+**H6 Marginal receipts versus welfare:** For defined driver cohorts, the association between additional total hours and incremental household resources differs materially from the association between hours and gross app receipts after full cost and policy reconciliation.
+
+**H7 Vehicle-capital burden:** Higher unpaid mileage and vehicle wear predict lower incremental economic returns conditional on fare mix, geography, demand and vehicle characteristics.
+
+**H8 Benefits interaction:** At identifiable program income ranges, marginal household resources respond nonlinearly to earnings due to applicable tax and benefit rules; the existence, size and direction of discontinuities are jurisdiction/year specific.
+
+**H9 Education benefit incidence:** The publicized tuition value and actual corporate incremental payment differ systematically where eligible public gift aid is applied before last-dollar corporate support, conditional on award mix and contractual terms.
+
+**H10 Opportunity substitution:** Holding relevant confounders constant, work intensity predicts changes in available study hours, credential progress or alternative employment, with no presumed sign on long-run welfare.
+
+**H11 Institutional distribution:** Reconciled changes in platform activity and corporate financial metrics do not necessarily track changes in driver net economic returns; test whether they diverge, converge or move independently.
+
+**H12 Governance and agency:** Clear disclosure of all-in operating cost, subsidy interactions and total working time changes participant decisions relative to a gross-earnings-only presentation in a consented, ethically reviewed experimental setting.
+
+**Disconfirmation:** Positive and stable incremental net household resources across matched hours and realistic cost assumptions; no material benefit interactions in applicable programs; independently verified all-in platform disclosures; no measurable change in decisions after disclosure; or program documentation contradicting proposed aid ordering.
+
+### I. Empirical implementation within existing GRI assets
+
+1. **Evidence register:** Preserve source ID, collection date, provenance, consent, jurisdiction, year, platform, vehicle model/trim, fuel economy basis, and verification state. Public evidence excludes identifiable private tax, health, scholarship and academic records.
+2. **Driver ledger:** Reconcile platform statements and deposits with hours, mileage, bonuses and actual vehicle expense receipts; preserve gross, cash contribution, allocated economic return and after-tax household outcomes as distinct fields.
+3. **Vehicle model:** Compare observed hybrid records with a clearly labeled Toyota Camry reference scenario; record trim, acquisition price, financing, insurance, tires, brakes, filters, depreciation, fuel/energy and service life. MSRP and EPA estimates are inputs, not actual driver costs.
+4. **Policy versioning:** Archive official IRS, CMS/HealthCare.gov, Federal Student Aid and ASU partnership terms by effective year; distinguish eligibility, amount, disbursement ordering and award reconciliation.
+5. **Corporate incidence:** Reconcile Uber/Lyft SEC filings, gross bookings, revenue, incentives, stock compensation and public incentives only where primary records establish comparability.
+6. **Comparisons:** Within-driver panels and matched shifts; differences in differences only when identification assumptions are credible; sensitivity to vehicle cost, earnings per mile, household conditions and policy thresholds.
+7. **Independent assurance:** Reproduce calculations from synthetic fixtures first, maintain immutable input hashes and reviewer decisions, publish adverse/negative findings, and explicitly separate verified records from estimates.
+8. **Research governance:** Retain the existing AI Paradox and Tiger Assurance evidence gates; do not imply independent certification, access to proprietary algorithms or completed causal identification.
+
+### J. Scholarly and primary-source verification register
+
+* Rosenblat and Stark (2016), *Algorithmic Labor and Information Asymmetries*, International Journal of Communication; foundational mechanism, not proof of present platform intent.
+* Calo and Rosenblat (2017), *The Taking Economy*, Columbia Law Review; information/power framework.
+* International Labour Organization (2021), *World Employment and Social Outlook: The Role of Digital Labour Platforms in Transforming the World of Work*; comparative labor framing.
+* IRS, self-employment and business vehicle expenses: https://www.irs.gov/businesses/gig-economy-tax-center and https://www.irs.gov/taxtopics/tc510
+* HealthCare.gov, premium tax credits and income estimation: https://www.healthcare.gov/lower-costs/save-on-monthly-premiums/ and https://www.healthcare.gov/income-and-household-information/income/
+* Federal Student Aid, Pell Grants: https://studentaid.gov/understand-aid/types/grants/pell
+* Arizona State University, Uber Education Partnership: https://uber.asu.edu/ (verify exact current contract and program-specific ordering before quantitative attribution).
+* Uber and Lyft investor relations / SEC filings: https://investor.uber.com/ and https://investor.lyft.com/ (retrieve exact reporting period and line-item definitions before making numeric claims).
+* Roy C. Nelson's institutional teaching framework is applied as a separately attributed interpretive lens under GRI's existing Nelson methodological-boundaries document, not as a new Nelson-derived quantitative model.
+
+**Interpretive conclusion:** The researchable AI Paradox is a potential divergence among platform-optimized gross activity, individual net welfare and institutional allocation of costs and benefits. Establishing its prevalence, causation and magnitude requires independently reproducible evidence. The framework explicitly permits findings in which additional work is beneficial, public and corporate benefits are complementary, or governance controls operate effectively.
