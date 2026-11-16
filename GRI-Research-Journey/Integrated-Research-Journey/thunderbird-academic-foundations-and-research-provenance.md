@@ -43,3 +43,18 @@ The following are academic intellectual reference points, **not an advisory boar
 - [Marco Serrato, Thunderbird profile](https://thunderbird.asu.edu/about/people/staff-faculty/marco-serrato)
 
 **Research continuity:** [Academic comparative crosswalk](2026-10-19-academic-comparative-research-crosswalk.md) · [Integrated Research Journey](README.md).
+
+
+## Public institutional reference directory | 15 November 2026
+
+**Purpose:** This is a source-led reference index spanning (a) published scholarship, (b) documented professional and institutional history, and (c) government, industry and international governance contexts relevant to David Grand's independent GRI research. **Inclusion means a source is relevant for further verification, not that the person is a GRI reviewer, collaborator, advisor, client, endorser, or participant in confidential work.** Public professional biographies establish their own stated facts, not a connection to Grand or GRI. Do not publish private contact details, business cards containing personal data, unpublished correspondence, or relationship assertions without documented authority.
+
+| Person or reference | Publicly documented institutional context | Source and verification boundary |
+| --- | --- | --- |
+| **Roy C. Nelson** | Thunderbird School of Global Management professor and senior associate dean; published work in global political economy, business-government relations and foreign direct investment; Cornell doctorate | [ASU faculty profile](https://search.asu.edu/profile/1184861). Academic intellectual foundation only; GRI's AI Paradox applications are Grand's independent analysis |
+| **David W. Matthews** | U.S. Department of Agriculture Rural Development Director of State Operations; earlier USDA roles described by the agency | [USDA official biography](https://www.rd.usda.gov/about-rd/leadership/director-state-operationss/david-matthews). Government career reference only; no GRI relationship asserted |
+| **Other Thunderbird faculty scholars** | Existing named faculty and source links in the preceding section | Retain published scholarship and institutional appointments as separate academic references; do not infer endorsement or private involvement |
+
+**Further candidate names and institutions, not yet public biographical entries:** the user identified Larry Smart, Barachetti, Padumnatappa, Kevin Bozada, and additional references to Bazelet, Cornell University, Florida A&M University, USDA, international agricultural activity and other historical professional contexts. These are **research leads requiring precise identity, spelling, entity disambiguation, dated primary sources and relationship-specific authorization before public factual claims are added**. No historical association with David Grand or GRI is asserted by this placeholder.
+
+**Admission standard:** Each added entry must have the correct individual or legal entity; dated primary institutional source; career or organizational facts supported by that source; a clear reason for scholarly or historical relevance; and an explicit distinction between independent public reference and any separately verified professional relationship. Keep the directory concise and link outward rather than copying full biographies or protected material. No reviewer names, confidential relationships or proprietary GRI methods belong in this public index.
