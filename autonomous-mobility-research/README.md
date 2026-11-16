@@ -152,3 +152,14 @@ This section extends the Broward Turnpike observation above. The cited sources e
 
 
 **Institutional milestone continuation (5 November 2026):** See [Institutional Validation Milestones](Institutional-Validation-Milestones-2026-11-05.md) for the falsifiable GRI institutional hypothesis, evidence gates, and cumulative verification milestones associated with the Broward field observation. This is an extension of the existing research, not a separate project.
+
+
+## November 16, 2026 | Waymo, Tesla and Zoox comparative evidence continuation
+
+**Scope:** Existing autonomous mobility research and AI Paradox governance. The contributor supplied four images: a Waymo branded vehicle with an Uber availability marking photographed at night, an infographic comparing Waymo and Tesla sensing and estimated costs, the existing Wargames Paradox research graphic, and a Zoox branded purpose built vehicle photographed in a parking or pickup environment. The images are discussed as visual observations only; they are not uploaded or redistributed in this public record. Original capture dates, locations, chain of custody and publication permissions have not been established.
+
+**Visual evidence boundaries:** The Waymo image supports the visible co-branding, not whether a passenger trip or autonomous driving was underway. The Zoox image supports the visible vehicle configuration, not its operating mode or deployment status. The comparison graphic's sensor quantities and approximate vehicle costs are unverified secondary claims; Waymo fleet-equipped cost estimates and Tesla retail prices do not have equivalent cost boundaries. Neither sensor count nor retail price establishes safety, operational readiness, lifecycle economics or regulatory authorization.
+
+**Institutional comparative question:** As mobility shifts from algorithmically allocated human labor toward autonomous fleets, which institution controls dispatch, service eligibility, operational design domain, safety interventions, incident evidence, passenger remedies and independent review? Apply the existing AI Paradox and Wargames Paradox lens of individual agency versus algorithmic authority. Separate driver pay and allocation records from vehicle safety outcomes; compare safety only with matched exposure denominators, operating domains, incident definitions and independent evidence.
+
+**Assurance protocol:** Preserve observation versus interpretation, source and permission metadata, identifiable details requiring redaction, fleet and software version, operational mode (unknown unless established), company disclosures versus independent validation, and contrary evidence. Do not infer company misconduct, platform internals or comparative safety rankings from these photographs. This is a bounded documentation extension with no new research project, software system or independent certification.
