@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T06:27:09.703990+00:00",
+  "generated_at": "2026-11-16T19:35:59.597434+00:00",
   "records": [
     {
       "id": "WAYMO-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "6c2f298d5aec63ed2f968ebc6150129a205cca3b51d541cdea95e66c25ba9edf",
+      "content_sha256": "897308f00e1e1e0047dba2e588903bca12ed8d7a1a823996d04c8686119f8044",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "2df61b4f36215203b26eafa9c4f12531f5a634b094321d5db1bfc54852d3c088",
+      "content_sha256": "9c021fb11dd831a77fe6ba7f60762c81adb0f98461258397be8b90ed40a62763",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "425927ce114ab625f2b6eb3d1eab064548d0de529bf7ca072b264720305c1f1a",
+      "content_sha256": "1f53f5a5b74af6753198323706d9dee12fe3bb73431da3f0b4431f34b1b5e9f1",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -61,7 +61,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "4e33a1c22c531ae47fa695abb00289cc10a992675e6caa0c9e89b9dabe797912",
+      "content_sha256": "bd3ac9104b861293b06670bf4f175b7795a6e94a92c63f3c3155ea950f673006",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -78,7 +78,7 @@
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "2a0cdaf1e7989ff0799435a38f756415819c53d4a04db1984299c646a6eabdac",
+      "content_sha256": "345c432dc3c768893bd816e06a0893b9b04386e15bb29082a6700f63c5dda181",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -106,12 +106,12 @@
     {
       "source_id": "NHTSA-SGO",
       "status": "fetched",
-      "bytes": 147000
+      "bytes": 146994
     },
     {
       "source_id": "BRA-ANAC-AAM",
       "status": "fetched",
-      "bytes": 319896
+      "bytes": 328879
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
