@@ -157,3 +157,12 @@ The [existing semiconductor agenda](government-ai-semiconductor-systems-governan
 - [Deployed dashboard and research systems](../Research-Governance/ConsciousAI-Research-Systems/README.md)
 
 **Independence and rights:** GRI research does not imply Treasury, USAJOBS, NVIDIA, Tesla, ASU or Thunderbird sponsorship, access or endorsement. Protect confidential information, copyrighted course content, research participants, and government records. This is a research protocol, not regulatory advice.
+
+
+### November 16, 2026 | Material change and assurance continuity control
+
+**Scope:** The existing capability, deployment and assurance clocks should be assessed against authenticated **material changes in consequential decision authority**, not merely software release counts. A client update, revised contract, remote configuration, model version, regulatory obligation and actual operational policy may change on different schedules. Do not assume one identifies another.
+
+For a specific decision pipeline, establish the last independently validated rule or configuration, the authenticated date of material change if available, the affected population and decision class, the corresponding notice or consent event, the applicable review and correction mechanism, and the date of renewed assurance. When either date is unavailable, assurance lag is **not measurable**; do not assign zero, infinity or a proxy duration without explicit labeling and justification.
+
+**Hypothesis:** Frequent or opaque consequential changes may increase the difficulty of maintaining meaningful oversight and informed participation. **Disconfirmation:** authenticated change logs, timely independent validation, comprehensible material-change notices, and effective participant remedies. Contractual acceptance, legal adequacy, actual comprehension and operational authority remain distinct evidence questions. This extension is part of the existing assurance framework, not a new paradox.
