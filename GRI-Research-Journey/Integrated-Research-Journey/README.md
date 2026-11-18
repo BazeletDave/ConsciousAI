@@ -538,3 +538,60 @@ This comparative desk review extends the existing AI Paradox question of whether
 **Existing research locations:** [Energy, development finance and global AI divide](2026-10-28-energy-finance-ai-divide-resilience.md#november-18-2026--shenzhen-apple-supply-chains-and-the-institutional-dependency-comparison) examines foreign capital, industrial learning and Shenzhen. [Sustainability, resilience and intertemporal justice](../Institutional-Research-Reports/AI-Governance-Paradox/SUSTAINABILITY-RESILIENCE-INTERTEMPORAL-JUSTICE-EXTENSION.md#november-18-2026--keys-corridor-place-based-adaptation-and-bounded-land-use-scenario) records the Keys road closure, cascading service risk, and a clearly hypothetical 28-acre coastal research land-use scenario. [ASU Resilient American Futures](2026-10-28-stanley-resilient-american-futures-i10-research.md) preserves the academic evidence boundaries. GLOBE leadership constructs may inform governance and stakeholder engagement, but are not a basis for generalizing individual behavior or publishing confidential coursework.
 
 **Evidence status:** The tanker closure and Monroe County single-corridor dependency are documented; specific downstream service disruptions remain to be quantified. Apple-to-Chinese-firm causal pathways, precise investment totals, Shenzhen-wide autonomy claims, and use of AI by specific state cyber actors require primary-source checks. The proposed coastal facility is a conceptual comparison only, not a development plan, property offer, or owner endorsement. Existing historical research and frozen tests are unchanged; no operational claim or institutional endorsement is implied.
+
+## November 18, 2026 | Institutional dependency and resilience: integrated research architecture
+
+**Program status:** Major methodological consolidation of existing GRI research, not a new program or a claim of empirical validation. This section connects the [AI Governance Paradox](../Institutional-Research-Reports/AI-Governance-Paradox/REPORT.md), [Nelson model boundaries](nelson-model-methodological-boundaries.md), [ASU Resilient American Futures](2026-10-28-stanley-resilient-american-futures-i10-research.md), [global AI divide and Shenzhen](2026-10-28-energy-finance-ai-divide-resilience.md), [sustainability and resilience](../Institutional-Research-Reports/AI-Governance-Paradox/SUSTAINABILITY-RESILIENCE-INTERTEMPORAL-JUSTICE-EXTENSION.md), and [autonomous infrastructure](../../autonomous-mobility-research/Autonomous%20infrastructure.md).
+
+### Unifying research proposition
+
+Increasing technological capability, economic integration and automation can simultaneously increase productivity and concentrate dependencies, unless institutional decision authority, redundancy, evidence integrity, public legitimacy and recovery capacity evolve accordingly. **This is a GRI hypothesis within the AI Paradox, not an established universal law.**
+
+### Four analytical layers
+
+1. **Political economy and capability formation:** Capital, industrial policy, supplier learning, labor, finance, energy and national security. Compare Shenzhen and the United States without treating either as a homogeneous system. Attribute Apple investment and knowledge-transfer claims to McGee or corroborating financial/supplier evidence; do not assume Apple caused the creation of named Chinese technology firms.
+2. **Institutional authority and cultural legitimacy:** Apply Roy C. Nelson's liberalism, economic nationalism and structuralism as alternative perspectives on power, incentives and sovereignty. Use GLOBE scholarship only for clearly bounded cross-cultural leadership questions, never as individual prediction or evidence of a university endorsement.
+3. **Physical, digital and autonomous infrastructure:** Compare US 1 in the Florida Keys, multimodal Shenzhen, platform-mediated work, cloud infrastructure, electrical grids, and adversarial cyber systems. Separate physical redundancy from digital integration and distinguish AI-assisted attacks from proven AI use in specific state-linked intrusions.
+4. **Resilience, sustainability and distributive effects:** Examine who loses access, who can intervene, who pays for failure, how recovery proceeds, whether environmental systems are protected, and whether benefits and burdens are equitable over time.
+
+### Cross-case comparative protocol
+
+| Variable | Operational definition | Evidence requirement |
+| --- | --- | --- |
+| Critical dependency | Essential function reliant on one corridor, supplier, platform, utility or authority | Network map, contracts, service records or official plan |
+| Concentration | Share of function dependent on a common component or route | Verified denominator and dependency share |
+| Authority | Entity permitted to interrupt, reroute, override, restore or audit | Law, policy, contracts and incident command records |
+| Continuity | Essential service delivered during disruption relative to specified baseline | Time-bounded service logs and defined population |
+| Propagation | Secondary effects causally attributable to initial failure | Chronology, operator records and competing explanations |
+| Recovery | Time to partial, full and sustained restoration | Timestamped incident and service data |
+| Equity | Distribution of access, cost, risk and recovery across affected groups | Disaggregated, privacy-protective evidence |
+| Legitimacy | Public participation, consent mechanisms, legal compliance and contestability | Public proceedings, surveys, legal decisions and stakeholder records |
+| Autonomy | Which tasks an AI system actually initiates, executes and escalates | Technical documentation, logs and independent tests |
+
+**Evidence classes:** A = official or primary operational record; B = peer-reviewed research or attributable primary reporting; C = researcher field observation with provenance; D = secondary reporting; E = hypothesis/scenario. These labels describe provenance, **not numerical quality scores**. Record source date, event date, jurisdiction, uncertainty, contradictory evidence, and what would falsify each proposition.
+
+### Testable propositions and counterarguments
+
+- **P1 Dependency relocation:** Adding mobility modes can reduce dependence on one roadway but may increase shared energy, communications or command-system dependencies. Counterargument: independently powered and governed modes can reduce total concentration. Test with common-cause failure mapping.
+- **P2 Efficiency versus resilience:** Higher utilization and integrated optimization may reduce reserve capacity. Counterargument: coordination may shorten restoration. Test with service continuity, reserve capacity and recovery times.
+- **P3 Autonomy and authority:** More automated operational decisions may outpace human oversight. Counterargument: well-designed escalation and revocation can improve control. Test with intervention latency, audit completeness and override success.
+- **P4 Globalization and strategic capability:** Cross-border investment may strengthen domestic supplier learning while increasing strategic dependencies elsewhere. Counterargument: capability formation has multiple independent causes. Test with supplier-level chronology, investment classification, alternative investors and industrial policy.
+- **P5 Public legitimacy:** A technically feasible mobility system may fail to gain acceptable public access or environmental approval. Counterargument: community co-design may improve acceptance. Test through documented participation, environmental review and equitable access outcomes.
+
+### Existing case assignments
+
+**Florida Keys, November 17:** Confirmed MM 59–60 tanker incident and road closure; Monroe County recognizes US 1 as a critical mainland road connection. The actual distribution of missed appointments, sanitation disruption, flight losses and emergency service constraints is not yet measured. Keep precise geography and avoid describing the entire Keys as uniformly cut off. Use the 28-acre Mango Cove scenario only as a hypothetical public access, ecological research and alternative mobility tradeoff, without owner, trust, investment or university partnership claims.
+
+**Shenzhen and Apple:** Compare industrial development, electrified transit, autonomous vehicles and drones with U.S. industrial and cyber infrastructure. Quantify only after checking dates, investment definitions, geographic scope and operator records. Privacy, labor, public finance and governance are separate outcomes; avoid 'total' or 'frictionless' claims.
+
+**Cybersecurity:** Distinguish documented PRC-linked critical-infrastructure intrusions, opportunistic Microsoft outage phishing, and Google's reporting on agentic offensive tooling. Do not claim these are the same attack, that the outage was maliciously caused, or that AI use in Volt/Salt Typhoon is proven without incident-specific evidence.
+
+**Academic and field continuity:** ASU College of Global Futures resilience work provides educational provenance; Thunderbird global management, Nelson and GLOBE provide scholarly lenses; rideshare field observations provide a longitudinal governance setting. These sources do not imply university or faculty participation in GRI's independent conclusions.
+
+### Execution discipline and publication gates
+
+**Gate 1:** Reconcile each headline or manuscript claim with its original source and classify its evidence. **Gate 2:** Establish comparable case definitions and explicit missing-data fields. **Gate 3:** Document competing causal explanations and stakeholder effects. **Gate 4:** Publish only supported findings; label scenarios and untested propositions. **Gate 5:** Update existing indexes and assurance evidence records without rewriting frozen historical experiments.
+
+**Near-term evidence priorities:** (a) Monroe County/FHP incident timeline and service operator impacts; (b) Shenzhen metro, bus, taxi, robotaxi and drone operator records; (c) Apple investment and supplier development chronology from McGee plus company filings; (d) CISA/NSA incident-specific cyber advisories; (e) environmental and land-use rules for hypothetical coastal mobility. Future author conversations, including at the Miami Book Fair, may supply attributed leads but not automatic corroboration.
+
+**Scope and integrity:** This architecture is independent GRI research. No new code, dashboard, external endorsement, property development, operational service, verified quantitative outcome, or new research project is asserted.
