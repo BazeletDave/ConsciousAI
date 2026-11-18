@@ -595,3 +595,62 @@ Increasing technological capability, economic integration and automation can sim
 **Near-term evidence priorities:** (a) Monroe County/FHP incident timeline and service operator impacts; (b) Shenzhen metro, bus, taxi, robotaxi and drone operator records; (c) Apple investment and supplier development chronology from McGee plus company filings; (d) CISA/NSA incident-specific cyber advisories; (e) environmental and land-use rules for hypothetical coastal mobility. Future author conversations, including at the Miami Book Fair, may supply attributed leads but not automatic corroboration.
 
 **Scope and integrity:** This architecture is independent GRI research. No new code, dashboard, external endorsement, property development, operational service, verified quantitative outcome, or new research project is asserted.
+
+## November 18, 2026 | Causal model validation audit: identification before inference
+
+**Audit conclusion:** The institutional dependency model is conceptually specified and partially supported by source-verified mechanisms, but **the unified causal effect is not identified or empirically validated**. A confirmed event or scholarly explanation does not establish a causal effect size. This is an explicit methodological finding, not a negative assessment of the research value.
+
+### Directed causal structure (provisional)
+
+- Upstream conditions: geography, industrial policy, historical infrastructure, economic development, climate exposure, regulatory capacity, and firm selection.
+- Exposure/intervention: supply-chain investment, infrastructure integration, automation, or redundancy investments, each defined independently.
+- Mediators: supplier learning, network concentration, common-mode energy/communications dependency, operational coordination, decision authority, and reserve capacity.
+- Outcomes: productivity, essential-service continuity, propagation, restoration time, security exposure, public legitimacy and distributional equity.
+- Confounding and selection: wealthier municipalities may adopt more automation and have better resilience; firms choose capable suppliers; high-risk locations invest more in redundancy; attackers select targets. Contemporaneous policy, weather, growth and technology changes may influence both exposure and outcomes.
+- Do not condition indiscriminately on post-intervention mediators or outcomes when estimating total effects. Interference and spillovers between road segments, firms, services and jurisdictions must be modeled explicitly.
+
+### Proposition audit
+
+| Claim | Present evidence | Causal identification status | Minimum validation |
+| --- | --- | --- | --- |
+| P1: Mobility diversification relocates dependencies | Keys corridor concentration and documented urban multimodal deployments | Mechanism plausible; no measured common-cause effect | Asset/service network graph, independent power and communications dependencies, before/after disruptions, comparable counterfactual |
+| P2: Optimization can reduce reserve resilience | General systems reasoning; no paired case panel | Unidentified, direction ambiguous | Utilization and reserve capacity time series; comparable disruptions; recovery outcomes |
+| P3: Autonomous operation can outpace oversight | Technical and governance concern; no measured local override failures | Unidentified | Operational logs, escalation and intervention timing, override success, baseline human-operated system |
+| P4: Foreign investment builds strategic industrial capability | Guthrie institutional scholarship and McGee investigative reporting; China industrial history | Multiple mechanisms, no attributable Apple-specific causal estimate | Firm/supplier panel, investment timing, capability metrics, alternative investors, industrial policy and pre-trends |
+| P5: Deployment success depends on legitimacy | Documented public concerns and regulatory processes | No estimated adoption/approval effect | Policy variation, participation measures, approval and adoption outcomes, comparable settings |
+
+### Florida Keys identification design: first empirical priority
+
+**Event:** November 17, 2026 tanker rollover and temporary US 1 closure near MM 59–60. **Treatment/exposure:** Service trips or operations whose required route crosses the closed segment during the documented closure interval. **Comparison:** Trips or services in the same operating period that do not require the closed segment, and comparable historical weekday/time windows; confirm that spillovers do not contaminate comparisons. **Units:** Trip, scheduled service, route or organization-hour. **Outcomes:** Actual missed/late appointments, uncompleted sanitation runs, delayed deliveries, verified missed flights, service restoration times and distribution by affected location.
+
+**Estimand:** Average effect of closure exposure on a prespecified outcome for affected units relative to their no-closure potential outcome, not a blanket effect on all Keys residents. Capture baseline service levels, scheduled routes, closure/reopening timestamps, weather, seasonality, incident response and any contemporaneous disruptions. Exclude unverified downstream examples from effect counts.
+
+**Methods:** Reconstruct event chronology and exposure mapping first. Where suitable panel data and a defensible comparison exist, estimate a difference-in-differences or event-study contrast, checking pre-event trends and spillovers. If these conditions fail, publish a descriptive interrupted-service analysis rather than a causal effect. A single incident cannot by itself estimate the effect of building an eVTOL facility, nor generalize to all hazards.
+
+### Shenzhen and Apple identification design
+
+Define a narrow supplier-level outcome (e.g. measured production capability, process quality or domestic patenting), treatment (verified start/intensity of Apple tooling and engineering engagement), and comparison (otherwise similar suppliers without that exposure). Use historical firm panel data and explicit industrial policy, local infrastructure, migration, prior capability and other foreign investment covariates. Supplier selection and knowledge spillovers may invalidate naive matched comparisons. Do not infer DJI, BYD, Huawei or Xiaomi were caused by Apple without entity-level documentary evidence.
+
+For Shenzhen transport, separately identify effects of electrification, rail expansion, autonomous vehicle licensing and drone operations. A before/after city narrative cannot isolate these overlapping policies.
+
+### Cybersecurity identification design
+
+The February 7, 2024 joint CISA/NSA/FBI advisory documents Volt Typhoon compromises and a high-confidence assessment of pre-positioning for possible disruption, not a measured causal effect of AI on those intrusions. Do not infer autonomous AI use or model 'China physical AI deployment → U.S. cyberattacks' as an established causal edge. Source: https://www.ic3.gov/CSA/2024/240207.pdf .
+
+### Evidence and methodological references
+
+- Columbia Mailman School of Public Health, difference-in-differences assumptions: https://www.publichealth.columbia.edu/research/population-health-methods/difference-difference-estimation
+- Callaway, Goodman-Bacon and Sant'Anna (2024), NBER working paper 32117, continuous treatment and identification: https://www.nber.org/papers/w32117
+- Difference-in-Differences for Health Policy and Practice (2025), *Statistics in Medicine*, modern methods: https://pmc.ncbi.nlm.nih.gov/articles/PMC13358929/
+- CISA, NSA and FBI joint advisory AA24-038A: https://www.ic3.gov/CSA/2024/240207.pdf
+
+### Decision and evidence gates
+
+1. **Conceptual specification: PASSED** — constructs, candidate pathways, counterarguments and outcomes stated.
+2. **Mechanism documentation: PARTIAL** — some source-confirmed incidents and institutional relationships, not all causal arrows.
+3. **Counterfactual identification: NOT PASSED** — comparison units, assignment mechanisms and assumptions not yet established.
+4. **Quantitative estimation: NOT PERFORMED** — no validated case-level longitudinal panel or causal estimate supplied.
+5. **Independent replication and external review: NOT PERFORMED** — no reproducible analysis or third-party review.
+6. **Publication classification: conceptual and pre-registered-style research design, not validated causal conclusion.**
+
+**Next empirical gate:** Acquire authorized, privacy-preserving event and service records; register hypotheses and exclusion rules before estimating effects; publish uncertainty and sensitivity checks. No synthetic data, fabricated p-values, or retrospective causal claims. No changes to production software or frozen historical experiments.
