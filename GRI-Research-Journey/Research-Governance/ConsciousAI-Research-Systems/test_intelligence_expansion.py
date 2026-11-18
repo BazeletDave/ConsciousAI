@@ -1,7 +1,8 @@
 import unittest
 from unittest.mock import patch
 from urllib.error import HTTPError
-from international_mobility_collector import parse_feed,parse_official_page,collect,approved_url,public_fetch
+from urllib.request import Request
+from international_mobility_collector import parse_feed,parse_official_page,collect,approved_url,public_fetch,NoRedirect
 from driver_evidence import assess
 SRC={"id":"TEST","publisher":"Test","category":"mobility_industry","jurisdiction":"US","feed":"https://example.org/feed"}
 class ExpansionTests(unittest.TestCase):
@@ -23,7 +24,7 @@ class ExpansionTests(unittest.TestCase):
    def open(self,request,timeout):
     self.calls.append(request.full_url)
     if request.full_url.endswith("/robots.txt"):
-     return Reply(request.full_url,b"User-agent: *\\nAllow: /\\n")
+     return Reply(request.full_url,b"User-agent: *\nAllow: /\n")
     return Reply(request.full_url,b"<rss><channel></channel></rss>")
   opener=Opener()
   with patch("international_mobility_collector.build_opener",return_value=opener):
@@ -35,7 +36,7 @@ class ExpansionTests(unittest.TestCase):
    url="https://example.org/robots.txt"
    def __enter__(self):return self
    def __exit__(self,*args):return False
-   def read(self,n):return b"User-agent: *\\nDisallow: /feed\\n"
+   def read(self,n):return b"User-agent: *\nDisallow: /feed\n"
   class Opener:
    calls=[]
    def open(self,request,timeout):
@@ -56,6 +57,9 @@ class ExpansionTests(unittest.TestCase):
   with patch("international_mobility_collector.build_opener",return_value=opener):
    with self.assertRaises(HTTPError):public_fetch(SRC["feed"],SRC)
   self.assertEqual(opener.calls,["https://example.org/robots.txt"])
+ def test_unapproved_redirect_is_refused(self):
+  with self.assertRaisesRegex(ValueError,"redirect requires manual approval"):
+   NoRedirect().redirect_request(Request(SRC["feed"]),None,302,"Found",{},"https://evil.example/private")
  def test_rss(self):
   x=parse_feed(b'<rss><channel><item><title>Mobility policy</title><link>https://example.org/article</link></item></channel></rss>',SRC)
   self.assertEqual(len(x),1);self.assertFalse(x[0]["publication_authorized"])
