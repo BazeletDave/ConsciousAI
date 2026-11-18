@@ -1,0 +1,5 @@
+{
+  "schema_version": "1.0",
+  "description": "Curated public incident records. Empty until source review; never infer zero incidents from an empty registry.",
+  "records": []
+}
