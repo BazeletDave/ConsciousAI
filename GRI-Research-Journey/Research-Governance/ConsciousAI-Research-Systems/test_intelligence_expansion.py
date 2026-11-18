@@ -1,4 +1,6 @@
 import unittest
+from unittest.mock import patch
+from urllib.error import HTTPError
 from international_mobility_collector import parse_feed,parse_official_page,collect,approved_url,public_fetch
 from driver_evidence import assess
 SRC={"id":"TEST","publisher":"Test","category":"mobility_industry","jurisdiction":"US","feed":"https://example.org/feed"}
@@ -10,6 +12,50 @@ class ExpansionTests(unittest.TestCase):
  def test_disallowed_source_never_invokes_fetch(self):
   x=collect(fetch=lambda _:self.fail("network request should be blocked"),sources=[{**SRC,"feed":"https://evil.example/feed","allowed_host":"example.org"}],now="fixed")
   self.assertEqual(x["sources"][0]["status"],"failed")
+ def test_public_fetch_allows_public_feed_when_robots_permits(self):
+  class Reply:
+   def __init__(self,url,data):self.url=url;self.data=data
+   def __enter__(self):return self
+   def __exit__(self,*args):return False
+   def read(self,n):return self.data[:n]
+  class Opener:
+   calls=[]
+   def open(self,request,timeout):
+    self.calls.append(request.full_url)
+    if request.full_url.endswith("/robots.txt"):
+     return Reply(request.full_url,b"User-agent: *\\nAllow: /\\n")
+    return Reply(request.full_url,b"<rss><channel></channel></rss>")
+  opener=Opener()
+  with patch("international_mobility_collector.build_opener",return_value=opener):
+   data=public_fetch(SRC["feed"],SRC)
+  self.assertEqual(data,b"<rss><channel></channel></rss>")
+  self.assertEqual(opener.calls,["https://example.org/robots.txt",SRC["feed"]])
+ def test_public_fetch_respects_robots_disallow(self):
+  class Reply:
+   url="https://example.org/robots.txt"
+   def __enter__(self):return self
+   def __exit__(self,*args):return False
+   def read(self,n):return b"User-agent: *\\nDisallow: /feed\\n"
+  class Opener:
+   calls=[]
+   def open(self,request,timeout):
+    self.calls.append(request.full_url)
+    if len(self.calls)>1:raise AssertionError("blocked feed was requested")
+    return Reply()
+  opener=Opener()
+  with patch("international_mobility_collector.build_opener",return_value=opener):
+   with self.assertRaisesRegex(ValueError,"robots policy"):public_fetch(SRC["feed"],SRC)
+  self.assertEqual(opener.calls,["https://example.org/robots.txt"])
+ def test_public_fetch_stops_on_restricted_robots(self):
+  class Opener:
+   calls=[]
+   def open(self,request,timeout):
+    self.calls.append(request.full_url)
+    raise HTTPError(request.full_url,403,"Forbidden",{},None)
+  opener=Opener()
+  with patch("international_mobility_collector.build_opener",return_value=opener):
+   with self.assertRaises(HTTPError):public_fetch(SRC["feed"],SRC)
+  self.assertEqual(opener.calls,["https://example.org/robots.txt"])
  def test_rss(self):
   x=parse_feed(b'<rss><channel><item><title>Mobility policy</title><link>https://example.org/article</link></item></channel></rss>',SRC)
   self.assertEqual(len(x),1);self.assertFalse(x[0]["publication_authorized"])
