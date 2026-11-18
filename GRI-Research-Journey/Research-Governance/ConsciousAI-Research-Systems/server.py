@@ -367,6 +367,9 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, load("intelligence_feed.json"))
             if path == "/ai-intelligence":
                 return self.send_json(200, load("ai_intelligence.json"))
+            if path == "/intelligence/global-incidents/assurance":
+                from global_incident_intelligence import assurance_snapshot
+                return self.send_json(200, assurance_snapshot(load("global_incidents.json")["records"]))
             if path == "/intelligence/global-incidents":
                 from global_incident_intelligence import snapshot
                 # No unsupported incident claims: curated records only.
