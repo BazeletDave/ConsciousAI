@@ -52,3 +52,28 @@ Do not make causal claims from descriptive case comparisons. For quantitative wo
 * GRI companion incident analysis: [Blockchain Custody and Institutional Assurance](BLOCKCHAIN-CUSTODY-BINANCE-INCIDENT-2026-10-29.md)
 
 **Research guardrail:** Compare cases through institutional mechanisms, not presumed common perpetrators or causes. No claim that a breach was intentional, that AI caused it, or that a public contract was improper without independently verified evidence.
+
+
+## November 17, 2026 | Florida Keys US 1 closure: physical infrastructure continuity
+
+**Classification:** Bounded GRI field observation and prospective institutional comparison, recorded November 18, 2026. This is not a completed service impact audit, a causal study, or an operational technology validation.
+
+**Observed event:** GRI researcher supplied two contemporaneous roadside photographs of electronic highway signs approaching Mile Marker 59 in the Florida Keys. One displays “MAJOR CRASH AT MM 59 45 MI AHEAD”; the other displays “ALL LANES CLOSED AT MM 59 45 MI AHEAD.” These photographs substantiate displayed warnings, not independently verified closure duration, casualties, precise incident mechanism, or regionwide service outcomes. The original images remain in the researcher's custody and are not reproduced here.
+
+**Field account, not independently corroborated:** The researcher describes interruptions to commuting, waste collection, mail, and travel connections, with potential constraints on emergency access. The extent, timing, and actual continuity of each service require operator and agency records. Claims that all ambulances were unable to travel, or that the entire Keys were severed from the mainland, must not be inferred from a localized closure notice. Geographic impact depends on which side of the closure each origin, destination, and resource occupies.
+
+**Institutional proposition:** Concentration of essential mobility on US 1 creates exposure to common corridor interruptions. Community adaptation can reduce hardship without restoring the underlying transport capacity. The distinction between social adaptation, physical network redundancy, and continuity of essential functions is central to this comparison.
+
+**Existing six dimension framework:**
+1. Institutional failure: identify physical dependency, contingency planning, and any independently documented operational shortfall without assuming negligence.
+2. Delegated authority: map decision rights for traffic closure, incident command, emergency access, reopening, and public notification.
+3. Evidence and accountability: separate GRI photographs and firsthand accounts from transportation agency logs, emergency dispatch records, operator records, and later reporting.
+4. Systemic consequences: assess whether mobility disruption propagated to sanitation, employment, postal operations, medical access, deliveries, and visitor travel.
+5. Intertemporal justice: evaluate distribution of lost time, income, missed appointments, and the costs and benefits of alternative capacity.
+6. Sustainability and resilience: compare service continuity, recovery performance, response coordination, and feasible modal alternatives.
+
+**Prospective metrics, not measured findings:** (a) critical service continuity, with defined essential service denominator and service level; (b) disruption propagation, counting independently verified secondary effects with clear attribution and geographic boundaries; (c) recovery performance, separately timestamping closure, partial access, full roadway reopening, and restoration of affected services. Record missing data and competing explanations.
+
+**Autonomous mobility comparison:** Ground autonomy cannot traverse an impassable road. AI assisted coordination may improve communication and resource allocation, while advanced air mobility or marine links may offer specific alternative functions subject to capacity, weather, safety, access, cost, and regulatory constraints. No demonstrated mitigation or deployment is asserted.
+
+**Continuity and guardrails:** Compare with the existing November 2026 Microsoft dependency incident through shared institutional mechanisms, not identical causes. This note does not amend frozen experiments, launch a new project, modify the dashboard, or claim independent validation. Related: [Integrated Research Journey](../../Integrated-Research-Journey/README.md) and [Autonomous infrastructure](../../../autonomous-mobility-research/Autonomous%20infrastructure.md).
