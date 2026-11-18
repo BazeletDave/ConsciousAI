@@ -251,7 +251,7 @@ try {
   $('global-incident-sources').innerHTML=Object.entries(registry).map(([country,sources])=>'<p><b>'+esc(country)+'</b>: '+sources.filter(s=>typeof s.url==='string'&&s.url.startsWith('https://')).map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.name)+'</a>').join(' · ')+'</p>').join('');
   render();
  }
- $('global-incident-sources').innerHTML=Object.entries(registry).map(([country,sources])=>'<p><b>'+esc(country)+'</b>: '+sources.filter(s=>typeof s.url==='string'&&s.url.startsWith('https://')).map(s=>'<a href="'+esc(s.url)+'" target="_blank" rel="noopener noreferrer">'+esc(s.name)+'</a>').join(' · ')+'</p>').join('');
+
  
  function render(){const q=$('global-incident-search').value.toLowerCase(), country=$('global-incident-country').value;
  const found=records.filter(r=>(!country||r.jurisdiction===country)&&[r.title,r.organization,r.summary,r.jurisdiction].join(' ').toLowerCase().includes(q));
