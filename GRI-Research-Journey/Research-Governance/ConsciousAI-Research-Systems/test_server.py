@@ -50,7 +50,12 @@ class ResearchServiceTests(unittest.TestCase):
     def test_global_incident_endpoint_is_read_only_and_transparent(self):
         response = self.fetch("/intelligence/global-incidents")
         self.assertEqual(response["window_days"], 30)
-        self.assertEqual(response["records"], [])
+        # The curated incident registry can contain dated, validated records.
+        # An empty list is not a valid invariant once official disclosures are added.
+        self.assertIsInstance(response["records"], list)
+        self.assertTrue(all(record["event_date"] <= response["as_of"] for record in response["records"]))
+        self.assertTrue(all(record["evidence_status"] in ("reported", "officially_acknowledged", "independently_corroborated", "disputed", "unverified") for record in response["records"]))
+        self.assertTrue(all(record["sources"] for record in response["records"]))
         self.assertIn("Singapore", response["source_registry"])
         self.assertIn("Brazil", response["source_registry"])
         self.assertIn("India", response["source_registry"])
