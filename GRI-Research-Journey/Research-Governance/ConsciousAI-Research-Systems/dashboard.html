@@ -232,6 +232,7 @@ let orgs=[...new Set(nodes.map(x=>x.organization).filter(Boolean))].sort(),types
 <script>(function(){const ids=['gri-av-fixed','gri-av-revenue','gri-av-variable'];const inputs=ids.map(id=>document.getElementById(id));const out=document.getElementById('gri-av-result');const bar=document.getElementById('gri-av-bar');function refresh(){const [fixed,revenue,variable]=inputs.map(el=>Number(el.value));if(inputs.some(el=>el.value.trim()===''||!Number.isFinite(Number(el.value)))||[fixed,revenue,variable].some(v=>v<0)){out.textContent='Enter nonnegative numeric assumptions.';bar.style.width='0%';return;}if(revenue<=variable){out.textContent='No finite break even: revenue does not exceed variable cost.';bar.style.width='0%';return;}const trips=Math.ceil(fixed/(revenue-variable));out.textContent='Illustrative break even: '+trips.toLocaleString()+' paid rides per vehicle day.';bar.style.width=Math.min(100,trips/30*100)+'%';}inputs.forEach(el=>el.addEventListener('input',refresh));refresh();})();</script><section class="executive" id="global-incidents" aria-label="Global incident intelligence"><div class="panel">
 <h2>Global Incident Intelligence</h2><p>International incident relationships, institutional responses and resolution evidence. Source coverage is not equivalent to national attack incidence.</p>
 <div class="event-toolbar"><label>Jurisdiction<select id="global-incident-country"><option value="">All jurisdictions</option></select></label><label>Search<input id="global-incident-search" type="search" placeholder="Incident, company or finding"></label></div>
+<div id="global-coverage-assurance" class="meta" role="status">Loading international source coverage assurance…</div>
 <p class="model-note" id="global-incident-summary" role="status">Loading curated incident register…</p><div id="global-incident-records" aria-live="polite"></div><details><summary>Official source discovery registry</summary><div id="global-incident-sources"></div></details>
 <p class="model-note">Records are curated, not a live attack feed. Reported remediation is not independent verification. Executive roles do not imply personal fault.</p></div></section>
 <script>(async function(){
@@ -247,5 +248,12 @@ try {
  $('global-incident-records').innerHTML=found.map(r=>'<article class="event-card"><div class="event-title">'+esc(r.title)+'</div><div class="event-sub">'+esc(r.event_date)+' · '+esc(r.jurisdiction)+' · '+esc(r.organization)+'</div><p>'+esc(r.summary)+'</p><p class="meta">Evidence: '+esc(r.evidence_status)+' · Resolution: '+esc(r.resolution_status)+'</p><p>'+((r.sources||[]).filter(s=>typeof s.url==='string'&&s.url.startsWith('https://')).map(s=>'<a target="_blank" rel="noopener noreferrer" href="'+esc(s.url)+'">'+esc(s.name)+'</a>').join(' · '))+'</p></article>').join('')||'<p class="model-note">No curated incidents match this selection. International source review remains necessary.</p>';
  }$('global-incident-search').addEventListener('input',render);$('global-incident-country').addEventListener('change',render);render();
 }catch(e){$('global-incident-summary').textContent='Incident intelligence unavailable: '+e.message;}
+})();</script>
+<script>(async function(){
+const el=document.getElementById('global-coverage-assurance');if(!el)return;
+try{const r=await fetch('/intelligence/global-incidents/assurance',{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);
+const d=await r.json(), coverage=d.country_coverage||{}, countries=Object.entries(coverage);
+el.textContent='Source coverage: '+countries.map(([country,x])=>country+' ('+x.registered_official_sources+' registered sources, '+x.curated_records_in_window+' curated records)').join(' · ')+'. Registered sources are not confirmed live monitoring. Evidence review queue: '+(d.evidence_review_queue||[]).length+'.';
+}catch(e){el.textContent='Source coverage assurance unavailable: '+e.message;}
 })();</script>
 </body></html>
