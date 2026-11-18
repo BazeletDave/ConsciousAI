@@ -132,3 +132,16 @@ This project transcends automotive innovation. It is about **code shaping consci
 | 2026 | 500      | 1      | Initial rollout, policy testing  |
 | 2027 | 5,000    | 4–5    | Cross-regional learning begins   |
 | 2028 | 10,000+  | 10+    | Platform-wide ML integration     |
+
+
+---
+
+## November 18, 2026 | Florida Keys corridor closure and autonomous mobility continuity
+
+**GRI bounded observational extension:** Two researcher supplied roadside sign photographs from November 17 display “MAJOR CRASH AT MM 59 45 MI AHEAD” and “ALL LANES CLOSED AT MM 59 45 MI AHEAD.” They do not independently establish the full duration, geographic reach, or downstream service consequences. The incident motivates a comparison between autonomous vehicle capability and physical transport network resilience.
+
+**Operational distinction:** A functioning autonomous ground vehicle cannot cross a physically impassable roadway. Routing intelligence may support warning, triage, and fleet redistribution, but it does not create road capacity. Alternative air or marine mobility must be evaluated against availability, throughput, weather, medical suitability, landing or docking access, regulation, cost, and equity before being described as resilience solutions.
+
+**Governance question:** Under what conditions can algorithmically coordinated mobility preserve essential service continuity during a common corridor disruption, and which public authorities retain decisions on access, prioritization, and emergency exceptions? No operational solution or causal benefit has been demonstrated here.
+
+**Measures for later verification:** Essential service continuity by service and geography; independently evidenced secondary disruptions; closure, partial access, and full service restoration timestamps. Keep the November 17 event as a field observation rather than a new mobility project. See the [GRI resilience institutional extension](../GRI-Research-Journey/Institutional-Research-Reports/AI-Governance-Paradox/SUSTAINABILITY-RESILIENCE-INTERTEMPORAL-JUSTICE-EXTENSION.md#november-17-2026--florida-keys-us-1-closure-physical-infrastructure-continuity).
