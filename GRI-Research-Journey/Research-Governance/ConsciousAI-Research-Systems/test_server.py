@@ -33,6 +33,20 @@ class ResearchServiceTests(unittest.TestCase):
         self.assertEqual(result["country_coverage"]["India"]["coverage_status"], "source_discovery_only")
         self.assertFalse(result["country_coverage"]["Costa Rica"]["verified_source_polling"])
 
+    def test_global_incident_historical_windows(self):
+        recent = self.fetch("/intelligence/global-incidents?window=30")
+        history = self.fetch("/intelligence/global-incidents?window=all")
+        self.assertEqual(recent["selected_window"], "30")
+        self.assertEqual(history["selected_window"], "all")
+        self.assertTrue(history["historical_mode"])
+        self.assertGreaterEqual(len(history["records"]), len(recent["records"]))
+        self.assertGreaterEqual(len(history["records"]), 3)
+        for window in ("90", "365"):
+            self.assertEqual(self.fetch("/intelligence/global-incidents?window=" + window)["selected_window"], window)
+        with self.assertRaises(HTTPError) as ctx:
+            self.fetch("/intelligence/global-incidents?window=invalid")
+        self.assertEqual(ctx.exception.code, 400)
+
     def test_global_incident_endpoint_is_read_only_and_transparent(self):
         response = self.fetch("/intelligence/global-incidents")
         self.assertEqual(response["window_days"], 30)
