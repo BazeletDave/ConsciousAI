@@ -28,6 +28,16 @@ class ResearchServiceTests(unittest.TestCase):
         with urlopen(req, timeout=3) as res:
             return json.load(res)
 
+    def test_global_incident_endpoint_is_read_only_and_transparent(self):
+        response = self.fetch("/intelligence/global-incidents")
+        self.assertEqual(response["window_days"], 30)
+        self.assertEqual(response["records"], [])
+        self.assertIn("Singapore", response["source_registry"])
+        self.assertIn("Brazil", response["source_registry"])
+        self.assertIn("India", response["source_registry"])
+        self.assertIn("Costa Rica", response["source_registry"])
+        self.assertIn("United States", response["source_registry"])
+
     def test_graph_references_resolve(self):
         g = graph()
         self.assertEqual(len(g["nodes"]), 9)
