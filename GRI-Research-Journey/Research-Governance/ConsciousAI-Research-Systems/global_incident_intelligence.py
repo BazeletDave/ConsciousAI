@@ -70,3 +70,37 @@ def snapshot(records, as_of=None, window_days=30):
         "source_registry": COUNTRY_SOURCES,
         "methodology": "Counts reflect validated metadata entries, not population-normalized attack rates or independent confirmation.",
     }
+
+def assurance_snapshot(records, as_of=None):
+    """Explain geographic source coverage and evidence gaps without fabricating incident counts."""
+    report = snapshot(records, as_of=as_of)
+    accepted = report["records"]
+    coverage = {}
+    for country, sources in COUNTRY_SOURCES.items():
+        subset = [r for r in accepted if r["jurisdiction"] == country]
+        coverage[country] = {
+            "registered_official_sources": len(sources),
+            "curated_records_in_window": len(subset),
+            "verified_source_polling": False,
+            "coverage_status": "source_discovery_only",
+            "interpretation": "No incident-rate conclusion can be drawn from this registry.",
+        }
+    review = []
+    for record in accepted:
+        gaps = []
+        if record["evidence_status"] not in {"officially_acknowledged", "independently_corroborated"}:
+            gaps.append("incident_not_officially_acknowledged_or_independently_corroborated")
+        if record["resolution_status"] != "independently_verified":
+            gaps.append("remediation_not_independently_verified")
+        if not record.get("relationships"):
+            gaps.append("institutional_relationships_not_documented")
+        if gaps:
+            review.append({"id": record["id"], "gaps": gaps, "review_status": "requires_evidence_review"})
+    return {
+        "as_of": report["as_of"],
+        "window_days": report["window_days"],
+        "country_coverage": coverage,
+        "evidence_review_queue": review,
+        "rejected_records": report["rejected"],
+        "methodology": "Source registrations are not active monitoring. Gaps are review prompts, not findings of fault, causality, or attack prevalence.",
+    }
