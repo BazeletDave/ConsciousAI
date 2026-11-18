@@ -1,6 +1,6 @@
 # Independent research review operating procedure
 
-**Current status: NO INDEPENDENT REVIEWS COMPLETED OR CLAIMED.** This protocol does not appoint reviewers or authorize release.
+**Scope-specific benchmark status:** No completed, authenticated independent benchmark reviews or adjudicated benchmark results are documented under this particular dataset evaluation procedure. This statement does not describe or negate separate GRI scholarly, institutional, or technical consultations and reviews. Those activities are governed by their own evidence, confidentiality, and disclosure authorization. This protocol does not appoint reviewers, establish endorsement, or authorize release.
 
 ## Rights-clearing gate
 A human data steward must inspect each source's terms and copyright, institutional teaching-case restrictions, interview consent, and publication permissions. Candidate metadata is **not** marked rights-cleared merely because a link is public. Do not ingest restricted Thunderbird course packets, student work, private interviews, screenshots, or personally identifiable driver data into the public dataset.
