@@ -224,6 +224,8 @@ For existing, lawfully held records, distinguish the observed outcome, contempor
 
 **Research status:** Source-qualified extension of the existing longitudinal Uber/Lyft algorithmic management study; no new project, driver-level quantitative finding, independent audit certification, or attribution of crash causation. Florida is the initial geographic scope, with Brevard and the South Florida counties distinguished rather than conflated. The study originated before GitHub publication; this date records an evidence update, not inception.
 
+**Subsequent official clarification:** Florida Executive Order 26-228 (November 4, 2026) amended the flooding emergency declaration to include Palm Beach County and reported more than 19 inches of rain within twelve hours in certain areas including Riviera Beach. This is an official reported weather observation, not an Uber/Lyft financial or casualty measurement: https://www.flgov.com/eog/sites/default/files/executive-orders/2026/EO%2026-228.pdf .
+
 ### Verified operational baseline
 
 1. **Florida October 31–November 2 flooding:** Florida Executive Order 26-227 documents heavy rain and consequential flooding, with flash flood warnings in Brevard, DeSoto, Hardee, Highlands, Indian River, Martin and St. Lucie, and potential effects on roadways, airports and other critical infrastructure. It does not itself quantify Uber/Lyft trips, driver losses, claims or deaths. Official order: https://www.flgov.com/eog/sites/default/files/executive-orders/2026/EO%2026-227.pdf .
