@@ -372,8 +372,17 @@ class Handler(BaseHTTPRequestHandler):
                 return self.send_json(200, assurance_snapshot(load("global_incidents.json")["records"]))
             if path == "/intelligence/global-incidents":
                 from global_incident_intelligence import snapshot
-                # No unsupported incident claims: curated records only.
-                return self.send_json(200, snapshot(load("global_incidents.json")["records"]))
+                # Allow explicit historical review without changing the default 30-day window.
+                windows = {"30": 30, "90": 90, "365": 365, "all": 36500}
+                selected = query.get("window", ["30"])
+                if len(selected) != 1 or selected[0] not in windows:
+                    return self.send_json(400, {"error": "unsupported_incident_window",
+                                                "allowed": list(windows)})
+                result = snapshot(load("global_incidents.json")["records"],
+                                  window_days=windows[selected[0]])
+                result["selected_window"] = selected[0]
+                result["historical_mode"] = selected[0] == "all"
+                return self.send_json(200, result)
             if path == "/events":
                 return self.send_json(200, load("events.json"))
             if path == "/policy-sources":
