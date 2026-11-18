@@ -12,6 +12,24 @@ class ExpansionTests(unittest.TestCase):
  def test_disallowed_source_never_invokes_fetch(self):
   x=collect(fetch=lambda _:self.fail("network request should be blocked"),sources=[{**SRC,"feed":"https://evil.example/feed","allowed_host":"example.org"}],now="fixed")
   self.assertEqual(x["sources"][0]["status"],"failed")
+ def test_public_fetch_allows_public_feed_when_robots_permits(self):
+  class Reply:
+   def __init__(self,url,data):self.url=url;self.data=data
+   def __enter__(self):return self
+   def __exit__(self,*args):return False
+   def read(self,n):return self.data[:n]
+  class Opener:
+   calls=[]
+   def open(self,request,timeout):
+    self.calls.append(request.full_url)
+    if request.full_url.endswith("/robots.txt"):
+     return Reply(request.full_url,b"User-agent: *\\nAllow: /\\n")
+    return Reply(request.full_url,b"<rss><channel></channel></rss>")
+  opener=Opener()
+  with patch("international_mobility_collector.build_opener",return_value=opener):
+   data=public_fetch(SRC["feed"],SRC)
+  self.assertEqual(data,b"<rss><channel></channel></rss>")
+  self.assertEqual(opener.calls,["https://example.org/robots.txt",SRC["feed"]])
  def test_public_fetch_respects_robots_disallow(self):
   class Reply:
    url="https://example.org/robots.txt"
