@@ -4,7 +4,9 @@ Publisher feed URLs are candidates, not independently certified official endpoin
 import argparse,hashlib,json,tempfile,os
 from datetime import datetime,timezone
 from pathlib import Path
-from urllib.request import Request,urlopen
+from urllib.request import Request,build_opener,HTTPRedirectHandler
+from urllib.error import HTTPError
+from urllib.robotparser import RobotFileParser
 from urllib.parse import urlparse
 from xml.etree import ElementTree as ET
 from html.parser import HTMLParser
@@ -63,19 +65,54 @@ def parse_official_page(data,source):
    "human_review_required":True,"publication_authorized":False}
  return list(rows.values())
 
+USER_AGENT = "GRI-Research-Intelligence/0.2"
+
+class NoRedirect(HTTPRedirectHandler):
+ def redirect_request(self, req, fp, code, msg, headers, newurl):
+  raise ValueError("publisher redirect requires manual approval")
+
+def approved_url(url, source):
+ u=urlparse(url)
+ expected=urlparse(source["feed"])
+ return (u.scheme=="https" and u.hostname==expected.hostname and
+         u.port in (None,443) and not u.username and not u.password and
+         (not source.get("allowed_host") or u.hostname==source["allowed_host"]))
+
+def public_fetch(url, source):
+ if not approved_url(url,source):
+  raise ValueError("source outside approved HTTPS publisher boundary")
+ opener=build_opener(NoRedirect())
+ origin=urlparse(url)
+ robots_url=f"{origin.scheme}://{origin.netloc}/robots.txt"
+ try:
+  with opener.open(Request(robots_url,headers={"User-Agent":USER_AGENT}),timeout=12) as response:
+   robots=response.read(200001)
+   if len(robots)>200000:raise ValueError("oversized robots policy")
+ except HTTPError as error:
+  if error.code!=404:raise
+  robots=b""  # An explicit 404 means no published robots restrictions.
+ policy=RobotFileParser()
+ policy.parse(robots.decode("utf-8","replace").splitlines())
+ if not policy.can_fetch(USER_AGENT,url):
+  raise ValueError("publisher robots policy disallows collection")
+ with opener.open(Request(url,headers={"User-Agent":USER_AGENT,"Accept":"application/rss+xml, application/atom+xml, application/xml, text/html"}),timeout=12) as response:
+  if response.url!=url:raise ValueError("unexpected source destination")
+  data=response.read(1000001)
+  if len(data)>1000000:raise ValueError("oversized publisher response")
+  return data
+
 def collect(fetch=None,sources=None,now=None):
  sources=sources if sources is not None else SOURCES
  if fetch is None:
-  def fetch(url):
-   with urlopen(Request(url,headers={"User-Agent":"GRI-Research-Intelligence/0.2","Accept":"application/rss+xml, application/atom+xml, application/xml"}),timeout=12) as r:
-    if urlparse(r.url).scheme!="https":raise ValueError("non HTTPS redirect")
-    data=r.read(1000000)
-    return data
+  fetch=lambda url,source:public_fetch(url,source)
+ else:
+  supplied=fetch
+  fetch=lambda url,source:supplied(url)
  queue={};health=[]
  for src in sources:
   try:
-   if urlparse(src["feed"]).scheme!="https":raise ValueError("source must use HTTPS")
-   rows=(parse_official_page(fetch(src["feed"]),src) if src.get("mode")=="official_html" else parse_feed(fetch(src["feed"]),src))
+   if not approved_url(src["feed"],src):raise ValueError("source outside approved publisher")
+   rows=(parse_official_page(fetch(src["feed"],src),src) if src.get("mode")=="official_html" else parse_feed(fetch(src["feed"],src),src))
    for row in rows[:30]:queue[row["id"]]=row
    health.append({"source_id":src["id"],"status":"fetched" if rows else "empty_unvalidated","items":len(rows),"method":src.get("mode","rss_atom")})
   except (OSError,ValueError,ET.ParseError,KeyError) as e:
