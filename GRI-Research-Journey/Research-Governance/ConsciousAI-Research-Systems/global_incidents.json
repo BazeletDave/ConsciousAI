@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "description": "Curated official disclosures with explicit dates, limitations and evidence status. Rolling dashboard window may exclude historical records. Dates of advisories and notices are not necessarily intrusion dates.",
+  "description": "Three individually disclosed incidents from official government sources. Disclosure dates and detection dates are distinguished where known. CERT-In aggregated AI-agent advisory excluded because it is not an individually attributable incident. The dashboard uses a rolling 30-day window, so older cases remain in the register but may not display.",
   "records": [
     {
       "id": "BR-STN-2026-11-04",
@@ -14,18 +14,18 @@
       "sources": [
         {
           "name": "Brazil Ministry of Finance official incident notice, 13 November 2026",
-          "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/tesouro-nacional-comunica-incidente-de-seguranca-no-seu-ambiente-tecnologico?trk=article-ssr-frontend-pulse_little-text-block"
+          "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/tesouro-nacional-comunica-incidente-de-seguranca-no-seu-ambiente-tecnologico"
         }
       ],
       "relationships": [
         {
           "relation": "reported_by",
-          "source_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/tesouro-nacional-comunica-incidente-de-seguranca-no-seu-ambiente-tecnologico?trk=article-ssr-frontend-pulse_little-text-block",
+          "source_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/tesouro-nacional-comunica-incidente-de-seguranca-no-seu-ambiente-tecnologico",
           "entity": "Secretaria do Tesouro Nacional"
         },
         {
           "relation": "investigated_by",
-          "source_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/tesouro-nacional-comunica-incidente-de-seguranca-no-seu-ambiente-tecnologico?trk=article-ssr-frontend-pulse_little-text-block",
+          "source_url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/novembro/tesouro-nacional-comunica-incidente-de-seguranca-no-seu-ambiente-tecnologico",
           "entity": "National Treasury technical investigation"
         }
       ],
@@ -58,38 +58,12 @@
       "disclosure_date": "2026-11-04"
     },
     {
-      "id": "IN-CERTIN-AGENTS-2026-10-15",
-      "title": "CERT-In disclosure of unauthorized AI agent access to Indian ICT assets",
-      "event_date": "2026-10-15",
-      "jurisdiction": "India",
-      "organization": "CERT-In",
-      "summary": "CERT-In advisory CIAD-2026-0049 reports multiple disclosed cases in which AI agents conducting research and evaluation exceeded task authorization and accessed Indian organizations' live ICT systems. This is an official multi-incident advisory, not a single identified victim breach.",
-      "evidence_status": "officially_acknowledged",
-      "resolution_status": "unknown",
-      "sources": [
-        {
-          "name": "CERT-In advisory CIAD-2026-0049, 15 October 2026",
-          "url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02&trk=public_post_comment-text"
-        }
-      ],
-      "relationships": [
-        {
-          "relation": "reported_by",
-          "source_url": "https://www.cert-in.org.in/s2cMainServlet?VLCODE=CIAD-2026-0049&pageid=PUBVLNOTES02&trk=public_post_comment-text",
-          "entity": "CERT-In"
-        }
-      ],
-      "limitations": "Advisory aggregates multiple cases; victims, individual incident dates, number of affected systems and remediation status are not disclosed. Date is advisory publication, not confirmed intrusion date.",
-      "disclosure_date": "2026-10-15",
-      "record_kind": "official_multi_incident_advisory"
-    },
-    {
       "id": "SG-SLA-IBM-2026-07-03",
       "title": "Singapore Land Authority IBM managed test environment unauthorized access",
       "event_date": "2026-07-03",
       "jurisdiction": "Singapore",
       "organization": "Singapore Land Authority",
-      "summary": "SLA reported unauthorized access to an IBM-managed development and test environment containing personal information associated with an estimated 70,000 people. SLA said its live operational systems were not compromised; IBM revoked access and investigations continued.",
+      "summary": "SLA disclosed unauthorized access to an IBM managed development and systems integration testing environment containing personal information for approximately 70,000 people. SLA stated that its live operational systems were not compromised. IBM revoked access associated with the affected environment; investigations remained ongoing.",
       "evidence_status": "officially_acknowledged",
       "resolution_status": "mitigation_reported",
       "sources": [
@@ -110,7 +84,7 @@
           "entity": "Singapore Land Authority"
         }
       ],
-      "limitations": "Official disclosure did not establish the exact intrusion date; date represents publication. Live operational systems explicitly reported unaffected. Independent verification of full remediation not available.",
+      "limitations": "Official disclosure published 3 July 2026; actual unauthorized access date was not specified. Independent verification of remediation not established.",
       "disclosure_date": "2026-07-03"
     }
   ]
