@@ -1,5 +1,7 @@
 """Regression tests for the existing GRI international incident intelligence extension."""
 import unittest
+import json
+from pathlib import Path
 from datetime import date
 from global_incident_intelligence import snapshot, validate, assurance_snapshot
 
@@ -23,6 +25,16 @@ class InternationalIntelligenceTests(unittest.TestCase):
         result = assurance_snapshot([self.sample()], date(2026, 11, 18))
         gaps = result["evidence_review_queue"][0]["gaps"]
         self.assertIn("remediation_not_independently_verified", gaps)
+
+    def test_curated_records_have_valid_evidence_metadata(self):
+        registry = json.loads((Path(__file__).resolve().parent / "global_incidents.json").read_text(encoding="utf-8"))
+        self.assertGreaterEqual(len(registry["records"]), 3)
+        for record in registry["records"]:
+            with self.subTest(record=record["id"]):
+                self.assertEqual(validate(record), [])
+                self.assertEqual(record["evidence_status"], "officially_acknowledged")
+                self.assertTrue(record.get("limitations"))
+                self.assertTrue(record.get("disclosure_date"))
 
     def test_valid_synthetic_record(self):
         self.assertEqual(validate(self.sample()), [])
