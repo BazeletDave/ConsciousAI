@@ -1,23 +1,6 @@
 {
-  "generated_at": "2026-11-17T15:58:31.523948+00:00",
+  "generated_at": "2026-11-18T00:57:13.081470+00:00",
   "records": [
-    {
-      "id": "WAYMO-SAFETY",
-      "source_id": "WAYMO-SAFETY",
-      "publisher": "Waymo",
-      "title": "Safety Impact",
-      "source_url": "https://www.waymo.com/safety/impact/",
-      "country_codes": [
-        "USA"
-      ],
-      "content_sha256": "ab7a3680da290de67d07aeaa385a522646fc7bf4f93f62b9a62404e8e46f896a",
-      "published_at": null,
-      "source_kind": "company_self_report",
-      "configured_track": "road_autonomy",
-      "verification_status": "publisher_page_observation_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
     {
       "id": "ZOOX-SAFETY",
       "source_id": "ZOOX-SAFETY",
@@ -44,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "89c274a1acd1ecc705b9ebd2f9fa22be7a76c3556832835365f8915b0ba19519",
+      "content_sha256": "0c6b86f662d3750656f3c58baef2cd0e2b9876399471472e3bf634e733300ebe",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -61,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "2b8af59f5b9c7c77b82c72afc02f02728cd1dc4af2b3cf200a97095221c792cc",
+      "content_sha256": "f82d267d29ad766239a5090acd7c629b73c0b6ecc3a744c4fe71e3f781ec9b64",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -78,7 +61,7 @@
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "516fac54abbe29a8c178440cbd65f8977426759cf3811a0a95bff538b4c1de6e",
+      "content_sha256": "308854769561de1aa51e7cff74e26bccfc9e66a2076072d95bbbcd109b1c4768",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -90,8 +73,8 @@
   "sources": [
     {
       "source_id": "WAYMO-SAFETY",
-      "status": "fetched",
-      "bytes": 393908
+      "status": "failed",
+      "error_type": "ValueError"
     },
     {
       "source_id": "ZOOX-SAFETY",
@@ -101,7 +84,7 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110784
+      "bytes": 110785
     },
     {
       "source_id": "NHTSA-SGO",
@@ -111,7 +94,7 @@
     {
       "source_id": "BRA-ANAC-AAM",
       "status": "fetched",
-      "bytes": 330093
+      "bytes": 321537
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
