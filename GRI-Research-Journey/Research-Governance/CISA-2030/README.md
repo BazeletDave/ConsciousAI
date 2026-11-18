@@ -63,3 +63,12 @@ This Markdown document belongs to the existing public unified research corpus on
 3. Create schema-validated source/claim records and synthetic fixtures.
 4. Test existing evidence-pipeline compatibility and retrieval indexing.
 5. Submit dashboard integration separately after validation.
+
+
+## November 18, 2026 | Agentic cyber threats and outage opportunism: source-qualified observation
+
+**Microsoft outage secondary threat:** Microsoft Security Research documented November 13 phishing lures referencing the November 12 Microsoft 365 service disruption, impersonating service-health notifications and urging message restoration. Microsoft's reviewed evidence supports a likely credential-phishing objective, not confirmed credential capture or post-compromise. The phishing campaign did not establish the cause of the service outage. Source: https://www.microsoft.com/en-us/security/blog/2026/11/16/high-volume-phishing-campaign-uses-microsoft-365-outage-lures-target-multiple-industry-sectors-2/ .
+
+**Autonomous adversarial workflows:** Google Threat Intelligence Group and Mandiant reported multi-agent frameworks and automated patch analysis that compress vulnerability exploitation timelines. Russian-language code indicators do not establish state attribution; the claim of complete end-to-end autonomy must be assessed by the specific observed stages and source evidence. Primary source: https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold .
+
+**Existing GRI assurance lens:** Evaluate source provenance, incident versus attack attribution, human decision authority, monitoring and escalation latency, layered defenses, continuity, and recovery. These are research considerations, not tested defenses or an independent reproduction. Cross-reference the [Integrated Research Journey](../../Integrated-Research-Journey/README.md#november-1618-2026--drone-legitimacy-outage-phishing-and-autonomous-offensive-ai). No change to deployed security controls, frozen test baselines, or existing program scope.
