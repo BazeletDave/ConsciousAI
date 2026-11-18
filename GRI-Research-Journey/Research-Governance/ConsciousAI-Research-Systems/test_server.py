@@ -28,6 +28,11 @@ class ResearchServiceTests(unittest.TestCase):
         with urlopen(req, timeout=3) as res:
             return json.load(res)
 
+    def test_global_incident_assurance_endpoint(self):
+        result = self.fetch("/intelligence/global-incidents/assurance")
+        self.assertEqual(result["country_coverage"]["India"]["coverage_status"], "source_discovery_only")
+        self.assertFalse(result["country_coverage"]["Costa Rica"]["verified_source_polling"])
+
     def test_global_incident_endpoint_is_read_only_and_transparent(self):
         response = self.fetch("/intelligence/global-incidents")
         self.assertEqual(response["window_days"], 30)
