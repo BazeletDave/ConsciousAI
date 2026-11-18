@@ -676,3 +676,49 @@ The February 7, 2024 joint CISA/NSA/FBI advisory documents Volt Typhoon compromi
 6. **Local incident attribution:** The Littleton utility case and its dates, Guam incident details, and device-specific narratives require original incident documents before treating them as one composite documented attack sequence. Do not attribute all cases' details to AA24-038A.
 
 **Revised causal model status:** Mechanisms documented for supplier development and cyber intrusions; counterfactuals proposed; causal treatment effects, confidence intervals, risk-reduction percentage and independent replication **not established**. Next gate: reconstruct source-level definitions and a machine-readable evidence table, then secure comparable panel/incident data and predefine the estimand and assumptions.
+
+## November 18, 2026 | Phase-two adversarial research: the integration and governance counterargument
+
+**Context:** GRI's author describes a multi-phase academic project, with final work anticipated in December 2026. This is an independent research synthesis and work-in-progress; do not publish confidential course identifiers, unpublished classroom materials, private contacts or imply university sponsorship.
+
+### Strongest counterargument
+
+**Integration may improve resilience rather than undermine it.** Integrated systems can improve sensing, routing, early warning, spare-capacity coordination and restoration. The model must identify conditions under which concentration and opacity outweigh those benefits, rather than assuming that increasing autonomy causes failure.
+
+**Refined estimand question:** For a specified service, population, jurisdiction and time period, how does a defined integration or governance intervention affect continuity, recovery and human override capability relative to a credible alternative? 'AI deployment' alone is not a consistent treatment across sectors.
+
+### Rival hypotheses and discriminating tests
+
+1. **Industrial capability:** Apple engineering and capital accelerated supplier learning (H1); industrial policy, domestic R&D, migration, other multinationals and pre-existing supplier quality explain much of the growth (H0/rival). Require firm-level exposure, timing, outcomes and negative controls; avoid monocausal claims about Shenzhen.
+2. **Network resilience:** Shared digital infrastructure creates common-mode failure risk (H1); multimodal coordination and independent redundancy reduce disruptions (rival). Test service-level topology, backup power, offline operation, correlated outage and recovery.
+3. **Upgrade governance:** Rapid model/version changes can outpace audit and human contestability (H1); secure updates can improve security, observability and safety (rival). Compare versioned permission maps, incident rates, rollback tests, override latency and documented release controls.
+4. **Black-box authority:** Proprietary decision systems can impair accountability (H1); appropriately logged automated decisions may be more auditable than informal human discretion (rival). Measure trace reconstruction, appeal/override success, independent reproduction and explanation validity.
+5. **Global coordination:** Cross-border interdependence leaves enforcement gaps (H1); sectoral domestic law, interoperable standards and mutual recognition may close meaningful gaps without a global regulator (rival). Compare legal authority, reporting reciprocity, evidence exchange, audit and enforcement outcomes.
+
+### U.S. industrial-policy comparison and Nvidia
+
+The July 23, 2025 U.S. *America's AI Action Plan* explicitly addresses innovation, domestic infrastructure and international diplomacy/security. Executive Order 14320 establishes an American AI Exports Program for full-stack hardware, cloud, models, security and sector applications. This is primary evidence **against** a simplistic 'U.S. software-only' contrast, not evidence that the policy achieved its objectives. Primary documents: https://www.whitehouse.gov/releases/2025/07/white-house-unveils-americas-ai-action-plan/ ; https://www.whitehouse.gov/presidential-actions/2025/07/promoting-the-export-of-the-american-ai-technology-stack/ .
+
+Nvidia/Jensen Huang is a relevant actor in compute supply, export policy and cross-border dependency. Document dated company filings, Commerce licensing decisions and partnership terms before assigning causal outcomes. Public meetings and statements do not prove implementation or investment effects. Compare domestic capacity building with export-induced supplier learning, strategic dependence and ally access; avoid treating the Apple-China history as a deterministic forecast.
+
+### Global coordination, cyber threats and version change
+
+The [Digital Bretton Woods working paper](Digital-Bretton-Woods/2026-10-22-digital-bretton-woods-institutional-recovery.md) already distinguishes international coordination from a single world regulator. NIST AI RMF's GOVERN, MAP, MEASURE and MANAGE functions support continuous risk management, not binding international enforcement: https://airc.nist.gov/airmf-resources/airmf/5-sec-core/ . Distinguish global interoperability of technical standards from mutual legal recognition, incident evidence sharing, sanctions and restoration authority.
+
+CISA's February 7, 2024 Volt Typhoon advisory documents long-term intrusions and living-off-the-land methods; it does **not** show that routine defensive AI tests caused air-traffic disruption, that autonomous bots attack all networks daily, or that particular aviation outages were cyber-caused. Treat these as separately testable hypotheses and avoid conflating cybersecurity testing, criminal intrusion, state pre-positioning and ordinary service failure: https://content.govdelivery.com/accounts/USDHSCISA/bulletins/389465e .
+
+**Version discontinuity protocol:** For every material model or platform upgrade, record prior and new versions, decision rights, dependency changes, deployment timestamps, authorized test outcomes, reversibility, security changes and user-facing consequences. Do not assume model upgrades always degrade accountability or always improve security.
+
+### Academic phase gates
+
+**Phase 1 — foundation (existing):** Scholarly framework, historical cases, research lineage and defined terms.
+
+**Phase 2 — competing explanations (current):** Formalize rival hypotheses, causal diagrams, source quality, case comparability and falsifiers. This phase is an analytical milestone, not proof of effects.
+
+**Phase 3 — evidence and identification:** Assemble permissioned operational panels, predefine treatment/outcomes, test comparison validity and collect counterevidence. Do not infer unobserved facts from contacts or meetings.
+
+**Phase 4 — estimation and robustness:** Fit only identified estimands; report uncertainty, sensitivity, model versions and negative findings. Keep scenarios separate from empirical estimates.
+
+**Phase 5 — synthesis and review:** Integrate supported results with the AI Paradox, audit provenance, preserve confidentiality, obtain independent methodological critique, and distinguish GRI findings from university endorsement.
+
+**Research boundary:** This is an expansion of the existing ConsciousAI research architecture, not a new standalone research project or a claim of independent validation.
