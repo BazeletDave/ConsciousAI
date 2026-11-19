@@ -1,13 +1,39 @@
 {
   "schema_version": "1.0",
   "mode": "automated_official_metadata_triage",
-  "generated_at": "2026-11-19T02:33:32.815265+00:00",
-  "source_last_collection_at": "2026-11-19T02:33:32.748926+00:00",
-  "source_registry_sha256": "4083d1ea7f0006c1ef53c51846adc8921a20213599fcb5f11e8f194724011bc0",
-  "source_records": 157,
-  "matched_records": 16,
-  "human_review_required": 16,
+  "generated_at": "2026-11-19T11:37:42.286419+00:00",
+  "source_last_collection_at": "2026-11-19T11:37:42.222594+00:00",
+  "source_registry_sha256": "5798aa19f949be33e6addfeb9d4f533fab3223f50723f3856dcffbaada14b165",
+  "source_records": 165,
+  "matched_records": 18,
+  "human_review_required": 18,
   "queue": [
+    {
+      "id": "US-FR-2026-23562",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23562/information-collection-being-reviewed-by-the-federal-communications-commission-delegated-authority",
+      "title": "Information Collection Being Reviewed by the Federal Communications Commission Delegated Authority",
+      "publication_date": "2026-11-19",
+      "topics": [
+        "automated"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "US-FR-2026-23539",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23539/policies-on-the-use-of-generative-super-intelligence-in-agency-adjudication-request-for-comments",
+      "title": "Policies on the Use of Generative Super Intelligence in Agency Adjudication; Request for Comments",
+      "publication_date": "2026-11-19",
+      "topics": [
+        "artificial intelligence"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "US-FR-2026-22799",
       "source_url": "https://www.federalregister.gov/documents/2026/11/09/2026-22799/notice-of-public-meetings-of-the-maryland-advisory-committee-to-the-us-commission-on-civil-rights",
