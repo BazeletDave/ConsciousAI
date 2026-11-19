@@ -89,3 +89,9 @@ A bounded evaluation could examine: (1) factual accuracy and citation quality of
 * This extension creates no new research program, validated outcome, institutional affiliation or independent assurance claim.
 
 **Crosswalk:** [Integrated Research Journey](../../Integrated-Research-Journey/README.md) · [GRI Master Research Portfolio](../../Grand-Research-Institute-Research-Portfolio/README.md) · [Institutional AI governance and assurance](../../institutional-ai-governance-assurance/README.md).
+
+### November 19 closing clarification | Information responsibility beyond academic integrity
+
+Guthrie's closing remarks emphasized that responsible AI use is not limited to preventing cheating or unauthorized AI authorship. The educational objective is responsible handling of information: checking factual claims against independent sources, distinguishing evidence from inference, identifying uncertainty and hallucination, and retaining human responsibility for recommendations. This interpretation is grounded in the attendee-provided presentation transcript and does not imply measured learning gains.
+
+The subsequent AI Hatchery introduction offers a separate, preliminary example of applied client-oriented AI education; no verified project outcomes were supplied. It is not treated as part of Guthrie's own teaching intervention or used to expand the scope of this Apple and China leadership case.
