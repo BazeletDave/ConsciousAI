@@ -58,3 +58,34 @@ Retain the distinction between a reported historical mechanism and a tested cont
 The [global infrastructure comparison](../../Integrated-Research-Journey/2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md#november-5-2026--site-selection-cloud-ecosystems-and-international-platform-dependence) adds cloud operating arrangements and international marketplace structures. Brand identity, corporate domicile, customer market, fabrication site, and data control are different variables. No Apple ownership of the other discussed platforms or common technical architecture is inferred.
 
 For the AI Paradox, the prospective question is whether organizational learning and access to technology produce durable institutional capacity or new dependencies, and under what conditions. Record local skills, supplier concentration, exercised audit and exit rights, correction time, security outcomes, and economic value capture separately. This extends the existing case; it produces no new causal estimate or validated semiconductor benchmark.
+
+
+## November 19, 2026 | Doug Guthrie, executive learning and responsible AI in management education
+
+**Evidence classification:** contemporaneous attendee-provided transcript of faculty remarks; qualitative classroom practice account, not independently evaluated learning outcomes. The speaker is identified as Dr. Doug Guthrie. This entry records research observations, not an endorsement or formal collaboration by Guthrie, Thunderbird, ASU, Apple or other named institutions.
+
+### Institutional continuity
+
+Guthrie's documented service as a senior director at Apple in Shanghai from 2014 to 2019, leading Apple University leadership and organizational development initiatives, provides historical context for the connection between executive education, China strategy and managerial capability. The documented role should not be restated as personal adviser or direct report to Tim Cook without role-specific corroboration. The existing documentary sources above support his Apple University position; the November 19 teaching observations derive from the attendee transcript.
+
+### Reported teaching intervention
+
+Guthrie described a transition from emphasizing the academic integrity risks of generative AI to teaching its bounded use as a research aid. He retains a distinction between using AI for research and delegating authorship of student papers to a model. In his Asia political economy classes, students work in assigned teams on a time-constrained current affairs or geopolitical management prompt: approximately five minutes for AI-assisted inquiry, followed by a few minutes of team deliberation and executive-style recommendations. The instructor subsequently compares answers, challenges assumptions, and asks students to contribute their own analysis. Country-specific perspectives, including China, Taiwan, Japan and South Korea, provide comparative managerial contexts.
+
+The claimed instructional purpose is to develop teamwork, source evaluation, executive communication and decision judgment under time pressure, rather than reward uncritical reproduction of model outputs. Guthrie reported encouraging students to compare models and information sources and to challenge inaccurate answers using domain knowledge. A participant described hallucinations encountered during AI review of a medical research manuscript; Guthrie used this example to reinforce skepticism and verification. Independent source checking remains necessary because cross-model agreement alone cannot establish accuracy.
+
+### AI Paradox analytical extension
+
+**Working proposition, not empirical finding:** greater speed and breadth of AI-mediated intelligence gathering can coexist with weaker judgment if institutions fail to preserve source provenance, human challenge, authorship boundaries and decision accountability. Conversely, structured, instructor-supervised exercises may strengthen critical evaluation and collaborative managerial reasoning. These are competing hypotheses requiring assessment, not demonstrated outcomes.
+
+A bounded evaluation could examine: (1) factual accuracy and citation quality of initial AI-assisted outputs; (2) the proportion of claims verified against primary sources; (3) independent reasoning evident in final recommendations; (4) clarity of responsibility for consequential claims; and (5) whether group members contribute meaningfully. A comparison with non-AI-assisted exercises, using a common rubric and consent-appropriate anonymization, would be required before inferring learning gains.
+
+### Evidentiary guardrails
+
+* The classroom anecdotes are attributed to the November 19, 2026 attendee-provided transcript and are not a verbatim authenticated institutional record.
+* References during the talk to a purported Jensen Huang ouster, an APEC meeting involving named heads of state, and espionage allegations concerning an individual are **unverified examples**, not facts adopted by GRI. They are excluded from factual case conclusions.
+* A medical researcher's reported experience with hallucinations is a participant account, not a documented systematic evaluation of clinical AI.
+* No student identities, graded submissions, confidential classroom materials, or proprietary Apple information are incorporated.
+* This extension creates no new research program, validated outcome, institutional affiliation or independent assurance claim.
+
+**Crosswalk:** [Integrated Research Journey](../../Integrated-Research-Journey/README.md) · [GRI Master Research Portfolio](../../Grand-Research-Institute-Research-Portfolio/README.md) · [Institutional AI governance and assurance](../../institutional-ai-governance-assurance/README.md).
