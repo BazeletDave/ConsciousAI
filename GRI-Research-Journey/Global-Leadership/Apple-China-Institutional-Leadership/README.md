@@ -204,3 +204,26 @@ The November 19 faculty meeting is **attendee-reported qualitative context**. Re
 **Next evidence slots, not invented observations:** Apple supply-chain concentration and capital commitments; TSMC reported annual capital expenditure and geographic capacity; Nvidia cash flow and customer concentration; hyperscaler AI-related capex with consistent definitions; Anthropic operating revenue and cash usage reconciled to its prospectus; government incentive contracts and their contingencies. Populate only from dated primary disclosures and preserve reporting periods.
 
 **Institutional interpretation:** The verified figures demonstrate substantial realized semiconductor sales, advanced fabrication activity and long-duration AI compute commitments. They do **not** alone establish overinvestment, unsustainable economics, coordinated geopolitical behavior, or a governance failure. Those are hypotheses for comparative testing under P7–P10.
+
+
+### November 19, 2026 | Cash generation versus capital intensity: primary-source cross-check
+
+The distinction between **supplier cash generation** and **customer infrastructure commitments** is essential to P10. The following are directly checkable values in the issuer releases, with periods and accounting conventions preserved:
+
+| Measure | Nvidia, Q3 FY2027 (US$ billions) | TSMC, Q3 calendar 2026 | Interpretation |
+| --- | ---: | --- | --- |
+| Revenue | 115.844 | NT$1,494.24 billion (US$46.72 billion reported equivalent) | Realized sales, not customer return on AI investment |
+| Net income | 65.287 | NT$763.06 billion | Accounting earnings; different accounting regimes |
+| Operating cash flow | 48.253 | Not extracted from the two-page release | Nvidia cash from operations is below its quarterly net income; do not infer equivalent TSMC cash flow |
+| Free cash flow | 43.777 | Not extracted from the two-page release | Nvidia's company-defined non-GAAP FCF, after capital purchases and related principal payments |
+| Purchases of property, equipment and intangibles | 4.422 | Not extracted from the two-page release | Nvidia's supplier-level purchases do not capture its customers' data center capex or TSMC foundry capex |
+| Gross margin | 74.8% GAAP | 66.4% TIFRS | Profitable suppliers; margins alone do not establish downstream returns |
+| Operating margin | 66.9% calculated (77.520/115.844) | 58.7% reported | Different issuer periods and reporting frameworks |
+
+**Reconciliation:** Nvidia reported Q3 FY2027 operating cash flow of US$48.253 billion, property/equipment/intangible purchases of US$4.422 billion, and associated principal payments of US$0.054 billion. Its disclosed free cash flow is **48.253 − 4.422 − 0.054 = US$43.777 billion**, a **37.79% free cash flow margin** relative to US$115.844 billion revenue. The operating margin is **77.520 / 115.844 = 66.92%**. Calculations use unrounded issuer figures and are descriptive, not investment forecasts.
+
+**Sources:** [Nvidia Q3 FY2027 financial results and cash flow reconciliation, November 17, 2026](https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-Financial-Results-for-Third-Quarter-Fiscal-2027/); [TSMC Q3 2026 two-page earnings release, October 15, 2026](https://investor.tsmc.com/english/encrypt/files/encrypt_file/reports/2026-10/526b65af7305df2dde6b9ece6812b1fdf1e49f9b/3Q26%20EarningsRelease.pdf).
+
+**Source-access qualification:** The Anthropic SEC prospectus link cited in the preceding evidence table was not independently retrievable during this cross-check. Its figures remain *provisionally attributed to that filing*, pending direct document access and line-level confirmation; they must not be represented as independently reverified in this pass. Do not use those commitments in derived risk ratios until the underlying filing is inspected.
+
+**Governance implication:** Strong current cash generation at a chip designer and high profitability at a foundry can coexist with substantial future financial obligations among compute buyers. The AI Paradox hypothesis concerns the distribution of returns, exposure, and decision authority across counterparties, not an unsupported claim that the entire ecosystem is unprofitable.
