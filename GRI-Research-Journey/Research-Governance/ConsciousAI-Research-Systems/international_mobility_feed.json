@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-18T11:40:14.620645+00:00",
+  "generated_at": "2026-11-19T02:33:35.904320+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -17,9 +17,8 @@
     },
     {
       "source_id": "NHTSA",
-      "status": "fetched",
-      "items": 10,
-      "method": "official_html"
+      "status": "failed",
+      "error_type": "HTTPError"
     },
     {
       "source_id": "UBER-ENGINEERING",
@@ -29,6 +28,90 @@
     }
   ],
   "queue": [
+    {
+      "id": "08fa7d19dc439a93f22c",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Commissioner Hoekstra during Ministerial High-Level event on the launch of the Second Global Stocktake at COP31",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2510",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "ea4cedac08f228237ed0",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Message by Commissioner Dombrovskis to the Eurostat General Assembly",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2507",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "65ad35a824e9a2638516",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Keynote speech by Commissioner Kubilius at the European Business Summit",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2506",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "73fcc10a9921b20c6cf9",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Press remarks by Commissioner Zaharieva on the Advanced Materials for Europe Initiative",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2505",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "41e7becc370850808960",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Commissioner Hoekstra at EU press conference at COP31",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2502",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "d75008501b08419c2d5b",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Opening remarks by Commissioner Hansen at the EU-Mexico Agri-food Trade Relations Business Forum in Mexico City",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2501",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "bd38f193f0e9f7f7a59d",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission sets up new EU Sanctions Office and appoints new EU Sanctions Envoy",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2499",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "0c72e8bbdbc1690a794f",
       "source_id": "EU-COMMISSION-NEWS",
@@ -42,6 +125,18 @@
       "publication_authorized": false
     },
     {
+      "id": "7635308c2aa3724099af",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 18 / 11 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2497",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "30b4b955070679da8cd1",
       "source_id": "EU-COMMISSION-NEWS",
       "publisher": "European Commission Press Corner",
@@ -49,102 +144,6 @@
       "category": "international_regulatory",
       "title": "Remarks by Commissioner Kubilius on the Instrument for Coordinated Support to Ukraine",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2495",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "32470b2004db80a9e721",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Remarks by Commissioners Dombrovskis and Kubilius on an Instrument for Coordinated Support to Ukraine",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2493",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "46480be56febc8852b7c",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Press point by President von der Leyen together with Commissioners Dombrovskis and Kubilius on an Instrument for Coordinated Support to Ukraine",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2487",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "e0c2f3c121e7d481671a",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Video message by President von der Leyen at the European Cancer Summit",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2485",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "d7c3877709076f1b8955",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission welcomes political agreement on faster and simpler permitting for grids, clean energy projects",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2450",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "988707c42f9661fcc0b4",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission proposes \u20ac45 billion in additional financial support for Ukraine in 2027",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2454",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "cfc24925b58e20120c03",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Questions and answers on new financial support package for Ukraine for 2027",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2455",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "aa629f52b4c205d3c871",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Speech by Commissioner Dombrovskis at German Digital Ministers' Conference",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2484",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "4595e1f6fa92e50fd31a",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Speech by Commissioner Lahbib at the EIGE Gender Equality Forum",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2483",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -386,146 +385,6 @@
       "title": "Accredited official statistics: Transport Statistics Great Britain: 2027",
       "source_url": "https://www.gov.uk/government/statistics/announcements/transport-statistics-great-britain-2027",
       "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "6213992cf0d0518eb29b",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Delivers More Than $200 Million to Expand Lifesaving Prehospital Blood Transfusions for Crash Patients Across U.S.",
-      "source_url": "https://www.nhtsa.gov/press-releases/200-million-expand-lifesaving-prehospital-blood-transfusions",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "3a2751f2a05d507260f2",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: Urgent Park Outside Recall Issued for Nearly 721K BMW Vehicles",
-      "source_url": "https://www.nhtsa.gov/press-releases/bmw-water-pump-recall-fire-risk",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "45f07baf92191ec201a7",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Reports Decline in Traffic Fatalities in First Half of 2026",
-      "source_url": "https://www.nhtsa.gov/press-releases/decline-traffic-fatalities-first-half-2026",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "f86f2b4d94bf99f0b2a0",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department to Invest $1.5 Million to Help States Alert Drivers About Vehicle Recalls",
-      "source_url": "https://www.nhtsa.gov/press-releases/investing-improving-vehicle-recall-rates",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "0c860ca36c35cdca53f2",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: Does Your Vehicle Have an Open Recall?",
-      "source_url": "https://www.nhtsa.gov/press-releases/consumer-alert-does-your-vehicle-have-open-recall",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "2ecaf2bc49cf8f6bee35",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Moves to Modernize Tire Safety Standards, Deliver Safer American Roads",
-      "source_url": "https://www.nhtsa.gov/press-releases/move-to-modernize-tire-safety-standards",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "626788d4564c8798185b",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Makes Commonsense Updates to Vehicle Lighting Standards for AVs",
-      "source_url": "https://www.nhtsa.gov/press-releases/vehicle-lighting-updates-automated-vehicles",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "d7bc5a25d8de3c596c9f",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Releases Model Year 2027 Vehicle Testing List for 5-Star Safety Ratings",
-      "source_url": "https://www.nhtsa.gov/press-releases/model-year-2027-vehicle-testing-5-star-safety-ratings",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "404881f633bbdf3e6c7d",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Trump\u2019s Transportation Department Moves to Modernize Outdated Vehicle Lighting Standards, Make America\u2019s Roads Safer",
-      "source_url": "https://www.nhtsa.gov/press-releases/modernize-outdated-vehicle-lighting-standards",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "e26a9d2e38f7b7cf4e6a",
-      "source_id": "NHTSA",
-      "publisher": "NHTSA",
-      "jurisdiction": "US",
-      "category": "mobility_industry",
-      "title": "Consumer Alert: NHTSA Reminds Parents the Right Car Seat Saves Lives",
-      "source_url": "https://www.nhtsa.gov/press-releases/child-passenger-safety-week-car-seat-guide",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.nhtsa.gov/press-releases",
       "human_review_required": true,
       "publication_authorized": false
     },
@@ -866,6 +725,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 64,
+  "review_required": 54,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
