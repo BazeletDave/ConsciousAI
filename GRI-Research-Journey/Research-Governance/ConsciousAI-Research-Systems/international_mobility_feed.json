@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-19T11:37:45.092119+00:00",
+  "generated_at": "2026-11-19T20:35:34.767286+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -28,6 +28,54 @@
     }
   ],
   "queue": [
+    {
+      "id": "de124e70301f1f711dc6",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement on the incident at today's Cancer Summit",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2528",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "48f429a46ca8b81c75e1",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Closing remarks by Commissioner Albuquerque at the high level conference on financial literacy: beyond numbers",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2527",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "36805ebd70356ef186bb",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Opening remarks by Commissioner Albuquerque at the high level conference on financial literacy: beyond numbers",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2526",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "f40091ad1f3895879927",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission greenlights the Netherlands' fifth and final payment request for \u20ac1.7 billion under NextGenerationEU",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2523",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "f3e1cf2bd106bb17295a",
       "source_id": "EU-COMMISSION-NEWS",
@@ -101,49 +149,13 @@
       "publication_authorized": false
     },
     {
-      "id": "127d77d3fa99fd4a0db4",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "0e56e30ad9fcbe707345",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Speech by President von der Leyen at the EU-Jordan Investment Conference",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2509",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "274e5c3c6e20dd982bfd",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission decides to refer Greece to the Court of Justice of the European Union for the non-implementation of individual aircraft identification in the field of civil aviation",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2427",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "8c3f9f3d5524acdcb8a5",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Almost \u20ac24 billion mobilised and 614 projects awarded for their support to critical technologies in Europe, according to Commission report",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2356",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "ed5129e63221b1557e65",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission decides to refer Austria to the Court of Justice of the European Union for incorrectly applying the European arrest warrant",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2372",
+      "title": "Research: Evaluating the feasibility of the freight innovation fund",
+      "source_url": "https://www.gov.uk/government/publications/evaluating-the-feasibility-of-the-freight-innovation-fund",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -372,18 +384,6 @@
       "category": "international_regulatory",
       "title": "Accredited official statistics: Transport Statistics Great Britain: 2026",
       "source_url": "https://www.gov.uk/government/statistics/announcements/transport-statistics-great-britain-2026",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "8cf21a749f0e2b0d3233",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Accredited official statistics: Port freight quarterly statistics: July to September 2026",
-      "source_url": "https://www.gov.uk/government/statistics/announcements/port-freight-quarterly-statistics-july-to-september-2026",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false

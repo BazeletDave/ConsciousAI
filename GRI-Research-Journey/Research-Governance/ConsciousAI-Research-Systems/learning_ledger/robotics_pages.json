@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T11:38:00.956700+00:00",
+  "generated_at": "2026-11-19T20:35:37.086842+00:00",
   "records": [
     {
       "id": "ZOOX-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "4090e986dcd09a5a0789f85debca6afbc127f8c0efda953c0afc4e7085cf51f2",
+      "content_sha256": "84e11ce3e799be9aa9f6f7b840769c4eeaa671430c0ac6ff42be9d5f4d2db674",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "245477fd0d75f58d0c4bc6342fc4a11208ed099cb17f74a8c7438543e4f5567f",
+      "content_sha256": "98ac50131a925df33f8fe0a8c174132d7ff9441704deb29c4f7bbe86bb072a73",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "7f5f7fd077b2a9fd0b5b3f3c499ce69185cacdd11f737481653c9f63c8557761",
+      "content_sha256": "e4721f598022a698d4b3a225ff8e29138d57cebd5f153a9ca943c2f9f0cba5b1",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -61,7 +61,7 @@
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "ff3b98c2e1c88b9a05929db52c6541ac54b992696043f0732e8a707e9de18661",
+      "content_sha256": "75f835375e5beac11fb2cebddc0b05fadf6c00767f5c6df2479b1d8e0dfa92eb",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -79,7 +79,7 @@
     {
       "source_id": "ZOOX-SAFETY",
       "status": "fetched",
-      "bytes": 79453
+      "bytes": 79866
     },
     {
       "source_id": "FAA-AAM",
@@ -89,12 +89,12 @@
     {
       "source_id": "NHTSA-SGO",
       "status": "fetched",
-      "bytes": 146988
+      "bytes": 146994
     },
     {
       "source_id": "BRA-ANAC-AAM",
       "status": "fetched",
-      "bytes": 321537
+      "bytes": 325893
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
