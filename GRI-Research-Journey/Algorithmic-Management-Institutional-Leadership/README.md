@@ -189,3 +189,32 @@ This comparative lens connects the existing AI Paradox to documented US industri
 **Testable extension:** When a small number of actors simultaneously influence essential infrastructure, distribution and finance, does practical bargaining power decline for dependent participants, and do shocks transmit more broadly? Specify market boundaries, ownership and contractual links, credible substitutes, time horizons and counterexamples before concluding concentration or systemic vulnerability.
 
 **Verified primary historical references:** [US Supreme Court, Standard Oil Co. v. United States (1911)](https://www.law.cornell.edu/supremecourt/text/221/1); [US National Park Service, Biscayne ethnographic history (PDF)](https://www.nps.gov/parkhistory/online_books/bisc/bisc_ethno.pdf). Fisher's specific development history requires an additional independently checked archival citation before treating the row as a fully sourced historical finding. These sources establish historical context, not contemporary AI market shares or causation.
+
+### Negotiation errors versus algorithmic and institutional decision failures
+
+**Analytical boundary:** Negotiation scholarship supplies concepts for comparing bargaining situations; GRI independently develops the implications for algorithmic management. This is a bounded extension of the existing AI Paradox, not a new research project or a reproduction of academic course material.
+
+| Analytical dimension | Human negotiation error | Algorithmic decision error | Institutional governance failure |
+| --- | --- | --- | --- |
+| Source | Misread interests, weak preparation, unsuitable framing or concessions | Inappropriate objective, data limitations, model behavior or automated rule | Inadequate authorization, monitoring, accountability or remedy |
+| Scope | May affect a particular negotiation | May recur across automated decisions | May permit systematic persistence or propagation |
+| Detection | Dialogue, counterpart feedback and review | Testing, monitoring, outcome analysis and explanation | Independent audit, governance review and affected party challenge |
+| Remedy | Clarification, revised offer or renegotiation | Correct data, rules, objectives or deployment | Enforceable oversight, appeal, rollback and institutional redesign |
+
+These categories can overlap but must not be collapsed into a single explanation. Repetition and scale are contingent on deployment architecture and usage, not intrinsic to every algorithm.
+
+**Negotiation preparation as an analytical lens:** Document the parties' substantive and procedural objectives, all economic components of the offer, priority issues, credible alternatives (BATNA), reservation or resistance thresholds, decision authority, relevant stakeholders and information available to each side. BATNA is the best alternative course of action if agreement fails, not simply a desired transaction price. Evaluate the feasibility of exit separately from the nominal availability of another platform.
+
+**Honesty, trust and integrative opportunity:** Productive bargaining may require selective but sufficient disclosure to identify complementary interests. Information withholding can protect legitimate confidentiality; deceptive claims are a distinct concern. Automated inference from behavioral or transaction data may change the informational balance. Conversely, governed AI assistance may help discover mutually beneficial arrangements. Neither exploitation nor benefit should be presumed without evidence.
+
+**Decision authority hypothesis:** When platforms or autonomous agents set or revise transaction terms, investigate whether affected people can ask clarifying questions, propose alternatives, refuse without disproportionate penalty, obtain reasons, and appeal decisions. Record whether automated concessions or agreements are within delegated authority and whether material changes are traceable. A system's ability to optimize completion does not establish legitimacy or informed consent.
+
+**Research propositions for falsification:**
+1. Where comparable participants lack feasible exit options and decision explanations, practical bargaining influence will be weaker than where alternatives and appeal rights are demonstrably usable.
+2. A flawed automated rule deployed repeatedly may generate correlated adverse outcomes; the magnitude depends on adoption, monitoring, overrides and corrective response.
+3. Independent review, enforceable decision boundaries and auditable change records may reduce the duration and severity of recurring errors, subject to empirical comparison.
+4. AI mediated negotiation may improve integrative outcomes where participants can verify interests, protect confidential information and authorize reciprocal concessions.
+
+**Evidence protocol:** Separate direct field observations, platform policy documents, contracts, system test results, independent assessments and hypotheses. Do not infer that repository CI checks constitute external scholarly validation. Do not disclose confidential reviewer identities, sensitive controls, unpublished case details or private negotiating information. Compare alternative explanations and document negative cases. Use [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) as a governance reference, not as evidence of certification or compliance.
+
+**Research continuity:** This analysis extends the existing [Uber and Lyft research](../Algorithmic-Management/Uber-Lyft-Research/README.md), [institutional power amplification](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md), and [AI infrastructure sustainability work](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md).
