@@ -118,3 +118,38 @@ The AI Paradox proposition is strengthened if independently documented cases sho
 ### Cultural interpretation, trust and algorithmic management
 
 [Read the bounded AI Paradox extension on cultural interpretation and trust](./Cultural-Interpretation-Trust-and-Algorithmic-Management-2026.md). This synthesis connects cross cultural leadership scholarship, NIST AI risk guidance and independent GRI hypotheses concerning meaning, individual versus societal inference, procedural fairness and accountable machine authority. It specifies prospective assurance tests and does not claim validated empirical effects or Thunderbird endorsement.
+
+
+## November 2026 | Bargaining power, platform choice and AI infrastructure interdependence
+
+**Classification:** Bounded conceptual extension of the existing AI Paradox, algorithmic management and institutional leadership research. No new research program, empirical finding or separate case study is established. **Research lead:** David A. Grand, Grand Research Institute.
+
+### Central proposition
+
+Formal consent to platform terms is not equivalent to substantive negotiating influence. Across distinct market structures, the meaningful ability to propose, reject, revise, exit and contest terms may depend on the availability of credible alternatives, information access, switching costs and control over essential distribution or infrastructure. This is a testable comparative proposition, not a claim that the cases are economically identical.
+
+| Existing research context | Bargaining mechanism to examine | Evidence boundary |
+| --- | --- | --- |
+| Amazon author distribution | Standardized platform terms, access to readers, royalty economics, discoverability and viable outside distribution | Standard contracts alone do not establish algorithmic management; examine algorithmic visibility separately with platform documentation and author-level evidence |
+| Uber and Lyft platform work | Platform-set offers, dispatch, dynamic rules, worker exit options, earnings and contestability | Existing GRI field observations are not a representative population estimate; distinguish offer data, realized costs and causal inference |
+| Frontier AI infrastructure partnerships, including Anthropic and cloud providers | Compute access, financing, distribution, switching costs, cross-investment, capacity commitments and governance rights | An illustrative relationship graphic is not a verified ownership map or evidence of unlawful coordination; reconcile claims to filings and contracts |
+
+### Tangible and intangible negotiating objectives
+
+Tangible objectives may include royalties, fares, compensation, compute prices, financing and service levels. Intangible objectives may include credibility, strategic association, autonomy, reputation, flexibility and perceived legitimacy. Negotiation outcomes should be assessed against both sets of objectives, rather than financial consideration alone.
+
+### Operational research questions
+
+1. **Alternatives:** What feasible alternative exists if the party rejects the proposed terms, and what is the documented cost of exit?
+2. **Voice and contestability:** Can the party modify terms, obtain explanations, appeal decisions and secure independent review, or only accept or decline?
+3. **Information asymmetry:** Which party controls pricing, ranking, allocation, contract data and performance measurement?
+4. **Value distribution:** Who receives tangible and intangible gains, and who bears costs, dependency and externalities?
+5. **Independent authority:** Can managers and affected participants meaningfully review, reverse or correct system-mediated outcomes?
+
+### Method and falsification
+
+Compare documented contracts and policy changes, public issuer disclosures, authorized field observations, credible alternative options, dispute pathways and independent governance evidence. Code formal acceptance separately from demonstrated negotiation, and platform contracting separately from algorithmic decision control. Test rival explanations including convenience, voluntary specialization, scale efficiencies, differentiated products and mutually beneficial contracting. A credible outside option, documented ability to alter terms, or effective independent appeals would weaken a claim of unilateral control in a given case.
+
+### Research continuity and attribution
+
+This section applies established concepts of interdependence, bargaining power, alternatives and tangible versus intangible interests to GRI's independent research. It is informed by David A. Grand's continuing graduate-level academic development and research practice. It is **not** a reproduction of classroom materials, a graded assignment, or a representation of institutional endorsement. Specific academic references should be bibliographically verified before citation. The comparison also connects to the existing [Uber and Lyft field research](../Algorithmic-Management/Uber-Lyft-Research/README.md), [institutional power amplification framework](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md) and [AI infrastructure financial sustainability analysis](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md).
