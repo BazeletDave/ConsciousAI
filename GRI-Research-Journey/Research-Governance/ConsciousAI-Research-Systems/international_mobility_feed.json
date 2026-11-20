@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-20T11:37:51.175480+00:00",
+  "generated_at": "2026-11-20T20:16:23.008273+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -28,6 +28,78 @@
     }
   ],
   "queue": [
+    {
+      "id": "ca7bbb1780586e1a6b0d",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "0787b4b0caaa3b9167a5",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission partially greenlights Malta's final payment request for \u20ac61.7 million under NextGenerationEU",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2550",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "f54eb6c715d55f99c243",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission greenlights Portugal's final payment request for \u20ac4.7 billion under NextGenerationEU",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2549",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "4b2b6005dd1f7e71ed89",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission greenlights Ireland's final payment request for \u20ac225 million under NextGenerationEU",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2548",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "c1ddcc5f0974a62e4218",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission partially greenlights Poland's final payment request for \u20ac12.7 billion under NextGenerationEU",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2547",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "7713944da2746f7ddf4c",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission partially greenlights Hungary's first and final payment request for \u20ac10 billion under NextGenerationEU",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2546",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "070440ecb7977f21fa8b",
       "source_id": "EU-COMMISSION-NEWS",
@@ -77,73 +149,25 @@
       "publication_authorized": false
     },
     {
-      "id": "90ad9368db21593af4fd",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "426752c2bc378fc991bc",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Commission partially greenlights Belgium's final payment request for \u20ac1.38 billion under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2533",
+      "title": "UK and US deepen transport partnership to boost growth, strengthen aviation and back next-generation technology",
+      "source_url": "https://www.gov.uk/government/news/uk-and-us-deepen-transport-partnership-to-boost-growth-strengthen-aviation-and-back-next-generation-technology",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
     },
     {
-      "id": "5338f164309360672899",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "a5318fe2ff3f915ebdd0",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Commission partially greenlights Bulgaria's final payment request for \u20ac1.82 billion under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2531",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "da47bfcb421b5f6e4198",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission disburses \u20ac7.9 billion to strengthen Ukraine's financial stability and advance reform efforts",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2522",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "de124e70301f1f711dc6",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Statement on the incident at today's Cancer Summit",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2528",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "48f429a46ca8b81c75e1",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Closing remarks by Commissioner Albuquerque at the high level conference on financial literacy: beyond numbers",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2527",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "36805ebd70356ef186bb",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Opening remarks by Commissioner Albuquerque at the high level conference on financial literacy: beyond numbers",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2526",
+      "title": "Guidance: Explosive detection systems for cabin baggage (EDSCB) \u2013 C3 approvals",
+      "source_url": "https://www.gov.uk/government/publications/explosive-detection-systems-for-cabin-baggage-edscb-c3-approvals",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -365,30 +389,6 @@
       "publication_authorized": false
     },
     {
-      "id": "f13ae7d23d2263aa1c3a",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Publication of the DVSA business plan 2026 to 2027",
-      "source_url": "https://www.gov.uk/government/speeches/publication-of-the-dvsa-business-plan-2026-to-2027",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "66a12727f2ca765003cc",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "UK maritime fuel regulation: reducing shipping sector emissions",
-      "source_url": "https://www.gov.uk/government/consultations/uk-maritime-fuel-regulation-reducing-shipping-sector-emissions",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "bf5d5a49a20e4dd1eb72",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -543,20 +543,6 @@
       "publication_authorized": false
     },
     {
-      "id": "7dd5fe546269133fc5e9",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "Ready for Take-Off: Streamlining the Airport Experience",
-      "source_url": "https://www.uber.com/us/en/blog/streamlining-the-airport-experience/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
       "id": "b376abd6ccf430da064d",
       "source_id": "UBER-ENGINEERING",
       "publisher": "Uber Engineering",
@@ -704,6 +690,20 @@
       "category": "mobility_industry",
       "title": "Designing MCP Gateway Uber's MCP Management Platform",
       "source_url": "https://www.uber.com/us/en/blog/designing-mcp-gateway/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "f1e3ec67546f6e0f3341",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Taming the ML Firehose: Scaling Feature Consistency",
+      "source_url": "https://www.uber.com/us/en/blog/taming-ml-firehose/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",

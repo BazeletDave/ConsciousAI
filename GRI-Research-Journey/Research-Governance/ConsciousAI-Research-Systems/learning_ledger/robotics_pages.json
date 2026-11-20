@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T11:37:52.938462+00:00",
+  "generated_at": "2026-11-20T20:16:44.663739+00:00",
   "records": [
     {
       "id": "ZOOX-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "0f4c94e5e10b42dbb9d72459927dc45d4827e0c2ec692d90d63dedcebf908f33",
+      "content_sha256": "fe1dc1eb817c60cb58f93eb3e36bd7abc233bc9555343371d7dd274845d24052",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "dd5171789b95b9c2045e9a729316dbbaf6b96e968b7ce94f9f56d829e63ffa76",
+      "content_sha256": "b8be9dd719b963d750f48b29bae9700ac7a8ecb1f757592cb3d5753ea2e2980f",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -44,27 +44,10 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "ac0174cfd358491552bcbba3a794f29212b4bc9a641262839e9525ba4ab0b2ee",
+      "content_sha256": "87a1eca306ecbcdaaf6bf2ed46dda1bf2837ff5f5cc39fc33ba63e588f062ffb",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
-      "verification_status": "publisher_page_observation_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "BRA-ANAC-AAM",
-      "source_id": "BRA-ANAC-AAM",
-      "publisher": "ANAC",
-      "title": "Anac abre consultas setoriais sobre critérios de aeronavegabilidade e ruído para o eVTOL EVE-100 Portal Gov.br",
-      "source_url": "https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-consultas-setoriais-sobre-criterios-de-aeronavegabilidade-e-ruido-para-o-evtol-eve-100",
-      "country_codes": [
-        "BRA"
-      ],
-      "content_sha256": "b488a83070745407fa10931ce0a7700d757b254629781c6687631b915d37cc34",
-      "published_at": null,
-      "source_kind": "dated_regulator_consultation_announcement",
-      "configured_track": "air_mobility",
       "verification_status": "publisher_page_observation_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -84,7 +67,7 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110874
+      "bytes": 110784
     },
     {
       "source_id": "NHTSA-SGO",
@@ -93,8 +76,8 @@
     },
     {
       "source_id": "BRA-ANAC-AAM",
-      "status": "fetched",
-      "bytes": 325893
+      "status": "failed",
+      "error_type": "URLError"
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
