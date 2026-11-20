@@ -153,3 +153,90 @@ Compare documented contracts and policy changes, public issuer disclosures, auth
 ### Research continuity and attribution
 
 This section applies established concepts of interdependence, bargaining power, alternatives and tangible versus intangible interests to GRI's independent research. It is informed by David A. Grand's continuing graduate-level academic development and research practice. It is **not** a reproduction of classroom materials, a graded assignment, or a representation of institutional endorsement. Specific academic references should be bibliographically verified before citation. The comparison also connects to the existing [Uber and Lyft field research](../Algorithmic-Management/Uber-Lyft-Research/README.md), [institutional power amplification framework](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md) and [AI infrastructure financial sustainability analysis](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md).
+
+### Concentration, interdependence and transmission of institutional risk
+
+**Bounded extension of the same proposition.** A concentrated set of large US technology firms plays a substantial role in AI capital expenditure, compute infrastructure, model development, cloud distribution and digital platforms. The colloquial grouping of seven major technology firms is not synonymous with seven AI developers, nor does market capitalization establish that the entire US economy is leveraged to them. Concentration must be measured against specified denominators such as index weight, sector capex, cloud capacity or contractual exposure.
+
+Interdependence may be **competitive** (parties contest finite capacity, prices or market share), **cooperative** (joint investment and complementary services), or **mixed** (a firm is simultaneously investor, supplier, customer or competitor). These are analytical categories, not a claim that all relationships have been contractually verified.
+
+| Transmission channel | Potential propagation mechanism | Minimum evidence for assessment |
+| --- | --- | --- |
+| Compute and cloud capacity | Service interruption or scarcity constrains dependent model or application operations | Provider contracts, disclosed capacity commitments, incident reports and substitution options |
+| Capital and financing | Counterparty stress, reduced funding or valuation changes affect commitments and refinancing | SEC filings, financing agreements, maturity schedules and concentration disclosures |
+| Distribution and platform access | Changes to marketplace or API terms affect downstream access and revenue | Published terms, documented revisions, usage dependence and exit costs |
+| Shared suppliers and infrastructure | Semiconductor, electricity, network or data center constraints affect multiple firms | Supplier disclosures, utility filings and independently documented dependencies |
+| Governance and assurance | Conflicted incentives or opaque decision rights impair challenge, correction or oversight | Board disclosures, contractual controls, audit rights and documented independent review |
+
+**Do not equate linkage with contagion.** A disruption at one firm does not imply failure at another. Evaluate exposure magnitude, substitutability, liquidity, buffers, contractual protections, time horizon and possible stabilizing responses. Some interdependencies diversify risk and improve resilience. Distinguish a common external shock from failure transmitted through a specific relationship.
+
+**Falsifiable propositions:** (P1) Greater dependence on a single essential supplier is associated with higher documented switching costs and weaker practical bargaining alternatives, controlling for contract and service characteristics. (P2) Concentrated, non-substitutable infrastructure links amplify disruption under defined stress scenarios relative to diversified networks. (P3) Independently enforceable audit, exit and appeal rights reduce the gap between formal consent and effective authority. Each requires primary evidence and counterexamples; none is presently an established causal result.
+
+**Existing research links:** [AI infrastructure financing and financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), [institutional power amplification](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md), and [Uber and Lyft longitudinal field research](../Algorithmic-Management/Uber-Lyft-Research/README.md). Named company ownership percentages, dollar flows and network edges must be verified against dated filings before use in empirical diagrams. No allegation of unlawful coordination is inferred from shared investment or commercial relationships.
+
+### Historical comparison: industrial bottlenecks and contemporary AI infrastructure
+
+This comparative lens connects the existing AI Paradox to documented US industrial history; it is not a claim that contemporary AI firms have committed the same antitrust violations or operate under identical conditions.
+
+| Historical case | Documented institutional mechanism | Bounded contemporary comparison |
+| --- | --- | --- |
+| Rockefeller and Standard Oil | Refining consolidation, transport advantages and pipeline control created powerful industry bottlenecks; the 1911 Supreme Court case addressed unlawful restraints and monopolization | Examine control over scarce compute, chips, cloud capacity and distribution without presuming identical legal conduct |
+| Henry Flagler and the Florida East Coast Railway | Capital originating in Standard Oil supported rail and hotel infrastructure; railway expansion reached Miami in 1896 and Key West in 1912 | Examine how complementary infrastructure investment can enable markets while creating dependencies on key access routes |
+| Carl Fisher and Miami Beach development | Interconnected road development, land investment, tourism promotion and resort amenities helped create demand and regional economic transformation | Examine the co-development of AI infrastructure, demand, financing and distribution; distinguish development coordination from monopoly power |
+
+**Institutional comparison, not historical determinism.** These cases illustrate how essential infrastructure, finance and market access can reinforce one another. Historical transportation, petroleum and land markets differ substantially from contemporary digital services in cost structures, regulation, geography and substitutability. Some infrastructure concentration generated network efficiencies and new access; other conduct attracted antitrust intervention. Analyze both benefits and harms.
+
+**Testable extension:** When a small number of actors simultaneously influence essential infrastructure, distribution and finance, does practical bargaining power decline for dependent participants, and do shocks transmit more broadly? Specify market boundaries, ownership and contractual links, credible substitutes, time horizons and counterexamples before concluding concentration or systemic vulnerability.
+
+**Verified primary historical references:** [US Supreme Court, Standard Oil Co. v. United States (1911)](https://www.law.cornell.edu/supremecourt/text/221/1); [US National Park Service, Biscayne ethnographic history (PDF)](https://www.nps.gov/parkhistory/online_books/bisc/bisc_ethno.pdf). Fisher's specific development history requires an additional independently checked archival citation before treating the row as a fully sourced historical finding. These sources establish historical context, not contemporary AI market shares or causation.
+
+### Negotiation errors versus algorithmic and institutional decision failures
+
+**Analytical boundary:** Negotiation scholarship supplies concepts for comparing bargaining situations; GRI independently develops the implications for algorithmic management. This is a bounded extension of the existing AI Paradox, not a new research project or a reproduction of academic course material.
+
+| Analytical dimension | Human negotiation error | Algorithmic decision error | Institutional governance failure |
+| --- | --- | --- | --- |
+| Source | Misread interests, weak preparation, unsuitable framing or concessions | Inappropriate objective, data limitations, model behavior or automated rule | Inadequate authorization, monitoring, accountability or remedy |
+| Scope | May affect a particular negotiation | May recur across automated decisions | May permit systematic persistence or propagation |
+| Detection | Dialogue, counterpart feedback and review | Testing, monitoring, outcome analysis and explanation | Independent audit, governance review and affected party challenge |
+| Remedy | Clarification, revised offer or renegotiation | Correct data, rules, objectives or deployment | Enforceable oversight, appeal, rollback and institutional redesign |
+
+These categories can overlap but must not be collapsed into a single explanation. Repetition and scale are contingent on deployment architecture and usage, not intrinsic to every algorithm.
+
+**Negotiation preparation as an analytical lens:** Document the parties' substantive and procedural objectives, all economic components of the offer, priority issues, credible alternatives (BATNA), reservation or resistance thresholds, decision authority, relevant stakeholders and information available to each side. BATNA is the best alternative course of action if agreement fails, not simply a desired transaction price. Evaluate the feasibility of exit separately from the nominal availability of another platform.
+
+**Honesty, trust and integrative opportunity:** Productive bargaining may require selective but sufficient disclosure to identify complementary interests. Information withholding can protect legitimate confidentiality; deceptive claims are a distinct concern. Automated inference from behavioral or transaction data may change the informational balance. Conversely, governed AI assistance may help discover mutually beneficial arrangements. Neither exploitation nor benefit should be presumed without evidence.
+
+**Decision authority hypothesis:** When platforms or autonomous agents set or revise transaction terms, investigate whether affected people can ask clarifying questions, propose alternatives, refuse without disproportionate penalty, obtain reasons, and appeal decisions. Record whether automated concessions or agreements are within delegated authority and whether material changes are traceable. A system's ability to optimize completion does not establish legitimacy or informed consent.
+
+**Research propositions for falsification:**
+1. Where comparable participants lack feasible exit options and decision explanations, practical bargaining influence will be weaker than where alternatives and appeal rights are demonstrably usable.
+2. A flawed automated rule deployed repeatedly may generate correlated adverse outcomes; the magnitude depends on adoption, monitoring, overrides and corrective response.
+3. Independent review, enforceable decision boundaries and auditable change records may reduce the duration and severity of recurring errors, subject to empirical comparison.
+4. AI mediated negotiation may improve integrative outcomes where participants can verify interests, protect confidential information and authorize reciprocal concessions.
+
+**Evidence protocol:** Separate direct field observations, platform policy documents, contracts, system test results, independent assessments and hypotheses. Do not infer that repository CI checks constitute external scholarly validation. Do not disclose confidential reviewer identities, sensitive controls, unpublished case details or private negotiating information. Compare alternative explanations and document negative cases. Use [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) as a governance reference, not as evidence of certification or compliance.
+
+**Research continuity:** This analysis extends the existing [Uber and Lyft research](../Algorithmic-Management/Uber-Lyft-Research/README.md), [institutional power amplification](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md), and [AI infrastructure sustainability work](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md).
+
+### Cross-case application: negotiated authority and institutional value
+
+This section applies the preceding negotiation lens to existing GRI cases. It does not establish that all platforms use the same algorithmic controls or that every unfavorable transaction results from automation.
+
+| Existing case | What the participant may negotiate or choose | Institutional constraint to test | Observable evidence or counterexample |
+| --- | --- | --- | --- |
+| Uber and Lyft longitudinal field research | Accept or decline an offer; switch work platforms or stop working | Whether disclosed compensation, expenses, time and dispatch constraints permit an economically viable choice | Offer screenshots, realized trip and expense records, documented platform policies, alternative earnings opportunities; distinguish stated from effective resistance points |
+| Amazon author distribution | Accept standardized distribution terms or use alternative channels | Whether discoverability, royalties and switching costs limit substantive influence | Published contract terms, dated royalty statements, documented viable alternatives; distinguish standard contracting from algorithmic ranking |
+| Google and Meta advertising and distribution | Choose campaign settings, budgets, placements and alternative channels | Whether automated allocation and measurement obscure true economic outcomes or limit contestability | Advertiser disclosures, published policies, independently reproducible campaign metrics and documented appeal routes |
+| AI compute, cloud and financing relationships | Negotiate supply, financing, service and exit terms | Whether concentrated infrastructure or interlocking dependencies reduce credible outside options | Dated issuer filings, contracts, provider service commitments and independently documented substitution costs |
+| GRI historical management comparison | Human managers and clients negotiated objectives, value and relationships | Whether immediate transaction metrics inadequately capture trust, retention and long-term institutional value | Clearly labeled practitioner recollections, contemporaneous business records if available, and alternative explanations |
+
+**New comparative distinction: three layers of consent.** (1) *Formal acceptance*: a party clicks, signs or accepts an offer. (2) *Effective choice*: the party understands material terms and has a feasible alternative. (3) *Negotiated authority*: the party can influence terms, ask questions, invoke a limit, or obtain a meaningful review. These are analytical dimensions, not a claim that all transactions legally require individualized bargaining.
+
+**Emotional and cultural context:** Stress, urgency, fatigue and culturally variable communication expectations may influence human decisions; no inference of a person's emotion, nationality-based behavior or negotiating intent should be made from platform telemetry without appropriate evidence. A governed system may provide a pause, clarification or human review; its availability and effectiveness must be tested.
+
+**Institutional value versus transaction completion:** Evaluate outcomes using a vector of participant economic return, relationship continuity, procedural fairness, transparency, appeal effectiveness and systemic resilience rather than a single conversion or acceptance metric. A higher acceptance rate is not by itself evidence of integrative success. Conversely, automation can improve consistency and help identify complementary interests.
+
+**Evaluation design:** For each existing case, specify decision maker, delegated authority, counterpart, information held by each party, viable BATNA, resistance threshold, measurable costs, review path and time horizon. Test rival hypotheses that standardization lowers bargaining costs, that AI increases participant information, and that documented human review changes outcomes. Do not treat automated CI passes as independent peer review.
+
+**Synthesis:** The institutional AI Paradox is most salient where the capacity to set and execute terms at scale grows faster than the capacity of affected parties to understand, negotiate, refuse and correct those terms. This remains a falsifiable cross-case proposition, not a generalized finding about the named firms.
