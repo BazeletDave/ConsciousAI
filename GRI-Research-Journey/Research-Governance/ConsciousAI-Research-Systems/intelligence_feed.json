@@ -1,13 +1,26 @@
 {
   "schema_version": "1.0",
   "mode": "automated_official_metadata_triage",
-  "generated_at": "2026-11-20T02:18:53.058951+00:00",
-  "source_last_collection_at": "2026-11-20T02:18:53.006714+00:00",
-  "source_registry_sha256": "7f60b76570ef7cace88de0e3db0152ec4f0d224a6fd143d1f405545fefd42a8e",
-  "source_records": 165,
-  "matched_records": 18,
-  "human_review_required": 18,
+  "generated_at": "2026-11-20T11:37:49.636088+00:00",
+  "source_last_collection_at": "2026-11-20T11:37:49.580435+00:00",
+  "source_registry_sha256": "d32ccc86edf07c491bbd39b67fe045485055a2dd60bcf2e9b52fb29627bf7b55",
+  "source_records": 171,
+  "matched_records": 19,
+  "human_review_required": 19,
   "queue": [
+    {
+      "id": "US-FR-2026-23707",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23707/60-day-notice-of-intent-to-seek-extension-of-approval-appeals-of-decisions-issued-under-delegated",
+      "title": "60-Day Notice of Intent To Seek Extension of Approval: Appeals of Decisions Issued Under Delegated Authorities and Labor Arbitration Decisions",
+      "publication_date": "2026-11-20",
+      "topics": [
+        "transportation"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "US-FR-2026-23562",
       "source_url": "https://www.federalregister.gov/documents/2026/11/19/2026-23562/information-collection-being-reviewed-by-the-federal-communications-commission-delegated-authority",
