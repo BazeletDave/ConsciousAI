@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19T20:35:37.086842+00:00",
+  "generated_at": "2026-11-20T02:18:57.384850+00:00",
   "records": [
     {
       "id": "ZOOX-SAFETY",
@@ -10,7 +10,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "84e11ce3e799be9aa9f6f7b840769c4eeaa671430c0ac6ff42be9d5f4d2db674",
+      "content_sha256": "0f4c94e5e10b42dbb9d72459927dc45d4827e0c2ec692d90d63dedcebf908f33",
       "published_at": null,
       "source_kind": "company_self_report",
       "configured_track": "road_autonomy",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "98ac50131a925df33f8fe0a8c174132d7ff9441704deb29c4f7bbe86bb072a73",
+      "content_sha256": "6c359a3bde6bbb202a9f65947bdbf51def84165ed513e6065a16d20c82c85ef7",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "e4721f598022a698d4b3a225ff8e29138d57cebd5f153a9ca943c2f9f0cba5b1",
+      "content_sha256": "573e09be9ccbac67852aad18b533a3d8db99bee2e7134ebc62eb664ad79a5b58",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -61,7 +61,7 @@
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "75f835375e5beac11fb2cebddc0b05fadf6c00767f5c6df2479b1d8e0dfa92eb",
+      "content_sha256": "e43cc7575427d351fb8e96657932cb7c8b6f97f71790ba65ef4b09d273d64d45",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -84,7 +84,7 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110785
+      "bytes": 110875
     },
     {
       "source_id": "NHTSA-SGO",
