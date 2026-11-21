@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-21T02:12:22.215409+00:00",
+  "generated_at": "2026-11-21T10:59:20.676671+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -28,6 +28,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "a87a510b00638bbdd466",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by President von der Leyen on the assassination attempt against a US-Ukrainian citizen in Denmark",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "ca7bbb1780586e1a6b0d",
       "source_id": "EU-COMMISSION-NEWS",
@@ -132,18 +144,6 @@
       "category": "international_regulatory",
       "title": "Commission greenlights Slovenia's seventh and final payment request for \u20ac271.8 million under NextGenerationEU",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2535",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "510d0f8f3f3c176e913e",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission greenlights Greece's final payment requests for \u20ac11.32 billion under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2534",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -394,7 +394,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
