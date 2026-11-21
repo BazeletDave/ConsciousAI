@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-21T10:59:20.676671+00:00",
+  "generated_at": "2026-11-21T19:14:19.725494+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,18 @@
   ],
   "queue": [
     {
+      "id": "18c2e8cf055a9b65929f",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "a87a510b00638bbdd466",
       "source_id": "EU-COMMISSION-NEWS",
       "publisher": "European Commission Press Corner",
@@ -36,6 +48,66 @@
       "category": "international_regulatory",
       "title": "Statement by President von der Leyen on the assassination attempt against a US-Ukrainian citizen in Denmark",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "b4fd92ae226abb43f9a0",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Commissioner \u0160ef\u010dovi\u010d at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "6029c63cee4c9bcb8294",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "EU and Indonesia sign ambitious trade and investment agreements",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "054b009f7ade48c78902",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Factsheet EU-Indonesia - Main benefits",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2169",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "a9b4657c92fc42d3e0e3",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Factsheet EU-Indonesia - Agriculture",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2170",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "4ba1959e9c7282b550e5",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Factsheet EU-Indonesia - Sustainability",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2171",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -72,78 +144,6 @@
       "category": "international_regulatory",
       "title": "Commission greenlights Portugal's final payment request for \u20ac4.7 billion under NextGenerationEU",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2549",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "4b2b6005dd1f7e71ed89",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission greenlights Ireland's final payment request for \u20ac225 million under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2548",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "c1ddcc5f0974a62e4218",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission partially greenlights Poland's final payment request for \u20ac12.7 billion under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2547",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "7713944da2746f7ddf4c",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission partially greenlights Hungary's first and final payment request for \u20ac10 billion under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2546",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "070440ecb7977f21fa8b",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commissioner Tzitzikostas delivers a video address at 50th anniversary of the Hellenic Institute of Transportation Engineers",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/el/speech_26_2544",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "e30e164c2eb8b1206858",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Daily News 20 / 11 / 2026",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2543",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "697d7e4d4de59bd0ff74",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission greenlights Slovenia's seventh and final payment request for \u20ac271.8 million under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2535",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -394,7 +394,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "English, English",
+      "title": "Skip to main content",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
