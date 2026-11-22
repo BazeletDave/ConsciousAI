@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-22T11:23:05.707443+00:00",
+  "generated_at": "2026-11-22T19:38:38.788255+00:00",
   "records": [
     {
       "id": "ZOOX-SAFETY",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "a51456c0ecc3e8b1d53062662f885bfcac7a2e86f023393a1597a94698e7df8d",
+      "content_sha256": "72790a3ba7e07561c477eb6baab7beb3f85a27a4d38c8c75b2d63f5274f97e84",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "848cd16879173eddde944d1e84193120f9877ddbe7b13b6592aeb6e2973e57f6",
+      "content_sha256": "639ea84b82a645af32dfb8e698644102590013aa223702be0dae899c81ae1a6a",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
