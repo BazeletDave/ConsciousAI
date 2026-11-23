@@ -60,3 +60,23 @@ The Roy C. Nelson institutional lens informs GRI's independent comparison of aut
 ## Publication boundary
 
 This note is a structured **research intake**, not a validated incident database. Promote an incident to an empirical finding only after primary-source verification and documented uncertainty review. No new software, automated collector, deployment, assurance result or project is claimed.
+
+## Evidence reconciliation | 22 November 2026
+
+**Scope:** This dated addendum upgrades two previously preliminary incident leads using direct institutional and vendor statements. It does not retroactively validate the other screenshot claims, establish incident coordination, or certify any production control.
+
+### N-able Mail Assure and SpamExperts | Vendor confirmed, investigation ongoing
+
+N-able's **22 November 2026, 2:30 p.m. EST** incident update states that it remediated the identified vulnerability and restored dashboard and API access on **21 November at 23:45 UTC**. The vendor says inbound and outbound mail flow and spam filtering continued operating throughout. Its monitoring had found no evidence of exploitation beyond the single N-able hosted server identified in its initial investigation. It engaged an independent digital forensics and incident response team, published **CVE-2026-134624**, and stated that a formal root cause analysis was expected within two weeks. These are **vendor reported findings**, not independent confirmation of complete containment or the final root cause. The absence of evidence of wider exploitation is not proof of its impossibility.
+
+Primary source: [N-able Mail Assure Incident Update, 22 November 2026](https://www.n-able.com/blog/mail-assure-incident-update). Independent contemporaneous context: [CRN, 20 November 2026](https://www.crn.com/news/security/2026/n-able-discloses-security-incident-impacting-cloud-email-security-services). **Research significance:** separate security control plane access (dashboard, API, credentials and audit visibility) from continued mail delivery and filtering; assess revocation, restoration, third party forensic independence and recoverability. Do not conflate this incident with N-able's separate N-central service incident.
+
+### European Commission | Institution confirmed AI tool use, attribution unresolved
+
+In the [European Commission's 19 November 2026 press briefing](https://audiovisual.ec.europa.eu/en/media/video/I-298222), the spokesperson stated that the campaign was detected on **22 October** and confirmed after initial investigation on **26 October**; several applications were temporarily disabled as a precaution and most had been restored. The spokesperson confirmed use of AI tools, said the investigation was ongoing, declined attacker attribution, and reported no evidence at that stage of a data breach affecting Commission staff as a whole. The record does **not** demonstrate an autonomous end to end AI attack, establish the final compromise scope, or substantiate a shared cause with US service outages. Independent corroboration: [Reuters, 19 November 2026](https://www.reuters.com/legal/litigation/eu-commission-targeted-cyberattack-politico-reports-2026-11-19/).
+
+### November 12 to 19 systems under pressure visual | Synthesis only
+
+The GRI infographic is an analytical overview, **not** a primary incident source or validated aggregate dataset. Retain the statement that outages are not proof of a coordinated cyberattack. Do not promote its individual dates, root cause assertions, or implied comparability to confirmed evidence without per incident source records. Maintain separate incident date, disclosure date, restoration date, technical cause, malicious attribution and AI role. The existing [cross sector evidence review](2026-11-20-cross-sector-cyber-ai-governance-evidence-review.md) remains the companion register.
+
+**Assurance gate:** This is a literature and source reconciliation only. No software or production systems changed, no independent forensic reproduction performed, and no CI result is asserted by this addendum.
