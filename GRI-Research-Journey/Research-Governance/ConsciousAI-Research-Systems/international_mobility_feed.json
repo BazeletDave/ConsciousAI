@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T01:41:57.109437+00:00",
+  "generated_at": "2026-11-23T12:36:09.319835+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -28,6 +28,78 @@
     }
   ],
   "queue": [
+    {
+      "id": "703cc085a5c430e9cce1",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 23 / 11 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2561",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "cc6e6315b98aa8b5373f",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by Commissioner Lahbib at HERA Industry Days",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2559",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "73c46d44a9d84054150f",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Keynote speech by Commissioner Albuquerque at the launch of the 6th European Retirement Week at the European Fund and Asset Management Association",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2558",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "5a27250ff08100263c0c",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission welcomes European Citizens' Panel recommendations on Democratic Resilience",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2552",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "7364a4591dde792922f1",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission opens formal investigation into possible anticompetitive conduct by Coca-Cola Europacific Partners in the non-alcoholic drinks sector",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2530",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "435dc946873f617f4432",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission approves \u20ac1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "18c2e8cf055a9b65929f",
       "source_id": "EU-COMMISSION-NEWS",
@@ -77,73 +149,25 @@
       "publication_authorized": false
     },
     {
-      "id": "054b009f7ade48c78902",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "1f282330d5ebf3194629",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Factsheet EU-Indonesia - Main benefits",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2169",
+      "title": "Tracy Westall OBE appointed as DVLA Chair",
+      "source_url": "https://www.gov.uk/government/news/tracy-westall-obe-appointed-as-dvla-chair",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
     },
     {
-      "id": "a9b4657c92fc42d3e0e3",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "ca587dc62a5ed2578867",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Factsheet EU-Indonesia - Agriculture",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2170",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "4ba1959e9c7282b550e5",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Factsheet EU-Indonesia - Sustainability",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_25_2171",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "ca7bbb1780586e1a6b0d",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "The EU and the United Kingdom turn closeness into common strength and prosperity at second bilateral summit",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ac_26_2555",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "0787b4b0caaa3b9167a5",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission partially greenlights Malta's final payment request for \u20ac61.7 million under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2550",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "f54eb6c715d55f99c243",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission greenlights Portugal's final payment request for \u20ac4.7 billion under NextGenerationEU",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2549",
+      "title": "Transparency data: DfT: workforce management information, October 2026",
+      "source_url": "https://www.gov.uk/government/publications/dft-workforce-management-information-october-2026",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -360,30 +384,6 @@
       "category": "international_regulatory",
       "title": "National Highways speed enforcement camera issue",
       "source_url": "https://www.gov.uk/government/speeches/national-highways-speed-enforcement-camera-issue",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "052e1239d998d79b2c49",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Independent report: National Highways speeding enforcement issue",
-      "source_url": "https://www.gov.uk/government/publications/national-highways-speeding-enforcement-issue",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "cf34b887a09cbe25c352",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Bridge scanners and wearable safety alerts among 23 rail innovations backed with \u00a34.8 million",
-      "source_url": "https://www.gov.uk/government/news/bridge-scanners-and-wearable-safety-alerts-among-23-rail-innovations-backed-with-48-million",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
