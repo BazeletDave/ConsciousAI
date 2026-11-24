@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "description": "Three individually disclosed incidents from official government sources. Disclosure dates and detection dates are distinguished where known. CERT-In aggregated AI-agent advisory excluded because it is not an individually attributable incident. The dashboard uses a rolling 30-day window, so older cases remain in the register but may not display.",
+  "description": "Curated incident register including official disclosures and separately labeled research leads. Metadata validation is not source verification.",
   "records": [
     {
       "id": "BR-STN-2026-11-04",
@@ -86,6 +86,85 @@
       ],
       "limitations": "Official disclosure published 3 July 2026; actual unauthorized access date was not specified. Independent verification of remediation not established.",
       "disclosure_date": "2026-07-03"
+    },
+    {
+      "id": "MSFT-2026-11-12",
+      "title": "Microsoft service disruption",
+      "event_date": "2026-11-12",
+      "jurisdiction": "United States",
+      "organization": "Microsoft",
+      "summary": "Repository research reports approximately 24 hours of disruption and a one hour recovery objective; original reporting requires independent revalidation.",
+      "evidence_status": "unverified",
+      "resolution_status": "unknown",
+      "sources": [
+        {
+          "name": "Reuters",
+          "url": "https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24/"
+        }
+      ],
+      "relationships": [],
+      "limitations": "Source links carried forward from research documentation; independent source revalidation pending. No common cause established.",
+      "disclosure_date": "2026-11-24",
+      "measurements": [
+        {
+          "label": "Reported disruption",
+          "value": "~24 hours"
+        },
+        {
+          "label": "Recovery objective (not outcome)",
+          "value": "1 hour"
+        }
+      ]
+    },
+    {
+      "id": "IDENTITY-2026-11-24-A",
+      "title": "Reported credential collection",
+      "event_date": "2026-11-24",
+      "jurisdiction": "Unresolved",
+      "organization": "Unidentified operator",
+      "summary": "Reported credential records, not unique victims. Date is reported disclosure, not established exposure onset.",
+      "evidence_status": "unverified",
+      "resolution_status": "unknown",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/3-billion-usernames-passwords-and-documents-leaked-online"
+        }
+      ],
+      "relationships": [],
+      "limitations": "Source links carried forward from research documentation; independent source revalidation pending. No common cause established.",
+      "disclosure_date": "2026-11-24",
+      "measurements": [
+        {
+          "label": "Reported credential records",
+          "value": "~2 billion"
+        }
+      ]
+    },
+    {
+      "id": "IDENTITY-2026-11-24-B",
+      "title": "Separate reported identity collection",
+      "event_date": "2026-11-24",
+      "jurisdiction": "Unresolved",
+      "organization": "Unidentified operator",
+      "summary": "Separate reported identity records, not unique victims. Date is reported disclosure, not established exposure onset.",
+      "evidence_status": "unverified",
+      "resolution_status": "unknown",
+      "sources": [
+        {
+          "name": "WIRED",
+          "url": "https://www.wired.com/story/3-billion-usernames-passwords-and-documents-leaked-online"
+        }
+      ],
+      "relationships": [],
+      "limitations": "Source links carried forward from research documentation; independent source revalidation pending. No common cause established.",
+      "disclosure_date": "2026-11-24",
+      "measurements": [
+        {
+          "label": "Reported identity records",
+          "value": "1.64 billion"
+        }
+      ]
     }
   ]
 }
