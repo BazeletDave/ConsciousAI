@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T12:36:09.319835+00:00",
+  "generated_at": "2026-11-24T02:12:27.066256+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -28,6 +28,30 @@
     }
   ],
   "queue": [
+    {
+      "id": "814e3906b9265dfe7b29",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Opening remarks by Commissioner Serafin during the debate on the EU Anti-fraud Architecture Review (INI Report) at the European Parliament in Strasbourg",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2566",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "93853f98f65a6174d872",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by President von der Leyen on the 22nd package of sanctions against Russia",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2563",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "703cc085a5c430e9cce1",
       "source_id": "EU-COMMISSION-NEWS",
@@ -101,49 +125,25 @@
       "publication_authorized": false
     },
     {
-      "id": "18c2e8cf055a9b65929f",
+      "id": "76a762f05f8726d49562",
       "source_id": "EU-COMMISSION-NEWS",
       "publisher": "European Commission Press Corner",
       "jurisdiction": "EU",
       "category": "international_regulatory",
-      "title": "Statement by President von der Leyen on the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2557",
+      "title": "Commission adopts guidelines implementing the visa ban on combatants in Russia's war of aggression against Ukraine",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2521",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
     },
     {
-      "id": "a87a510b00638bbdd466",
+      "id": "5698d027e320e5a2b7ee",
       "source_id": "EU-COMMISSION-NEWS",
       "publisher": "European Commission Press Corner",
       "jurisdiction": "EU",
       "category": "international_regulatory",
-      "title": "Statement by President von der Leyen on the assassination attempt against a US-Ukrainian citizen in Denmark",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2556",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "b4fd92ae226abb43f9a0",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Remarks by Commissioner \u0160ef\u010dovi\u010d at the signature of the EU-Indonesia Comprehensive Economic Partnership Agreement and the Investment Protection Agreement",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2539",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "6029c63cee4c9bcb8294",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "EU and Indonesia sign ambitious trade and investment agreements",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2532",
+      "title": "Solidarity with Ukraine",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/fs_24_6565",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -394,7 +394,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
@@ -536,20 +536,6 @@
       "category": "mobility_industry",
       "title": "Community support Doing the right thing for cities and communities globally",
       "source_url": "https://www.uber.com/us/en/blog/community-support/",
-      "verification_status": "official_publisher_index_link_unreviewed",
-      "discovery_method": "official_html_index",
-      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "7dd5fe546269133fc5e9",
-      "source_id": "UBER-ENGINEERING",
-      "publisher": "Uber Engineering",
-      "jurisdiction": "corporate",
-      "category": "mobility_industry",
-      "title": "Ready for Take-Off: Streamlining the Airport Experience",
-      "source_url": "https://www.uber.com/us/en/blog/streamlining-the-airport-experience/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
@@ -704,6 +690,20 @@
       "category": "mobility_industry",
       "title": "Designing MCP Gateway Uber's MCP Management Platform",
       "source_url": "https://www.uber.com/us/en/blog/designing-mcp-gateway/",
+      "verification_status": "official_publisher_index_link_unreviewed",
+      "discovery_method": "official_html_index",
+      "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "f1e3ec67546f6e0f3341",
+      "source_id": "UBER-ENGINEERING",
+      "publisher": "Uber Engineering",
+      "jurisdiction": "corporate",
+      "category": "mobility_industry",
+      "title": "Taming the ML Firehose: Scaling Feature Consistency",
+      "source_url": "https://www.uber.com/us/en/blog/taming-ml-firehose/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
       "source_index_url": "https://www.uber.com/us/en/blog/engineering/",
