@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-24T13:41:24.965642+00:00",
+  "generated_at": "2026-11-24T16:58:01.219323+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -29,6 +29,42 @@
   ],
   "queue": [
     {
+      "id": "26ceceb2531abb39e450",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 24/ 11 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2578",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "3af7df0de015dce37430",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by Commissioner Dombrovskis presenting the European Semester Autumn Package at the European Parliament",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2571",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "b8d3504f62b4896aac41",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Executive Vice-President M\u00eenzatu and Commissioner Dombrovskis on the 2027 European Semester Autumn package",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2572",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "2b2b496b224b96c50f63",
       "source_id": "EU-COMMISSION-NEWS",
       "publisher": "European Commission Press Corner",
@@ -41,6 +77,18 @@
       "publication_authorized": false
     },
     {
+      "id": "34d31418fdc747cc63d3",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission sets out key EU policy priorities for 2027 in its European Semester Autumn Package",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2553",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
       "id": "6fe82fc967fd05e8de62",
       "source_id": "EU-COMMISSION-NEWS",
       "publisher": "European Commission Press Corner",
@@ -48,6 +96,30 @@
       "category": "international_regulatory",
       "title": "Commission imposes provisional import quotas on hybrid passenger vehicles",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2564",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "25341bf31e76d379f8e5",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission calls for joint EU efforts to reduce tax gaps and boost public finances",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2562",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "e010233ba7be086e118c",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Questions and answers on the 2027 European Semester Autumn Package",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/qanda_26_2554",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -77,73 +149,13 @@
       "publication_authorized": false
     },
     {
-      "id": "703cc085a5c430e9cce1",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
+      "id": "98f1ac8eeb16f233bb44",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
       "category": "international_regulatory",
-      "title": "Daily News 23 / 11 / 2026",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2561",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "cc6e6315b98aa8b5373f",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Speech by Commissioner Lahbib at HERA Industry Days",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2559",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "73c46d44a9d84054150f",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Keynote speech by Commissioner Albuquerque at the launch of the 6th European Retirement Week at the European Fund and Asset Management Association",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2558",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "5a27250ff08100263c0c",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission welcomes European Citizens' Panel recommendations on Democratic Resilience",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2552",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "7364a4591dde792922f1",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission opens formal investigation into possible anticompetitive conduct by Coca-Cola Europacific Partners in the non-alcoholic drinks sector *",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2530",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "435dc946873f617f4432",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Commission approves \u20ac1 billion Slovenian State aid to support closure of Premogovnik Velenje coal mine",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2467",
+      "title": "New digital number plates to help police crackdown on criminal drone use",
+      "source_url": "https://www.gov.uk/government/news/new-digital-number-plates-to-help-police-crackdown-on-criminal-drone-use",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -372,18 +384,6 @@
       "category": "international_regulatory",
       "title": "Guidance: Channel Tunnel (security) order annual report",
       "source_url": "https://www.gov.uk/government/publications/channel-tunnel-security-order-annual-report",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "2f32be7399ce69c1f35a",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Official Statistics: Sustainable Aviation Fuel (SAF) Mandate statistics 2025: Final report",
-      "source_url": "https://www.gov.uk/government/statistics/sustainable-aviation-fuel-saf-mandate-statistics-2025-final-report",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
