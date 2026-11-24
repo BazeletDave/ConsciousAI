@@ -80,3 +80,34 @@ In the [European Commission's 19 November 2026 press briefing](https://audiovisu
 The GRI infographic is an analytical overview, **not** a primary incident source or validated aggregate dataset. Retain the statement that outages are not proof of a coordinated cyberattack. Do not promote its individual dates, root cause assertions, or implied comparability to confirmed evidence without per incident source records. Maintain separate incident date, disclosure date, restoration date, technical cause, malicious attribution and AI role. The existing [cross sector evidence review](2026-11-20-cross-sector-cyber-ai-governance-evidence-review.md) remains the companion register.
 
 **Assurance gate:** This is a literature and source reconciliation only. No software or production systems changed, no independent forensic reproduction performed, and no CI result is asserted by this addendum.
+
+
+## Evidence reconciliation | 24 November 2026
+
+This bounded extension connects defensive AI, reported offensive AI and operational resilience to the existing institutional assurance framework. No new research program or production integration is proposed.
+
+### Shirudo | Primary vendor disclosures, controlled demonstration
+
+OpenAI and Cisco announced Shirudo on 23 November. Its Linux runtime uses eBPF safeguards to protect running services during the interval before permanent remediation. The published architecture includes operator approval, signed safeguards, kernel verification and TPM-supported evidence. OpenAI reports a controlled demonstration that blocked an exploit without restarting the service. These are vendor disclosures and demonstration results, not independent production assurance or evidence that all attacks can be prevented.
+
+Sources: [OpenAI, 23 November](https://openai.com/index/introducing-shirudo/); [Cisco, 23 November](https://newsroom.cisco.com/c/r/newsroom/en/us/a/y2026/m11/cisco-and-openai-launch-shirudo-a-new-project-to-safeguard-agentic-ai.html).
+
+### MONAI Label | Attributed threat intelligence, independent reproduction absent
+
+The Cloud Security Alliance's 21 November research note summarizes Amazon Threat Intelligence's account of agent-assisted discovery and exploitation of a previously unknown vulnerability on a university research server. Privileged access was reported; clinical compromise and patient data exposure were not established. Actor attribution remains an assessment rather than proof of state direction. Secondary coverage is not independent forensic reproduction.
+
+Source: [Cloud Security Alliance, 21 November](https://labs.cloudsecurityalliance.org/research/csa-research-note-monai-label-agent-discovered-zero-day-2026/).
+
+### Additional intake and exclusions
+
+The supplied 13-incident infographic, Microsoft customer metadata headline, Delta aviation disruption and Amazon residential drone crash claim remain individual verification leads for this addendum. Do not count them as verified incidents on the basis of this intake or infer a common attacker, AI causation, or statistically unusual clustering. Verify dates, scope and denominators against operator and regulator records before promotion. Distinguish physical autonomy failures from cyber intrusion.
+
+### Existing governance and assurance implications
+
+* AI Paradox and Black Box Paradox: compare the time required for discovery, containment, permanent remediation and independently reviewable evidence. Distinguish an observed event from a hypothesis about institutional assurance lag.
+* Tiger Legacy: compare signed control provenance, authorization boundaries, revocation, rollback, false allow and false deny rates, and independent evidence. Architectural similarity does not validate GRI controls. No third party code installation or deployment is authorized by this note.
+* Algorithmic management and autonomous mobility: retain accountable human override, safe fallback, incident reconstruction and explicit liability allocation as comparison criteria.
+* Economic analysis: measure downtime, recovery expenditure, service disruption, third party losses and insurance costs separately; avoid unsupported aggregate losses or net productivity claims.
+* Institutional lens: evaluate formal decision rights, operator incentives and actual implementation capacity within the existing Nelson-informed research framework.
+
+**Assurance boundary:** No new software, project, empirical causal finding, production certification or independent reproduction is claimed. Source verification date: 24 November 2026.
