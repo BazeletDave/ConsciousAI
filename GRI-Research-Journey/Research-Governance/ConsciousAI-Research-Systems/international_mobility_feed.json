@@ -1,12 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-24T17:00:16.488320+00:00",
+  "generated_at": "2026-11-24T23:54:03.992460+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
       "source_id": "EU-COMMISSION-NEWS",
-      "status": "failed",
-      "error_type": "TimeoutError"
+      "status": "fetched",
+      "items": 10,
+      "method": "rss_atom"
     },
     {
       "source_id": "UK-DfT",
@@ -27,6 +28,126 @@
     }
   ],
   "queue": [
+    {
+      "id": "40a164cb28c3d7298230",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by Commissioner Lahbib on the Humanitarian Situation in Gaza at the European Parliament",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2581",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "26ceceb2531abb39e450",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 24/ 11 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2578",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "86d82fbc36b7fb5af05a",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Joint statement by the Commission and the High Representative ahead of the International Day for the Elimination of Violence against Women",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2577",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "60555f251b3636cf9265",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Health and safety at work: 8 August to become European day of remembrance for victims of accidents at work",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/jp_26_2575",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "3af7df0de015dce37430",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by Commissioner Dombrovskis presenting the European Semester Autumn Package at the European Parliament",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2571",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "b8d3504f62b4896aac41",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Executive Vice-President M\u00eenzatu and Commissioner Dombrovskis on the 2027 European Semester Autumn package",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2572",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "2b2b496b224b96c50f63",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by Executive Vice-President Teresa Ribera at College of Europe, Natolin, Poland",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2570",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "34d31418fdc747cc63d3",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission sets out key EU policy priorities for 2027 in its European Semester Autumn Package",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2553",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "6fe82fc967fd05e8de62",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission imposes provisional import quotas on hybrid passenger vehicles",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2564",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "25341bf31e76d379f8e5",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission calls for joint EU efforts to reduce tax gaps and boost public finances",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2562",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "98f1ac8eeb16f233bb44",
       "source_id": "UK-DfT",
@@ -604,6 +725,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 44,
+  "review_required": 54,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }

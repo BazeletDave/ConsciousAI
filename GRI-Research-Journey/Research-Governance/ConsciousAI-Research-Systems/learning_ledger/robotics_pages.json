@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T17:00:37.761020+00:00",
+  "generated_at": "2026-11-24T23:54:25.365570+00:00",
   "records": [
     {
       "id": "ZOOX-SAFETY",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "7a0e891ecc38b276ae7489471ede0935437aec322060506fe19fc4b1ee293f0e",
+      "content_sha256": "34a0c36d8f88648b3495808d57c3540350814b921e279bc74283e1c8f478085e",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "9f8d9827296e223344031c577863baec70d1e8a29371706e15aa46b73c81be65",
+      "content_sha256": "4b6177f2c7051ec738b070e5f338d8471e6d7780821c4807c9624d4b6627adac",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -67,12 +67,12 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110785
+      "bytes": 110784
     },
     {
       "source_id": "NHTSA-SGO",
       "status": "fetched",
-      "bytes": 146994
+      "bytes": 146993
     },
     {
       "source_id": "BRA-ANAC-AAM",
