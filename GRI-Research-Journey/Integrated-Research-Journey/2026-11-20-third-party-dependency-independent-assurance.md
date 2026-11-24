@@ -131,3 +131,20 @@ Sources (reviewed 24 November 2026): [Reuters, 24 November](https://www.reuters.
 These are heterogeneous record counts, not unique victims or confirmed successful identity thefts. Do not infer that listed platforms were breached, that session tokens remain valid, that AI caused either exposure, or that either is linked to Microsoft's separately reported outage. No sensitive records were collected by GRI.
 
 **Existing research implications:** Authentication evidence, identity proofing and legitimate authorization are distinct controls. The AI Paradox and Black Box Paradox motivate evaluating how data aggregation affects institutional visibility, while the Nelson-informed institutional lens distinguishes formal authority from actual control. Tiger Legacy comparison criteria include synthetic tests for compromised credential rejection, session revocation, authorization scope, consent provenance, step-up authentication, recovery and independent audit replay. Measure false acceptance, false rejection and revocation latency with explicit denominators. These are proposed assurance criteria, not completed tests or production certification. Preserve phishing-resistant authentication and account recovery as complementary defenses; do not imply MFA is universally ineffective. No new project, software, deployment or causal finding is claimed.
+
+
+## Operational measurement crosswalk | 24 November 2026
+
+Both Microsoft and digital identity evidence extensions are present in this document. Preserve separate incident identities and source qualifications. The following measurement protocol advances the existing assurance framework without creating a new program.
+
+| Dimension | Observable measure | Evidence boundary |
+| --- | --- | --- |
+| Service continuity | Elapsed time from disruption to verified restoration, by service and region | Microsoft: approximately 24 hours reported; one hour is a target, not a result |
+| Change governance | Elapsed time from approved fix to verified deployment, rollback success | Separate reported five to six day patch rollout from outage duration |
+| Identity exposure | Records by type, distinct subjects where verified, valid sessions where authorized | Two billion and 1.64 billion reported records are separate heterogeneous collections; do not sum as victims |
+| Corrective authority | Time from revocation decision to effective denial across dependent services | No measured value available for these incidents |
+| Diagnostic accountability | Fraction of incident decisions with attributable evidence, owner and timestamp | AI recommendations require review and explicit execution authority |
+| Independent assurance | Fraction of sampled claims independently reproduced, with exceptions and denominator | No independent forensic reproduction by GRI |
+| Economic consequence | Actual downtime cost, remediation expense and third party loss, separately attributed | No validated loss estimates available |
+
+For longitudinal comparison, retain incident, detection, disclosure, containment, restoration and verification timestamps separately; use unknown rather than zero for missing measurements. Record source revisions and preserve superseded assessments in version history. Measure acceleration only across comparable observations with explicit time windows and denominators; publication frequency alone does not establish incident frequency. Map accountable decision rights, incentives and implementation capacity using the existing Nelson-informed institutional lens. For Tiger Legacy, use synthetic fixtures only and keep test outcomes separate from external incident evidence. No production access, new deployment or new project is implied.
