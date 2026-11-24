@@ -10,6 +10,8 @@ on:
       - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/robotics_snapshot.py'
       - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/learning_ledger/program.json'
       - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/build_assurance_evidence.py'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/global_incidents.json'
+      - 'GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems/global_incident_intelligence.py'
   schedule:
     - cron: '17 */3 * * *'
 permissions:
@@ -29,6 +31,29 @@ jobs:
       - name: Test ingestion and local service
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python -m unittest discover -v
+      - name: Validate curated incident measurements before collection
+        working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from global_incident_intelligence import validate, assurance_snapshot
+          records = json.loads(Path("global_incidents.json").read_text())["records"]
+          ids = set()
+          for record in records:
+              errors = validate(record)
+              if errors or record["id"] in ids:
+                  raise SystemExit(f"Invalid or duplicate incident: {record['id']}: {errors}")
+              ids.add(record["id"])
+              measurements = record.get("measurements", [])
+              if not isinstance(measurements, list):
+                  raise SystemExit("Invalid measurement collection")
+              for metric in measurements:
+                  if not isinstance(metric, dict) or any(not isinstance(metric.get(k), str) or not metric[k].strip() for k in ("label", "value")):
+                      raise SystemExit("Invalid measurement")
+          report = assurance_snapshot(records)
+          print(json.dumps({"validated_metadata_records": len(ids), "review_queue": report["evidence_review_queue"], "source_verification": "not_performed"}, indent=2))
+          PY
       - name: Build rights-pending research metadata and holdout manifest
         working-directory: GRI-Research-Journey/Research-Governance/ConsciousAI-Research-Systems
         run: python build_research_dataset.py
