@@ -775,3 +775,26 @@ Distinguish de jure sovereignty (legal authority) from operational autonomy (abi
 **Cross-sector comparison:** CIA intelligence integrity, Treasury verification, FAA continuity, Uber allocation, autonomous mobility and semiconductor supply chains are distinct cases. Compare decision rights, information asymmetry, vendor concentration, contestability and recovery using case-specific denominators; do not infer common causation or equivalent risk. The existing Digital Bretton Woods research addresses coordination and mutual recognition without presuming a single global regulator. The Nelson-informed institutional framework links formal rules, informal norms, incentives and enforcement to practical capacity. Rival hypothesis: managed interdependence and independently verified redundancy improve effective autonomy relative to isolated ownership. Test against actual portability, audit and recovery evidence, not ownership alone.
 
 **Boundary:** This is a prospective theoretical and measurement extension of existing AI Paradox, Black Box Paradox, Tiger Legacy and institutional governance research. No CIA data corruption, AI involvement, vendor attribution, loss of US sovereignty, new experiment, dashboard deployment or independently validated control is claimed. No new project or external system access.
+
+
+## November 25, 2026 | FinCEN cybersecurity disclosure and regulatory continuity
+
+**Evidence cutoff:** November 25, 2026. This bounded extension complements the November 24 intelligence institutions record above.
+
+| Evidence item | Classification | Finding and limitation |
+| --- | --- | --- |
+| FinCEN service alert, November 24 | Agency disclosure corroborated by ABC News and The Record | Unauthorized access to a limited subset of systems; precautionary isolation of some systems; BSA E-Filing remains operational with potentially unavailable services. Specific systems, actor, initial access, data theft and alteration are not established. |
+| FinCEN Order FIN-2026-R002 | Primary government document | Certain submissions otherwise due November 18 through December 29 are extended to December 30, 2026. Other applicable AML/CFT obligations remain. The order cites service disruption, not a demonstrated causal link to the intrusion. |
+| CIA and ODNI reporting | Corroborated secondary reporting; see November 24 record | Reported intrusion involving unclassified intelligence; no established common actor, mechanism or causal relationship with FinCEN. |
+
+**Sources:** FinCEN, November 24, 2026, [Order FIN-2026-R002](https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf); ABC News, November 25, [FinCEN disclosure](https://abcnews.com/US/treasurys-fincen-cybersecurity-incident-includes-unauthorized-access-systems/story?id=138432822); The Record, November 25, [precautionary system isolation](https://therecord.media/treasury-fincen-takes-systems-offline-after-cyber-incident); The Verge, [FinCEN and intelligence incident reporting](https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident). Agency alert accessed indirectly through reporting; the order is primary evidence. User supplied media images are leads rather than independent verification.
+
+### Institutional governance and AI Paradox
+
+FinCEN illustrates the distinction between formal regulatory authority and operational capacity to receive, process and safeguard mandated information. Temporary filing relief is an observable exercise of management discretion to preserve regulatory continuity. It is not evidence of systemic financial data theft or a measured failure of enforcement. The Nelson-informed institutional framework connects rules, incentives, coordination, enforcement and organizational capacity. The AI Paradox remains a hypothesis about capability relative to assurance; AI involvement in this incident is unknown. A competing explanation is that isolation, alternate channels and adaptive regulatory relief demonstrate effective institutional resilience. Neither explanation is established without recovery and service evidence.
+
+### Existing assurance research crosswalk
+
+Map confidentiality to authorized access and isolation, integrity to provenance and correction, and availability to reporting continuity, fallback channels and verified restoration. Tiger Legacy provides the existing synthetic assurance research context; the Governance Intelligence Dashboard provides the existing evidence classification context. Prospective measures include detection and containment latency, restoration time, filing backlog and processing delay, alternate channel capacity, revocation effectiveness and independently verified recovery. Unknown measures remain unavailable, not zero. NIST CSF 2.0 (https://doi.org/10.6028/NIST.CSWP.29) supplies the governance and recovery taxonomy, not certification.
+
+**Boundary:** Compare FinCEN with CIA/ODNI, FBI and USDA records only under their respective evidence classifications. Do not infer a coordinated campaign, AI attribution, common vendor, data exfiltration or outage causation from temporal proximity. No new project, engineering, production deployment, live ingestion, external system testing or independent validation is claimed. This record does not establish GRI immunity from intrusion.
