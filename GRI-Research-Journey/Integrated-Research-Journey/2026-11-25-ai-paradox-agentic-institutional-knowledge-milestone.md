@@ -118,3 +118,23 @@ These are extension identifiers, not replacements for the October manuscript pro
 ### Synthesis
 
 The four dimensions are technological capability, institutional authority, human experience and economic value. Capital finances infrastructure; infrastructure enables delegation; delegation reorganizes work and feedback; human and institutional consequences determine legitimacy and sustainable value. Feedback from each layer can reshape the others. The central question is whether these capacities coevolve, not whether machines replace relationships in every workplace. The 1990s practitioner antecedent, 2021 onward research, 2025 author publication and dated 2026 academic and engineering records provide a chronology, not proof of historical priority. This is an integrated extension of the existing GRI milestone; no new project, engineering, dashboard deployment, independent certification or peer review.
+
+
+## Institutional power, adversarial organization and independent assurance | November 25, 2026
+
+This conceptual milestone consolidates the existing algorithmic management, AI Paradox, Black Box Paradox and Tiger Legacy research. Management is an organizational function, not a guarantee of lawful or ethical purpose. AI can amplify coordination, knowledge transfer and delegated execution in legitimate and adversarial organizations alike. The institutional significance is the relationship between organizational capability, authorization and accountability, not attribution of particular incidents.
+
+| Existing framework | Integrated contribution |
+| --- | --- |
+| Algorithmic management | Allocation of authority, work, resources and organizational knowledge. |
+| AI Paradox | Potential divergence between execution capacity and governance capacity. |
+| Black Box Paradox | Limits of internal understanding and external independent verification. |
+| Tiger Legacy | Authorized assurance, cybersecurity, evidence integrity and corrective accountability. |
+
+**Institutional proposition:** Artificial intelligence amplifies organizational capacity without inherently conferring legitimacy. Institutional mechanisms for authorization, verification, accountability and correction must address the consequences of that amplification. This extends the existing institutional power amplification framework and its Nelson informed analysis of actors, interests, rules, effective power and capacity.
+
+**Evidence continuity:** The November 25 Driver A availability reversal (documented in the longitudinal research update proposed in [PR 156](https://github.com/BazeletDave/ConsciousAI/pull/156)) illustrates the distinction between observable system behavior and inaccessible decision logic. The existing institutional and cybersecurity evidence records provide separate contexts for organizational resilience and assurance. Security incidents and service outages are not interchangeable; no attribution of AI involvement in a particular incident is required for this conceptual synthesis.
+
+**Assurance distinction:** Security protects authorized boundaries; transparency communicates relevant information; independent assurance evaluates evidence under appropriate authorization; accountability enables review and correction. These functions are complementary, not substitutes. Access does not guarantee understanding, and technical capability does not confer permission. Tiger Legacy remains a bounded defensive assurance research program, not a mechanism for unauthorized access to third party systems.
+
+**Milestone status:** Conceptual integration of the existing portfolio, not a new empirical finding about criminal organizations, a new research project or a new engineering milestone. Existing evidence qualifications and frozen assurance artifacts remain unchanged. No new external testing, deployment, incident attribution or certification is asserted.
