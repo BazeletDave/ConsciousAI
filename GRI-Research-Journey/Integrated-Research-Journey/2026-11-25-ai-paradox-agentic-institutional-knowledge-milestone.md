@@ -64,3 +64,57 @@ Evaluate net institutional value as avoided task costs plus attributable benefit
 ## Evidence and publication boundary
 
 The milestone is convergence of independently developed GRI questions and subsequently published corporate evidence, not confirmation of all AI Paradox hypotheses. Corporate metrics remain self reported. No proprietary Uber access, external system testing, new experiment, new project, engineering, deployment, live data ingestion, certification, university endorsement or independent replication is claimed. The historical research and frozen assurance artifacts remain intact. This record is a bounded extension of the existing portfolio.
+
+
+## Integrated global management synthesis | November 25, 2026
+
+### Historical continuity: Grand Advertising and the executable workflow
+
+The [historical leadership case](../Human-Leadership-to-Algorithmic-Management/README.md) records founder reported Grand Advertising practices: morning training, standardized sales steps, direct field observation, mentoring, promotion through developing leaders and replication across markets. Its earlier WWI predecessor is separately identified, including an archived 1993 newsletter; Grand Advertising history is not interchangeable with WWI history. These records are practitioner antecedents, not formal GRI research before 2021 or verified causal results. AI reconstructed imagery is illustrative only.
+
+The comparison is not human relationships versus rules. Grand Advertising already combined procedures, performance measures and human mentorship. Uber's November 23 disclosure shows procedures increasingly encoded as agent instructions, with execution traces, review and revision. The shared organizational problem is transfer of competence and replication of reliable execution. The discontinuity is the speed, reach and location of execution and supervisory authority.
+
+| Mechanism | Grand Advertising (reported practice) | Uber (corporate disclosure) | Research question |
+| --- | --- | --- | --- |
+| Knowledge transfer | Training and mentoring | Reusable skill instructions | What contextual knowledge survives codification? |
+| Performance observation | Field coaching and results | Execution telemetry and evaluation | Which valuable or harmful outcomes remain invisible? |
+| Corrective feedback | Human dialogue and coaching | Structured friction reporting and reviewed revisions | Who can raise concerns and obtain remedies? |
+| Replication | Leadership development and new offices | Versioned skills distributed across agents | Does accountability scale alongside execution? |
+| Authority | Managerial discretion within a standardized system | Human owners delegate bounded workflows | Who can authorize exceptions, revise or revoke instructions? |
+
+### Human and organizational dimension
+
+Treat employment relationship, work location and team cohesion as separate variables rather than mutually exclusive groups. Internal employees may experience reduced repetitive work alongside monitoring pressure; platform workers may face opaque allocation and limited access to decision makers; remote employees may face isolation or enjoy autonomy; cohesive teams may use automation to support cooperation or may suppress dissent through conformity. These are competing mechanisms, not observed population rankings.
+
+Distinguish interpersonal trust, institutional trust and calibrated reliance on machines. Psychological safety concerns speaking up about mistakes and uncertainty, not the absence of performance standards. Cross cultural leadership requires attention to context, power distance, communication norms and trust formation; do not infer an individual's preferences from nationality. Preserve human dialogue and escalation alongside automated reporting. Compare internal workflow owners and platform workers without treating agents as human rights holders or assuming identical legal relationships.
+
+### Financial and global institutional dimension
+
+The [existing capital and infrastructure research](2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md) supplies the economic evidence architecture. Goldman Sachs Research's August 7 [global investment analysis](https://www.goldmansachs.com/insights/articles/global-investment-is-forecast-to-exceed-1-trillion-in-2026) distinguishes approximately USD 800 billion in forecast US hyperscaler companywide capex from its estimate of USD 1 trillion in worldwide AI related investment in 2026. Its November [investment cycle report](https://www.goldmansachs.com/pdfs/insights/goldman-sachs-research/is-the-ai-investment-cycle-durable/TOM-AI-investment-sustainability-redacted.pdf) identifies consensus estimates around USD 800 billion for 2026 and USD 1.15 trillion for 2027. These are forecasts, not audited expenditures, and differing investment scopes must not be summed. Financial dependence, infrastructure bottlenecks, energy allocation and cross border institutional capacity are potential moderators.
+
+[SAP's October 6 announcement](https://news.sap.com/2026/10/sap-to-acquire-techwolf-evidence-based-work-age-of-ai/) and [November 16 completion notice](https://news.sap.com/2026/11/sap-completes-acquisition-of-techwolf/) document its acquisition of TechWolf and intended integration of workforce and task intelligence. Deal terms were not disclosed. Compare Uber's workflow execution with SAP's intended work and skills planning: both affect organizational knowledge, but intended capabilities are not demonstrated labor outcomes. The wider semiconductor estimates, Anthropic listing and SpaceX/xAI, Anysphere and AMD/World Labs transaction figures supplied during discussion remain candidate observations pending source specific verification in this record. No unverified amounts enter the quantified analysis.
+
+### Academic foundations and construct validity
+
+Use the existing [faculty scholarship crosswalk](faculty-public-scholarship-ai-paradox-crosswalk.md) and the [Nelson methodological boundaries](nelson-model-methodological-boundaries.md). Nelson (2009) provides the institutional political economy lens; Guthrie (1999) informs organizational rationalization; North (1990) distinguishes formal and informal institutional structures. These are scholarly foundations, not endorsements or findings about Uber. Thunderbird graduate learning informs independent GRI application; no claim is made about the precise 1990s curriculum.
+
+Mayer, R. C., Davis, J. H., & Schoorman, F. D. (1995). An integrative model of organizational trust. *Academy of Management Review, 20*(3), 709–734. https://doi.org/10.5465/amr.1995.9508080335 (bibliographic record and abstract checked November 25). Use to distinguish trust from risk, control and observed reliability.
+
+Additional established literature for construct operationalization, listed as bibliographic leads pending full source inspection in this extension: Edmondson (1999), Psychological safety and learning behavior in work teams, *Administrative Science Quarterly, 44*(2), 350–383, https://doi.org/10.2307/2666999; Kellogg, Valentine & Christin (2020), Algorithms at work: The new contested terrain of control, *Academy of Management Annals, 14*(1), 366–410, https://doi.org/10.5465/annals.2018.0174; House et al. (2004), *Culture, Leadership, and Organizations: The GLOBE Study of 62 Societies*, Sage; Deci & Ryan (2000), The what and why of goal pursuits, *Psychological Inquiry, 11*(4), 227–268, https://doi.org/10.1207/S15327965PLI1104_01. Do not attribute precise effect estimates without inspecting the original studies.
+
+### Unified hypotheses and empirical design
+
+| Proposed extension hypothesis | Observable and unit of analysis | Rival explanation / disconfirming evidence |
+| --- | --- | --- |
+| GRI-H1: Execution capacity may outpace assurance capacity | Workflow release cohort: consequential actions, verified reviews, unresolved exceptions, correction latency | Governance capacity scales proportionally and unauthorized rates do not increase |
+| GRI-H2: Relational trust moderates the effect of algorithmic control on autonomy and learning | Worker or team: validated trust/autonomy measures, monitoring intensity, error disclosure and remedy outcomes | Work design, compensation or selection explains association; no interaction effect |
+| GRI-H3: Feedback access differs across organizational relationships | Eligible disputed decisions: access to reasons, escalation, resolution time and effective remedy; stratify by contract and jurisdiction | Comparable or superior worker remedy access; differences explained by task or privacy constraints |
+| GRI-H4: Codification improves routine execution more than high ambiguity execution absent contextual review | Matched workflow cases: completion, errors, authorized deviations, rework and contextual appropriateness | Equivalent or stronger ambiguous task performance without extra oversight |
+| GRI-H5: AI capital and adoption may grow faster than risk adjusted realized economic value | Firm and year: cash expenditure, incremental cash flows, ROIC, review costs and time to value | Investment lags and intangible assets explain gap; sustained risk adjusted returns converge |
+| GRI-H6: Institutional concentration may increase dependency without proportional social benefit | Sector/jurisdiction: ownership, switching costs, supplier alternatives, labor income and public infrastructure costs | Entry, interoperability and measured broad gains offset dependency |
+
+These are extension identifiers, not replacements for the October manuscript propositions. Use existing longitudinal dossiers and synthetic protocols. Historical case process tracing, matched field comparisons, separately consented surveys or interviews if authorized, and firm level financial panels are complementary methods; no new study is commissioned by this documentation. Predefine denominators, time windows, controls, uncertainty, missingness and ethics constraints before testing. Separate association from causation and founder observations from independent measurements.
+
+### Synthesis
+
+The four dimensions are technological capability, institutional authority, human experience and economic value. Capital finances infrastructure; infrastructure enables delegation; delegation reorganizes work and feedback; human and institutional consequences determine legitimacy and sustainable value. Feedback from each layer can reshape the others. The central question is whether these capacities coevolve, not whether machines replace relationships in every workplace. The 1990s practitioner antecedent, 2021 onward research, 2025 author publication and dated 2026 academic and engineering records provide a chronology, not proof of historical priority. This is an integrated extension of the existing GRI milestone; no new project, engineering, dashboard deployment, independent certification or peer review.
