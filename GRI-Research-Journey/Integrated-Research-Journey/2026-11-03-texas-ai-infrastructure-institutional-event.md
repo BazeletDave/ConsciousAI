@@ -310,3 +310,24 @@ This analytical matrix extends the existing institutional event assessment. It d
 **Boundaries for subsequent interpretation.** Preserve metric definitions and reporting dates; distinguish proposed, permitted, financed, constructed, and operating capacity; separate stock-market valuation from cash flows and accounting losses; document rival explanations for any observed management decision. A conclusion should advance only as far as its public evidence supports. Confidential GRI intellectual property, institutional relationships, review arrangements, and internal procedures are outside the publication scope.
 
 **Consolidated status (November 6, 2026):** Institutional decision mechanisms and their potential capital allocation implications are analytically established within the existing research framework. Project-specific financial consequences and election-related causation remain open empirical questions, not verified results.
+
+
+## November 25, 2026 | Tesla physical infrastructure and autonomous mobility observation
+
+**Evidence status:** Nine user-supplied aerial photographs received November 25, 2026. Capture dates, photographer, publication rights and independent geolocation are not established. The campus appears consistent with Gigafactory Texas; the images are not republished pending provenance and rights verification. This is a descriptive observation, not an independently verified operational finding.
+
+| Visible evidence | Research relevance | Not established |
+| --- | --- | --- |
+| Rows of gold Cybercab-style vehicles | Potential fleet preparation and asset ownership | Production rate, deployment, autonomy readiness |
+| Cybertruck-style vehicles and vehicle staging | Manufacturing and logistics | Sales, inventory turnover, utilization |
+| Charging equipment and parked vehicles | Electrification and fleet continuity | Charging throughput or operational availability |
+| Electrical substation and adjacent civil works | Energy and institutional dependencies | Load, ownership, project purpose or grid capacity |
+| Large steel-frame construction and industrial campus | Physical capital expansion | Building purpose, cost, completion or commissioning |
+
+**Institutional interpretation:** The existing Nelson institutional framework connects location-specific capital, energy access, regulatory authority and corporate strategy. Tesla provides a comparative organizational model for the existing Uber/Lyft longitudinal research: platform management of distributed human labor versus potential integrated management of autonomous corporate assets. This is a conceptual contrast, not evidence of realized labor displacement or comparative profitability. Manufacturing, computing, energy, software, dispatch and data may become increasingly integrated; the photographs do not establish the degree of integration.
+
+**AI Paradox and Black Box Paradox:** Physical capacity can expand without a corresponding increase in external visibility into dispatch, safety decisions, incident reporting or contestability. This is a testable governance proposition, not a demonstrated failure at Tesla. Tiger Legacy provides an existing independent assurance lens for authorized evidence review, operational resilience and accountable human oversight; no testing of Tesla systems is asserted or authorized.
+
+**Verification gate:** Consult Tesla investor relations (https://ir.tesla.com/) and SEC issuer filings (https://www.sec.gov/edgar/browse/?CIK=1318605) for dated production, installed capacity and capital disclosures; reconcile facility-specific claims with applicable public permits and utility records. The previously cited FY2025 Form 10-K in this record provides historical context, not proof of November 2026 operational status. Do not publish unverified quarterly capacity or power figures, infer project identities from appearance, or equate parked vehicles with an operating fleet. Record original source, capture date, rights, and corroboration before publishing photographs or upgrading evidence status.
+
+**Scope:** Documentation only, within the existing Texas infrastructure, AI Paradox, Black Box Paradox, algorithmic management and assurance research. No new project, software, dashboard deployment, README change or causal claim.
