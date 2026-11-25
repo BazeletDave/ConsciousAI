@@ -67,6 +67,26 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 **Comparative research discipline:** Treat FinCEN as an institutional case with documented policy adaptation, Microsoft/OpenAI as service-degradation comparators, and CrowdStrike as a documented defective-update comparator. Avoid pooling them as attacks or attributing AI causation. Use the existing prospective synthetic protocol only if separately authorized; no new test, deployment or dashboard ingestion has occurred. Retain source links and refresh only upon substantive official updates.
 
+### Institutional accountability under degraded infrastructure | evidence and temporal authority
+
+**Primary-source recheck (November 25, 2026):** [FinCEN order](https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf), [Federal Reserve SR 26-10](https://www.federalreserve.gov/supervisionreg/srletters/SR2610.htm), [NCUA joint statement](https://ncua.gov/newsroom/press-release/2026/joint-statement-supervisory-policy-bank-secrecy-act-reporting-response-service-disruption) and [OCC Bulletin 2026-59](https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-59.html) establish distinct monitoring, reporting, exception and supervision functions. The NCUA publication dates the joint statement November 24; Federal Reserve and OCC notices are dated November 25. Preserve each publication date separately. Supervisors advise recording affected filings and attempted submission dates. Monitoring continues; the unaffected urgent hotline is not a general replacement for required filings. Reuters reports ongoing forensic evaluation; AI causation and full restoration remain unknown.
+
+**Temporal governance:** Model an obligation as a versioned relationship among applicable rule, authorized issuer, eligible subject, reporting channel, original deadline, revised deadline, exception scope and evidence of fulfillment. Time-bound relief must not be confused with permanent revocation of an obligation. The December 30 deadline is the current documented endpoint, subject to authorized modification. Compare with existing GRI research on authority expiry, revocation and human intervention; statutory relief is not equivalent to software authorization or a cryptographic credential.
+
+| Evidence dimension | Required observation | Claim boundary |
+| --- | --- | --- |
+| Legal continuity | Applicable rule, order version, scope and expiry | No general suspension of BSA obligations |
+| Operational continuity | Authorized workflow completion and submission acknowledgments | Availability does not prove integrity |
+| Information continuity | Timestamped notices, attempted filing records and reconciliation | No inference of missing intelligence from delayed filings alone |
+| Accountability continuity | Named institutional decision role, applicable exception and review evidence | No attribution of individual wrongdoing |
+| Recovery completeness | Sustained access, integrity verification and eligible backlog reconciliation | Restoration of service alone is insufficient to establish full institutional recovery |
+
+**Research design refinement:** Distinguish incident time, discovery time, public disclosure time, policy effective time and recovery time. For every measure retain source and observation date; unknown times remain missing. Compare matched deadline cohorts and eligible versus unaffected reporting channels only if aggregate, lawful, appropriately deidentified data become available. Selection into channels, filing volume, seasonal variation, reporting type and organizational resources may confound results. A single incident cannot establish a general causal effect. Do not collect confidential SARs, individual identities or regulated transaction records. No data acquisition or experiment is initiated.
+
+**Governance implication for AI agents:** A prospective agent operating within an authorized institutional workflow must distinguish unavailable service from denied permission, must not invent exemptions, and should preserve the applicable policy version and escalate time-sensitive exceptions to authorized humans. These are normative design requirements mapped to existing Tiger Legacy concepts, not evidence of deployed functionality or AI involvement in FinCEN. Compare with platform workers' limited visibility into changing rules while preserving distinct legal regimes. The central research question is whether responsibility, decision rights, information and remedies remain aligned under disruption.
+
+**Evidence maturity and closure:** The official order and joint supervisory policy establish actual institutional adaptation, not independently demonstrated recovery effectiveness. Domain-specific outcomes (financial intelligence timeliness, economic costs and continuity effectiveness) remain hypotheses. Preserve the existing research and frozen assurance baselines; no new project, software, dashboard ingestion or operational control is introduced.
+
 ## November 25, 2026 | OpenAI service disruption and institutional continuity
 
 **Evidence status:** Confirmed provider service degradation; mitigation and recovery monitoring reported. Root cause, complete restoration, customer-level financial losses and malicious attribution remain unestablished in the reviewed incident record.
