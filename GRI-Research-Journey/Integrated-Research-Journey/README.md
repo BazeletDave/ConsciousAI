@@ -13,6 +13,36 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 **November 3, 2026 institutional milestone:** [Model learning, managerial cognition and AI Paradox governance synthesis (PDF)](GRI%202026%2011%3A03%20Institutional_AI_Paradox_Milestone.pdf). This archival research synthesis extends existing algorithmic management and institutional assurance work. Conceptual integration is distinct from empirical validation; November 4 engineering and independent reproduction remain pending.
 
+## November 24–25, 2026 | FinCEN cyber incident and regulatory continuity
+
+**Status:** Developing, source-qualified institutional evidence extension; not a new project or assurance result.
+
+**Documented evidence:** FinCEN disclosed unauthorized access to a limited subset of systems and precautionary isolation. Treasury is working with FBI, CISA and external forensic examiners. Reuters reported no evidence at the time of compromise of BSA or beneficial ownership databases; this is a provisional finding, not proof of absence. Entry mechanism, attribution, AI involvement, data exfiltration and full restoration remain unknown.
+
+**Primary institutional record:** Order FIN-2026-R002, issued November 24 under 31 U.S.C. § 5318(a)(7) and 31 C.F.R. § 1010.970, provides limited relief for qualifying submissions due November 18 through December 29, with filing due December 30. For BSA reports, eligibility is restricted to institutions using Secure Data Transfer Mode as of November 18. Other AML/CFT obligations, including ongoing suspicious transaction monitoring, remain in force. Covered beneficial ownership and identifier submissions are also addressed. The order cites service disruption rather than specifying a cyber root cause; the causal relationship between individual filing failures and the intrusion is not established by the order alone. Urgent reporting retains a hotline alternative, which should not be treated as a substitute for all filing obligations.
+
+**Institutional interpretation:** Applying the existing Nelson institutional lens, distinguish formal regulatory authority, technical control over availability, regulated organizations' responsibility and the capacity to exercise discretion under disruption. The order illustrates a documented adaptation of administrative obligations to impaired infrastructure, not suspension of the underlying regulatory mandate. GRI's central proposition is that shared digital dependencies can transfer operational burdens to institutions that lack authority to restore the underlying service. The distribution and magnitude of those burdens are unmeasured.
+
+| Existing research lens | Bounded extension |
+| --- | --- |
+| AI Paradox | Compare technological dependency with institutional capacity to govern, verify and maintain continuity; no AI causation asserted. |
+| Black Box Paradox | Examine asymmetry in access to incident scope, recovery information and evidence between operators and regulated entities. Limited disclosure may be justified by security; opacity alone is not misconduct. |
+| Algorithmic management | Distinguish automated filing workflows from authorized human decisions on exceptions, escalation and prioritization; no evidence of algorithmic incident command. |
+| Treasury institutional governance | Compare regulatory authority and service availability with the existing Treasury assurance research; this is a distinct incident, not evidence of a TTB compromise. |
+| Tiger Legacy | Map independent evidence integrity, authorized containment, fallback channels and recovery verification to existing assurance concepts; no control effectiveness or certification claimed. |
+
+**Comparative method:** Compare FinCEN with the existing Microsoft, CrowdStrike and OpenAI records along failure classification, decision authority, dependency concentration, authorized fallback and evidence maturity. Separate malicious intrusion from service degradation and technical defects; temporal proximity is not evidence of common causation. FinCEN offers a distinct observable outcome: a formal change to reporting deadlines. It does not establish systemic financial loss or market disruption.
+
+**Prospective measurement within existing assurance methods:** Record affected critical workflows over total mapped workflows; alternate channel task completion over eligible tasks; elapsed time to authorized escalation; pending filings and backlog clearance over eligible filings; documented regulatory accommodations; and time to sustained verified restoration. Preserve denominators, timestamps, source provenance, missing observations and alternative explanations. No figures are asserted without evidence. A counterexample to the dependency proposition would be equivalent completion of statutory workflows through authorized alternatives without material delay or loss of integrity. No live testing, scanning, production changes or new experiments are authorized.
+
+**Leadership implications:** Map filing and vendor dependencies; preserve timestamped submission receipts and errors; maintain monitoring obligations; confirm eligibility for relief with compliance counsel; use authorized communication routes; reconcile backlogs after restoration. These are proposed governance practices, not claims about actual institutional implementation.
+
+**Closure criteria:** Seek official confirmation of restoration, subsequent orders, scope and forensic findings; distinguish service availability from data integrity and confidentiality. Update the evidence record only against attributable sources. The frozen Tiger Legacy review record, dashboard and production systems remain unchanged.
+
+**Sources:** [FinCEN Order FIN-2026-R002, November 24](https://www.fincen.gov/sites/default/files/100/ORDER-FIN-2026-R002.pdf) (primary regulatory evidence); [Reuters, November 25](https://www.reuters.com/world/us-fincen-takes-some-systems-offline-after-cyber-incident-official-says-2026-11-25/) (official statement and investigation status); [Financial Times, November 25](https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291) (corroborating reporting).
+
+**Existing cross references:** [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md) · [Institutional AI Governance and Assurance](../institutional-ai-governance-assurance/README.md) · [Nelson methodological boundaries](nelson-model-methodological-boundaries.md).
+
 ## November 25, 2026 | OpenAI service disruption and institutional continuity
 
 **Evidence status:** Confirmed provider service degradation; mitigation and recovery monitoring reported. Root cause, complete restoration, customer-level financial losses and malicious attribution remain unestablished in the reviewed incident record.
