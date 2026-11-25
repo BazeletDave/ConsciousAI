@@ -13,6 +13,18 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 **November 3, 2026 institutional milestone:** [Model learning, managerial cognition and AI Paradox governance synthesis (PDF)](GRI%202026%2011%3A03%20Institutional_AI_Paradox_Milestone.pdf). This archival research synthesis extends existing algorithmic management and institutional assurance work. Conceptual integration is distinct from empirical validation; November 4 engineering and independent reproduction remain pending.
 
+## November 25, 2026 | OpenAI service disruption and institutional continuity
+
+**Evidence status:** Confirmed provider service degradation; mitigation and recovery monitoring reported. Root cause, complete restoration, customer-level financial losses and malicious attribution remain unestablished in the reviewed incident record.
+
+**Documented observation:** OpenAI reported elevated conversation errors affecting ChatGPT, ChatGPT Work and Codex Cloud threads. Contemporary Cybernews reporting identified user complaints in the UK and Germany; these are self-selected reports, not a measure of unique affected customers, geographic exclusivity or total outage severity. The provider subsequently reported mitigation and observed recovery while continuing its investigation. [OpenAI incident record](https://status.openai.com/incidents/01M898HVZGXFV2XC4775CG9GF8) · [OpenAI incident history](https://status.openai.com/history) · [Cybernews, November 25, 2026](https://cybernews.com/ai-news/openai-outage-chatgpt-codex/).
+
+**Institutional interpretation:** This bounded extension of the AI Paradox examines whether increasing reliance on shared AI services creates correlated exposure across managerial, analytical and software engineering workflows. Applying the existing Nelson institutional lens, distinguish provider authority over service restoration from customer responsibility for continuity, human decision rights, and fallback capacity. This is a GRI analytical proposition, not a demonstrated causal relationship or faculty endorsement. Compare with the Microsoft 365 and CrowdStrike cases below without assuming shared causation or equivalent failure mechanisms.
+
+**Existing assurance crosswalk:** The [Tiger Legacy research record](../Research-Governance/Tiger-Legacy/README.md) and [institutional assurance portfolio](../institutional-ai-governance-assurance/README.md) provide the appropriate existing framework. Relevant prospective measures include critical workflow completion without external AI, time to authorized human escalation, evidence availability, recovery stability and backlog clearance. Separate provider availability from local integrity and confidentiality; an outage does not establish intrusion, and a healthy local dashboard does not establish absence of compromise. No experiment, production verification, deployment or new control is claimed.
+
+**Closure criteria:** Update this record when the provider confirms sustained restoration and publishes any root-cause findings. Preserve uncertainty where evidence remains unavailable. No new research project or engineering work is introduced.
+
 ## November 12–13, 2026 | Microsoft 365 disruption and institutional dependency resilience
 
 **Status (November 13, 2026):** Dated, source-qualified incident observation within the existing AI Paradox, institutional governance and Tiger Legacy assurance research. Microsoft's final root-cause analysis and full restoration status are not established by the cited early reporting. No new project, operational control, independent test result or attribution of malicious activity is claimed.
