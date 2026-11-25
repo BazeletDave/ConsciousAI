@@ -1,12 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-25T08:31:18.845601+00:00",
+  "generated_at": "2026-11-25T19:15:09.320056+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
       "source_id": "EU-COMMISSION-NEWS",
-      "status": "failed",
-      "error_type": "TimeoutError"
+      "status": "fetched",
+      "items": 10,
+      "method": "rss_atom"
     },
     {
       "source_id": "UK-DfT",
@@ -27,6 +28,162 @@
     }
   ],
   "queue": [
+    {
+      "id": "5c22f7d9076ed0ae9489",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by President von der Leyen with President Costa following the EU-Western Balkans Summit",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2591",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "773852bd810156685f58",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by Commissioner Lahbib at the European Parliament on Combating Gender-Based Violence in the Age of Digital Technology",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2590",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "a9eff28a25494a8606e9",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "0fd452bf19227327fc3e",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Executive Vice-President Virkkunen on the Quantum Act",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2588",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "9e6ed12851eb63d47517",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Keynote speech by Commissioner Kubilius on Defence Readiness in the EU Military Committee meeting at the level of Chiefs of Defence",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2586",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "799132444c4dc7040632",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Commissioner Serafin during the European Parliament debate Unlocking the 2028\u20132034 MFF negotiations including new own resources following the revised negotiating box in Strasbourg",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2585",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "406ad7a116cbac0ea34f",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Daily News 25 / 11 / 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/mex_26_2584",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "584f4c0c94a77f03d69e",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by Commissioner Dombrovskis at the European Parliament on the EU's support for Ukraine",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2583",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "6a1fd192e012af167083",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Remarks by Commissioner Dombrovskis at Eurochambres meeting",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2582",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "2a3543c6a4aec89a6776",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Speech by President von der Leyen at the European Parliament plenary debate on Europe's role and capacity to protect the international order and secure a just and lasting peace for Ukraine",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2580",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "fc31550bc9c17e519c91",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Guidance: Electric vehicle charging infrastructure statistics information",
+      "source_url": "https://www.gov.uk/government/publications/electric-vehicle-charging-device-statistics-information",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "d5c46474e57060d123c1",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Electric vehicle charging infrastructure statistics: data tables (EVCI)",
+      "source_url": "https://www.gov.uk/government/statistical-data-sets/electric-vehicle-charging-infrastructure-statistics-data-tables-evci",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
+    {
+      "id": "d2468acfeecbdb301008",
+      "source_id": "UK-DfT",
+      "publisher": "UK Department for Transport",
+      "jurisdiction": "UK",
+      "category": "international_regulatory",
+      "title": "Official Statistics: Electric vehicle charging infrastructure statistics: 1 October 2026",
+      "source_url": "https://www.gov.uk/government/statistics/electric-vehicle-charging-infrastructure-statistics-1-october-2026",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "98f1ac8eeb16f233bb44",
       "source_id": "UK-DfT",
@@ -227,42 +384,6 @@
       "category": "international_regulatory",
       "title": "Devolving Transport and Works Act order powers",
       "source_url": "https://www.gov.uk/government/consultations/devolving-transport-and-works-act-order-powers",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "da639a68fb1302c23116",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Decision: A457 Grove Lane / B4135 Cranford Street highway improvement scheme compulsory purchase order",
-      "source_url": "https://www.gov.uk/government/publications/a457-grove-lane-b4135-cranford-street-highway-improvement-scheme-compulsory-purchase-order",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "0e56e30ad9fcbe707345",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Research: Evaluating the feasibility of the freight innovation fund",
-      "source_url": "https://www.gov.uk/government/publications/evaluating-the-feasibility-of-the-freight-innovation-fund",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "0f5209b89107bc94ba32",
-      "source_id": "UK-DfT",
-      "publisher": "UK Department for Transport",
-      "jurisdiction": "UK",
-      "category": "international_regulatory",
-      "title": "Guidance: Channel Tunnel (security) order annual report",
-      "source_url": "https://www.gov.uk/government/publications/channel-tunnel-security-order-annual-report",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -604,6 +725,6 @@
       "publication_authorized": false
     }
   ],
-  "review_required": 44,
+  "review_required": 54,
   "notice": "Publisher metadata and official index links are unreviewed. Discovery does not establish article accuracy, legal force, or independent verification; no trained ML classification."
 }
