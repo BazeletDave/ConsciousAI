@@ -240,3 +240,7 @@ This section applies the preceding negotiation lens to existing GRI cases. It do
 **Evaluation design:** For each existing case, specify decision maker, delegated authority, counterpart, information held by each party, viable BATNA, resistance threshold, measurable costs, review path and time horizon. Test rival hypotheses that standardization lowers bargaining costs, that AI increases participant information, and that documented human review changes outcomes. Do not treat automated CI passes as independent peer review.
 
 **Synthesis:** The institutional AI Paradox is most salient where the capacity to set and execute terms at scale grows faster than the capacity of affected parties to understand, negotiate, refuse and correct those terms. This remains a falsifiable cross-case proposition, not a generalized finding about the named firms.
+
+## November 25, 2026 | AI Paradox research convergence
+
+[Institutional knowledge, agentic management and organizational authority](../Integrated-Research-Journey/2026-11-25-ai-paradox-agentic-institutional-knowledge-milestone.md) integrates the November 23 Uber Engineering disclosure with the existing longitudinal, institutional and assurance research. Corporate evidence is distinguished from GRI hypotheses and independent validation. No new project or engineering change.
