@@ -321,3 +321,26 @@ The Apple case already documents primary source references including [FY2025 SEC
 **Comparative unit:** distinguish board authorization, executive strategy, managerial implementation and individual affected-party outcomes. Compare authority, incentives, information access and correction across these levels without conflating them. The existing Apple and NVIDIA records support a more developed documentary comparison than a purely hypothetical executive example, while algorithmic causality remains unestablished.
 
 **Search limitation:** Default-branch text searches did not locate exact matches for Welch, Sandberg or Enron; Gates results were unrelated. This is not evidence of absence from PDFs or other unindexed material. Do not duplicate or claim exhaustive review of those archives. The ambiguous Johnson reference remains unresolved.
+
+
+### Leadership across corporate and political institutions
+
+The existing Apple and China case provides a historical bridge between executive strategy, organizational learning, industrial capacity and political economy. Its documentary record distinguishes Tim Cook's executive leadership context from Doug Guthrie's documented Apple University organizational development role in Shanghai (2014–2019). It does not establish a personal reporting relationship, specific political influence or exclusive causal responsibility for national industrial development.
+
+The [Apple case](../Global-Leadership/Apple-China-Institutional-Leadership/README.md) records Apple's FY2025 Form 10-K, supplier disclosures, Patrick McGee's historical investigation and the University of Michigan institutional biography of Guthrie. The [NVIDIA case](../Integrated-Research-Journey/2026-11-23-nvidia-leadership-ai-infrastructure-governance.md) records a different institutional setting: board authority, issuer-attributed government input, semiconductor infrastructure and compliance oversight. Compare these as distinct cases, not as equivalent political or legal conduct.
+
+| Institutional interface | Leadership mechanism | Evidence required |
+| --- | --- | --- |
+| Corporate strategy and government policy | Investment decisions, regulatory negotiation and industrial policy | Dated filings, public policy instruments, documented commitments and actual implementation |
+| Executive education and organizational learning | Transfer of managerial capabilities, supplier development and institutional knowledge | Documented roles, training records, independent historical evidence and measurable outcomes |
+| Infrastructure and geopolitical dependence | Concentrated supply, substitution costs and cross-border exposure | Supply agreements, capacity data, trade rules and credible alternatives |
+| Political and corporate accountability | Distinct public mandates, fiduciary duties, oversight and review | Statutes, board mandates, regulatory decisions and exercised remedies |
+| Algorithmic and agentic management | Translation of authorized objectives into automated allocation and enforcement | Decision lineage, system documentation, observed outcomes and correction records |
+
+Apply the existing Roy C. Nelson institutional framework to examine competing explanations: market efficiency and mutual gains (liberalism), national strategic capacity (economic nationalism), and asymmetric dependence and distribution of power (structuralism). These are analytical perspectives, not partisan positions or mutually exclusive empirical conclusions.
+
+**Cross-level proposition:** Corporate and political institutions can become mutually dependent through investment, knowledge, infrastructure and regulation. Algorithmic systems may subsequently operationalize decisions within those institutional arrangements. The existence of a relationship does not establish improper influence, regulatory capture, shared intent or automated control.
+
+**Counterexamples and rival mechanisms:** Independent regulatory enforcement, credible supplier substitution, successful organizational learning, transparent governance and effective public remedies may constrain concentrated authority. Examine these alongside dependency risks.
+
+**Research continuity:** Connect this analysis to the existing [institutional power amplification framework](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md), [AI infrastructure financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), and the existing Apple, NVIDIA, Uber/Lyft and Tiger Legacy records. No new project, engineering, political endorsement or empirical causal finding is established. Historical executive examples without located case records remain prospective comparisons. External source authentication was not repeated for this extension.
