@@ -263,7 +263,7 @@ Kellogg, Valentine and Christin (2020) identify six mechanisms of algorithmic co
 | Tim Cook / Apple | Operational coordination, supply chains and delegated decisions | Connect to existing [Apple and China research](../Global-Leadership/Apple-China-Institutional-Leadership/README.md); verify specific computational controls |
 | Sheryl Sandberg / Facebook | Commercial incentives, advertising allocation and organizational scaling | Distinguish executive responsibility from specific algorithmic design; verify filings and technical disclosures |
 | Enron / Lay and Skilling | Performance incentives, information integrity and board oversight | SEC and congressional records document reporting failures; historical misconduct is not evidence of misconduct by other firms |
-| Jensen Huang / NVIDIA | Founder authority, succession, strategic infrastructure and institutional dependence | Comparative research lens only; no conclusion on current allegations, financing legality or reinstatement without dated primary evidence |
+| Jensen Huang / NVIDIA | Founder authority, succession, strategic infrastructure and institutional dependence | Existing [November 23 NVIDIA governance case](../Integrated-Research-Journey/2026-11-23-nvidia-leadership-ai-infrastructure-governance.md) records issuer-attributed succession and oversight disclosures; no conclusion on allegations or financing legality |
 | Government institutions | Administrative discretion, automated allocation and public accountability | Evaluate statutory authority, due process, procurement and actual remedies separately from commercial management |
 | Uber and Lyft | Dispatch, compensation, evaluation and contestability | Existing longitudinal observations do not establish undisclosed objectives, executive intent or causal effects |
 
@@ -300,6 +300,96 @@ Rival explanations include legitimate economies of scale, effective delegation, 
 3. US Congress (2002). The Financial Collapse of Enron, hearing record. https://www.govinfo.gov/content/pkg/CHRG-107hhrg77987/html/CHRG-107hhrg77987.htm
 4. NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework (normative reference; not certification).
 
-The Enron records and algorithmic control scholarship support the conceptual bridge, not empirical equivalence across cases. Other named executive examples remain research lenses pending individual source verification. No contemporary allegation is presented as a finding. No confidential research, graded coursework or proprietary assurance procedures are disclosed.
+The Enron records and algorithmic control scholarship support the conceptual bridge, not empirical equivalence across cases. Apple and NVIDIA have existing GRI documentary case records, reconciled below. Welch, Gates and Sandberg remain comparative lenses pending individual source verification. No contemporary allegation is presented as a finding. No confidential research, graded coursework or proprietary assurance procedures are disclosed.
 
 **Central GRI proposition:** Automation does not extinguish leadership responsibility; it changes the mechanisms, reach and observability of managerial authority. The institutional challenge is to preserve effective accountability as execution capacity expands.
+
+
+### Existing case evidence reconciliation | November 25, 2026
+
+This crosswalk uses existing GRI records rather than duplicating case studies. Repository review confirms the recorded evidence and attribution, not independent retrieval or authentication of every external source.
+
+| Existing case record | Recorded evidence and source provenance | Leadership implication and limitation |
+| --- | --- | --- |
+| [NVIDIA leadership and infrastructure governance, November 23](../Integrated-Research-Journey/2026-11-23-nvidia-leadership-ai-infrastructure-governance.md) | Dated issuer announcements of November 12 and 23, fiscal Q3 financial presentation, board reinstatement, reported independent directors' investigation and proposed compliance structures | Formal board authority and executive continuity are distinct from completed independent assurance. No inference of guilt, exoneration, illegal revenue or systemic collapse. |
+| [Apple and China institutional leadership](../Global-Leadership/Apple-China-Institutional-Leadership/README.md) | Apple FY2025 Form 10-K, Patrick McGee's published investigation, Apple supplier disclosures and University of Michigan documentation of Doug Guthrie's Apple University role | Executive learning, industrial coordination and supplier capabilities may create both efficiencies and dependency. Do not infer personal responsibility for specific algorithms or exclusive causation of China's industrial development. |
+| [Uber engineering and operational management](./Uber-Engineering-AI-Paradox-Operational-Management-2026.md) and [longitudinal platform research](../Algorithmic-Management/Uber-Lyft-Research/README.md) | Existing monograph index identifies company engineering disclosures and paired field observations as distinct evidence classes | Compare executive delegation with operational decision authority; field observations do not establish hidden objectives or intent. |
+| [Accelerating AI Governance Paradox](../institutional-ai-governance-assurance/accelerating-ai-governance-paradox-living-research-framework.md) | Existing conceptual framework for assurance lag | Provides a testable governance mechanism, not an independently validated causal result. |
+
+The Apple case already documents primary source references including [FY2025 SEC filing](https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm) and [University of Michigan institutional biography](https://icos.umich.edu/lecture/doug-guthrie-thunderbird-school-of-global-management/). The NVIDIA case records [issuer financial reports](https://investor.nvidia.com/financial-info/financial-reports/) and [issuer reinstatement statement](https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director). These links are inherited from the existing case records; their external contents were not freshly authenticated in this reconciliation.
+
+**Comparative unit:** distinguish board authorization, executive strategy, managerial implementation and individual affected-party outcomes. Compare authority, incentives, information access and correction across these levels without conflating them. The existing Apple and NVIDIA records support a more developed documentary comparison than a purely hypothetical executive example, while algorithmic causality remains unestablished.
+
+**Search limitation:** Default-branch text searches did not locate exact matches for Welch, Sandberg or Enron; Gates results were unrelated. This is not evidence of absence from PDFs or other unindexed material. Do not duplicate or claim exhaustive review of those archives. The ambiguous Johnson reference remains unresolved.
+
+
+### Leadership across corporate and political institutions
+
+The existing Apple and China case provides a historical bridge between executive strategy, organizational learning, industrial capacity and political economy. Its documentary record distinguishes Tim Cook's executive leadership context from Doug Guthrie's documented Apple University organizational development role in Shanghai (2014–2019). It does not establish a personal reporting relationship, specific political influence or exclusive causal responsibility for national industrial development.
+
+The [Apple case](../Global-Leadership/Apple-China-Institutional-Leadership/README.md) records Apple's FY2025 Form 10-K, supplier disclosures, Patrick McGee's historical investigation and the University of Michigan institutional biography of Guthrie. The [NVIDIA case](../Integrated-Research-Journey/2026-11-23-nvidia-leadership-ai-infrastructure-governance.md) records a different institutional setting: board authority, issuer-attributed government input, semiconductor infrastructure and compliance oversight. Compare these as distinct cases, not as equivalent political or legal conduct.
+
+| Institutional interface | Leadership mechanism | Evidence required |
+| --- | --- | --- |
+| Corporate strategy and government policy | Investment decisions, regulatory negotiation and industrial policy | Dated filings, public policy instruments, documented commitments and actual implementation |
+| Executive education and organizational learning | Transfer of managerial capabilities, supplier development and institutional knowledge | Documented roles, training records, independent historical evidence and measurable outcomes |
+| Infrastructure and geopolitical dependence | Concentrated supply, substitution costs and cross-border exposure | Supply agreements, capacity data, trade rules and credible alternatives |
+| Political and corporate accountability | Distinct public mandates, fiduciary duties, oversight and review | Statutes, board mandates, regulatory decisions and exercised remedies |
+| Algorithmic and agentic management | Translation of authorized objectives into automated allocation and enforcement | Decision lineage, system documentation, observed outcomes and correction records |
+
+Apply the existing Roy C. Nelson institutional framework to examine competing explanations: market efficiency and mutual gains (liberalism), national strategic capacity (economic nationalism), and asymmetric dependence and distribution of power (structuralism). These are analytical perspectives, not partisan positions or mutually exclusive empirical conclusions.
+
+**Cross-level proposition:** Corporate and political institutions can become mutually dependent through investment, knowledge, infrastructure and regulation. Algorithmic systems may subsequently operationalize decisions within those institutional arrangements. The existence of a relationship does not establish improper influence, regulatory capture, shared intent or automated control.
+
+**Counterexamples and rival mechanisms:** Independent regulatory enforcement, credible supplier substitution, successful organizational learning, transparent governance and effective public remedies may constrain concentrated authority. Examine these alongside dependency risks.
+
+**Research continuity:** Connect this analysis to the existing [institutional power amplification framework](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md), [AI infrastructure financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), and the existing Apple, NVIDIA, Uber/Lyft and Tiger Legacy records. No new project, engineering, political endorsement or empirical causal finding is established. Historical executive examples without located case records remain prospective comparisons. External source authentication was not repeated for this extension.
+
+### November 25, 2026 | Financial management and institutional leadership
+
+The existing finance and institutional scholarship is integrated through the linked financial sustainability analysis: Lena Booth's valuation and capital budgeting lens, Roy C. Nelson's Intel location case with Ted Telford as case participant, Doug Guthrie's organizational learning context, and newly reviewed IMF and Intel/NIST institutional records. The extension tests how capital commitments, policy, incentives and managerial delegation interact, without inferring individual motives or establishing causation.
+See the detailed [capital allocation and financial sustainability reconciliation](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md#november-25-2026--capital-allocation-leadership-incentives-and-institutional-capacity).
+
+
+### November 25, 2026 | Leadership discretion, commitment escalation and independent governance
+
+The [G20/OECD Principles of Corporate Governance 2023](https://doi.org/10.1787/ed750b30-en), chapters IV–VI, provide an independently consulted normative benchmark: disclosure, board oversight of strategy and capital expenditure, executive succession, remuneration aligned with longer-term interests, risk controls and sustainability. They are not universal binding law or evidence of company compliance. See [board responsibilities](https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report/component-8.html) and [sustainability and resilience](https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report/component-9.html).
+
+Integrate the existing financial sustainability analysis, Nelson's Intel location selection case, Apple organizational learning and NVIDIA governance records with a distinction between formal authority and effective discretion. Large commitments can create asset specificity, contractual exit costs and expectations that make changing course costly. This does not prove irrational escalation: continuing an investment may be economically justified by prospective cash flows, strategic options and credible new evidence.
+
+| Decision stage | Independent governance evidence | Failure mechanism to test |
+| --- | --- | --- |
+| Investment authorization | Incremental NPV, alternatives, risk appetite, approval record | Optimistic assumptions or omitted alternatives |
+| Executive incentives | Disclosed performance criteria, vesting horizons, recovery provisions | Metric mismatch or excessive short-term risk |
+| Implementation | Authorized objectives, system versions, delegated limits | Automated optimization diverges from intended objectives |
+| Review | Independent access to evidence, forecast-to-actual variance, scenario revisions | Information asymmetry or ineffective challenge |
+| Correction or exit | Prospective incremental cash flows, exit costs, documented override and remedies | Commitment escalation or practical inability to reverse |
+
+Do not count irrecoverable sunk expenditure as a prospective benefit of continuing a project; distinguish it from recoverable assets, future cancellation liabilities and option value. Compare revised prospective NPV of continuation, deferral, resizing and exit at each decision gate. Record whether review changes actual decisions rather than relying on policy existence.
+
+**Proposition:** Institutional assurance may weaken when the cost of challenging or reversing a strategic commitment grows faster than independent oversight capacity. Counterexamples include effective cancellation, revised capital allocations, credible succession, transparent review and successful remedies. No individual leader's motives or case-specific compliance conclusions are inferred.
+
+**GRI crosswalk:** [Financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), [Intel institutional context](../Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md), [Apple](../Global-Leadership/Apple-China-Institutional-Leadership/README.md), [NVIDIA](../Integrated-Research-Journey/2026-11-23-nvidia-leadership-ai-infrastructure-governance.md), and [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md). David A. Grand's independent synthesis; no new project, engineering, validated causal finding or faculty endorsement. OECD sources reviewed for this addition; historical case sources retain existing qualifications.
+
+
+### November 25, 2026 | Reciprocal dependence and effective institutional autonomy
+
+**David A. Grand | GRI independent synthesis.** Consolidate the preceding leadership, capital allocation and reversibility extensions into a comparative research design. No new research program or empirical result.
+
+The existing Nelson Intel site selection case, Apple organizational learning case, NVIDIA governance record, financial sustainability extension and Uber/Lyft observations motivate a distinction between formal decision rights and effective autonomy. Resource dependence theory provides a complementary scholarly lens: Pfeffer, J., and Salancik, G. R. (1978), *The External Control of Organizations: A Resource Dependence Perspective*. Staw, B. M. (1976), Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action, *Organizational Behavior and Human Performance*, 16(1), 27–44, https://doi.org/10.1016/0030-5073(76)90005-2. These bibliographic references are proposed scholarly anchors, not freshly authenticated sources or evidence that particular executives exhibit escalation.
+
+| Unit of analysis | Dependence to measure | Effective autonomy test |
+| --- | --- | --- |
+| Government and investor | Public incentives, employment concentration, fiscal exposure | Can terms be enforced or revised without unacceptable public costs? |
+| Board and executive | Succession capacity, information access, concentrated expertise | Can independent directors obtain evidence and exercise documented authority? |
+| AI buyer and supplier | Switching costs, contractual commitments, technical interoperability | Can workloads migrate or contracts be renegotiated under realistic constraints? |
+| Lender and borrower | Refinancing exposure, collateral, correlated counterparties | Can credit risk be reassessed independently of growth expectations? |
+| Platform and worker | Income concentration, alternatives, information and appeal access | Can an affected worker reject, challenge or obtain correction of a decision? |
+
+**Measurement discipline:** Record each actor, resource, direction of dependence, available substitutes, time to substitute, incremental exit cost, formal decision right, actual exercise and observed consequence. Compare within matched periods and jurisdictions. Do not aggregate unlike units into a numerical autonomy score without validated measurement and weighting. Missing evidence is unknown, not zero autonomy.
+
+**Competing hypotheses:** Reciprocal dependence may support credible commitments, productive specialization and shared learning; asymmetric dependence may constrain challenge or exit. Capital intensity alone does not distinguish these outcomes. Test against documented interventions, successful substitution, renegotiation, independent enforcement and remedies. Avoid inferring regulatory capture, executive intent or worker coercion from dependency alone.
+
+**Consolidated evidence chain:** financial resources and constraints → institutional bargaining → authorized objectives → managerial implementation → observed outcomes → independent review → exercised correction. Each arrow is a separate empirical claim requiring evidence. Existing case studies illuminate different segments, not a proven continuous causal chain.
+
+**Completion boundary:** Preserve the existing monograph and dated case records. The next empirical step is to populate this comparison using already authorized evidence, record missing observations and test rival explanations rather than continually expanding the conceptual framework. No operational dashboard changes, new collection or faculty endorsement. Cross-reference [financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), [global capital infrastructure](../Integrated-Research-Journey/2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md) and [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md).
