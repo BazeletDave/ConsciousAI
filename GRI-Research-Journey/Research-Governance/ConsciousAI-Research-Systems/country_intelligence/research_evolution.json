@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-26T03:33:41.288277+00:00",
+  "generated_at": "2026-11-26T16:53:10.932234+00:00",
   "mode": "evolving_repository_retrieval_with_governed_learning_candidates",
   "catalog_sha256": "5a83680d5b8d5e0486f2c35082e66dd61a6dc1f6d239d390a8dcde5d0f51fc6e",
   "document_count": 256,
@@ -8,12 +8,7 @@
   "changes": {
     "added": [],
     "removed": [],
-    "revised": [
-      "GRI-Research-Journey/Algorithmic-Management-Institutional-Leadership/README.md",
-      "GRI-Research-Journey/Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md",
-      "GRI-Research-Journey/Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md",
-      "GRI-Research-Journey/Integrated-Research-Journey/README.md"
-    ]
+    "revised": []
   },
   "documents": [
     {
@@ -1812,7 +1807,7 @@
   "evidence_connections": [
     {
       "record_id": "fdbba33cc5d84ec987fcb052",
-      "content_sha256": "7ca8915de5250925510c53ec476b7c49af92f1435de2b55456625d1dfba1cba7",
+      "content_sha256": "63b1ce1cd8e3ea25fe7e14701a2948440ac7a914a56f5c8cd5e0c90b13db3306",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -1869,7 +1864,7 @@
     },
     {
       "record_id": "fbcf8cec3c39749b49dee188",
-      "content_sha256": "867aec45fa44dd910b4597042b7f3b42516451bb6ae1cc512351c3e447aaa7f2",
+      "content_sha256": "ac95ec2e624e7250ed0a0a0ec2086b8210fd9342c32fb620e236ea0cf1cd23d0",
       "research": [
         {
           "path": "GRI-Research-Journey/Algorithmic-Management/Predictive-Modeling-and-Human-Decisions/README.md",
@@ -1934,6 +1929,30 @@
       ]
     },
     {
+      "record_id": "f38e17d83ecfa6f3e31cb131",
+      "content_sha256": "a4e93442b6e2e394dbdacde24be385d3b30680b7c644b630fbb3d03efd7598f1",
+      "research": [
+        {
+          "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
+          "title": "Brazil, Israel and the United States: comparative institutional intelligence",
+          "content_sha256": "8a188472c4dcfb0521207eb2b15a10610d4cac7c367c06ecb6112d7f74b92b2b",
+          "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
+          "status": "public_repository_document_not_independently_validated",
+          "similarity": 0.3243,
+          "relation": "suggested_research_connection_not_causation"
+        },
+        {
+          "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
+          "title": "United States: regulatory institutions, algorithmic management and the AI Paradox",
+          "content_sha256": "a2303dc1b60e8ae1977d166ecd257cf3c588d16e6426909fd937af9d5e95d379",
+          "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
+          "status": "public_repository_document_not_independently_validated",
+          "similarity": 0.3183,
+          "relation": "suggested_research_connection_not_causation"
+        }
+      ]
+    },
+    {
       "record_id": "e53313565538841959224b36",
       "content_sha256": "d37dbb77d079fdd79dc81c82d5b5691b3a4d2596307af52c6c1bead344fccad5",
       "research": [
@@ -1992,7 +2011,7 @@
     },
     {
       "record_id": "de3d3a58405cef75e233e43e",
-      "content_sha256": "d5ed970adb11eb1089b07b8256ce6b2229fd98e47308fa072bf660e051fd033b",
+      "content_sha256": "7edab2048baf4f7d360fb105f7e1789ebf50fb81b249c9496cb1ab5225cd8149",
       "research": [
         {
           "path": "GRI-Research-Journey/Institutional-Research-Reports/AI-Governance-Paradox/BLOCKCHAIN-CUSTODY-BINANCE-INCIDENT-2026-10-29.md",
@@ -2049,7 +2068,7 @@
     },
     {
       "record_id": "dae7ae854e9efe22071d442d",
-      "content_sha256": "2599b0f72965373a3fb174806cd02939405a1cb50df12cf35d4617a53fc9eda5",
+      "content_sha256": "4efa9179d62b21874cd6978607d46ffcc3404b36eeaf3866a231fd0fe5d0f8fe",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2067,6 +2086,30 @@
           "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
           "status": "public_repository_document_not_independently_validated",
           "similarity": 0.6007,
+          "relation": "suggested_research_connection_not_causation"
+        }
+      ]
+    },
+    {
+      "record_id": "d7423d81bf140cd18871743a",
+      "content_sha256": "253be78080731cbf624f4f88a7686eb30d4cade923f541e6fb352e15346cc14d",
+      "research": [
+        {
+          "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
+          "title": "Brazil, Israel and the United States: comparative institutional intelligence",
+          "content_sha256": "8a188472c4dcfb0521207eb2b15a10610d4cac7c367c06ecb6112d7f74b92b2b",
+          "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
+          "status": "public_repository_document_not_independently_validated",
+          "similarity": 0.3903,
+          "relation": "suggested_research_connection_not_causation"
+        },
+        {
+          "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
+          "title": "United States: regulatory institutions, algorithmic management and the AI Paradox",
+          "content_sha256": "a2303dc1b60e8ae1977d166ecd257cf3c588d16e6426909fd937af9d5e95d379",
+          "url": "https://github.com/BazeletDave/ConsciousAI/blob/main/GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
+          "status": "public_repository_document_not_independently_validated",
+          "similarity": 0.3831,
           "relation": "suggested_research_connection_not_causation"
         }
       ]
@@ -2097,7 +2140,7 @@
     },
     {
       "record_id": "c5bd74e05aaae35ba9ec185e",
-      "content_sha256": "41a4ea8c73603ffee4b4952975bd6d892530d70fbde3beb8ae94a3246bf51f9c",
+      "content_sha256": "53560697a42d8e10d492d8067ffce5b0ee08896b4c7442056df6a4cc89e10c4a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2226,7 +2269,7 @@
     },
     {
       "record_id": "aead47bb2734a768667308d1",
-      "content_sha256": "996188ec610c8151d00e1943d4d16861a1fff9d11be7ea9e3a3d0dfae62ee9f5",
+      "content_sha256": "5565f730f226a0707e0752a190e8c280989ec629d6e9340ddbfd9b33f4e7ead6",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-united-states-institutional-ai-governance.md",
@@ -2292,7 +2335,7 @@
     },
     {
       "record_id": "a626928d713913777880ea42",
-      "content_sha256": "ab198b8810b856beb1132958b7b8cb5e65cbc8cb282661f3d22132dbf3167437",
+      "content_sha256": "e4e2694e630e6801a1014b06dd6e090e02a37b0053f5160a771d9cfd91d210a3",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2373,7 +2416,7 @@
     },
     {
       "record_id": "96a0676ed1df9b609562331e",
-      "content_sha256": "3a36b4e281c2850c26a9983ba8204810020ccf6f53b3b0e44c355b54e00e4cff",
+      "content_sha256": "8370a0e4c38fbbc5c5c8397d836ea8794efb4f2d12474807357aca84ffb8613e",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2430,7 +2473,7 @@
     },
     {
       "record_id": "958e2bc1a020d8f707f85732",
-      "content_sha256": "4bd748babff9a50570d1f1343d94b9c7124cc3bfb5ce7342be22b3ab6a9ad5a1",
+      "content_sha256": "3098d35c99ce18055341be89f9b17e7ceeae1298adfe36fed1e2bb540997c482",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2520,7 +2563,7 @@
     },
     {
       "record_id": "908681e7e9f6a31b6941736c",
-      "content_sha256": "eeb93f22ec921c2beb030f12f77bf677f3fbdd6c20c78ed3399c12c947ed44b1",
+      "content_sha256": "313e6dc179c44852e8dbc40c32fd51a47c2bdc3a2d02fef62beb95fa07cb3f9a",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2625,7 +2668,7 @@
     },
     {
       "record_id": "797b213987307581ad9d9363",
-      "content_sha256": "0005b92d88848bdd5cfa1c3bbe5bdd7d7e7a727239007de8f87d992f982b2514",
+      "content_sha256": "8fac931635f80252987ae65f6e91be94f3fbd2fca0773daa4d240dc4ae9cda7f",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2691,7 +2734,7 @@
     },
     {
       "record_id": "7443d0f26c1b7de4eed05216",
-      "content_sha256": "493c7db2d6ba2754e5b2fba30e52a2d2d9cd97680aa02e5bcee63feae0718550",
+      "content_sha256": "4e942f45abb795009fc969a1c8450ee2c749c7c88467924082e0fa70dbcb179e",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -2715,7 +2758,7 @@
     },
     {
       "record_id": "61cd45d72fb5c935b19cb0eb",
-      "content_sha256": "cc92db004d378d419517fc332467c36f83719848c816a41c480684360c025858",
+      "content_sha256": "d6d58783a6cf00ab82b8110436b7eb579b0da33d259b966ed79ed68d252bef49",
       "research": [
         {
           "path": "GRI-Research-Journey/Research-Governance/Tiger-Legacy/ENGINEERING-RESEARCH-STANDARDS.md",
@@ -2748,7 +2791,7 @@
     },
     {
       "record_id": "6034022a3ee0e0c91beac6e9",
-      "content_sha256": "8ba56430007282fa96977ccbc94042cb09175327ca1baa818e49f907df74b0f2",
+      "content_sha256": "93715652b7d9df23b7ee5eb0acbaba9f8a20057c01d5532bbfbc231610d2b596",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -3297,7 +3340,7 @@
     },
     {
       "record_id": "16571344e9f080f773c000e7",
-      "content_sha256": "27bd639b79aab5204aca4b1bc7d54101b53675b690d4a94997f15d574e78cd9a",
+      "content_sha256": "43abaecca3d43287142e40e716a63962ab8da6513925e39a0e3047162145ac21",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -3345,7 +3388,7 @@
     },
     {
       "record_id": "10b965dff3bc3da58f7d9f9d",
-      "content_sha256": "19707e259b182bb985e671f6b0dafe06bbe7e143822cceb5ef66d935c90f1e95",
+      "content_sha256": "e381f30efd168dd96f63b252281cfab1895f06973693eca4fad7fc10053bbed4",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -3369,7 +3412,7 @@
     },
     {
       "record_id": "035dcd25608b9e703b4aa6da",
-      "content_sha256": "88e31df7a62bbfe89cec28389ed89eb3bc45846049828d1a9b142f26bc941808",
+      "content_sha256": "24b2a978c51ac70f95e8d9103e986628acb9b29ec3fddd6bdeb0c6f56db078bd",
       "research": [
         {
           "path": "GRI-Research-Journey/Integrated-Research-Journey/2026-10-27-brazil-israel-united-states-comparative-intelligence.md",
@@ -3860,7 +3903,7 @@
       ]
     }
   ],
-  "connected_records": 73,
+  "connected_records": 75,
   "learning_candidate": {
     "status": "blocked",
     "accepted_records": 0,

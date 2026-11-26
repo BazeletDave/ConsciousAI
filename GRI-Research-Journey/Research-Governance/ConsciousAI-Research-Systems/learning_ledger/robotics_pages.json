@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T03:33:41.350768+00:00",
+  "generated_at": "2026-11-26T16:53:10.983288+00:00",
   "records": [
     {
       "id": "ZOOX-SAFETY",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "521755a7e9627b3a630f90682d619a29612ef3c3b818f3cb4ad20f7220588414",
+      "content_sha256": "c4179e7eece13f733d588ce275a3fcd66df0f1eeaa0eea4d715c644c64ba145c",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -44,27 +44,10 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "97f1a437538fdf573ac10c5932b088017e520cd98a21668b7ec2a5b60687f0c2",
+      "content_sha256": "8b2f462afaaae39fb7a07d65f4f4525affac2fcf21b16bbaef1f8f8c4324aae2",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
-      "verification_status": "publisher_page_observation_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "BRA-ANAC-AAM",
-      "source_id": "BRA-ANAC-AAM",
-      "publisher": "ANAC",
-      "title": "Anac abre consultas setoriais sobre critérios de aeronavegabilidade e ruído para o eVTOL EVE-100 Portal Gov.br",
-      "source_url": "https://www.gov.br/anac/pt-br/noticias/2026/anac-abre-consultas-setoriais-sobre-criterios-de-aeronavegabilidade-e-ruido-para-o-evtol-eve-100",
-      "country_codes": [
-        "BRA"
-      ],
-      "content_sha256": "f76520b31345748048d3fd81a404d42060e1ce0eaf7882646c349e5f91cbea71",
-      "published_at": null,
-      "source_kind": "dated_regulator_consultation_announcement",
-      "configured_track": "air_mobility",
       "verification_status": "publisher_page_observation_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -89,12 +72,12 @@
     {
       "source_id": "NHTSA-SGO",
       "status": "fetched",
-      "bytes": 149960
+      "bytes": 149961
     },
     {
       "source_id": "BRA-ANAC-AAM",
-      "status": "fetched",
-      "bytes": 327008
+      "status": "failed",
+      "error_type": "URLError"
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",

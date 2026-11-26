@@ -1,13 +1,26 @@
 {
   "schema_version": "1.0",
   "mode": "automated_official_metadata_triage",
-  "generated_at": "2026-11-26T03:33:37.008376+00:00",
-  "source_last_collection_at": "2026-11-26T03:33:36.963141+00:00",
-  "source_registry_sha256": "4e0b767bd5ed8854287df9d548302611fb472e6f8bec59d9d50c85484feaaac9",
-  "source_records": 183,
-  "matched_records": 19,
-  "human_review_required": 19,
+  "generated_at": "2026-11-26T16:52:46.651054+00:00",
+  "source_last_collection_at": "2026-11-26T16:52:46.612592+00:00",
+  "source_registry_sha256": "7368d275a1d5142c16164606b8501c783de0ba00c404a3fe1dccf315ca49101a",
+  "source_records": 186,
+  "matched_records": 20,
+  "human_review_required": 20,
   "queue": [
+    {
+      "id": "US-FR-2026-24140",
+      "source_url": "https://www.federalregister.gov/documents/2026/11/27/2026-24140/federal-motor-vehicle-safety-standards-automatic-emergency-braking-systems-for-light-vehicles",
+      "title": "Federal Motor Vehicle Safety Standards: Automatic Emergency Braking Systems for Light Vehicles",
+      "publication_date": "2026-11-27",
+      "topics": [
+        "vehicle"
+      ],
+      "priority": "standard",
+      "verification_status": "official_api_metadata_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "US-FR-2026-23707",
       "source_url": "https://www.federalregister.gov/documents/2026/11/20/2026-23707/60-day-notice-of-intent-to-seek-extension-of-approval-appeals-of-decisions-issued-under-delegated",
