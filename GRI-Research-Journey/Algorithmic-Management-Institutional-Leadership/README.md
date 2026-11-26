@@ -244,3 +244,62 @@ This section applies the preceding negotiation lens to existing GRI cases. It do
 ## November 25, 2026 | AI Paradox research convergence
 
 [Institutional knowledge, agentic management and organizational authority](../Integrated-Research-Journey/2026-11-25-ai-paradox-agentic-institutional-knowledge-milestone.md) integrates the November 23 Uber Engineering disclosure with the existing longitudinal, institutional and assurance research. Corporate evidence is distinguished from GRI hypotheses and independent validation. No new project or engineering change.
+
+
+## November 25, 2026 | Executive leadership, institutional authority and algorithmic control
+
+**Classification:** Bounded conceptual extension of existing GRI institutional leadership research. No new project, engineering, empirical finding or institutional endorsement.
+
+### Leadership as the origin of delegated authority
+
+Algorithmic management is not synonymous with AI or executive leadership generally. It concerns computational mediation of managerial functions. Executive authority remains relevant because organizational leaders and governing bodies establish objectives, incentives, delegation boundaries, accountability and remedies. Technical implementation may also reflect distributed decisions by engineers, contractors and regulators; executive intent cannot be inferred from system outputs alone.
+
+Kellogg, Valentine and Christin (2020) identify six mechanisms of algorithmic control: restricting, recommending, recording, rating, replacing and rewarding. GRI extends the analytical question upstream: who authorizes these mechanisms, controls their objectives and can independently challenge their consequences?
+
+| Comparative leadership lens | Mechanism to examine | Evidence boundary |
+| --- | --- | --- |
+| Jack Welch / GE | Quantified evaluation, performance ranking and managerial discretion | Historical comparison; verify GE archival records before making specific empirical claims |
+| Bill Gates / Microsoft | Platform strategy, ecosystem dependence and decision rights | Examine public corporate and regulatory records; platform leadership is not automatically algorithmic management |
+| Tim Cook / Apple | Operational coordination, supply chains and delegated decisions | Connect to existing [Apple and China research](../Global-Leadership/Apple-China-Institutional-Leadership/README.md); verify specific computational controls |
+| Sheryl Sandberg / Facebook | Commercial incentives, advertising allocation and organizational scaling | Distinguish executive responsibility from specific algorithmic design; verify filings and technical disclosures |
+| Enron / Lay and Skilling | Performance incentives, information integrity and board oversight | SEC and congressional records document reporting failures; historical misconduct is not evidence of misconduct by other firms |
+| Jensen Huang / NVIDIA | Founder authority, succession, strategic infrastructure and institutional dependence | Comparative research lens only; no conclusion on current allegations, financing legality or reinstatement without dated primary evidence |
+| Government institutions | Administrative discretion, automated allocation and public accountability | Evaluate statutory authority, due process, procurement and actual remedies separately from commercial management |
+| Uber and Lyft | Dispatch, compensation, evaluation and contestability | Existing longitudinal observations do not establish undisclosed objectives, executive intent or causal effects |
+
+### Comparative institutional framework
+
+Apply Weber's authority categories, Simon's bounded rationality, Drucker's management by objectives, Jensen and Meckling's agency theory, North's institutional constraints and the existing Roy C. Nelson institutional political economy framework as distinct interpretive lenses, not interchangeable explanations. Nelson's liberalism, economic nationalism and structuralism lenses help examine corporate and state interdependence. Specific editions and passages require bibliographic verification before attributing detailed propositions.
+
+Traditional supervision, quantitative management, digital coordination, algorithmic control and agentic delegation can coexist. Increasing automation may amplify execution speed and consistency while also increasing the reach of flawed objectives. Neither outcome is inevitable.
+
+### Operational comparison and falsification
+
+For each case document the accountable actor, authorized objective, performance metric, incentive, implementation mechanism, information asymmetry, practical override, independent challenge and observed outcome. Separate formal authority from effective intervention. A useful evidence chain is objective authorization → system rule → consequential action → accountable review → documented correction.
+
+P1: Where reward metrics diverge from institutional objectives, automated execution may amplify the divergence. Test using documented objectives, measured outcomes and counterexamples.
+
+P2: Concentrated infrastructure dependence may constrain practical oversight if substitutes and independent remedies are inadequate. Test against contractual alternatives, board independence, regulatory interventions and successful correction.
+
+P3: Delegating managerial decisions to agents may increase execution scale without removing human accountability. Test whether authorization, escalation, override and corrective outcomes remain attributable.
+
+Rival explanations include legitimate economies of scale, effective delegation, improved consistency, competitive alternatives and robust independent oversight. Do not infer causation from executive popularity, market movements or missing public evidence.
+
+### Integration across existing research
+
+- [Uber and Lyft longitudinal research](../Algorithmic-Management/Uber-Lyft-Research/README.md): managerial objectives, worker outcomes and effective contestability.
+- [Institutional power amplification](../Integrated-Research-Journey/2026-10-19-institutional-power-amplification-framework.md): AI Paradox, concentration and institutional capacity.
+- Black Box Paradox: distinguish visible outputs from inaccessible objectives, rules and decision evidence.
+- [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md): independent assurance, evidence integrity and accountable correction; no claim of external certification.
+- [AI infrastructure sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md): separate corporate leadership risk from financial contagion and test actual exposure.
+
+### Verified references and limitations
+
+1. Kellogg, K. C., Valentine, M. A., & Christin, A. (2020). Algorithms at work: The new contested terrain of control. Academy of Management Annals, 14(1), 366–410. https://doi.org/10.5465/annals.2018.0174
+2. US SEC (2005). Report pursuant to Section 401(c) of the Sarbanes-Oxley Act: off-balance sheet arrangements, special purpose entities and transparency. https://www.sec.gov/news/studies/soxoffbalancerpt.pdf
+3. US Congress (2002). The Financial Collapse of Enron, hearing record. https://www.govinfo.gov/content/pkg/CHRG-107hhrg77987/html/CHRG-107hhrg77987.htm
+4. NIST AI Risk Management Framework: https://www.nist.gov/itl/ai-risk-management-framework (normative reference; not certification).
+
+The Enron records and algorithmic control scholarship support the conceptual bridge, not empirical equivalence across cases. Other named executive examples remain research lenses pending individual source verification. No contemporary allegation is presented as a finding. No confidential research, graded coursework or proprietary assurance procedures are disclosed.
+
+**Central GRI proposition:** Automation does not extinguish leadership responsibility; it changes the mechanisms, reach and observability of managerial authority. The institutional challenge is to preserve effective accountability as execution capacity expands.
