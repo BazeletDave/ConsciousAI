@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T19:15:10.933045+00:00",
+  "generated_at": "2026-11-26T03:33:41.350768+00:00",
   "records": [
     {
       "id": "ZOOX-SAFETY",
@@ -27,7 +27,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "59843300d3a1776c8689305bb28638d3f11639031f7982aa379299957ddc7709",
+      "content_sha256": "521755a7e9627b3a630f90682d619a29612ef3c3b818f3cb4ad20f7220588414",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
@@ -44,7 +44,7 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "d8773a4bb6bdfa9bdff45f24b62353e5ae44fe7da51b7ab99337d2b76d276bd9",
+      "content_sha256": "97f1a437538fdf573ac10c5932b088017e520cd98a21668b7ec2a5b60687f0c2",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "road_autonomy",
@@ -61,7 +61,7 @@
       "country_codes": [
         "BRA"
       ],
-      "content_sha256": "a2be15025759429c3e7457b685ebc9d5ac75b0d282474965868ce83ef21b4695",
+      "content_sha256": "f76520b31345748048d3fd81a404d42060e1ce0eaf7882646c349e5f91cbea71",
       "published_at": null,
       "source_kind": "dated_regulator_consultation_announcement",
       "configured_track": "air_mobility",
@@ -89,12 +89,12 @@
     {
       "source_id": "NHTSA-SGO",
       "status": "fetched",
-      "bytes": 146994
+      "bytes": 149960
     },
     {
       "source_id": "BRA-ANAC-AAM",
       "status": "fetched",
-      "bytes": 325893
+      "bytes": 327008
     },
     {
       "source_id": "ISR-TRAFFIC-AUTHORITY",
