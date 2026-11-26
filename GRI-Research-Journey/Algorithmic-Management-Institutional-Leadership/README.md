@@ -370,3 +370,26 @@ Do not count irrecoverable sunk expenditure as a prospective benefit of continui
 **Proposition:** Institutional assurance may weaken when the cost of challenging or reversing a strategic commitment grows faster than independent oversight capacity. Counterexamples include effective cancellation, revised capital allocations, credible succession, transparent review and successful remedies. No individual leader's motives or case-specific compliance conclusions are inferred.
 
 **GRI crosswalk:** [Financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), [Intel institutional context](../Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md), [Apple](../Global-Leadership/Apple-China-Institutional-Leadership/README.md), [NVIDIA](../Integrated-Research-Journey/2026-11-23-nvidia-leadership-ai-infrastructure-governance.md), and [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md). David A. Grand's independent synthesis; no new project, engineering, validated causal finding or faculty endorsement. OECD sources reviewed for this addition; historical case sources retain existing qualifications.
+
+
+### November 25, 2026 | Reciprocal dependence and effective institutional autonomy
+
+**David A. Grand | GRI independent synthesis.** Consolidate the preceding leadership, capital allocation and reversibility extensions into a comparative research design. No new research program or empirical result.
+
+The existing Nelson Intel site selection case, Apple organizational learning case, NVIDIA governance record, financial sustainability extension and Uber/Lyft observations motivate a distinction between formal decision rights and effective autonomy. Resource dependence theory provides a complementary scholarly lens: Pfeffer, J., and Salancik, G. R. (1978), *The External Control of Organizations: A Resource Dependence Perspective*. Staw, B. M. (1976), Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action, *Organizational Behavior and Human Performance*, 16(1), 27–44, https://doi.org/10.1016/0030-5073(76)90005-2. These bibliographic references are proposed scholarly anchors, not freshly authenticated sources or evidence that particular executives exhibit escalation.
+
+| Unit of analysis | Dependence to measure | Effective autonomy test |
+| --- | --- | --- |
+| Government and investor | Public incentives, employment concentration, fiscal exposure | Can terms be enforced or revised without unacceptable public costs? |
+| Board and executive | Succession capacity, information access, concentrated expertise | Can independent directors obtain evidence and exercise documented authority? |
+| AI buyer and supplier | Switching costs, contractual commitments, technical interoperability | Can workloads migrate or contracts be renegotiated under realistic constraints? |
+| Lender and borrower | Refinancing exposure, collateral, correlated counterparties | Can credit risk be reassessed independently of growth expectations? |
+| Platform and worker | Income concentration, alternatives, information and appeal access | Can an affected worker reject, challenge or obtain correction of a decision? |
+
+**Measurement discipline:** Record each actor, resource, direction of dependence, available substitutes, time to substitute, incremental exit cost, formal decision right, actual exercise and observed consequence. Compare within matched periods and jurisdictions. Do not aggregate unlike units into a numerical autonomy score without validated measurement and weighting. Missing evidence is unknown, not zero autonomy.
+
+**Competing hypotheses:** Reciprocal dependence may support credible commitments, productive specialization and shared learning; asymmetric dependence may constrain challenge or exit. Capital intensity alone does not distinguish these outcomes. Test against documented interventions, successful substitution, renegotiation, independent enforcement and remedies. Avoid inferring regulatory capture, executive intent or worker coercion from dependency alone.
+
+**Consolidated evidence chain:** financial resources and constraints → institutional bargaining → authorized objectives → managerial implementation → observed outcomes → independent review → exercised correction. Each arrow is a separate empirical claim requiring evidence. Existing case studies illuminate different segments, not a proven continuous causal chain.
+
+**Completion boundary:** Preserve the existing monograph and dated case records. The next empirical step is to populate this comparison using already authorized evidence, record missing observations and test rival explanations rather than continually expanding the conceptual framework. No operational dashboard changes, new collection or faculty endorsement. Cross-reference [financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), [global capital infrastructure](../Integrated-Research-Journey/2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md) and [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md).
