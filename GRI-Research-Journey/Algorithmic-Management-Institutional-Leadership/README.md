@@ -349,3 +349,24 @@ Apply the existing Roy C. Nelson institutional framework to examine competing ex
 
 The existing finance and institutional scholarship is integrated through the linked financial sustainability analysis: Lena Booth's valuation and capital budgeting lens, Roy C. Nelson's Intel location case with Ted Telford as case participant, Doug Guthrie's organizational learning context, and newly reviewed IMF and Intel/NIST institutional records. The extension tests how capital commitments, policy, incentives and managerial delegation interact, without inferring individual motives or establishing causation.
 See the detailed [capital allocation and financial sustainability reconciliation](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md#november-25-2026--capital-allocation-leadership-incentives-and-institutional-capacity).
+
+
+### November 25, 2026 | Leadership discretion, commitment escalation and independent governance
+
+The [G20/OECD Principles of Corporate Governance 2023](https://doi.org/10.1787/ed750b30-en), chapters IV–VI, provide an independently consulted normative benchmark: disclosure, board oversight of strategy and capital expenditure, executive succession, remuneration aligned with longer-term interests, risk controls and sustainability. They are not universal binding law or evidence of company compliance. See [board responsibilities](https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report/component-8.html) and [sustainability and resilience](https://www.oecd.org/en/publications/g20-oecd-principles-of-corporate-governance-2023_ed750b30-en/full-report/component-9.html).
+
+Integrate the existing financial sustainability analysis, Nelson's Intel location selection case, Apple organizational learning and NVIDIA governance records with a distinction between formal authority and effective discretion. Large commitments can create asset specificity, contractual exit costs and expectations that make changing course costly. This does not prove irrational escalation: continuing an investment may be economically justified by prospective cash flows, strategic options and credible new evidence.
+
+| Decision stage | Independent governance evidence | Failure mechanism to test |
+| --- | --- | --- |
+| Investment authorization | Incremental NPV, alternatives, risk appetite, approval record | Optimistic assumptions or omitted alternatives |
+| Executive incentives | Disclosed performance criteria, vesting horizons, recovery provisions | Metric mismatch or excessive short-term risk |
+| Implementation | Authorized objectives, system versions, delegated limits | Automated optimization diverges from intended objectives |
+| Review | Independent access to evidence, forecast-to-actual variance, scenario revisions | Information asymmetry or ineffective challenge |
+| Correction or exit | Prospective incremental cash flows, exit costs, documented override and remedies | Commitment escalation or practical inability to reverse |
+
+Do not count irrecoverable sunk expenditure as a prospective benefit of continuing a project; distinguish it from recoverable assets, future cancellation liabilities and option value. Compare revised prospective NPV of continuation, deferral, resizing and exit at each decision gate. Record whether review changes actual decisions rather than relying on policy existence.
+
+**Proposition:** Institutional assurance may weaken when the cost of challenging or reversing a strategic commitment grows faster than independent oversight capacity. Counterexamples include effective cancellation, revised capital allocations, credible succession, transparent review and successful remedies. No individual leader's motives or case-specific compliance conclusions are inferred.
+
+**GRI crosswalk:** [Financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), [Intel institutional context](../Integrated-Research-Journey/2026-11-03-texas-ai-infrastructure-institutional-event.md), [Apple](../Global-Leadership/Apple-China-Institutional-Leadership/README.md), [NVIDIA](../Integrated-Research-Journey/2026-11-23-nvidia-leadership-ai-infrastructure-governance.md), and [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md). David A. Grand's independent synthesis; no new project, engineering, validated causal finding or faculty endorsement. OECD sources reviewed for this addition; historical case sources retain existing qualifications.
