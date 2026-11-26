@@ -100,3 +100,26 @@ The existing leadership monograph applies financial management concepts associat
 **Evidence boundary:** Newly reviewed IMF and Intel/NIST sources strengthen the institutional evidence base; earlier user-supplied graphics remain provisional. No current ownership, individualized motivation, investment advice, faculty endorsement, or new empirical causal result is claimed. The earlier November 16 quotation and circular-financing estimate are not reused because not independently authenticated in this review.
 
 Connect to the [institutional leadership monograph](../Algorithmic-Management-Institutional-Leadership/README.md) and [Texas site selection evidence](2026-11-03-texas-ai-infrastructure-institutional-event.md).
+
+
+### November 25, 2026 | Distribution of value, risk and decision rights
+
+Extend the preceding capital allocation framework using the existing [Chicago consecutive Lyft rides case](../Algorithmic-Management/Uber-Lyft-Research/case-study-002-chicago-consecutive-lyft-rides.md), [IFC incentives and performance standards crosswalk](2026-10-23-ifc-incentives-performance-standards-ai-governance-crosswalk.md), and [sustainability, resilience and intertemporal justice research](../Institutional-Research-Reports/AI-Governance-Paradox/SUSTAINABILITY-RESILIENCE-INTERTEMPORAL-JUSTICE-EXTENSION.md). These are existing GRI records, not new empirical observations.
+
+| Stakeholder | Return or benefit | Exposure | Evidence |
+| --- | --- | --- | --- |
+| Equity investors | Residual cash flows and capital appreciation | Impairment and dilution | Filings, distributions, invested capital |
+| Creditors | Interest and principal | Default, refinancing and collateral risk | Debt notes, maturities and covenants |
+| Infrastructure operators | Contracted revenues and utilization | Obsolescence, energy costs, counterparty concentration | Contracts, capacity and realized cash flows |
+| Governments and communities | Tax base, employment, strategic capacity | Fiscal opportunity cost, contingent liabilities, environmental burdens | Public budgets, agreements and measured outcomes |
+| Workers and consumers | Income, access and service value | Uncompensated time, cost transfers, price and service changes | Matched transaction records, expenses, time and appeal outcomes |
+
+**Accounting discipline:** Revenue is not economic profit; gross bookings are not platform revenue; driver gross receipts are not net economic income. Compute worker net economic income as receipts less attributable operating expenses and economic depreciation, divided by total relevant work time for an hourly measure. Avoid counting both full capital purchase cost and depreciation in the same economic-income calculation. Compare matched periods and include unpaid waiting and repositioning where measured. Corporate free cash flow, worker economic income and public net benefits are separate measures, not additive without a reconciled accounting perimeter.
+
+**Leadership and control:** Use agency theory (Jensen and Meckling, 1976, https://doi.org/10.1016/0304-405X(76)90026-X) and the existing Nelson institutional lens to examine whether incentives align with stated objectives. Distinguish principal-agent conflicts from legitimate contractual risk sharing. Kellogg et al. (2020, https://doi.org/10.5465/annals.2018.0174) supplies the algorithmic control mechanisms. Do not infer that executive compensation or capital-market pressures caused a particular ride offer without documented intervening rules.
+
+**Stress and feedback protocol:** Examine separate demand, utilization, electricity price, financing cost, refresh-cycle and counterparty shocks; then assess correlated scenarios. Record who has contractual authority to change terms, who can exit, who can contest decisions, and who bears residual losses. Evaluate public subsidy clawbacks, creditor protections, supplier alternatives and worker remedies as distinct controls. A profitable enterprise may still produce adverse distributional outcomes; an unprofitable investment does not itself demonstrate misconduct.
+
+**Testable proposition:** Where decision rights and downside exposure are separated, financial optimization may transfer risk to stakeholders with limited ability to contest it. Test against matched contractual and outcome evidence, including counterexamples of shared gains, transparent pricing, effective appeals and enforceable risk-sharing. The Chicago case motivates this question but cannot identify corporate-wide policy or upstream financing causality. Preserve the original evidence and all provisional classifications.
+
+**GRI synthesis:** Financial viability (Booth lens), institutional bargaining and distribution (Nelson lens), organizational learning (Guthrie context), and observable algorithmic outcomes (Grand longitudinal research) are complementary dimensions. Tiger Legacy contributes the independent assurance question: can an authorized reviewer reconstruct the decision, reconcile the relevant evidence and verify a correction? No assurance certification, faculty endorsement or new causal result is claimed. This extension uses repository evidence and bibliographic identifiers; external sources have not been freshly authenticated.
