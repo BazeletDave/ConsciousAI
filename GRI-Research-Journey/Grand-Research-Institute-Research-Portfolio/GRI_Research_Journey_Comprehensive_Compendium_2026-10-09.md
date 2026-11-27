@@ -2845,9 +2845,7 @@ constraints justify expansion.
 Nepal provides a strategically important comparative setting because its hydropower
 potential, seasonal electricity balance, regional trade position, infrastructure financing
 needs, and climate vulnerability place energy development at the intersection of national
-strategy and physical risk. David Grand’s HIDCL internship provides an institutional
-observation point, but internship experience must remain distinct from independently
-verified national evidence and any future human participant research.
+strategy and physical risk. Institutional energy and infrastructure financing provides a comparative analytical lens; empirical claims require independently verified public evidence.
 
 The relevance to AI is prospective rather than a claim that Nepal is already a major AI
 data center hub. Dependable renewable electricity can support digital infrastructure,
