@@ -378,3 +378,8 @@ Repository implementation edition and reproducibility records:
 ConsciousAI / Training a Tiger AI Paradox / Implementation
 Presentation revision: 28 October 2026. Cover, executive framing, platform status, and evidence navigation updated. The
 22 page structure and original exhibits are retained.
+
+
+## November 26 research companion note (outside original PDF pagination)
+
+The [integrated academic decision framework](../../Integrated-Research-Journey/README.md#integrated-academic-decision-framework) connects this report's leadership and accountability questions to financial value creation and institutional alternatives. For consequential AI investment decisions distinguish private NPV, public value, worker outcomes and legitimate authority; identify decision owner, residual risk bearer, review rights and exit conditions. Compare feasible alternatives and retain counterexamples. Financial success does not establish governance legitimacy, and assurance of evidence provenance does not establish economic causation. The original October report and PDF exhibits are unchanged; this note is a later methodological cross-reference, not a revision of published findings or faculty endorsement.
