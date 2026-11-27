@@ -13,6 +13,30 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 **November 3, 2026 institutional milestone:** [Model learning, managerial cognition and AI Paradox governance synthesis (PDF)](GRI%202026%2011%3A03%20Institutional_AI_Paradox_Milestone.pdf). This archival research synthesis extends existing algorithmic management and institutional assurance work. Conceptual integration is distinct from empirical validation; November 4 engineering and independent reproduction remain pending.
 
+## November 27, 2026 | Connected AI and delegated information authority
+
+**Evidence classification:** Primary corporate policy disclosure, accessed November 27; not a breach report, independent audit, or new research initiative.
+
+Google's consumer Gemini Apps Privacy Notice (November 16; Privacy Hub updated November 24) and Connected Apps personalization documentation describe human review of selected processed information, including derived email material and, in certain circumstances, complete relevant messages. Google distinguishes direct training on an inbox from training on material derived during interactions, subject to settings, and describes measures to reduce identifying information before review, with exceptions. Disconnecting a service does not itself erase prior Gemini history; reviewed chats and related data may be retained for up to three years. Work and school accounts may be governed by different terms. These disclosures establish stated policy, not actual access frequency, compliance effectiveness, unauthorized disclosure or individual harm.
+
+**Institutional interpretation:** Permission to retrieve data, authority to reuse it, and effective revocation are distinct. Applying GRI's existing institutional authority lens, compare formal user controls with operational capacity to inspect, limit and terminate downstream processing. Human oversight can improve safety while creating confidentiality exposure; neither oversight nor opacity alone establishes misconduct. The AI Paradox proposition is that utility and technical security can coexist with residual institutional exposure.
+
+| Existing research lens | Bounded extension |
+| --- | --- |
+| AI Paradox and Black Box Paradox | Examine visibility of downstream purposes, recipients, derived information and retention. |
+| Algorithmic management | Compare information asymmetry and practical decision authority across platforms without asserting identical mechanisms or causal effects. |
+| Institutional leadership | Assign responsibility for authorization, exceptions, vendor oversight and escalation; distinguish formal authority from effective control. |
+| Financial sustainability | Assess prospective compliance effort, remediation costs and contingent liabilities against productivity benefits; no monetary loss is established. |
+| Tiger Legacy and assurance | Map consent scope, least privilege, isolation, revocation evidence and independent verification; do not infer implemented or certified controls. |
+
+**Prospective evaluation:** Within existing assurance methodology, record mapped processing purposes, authorized reviewer roles, retention schedules for originals and derivatives, exceptions, and documented evidence of revocation. Proposed metrics include verified revocation coverage (confirmed terminated pathways / mapped pathways), elapsed time to verified termination, and documented residual retention by data class. Missing evidence is unknown, not zero. A counterexample to the residual exposure proposition would be independently demonstrated complete termination of all in-scope downstream processing and retention, subject to disclosed lawful exceptions. Compare equivalent account tiers and settings; consider safety, legal retention and privacy-preserving processing as rival or mitigating mechanisms.
+
+**Reference frameworks:** [NIST AI RMF](https://www.nist.gov/itl/ai-risk-management-framework) and ISO/IEC 42001 and 27001 are methodological reference points, not claims of conformity. No private inbox inspection, live testing, engineering changes, production changes or modifications to frozen Tiger Legacy evidence are undertaken.
+
+**Primary sources:** [Google Gemini Apps Privacy Hub](https://support.google.com/gemini/answer/13594961); [Google Connected Apps personalization and human review](https://support.google.com/gemini/answer/16836988). Preserve policy version dates and distinguish provider statements from independent verification.
+
+**Existing cross references:** [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md) · [Institutional AI Governance and Assurance](../institutional-ai-governance-assurance/README.md) · [Nelson methodological boundaries](nelson-model-methodological-boundaries.md).
+
 ## November 24–25, 2026 | FinCEN cyber incident and regulatory continuity
 
 **Status:** Developing, source-qualified institutional evidence extension; not a new project or assurance result.
