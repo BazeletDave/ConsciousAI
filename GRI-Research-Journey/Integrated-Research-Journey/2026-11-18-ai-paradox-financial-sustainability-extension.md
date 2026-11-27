@@ -245,3 +245,24 @@ Extend the published Booth and Nelson comparison through independent financial d
 | Financial versus operational hedging | Semiconductor and energy dependencies | Compare contractual hedges, diversified suppliers and capacity alternatives using residual exposure and liquidity costs. |
 
 Apply Nelson's institutional lens to credible commitments, policy durability and domestic capability formation; apply Guthrie's organizational learning lens to execution and adaptation. Compare enterprise returns with worker net earnings, public value and delegated authority without conflating accounting perimeters. Record alternatives, assumptions, risk bearer, review authority and exit criteria. These are proposed comparative tests, not measured outcomes. Original academic submissions have not been independently retrieved for this subsection; no private case figures, team work, licensed exhibits or faculty endorsement are asserted. No new project or engineering.
+
+
+### November 26, 2026 | Primary evidence verification: corporate financial baseline and voting rights
+
+Retrieved November 26, 2026 via SEC EDGAR. This is a bounded evidence update to the existing mechanism tests, not a new conceptual framework.
+
+**Uber Technologies, FY2025 Form 10-K**, [SEC filing](https://www.sec.gov/Archives/edgar/data/1543151/000154315126000015/uber-20251231.htm), Financial and Operational Highlights and MD&A. USD millions, consolidated reporting perimeter:
+
+| Measure | FY2024 | FY2025 |
+| --- | ---: | ---: |
+| Gross bookings | 162773 | 193454 |
+| Revenue | 43978 | 52017 |
+| Operating income | 2799 | 5565 |
+| Operating cash flow | 7137 | 10099 |
+| Operating margin (derived: operating income / revenue) | 6.36% | 10.70% |
+
+Operating income increased 98.82% (derived, rounded). The filing also reports increases in driver and courier payments/incentives recorded in cost of revenue of $1.6 billion each, and insurance expense of $851 million. These are changes in specified accounting categories, not comprehensive driver earnings or individual hourly compensation. The consolidated figures include multiple segments, and classification of drivers can affect accounting presentation. Neither gross bookings less revenue nor revenue divided by bookings measures a uniform driver take rate. No causal inference regarding driver wages or algorithmic intent is supported. Existing [longitudinal research](../Algorithmic-Management/Uber-Lyft-Research/README.md) requires matched individual transactions and work-time denominators before distributional comparisons.
+
+**Palantir Technologies, FY2025 Form 10-K**, [SEC annual report](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000021/fy2025palantirars.pdf), stockholders' equity note, independently cross-checked against the [SEC XBRL filing](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231_htm.xml). Class A and B have one and ten votes per share respectively. Class F shares are held by a founder voting trust; the arrangement generally permits founders to control up to 49.999999% of voting power conditional on the applicable ownership threshold (100 million equity securities as of December 31, 2025). This confirms differentiated voting rights at the reporting date, not actual voting outcomes, individual founder wealth or misconduct. The PDF and XBRL are representations of the same issuer disclosure, not independent corroboration by a second institution.
+
+**Evidence disposition:** Verified against primary issuer filings for the specific dated disclosures only. The broader distribution and authority propositions remain hypotheses; current ownership, SpaceX child-account distribution and Affinity fund claims remain outside this verification batch. Historical external citations, academic case texts and original coursework remain subject to separate retrieval. No new engineering or collection.
