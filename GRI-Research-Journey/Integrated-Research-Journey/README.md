@@ -888,3 +888,20 @@ Map confidentiality to authorized access and isolation, integrity to provenance 
 ## November 25, 2026 | AI Paradox research convergence
 
 [Institutional knowledge, agentic management and organizational authority](2026-11-25-ai-paradox-agentic-institutional-knowledge-milestone.md) integrates the November 23 Uber Engineering disclosure with the existing longitudinal, institutional and assurance research. Corporate evidence is distinguished from GRI hypotheses and independent validation. No new project or engineering change.
+
+
+## Integrated academic decision framework
+
+The existing [financial sustainability extension](./2026-11-18-ai-paradox-financial-sustainability-extension.md) provides a common comparative lens across the following established research documents. This index is a methodological connection, not a claim that all case findings have been independently validated.
+
+| Existing research | Financial and institutional comparison |
+| --- | --- |
+| [Apple and China](../Global-Leadership/Apple-China-Institutional-Leadership/README.md) | Investment location, incremental cash flows, domestic capability formation, technology transfer and credible commitments |
+| [Brazil and Israel comparative institutional intelligence](./2026-10-27-brazil-israel-comparative-institutional-intelligence.md) | Country risk, institutional alternatives, policy durability and local value creation |
+| [Algorithmic management and institutional leadership](../Algorithmic-Management-Institutional-Leadership/README.md) | Operating returns, labor participation, managerial authority and contestability |
+| [Uber/Lyft field research](../Algorithmic-Management/Uber-Lyft-Research/README.md) | Matched transaction economics, worker net earnings and allocation of operational risk |
+| [Energy, finance and resilience](./2026-10-28-energy-finance-ai-divide-resilience.md) | Capital intensity, infrastructure dependency, opportunity cost and continuity alternatives |
+| [AI Governance Paradox institutional report](../Institutional-Research-Reports/AI-Governance-Paradox/REPORT.md) | Delegated authority, public value, resilience and institutional accountability |
+| [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md) | Evidence provenance, reconstructable decisions and independent assurance principles |
+
+Use Booth's financial decision discipline, Nelson's institutional comparison and Guthrie's organizational learning lens as complementary analytical perspectives in Grand's independent synthesis. For each case record decision alternatives, legal and accounting perimeter, incremental financial returns, institutional constraints, capability outcomes, distribution of risk and authority, counterexamples and review criteria. Separate private returns from public value and distinguish historical case analogy from contemporary empirical evidence. Original coursework and collaborative submissions remain confidential; no faculty endorsement, new research program or engineering change is implied.
