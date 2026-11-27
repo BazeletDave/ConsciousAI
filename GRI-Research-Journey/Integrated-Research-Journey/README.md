@@ -13,6 +13,10 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 **November 3, 2026 institutional milestone:** [Model learning, managerial cognition and AI Paradox governance synthesis (PDF)](GRI%202026%2011%3A03%20Institutional_AI_Paradox_Milestone.pdf). This archival research synthesis extends existing algorithmic management and institutional assurance work. Conceptual integration is distinct from empirical validation; November 4 engineering and independent reproduction remain pending.
 
+## November 27, 2026 | Sovereign Agentic Ledger working paper
+
+[Personal economic sovereignty, platform competition and institutional assurance](2026-11-27-sovereign-agentic-ledger-working-paper.md) consolidates the synthetic Maya and Devon cases with existing mobility research, financial evaluation, platform economics and Tiger Legacy governance. Conceptual synthesis only; product claims awaiting verification, no new project or engineering.
+
 ## November 27, 2026 | Connected AI and delegated information authority
 
 **Evidence classification:** Primary corporate policy disclosure, accessed November 27; not a breach report, independent audit, or new research initiative.
