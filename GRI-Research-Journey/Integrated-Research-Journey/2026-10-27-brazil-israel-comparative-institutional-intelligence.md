@@ -43,3 +43,8 @@ This creates a reusable comparative case structure for subsequent countries. New
 ## United States comparative extension
 
 The [United States case](2026-10-27-united-states-institutional-ai-governance.md) adds English language federal policy metadata and institutional AI governance context. The [three country comparison](2026-10-27-brazil-israel-united-states-comparative-intelligence.md) connects Brazil, Israel and the United States through the same GRI research themes while preserving differences in sources, policy stages and evaluation limits.
+
+
+## Financial and institutional comparison discipline
+
+The [integrated academic framework](./README.md#integrated-academic-decision-framework) extends the existing Access → Capability → Authority → Consequences → Feedback sequence with investment alternatives, financial exposure and institutional remedies. Compare compliance costs, continuity, contractual alternatives and public opportunity cost only where comparable evidence exists. Separate platform commercial incentives from public institutional mandates; do not monetize electoral legitimacy or infer political intent from financial exposure. Test policy durability, effective review rights and implementation differences using jurisdiction-specific dated records. Rival explanations include legal differences, market structure, election administration and evidence availability. This is a proposed comparative method, not a finding about either country or an extension of geographic coverage.
