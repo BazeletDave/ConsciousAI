@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-26T16:52:49.696318+00:00",
+  "generated_at": "2026-11-27T01:43:29.448462+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -28,6 +28,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "4de4d271a38edbd95cd0",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Statement by President von der Leyen with President Costa following the Special European Council meeting of November 2026",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2603",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "b29b54243e8766d4ec33",
       "source_id": "EU-COMMISSION-NEWS",
@@ -132,18 +144,6 @@
       "category": "international_regulatory",
       "title": "Keynote speech by Commissioner Kubilius on Defence Readiness in the EU Military Committee meeting at the level of Chiefs of Defence",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2586",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "799132444c4dc7040632",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Remarks by Commissioner Serafin during the European Parliament debate Unlocking the 2028\u20132034 MFF negotiations including new own resources following the revised negotiating box in Strasbourg",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2585",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -394,7 +394,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "English, English",
+      "title": "Skip to main content",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
