@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-27T12:16:52.679568+00:00",
+  "generated_at": "2026-11-27T21:24:51.177927+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -28,6 +28,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "551a17d115ea4ac5405c",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Keynote speech by Commissioner Albuquerque at the Training Day' of the 10th Anniversary of the ECB Simulation Conference for University Students",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2613",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "27c16d95057e1a3143ee",
       "source_id": "EU-COMMISSION-NEWS",
@@ -132,18 +144,6 @@
       "category": "international_regulatory",
       "title": "Speech by Commissioner Lahbib at the European Parliament on Combating Gender-Based Violence in the Age of Digital Technology",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2590",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "a9eff28a25494a8606e9",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Opening remarks by Executive Vice-President Ribera on an antitrust decision in the consumer fragrances sector and on the prolongation of the State aid framework to support sectors affected by Middle East crisis",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2589",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
