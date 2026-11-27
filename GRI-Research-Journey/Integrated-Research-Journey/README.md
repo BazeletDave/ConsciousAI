@@ -929,3 +929,34 @@ Use this index as the canonical navigation and common methodology; retain case-s
 Across existing research streams, publish only authorized, independently supportable evidence. Nonpublic knowledge may inform internal analysis solely within its permitted purpose. Access is not publication permission. Minimize identifiers, affiliations, document metadata, transaction details and combinations of facts that could enable reidentification. Where authorization is uncertain, withhold the material. Keep restricted evidence outside public version control, including issues, branches, logs and attachments. Report independent review scope only where authorized; do not imply endorsement. These are editorial decision rules, not certification of legal compliance or implemented access controls.
 
 Connect [energy and resilience](./2026-10-28-energy-finance-ai-divide-resilience.md) and [financial sustainability](./2026-11-18-ai-paradox-financial-sustainability-extension.md) through capital allocation, firm electricity availability, transmission, computational service economics and institutional accountability. Distinguish guarantees from disbursements, installed capacity from delivered energy, projected returns from realized returns and internal modernization from external investment. Assess affordability, environmental and social impacts and opportunity costs alongside financial viability. Use existing leadership and assurance methods for decision rights, review and remedy. These are general decision criteria, not new empirical findings. No new project or engineering.
+
+
+## November 27, 2026 | Agentic cyber risk and institutional continuity
+
+**Scope:** Bounded extension of existing AI Paradox, Black Box Paradox, Tiger Legacy and institutional leadership research. Evidence cutoff November 27, 2026. The supplied media graphics are discovery leads, not independent evidence.
+
+### Comparative evidence and attribution
+
+| Case | Evidence classification | Institutional implication and limits |
+| --- | --- | --- |
+| Swiss critical infrastructure | Primary national cybersecurity authority, November 24 | AI assisted intrusions confirmed across organizations in at least two sectors. The advisory identifies accelerated exploitation of existing weaknesses. No population attack success rate or generalized infrastructure outage is established. |
+| United Kingdom | Primary NCSC guidance, November 24 | Observed growth in agentic attacks using established weaknesses; supports a speed and response capacity hypothesis rather than a claim of novel vulnerabilities. |
+| US Air Force Cloud One | Reuters, November 27, reporting based on unnamed sources | Reported compromise and interruption of application maintenance and migration. The Air Force declined to discuss specific system status. Scope, actor, data loss and AI involvement remain unknown. |
+| FinCEN | Existing November 25 record and agency order | Regulatory deadline adaptation provides an observable continuity response; do not count this as a new incident. |
+| SAP, Microsoft, OpenAI, intelligence agencies | Existing records where available; additional supplied headlines are leads pending case-specific source review | Keep enterprise supply chain integrity, service availability and unauthorized access separate. No common actor or causal connection is inferred. |
+
+**Sources:** Swiss NCSC, [first confirmed cases involving AI agents](https://www.bacs.admin.ch/en/26-ki-agenten-1-en), November 24; UK NCSC, [Familiar weaknesses, exploited faster](https://www.ncsc.gov.uk/sites/default/files/2026-11/Familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks.pdf), November 24; Reuters, [Cloud One reporting](https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/), November 27. The secondary Swiss figures reported November 27 (four successful intrusions among five reported cases) are not a representative denominator and are not substituted for the earlier agency advisory.
+
+### Governance and financial decision framework
+
+Apply the existing response latency definitions above. Define a mission-specific harm window H and compare it with verified detection plus containment time; report the remaining response margin H minus that elapsed time only when onset and harm-window estimates are defensible. Record uncertainty and censored observations. Distinguish security containment from collateral interruption of legitimate maintenance, regulatory reporting and public services. Evaluate shared control dependencies even where multiple suppliers exist; supplier count alone does not demonstrate operational independence.
+
+Competing hypotheses: attack automation compresses response windows; alternatively, defensive automation, segmentation and tested recovery offset that compression. Compare matched asset classes, vulnerability exposure, control maturity and reporting coverage. Selection bias and changing disclosure practices preclude trend or causal estimates from this incident cluster.
+
+Financial analysis should compare incremental lifecycle costs of patching, redundancy and recovery against scenario-based avoided interruption losses, including public service externalities. Do not treat potential exposure as realized loss or assign probabilities without evidence. Record decision owners, exception authority, fallback capacity and distribution of costs.
+
+### Assurance crosswalk and review criteria
+
+Use NIST CSF 2.0 (https://doi.org/10.6028/NIST.CSWP.29), AI RMF (https://doi.org/10.6028/NIST.AI.100-1) and supply chain guidance (https://doi.org/10.6028/NIST.SP.800-161r1-upd1). Within existing Tiger Legacy and dashboard research, prioritize evidence of scoped credentials, independent source and build provenance, authorized revocation, patch timeliness, audit completeness, recovery exercises and accountable human review. The Swiss advisory recommends expedited patching of exposed systems; track exceptions and compensating controls rather than claim compliance. For software supply chains, distinguish credential exposure, unauthorized repository access, source alteration, build compromise and downstream distribution; each requires separate evidence. Signed records establish bounded integrity guarantees, not semantic truth or immunity from intrusion.
+
+Connect algorithmic management through delegated authority, observability, intervention rights and accountability, not through an assertion that commercial allocation systems and malicious agents share mechanisms. Maintain separation between institutional research and fictional or promotional materials. No new project, external testing, collection, engineering, deployment, certification or independently verified security outcome is claimed.
