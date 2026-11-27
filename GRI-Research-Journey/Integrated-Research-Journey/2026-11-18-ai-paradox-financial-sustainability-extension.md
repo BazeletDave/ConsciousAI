@@ -266,3 +266,20 @@ Operating income increased 98.82% (derived, rounded). The filing also reports in
 **Palantir Technologies, FY2025 Form 10-K**, [SEC annual report](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000021/fy2025palantirars.pdf), stockholders' equity note, independently cross-checked against the [SEC XBRL filing](https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231_htm.xml). Class A and B have one and ten votes per share respectively. Class F shares are held by a founder voting trust; the arrangement generally permits founders to control up to 49.999999% of voting power conditional on the applicable ownership threshold (100 million equity securities as of December 31, 2025). This confirms differentiated voting rights at the reporting date, not actual voting outcomes, individual founder wealth or misconduct. The PDF and XBRL are representations of the same issuer disclosure, not independent corroboration by a second institution.
 
 **Evidence disposition:** Verified against primary issuer filings for the specific dated disclosures only. The broader distribution and authority propositions remain hypotheses; current ownership, SpaceX child-account distribution and Affinity fund claims remain outside this verification batch. Historical external citations, academic case texts and original coursework remain subject to separate retrieval. No new engineering or collection.
+
+
+### November 26, 2026 | Primary evidence verification: conditional public capital and institutional dependency
+
+NASA program history [SP-2014-617](https://www.nasa.gov/wp-content/uploads/2023/09/sp-2014-617-1.pdf), chapter 3, and independent government oversight [GAO-09-618](https://www.gao.gov/assets/a291016.html), [GAO-11-692T](https://www.gao.gov/assets/a126314.html), and [GAO-12-230R](https://www.gao.gov/assets/a586368.html) retrieved November 26, 2026, confirm the existing capital formation case.
+
+| Dated evidence | USD millions | Classification |
+| --- | ---: | --- |
+| SpaceX original 2006 COTS agreement | 278 | Conditional development award |
+| SpaceX amended COTS amount reported in GAO-12-230R | 396 | Conditional on all milestones; not a separate additive award |
+| SpaceX December 2008 CRS contract | approximately 1600 | Separate service procurement, not equity or immediate cash receipt |
+| Rocketplane Kistler original 2006 agreement | 207 | Conditional development award |
+| Rocketplane Kistler actual milestone payments before October 2007 termination | 32.1 | Disbursed for completed milestones |
+
+GAO documents missed technical and financial milestones leading to termination and subsequent selection of Orbital Sciences. This verifies a concrete counterexample to automatic continuation of public financing. GAO-11-692T also documents that service contracts were awarded before the development demonstrations were completed; the phases overlapped in execution. Do not infer that all development risk had been eliminated before procurement.
+
+[NASA OIG, Unlocking the Future Space Economy](https://oig.nasa.gov/news/unlocking-the-future-space-economy-through-nasas-commercial-crew-and-cargo-transportation-programs/) reports continuing provider dependency, including Cargo Dragon and Cygnus reliance on Falcon 9 at the time of publication. This is a dated oversight observation supporting the existing resilience question, not proof of monopoly, current operational status or causal evidence about AI. The financial governance comparison is therefore supported for conditional funding and documented dependency, but net public benefit, private project NPV and counterfactual procurement costs remain unmeasured here. The SpaceX child-account announcement and settlement claims remain unverified in this batch. PR #174 merger confirmed; its security check passed and quality gate conclusion was unavailable at inspection. No new project or engineering.
