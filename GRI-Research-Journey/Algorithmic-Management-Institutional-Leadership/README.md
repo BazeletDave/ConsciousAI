@@ -393,3 +393,8 @@ The existing Nelson Intel site selection case, Apple organizational learning cas
 **Consolidated evidence chain:** financial resources and constraints → institutional bargaining → authorized objectives → managerial implementation → observed outcomes → independent review → exercised correction. Each arrow is a separate empirical claim requiring evidence. Existing case studies illuminate different segments, not a proven continuous causal chain.
 
 **Completion boundary:** Preserve the existing monograph and dated case records. The next empirical step is to populate this comparison using already authorized evidence, record missing observations and test rival explanations rather than continually expanding the conceptual framework. No operational dashboard changes, new collection or faculty endorsement. Cross-reference [financial sustainability](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md), [global capital infrastructure](../Integrated-Research-Journey/2026-11-03-global-ai-capital-infrastructure-institutional-intelligence.md) and [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md).
+
+
+## Financial decision discipline and institutional comparison
+
+The [existing AI Paradox financial sustainability extension](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md#applied-academic-decision-synthesis) connects capital budgeting, acquisition valuation, operating returns and risk mitigation with institutional authority and algorithmic labor outcomes. Comparative applications are research propositions, not verified causal findings or faculty endorsements.

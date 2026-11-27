@@ -231,3 +231,17 @@ The central proposition is conditional: capital formation can expand productive 
 **Illustrative paired application (not measured results):** For an autonomous mobility investment compare fleet acquisition and supervision costs, service utilization, insurance, maintenance, residual value and labor alternatives through Booth's finance lens; through Nelson's institutional lens compare municipal permissions, infrastructure dependency, procurement conditions and local capability formation. Through existing GRI algorithmic management research assess worker net earnings, contestability of decisions and actual risk allocation. Through Tiger Legacy require reconstructable assumptions and evidence provenance. For AI compute infrastructure use the same sequence with energy, depreciation, utilization, financing and contractual dependency. Existing contemporary case claims require their own primary evidence; case analogies do not verify them.
 
 **Limits:** Full licensed case texts and Grand's underlying course submissions have not been reviewed in this extension. Preserve academic confidentiality and copyright; do not reproduce case exhibits or teaching solutions. No new project, engineering, empirical results, numerical forecasts or Thunderbird endorsement is introduced.
+
+
+### Applied academic decision synthesis
+
+Extend the published Booth and Nelson comparison through independent financial decision reasoning, connected to the [institutional leadership monograph](../Algorithmic-Management-Institutional-Leadership/README.md) and [Uber/Lyft field research](../Algorithmic-Management/Uber-Lyft-Research/README.md).
+
+| Decision principle | AI application | Evidence and challenge |
+| --- | --- | --- |
+| Standalone valuation versus acquisition consideration | AI acquisitions and intellectual property | Compare incremental synergies net of integration costs against acquisition premium; stress terminal growth and discount rates. |
+| Operating versus financial performance | Autonomous mobility and platform economics | Separate recurring operating cash flow from financing and nonrecurring gains; compare normalized ROIC and WACC. |
+| Marginal capital budgeting | Compute infrastructure and international investment | Stress positive NPV against utilization, currency, energy and financing costs; compare staged investment and deferral. |
+| Financial versus operational hedging | Semiconductor and energy dependencies | Compare contractual hedges, diversified suppliers and capacity alternatives using residual exposure and liquidity costs. |
+
+Apply Nelson's institutional lens to credible commitments, policy durability and domestic capability formation; apply Guthrie's organizational learning lens to execution and adaptation. Compare enterprise returns with worker net earnings, public value and delegated authority without conflating accounting perimeters. Record alternatives, assumptions, risk bearer, review authority and exit criteria. These are proposed comparative tests, not measured outcomes. Original academic submissions have not been independently retrieved for this subsection; no private case figures, team work, licensed exhibits or faculty endorsement are asserted. No new project or engineering.
