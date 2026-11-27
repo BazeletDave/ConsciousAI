@@ -398,3 +398,8 @@ The existing Nelson Intel site selection case, Apple organizational learning cas
 ## Financial decision discipline and institutional comparison
 
 The [existing AI Paradox financial sustainability extension](../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md#applied-academic-decision-synthesis) connects capital budgeting, acquisition valuation, operating returns and risk mitigation with institutional authority and algorithmic labor outcomes. Comparative applications are research propositions, not verified causal findings or faculty endorsements.
+
+
+## Institutional economics and occupational accountability | November 27 consolidation
+
+The [integrated institutional milestone](../Integrated-Research-Journey/README.md#november-27-2026--institutional-milestone-economics-of-algorithmic-risk-transfer) connects Grand's longitudinal evidence with Booth's financial decision discipline, Nelson's institutional political economy, Guthrie's organizational learning and Signé's development perspective. The [field record](../Algorithmic-Management/Uber-Lyft-Research/README.md) distinguishes receipts, capital recovery, occupational exposure and decision rights. Compare platform, worker and societal outcomes using separate accounting boundaries and rival hypotheses; safety is an independent governance constraint. This is GRI's independent synthesis, not faculty endorsement or causal validation. No new project or engineering.
