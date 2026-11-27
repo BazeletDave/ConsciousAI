@@ -235,3 +235,17 @@ The distinction between **supplier cash generation** and **customer infrastructu
 ## Comparative financial and institutional decision tests
 
 Apply the [integrated academic framework](../../Integrated-Research-Journey/README.md#integrated-academic-decision-framework) to the existing Apple case. Compare supplier development, alternative sourcing and geographic diversification using incremental cash flows, transition costs, working capital, quality and continuity. Distinguish Apple's customer revenue, supplier investment and domestic value added; none is a substitute for the others. Under the Booth finance lens, test private NPV and downside liquidity; under Nelson's institutional lens, test local capability formation, credible commitments and feasible alternative locations; under Guthrie's organizational learning lens, test documented skills transfer and adaptation. Compare these mechanisms with AI compute procurement only at equivalent decision boundaries. Rival explanations include preexisting industrial capabilities, market access, supplier strategy and policy incentives. Require dated filings, contractual evidence and capability measures before causal or quantitative conclusions. Preserve the existing November 19 source-access limitation; no provisional Anthropic figures are promoted. No new empirical result or faculty endorsement.
+
+
+## November 26, 2026 | Primary evidence follow-through: China Clean Energy Fund
+
+Issuer disclosures retrieved November 26 establish a dated progression from commitment to reported physical capacity.
+
+| Disclosure | Reported measure | Evidence boundary |
+| --- | --- | --- |
+| [July 2018 announcement](https://www.apple.com/newsroom/2018/07/apple-launches-new-clean-energy-fund-in-china/) | Nearly USD 300 million joint commitment by Apple and ten initial suppliers over four years | Commitment, not cash disbursement |
+| [April 2023 update](https://www.apple.com/newsroom/2023/04/apple-and-global-suppliers-expand-renewable-energy-to-13-point-7-gigawatts/) | More than 650 MW of joint renewable electricity investment | Capacity associated with investment |
+| [April 2024 update](https://www.apple.com/newsroom/2024/04/apple-ramps-up-investment-in-clean-energy-and-water-around-the-world/) and [2024 environmental report](https://www.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2024.pdf), supplier clean energy section | More than 1 GW across 14 provinces; nearly all fund investments online by March 2024 | Issuer-reported operational progress; expected annual output above 2400 GWh is a forecast, not measured generation |
+| [2025 environmental report](https://images.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2025.pdf), p. 27 | Second fund launched in 2025 | New fund existence, not realized returns |
+
+This closes part of the physical implementation evidence gap in the [financial sustainability research](../../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md). The sources share an issuer and do not constitute independent corroboration. Actual contributed capital by participant, project-level cash flows, realized generation, NPV, domestic value added and causal knowledge transfer remain unverified. Do not extrapolate this renewable energy case to total Apple investment in China or AI capability formation. No new project or engineering.
