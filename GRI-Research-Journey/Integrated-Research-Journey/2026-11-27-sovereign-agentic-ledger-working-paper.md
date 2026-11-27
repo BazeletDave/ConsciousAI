@@ -1,7 +1,7 @@
 # The Sovereign Agentic Ledger
 ## Personal economic sovereignty, platform competition and institutional assurance in ambient intelligence ecosystems
 
-Grand Research Institute | November 27, 2026 | Conceptual working paper, version 0.1
+Grand Research Institute | November 27, 2026 | Conceptual working paper, version 0.2
 
 ### Abstract
 Personal agents may reduce administrative friction and improve access to economic opportunities while increasing exposure to surveillance, conflicting incentives and unauthorized execution. This paper integrates two synthetic cases (Maya and Devon) with the existing GRI mobility research program. It proposes a governance and measurement framework for interactions among personal, commercial, mobility, financial and public sector agents. It does not establish interoperability, causal effects, product adoption or deployed assurance. The term ledger denotes a proposed authorization and evidence record, not a blockchain, financial account or new engineering project.
@@ -77,4 +77,18 @@ Foundational references (bibliographic anchors; not a systematic literature revi
 - ILO (2021). World Employment and Social Outlook 2021: The role of digital labour platforms in transforming the world of work.
 - W3C. Verifiable Credentials Data Model v2.0. https://www.w3.org/TR/vc-data-model-2.0/
 
-**Disposition:** Conceptual synthesis and proposed evaluation only. No new project, production deployment, financial connector, private data collection or changes to frozen Tiger Legacy evidence. Independent review and current corporate and regulatory source verification remain pending.
+**Disposition:** Conceptual synthesis and proposed evaluation only. No new project, production deployment, financial connector, private data collection or changes to frozen Tiger Legacy evidence. Independent review and remaining corporate and regulatory source verification remain pending; see section 9 for the verified subset.
+
+### 9. Primary source extension: competition, intermediation and value capture (November 27)
+
+OECD (2026), Competition and agentic AI, Roundtables on Competition Policy Papers No. 339, November 12, 49 pages, https://doi.org/10.1787/d1a3ee15-en, identifies potential reductions in transaction costs and stronger demand-side competition while examining concentration, vertical integration, gatekeeping, biased recommendations and coordination risks. This is policy analysis, not causal evidence that personal agents improve worker earnings. GRI's independent extension is the agentic intermediation hypothesis: an agent may remove one intermediary while creating another dependency.
+
+Amazon's [November 6 corporate disclosure, updated November 13](https://www.aboutamazon.com/news/retail/alexa-for-shopping-text-to-shop) documents shopping by text, product comparison, target-price purchases and subscription management. Amazon reports more than 400 million customers using Alexa for Shopping over twelve months and more than eightfold growth in customers using agentic features since January. These are provider-reported customer metrics, not autonomous transaction counts, independent audits, net savings or market share. The absolute agentic user denominator and completed transaction volumes are not supplied in this disclosure. Distinguish functionality from adoption and realized welfare. Commercial incentive conflicts are hypotheses, not evidence of actual biased ranking.
+
+[Uber upfront fares documentation](https://help.uber.com/driving-and-delivering/article/upfront-fares?nodeId=bc83ed7e-6725-41de-afcb-72d263e5589f) describes driver offer factors including trip duration, distance, pickup distance and surge. Tips and tolls are excluded from the displayed upfront amount and handled at final payout. Scope may vary by market and tests. This documents offer design, not proprietary weights or driver costs. Compare offer estimates with realized total working time, mileage and nonduplicated costs using existing mobility records; no automated dispatch interaction is proposed.
+
+**Comparative mechanism:** In mobility, compare platform offer information with worker net profitability; in commerce, compare agent-ranked options with equivalent independently available total prices, fulfillment, return terms and membership costs. Compare native app, platform agent and independent personal agent as analytical alternatives only; access and interoperability are not assumed. Hold basket, time, location, eligibility and service quality constant where feasible. Report unavailable alternatives and selection effects.
+
+**Distributional accounting:** Separate incremental consumer surplus, worker operating earnings, merchant margin, platform fees, agent fees and public fiscal effects. Transfers between parties are not automatically aggregate welfare gains. Avoid double counting and report unmeasured effects as unknown. Proposed indicators include net user benefit after agent costs, share of eligible alternatives actually compared, disclosed incentive coverage, switching costs, and verified in-scope mandate compliance. Counterevidence includes native-app outcomes matching or exceeding agent outcomes, or independent agents introducing more costs or constraints than they remove. Do not infer social welfare from private savings alone.
+
+**Evidence boundary:** OECD policy analysis and Amazon/Uber corporate disclosures now substantiate this limited comparative extension. Meta Muse, Apple hardware versions, DoorDash order counts, specific bank liability terms and OCC claims remain unverified. No additional field measurements, peer review, production changes or engineering are represented.
