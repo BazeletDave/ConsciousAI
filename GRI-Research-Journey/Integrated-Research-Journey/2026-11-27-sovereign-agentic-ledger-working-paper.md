@@ -284,3 +284,18 @@ Directly checked Stanford HAI [2025 AI Index](https://hai.stanford.edu/ai-index/
 These are different units and cohorts; do not divide investment by model counts as a productivity measure. Private funding is not total capital formation, corporate profit, or return on investment. Model benchmark performance is not operational safety or economic sovereignty. The apparent coexistence of widening private funding disparity and narrowing model performance gap is a research observation, not evidence of comparative capital efficiency. Competing explanations include public funding, prior investment, different cost structures, open model diffusion and sampling differences.
 
 Integrate with existing Apple/Guthrie capability accumulation and Booth financial framework: compare matched issuer cash flows, useful output, energy and compute costs, financing and dependence on upstream suppliers. Test whether lower marginal inference cost leads to lower aggregate resource demand or greater total usage. Preserve Tiger Legacy assurance requirements and distinguish operational accountability from technical performance. Commercial returns and infrastructure control remain unmeasured here. No new project or deployment. Earlier source verification remains outstanding.
+
+
+### 26. Corporate capital absorption and autonomous mobility financing
+
+Primary evidence inspected November 27, 2026: [Alphabet FY2025 Form 10-K](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000018/goog-20251231.htm), consolidated income and cash flow statements, and [September 2026 Form 10-Q](https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm), MD&A liquidity and financing. USD millions, consolidated:
+
+| Year | Revenue | Operating cash flow | Cash purchases of PP&E | OCF less PP&E | PP&E / OCF |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| 2023 | 307394 | 101746 | 32251 | 69495 | 31.70% |
+| 2024 | 350018 | 125299 | 52535 | 72764 | 41.93% |
+| 2025 | 402836 | 164713 | 91447 | 73266 | 55.52% |
+
+Derived measures are not project-specific free cash flow or ROIC. 2025 Cloud operating income 13,910 versus 6,112 in 2024; Other Bets operating loss 7,515 versus 4,444, not Waymo standalone losses. In the first nine months of 2026 capex 132.0 billion versus 63.6 billion in comparable 2025 period. At September 30, 2026 future payments on uncommenced leases primarily for data centers and energy infrastructure total 130.5 billion, undiscounted, not present debt or annual expense. October Waymo secured term loan 5 billion, maturity October 2032, Term SOFR + 5.25%, not guaranteed by Alphabet or its other subsidiaries. Do not infer absence of other support or legal liability from financing terms.
+
+Bridge to existing Booth finance, energy, autonomous mobility and worker field research: compare corporate cash absorption, project-level utilization and residual liability with worker net cash after total operating costs. Do not compare company margin with driver hourly income as equivalent units. Obtain matched paid and unpaid miles, total hours and risk allocations; for autonomous fleets obtain vehicle depreciation, energy, remote assistance, insurance and public costs. Test alternative explanations including scale, tax timing and revenue mix. No autonomous fleet unit economics or causal inference established. No new project or production change. Prior source reconciliation remains pending.
