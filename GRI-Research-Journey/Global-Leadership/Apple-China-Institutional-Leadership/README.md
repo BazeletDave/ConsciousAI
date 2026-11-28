@@ -249,3 +249,31 @@ Issuer disclosures retrieved November 26 establish a dated progression from comm
 | [2025 environmental report](https://images.apple.com/environment/pdf/Apple_Environmental_Progress_Report_2025.pdf), p. 27 | Second fund launched in 2025 | New fund existence, not realized returns |
 
 This closes part of the physical implementation evidence gap in the [financial sustainability research](../../Integrated-Research-Journey/2026-11-18-ai-paradox-financial-sustainability-extension.md). The sources share an issuer and do not constitute independent corroboration. Actual contributed capital by participant, project-level cash flows, realized generation, NPV, domestic value added and causal knowledge transfer remain unverified. Do not extrapolate this renewable energy case to total Apple investment in China or AI capability formation. No new project or engineering.
+
+
+## November 27, 2026 | From industrial learning to digital institutional capacity
+
+**Scope:** longitudinal synthesis of the existing Apple China case, not a new project. The newly published Chinese distributed identity rules are a documented governance development, not evidence that Apple caused national blockchain policy.
+
+### Scholarly foundation and historical mechanism
+
+Doug Guthrie (1999), *Dragon in a Three-Piece Suit: The Emergence of Capitalism in China* (Princeton University Press, [JSTOR](https://www.jstor.org/stable/j.ctt7rmkr), [publisher metadata](https://doi.org/10.1515/9781400823383)), examines industrial organizational change during Chinese market reforms. Its account of foreign organizational influence and changing formal management practices supplies a theoretical starting point for studying institutional learning; it does not predict the 2026 identity regulations. Full chapter and page citations remain to be reconciled. Patrick McGee's 2025 Apple case and Apple's FY2025 SEC disclosures supply different evidence types: investigative history and corporate disclosure. Guthrie's Apple University role and subsequent responsible AI educational practice provide a management-learning comparison, not a proven causal bridge.
+
+### Comparative mechanism matrix
+
+| Dimension | Mechanism and evidence to collect | Rival explanation / boundary |
+| --- | --- | --- |
+| Industrial learning | Supplier training, quality systems, managerial routines, local capability retention; Apple supplier disclosures and dated case evidence | Domestic reforms, other foreign firms, local entrepreneurship |
+| Institutional bargaining | Negotiated investment, credible commitments, regulatory authority and changing exit costs; compare existing Intel Costa Rica case through Nelson's published scholarship | Different state capacity, sector and historical context; no direct equivalence |
+| Finance and capital allocation | Separate company capex, supplier investment, public subsidies, revenues, cash flow and risk-adjusted returns; apply existing Booth-informed financial evaluation | Gross spending is not technology transfer or net national value capture |
+| Infrastructure and energy | Power reliability, grid capacity, computing, transport and communications; quantify utilization and incremental energy cost | Multiple independent infrastructure drivers; no assumption blockchain requires proof of work |
+| Digital institutional coordination | Common credentials, recognized trust anchors, cross-sector interoperability, delegated permissions and practical exit rights | National coordination may reduce fragmentation or concentrate effective gatekeeping; effects require evidence |
+| Organizational judgment | Compare Guthrie's reported AI-assisted management education with oversight of autonomous agents; assess verification and human correction | Classroom observations do not demonstrate national governance outcomes |
+
+### New primary evidence and institutional implications
+
+The CAC official [regulatory text](https://www.cac.gov.cn/2026-11/27/c_1797537998148556.htm) and [official explanatory Q&A](https://www.cac.gov.cn/2026-11/27/c_1797537998706695.htm) were retrieved on November 27. The Q&A situates the initiative within the Fifteenth Five-Year Plan, national blockchain infrastructure and unified domestic market objectives. Articles 7 and 27 address eligible foreign identity enrollment and conditional cross-border recognition; Articles 6 and 31 connect industrial identifiers and transport documents; Articles 29, 32 and 34 address digital RMB identity, customs and agent identity respectively. These are policy provisions, not evidence of implementation, compulsory enrollment, payment control or international adoption. Articles 5, 17 and 38 provide formal voluntariness, lifecycle control and data-use limits; evaluate actual fallback and appeal separately.
+
+The resulting hypothesis is that capabilities accumulated through organizational learning and capital formation can support later institutional coordination, but effective authority depends on the governance of standards, accreditation, access and remedies. Digital credentials may lower transaction friction and enable smaller firms to participate across markets while increasing reliance on shared trust infrastructure. Both outcomes can coexist. Evaluate domestic value capture, switching costs, interoperability, concentration of credential issuers, remedy effectiveness, and discounted net economic value across comparable settings. Do not conflate Apple's Greater China revenue with investment, supplier spending or public expenditure.
+
+**Research continuity:** [Integrated Research Journey](../../Integrated-Research-Journey/README.md#november-27-2026--distributed-digital-identity-and-delegated-agent-authority) · [Sovereign Agentic Ledger](../../Integrated-Research-Journey/2026-11-27-sovereign-agentic-ledger-working-paper.md) · [Tiger Legacy](../../Research-Governance/Tiger-Legacy/README.md). Academic influences are attributed independently; no university endorsement, confidential course content, new empirical finding or engineering change.
