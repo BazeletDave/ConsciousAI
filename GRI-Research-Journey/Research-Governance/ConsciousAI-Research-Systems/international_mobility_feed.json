@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-28T07:46:25.180754+00:00",
+  "generated_at": "2026-11-28T17:31:47.742331+00:00",
   "mode": "official_publisher_index_or_feed_discovery",
   "sources": [
     {
@@ -28,6 +28,18 @@
     }
   ],
   "queue": [
+    {
+      "id": "6d9a3447868c9c216705",
+      "source_id": "EU-COMMISSION-NEWS",
+      "publisher": "European Commission Press Corner",
+      "jurisdiction": "EU",
+      "category": "international_regulatory",
+      "title": "Commission prepares for temporary flexibility for plug-in hybrid electric vehicles",
+      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_2604",
+      "verification_status": "publisher_feed_item_unreviewed",
+      "human_review_required": true,
+      "publication_authorized": false
+    },
     {
       "id": "551a17d115ea4ac5405c",
       "source_id": "EU-COMMISSION-NEWS",
@@ -132,18 +144,6 @@
       "category": "international_regulatory",
       "title": "Statement by President von der Leyen with President Costa following the EU-Western Balkans Summit",
       "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/statement_26_2591",
-      "verification_status": "publisher_feed_item_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "773852bd810156685f58",
-      "source_id": "EU-COMMISSION-NEWS",
-      "publisher": "European Commission Press Corner",
-      "jurisdiction": "EU",
-      "category": "international_regulatory",
-      "title": "Speech by Commissioner Lahbib at the European Parliament on Combating Gender-Based Violence in the Age of Digital Technology",
-      "source_url": "https://ec.europa.eu/commission/presscorner/detail/en/speech_26_2590",
       "verification_status": "publisher_feed_item_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -394,7 +394,7 @@
       "publisher": "Uber Engineering",
       "jurisdiction": "corporate",
       "category": "mobility_industry",
-      "title": "Skip to main content",
+      "title": "English, English",
       "source_url": "https://www.uber.com/us/en/blog/engineering/",
       "verification_status": "official_publisher_index_link_unreviewed",
       "discovery_method": "official_html_index",
