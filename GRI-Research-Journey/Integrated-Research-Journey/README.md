@@ -17,6 +17,28 @@ This index preserves the chronological record of GRI's research. The [Master Res
 
 [Personal economic sovereignty, platform competition and institutional assurance](2026-11-27-sovereign-agentic-ledger-working-paper.md) consolidates the synthetic Maya and Devon cases with existing mobility research, financial evaluation, platform economics and Tiger Legacy governance. Conceptual synthesis only; product claims awaiting verification, no new project or engineering.
 
+## November 27, 2026 | Distributed digital identity and delegated agent authority
+
+**Evidence classification:** Primary regulator announcement, November 27, 2026. Eleven Chinese authorities announced rules governing interoperability and mutual recognition of distributed digital identities, effective March 1, 2027. The announcement describes national blockchain infrastructure, credential issuance and verification, key management, unified identifiers, participant obligations and prospective applications in finance, tax, transport, customs, procurement and agent identification. It identifies compliance obligations for cybersecurity, data security and personal information protection. The announcement confirms policy direction, not deployment, actual adoption, mandatory participation, or effectiveness.
+
+**Institutional synthesis:** Extend the existing Sovereign Agentic Ledger and AI Paradox work without creating a new project. Distributed verification and distributed institutional authority are distinct. Authentication establishes a credential relationship; authorization establishes permitted scope; neither settles liability. Government recognized trust anchors can coexist with decentralized technical components. Potential benefits include lower verification friction and improved interoperability; potential risks include correlated outages, exclusion, credential compromise and concentrated revocation authority. These are hypotheses, not observed outcomes.
+
+| Existing lens | Evaluation question |
+| --- | --- |
+| Apple and China; institutional leadership | Who sets standards, controls trust anchors, grants exceptions and provides appeal? |
+| Algorithmic management and mobility | Can workers or autonomous operators inspect and contest credential based access decisions? |
+| Sovereign Agentic Ledger and Tiger Legacy | Can agent delegation, scope, expiry, revocation and transaction evidence be independently verified? |
+| Financial sustainability | Do avoided verification costs exceed integration, compliance, energy, cyber resilience and contingent liability costs? |
+| Institutional assurance | Can independent auditors reproduce authorization chains without exposing sensitive identity data? |
+
+**Proposed evaluation protocol:** Compare equivalent use cases in China, the EU and US against W3C DID Core, Verifiable Credentials Data Model 2.0, NIST SP 800-63-4 and Regulation (EU) 2024/1183; these are reference frameworks, not equivalent legal obligations or conformity claims. Measure verification cost per successful transaction, energy per verified transaction with explicit system boundaries, revocation latency, false rejection, appeal resolution and independently verifiable delegation coverage. Report missing data as unknown. Test whether interoperability reduces friction without increasing concentration of effective access authority, using alternative explanations including scale, existing identity infrastructure and regulatory differences. No causal finding or quantified benefit is established.
+
+**Accountability:** Map principal, agent operator, credential issuer, relying party and infrastructure operator to permission, oversight, incident response and remediation duties. Legal allocation remains jurisdiction and fact dependent. Distinguish cryptographic attribution from legal responsibility. No claim of AI legal personhood, universal surveillance, digital currency integration or deployment is supported by the announcement alone.
+
+**Primary source:** [Cyberspace Administration of China, November 27, 2026](https://www.cac.gov.cn/2026-11/27/c_1797537998599677.htm). Indexed official announcement retrieved; direct page retrieval failed. Full regulatory text and implementation specifications require further review. Method references: [W3C DID Core](https://www.w3.org/TR/did-core/), [W3C VC Data Model 2.0](https://www.w3.org/TR/vc-data-model-2.0/), [NIST SP 800-63-4](https://pages.nist.gov/800-63-4/), [EU Regulation 2024/1183](https://eur-lex.europa.eu/eli/reg/2024/1183/oj).
+
+**Existing cross references:** [Sovereign Agentic Ledger](2026-11-27-sovereign-agentic-ledger-working-paper.md) · [Apple and China](../Global-Leadership/Apple-China-Institutional-Leadership/README.md) · [Tiger Legacy](../Research-Governance/Tiger-Legacy/README.md) · [Mobility field research](../Algorithmic-Management/Uber-Lyft-Research/README.md). Documentation only; no changes to production systems or frozen assurance evidence. Independent GRI analysis, not institutional endorsement.
+
 ## November 27, 2026 | Connected AI and delegated information authority
 
 **Evidence classification:** Primary corporate policy disclosure, accessed November 27; not a breach report, independent audit, or new research initiative.
