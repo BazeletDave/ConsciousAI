@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:25:12.563151+00:00",
+  "generated_at": "2026-11-28T07:46:56.188513+00:00",
   "records": [
     {
       "id": "ZOOX-SAFETY",
@@ -27,27 +27,10 @@
       "country_codes": [
         "USA"
       ],
-      "content_sha256": "630f893c220bc4eedd4f0bf194a3bbcc5272d5e2ce41d910b5d9c093158e3aa5",
+      "content_sha256": "34df5d36251b2407eb0b8f1872554a5130bd14ae35979877a99450ea96ed136b",
       "published_at": null,
       "source_kind": "regulator_information",
       "configured_track": "air_mobility",
-      "verification_status": "publisher_page_observation_unreviewed",
-      "human_review_required": true,
-      "publication_authorized": false
-    },
-    {
-      "id": "NHTSA-SGO",
-      "source_id": "NHTSA-SGO",
-      "publisher": "NHTSA",
-      "title": "Standing General Order on Crash Reporting | NHTSA Lock",
-      "source_url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
-      "country_codes": [
-        "USA"
-      ],
-      "content_sha256": "b8cd29397a055585e2a4e44eb8681a32861cad0dd33a4c6fb1b021ef89d0e4aa",
-      "published_at": null,
-      "source_kind": "regulator_information",
-      "configured_track": "road_autonomy",
       "verification_status": "publisher_page_observation_unreviewed",
       "human_review_required": true,
       "publication_authorized": false
@@ -67,12 +50,12 @@
     {
       "source_id": "FAA-AAM",
       "status": "fetched",
-      "bytes": 110785
+      "bytes": 110421
     },
     {
       "source_id": "NHTSA-SGO",
-      "status": "fetched",
-      "bytes": 149960
+      "status": "failed",
+      "error_type": "HTTPError"
     },
     {
       "source_id": "BRA-ANAC-AAM",
